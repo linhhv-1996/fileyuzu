@@ -25,7 +25,7 @@
         procCompressing: t('compress_video.proc.compressing', dict)
     });
     
-    let relatedTools = $derived(getRelatedTools(['video-trimmer', 'video-converter', 'gif-maker', 'remove-audio', 'image-compressor', 'video-rotator', 'video-cropper']));
+    let relatedTools = $derived(getRelatedTools('compress-video'));
 </script>
 
 <svelte:head>

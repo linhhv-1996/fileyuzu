@@ -107,16 +107,16 @@
                     </button>
                     <button class="btn-default" onclick={(e) => { e.stopPropagation();
                         // Mock sample
-                        fetch('/sample_video.mp4')
+                        fetch('/file_sample_1280x720.mp4')
                             .then(res => {
                                 if (!res.ok) throw new Error('Sample not found, using mock.');
                                 return res.blob();
                             })
                             .then(blob => {
-                                setFile(new File([blob], "sample_video.mp4", { type: "video/mp4" }));
+                                setFile(new File([blob], "file_sample_1280x720.mp4", { type: "video/mp4" }));
                             })
                             .catch(() => {
-                                setFile(new File(["sample content"], "sample_video.mp4", { type: "video/mp4" }));
+                                setFile(new File(["sample content"], "file_sample_1280x720.mp4", { type: "video/mp4" }));
                             });
                     }}>
                         <i class="ti ti-player-play" aria-hidden="true"></i> {texts.btnSample}
@@ -151,6 +151,7 @@
                         <span class="tag" class:on={targetSize === '200'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '200'} onkeydown={(e) => e.key==='Enter' && (targetSize='200')}>WhatsApp/200MB</span>
                     </div>
                 </div>
+                <hr class="settings-divider">
                 <button class="btn-cta" disabled><i class="ti ti-bolt" aria-hidden="true"></i> {texts.btnCompress}</button>
             </div>
         {/if}
@@ -195,6 +196,7 @@
                         <span class="tag" class:on={targetSize === '200'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '200'} onkeydown={(e) => e.key==='Enter' && (targetSize='200')}>WhatsApp/200MB</span>
                     </div>
                 </div>
+                <hr class="settings-divider">
                 <button class="btn-cta" onclick={startCompression}>
                     <i class="ti ti-bolt" aria-hidden="true"></i>
                     <span class="cta-desktop">{texts.btnCompress}</span>
@@ -242,6 +244,7 @@
                         <span class="tag" class:on={targetSize === '200'}>WhatsApp/200MB</span>
                     </div>
                 </div>
+                <hr class="settings-divider">
                 <button class="btn-cta" disabled>
                     <span class="spin" aria-hidden="true"><i class="ti ti-loader-2"></i></span>
                     <span class="cta-desktop">{progress}% — {texts.procCompressing}</span>
@@ -272,6 +275,7 @@
                     <span style="color:var(--green);margin-left:4px;font-weight:500">↓ {((1 - compressedSize / (selectedFile?.size || 1)) * 100).toFixed(1)}%</span>
                 </div>
             </div>
+            <hr class="settings-divider">
             <div class="done-cta">
                 <button class="btn-dl">
                     <i class="ti ti-download" aria-hidden="true"></i>

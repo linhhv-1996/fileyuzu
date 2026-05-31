@@ -8,17 +8,19 @@
 
         :root {
             --bg: #ffffff;
-            --bg-sub: #f3f8fb;
-            --bd: #c9dce8;
-            --bd-lt: #e6f0f5;
-            --tx: #16323f;
-            --tx-sub: #607988;
-            --tx-mt: #9aadb8;
-            --ac: #2f80a7;
-            --ac-hv: #286d8e;
-            --ac-soft: #e9f5fb;
-            --green: #2f9e74;
+            --bg-sub: #f8fafc;
+            --bd: #e2e8f0;
+            --bd-lt: #f1f5f9;
+            --tx: #0f172a;
+            --tx-sub: #475569;
+            --tx-mt: #94a3b8;
+            --ac: #3478c5;
+            --ac-hv: #2a67b0;
+            --ac-soft: #f0f7ff;
+            --green: #16a34a;
             --r: 6px;
+
+            --size: 1000px;
 
             --font-latin: "Noto Sans", -apple-system, BlinkMacSystemFont,
                 "Segoe UI",
@@ -110,7 +112,7 @@
         }
 
         .hdr-inner {
-            max-width: 980px;
+            max-width: var(--size);
             margin: 0 auto;
             padding: 0 16px;
             height: 100%;
@@ -183,7 +185,7 @@
         .lang-trigger:hover,
         .lang-dd.open .lang-trigger {
             border-color: var(--ac);
-            box-shadow: 0 0 0 3px rgba(47, 128, 167, .10);
+            box-shadow: 0 0 0 3px rgba(52, 120, 197, .12);
         }
 
         .nav-trigger i,
@@ -266,7 +268,7 @@
             display: block;
             margin-top: 1px;
             font-size: 12.5px;
-            color: #4d6f7f;
+            color: #475569;
         }
 
         .lang-flag {
@@ -291,14 +293,15 @@
 
         /* ── LAYOUT ── */
         .page {
-            max-width: 980px;
+            max-width: var(--size);
             margin: 0 auto;
             padding: 20px 16px 40px;
         }
 
         .grid {
             display: grid;
-            grid-template-columns: 1fr 230px;
+            /* grid-template-columns: 1fr 230px; */
+            grid-template-columns: 1fr 250px;
             gap: 15px;
             align-items: start;
         }
@@ -541,6 +544,12 @@
             flex-direction: column;
         }
 
+        .settings-divider {
+            border: none;
+            border-top: 1px solid var(--bd-lt);
+            margin: 4px 0 12px;
+        }
+
         .setting-row {
             display: flex;
             align-items: center;
@@ -633,7 +642,7 @@
 
         .size-input:focus {
             border-color: var(--tx-sub);
-            box-shadow: 0 0 0 2px rgba(47, 128, 167, .14);
+            box-shadow: 0 0 0 2px rgba(52, 120, 197, .15);
         }
 
         .unit {
@@ -745,7 +754,7 @@
         .preview-main {
             flex: 1;
             position: relative;
-            background: #123445;
+            background: #0f172a;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -757,7 +766,7 @@
             flex-direction: column;
             align-items: center;
             gap: 8px;
-            color: #8fb3c4;
+            color: #7dd3fc;
             font-size: 14px;
         }
 
@@ -962,7 +971,7 @@
             text-align: left;
             padding: 12px 16px;
             font-size: 15px;
-            font-weight: 500;
+            font-weight: 400;
             color: var(--tx);
             background: none;
             border: none;
@@ -1284,7 +1293,7 @@ RESPONSIVE
         }
 
         .ftr-inner {
-            max-width: 980px;
+            max-width: var(--size);
             margin: 0 auto;
             padding: 18px 16px;
             display: flex;

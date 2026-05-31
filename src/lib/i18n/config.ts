@@ -4,7 +4,8 @@ export const SUPPORTED_LANGUAGES = [
     { code: 'zh-TW', name: '繁體中文', flag: '🇹🇼' },
     { code: 'ko', name: '한국어', flag: '🇰🇷' },
     { code: 'pt-BR', name: 'Português (Brasil)', flag: '🇧🇷' },
-    { code: 'th', name: 'ไทย', flag: '🇹🇭' }
+    { code: 'th', name: 'ไทย', flag: '🇹🇭' },
+    { code: 'ru', name: 'Русский', flag: '🇰🇿' }
 ];
 
 export function t(key: string, dict: Record<string, any>): any {
