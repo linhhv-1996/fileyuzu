@@ -124,7 +124,7 @@
         .logo {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 0px;
             font-weight: 650;
             font-size: 16px;
             color: var(--tx);
@@ -232,7 +232,7 @@
             width: 100%;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 5px;
             padding: 9px 10px;
             border: none;
             border-radius: 9px;
