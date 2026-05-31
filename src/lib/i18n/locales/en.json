@@ -1,0 +1,102 @@
+{
+  "compress_video.seo.title": "FileYuzu — Free Online Video Compressor",
+  "compress_video.seo.description": "Compress MP4, MOV, AVI, MKV, and WebM videos online with FileYuzu. Reduce video file size privately in your browser with no upload and no sign-up.",
+  "compress_video.hero.title": "Free Online Video Compressor",
+  "compress_video.hero.description": "Reduce video file size online — no upload, no sign-up. Runs entirely in your browser. Supports MP4, MOV, AVI, MKV, WebM.",
+  "compress_video.upload.title": "Drop a video file here",
+  "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · up to 500 MB",
+  "compress_video.upload.btn_select": "Select file",
+  "compress_video.upload.btn_sample": "Try sample",
+  "compress_video.upload.hint": "Select one video file to compress",
+  "compress_video.settings.auto_optimize": "Auto optimize",
+  "compress_video.settings.size_lbl": "Target file size",
+  "compress_video.btn.compress": "Compress video",
+  "compress_video.btn.download": "Download video",
+  "compress_video.btn.compress_new": "Compress new files",
+  "compress_video.proc.compressing": "Compressing video",
+  "compress_video.how_to_use.title": "How to Compress a Video Online",
+  "compress_video.how_to_use.steps": [
+    "Upload a video file from your device or drag and drop it onto the upload area.",
+    "Choose a compression preset or set a custom target file size. Use the quick-select tags for common platforms like Gmail, Discord, or Slack.",
+    "Click Compress and wait a moment. All processing runs locally in your browser — your file is never sent to any server. Download when done."
+  ],
+  "compress_video.why_use.title": "Why Use FileYuzu",
+  "compress_video.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Compression runs in your browser via WebAssembly. Your file never leaves your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up needed",
+      "description": "Open the page and start. No account, no watermark, no time limit."
+    },
+    {
+      "icon": "player-play",
+      "title": "Simple workflow",
+      "description": "Compress one video at a time with a focused, simple workflow."
+    },
+    {
+      "icon": "adjustments",
+      "title": "Flexible target size",
+      "description": "Set an exact size for any platform — Gmail, Discord, Slack, Line, WhatsApp."
+    }
+  ],
+  "compress_video.faq.title": "Video Compressor FAQ",
+  "compress_video.faq.items": [
+    {
+      "q": "Is my video uploaded to a server?",
+      "a": "No. All compression is done locally using FFmpeg.wasm (WebAssembly). Your video file never leaves your device."
+    },
+    {
+      "q": "What video formats are supported?",
+      "a": "We support MP4, MOV, AVI, MKV, WebM, and most other common formats. Output is always MP4 for maximum device compatibility."
+    },
+    {
+      "q": "What is the maximum file size?",
+      "a": "The video can be up to 500 MB. For larger files, consider splitting the video first or using a desktop tool like HandBrake."
+    },
+    {
+      "q": "What do the Low, Balance, and High presets mean?",
+      "a": "Balance reduces size by around 60–80% while keeping the video looking good on most screens. Low produces the smallest file with more visible quality loss. High keeps near-original quality with moderate reduction."
+    },
+    {
+      "q": "What does \"Disable audio\" do?",
+      "a": "It strips the audio track from the compressed video. Useful for mute clips, screen recordings, or when you need the smallest possible file size."
+    },
+    {
+      "q": "Why do the platform tags show specific MB values?",
+      "a": "Each platform has an attachment size limit. Gmail is 25 MB, Discord 8 MB (free), Slack 100 MB, and so on. Clicking a tag sets the target size automatically."
+    },
+    {
+      "q": "Will there be a visible quality drop?",
+      "a": "It depends on the preset and original video. For most videos, the Balance preset produces output that looks fine on phones and standard screens. You can try a different preset if you are not satisfied."
+    }
+  ],
+  "related_tools.title": "Related Video Tools",
+  "common.tools": "Tools",
+  "common.language": "Language",
+  "common.footer.copyright": "© 2025 FileYuzu",
+  "common.footer.privacy": "Privacy",
+  "common.footer.terms": "Terms",
+  "common.footer.contact": "Contact",
+  "tool.compress_video.title": "Video Compressor",
+  "tool.compress_video.description": "Reduce video file size",
+  "tool.pdf_compressor.title": "PDF Compressor",
+  "tool.pdf_compressor.description": "Optimize PDF files",
+  "tool.video_converter.title": "Video Converter",
+  "tool.video_converter.description": "Convert video formats",
+  "tool.video_trimmer.title": "Video trimmer",
+  "tool.video_trimmer.description": "Cut clips in browser",
+  "tool.gif_maker.title": "GIF maker",
+  "tool.gif_maker.description": "Video to animated GIF",
+  "tool.remove_audio.title": "Remove audio",
+  "tool.remove_audio.description": "Mute video track",
+  "tool.image_compressor.title": "Image compressor",
+  "tool.image_compressor.description": "JPG, PNG, WebP",
+  "tool.video_rotator.title": "Video rotator",
+  "tool.video_rotator.description": "Rotate 90° / 180°",
+  "tool.video_cropper.title": "Video cropper",
+  "tool.video_cropper.description": "Crop aspect ratio"
+}

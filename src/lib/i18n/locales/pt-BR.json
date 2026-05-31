@@ -1,0 +1,102 @@
+{
+  "compress_video.seo.title": "FileYuzu — Compressor de Vídeo Online Gratuito",
+  "compress_video.seo.description": "Comprima vídeos MP4, MOV, AVI, MKV e WebM online com o FileYuzu. Reduza o tamanho do arquivo de vídeo com privacidade no seu navegador, sem upload e sem cadastro.",
+  "compress_video.hero.title": "Compressor de Vídeo Online Gratuito",
+  "compress_video.hero.description": "Reduza o tamanho do arquivo de vídeo online — sem upload, sem cadastro. Funciona totalmente no seu navegador. Suporta MP4, MOV, AVI, MKV e WebM.",
+  "compress_video.upload.title": "Solte um arquivo de vídeo aqui",
+  "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · até 500 MB",
+  "compress_video.upload.btn_select": "Selecionar arquivo",
+  "compress_video.upload.btn_sample": "Testar exemplo",
+  "compress_video.upload.hint": "Selecione um arquivo de vídeo para comprimir",
+  "compress_video.settings.auto_optimize": "Otimização automática",
+  "compress_video.settings.size_lbl": "Tamanho alvo do arquivo",
+  "compress_video.btn.compress": "Comprimir vídeo",
+  "compress_video.btn.download": "Baixar vídeo",
+  "compress_video.btn.compress_new": "Comprimir novos arquivos",
+  "compress_video.proc.compressing": "Comprimindo vídeo",
+  "compress_video.how_to_use.title": "Como Comprimir um Vídeo Online",
+  "compress_video.how_to_use.steps": [
+    "Envie um arquivo de vídeo do seu dispositivo ou arraste e solte-o na área de upload.",
+    "Escolha uma predefinição de compressão ou defina um tamanho alvo personalizado. Use as tags de seleção rápida para plataformas comuns como Gmail, Discord ou Slack.",
+    "Clique em Comprimir e aguarde um momento. Todo o processamento é feito localmente no seu navegador — seu arquivo nunca é enviado para nenhum servidor. Baixe quando terminar."
+  ],
+  "compress_video.why_use.title": "Por que usar o FileYuzu",
+  "compress_video.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% privado",
+      "description": "A compressão é executada no seu navegador via WebAssembly. Seu arquivo nunca sai do seu dispositivo."
+    },
+    {
+      "icon": "bolt",
+      "title": "Não precisa de cadastro",
+      "description": "Abra a página e comece. Sem conta, sem marca d’água, sem limite de tempo."
+    },
+    {
+      "icon": "player-play",
+      "title": "Fluxo simples",
+      "description": "Comprima um vídeo por vez com um fluxo focado e simples."
+    },
+    {
+      "icon": "adjustments",
+      "title": "Tamanho alvo flexível",
+      "description": "Defina um tamanho exato para qualquer plataforma — Gmail, Discord, Slack, Line, WhatsApp."
+    }
+  ],
+  "compress_video.faq.title": "FAQ do Compressor de Vídeo",
+  "compress_video.faq.items": [
+    {
+      "q": "Meu vídeo é enviado para um servidor?",
+      "a": "Não. Toda a compressão é feita localmente usando FFmpeg.wasm (WebAssembly). Seu arquivo de vídeo nunca sai do seu dispositivo."
+    },
+    {
+      "q": "Quais formatos de vídeo são suportados?",
+      "a": "Suportamos MP4, MOV, AVI, MKV, WebM e a maioria dos outros formatos comuns. A saída é sempre MP4 para máxima compatibilidade com dispositivos."
+    },
+    {
+      "q": "Qual é o tamanho máximo do arquivo?",
+      "a": "O vídeo pode ter até 500 MB. Para arquivos maiores, considere dividir o vídeo primeiro ou usar uma ferramenta de desktop como o HandBrake."
+    },
+    {
+      "q": "O que significam as predefinições Low, Balance e High?",
+      "a": "Balance reduz o tamanho em cerca de 60–80% mantendo o vídeo com boa aparência na maioria das telas. Low gera o menor arquivo, com perda de qualidade mais visível. High mantém qualidade próxima da original com redução moderada."
+    },
+    {
+      "q": "O que a opção \"Disable audio\" faz?",
+      "a": "Ela remove a faixa de áudio do vídeo comprimido. É útil para clipes sem som, gravações de tela ou quando você precisa do menor tamanho de arquivo possível."
+    },
+    {
+      "q": "Por que as tags de plataforma mostram valores específicos em MB?",
+      "a": "Cada plataforma tem um limite de tamanho para anexos. O Gmail permite 25 MB, o Discord 8 MB (gratuito), o Slack 100 MB e assim por diante. Ao clicar em uma tag, o tamanho alvo é definido automaticamente."
+    },
+    {
+      "q": "Haverá uma queda visível na qualidade?",
+      "a": "Depende da predefinição e do vídeo original. Para a maioria dos vídeos, a predefinição Balance gera um resultado que fica bom em celulares e telas comuns. Você pode testar outra predefinição se não estiver satisfeito."
+    }
+  ],
+  "related_tools.title": "Ferramentas de Vídeo Relacionadas",
+  "common.tools": "Ferramentas",
+  "common.language": "Idioma",
+  "common.footer.copyright": "© 2025 FileYuzu",
+  "common.footer.privacy": "Privacidade",
+  "common.footer.terms": "Termos",
+  "common.footer.contact": "Contato",
+  "tool.compress_video.title": "Compressor de Vídeo",
+  "tool.compress_video.description": "Reduza o tamanho do vídeo",
+  "tool.pdf_compressor.title": "Compressor de PDF",
+  "tool.pdf_compressor.description": "Otimize arquivos PDF",
+  "tool.video_converter.title": "Conversor de Vídeo",
+  "tool.video_converter.description": "Converta formatos de vídeo",
+  "tool.video_trimmer.title": "Cortador de vídeo",
+  "tool.video_trimmer.description": "Corte clipes no navegador",
+  "tool.gif_maker.title": "Criador de GIF",
+  "tool.gif_maker.description": "Vídeo para GIF animado",
+  "tool.remove_audio.title": "Remover áudio",
+  "tool.remove_audio.description": "Silenciar faixa de vídeo",
+  "tool.image_compressor.title": "Compressor de imagem",
+  "tool.image_compressor.description": "JPG, PNG, WebP",
+  "tool.video_rotator.title": "Rotacionador de vídeo",
+  "tool.video_rotator.description": "Girar 90° / 180°",
+  "tool.video_cropper.title": "Cortador de vídeo",
+  "tool.video_cropper.description": "Cortar proporção da tela"
+}

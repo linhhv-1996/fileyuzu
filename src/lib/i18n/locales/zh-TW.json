@@ -1,0 +1,102 @@
+{
+  "compress_video.seo.title": "FileYuzu — 免費線上影片壓縮工具",
+  "compress_video.seo.description": "使用 FileYuzu 線上壓縮 MP4、MOV、AVI、MKV 和 WebM 影片。無需上傳、無需註冊，即可在瀏覽器中私密地減少影片檔案大小。",
+  "compress_video.hero.title": "免費線上影片壓縮工具",
+  "compress_video.hero.description": "線上減少影片檔案大小 — 無需上傳、無需註冊。完全在您的瀏覽器中執行。支援 MP4、MOV、AVI、MKV、WebM。",
+  "compress_video.upload.title": "將影片檔案拖放到這裡",
+  "compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM · 最大 500 MB",
+  "compress_video.upload.btn_select": "選擇檔案",
+  "compress_video.upload.btn_sample": "試用範例",
+  "compress_video.upload.hint": "選擇一個要壓縮的影片檔案",
+  "compress_video.settings.auto_optimize": "自動最佳化",
+  "compress_video.settings.size_lbl": "目標檔案大小",
+  "compress_video.btn.compress": "壓縮影片",
+  "compress_video.btn.download": "下載影片",
+  "compress_video.btn.compress_new": "壓縮新檔案",
+  "compress_video.proc.compressing": "正在壓縮影片",
+  "compress_video.how_to_use.title": "如何線上壓縮影片",
+  "compress_video.how_to_use.steps": [
+    "從您的裝置上傳影片檔案，或將其拖放到上傳區域。",
+    "選擇壓縮預設，或設定自訂目標檔案大小。可使用 Gmail、Discord、Slack 等常見平台的快速選擇標籤。",
+    "點擊「壓縮」並稍候片刻。所有處理都會在您的瀏覽器中本機執行 — 您的檔案不會被傳送到任何伺服器。完成後即可下載。"
+  ],
+  "compress_video.why_use.title": "為什麼使用 FileYuzu",
+  "compress_video.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% 私密",
+      "description": "壓縮透過 WebAssembly 在您的瀏覽器中執行。您的檔案永遠不會離開您的裝置。"
+    },
+    {
+      "icon": "bolt",
+      "title": "無需註冊",
+      "description": "開啟頁面即可開始使用。無需帳號、無浮水印、無時間限制。"
+    },
+    {
+      "icon": "player-play",
+      "title": "簡單流程",
+      "description": "一次壓縮一個影片，流程專注且簡單。"
+    },
+    {
+      "icon": "adjustments",
+      "title": "彈性的目標大小",
+      "description": "可為任何平台設定精確大小 — Gmail、Discord、Slack、LINE、WhatsApp。"
+    }
+  ],
+  "compress_video.faq.title": "影片壓縮工具常見問題",
+  "compress_video.faq.items": [
+    {
+      "q": "我的影片會被上傳到伺服器嗎？",
+      "a": "不會。所有壓縮都使用 FFmpeg.wasm（WebAssembly）在本機完成。您的影片檔案永遠不會離開您的裝置。"
+    },
+    {
+      "q": "支援哪些影片格式？",
+      "a": "我們支援 MP4、MOV、AVI、MKV、WebM，以及大多數其他常見格式。為了最大程度相容各種裝置，輸出一律為 MP4。"
+    },
+    {
+      "q": "最大檔案大小是多少？",
+      "a": "影片最大可達 500 MB。若檔案更大，建議先分割影片，或使用 HandBrake 等桌面工具。"
+    },
+    {
+      "q": "Low、Balance 和 High 預設代表什麼？",
+      "a": "Balance 可在大多數螢幕上保持良好觀感，同時將大小減少約 60–80%。Low 會產生最小檔案，但畫質損失較明顯。High 則保留接近原始的畫質，並進行中等程度的壓縮。"
+    },
+    {
+      "q": "「Disable audio」有什麼作用？",
+      "a": "它會從壓縮後的影片中移除音訊軌。適合無聲片段、螢幕錄影，或需要盡可能縮小檔案大小的情況。"
+    },
+    {
+      "q": "為什麼平台標籤會顯示特定的 MB 數值？",
+      "a": "每個平台都有附件大小限制。Gmail 為 25 MB、Discord 為 8 MB（免費版）、Slack 為 100 MB，依此類推。點擊標籤即可自動設定目標大小。"
+    },
+    {
+      "q": "畫質會明顯下降嗎？",
+      "a": "這取決於預設和原始影片。對大多數影片而言，Balance 預設在手機和一般螢幕上會產生看起來不錯的結果。如果不滿意，可以嘗試其他預設。"
+    }
+  ],
+  "related_tools.title": "相關影片工具",
+  "common.tools": "工具",
+  "common.language": "語言",
+  "common.footer.copyright": "© 2025 FileYuzu",
+  "common.footer.privacy": "隱私權",
+  "common.footer.terms": "條款",
+  "common.footer.contact": "聯絡",
+  "tool.compress_video.title": "影片壓縮工具",
+  "tool.compress_video.description": "減少影片檔案大小",
+  "tool.pdf_compressor.title": "PDF 壓縮工具",
+  "tool.pdf_compressor.description": "最佳化 PDF 檔案",
+  "tool.video_converter.title": "影片轉換工具",
+  "tool.video_converter.description": "轉換影片格式",
+  "tool.video_trimmer.title": "影片剪輯工具",
+  "tool.video_trimmer.description": "在瀏覽器中裁剪片段",
+  "tool.gif_maker.title": "GIF 製作工具",
+  "tool.gif_maker.description": "將影片轉成動態 GIF",
+  "tool.remove_audio.title": "移除音訊",
+  "tool.remove_audio.description": "將影片音軌靜音",
+  "tool.image_compressor.title": "圖片壓縮工具",
+  "tool.image_compressor.description": "JPG、PNG、WebP",
+  "tool.video_rotator.title": "影片旋轉工具",
+  "tool.video_rotator.description": "旋轉 90° / 180°",
+  "tool.video_cropper.title": "影片裁切工具",
+  "tool.video_cropper.description": "依照長寬比裁切"
+}

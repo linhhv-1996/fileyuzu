@@ -1,0 +1,102 @@
+{
+  "compress_video.seo.title": "FileYuzu — 無料オンライン動画圧縮ツール",
+  "compress_video.seo.description": "FileYuzuでMP4、MOV、AVI、MKV、WebM動画をオンライン圧縮。アップロード不要・登録不要で、ブラウザ内で安全に動画ファイルサイズを削減できます。",
+  "compress_video.hero.title": "無料オンライン動画圧縮ツール",
+  "compress_video.hero.description": "動画ファイルサイズをオンラインで削減 — アップロード不要、登録不要。すべてブラウザ内で動作します。MP4、MOV、AVI、MKV、WebMに対応。",
+  "compress_video.upload.title": "ここに動画ファイルをドロップ",
+  "compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM · 最大500 MB",
+  "compress_video.upload.btn_select": "ファイルを選択",
+  "compress_video.upload.btn_sample": "サンプルを試す",
+  "compress_video.upload.hint": "圧縮する動画ファイルを1つ選択してください",
+  "compress_video.settings.auto_optimize": "自動最適化",
+  "compress_video.settings.size_lbl": "目標ファイルサイズ",
+  "compress_video.btn.compress": "動画を圧縮",
+  "compress_video.btn.download": "動画をダウンロード",
+  "compress_video.btn.compress_new": "新しいファイルを圧縮",
+  "compress_video.proc.compressing": "動画を圧縮中",
+  "compress_video.how_to_use.title": "オンラインで動画を圧縮する方法",
+  "compress_video.how_to_use.steps": [
+    "デバイスから動画ファイルをアップロードするか、アップロードエリアにドラッグ＆ドロップします。",
+    "圧縮プリセットを選択するか、カスタムの目標ファイルサイズを設定します。Gmail、Discord、Slackなどの一般的なプラットフォーム向けのクイック選択タグも利用できます。",
+    "「圧縮」をクリックして、しばらく待ちます。すべての処理はブラウザ内でローカルに実行されるため、ファイルがサーバーに送信されることはありません。完了したらダウンロードしてください。"
+  ],
+  "compress_video.why_use.title": "FileYuzuを使う理由",
+  "compress_video.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100%プライベート",
+      "description": "圧縮はWebAssemblyを通じてブラウザ内で実行されます。ファイルがデバイス外に出ることはありません。"
+    },
+    {
+      "icon": "bolt",
+      "title": "登録不要",
+      "description": "ページを開いてすぐに開始できます。アカウント不要、ウォーターマークなし、時間制限なし。"
+    },
+    {
+      "icon": "player-play",
+      "title": "シンプルな操作",
+      "description": "1回につき1つの動画を、迷わず簡単に圧縮できます。"
+    },
+    {
+      "icon": "adjustments",
+      "title": "柔軟な目標サイズ",
+      "description": "Gmail、Discord、Slack、LINE、WhatsAppなど、各プラットフォームに合わせて正確なサイズを設定できます。"
+    }
+  ],
+  "compress_video.faq.title": "動画圧縮ツールFAQ",
+  "compress_video.faq.items": [
+    {
+      "q": "動画はサーバーにアップロードされますか？",
+      "a": "いいえ。すべての圧縮はFFmpeg.wasm（WebAssembly）を使用してローカルで行われます。動画ファイルがデバイス外に出ることはありません。"
+    },
+    {
+      "q": "どの動画形式に対応していますか？",
+      "a": "MP4、MOV、AVI、MKV、WebM、およびその他多くの一般的な形式に対応しています。出力は最大限のデバイス互換性を確保するため、常にMP4になります。"
+    },
+    {
+      "q": "最大ファイルサイズはいくつですか？",
+      "a": "動画は最大500 MBまで対応しています。より大きなファイルの場合は、先に動画を分割するか、HandBrakeなどのデスクトップツールの使用を検討してください。"
+    },
+    {
+      "q": "Low、Balance、Highプリセットは何を意味しますか？",
+      "a": "Balanceは、ほとんどの画面で見た目の良さを保ちながら、サイズを約60〜80%削減します。Lowはより目立つ画質低下を伴いますが、最小サイズのファイルを生成します。Highは元に近い画質を保ちながら、適度にサイズを削減します。"
+    },
+    {
+      "q": "「音声を無効化」は何をしますか？",
+      "a": "圧縮後の動画から音声トラックを削除します。無音クリップ、画面録画、または可能な限り小さいファイルサイズが必要な場合に便利です。"
+    },
+    {
+      "q": "プラットフォームタグに特定のMB値が表示されるのはなぜですか？",
+      "a": "各プラットフォームには添付ファイルサイズの上限があります。Gmailは25 MB、Discordは8 MB（無料プラン）、Slackは100 MBなどです。タグをクリックすると、目標サイズが自動的に設定されます。"
+    },
+    {
+      "q": "目に見える画質低下はありますか？",
+      "a": "プリセットと元の動画によって異なります。ほとんどの動画では、Balanceプリセットによりスマートフォンや一般的な画面で十分きれいに見える出力になります。満足できない場合は、別のプリセットを試してください。"
+    }
+  ],
+  "related_tools.title": "関連動画ツール",
+  "common.tools": "ツール",
+  "common.language": "言語",
+  "common.footer.copyright": "© 2025 FileYuzu",
+  "common.footer.privacy": "プライバシー",
+  "common.footer.terms": "利用規約",
+  "common.footer.contact": "お問い合わせ",
+  "tool.compress_video.title": "動画圧縮",
+  "tool.compress_video.description": "動画ファイルサイズを削減",
+  "tool.pdf_compressor.title": "PDF圧縮",
+  "tool.pdf_compressor.description": "PDFファイルを最適化",
+  "tool.video_converter.title": "動画変換",
+  "tool.video_converter.description": "動画形式を変換",
+  "tool.video_trimmer.title": "動画トリミング",
+  "tool.video_trimmer.description": "ブラウザでクリップをカット",
+  "tool.gif_maker.title": "GIF作成",
+  "tool.gif_maker.description": "動画をアニメーションGIFに変換",
+  "tool.remove_audio.title": "音声削除",
+  "tool.remove_audio.description": "動画の音声トラックをミュート",
+  "tool.image_compressor.title": "画像圧縮",
+  "tool.image_compressor.description": "JPG、PNG、WebP",
+  "tool.video_rotator.title": "動画回転",
+  "tool.video_rotator.description": "90° / 180°回転",
+  "tool.video_cropper.title": "動画切り抜き",
+  "tool.video_cropper.description": "アスペクト比に合わせて切り抜き"
+}

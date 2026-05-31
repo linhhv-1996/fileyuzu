@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileYuzu — Free Online Video Compressor</title>
+    <meta name="description"
+        content="Compress MP4, MOV, AVI, MKV, and WebM videos online with FileYuzu. Reduce video file size privately in your browser with no upload and no sign-up.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg: #ffffff;
+            --bg-sub: #f3f8fb;
+            --bd: #c9dce8;
+            --bd-lt: #e6f0f5;
+            --tx: #16323f;
+            --tx-sub: #607988;
+            --tx-mt: #9aadb8;
+            --ac: #2f80a7;
+            --ac-hv: #286d8e;
+            --ac-soft: #e9f5fb;
+            --green: #2f9e74;
+            --r: 6px;
+
+            --font-latin: -apple-system, BlinkMacSystemFont,
+                "Segoe UI",
+                "Helvetica Neue",
+                Arial,
+                "Noto Sans",
+                sans-serif;
+
+            --font-ja: "Noto Sans JP",
+                "Hiragino Sans",
+                "Yu Gothic",
+                "Meiryo",
+                sans-serif;
+
+            --font-zh-cn: "Noto Sans SC",
+                "Microsoft YaHei",
+                sans-serif;
+
+            --font-zh-tw: "Noto Sans TC",
+                "Microsoft JhengHei",
+                sans-serif;
+
+            --font-ko: "Noto Sans KR",
+                "Malgun Gothic",
+                sans-serif;
+
+            --font: var(--font-latin);
+        }
+
+        html {
+            font-family: var(--font);
+        }
+
+        html:lang(ja) {
+            --font: var(--font-ja);
+        }
+
+        html:lang(zh-CN),
+        html:lang(zh-Hans) {
+            --font: var(--font-zh-cn);
+        }
+
+        html:lang(zh-TW),
+        html:lang(zh-Hant) {
+            --font: var(--font-zh-tw);
+        }
+
+        html:lang(ko) {
+            --font: var(--font-ko);
+        }
+
+        body {
+            font-family: var(--font);
+            font-size: 15px;
+            color: var(--tx);
+            line-height: 1.5;
+        }
+
+        button,
+        input,
+        textarea,
+        select {
+            font: inherit;
+        }
+
+        a {
+            color: var(--ac);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* ── HEADER ── */
+        .hdr {
+            background: rgba(255, 255, 255, .92);
+            border-bottom: 1px solid var(--bd-lt);
+            height: 58px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+
+        .hdr-inner {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 0 16px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 650;
+            font-size: 16px;
+            color: var(--tx);
+            text-decoration: none;
+            flex-shrink: 0;
+        }
+
+        .logo svg {
+            color: var(--ac);
+        }
+
+        .hdr-nav {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex: 1;
+        }
+
+        .nav-dd,
+        .lang-dd {
+            position: relative;
+        }
+
+        .nav-trigger,
+        .lang-trigger {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            border: 1px solid transparent;
+            border-radius: 999px;
+            background: transparent;
+            color: var(--tx);
+            font-family: var(--font);
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background .15s, border-color .15s, color .15s, box-shadow .15s;
+        }
+
+        .nav-trigger {
+            padding: 7px 12px;
+        }
+
+        .lang-trigger {
+            min-width: 124px;
+            justify-content: space-between;
+            padding: 7px 10px;
+            border-color: var(--bd);
+            background: var(--bg);
+        }
+
+        .nav-trigger:hover,
+        .nav-dd.open .nav-trigger {
+            background: var(--ac-soft);
+            color: var(--ac);
+        }
+
+        .lang-trigger:hover,
+        .lang-dd.open .lang-trigger {
+            border-color: var(--ac);
+            box-shadow: 0 0 0 3px rgba(47, 128, 167, .10);
+        }
+
+        .nav-trigger i,
+        .lang-trigger i {
+            color: var(--tx-sub);
+            font-size: 15px;
+        }
+
+        .chev {
+            transition: transform .16s;
+        }
+
+        .nav-dd.open .chev,
+        .lang-dd.open .chev {
+            transform: rotate(180deg);
+        }
+
+        .dd-menu {
+            position: absolute;
+            top: calc(100% + 8px);
+            right: 0;
+            min-width: 190px;
+            padding: 6px;
+            border: 1px solid var(--bd-lt);
+            border-radius: 12px;
+            background: var(--bg);
+            box-shadow: 0 14px 36px rgba(22, 50, 63, .14);
+            display: none;
+            z-index: 120;
+        }
+
+        .nav-dd .dd-menu {
+            left: 0;
+            right: auto;
+            min-width: 230px;
+        }
+
+        .nav-dd.open .dd-menu,
+        .lang-dd.open .dd-menu {
+            display: block;
+        }
+
+        .dd-item {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 9px 10px;
+            border: none;
+            border-radius: 9px;
+            background: transparent;
+            color: var(--tx);
+            font-family: var(--font);
+            font-size: 14px;
+            line-height: 1.25;
+            text-align: left;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .dd-item:hover {
+            background: var(--ac-soft);
+            text-decoration: none;
+        }
+
+        .dd-item i {
+            width: 18px;
+            font-size: 17px;
+            color: var(--ac);
+            flex-shrink: 0;
+        }
+
+        .dd-title {
+            display: block;
+            font-weight: 560;
+            color: var(--tx);
+        }
+
+        .dd-sub {
+            display: block;
+            margin-top: 1px;
+            font-size: 12.5px;
+            color: #4d6f7f;
+        }
+
+        .lang-flag {
+            width: 18px;
+            text-align: center;
+            font-size: 14px;
+            flex-shrink: 0;
+        }
+
+        .lang-current {
+            flex: 1;
+            text-align: left;
+            white-space: nowrap;
+        }
+
+        .hdr-r {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        /* ── LAYOUT ── */
+        .page {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 20px 16px 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 230px;
+            gap: 15px;
+            align-items: start;
+        }
+
+        /* ── HERO ── */
+        .hero {
+            padding: 0 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--tx);
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+
+        .hero p {
+            font-size: 15px;
+            color: var(--tx-sub);
+            max-width: 540px;
+            line-height: 1.6;
+        }
+
+        /* ── CARD ── */
+        .card {
+            background: var(--bg);
+            border: 1px solid var(--bd);
+            border-radius: var(--r);
+            overflow: hidden;
+        }
+
+        .tool-body {
+            padding: 16px;
+        }
+
+        /* ── FLOATING STATE SWITCHER (dev/demo only) ── */
+        .float-sw {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 6px;
+        }
+
+        .float-sw-label {
+            font-size: 10px;
+            color: #fff;
+            background: rgba(18, 52, 69, .55);
+            padding: 2px 8px;
+            border-radius: 10px;
+            pointer-events: none;
+            align-self: flex-end;
+        }
+
+        .float-sw-btns {
+            display: flex;
+            gap: 5px;
+            background: rgba(18, 52, 69, .78);
+            border-radius: 22px;
+            padding: 5px 8px;
+            backdrop-filter: blur(6px);
+        }
+
+        .fsw {
+            font-size: 11px;
+            font-weight: 500;
+            padding: 4px 11px;
+            border-radius: 16px;
+            border: none;
+            cursor: pointer;
+            background: transparent;
+            color: rgba(255, 255, 255, .65);
+            font-family: var(--font);
+            transition: background .12s, color .12s;
+        }
+
+        .fsw:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, .12);
+        }
+
+        .fsw.on {
+            background: #fff;
+            color: #16323f;
+        }
+
+        /* ── UPLOAD BOX ── */
+        .upload-box {
+            border: 1px dashed var(--bd);
+            border-radius: var(--r);
+            height: 260px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: var(--bg-sub);
+            cursor: pointer;
+            transition: border-color .15s, background .15s;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .upload-box:hover {
+            border-color: var(--tx-sub);
+            background: var(--ac-soft);
+        }
+
+        .upload-box .ico {
+            font-size: 28px;
+            color: var(--tx-mt);
+        }
+
+        .upload-box .ttl {
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--tx);
+        }
+
+        .upload-box .sub {
+            font-size: 14px;
+            color: var(--tx-sub);
+        }
+
+        .upload-box .hint {
+            font-size: 13px;
+            color: var(--tx-mt);
+        }
+
+        /* mobile hint */
+        .hint-mobile {
+            display: none;
+        }
+
+        .btn-row {
+            display: flex;
+            gap: 8px;
+            margin-top: 2px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* ── BUTTONS ── */
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: var(--ac);
+            color: #fff;
+            border: 1px solid transparent;
+            border-radius: var(--r);
+            padding: 6px 14px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            font-family: var(--font);
+        }
+
+        .btn-primary:hover {
+            background: var(--ac-hv);
+        }
+
+        .btn-default {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: var(--bg);
+            color: var(--tx);
+            border: 1px solid var(--bd);
+            border-radius: var(--r);
+            padding: 6px 14px;
+            font-size: 14px;
+            cursor: pointer;
+            font-family: var(--font);
+        }
+
+        .btn-default:hover {
+            background: var(--bg-sub);
+            border-color: var(--tx-mt);
+        }
+
+        .btn-cta {
+            width: 100%;
+            padding: 9px 14px;
+            background: var(--ac);
+            color: #fff;
+            border: 1px solid transparent;
+            border-radius: var(--r);
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            font-family: var(--font);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 7px;
+        }
+
+        .btn-cta:hover {
+            background: var(--ac-hv);
+        }
+
+        .btn-cta:disabled {
+            background: var(--bd);
+            color: var(--tx-mt);
+            cursor: not-allowed;
+        }
+
+        .btn-dl {
+            width: 100%;
+            padding: 9px 14px;
+            background: var(--green);
+            color: #fff;
+            border: 1px solid transparent;
+            border-radius: var(--r);
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            font-family: var(--font);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 7px;
+        }
+
+        .btn-dl:hover {
+            background: #267f5d;
+        }
+
+        /* ── SETTINGS ── */
+        .settings {
+            padding-top: 14px;
+            margin-top: 14px;
+            border-top: 1px solid var(--bd-lt);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .setting-row {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            min-height: 42px;
+            border-bottom: 1px solid var(--bd-lt);
+        }
+
+        .setting-row.top {
+            align-items: flex-start;
+        }
+
+        .setting-row:last-of-type {
+            border-bottom: none;
+            margin-bottom: 12px;
+        }
+
+        .setting-lbl {
+            width: auto;
+            flex-shrink: 0;
+            font-size: 14px;
+            color: var(--tx-sub);
+            padding: 8px 0;
+        }
+
+        .setting-ctl {
+            flex: 0 0 auto;
+            padding: 6px 0;
+        }
+
+        .preset-group {
+            display: inline-flex;
+            border: 1px solid var(--bd);
+            border-radius: var(--r);
+            overflow: hidden;
+        }
+
+        .preset-btn {
+            padding: 6px 18px;
+            font-size: 14px;
+            border: none;
+            border-right: 1px solid var(--bd);
+            background: var(--bg);
+            color: var(--tx-sub);
+            cursor: pointer;
+            font-family: var(--font);
+        }
+
+        .preset-btn:last-child {
+            border-right: none;
+        }
+
+        .preset-btn.on {
+            background: var(--bg-sub);
+            color: var(--tx);
+            font-weight: 500;
+        }
+
+        .preset-btn:hover:not(.on) {
+            background: var(--bg-sub);
+        }
+
+        .size-row {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 6px;
+        }
+
+        .size-input-line {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .size-input {
+            border: 1px solid var(--bd);
+            border-radius: var(--r);
+            padding: 6px 10px;
+            font-size: 14px;
+            width: 140px;
+            outline: none;
+            font-family: var(--font);
+            color: var(--tx);
+            background: var(--bg);
+        }
+
+        .size-input:focus {
+            border-color: var(--tx-sub);
+            box-shadow: 0 0 0 2px rgba(47, 128, 167, .14);
+        }
+
+        .unit {
+            font-size: 14px;
+            color: var(--tx-sub);
+        }
+
+        .tag-row {
+            display: flex;
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+
+        .target-size-row {
+            flex-wrap: wrap;
+            column-gap: 20px;
+            row-gap: 2px;
+            padding-bottom: 12px;
+            margin-bottom: 12px;
+        }
+
+        .target-tags-full {
+            flex: 0 0 100%;
+            width: 100%;
+            margin-top: 0;
+            margin-left: 0;
+            margin-bottom: 0;
+        }
+
+        .target-size-row+.btn-cta {
+            margin-top: 0;
+        }
+
+        .tag {
+            font-size: 13px;
+            padding: 4px 10px;
+            border: 1px solid var(--bd);
+            border-radius: 20px;
+            cursor: pointer;
+            color: var(--tx-sub);
+            background: var(--bg);
+            font-family: var(--font);
+            white-space: nowrap;
+        }
+
+        .tag:hover {
+            border-color: var(--tx-sub);
+            color: var(--tx);
+        }
+
+        .toggle {
+            width: 32px;
+            height: 18px;
+            border-radius: 9px;
+            background: var(--bd);
+            position: relative;
+            cursor: pointer;
+            border: none;
+            flex-shrink: 0;
+            transition: background .15s;
+            display: inline-block;
+        }
+
+        .toggle::after {
+            content: '';
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #fff;
+            top: 2px;
+            left: 2px;
+            transition: left .15s;
+        }
+
+        .toggle.on {
+            background: var(--ac);
+        }
+
+        .toggle.on::after {
+            left: 16px;
+        }
+
+        .toggle-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .toggle-lbl {
+            font-size: 14px;
+            color: var(--tx-sub);
+        }
+
+        /* ── PREVIEW FRAME (file-selected & processing) ── */
+        .preview-frame {
+            display: flex;
+            border: 1px solid var(--bd);
+            border-radius: var(--r);
+            overflow: hidden;
+            height: 300px;
+        }
+
+        .preview-main {
+            flex: 1;
+            position: relative;
+            background: #123445;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 0;
+        }
+
+        .preview-ph {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            color: #8fb3c4;
+            font-size: 14px;
+        }
+
+        .preview-ph i {
+            font-size: 32px;
+        }
+
+        .vid-info {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            background: rgba(18, 52, 69, .68);
+            border-radius: 5px;
+            padding: 6px 10px;
+            color: #fff;
+            max-width: calc(100% - 48px);
+        }
+
+        .vid-info .fn {
+            font-size: 14px;
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .vid-info .fm {
+            font-size: 13px;
+            color: rgba(255, 255, 255, .7);
+            line-height: 1.6;
+        }
+
+        .btn-rm {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            background: rgba(18, 52, 69, .68);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            flex-shrink: 0;
+        }
+
+        .btn-rm:hover {
+            background: rgba(180, 20, 20, .75);
+        }
+
+        /* ── DONE FRAME (separate class, taller) ── */
+        .done-frame {
+            display: flex;
+            border: 1px solid var(--bd);
+            border-radius: var(--r);
+            overflow: hidden;
+            height: 380px;
+        }
+
+        /* ── PROCESSING ── */
+        .spin {
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .prog-wrap {
+            height: 4px;
+            background: var(--bd-lt);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-top: 7px;
+        }
+
+        .prog-fill {
+            height: 100%;
+            background: var(--ac);
+            width: 62%;
+            border-radius: 2px;
+        }
+
+        /* ── DONE extras ── */
+        .done-cta {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 12px;
+        }
+
+        /* ── SECTIONS ── */
+        .sec-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--tx);
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--bd-lt);
+            margin: 0;
+            line-height: 1.35;
+        }
+
+        .sec-body {
+            padding: 16px;
+        }
+
+        .steps {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .step {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+        }
+
+        .step-n {
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: var(--ac);
+            color: #fff;
+            font-size: 12px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .step p {
+            font-size: 15px;
+            color: var(--tx-sub);
+            line-height: 1.6;
+        }
+
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .benefit-item {
+            padding: 14px 16px;
+            border-right: 1px solid var(--bd-lt);
+            border-bottom: 1px solid var(--bd-lt);
+        }
+
+        .benefit-item:nth-child(2n) {
+            border-right: none;
+        }
+
+        .benefit-item:nth-last-child(-n+2) {
+            border-bottom: none;
+        }
+
+        .benefit-item i {
+            font-size: 17px;
+            color: var(--ac);
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        .benefit-item h3 {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--tx);
+            margin-bottom: 3px;
+        }
+
+        .benefit-item p {
+            font-size: 14px;
+            color: var(--tx-sub);
+            line-height: 1.5;
+        }
+
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .faq-heading {
+            margin: 0;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--bd-lt);
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-q {
+            width: 100%;
+            text-align: left;
+            padding: 12px 16px;
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--tx);
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-family: var(--font);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .faq-q:hover {
+            background: var(--bg-sub);
+        }
+
+        .faq-q i {
+            font-size: 15px;
+            color: var(--tx-mt);
+            transition: transform .2s;
+            flex-shrink: 0;
+        }
+
+        .faq-item.open .faq-q i {
+            transform: rotate(180deg);
+        }
+
+        .faq-a {
+            font-size: 15px;
+            color: var(--tx-sub);
+            line-height: 1.6;
+            padding: 0 16px 11px;
+            display: none;
+        }
+
+        .faq-item.open .faq-a {
+            display: block;
+        }
+
+        /* ── SIDEBAR ── */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .sb-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--tx-mt);
+            padding: 11px 14px 8px;
+            border-bottom: 1px solid var(--bd-lt);
+            margin: 0;
+            line-height: 1.35;
+        }
+
+        .rel-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .rel-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 9px 14px;
+            border-bottom: 1px solid var(--bd-lt);
+            color: var(--tx);
+            text-decoration: none;
+        }
+
+        .rel-item:last-child {
+            border-bottom: none;
+        }
+
+        .rel-item:hover {
+            background: var(--bg-sub);
+        }
+
+        .rel-item i {
+            font-size: 15px;
+            color: var(--tx-mt);
+            flex-shrink: 0;
+        }
+
+        .rel-name {
+            font-weight: 500;
+            color: var(--tx);
+            display: block;
+            font-size: 14px;
+        }
+
+        .rel-sub {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 1.35;
+            color: #557482;
+        }
+
+        /* ─────────────────────────────────────────
+RESPONSIVE
+───────────────────────────────────────── */
+
+        /* Tablet: hide nav text, collapse sidebar below */
+        @media(max-width:768px) {
+            .hdr {
+                height: 56px;
+            }
+
+            .hdr-inner {
+                gap: 10px;
+                padding: 0 12px;
+            }
+
+            .logo {
+                font-size: 15px;
+            }
+
+            .nav-trigger {
+                padding: 7px 10px;
+            }
+
+            .lang-trigger {
+                min-width: 46px;
+                padding: 7px 9px;
+            }
+
+            .lang-current {
+                display: none;
+            }
+
+            .lang-dd .dd-menu {
+                right: 0;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+                gap: 14px;
+            }
+
+            .sidebar {
+                display: none;
+            }
+
+            .setting-row {
+                flex-direction: column;
+                align-items: flex-start;
+                min-height: unset;
+                padding: 10px 0;
+                gap: 4px;
+            }
+
+            .setting-row.top {
+                align-items: flex-start;
+            }
+
+            .setting-lbl {
+                width: auto;
+                padding: 0;
+                font-weight: 500;
+                color: var(--tx);
+            }
+
+            .setting-ctl {
+                padding: 0;
+                width: 100%;
+            }
+
+            .preset-group {
+                width: 100%;
+            }
+
+            .preset-btn {
+                flex: 1;
+            }
+
+            .size-row {
+                width: 100%;
+            }
+
+            .tag-row {
+                gap: 6px;
+            }
+
+            .target-size-row {
+                row-gap: 8px;
+            }
+
+            .target-tags-full {
+                margin-top: 0;
+            }
+
+            .preview-frame {
+                height: 272px;
+            }
+
+            .done-frame {
+                height: 352px;
+            }
+
+            .vid-info {
+                max-width: calc(100% - 44px);
+            }
+
+            .upload-box {
+                height: 260px;
+            }
+
+            .upload-box .sub {
+                display: block;
+            }
+
+            .hint-desktop {
+                display: block;
+            }
+
+            .hint-mobile {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 20px;
+            }
+
+            .hero p {
+                font-size: 14px;
+            }
+        }
+
+        @media(max-width:480px) {
+            .page {
+                padding: 14px 12px 48px;
+            }
+
+            .hero {
+                padding: 0 0 14px;
+            }
+
+            .hero h1 {
+                font-size: 19px;
+            }
+
+            .benefit-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .benefit-item {
+                border-right: none;
+            }
+
+            .benefit-item:nth-last-child(-n+2) {
+                border-bottom: 1px solid var(--bd-lt);
+            }
+
+            .benefit-item:last-child {
+                border-bottom: none;
+            }
+
+            .upload-box {
+                height: 200px;
+                gap: 8px;
+            }
+
+            .preview-frame {
+                height: 252px;
+            }
+
+            .done-frame {
+                height: 312px;
+            }
+
+            .btn-row {
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .btn-row .btn-primary,
+            .btn-row .btn-default {
+                justify-content: center;
+            }
+
+            .faq-q {
+                font-size: 14px;
+                padding: 11px 12px;
+            }
+
+            .faq-a {
+                padding: 0 12px 10px;
+                font-size: 14px;
+            }
+
+            .sec-title {
+                padding: 10px 12px;
+            }
+
+            .sec-body {
+                padding: 12px;
+            }
+
+            .tool-body {
+                padding: 12px;
+            }
+        }
+
+        /* Desktop only: show sidebar inline */
+        @media(min-width:769px) {
+            .sidebar-mobile {
+                display: none;
+            }
+        }
+
+        /* ── FOOTER ── */
+        .ftr {
+            background: var(--bg);
+            border-top: 1px solid var(--bd-lt);
+            margin-top: 32px;
+        }
+
+        .ftr-inner {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 18px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .ftr-copy {
+            font-size: 13px;
+            color: var(--tx-mt);
+        }
+
+        .ftr-links {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .ftr-links a {
+            font-size: 13px;
+            color: var(--tx-sub);
+            text-decoration: none;
+        }
+
+        .ftr-links a:hover {
+            color: var(--tx);
+            text-decoration: underline;
+        }
+
+        @media(max-width:480px) {
+            .ftr-inner {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 16px 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="hdr">
+        <div class="hdr-inner">
+            <a href="#" class="logo">
+                <svg width="18" height="18" viewBox="0 0 17 17" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="1.5" y="2.5" width="14" height="12" rx="2" />
+                    <polyline points="6.5,6.5 11.5,8.5 6.5,10.5" />
+                </svg>
+                FileYuzu
+            </a>
+
+            <nav class="hdr-nav" aria-label="Main navigation">
+                <div class="nav-dd" data-dropdown>
+                    <button class="nav-trigger" type="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="ti ti-layout-grid" aria-hidden="true"></i>
+                        Tools
+                        <i class="ti ti-chevron-down chev" aria-hidden="true"></i>
+                    </button>
+                    <div class="dd-menu" role="menu">
+                        <a href="#" class="dd-item" role="menuitem">
+                            <i class="ti ti-movie" aria-hidden="true"></i>
+                            <span><span class="dd-title">Video Compressor</span><span class="dd-sub">Reduce video file
+                                    size</span></span>
+                        </a>
+                        <a href="#" class="dd-item" role="menuitem">
+                            <i class="ti ti-file-type-pdf" aria-hidden="true"></i>
+                            <span><span class="dd-title">PDF Compressor</span><span class="dd-sub">Optimize PDF
+                                    files</span></span>
+                        </a>
+                        <a href="#" class="dd-item" role="menuitem">
+                            <i class="ti ti-arrows-right-left" aria-hidden="true"></i>
+                            <span><span class="dd-title">Video Converter</span><span class="dd-sub">Convert video
+                                    formats</span></span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="hdr-r">
+                <div class="lang-dd" data-dropdown>
+                    <button class="lang-trigger" type="button" aria-haspopup="listbox" aria-expanded="false">
+                        <span class="lang-flag">🌐</span>
+                        <span class="lang-current">English</span>
+                        <i class="ti ti-chevron-down chev" aria-hidden="true"></i>
+                    </button>
+                    <div class="dd-menu" role="listbox" aria-label="Language">
+                        <button class="dd-item lang-option" type="button" role="option" aria-selected="true"
+                            data-label="English"><span class="lang-flag">🇺🇸</span><span>English</span></button>
+                        <button class="dd-item lang-option" type="button" role="option" data-label="日本語"><span
+                                class="lang-flag">🇯🇵</span><span>日本語</span></button>
+                        <button class="dd-item lang-option" type="button" role="option" data-label="中文"><span
+                                class="lang-flag">🇨🇳</span><span>中文</span></button>
+                        <button class="dd-item lang-option" type="button" role="option" data-label="한국어"><span
+                                class="lang-flag">🇰🇷</span><span>한국어</span></button>
+                        <button class="dd-item lang-option" type="button" role="option" data-label="Tiếng Việt"><span
+                                class="lang-flag">🇻🇳</span><span>Tiếng Việt</span></button>
+                        <button class="dd-item lang-option" type="button" role="option" data-label="Deutsch"><span
+                                class="lang-flag">🇩🇪</span><span>Deutsch</span></button>
+                        <button class="dd-item lang-option" type="button" role="option" data-label="Français"><span
+                                class="lang-flag">🇫🇷</span><span>Français</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+
+        <!-- HERO -->
+        <div class="hero">
+            <h1>Free Online Video Compressor</h1>
+            <p>Reduce video file size online — no upload, no sign-up. Runs entirely in your browser. Supports MP4, MOV,
+                AVI, MKV, WebM.</p>
+        </div>
+
+        <div class="grid">
+            <main>
+
+                <!-- TOOL CARD -->
+                <div class="card">
+                    <div class="tool-body">
+
+                        <!-- ── IDLE ── -->
+                        <div id="s-idle">
+                            <div class="upload-box" onclick="document.getElementById('fi').click()" role="button"
+                                tabindex="0" aria-label="Upload video file">
+                                <i class="ti ti-cloud-upload ico" aria-hidden="true"></i>
+                                <p class="ttl">Drop a video file here</p>
+                                <p class="sub">MP4, MOV, AVI, MKV, WebM · up to 500 MB</p>
+                                <div class="btn-row">
+                                    <button class="btn-primary" onclick="event.stopPropagation()">
+                                        <i class="ti ti-upload" aria-hidden="true"></i> Select file
+                                    </button>
+                                    <button class="btn-default" onclick="event.stopPropagation()">
+                                        <i class="ti ti-player-play" aria-hidden="true"></i> Try sample
+                                    </button>
+                                </div>
+                                <p class="hint hint-desktop">Select one video file to compress</p>
+                                <p class="hint hint-mobile">Select one video file to compress</p>
+                            </div>
+                            <input type="file" id="fi" accept="video/*" style="display:none">
+
+                            <div class="settings">
+                                <div class="setting-row">
+                                    <div class="setting-lbl">Compression preset</div>
+                                    <div class="setting-ctl">
+                                        <div class="preset-group">
+                                            <button class="preset-btn" onclick="setP(this)">Low</button>
+                                            <button class="preset-btn on" onclick="setP(this)">Balance</button>
+                                            <button class="preset-btn" onclick="setP(this)">High</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="setting-row top target-size-row">
+                                    <div class="setting-lbl" style="padding-top:9px">Target file size</div>
+                                    <div class="setting-ctl">
+                                        <div class="size-row">
+                                            <div class="size-input-line">
+                                                <input class="size-input" type="number" placeholder="e.g. 25" id="sz"
+                                                    min="1">
+                                                <span class="unit">MB</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tag-row target-tags-full">
+                                        <span class="tag" onclick="document.getElementById('sz').value=25">Gmail
+                                            25</span>
+                                        <span class="tag" onclick="document.getElementById('sz').value=8">Discord
+                                            8</span>
+                                        <span class="tag" onclick="document.getElementById('sz').value=50">Line
+                                            50</span>
+                                        <span class="tag" onclick="document.getElementById('sz').value=100">Slack
+                                            100</span>
+                                        <span class="tag" onclick="document.getElementById('sz').value=200">WhatsApp
+                                            200</span>
+                                    </div>
+                                </div>
+                                <button class="btn-cta"><i class="ti ti-bolt" aria-hidden="true"></i> Compress
+                                    video</button>
+                            </div>
+                        </div>
+
+                        <!-- ── FILE SELECTED ── -->
+                        <div id="s-file" style="display:none">
+                            <div class="preview-frame">
+                                <div class="preview-main">
+                                    <div class="preview-ph"><i class="ti ti-player-play"
+                                            aria-hidden="true"></i><span>vacation_final_edit.mp4</span></div>
+                                    <div class="vid-info">
+                                        <div class="fn">vacation_final_edit_summer2024.mp4</div>
+                                        <div class="fm">MP4 · 1920×1080 · 30 fps<br>248.6 MB</div>
+                                    </div>
+                                    <button class="btn-rm" aria-label="Remove file"><i class="ti ti-x"
+                                            aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                            <div class="settings">
+                                <div class="setting-row">
+                                    <div class="setting-lbl">Compression preset</div>
+                                    <div class="setting-ctl">
+                                        <div class="preset-group">
+                                            <button class="preset-btn" onclick="setP(this)">Low</button>
+                                            <button class="preset-btn on" onclick="setP(this)">Balance</button>
+                                            <button class="preset-btn" onclick="setP(this)">High</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="setting-row top target-size-row">
+                                    <div class="setting-lbl" style="padding-top:9px">Target file size</div>
+                                    <div class="setting-ctl">
+                                        <div class="size-row">
+                                            <div class="size-input-line">
+                                                <input class="size-input" type="number" placeholder="e.g. 25" min="1">
+                                                <span class="unit">MB</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tag-row target-tags-full">
+                                        <span class="tag">Gmail 25</span>
+                                        <span class="tag">Discord 8</span>
+                                        <span class="tag">Line 50</span>
+                                        <span class="tag">Slack 100</span>
+                                        <span class="tag">WhatsApp 200</span>
+                                    </div>
+                                </div>
+                                <!-- CTA text -->
+                                <button class="btn-cta" id="cta-file">
+                                    <i class="ti ti-bolt" aria-hidden="true"></i>
+                                    <span class="cta-desktop">Compress video</span>
+                                    <span class="cta-mobile" style="display:none">Compress video</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- ── PROCESSING ── -->
+                        <div id="s-proc" style="display:none">
+                            <div class="preview-frame">
+                                <div class="preview-main">
+                                    <div class="preview-ph"><i class="ti ti-player-play"
+                                            aria-hidden="true"></i><span>vacation_final_edit.mp4</span></div>
+                                    <div class="vid-info">
+                                        <div class="fn">vacation_final_edit_summer2024.mp4</div>
+                                        <div class="fm">MP4 · 1920×1080 · 30 fps<br>248.6 MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="settings">
+                                <div class="setting-row" style="opacity:.4;pointer-events:none">
+                                    <div class="setting-lbl">Compression preset</div>
+                                    <div class="setting-ctl">
+                                        <div class="preset-group">
+                                            <button class="preset-btn">Low</button>
+                                            <button class="preset-btn on">Balance</button>
+                                            <button class="preset-btn">High</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="setting-row top target-size-row" style="opacity:.4;pointer-events:none">
+                                    <div class="setting-lbl" style="padding-top:9px">Target file size</div>
+                                    <div class="setting-ctl">
+                                        <div class="size-row">
+                                            <div class="size-input-line">
+                                                <input class="size-input" type="number" placeholder="e.g. 25" min="1"
+                                                    disabled>
+                                                <span class="unit">MB</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tag-row target-tags-full">
+                                        <span class="tag">Gmail 25</span>
+                                        <span class="tag">Discord 8</span>
+                                        <span class="tag">Line 50</span>
+                                        <span class="tag">Slack 100</span>
+                                        <span class="tag">WhatsApp 200</span>
+                                    </div>
+                                </div>
+                                <button class="btn-cta" disabled>
+                                    <span class="spin" aria-hidden="true"><i class="ti ti-loader-2"></i></span>
+                                    <span class="cta-desktop">62% — Compressing video</span>
+                                    <span class="cta-mobile" style="display:none">62% — Compressing…</span>
+                                </button>
+                                <div class="prog-wrap" role="progressbar" aria-valuenow="62" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                    <div class="prog-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ── DONE ── -->
+                        <div id="s-done" style="display:none">
+                            <div class="done-frame">
+                                <div class="preview-main">
+                                    <div class="preview-ph" style="opacity:.25;color:#fff"><i class="ti ti-player-play"
+                                            aria-hidden="true"></i></div>
+                                    <div class="vid-info">
+                                        <div class="fn">vacation_final_edit_summer2024.mp4</div>
+                                        <div class="fm">
+                                            MP4 · 1920×1080 · 30 fps<br>
+                                            <span style="text-decoration:line-through;opacity:.5">248.6 MB</span>
+                                            &nbsp;→&nbsp;<span style="color:#7ee0b8;font-weight:500">38.2 MB</span>
+                                            <span style="color:#a7f3d0;margin-left:4px">↓ 84.6%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="done-cta">
+                                <button class="btn-dl">
+                                    <i class="ti ti-download" aria-hidden="true"></i>
+                                    <span class="cta-desktop">Download video</span>
+                                    <span class="cta-mobile" style="display:none">Download</span>
+                                </button>
+                                <button class="btn-default" style="width:100%;justify-content:center">
+                                    <i class="ti ti-refresh" aria-hidden="true"></i> Compress new files
+                                </button>
+                            </div>
+                        </div>
+
+                    </div><!-- /tool-body -->
+                </div><!-- /card -->
+
+                <!-- HOW TO USE -->
+                <div class="card" style="margin-top:14px">
+                    <h2 class="sec-title">How to Compress a Video Online</h2>
+                    <div class="sec-body">
+                        <div class="steps">
+                            <div class="step">
+                                <div class="step-n">1</div>
+                                <p>Upload a video file from your device or drag and drop it onto the upload area.</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-n">2</div>
+                                <p>Choose a compression preset or set a custom target file size. Use the quick-select
+                                    tags for common platforms like Gmail, Discord, or Slack.</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-n">3</div>
+                                <p>Click Compress and wait a moment. All processing runs locally in your browser — your
+                                    file is never sent to any server. Download when done.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BENEFITS -->
+                <div class="card" style="margin-top:14px">
+                    <h2 class="sec-title">Why Use FileYuzu</h2>
+                    <div class="benefit-grid">
+                        <div class="benefit-item"><i class="ti ti-shield-lock" aria-hidden="true"></i>
+                            <h3>100% private</h3>
+                            <p>Compression runs in your browser via WebAssembly. Your file never leaves your device.</p>
+                        </div>
+                        <div class="benefit-item"><i class="ti ti-bolt" aria-hidden="true"></i>
+                            <h3>No sign-up needed</h3>
+                            <p>Open the page and start. No account, no watermark, no time limit.</p>
+                        </div>
+                        <div class="benefit-item"><i class="ti ti-player-play" aria-hidden="true"></i>
+                            <h3>Simple workflow</h3>
+                            <p>Compress one video at a time with a focused, simple workflow.</p>
+                        </div>
+                        <div class="benefit-item"><i class="ti ti-adjustments" aria-hidden="true"></i>
+                            <h3>Flexible target size</h3>
+                            <p>Set an exact size for any platform — Gmail, Discord, Slack, Line, WhatsApp.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ -->
+                <div class="card" style="margin-top:14px">
+                    <h2 class="sec-title">Video Compressor FAQ</h2>
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <h3 class="faq-heading">
+                                <button class="faq-q" onclick="faq(this)" aria-expanded="false">Is my video uploaded to
+                                    a
+                                    server?<i class="ti ti-chevron-down" aria-hidden="true"></i></button>
+                            </h3>
+                            <p class="faq-a">No. All compression is done locally using FFmpeg.wasm (WebAssembly). Your
+                                video file never leaves your device.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3 class="faq-heading">
+                                <button class="faq-q" onclick="faq(this)" aria-expanded="false">What video formats are
+                                    supported?<i class="ti ti-chevron-down" aria-hidden="true"></i></button>
+                            </h3>
+                            <p class="faq-a">We support MP4, MOV, AVI, MKV, WebM, and most other common formats. Output
+                                is always MP4 for maximum device compatibility.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3 class="faq-heading">
+                                <button class="faq-q" onclick="faq(this)" aria-expanded="false">What is the maximum file
+                                    size?<i class="ti ti-chevron-down" aria-hidden="true"></i></button>
+                            </h3>
+                            <p class="faq-a">The video can be up to 500 MB. For larger files, consider splitting the
+                                video first or using a desktop tool like HandBrake.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3 class="faq-heading">
+                                <button class="faq-q" onclick="faq(this)" aria-expanded="false">What do the Low,
+                                    Balance,
+                                    and High presets mean?<i class="ti ti-chevron-down" aria-hidden="true"></i></button>
+                            </h3>
+                            <p class="faq-a">Balance reduces size by around 60–80% while keeping the video looking good
+                                on most screens. Low produces the smallest file with more visible quality loss. High
+                                keeps near-original quality with moderate reduction.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3 class="faq-heading">
+                                <button class="faq-q" onclick="faq(this)" aria-expanded="false">What does "Disable
+                                    audio"
+                                    do?<i class="ti ti-chevron-down" aria-hidden="true"></i></button>
+                            </h3>
+                            <p class="faq-a">It strips the audio track from the compressed video. Useful for mute clips,
+                                screen recordings, or when you need the smallest possible file size.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3 class="faq-heading">
+                                <button class="faq-q" onclick="faq(this)" aria-expanded="false">Why do the platform tags
+                                    show specific MB values?<i class="ti ti-chevron-down"
+                                        aria-hidden="true"></i></button>
+                            </h3>
+                            <p class="faq-a">Each platform has an attachment size limit. Gmail is 25 MB, Discord 8 MB
+                                (free), Slack 100 MB, and so on. Clicking a tag sets the target size automatically.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3 class="faq-heading">
+                                <button class="faq-q" onclick="faq(this)" aria-expanded="false">Will there be a visible
+                                    quality drop?<i class="ti ti-chevron-down" aria-hidden="true"></i></button>
+                            </h3>
+                            <p class="faq-a">It depends on the preset and original video. For most videos, the Balance
+                                preset produces output that looks fine on phones and standard screens. You can try a
+                                different preset if you are not satisfied.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+
+            <!-- SIDEBAR (desktop only via CSS) -->
+            <aside class="sidebar">
+                <div class="card">
+                    <h2 class="sb-title">Related Video Tools</h2>
+                    <div class="rel-list">
+                        <a href="#" class="rel-item"><i class="ti ti-cut" aria-hidden="true"></i>
+                            <div><span class="rel-name">Video trimmer</span><span class="rel-sub">Cut clips in
+                                    browser</span></div>
+                        </a>
+                        <a href="#" class="rel-item"><i class="ti ti-arrows-right-left" aria-hidden="true"></i>
+                            <div><span class="rel-name">Video converter</span><span class="rel-sub">MP4, MOV,
+                                    WebM…</span></div>
+                        </a>
+                        <a href="#" class="rel-item"><i class="ti ti-movie" aria-hidden="true"></i>
+                            <div><span class="rel-name">GIF maker</span><span class="rel-sub">Video to animated
+                                    GIF</span></div>
+                        </a>
+                        <a href="#" class="rel-item"><i class="ti ti-volume-off" aria-hidden="true"></i>
+                            <div><span class="rel-name">Remove audio</span><span class="rel-sub">Mute video track</span>
+                            </div>
+                        </a>
+                        <a href="#" class="rel-item"><i class="ti ti-photo" aria-hidden="true"></i>
+                            <div><span class="rel-name">Image compressor</span><span class="rel-sub">JPG, PNG,
+                                    WebP</span></div>
+                        </a>
+                        <a href="#" class="rel-item"><i class="ti ti-rotate" aria-hidden="true"></i>
+                            <div><span class="rel-name">Video rotator</span><span class="rel-sub">Rotate 90° /
+                                    180°</span></div>
+                        </a>
+                        <a href="#" class="rel-item"><i class="ti ti-crop" aria-hidden="true"></i>
+                            <div><span class="rel-name">Video cropper</span><span class="rel-sub">Crop aspect
+                                    ratio</span></div>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- SIDEBAR MOBILE (below main content on mobile) -->
+        <div class="sidebar-mobile" style="margin-top:14px">
+            <div class="card">
+                <h2 class="sb-title">Related Video Tools</h2>
+                <div class="rel-list" style="display:grid;grid-template-columns:1fr 1fr">
+                    <a href="#" class="rel-item" style="border-right:1px solid var(--bd-lt)"><i class="ti ti-cut"
+                            aria-hidden="true"></i>
+                        <div><span class="rel-name">Video trimmer</span><span class="rel-sub">Cut clips</span></div>
+                    </a>
+                    <a href="#" class="rel-item"><i class="ti ti-arrows-right-left" aria-hidden="true"></i>
+                        <div><span class="rel-name">Video converter</span><span class="rel-sub">MP4, MOV…</span></div>
+                    </a>
+                    <a href="#" class="rel-item" style="border-right:1px solid var(--bd-lt)"><i class="ti ti-movie"
+                            aria-hidden="true"></i>
+                        <div><span class="rel-name">GIF maker</span><span class="rel-sub">Video to GIF</span></div>
+                    </a>
+                    <a href="#" class="rel-item"><i class="ti ti-volume-off" aria-hidden="true"></i>
+                        <div><span class="rel-name">Remove audio</span><span class="rel-sub">Mute video</span></div>
+                    </a>
+                    <a href="#" class="rel-item" style="border-right:1px solid var(--bd-lt)"><i class="ti ti-photo"
+                            aria-hidden="true"></i>
+                        <div><span class="rel-name">Image compressor</span><span class="rel-sub">JPG, PNG…</span></div>
+                    </a>
+                    <a href="#" class="rel-item"><i class="ti ti-crop" aria-hidden="true"></i>
+                        <div><span class="rel-name">Video cropper</span><span class="rel-sub">Crop ratio</span></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- /page -->
+
+    <!-- FOOTER -->
+    <footer class="ftr">
+        <div class="ftr-inner">
+            <span class="ftr-copy">© 2025 FileYuzu</span>
+            <div class="ftr-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- FLOATING STATE SWITCHER — dev/demo only, remove in production -->
+    <div class="float-sw" role="group" aria-label="Demo state switcher">
+        <div class="float-sw-label">preview state</div>
+        <div class="float-sw-btns">
+            <button class="fsw on" onclick="go('idle',this)">Initial</button>
+            <button class="fsw" onclick="go('file',this)">File</button>
+            <button class="fsw" onclick="go('proc',this)">Processing</button>
+            <button class="fsw" onclick="go('done',this)">Done</button>
+        </div>
+    </div>
+
+    <script>
+        const isMobile = () => window.innerWidth <= 768;
+
+        // On load: set correct file input & CTA text based on screen size
+        function applyMobileMode() {
+            const mobile = isMobile();
+            const fi = document.getElementById('fi');
+            if (fi) fi.multiple = false;
+
+            // Toggle CTA text spans
+            document.querySelectorAll('.cta-desktop').forEach(el => el.style.display = mobile ? 'none' : '');
+            document.querySelectorAll('.cta-mobile').forEach(el => el.style.display = mobile ? '' : 'none');
+        }
+
+        applyMobileMode();
+        window.addEventListener('resize', applyMobileMode);
+
+        document.querySelectorAll('[data-dropdown]').forEach(dd => {
+            const trigger = dd.querySelector('button');
+            trigger.addEventListener('click', e => {
+                e.stopPropagation();
+                const willOpen = !dd.classList.contains('open');
+                document.querySelectorAll('[data-dropdown]').forEach(other => {
+                    other.classList.remove('open');
+                    other.querySelector('button')?.setAttribute('aria-expanded', 'false');
+                });
+                dd.classList.toggle('open', willOpen);
+                trigger.setAttribute('aria-expanded', String(willOpen));
+            });
+        });
+
+        document.querySelectorAll('.lang-option').forEach(option => {
+            option.addEventListener('click', e => {
+                const dd = option.closest('.lang-dd');
+                const label = option.dataset.label;
+                dd.querySelector('.lang-current').textContent = label;
+                dd.querySelectorAll('.lang-option').forEach(btn => btn.setAttribute('aria-selected', 'false'));
+                option.setAttribute('aria-selected', 'true');
+                dd.classList.remove('open');
+                dd.querySelector('.lang-trigger').setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        document.addEventListener('click', () => {
+            document.querySelectorAll('[data-dropdown]').forEach(dd => {
+                dd.classList.remove('open');
+                dd.querySelector('button')?.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') {
+                document.querySelectorAll('[data-dropdown]').forEach(dd => {
+                    dd.classList.remove('open');
+                    dd.querySelector('button')?.setAttribute('aria-expanded', 'false');
+                });
+            }
+        });
+
+        function go(name, btn) {
+            ['idle', 'file', 'proc', 'done'].forEach(s => {
+                document.getElementById('s-' + s).style.display = s === name ? 'block' : 'none';
+            });
+            document.querySelectorAll('.fsw').forEach(b => b.classList.remove('on'));
+            btn.classList.add('on');
+        }
+
+        function setP(btn) {
+            btn.closest('.preset-group').querySelectorAll('.preset-btn').forEach(b => b.classList.remove('on'));
+            btn.classList.add('on');
+        }
+
+        function faq(btn) {
+            const item = btn.closest('.faq-item');
+            const open = item.classList.toggle('open');
+            btn.setAttribute('aria-expanded', String(open));
+        }
+    </script>
+</body>
+
+</html>
+ 

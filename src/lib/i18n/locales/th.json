@@ -1,0 +1,102 @@
+{
+  "compress_video.seo.title": "FileYuzu — เครื่องมือบีบอัดวิดีโอออนไลน์ฟรี",
+  "compress_video.seo.description": "บีบอัดวิดีโอ MP4, MOV, AVI, MKV และ WebM ออนไลน์ด้วย FileYuzu ลดขนาดไฟล์วิดีโออย่างเป็นส่วนตัวในเบราว์เซอร์ของคุณ โดยไม่ต้องอัปโหลดและไม่ต้องสมัครสมาชิก",
+  "compress_video.hero.title": "เครื่องมือบีบอัดวิดีโอออนไลน์ฟรี",
+  "compress_video.hero.description": "ลดขนาดไฟล์วิดีโอออนไลน์ — ไม่ต้องอัปโหลด ไม่ต้องสมัครสมาชิก ทำงานทั้งหมดในเบราว์เซอร์ของคุณ รองรับ MP4, MOV, AVI, MKV, WebM",
+  "compress_video.upload.title": "วางไฟล์วิดีโอที่นี่",
+  "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · สูงสุด 500 MB",
+  "compress_video.upload.btn_select": "เลือกไฟล์",
+  "compress_video.upload.btn_sample": "ลองใช้ไฟล์ตัวอย่าง",
+  "compress_video.upload.hint": "เลือกไฟล์วิดีโอ 1 ไฟล์เพื่อบีบอัด",
+  "compress_video.settings.auto_optimize": "ปรับให้เหมาะสมอัตโนมัติ",
+  "compress_video.settings.size_lbl": "ขนาดไฟล์เป้าหมาย",
+  "compress_video.btn.compress": "บีบอัดวิดีโอ",
+  "compress_video.btn.download": "ดาวน์โหลดวิดีโอ",
+  "compress_video.btn.compress_new": "บีบอัดไฟล์ใหม่",
+  "compress_video.proc.compressing": "กำลังบีบอัดวิดีโอ",
+  "compress_video.how_to_use.title": "วิธีบีบอัดวิดีโอออนไลน์",
+  "compress_video.how_to_use.steps": [
+    "อัปโหลดไฟล์วิดีโอจากอุปกรณ์ของคุณ หรือลากแล้ววางลงในพื้นที่อัปโหลด",
+    "เลือกพรีเซ็ตการบีบอัด หรือตั้งค่าขนาดไฟล์เป้าหมายเอง ใช้แท็กเลือกด่วนสำหรับแพลตฟอร์มยอดนิยม เช่น Gmail, Discord หรือ Slack",
+    "คลิกบีบอัดแล้วรอสักครู่ การประมวลผลทั้งหมดทำงานภายในเบราว์เซอร์ของคุณ — ไฟล์ของคุณจะไม่ถูกส่งไปยังเซิร์ฟเวอร์ใด ๆ ดาวน์โหลดเมื่อเสร็จแล้ว"
+  ],
+  "compress_video.why_use.title": "ทำไมต้องใช้ FileYuzu",
+  "compress_video.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "เป็นส่วนตัว 100%",
+      "description": "การบีบอัดทำงานในเบราว์เซอร์ของคุณผ่าน WebAssembly ไฟล์ของคุณจะไม่ออกจากอุปกรณ์"
+    },
+    {
+      "icon": "bolt",
+      "title": "ไม่ต้องสมัครสมาชิก",
+      "description": "เปิดหน้าเว็บแล้วเริ่มใช้งานได้ทันที ไม่ต้องมีบัญชี ไม่มีลายน้ำ ไม่มีการจำกัดเวลา"
+    },
+    {
+      "icon": "player-play",
+      "title": "ขั้นตอนเรียบง่าย",
+      "description": "บีบอัดวิดีโอทีละ 1 ไฟล์ด้วยขั้นตอนที่เรียบง่ายและใช้งานง่าย"
+    },
+    {
+      "icon": "adjustments",
+      "title": "กำหนดขนาดเป้าหมายได้ยืดหยุ่น",
+      "description": "ตั้งค่าขนาดที่แน่นอนสำหรับทุกแพลตฟอร์ม — Gmail, Discord, Slack, LINE, WhatsApp"
+    }
+  ],
+  "compress_video.faq.title": "คำถามที่พบบ่อยเกี่ยวกับเครื่องมือบีบอัดวิดีโอ",
+  "compress_video.faq.items": [
+    {
+      "q": "วิดีโอของฉันถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
+      "a": "ไม่ การบีบอัดทั้งหมดทำงานในเครื่องโดยใช้ FFmpeg.wasm (WebAssembly) ไฟล์วิดีโอของคุณจะไม่ออกจากอุปกรณ์"
+    },
+    {
+      "q": "รองรับไฟล์วิดีโอรูปแบบใดบ้าง?",
+      "a": "เรารองรับ MP4, MOV, AVI, MKV, WebM และรูปแบบทั่วไปอื่น ๆ ส่วนใหญ่ ไฟล์ผลลัพธ์จะเป็น MP4 เสมอเพื่อความเข้ากันได้สูงสุดกับอุปกรณ์"
+    },
+    {
+      "q": "ขนาดไฟล์สูงสุดคือเท่าไร?",
+      "a": "วิดีโอสามารถมีขนาดได้สูงสุด 500 MB สำหรับไฟล์ที่ใหญ่กว่านี้ ควรพิจารณาแบ่งวิดีโอก่อน หรือใช้เครื่องมือเดสก์ท็อปอย่าง HandBrake"
+    },
+    {
+      "q": "พรีเซ็ต Low, Balance และ High หมายถึงอะไร?",
+      "a": "Balance จะลดขนาดประมาณ 60–80% ในขณะที่ยังคงทำให้วิดีโอดูดีบนหน้าจอส่วนใหญ่ Low จะสร้างไฟล์ที่เล็กที่สุดแต่มีการสูญเสียคุณภาพที่เห็นได้ชัดมากขึ้น ส่วน High จะคงคุณภาพใกล้เคียงต้นฉบับพร้อมการลดขนาดในระดับปานกลาง"
+    },
+    {
+      "q": "\"Disable audio\" ทำอะไร?",
+      "a": "ตัวเลือกนี้จะลบแทร็กเสียงออกจากวิดีโอที่บีบอัดแล้ว เหมาะสำหรับคลิปไม่มีเสียง การบันทึกหน้าจอ หรือเมื่อคุณต้องการขนาดไฟล์ที่เล็กที่สุดเท่าที่เป็นไปได้"
+    },
+    {
+      "q": "ทำไมแท็กแพลตฟอร์มจึงแสดงค่า MB เฉพาะ?",
+      "a": "แต่ละแพลตฟอร์มมีขีดจำกัดขนาดไฟล์แนบ Gmail คือ 25 MB, Discord คือ 8 MB (ฟรี), Slack คือ 100 MB และอื่น ๆ เมื่อคลิกแท็ก ระบบจะตั้งค่าขนาดเป้าหมายให้อัตโนมัติ"
+    },
+    {
+      "q": "คุณภาพจะลดลงอย่างเห็นได้ชัดหรือไม่?",
+      "a": "ขึ้นอยู่กับพรีเซ็ตและวิดีโอต้นฉบับ สำหรับวิดีโอส่วนใหญ่ พรีเซ็ต Balance จะให้ผลลัพธ์ที่ดูดีบนโทรศัพท์และหน้าจอทั่วไป หากยังไม่พอใจ คุณสามารถลองพรีเซ็ตอื่นได้"
+    }
+  ],
+  "related_tools.title": "เครื่องมือวิดีโอที่เกี่ยวข้อง",
+  "common.tools": "เครื่องมือ",
+  "common.language": "ภาษา",
+  "common.footer.copyright": "© 2025 FileYuzu",
+  "common.footer.privacy": "ความเป็นส่วนตัว",
+  "common.footer.terms": "ข้อกำหนด",
+  "common.footer.contact": "ติดต่อ",
+  "tool.compress_video.title": "เครื่องมือบีบอัดวิดีโอ",
+  "tool.compress_video.description": "ลดขนาดไฟล์วิดีโอ",
+  "tool.pdf_compressor.title": "เครื่องมือบีบอัด PDF",
+  "tool.pdf_compressor.description": "ปรับแต่งไฟล์ PDF ให้เหมาะสม",
+  "tool.video_converter.title": "เครื่องมือแปลงวิดีโอ",
+  "tool.video_converter.description": "แปลงรูปแบบวิดีโอ",
+  "tool.video_trimmer.title": "เครื่องมือตัดวิดีโอ",
+  "tool.video_trimmer.description": "ตัดคลิปในเบราว์เซอร์",
+  "tool.gif_maker.title": "เครื่องมือสร้าง GIF",
+  "tool.gif_maker.description": "แปลงวิดีโอเป็น GIF แบบเคลื่อนไหว",
+  "tool.remove_audio.title": "ลบเสียง",
+  "tool.remove_audio.description": "ปิดเสียงแทร็กวิดีโอ",
+  "tool.image_compressor.title": "เครื่องมือบีบอัดรูปภาพ",
+  "tool.image_compressor.description": "JPG, PNG, WebP",
+  "tool.video_rotator.title": "เครื่องมือหมุนวิดีโอ",
+  "tool.video_rotator.description": "หมุน 90° / 180°",
+  "tool.video_cropper.title": "เครื่องมือตัดครอบวิดีโอ",
+  "tool.video_cropper.description": "ตัดครอบตามอัตราส่วนภาพ"
+}
