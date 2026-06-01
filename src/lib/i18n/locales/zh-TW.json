@@ -1,4 +1,18 @@
 {
+  "_comment_home": "================ Home ================",
+  "home.seo.title": "FileYuzu — 免費線上影片工具",
+  "home.seo.description": "FileYuzu 提供免費、私密的線上影片與檔案工具。完全在瀏覽器中執行，無需上傳或註冊。",
+  "home.hero.title": "免費線上工具",
+  "home.hero.description": "私密、快速、簡單的工具，直接在瀏覽器中執行。您的檔案永遠不會離開您的裝置。",
+  "home.pill.private": "檔案永不離開您的裝置",
+  "home.pill.instant": "即時處理，無需排隊",
+  "home.pill.free": "100% 免費",
+  "home.why.private.title": "100% 私密",
+  "home.why.private.desc": "壓縮通過 WebAssembly 在瀏覽器中執行。您的檔案永遠不會離開裝置。",
+  "home.why.instant.title": "無需註冊",
+  "home.why.instant.desc": "開啟頁面即可開始。無需帳號、無水印、無時間限制。",
+  "home.why.device.title": "支援任何裝置",
+  "home.why.device.desc": "全面自適應設計。不需安裝任何應用程式。",
   "compress_video.seo.title": "FileYuzu — 免費線上影片壓縮工具",
   "compress_video.seo.description": "使用 FileYuzu 線上壓縮 MP4、MOV、AVI、MKV 和 WebM 影片。無需上傳、無需註冊，即可在瀏覽器中私密地減少影片檔案大小。",
   "compress_video.hero.title": "免費線上影片壓縮工具",
@@ -98,5 +112,90 @@
   "tool.video_rotator.title": "影片旋轉工具",
   "tool.video_rotator.description": "旋轉 90° / 180°",
   "tool.video_cropper.title": "影片裁切工具",
-  "tool.video_cropper.description": "依照長寬比裁切"
+  "tool.video_cropper.description": "依照長寬比裁切",
+  "_comment_video_converter": "================ Video Converter ================",
+  "video_converter.seo.title": "FileYuzu — Free Online Video Converter",
+  "video_converter.seo.description": "Convert video files between MP4, WebM, MOV, MKV, and MP3 formats online with FileYuzu. Fast and private conversion in your browser.",
+  "video_converter.hero.title": "Free Online Video Converter",
+  "video_converter.hero.description": "Convert video files easily and securely in your browser. Supports MP4, WebM, MOV, MKV, and MP3.",
+  "video_converter.upload.title": "Drop a video file here",
+  "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM",
+  "video_converter.upload.btn_select": "Select file",
+  "video_converter.upload.btn_sample": "Try sample",
+  "video_converter.upload.hint": "Select one video file to convert",
+  "video_converter.settings.format_lbl": "Target format",
+  "video_converter.btn.convert": "Convert video",
+  "video_converter.btn.download": "Download file",
+  "video_converter.btn.convert_new": "Convert new files",
+  "video_converter.proc.converting": "Converting video",
+  "video_converter.how_to_use.title": "How to Convert a Video Online",
+  "video_converter.how_to_use.steps": [
+    "Upload a video file from your device or drag and drop it onto the upload area.",
+    "Select the desired output format (e.g., MP4, WebM, MP3) from the Target format options.",
+    "Click Convert and wait. The process runs locally on your device for complete privacy. Download when finished."
+  ],
+  "video_converter.why_use.title": "Why Use FileYuzu Converter",
+  "video_converter.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Conversion runs locally in your browser. Your files never leave your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up required",
+      "description": "Start converting immediately without creating an account or dealing with limits."
+    },
+    {
+      "icon": "player-play",
+      "title": "Multiple formats",
+      "description": "Convert to popular formats like MP4, WebM, MOV, or extract audio as MP3."
+    }
+  ],
+  "video_converter.faq.title": "Video Converter FAQ",
+  "video_converter.faq.items": [
+    {
+      "q": "Are my files uploaded to a server?",
+      "a": "No, all conversion is done locally on your device using WebAssembly. We do not store or process your files on our servers."
+    },
+    {
+      "q": "Can I convert video to audio?",
+      "a": "Yes! Just select 'MP3' as the target format and the audio track will be extracted and converted."
+    },
+    {
+      "q": "What formats are supported?",
+      "a": "We support input from most common video formats and can convert them to MP4, WebM, MOV, MKV, or MP3."
+    }
+  ],
+  "_comment_categories": "================ Tool Categories ================",
+  "home.category.video": "影片",
+  "home.category.pdf": "PDF",
+  "home.faq.title": "常見問題",
+  "_comment_home_faq": "6 個 SEO 最佳化 FAQ — 涵蓋：免費、無上傳/隱私、無需帳號、可用工具、檔案大小限制、行動裝置支援",
+  "home.faq.items": [
+    {
+      "q": "FileYuzu 上的所有工具都免費嗎？",
+      "a": "是的，FileYuzu 的每個工具完全免費，無隐藏費用、無訂閱、無使用限制。您可以不限次數地健縮影片、健縮 PDF 以及轉換影片格式，完全免費。"
+    },
+    {
+      "q": "我的檔案會被上傳到伺服器嗎？",
+      "a": "不會。所有處理完全在您的瀏覽器中進行，使用 WebAssembly 技術。您的檔案永遠不會離開裝置，也不會傳輸到任何伺服器，資料完全私密。"
+    },
+    {
+      "q": "使用工具需要建立帳號嗎？",
+      "a": "不需要建立帳號或註冊。開啟您需要的工具即可立即開始 — 不需註冊、不需電郵、不需密碼。"
+    },
+    {
+      "q": "FileYuzu 提供哪些工具？",
+      "a": "FileYuzu 目前提供免費線上影片壓縮工具、PDF 壓縮工具，以及支援 MP4、WebM、MOV、MKV 與 MP3 等格式的影片轉換工具。將持續新增更多工具。"
+    },
+    {
+      "q": "檔案大小有限制嗎？",
+      "a": "由於所有處理在瀏覽器中進行，因此沒有伺服器端的大小限制。實際上大多數工具可處理最大 500 MB 的檔案。效能取決於您裝置的記憶體與處理能力。"
+    },
+    {
+      "q": "可以在手機或平板上使用 FileYuzu 嗎？",
+      "a": "可以！FileYuzu 完全自適應，支援智慧型手機、平板電腦與桌機。不需安裝任何應用程式 — 在行動瀏覽器中開啟網站即可使用所有工具。"
+    }
+  ]
 }

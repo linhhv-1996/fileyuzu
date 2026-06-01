@@ -1,8 +1,13 @@
 import type { LayoutLoad } from './$types';
 import { SUPPORTED_LANGUAGES } from '$lib/i18n/config';
-import { error } from '@sveltejs/kit';
+import { error, redirect } from '@sveltejs/kit';
 
-export const load: LayoutLoad = async ({ params }) => {
+export const load: LayoutLoad = async ({ params, url }) => {
+    if (params.lang === 'en') {
+        const newPath = url.pathname.replace(/^\/en/, '') || '/';
+        redirect(301, newPath + url.search);
+    }
+
     const lang = params.lang || 'en';
     
     if (params.lang && !SUPPORTED_LANGUAGES.some(l => l.code === lang)) {

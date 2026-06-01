@@ -1,4 +1,18 @@
 {
+  "_comment_home": "================ Home ================",
+  "home.seo.title": "FileYuzu — Бесплатные онлайн-инструменты для видео",
+  "home.seo.description": "FileYuzu предлагает бесплатные онлайн-инструменты для видео и файлов. Работает в браузере без загрузки и регистрации.",
+  "home.hero.title": "Бесплатные онлайн-инструменты",
+  "home.hero.description": "Быстрые и простые инструменты, работающие прямо в браузере. Файлы никогда не покидают ваше устройство.",
+  "home.pill.private": "Файлы остаются на устройстве",
+  "home.pill.instant": "Мгновенно, без очереди",
+  "home.pill.free": "100% бесплатно",
+  "home.why.private.title": "100% конфиденциально",
+  "home.why.private.desc": "Сжатие выполняется в браузере через WebAssembly. Файл никогда не покидает устройство.",
+  "home.why.instant.title": "Без регистрации",
+  "home.why.instant.desc": "Откройте страницу и начните. Никакого аккаунта, водяных знаков, ограничений по времени.",
+  "home.why.device.title": "Работает на любом устройстве",
+  "home.why.device.desc": "Полностью адаптивный. Не нужно устанавливать приложение.",
   "compress_video.seo.title": "FileYuzu — Бесплатный онлайн-компрессор видео",
   "compress_video.seo.description": "Сжимайте видео MP4, MOV, AVI, MKV и WebM онлайн с FileYuzu. Уменьшайте размер файла прямо в браузере — без загрузки на сервер и без регистрации.",
   "compress_video.hero.title": "Бесплатный онлайн-компрессор видео",
@@ -98,5 +112,90 @@
   "tool.video_rotator.title": "Поворот видео",
   "tool.video_rotator.description": "Повернуть на 90° / 180°",
   "tool.video_cropper.title": "Кадрирование видео",
-  "tool.video_cropper.description": "Обрезать соотношение сторон"
+  "tool.video_cropper.description": "Обрезать соотношение сторон",
+  "_comment_video_converter": "================ Video Converter ================",
+  "video_converter.seo.title": "FileYuzu — Free Online Video Converter",
+  "video_converter.seo.description": "Convert video files between MP4, WebM, MOV, MKV, and MP3 formats online with FileYuzu. Fast and private conversion in your browser.",
+  "video_converter.hero.title": "Free Online Video Converter",
+  "video_converter.hero.description": "Convert video files easily and securely in your browser. Supports MP4, WebM, MOV, MKV, and MP3.",
+  "video_converter.upload.title": "Drop a video file here",
+  "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM",
+  "video_converter.upload.btn_select": "Select file",
+  "video_converter.upload.btn_sample": "Try sample",
+  "video_converter.upload.hint": "Select one video file to convert",
+  "video_converter.settings.format_lbl": "Target format",
+  "video_converter.btn.convert": "Convert video",
+  "video_converter.btn.download": "Download file",
+  "video_converter.btn.convert_new": "Convert new files",
+  "video_converter.proc.converting": "Converting video",
+  "video_converter.how_to_use.title": "How to Convert a Video Online",
+  "video_converter.how_to_use.steps": [
+    "Upload a video file from your device or drag and drop it onto the upload area.",
+    "Select the desired output format (e.g., MP4, WebM, MP3) from the Target format options.",
+    "Click Convert and wait. The process runs locally on your device for complete privacy. Download when finished."
+  ],
+  "video_converter.why_use.title": "Why Use FileYuzu Converter",
+  "video_converter.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Conversion runs locally in your browser. Your files never leave your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up required",
+      "description": "Start converting immediately without creating an account or dealing with limits."
+    },
+    {
+      "icon": "player-play",
+      "title": "Multiple formats",
+      "description": "Convert to popular formats like MP4, WebM, MOV, or extract audio as MP3."
+    }
+  ],
+  "video_converter.faq.title": "Video Converter FAQ",
+  "video_converter.faq.items": [
+    {
+      "q": "Are my files uploaded to a server?",
+      "a": "No, all conversion is done locally on your device using WebAssembly. We do not store or process your files on our servers."
+    },
+    {
+      "q": "Can I convert video to audio?",
+      "a": "Yes! Just select 'MP3' as the target format and the audio track will be extracted and converted."
+    },
+    {
+      "q": "What formats are supported?",
+      "a": "We support input from most common video formats and can convert them to MP4, WebM, MOV, MKV, or MP3."
+    }
+  ],
+  "_comment_categories": "================ Tool Categories ================",
+  "home.category.video": "Видео",
+  "home.category.pdf": "PDF",
+  "home.faq.title": "Частые вопросы",
+  "_comment_home_faq": "6 SEO-оптимизированных FAQ — охватывают: бесплатно, без загрузки/конфиденциальность, без аккаунта, доступные инструменты, ограничение размера, мобильная поддержка",
+  "home.faq.items": [
+    {
+      "q": "Все инструменты FileYuzu бесплатные?",
+      "a": "Да, все инструменты FileYuzu полностью бесплатны: без скрытых платежей, подписок и ограничений. Сжатие видео, PDF и конвертация форматов — всё бесплатно и без ограничений по количеству."
+    },
+    {
+      "q": "Мои файлы загружаются на сервер?",
+      "a": "Нет. Вся обработка происходит непосредственно в вашем браузере с помощью технологии WebAssembly. Файлы не покидают устройство и никуда не отправляются, ваши данные полностью конфиденциальны."
+    },
+    {
+      "q": "Нужно ли создавать аккаунт для использования инструментов?",
+      "a": "Аккаунт и регистрация не нужны. Откройте нужный инструмент и сразу начинайте — без регистрации, электронной почты и пароля."
+    },
+    {
+      "q": "Какие инструменты доступны на FileYuzu?",
+      "a": "FileYuzu предлагает бесплатный онлайн-компрессор видео, компрессор PDF, а также конвертер видео с поддержкой форматов MP4, WebM, MOV, MKV и MP3. Новые инструменты регулярно добавляются."
+    },
+    {
+      "q": "Есть ли ограничение на размер файла?",
+      "a": "Серверных ограничений нет, поскольку вся обработка происходит в браузере. На практике большинство инструментов работает с файлами до 500 МБ. Производительность зависит от памяти и мощности вашего устройства."
+    },
+    {
+      "q": "Можно ли использовать FileYuzu на телефоне или планшете?",
+      "a": "Да! FileYuzu полностью адаптивен и работает на смартфонах, планшетах и на пк. Устанавливать приложение не нужно — просто откройте сайт в мобильном браузере и используйте любой инструмент."
+    }
+  ]
 }

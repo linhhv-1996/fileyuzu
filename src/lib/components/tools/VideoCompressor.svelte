@@ -1,7 +1,12 @@
 <script lang="ts">
     import { formatSize } from '$lib/utils';
+    import { compressVideoFile } from '$lib/utils/video-compressor';
     
-    let { texts = {} }: { texts?: any } = $props();
+    interface Props {
+        texts?: any;
+    }
+    
+    let { texts = {} }: Props = $props();
     
     let status = $state<'idle' | 'file' | 'proc' | 'done'>('idle');
     let fileInput = $state<HTMLInputElement | undefined>();
@@ -11,9 +16,9 @@
     let videoUrl = $state<string | null>(null);
     let isDragging = $state(false);
     
-    // mock processing
     let progress = $state(0);
     let compressedSize = $state(0);
+    let compressedFile = $state<File | null>(null);
     
     function setFile(file: File) {
         selectedFile = file;
@@ -57,6 +62,7 @@
     
     function removeFile() {
         selectedFile = null;
+        compressedFile = null;
         if (videoUrl) {
             URL.revokeObjectURL(videoUrl);
             videoUrl = null;
@@ -65,23 +71,38 @@
         status = 'idle';
     }
     
-    function startCompression() {
+    async function startCompression() {
         if (!selectedFile) return;
         status = 'proc';
         progress = 0;
+        compressedFile = null;
         
-        // Mock progress
-        const interval = setInterval(() => {
-            progress += Math.floor(Math.random() * 10) + 5;
-            if (progress >= 100) {
-                progress = 100;
-                clearInterval(interval);
-                setTimeout(() => {
-                    compressedSize = selectedFile!.size * 0.15; // mock 85% compression
-                    status = 'done';
-                }, 500);
+        try {
+            let targetMB = 25;
+            if (autoOptimize) {
+                // Aim for about 70% of original size to guarantee compression happens
+                const originalMB = selectedFile.size / (1024 * 1024);
+                targetMB = Math.max(0.1, originalMB * 0.7);
+            } else {
+                targetMB = parseFloat(targetSize) || 25;
             }
-        }, 300);
+
+            const resultFile = await compressVideoFile(selectedFile, targetMB, (p) => {
+                progress = p;
+            });
+            
+            progress = 100;
+            compressedSize = resultFile.size;
+            compressedFile = resultFile;
+            
+            if (videoUrl) URL.revokeObjectURL(videoUrl);
+            videoUrl = URL.createObjectURL(resultFile);
+            
+            status = 'done';
+        } catch (err) {
+            console.error('Compression error:', err);
+            status = 'file';
+        }
     }
     
     function reset() {
@@ -134,7 +155,7 @@
                     </div>
                 </div>
                 <div class="setting-row top target-size-row" style={autoOptimize ? 'opacity:.4;pointer-events:none' : ''}>
-                    <div class="setting-lbl" style="padding-top:9px">{texts.sizeLbl}</div>
+                    <div class="setting-lbl" >{texts.sizeLbl}</div>
                     <div class="setting-ctl">
                         <div class="size-row">
                             <div class="size-input-line">
@@ -144,11 +165,13 @@
                         </div>
                     </div>
                     <div class="tag-row target-tags-full">
-                        <span class="tag" class:on={targetSize === '25'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '25'} onkeydown={(e) => e.key==='Enter' && (targetSize='25')}>Gmail/25MB</span>
-                        <span class="tag" class:on={targetSize === '8'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '8'} onkeydown={(e) => e.key==='Enter' && (targetSize='8')}>Discord/8MB</span>
-                        <span class="tag" class:on={targetSize === '50'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '50'} onkeydown={(e) => e.key==='Enter' && (targetSize='50')}>Line/50MB</span>
-                        <span class="tag" class:on={targetSize === '100'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '100'} onkeydown={(e) => e.key==='Enter' && (targetSize='100')}>Slack/100MB</span>
-                        <span class="tag" class:on={targetSize === '200'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '200'} onkeydown={(e) => e.key==='Enter' && (targetSize='200')}>WhatsApp/200MB</span>
+                        <span class="tag" class:on={targetSize === '10'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '10'} onkeydown={(e) => e.key==='Enter' && (targetSize='10')}>Discord <span class="tag-sz">10MB</span></span>
+                        <span class="tag" class:on={targetSize === '25'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '25'} onkeydown={(e) => e.key==='Enter' && (targetSize='25')}>Gmail / Messenger <span class="tag-sz">25MB</span></span>
+                        <span class="tag" class:on={targetSize === '50'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '50'} onkeydown={(e) => e.key==='Enter' && (targetSize='50')}>Line <span class="tag-sz">50MB</span></span>
+                        <span class="tag" class:on={targetSize === '64'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '64'} onkeydown={(e) => e.key==='Enter' && (targetSize='64')}>WhatsApp <span class="tag-sz">64MB</span></span>
+                        <span class="tag" class:on={targetSize === '100'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '100'} onkeydown={(e) => e.key==='Enter' && (targetSize='100')}>Slack <span class="tag-sz">100MB</span></span>
+                        <span class="tag" class:on={targetSize === '512'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '512'} onkeydown={(e) => e.key==='Enter' && (targetSize='512')}>Twitter / X <span class="tag-sz">512MB</span></span>
+                        <span class="tag" class:on={targetSize === '2000'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '2000'} onkeydown={(e) => e.key==='Enter' && (targetSize='2000')}>Telegram <span class="tag-sz">2000MB</span></span>
                     </div>
                 </div>
                 <hr class="settings-divider">
@@ -156,21 +179,36 @@
             </div>
         {/if}
 
-        {#if status === 'file'}
-            <div class="preview-frame">
+        {#if status !== 'idle'}
+            <div class={status === 'done' ? "done-frame" : "preview-frame"}>
                 <div class="preview-main" style="overflow: hidden; position: relative;">
                     {#if videoUrl}
                         <video src={videoUrl} style="width:100%;height:100%;object-fit:contain;position:absolute;top:0;left:0;border-radius:inherit;background:#000;" controls></video>
                     {:else}
-                        <div class="preview-ph"><i class="ti ti-player-play" aria-hidden="true"></i><span>{selectedFile?.name}</span></div>
+                        <div class="preview-ph" style={status === 'done' ? "opacity:.25;color:#fff" : ""}><i class="ti ti-player-play" aria-hidden="true"></i><span>{status === 'done' ? '' : selectedFile?.name}</span></div>
                     {/if}
-                    <button class="btn-rm" aria-label="Remove file" onclick={removeFile}><i class="ti ti-x" aria-hidden="true"></i></button>
+                    {#if status === 'file'}
+                        <button class="btn-rm" aria-label="Remove file" onclick={removeFile}><i class="ti ti-x" aria-hidden="true"></i></button>
+                    {/if}
                 </div>
             </div>
+            
             <div class="vid-info">
                 <div class="fn">{selectedFile?.name}</div>
-                <div class="fm">{getFileExtension(selectedFile?.name || '')} · {formatSize(selectedFile?.size || 0)}</div>
+                <div class="fm">
+                    {getFileExtension(selectedFile?.name || '')} · 
+                    {#if status === 'done'}
+                        <span style="text-decoration:line-through;opacity:.6">{formatSize(selectedFile?.size || 0)}</span>
+                        &nbsp;→&nbsp;<span style="color:var(--green);font-weight:600">{formatSize(compressedSize)}</span>
+                        <span style="color:var(--green);margin-left:4px;font-weight:500">↓ {((1 - compressedSize / (selectedFile?.size || 1)) * 100).toFixed(1)}%</span>
+                    {:else}
+                        {formatSize(selectedFile?.size || 0)}
+                    {/if}
+                </div>
             </div>
+        {/if}
+
+        {#if status === 'file'}
             <div class="settings">
                 <div class="setting-row">
                     <div class="setting-lbl">{texts.autoOptimizeLbl}</div>
@@ -179,7 +217,7 @@
                     </div>
                 </div>
                 <div class="setting-row top target-size-row" style={autoOptimize ? 'opacity:.4;pointer-events:none' : ''}>
-                    <div class="setting-lbl" style="padding-top:9px">{texts.sizeLbl}</div>
+                    <div class="setting-lbl" >{texts.sizeLbl}</div>
                     <div class="setting-ctl">
                         <div class="size-row">
                             <div class="size-input-line">
@@ -189,11 +227,13 @@
                         </div>
                     </div>
                     <div class="tag-row target-tags-full">
-                        <span class="tag" class:on={targetSize === '25'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '25'} onkeydown={(e) => e.key==='Enter' && (targetSize='25')}>Gmail/25MB</span>
-                        <span class="tag" class:on={targetSize === '8'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '8'} onkeydown={(e) => e.key==='Enter' && (targetSize='8')}>Discord/8MB</span>
-                        <span class="tag" class:on={targetSize === '50'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '50'} onkeydown={(e) => e.key==='Enter' && (targetSize='50')}>Line/50MB</span>
-                        <span class="tag" class:on={targetSize === '100'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '100'} onkeydown={(e) => e.key==='Enter' && (targetSize='100')}>Slack/100MB</span>
-                        <span class="tag" class:on={targetSize === '200'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '200'} onkeydown={(e) => e.key==='Enter' && (targetSize='200')}>WhatsApp/200MB</span>
+                        <span class="tag" class:on={targetSize === '10'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '10'} onkeydown={(e) => e.key==='Enter' && (targetSize='10')}>Discord <span class="tag-sz">10MB</span></span>
+                        <span class="tag" class:on={targetSize === '25'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '25'} onkeydown={(e) => e.key==='Enter' && (targetSize='25')}>Gmail / Messenger <span class="tag-sz">25MB</span></span>
+                        <span class="tag" class:on={targetSize === '50'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '50'} onkeydown={(e) => e.key==='Enter' && (targetSize='50')}>Line <span class="tag-sz">50MB</span></span>
+                        <span class="tag" class:on={targetSize === '64'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '64'} onkeydown={(e) => e.key==='Enter' && (targetSize='64')}>WhatsApp <span class="tag-sz">64MB</span></span>
+                        <span class="tag" class:on={targetSize === '100'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '100'} onkeydown={(e) => e.key==='Enter' && (targetSize='100')}>Slack <span class="tag-sz">100MB</span></span>
+                        <span class="tag" class:on={targetSize === '512'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '512'} onkeydown={(e) => e.key==='Enter' && (targetSize='512')}>Twitter / X <span class="tag-sz">512MB</span></span>
+                        <span class="tag" class:on={targetSize === '2000'} role="button" tabindex={autoOptimize ? -1 : 0} onclick={() => targetSize = '2000'} onkeydown={(e) => e.key==='Enter' && (targetSize='2000')}>Telegram <span class="tag-sz">2000MB</span></span>
                     </div>
                 </div>
                 <hr class="settings-divider">
@@ -206,19 +246,6 @@
         {/if}
 
         {#if status === 'proc'}
-            <div class="preview-frame">
-                <div class="preview-main" style="overflow: hidden; position: relative;">
-                    {#if videoUrl}
-                        <video src={videoUrl} style="width:100%;height:100%;object-fit:cover;position:absolute;top:0;left:0;border-radius:inherit;opacity:0.5" muted></video>
-                    {:else}
-                        <div class="preview-ph"><i class="ti ti-player-play" aria-hidden="true"></i><span>{selectedFile?.name}</span></div>
-                    {/if}
-                </div>
-            </div>
-            <div class="vid-info">
-                <div class="fn">{selectedFile?.name}</div>
-                <div class="fm">{getFileExtension(selectedFile?.name || '')} · {formatSize(selectedFile?.size || 0)}</div>
-            </div>
             <div class="settings">
                 <div class="setting-row" style="opacity:.4;pointer-events:none">
                     <div class="setting-lbl">{texts.autoOptimizeLbl}</div>
@@ -227,7 +254,7 @@
                     </div>
                 </div>
                 <div class="setting-row top target-size-row" style="opacity:.4;pointer-events:none">
-                    <div class="setting-lbl" style="padding-top:9px">{texts.sizeLbl}</div>
+                    <div class="setting-lbl" >{texts.sizeLbl}</div>
                     <div class="setting-ctl">
                         <div class="size-row">
                             <div class="size-input-line">
@@ -237,11 +264,13 @@
                         </div>
                     </div>
                     <div class="tag-row target-tags-full">
-                        <span class="tag" class:on={targetSize === '25'}>Gmail/25MB</span>
-                        <span class="tag" class:on={targetSize === '8'}>Discord/8MB</span>
-                        <span class="tag" class:on={targetSize === '50'}>Line/50MB</span>
-                        <span class="tag" class:on={targetSize === '100'}>Slack/100MB</span>
-                        <span class="tag" class:on={targetSize === '200'}>WhatsApp/200MB</span>
+                        <span class="tag" class:on={targetSize === '10'}>Discord <span class="tag-sz">10MB</span></span>
+                        <span class="tag" class:on={targetSize === '25'}>Gmail / Messenger <span class="tag-sz">25MB</span></span>
+                        <span class="tag" class:on={targetSize === '50'}>Line <span class="tag-sz">50MB</span></span>
+                        <span class="tag" class:on={targetSize === '64'}>WhatsApp <span class="tag-sz">64MB</span></span>
+                        <span class="tag" class:on={targetSize === '100'}>Slack <span class="tag-sz">100MB</span></span>
+                        <span class="tag" class:on={targetSize === '512'}>Twitter / X <span class="tag-sz">512MB</span></span>
+                        <span class="tag" class:on={targetSize === '2000'}>Telegram <span class="tag-sz">2000MB</span></span>
                     </div>
                 </div>
                 <hr class="settings-divider">
@@ -257,27 +286,16 @@
         {/if}
 
         {#if status === 'done'}
-            <div class="done-frame">
-                <div class="preview-main" style="overflow: hidden; position: relative;">
-                    {#if videoUrl}
-                        <video src={videoUrl} style="width:100%;height:100%;object-fit:cover;position:absolute;top:0;left:0;border-radius:inherit;opacity:0.3" muted></video>
-                    {:else}
-                        <div class="preview-ph" style="opacity:.25;color:#fff"><i class="ti ti-player-play" aria-hidden="true"></i></div>
-                    {/if}
-                </div>
-            </div>
-            <div class="vid-info">
-                <div class="fn">{selectedFile?.name}</div>
-                <div class="fm">
-                    {getFileExtension(selectedFile?.name || '')} · 
-                    <span style="text-decoration:line-through;opacity:.6">{formatSize(selectedFile?.size || 0)}</span>
-                    &nbsp;→&nbsp;<span style="color:var(--green);font-weight:600">{formatSize(compressedSize)}</span>
-                    <span style="color:var(--green);margin-left:4px;font-weight:500">↓ {((1 - compressedSize / (selectedFile?.size || 1)) * 100).toFixed(1)}%</span>
-                </div>
-            </div>
             <hr class="settings-divider">
             <div class="done-cta">
-                <button class="btn-dl">
+                <button class="btn-dl" onclick={() => {
+                    if (compressedFile && videoUrl) {
+                        const a = document.createElement('a');
+                        a.href = videoUrl;
+                        a.download = compressedFile.name;
+                        a.click();
+                    }
+                }}>
                     <i class="ti ti-download" aria-hidden="true"></i>
                     <span class="cta-desktop">{texts.btnDownload}</span>
                     <span class="cta-mobile" style="display:none">{texts.btnDownload}</span>

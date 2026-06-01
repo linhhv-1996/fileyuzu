@@ -1,4 +1,18 @@
 {
+  "_comment_home": "================ Home ================",
+  "home.seo.title": "FileYuzu — เครื่องมือวิดีโอออนไลน์ฟรี",
+  "home.seo.description": "FileYuzu ให้บริการเครื่องมือวิดีโอและไฟล์ออนไลน์ฟรี ทำงานทั้งหมดในเบราว์เซอร์โดยไม่ต้องอัปโหลดหรือลงทะเบียน",
+  "home.hero.title": "เครื่องมือออนไลน์ฟรี",
+  "home.hero.description": "เครื่องมือที่เป็นส่วนตัว รวดเร็ว และใช้ง่าย ทำงานในเบราว์เซอร์โดยตรง ไฟล์ของคุณไม่ออกจากอุปกรณ์",
+  "home.pill.private": "ไฟล์ไม่ออกจากอุปกรณ์",
+  "home.pill.instant": "ประมวลผลทันที ไม่ต้องรอคิว",
+  "home.pill.free": "ฟรี 100%",
+  "home.why.private.title": "เป็นส่วนตัว 100%",
+  "home.why.private.desc": "การบีบอัดทำงานในเบราว์เซอร์ผ่าน WebAssembly ไฟล์ไม่ออกจากอุปกรณ์",
+  "home.why.instant.title": "ไม่ต้องลงทะเบียน",
+  "home.why.instant.desc": "เปิดหน้าเว็บแล้วเริ่มได้เลย ไม่ต้องมีบัญชี ไม่มีลายน้ำ ไม่มีขีดจำกัดเวลา",
+  "home.why.device.title": "ใช้ได้ทุกอุปกรณ์",
+  "home.why.device.desc": "รองรับทุกขนาดหน้าจอ ไม่ต้องติดตั้งแอปใด ๆ",
   "compress_video.seo.title": "FileYuzu — เครื่องมือบีบอัดวิดีโอออนไลน์ฟรี",
   "compress_video.seo.description": "บีบอัดวิดีโอ MP4, MOV, AVI, MKV และ WebM ออนไลน์ด้วย FileYuzu ลดขนาดไฟล์วิดีโออย่างเป็นส่วนตัวในเบราว์เซอร์ของคุณ โดยไม่ต้องอัปโหลดและไม่ต้องสมัครสมาชิก",
   "compress_video.hero.title": "เครื่องมือบีบอัดวิดีโอออนไลน์ฟรี",
@@ -98,5 +112,90 @@
   "tool.video_rotator.title": "เครื่องมือหมุนวิดีโอ",
   "tool.video_rotator.description": "หมุน 90° / 180°",
   "tool.video_cropper.title": "เครื่องมือตัดครอบวิดีโอ",
-  "tool.video_cropper.description": "ตัดครอบตามอัตราส่วนภาพ"
+  "tool.video_cropper.description": "ตัดครอบตามอัตราส่วนภาพ",
+  "_comment_video_converter": "================ Video Converter ================",
+  "video_converter.seo.title": "FileYuzu — Free Online Video Converter",
+  "video_converter.seo.description": "Convert video files between MP4, WebM, MOV, MKV, and MP3 formats online with FileYuzu. Fast and private conversion in your browser.",
+  "video_converter.hero.title": "Free Online Video Converter",
+  "video_converter.hero.description": "Convert video files easily and securely in your browser. Supports MP4, WebM, MOV, MKV, and MP3.",
+  "video_converter.upload.title": "Drop a video file here",
+  "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM",
+  "video_converter.upload.btn_select": "Select file",
+  "video_converter.upload.btn_sample": "Try sample",
+  "video_converter.upload.hint": "Select one video file to convert",
+  "video_converter.settings.format_lbl": "Target format",
+  "video_converter.btn.convert": "Convert video",
+  "video_converter.btn.download": "Download file",
+  "video_converter.btn.convert_new": "Convert new files",
+  "video_converter.proc.converting": "Converting video",
+  "video_converter.how_to_use.title": "How to Convert a Video Online",
+  "video_converter.how_to_use.steps": [
+    "Upload a video file from your device or drag and drop it onto the upload area.",
+    "Select the desired output format (e.g., MP4, WebM, MP3) from the Target format options.",
+    "Click Convert and wait. The process runs locally on your device for complete privacy. Download when finished."
+  ],
+  "video_converter.why_use.title": "Why Use FileYuzu Converter",
+  "video_converter.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Conversion runs locally in your browser. Your files never leave your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up required",
+      "description": "Start converting immediately without creating an account or dealing with limits."
+    },
+    {
+      "icon": "player-play",
+      "title": "Multiple formats",
+      "description": "Convert to popular formats like MP4, WebM, MOV, or extract audio as MP3."
+    }
+  ],
+  "video_converter.faq.title": "Video Converter FAQ",
+  "video_converter.faq.items": [
+    {
+      "q": "Are my files uploaded to a server?",
+      "a": "No, all conversion is done locally on your device using WebAssembly. We do not store or process your files on our servers."
+    },
+    {
+      "q": "Can I convert video to audio?",
+      "a": "Yes! Just select 'MP3' as the target format and the audio track will be extracted and converted."
+    },
+    {
+      "q": "What formats are supported?",
+      "a": "We support input from most common video formats and can convert them to MP4, WebM, MOV, MKV, or MP3."
+    }
+  ],
+  "_comment_categories": "================ Tool Categories ================",
+  "home.category.video": "วิดีโอ",
+  "home.category.pdf": "PDF",
+  "home.faq.title": "คำถามที่พบบ่อย",
+  "_comment_home_faq": "6 FAQ ที่ปรับแต่ง SEO — ครอบคลุม: ฟรี, ไม่อัปโหลด/ความเป็นส่วนตัว, ไม่ต้องมีบัญชี, เครื่องมือที่มี, ขีดจำกัดขนาด, รองรับมือถือ",
+  "home.faq.items": [
+    {
+      "q": "เครื่องมือทั้งหมดของ FileYuzu ฟรีหรือไม่?",
+      "a": "ใช่ค่ะ เครื่องมือทุกอย่างบน FileYuzu ใช้ได้ฟรีสมบูรณ์ ไม่มีค่าใช้จ่ายแอบซ่อน ไม่มีการสมัครสมาชิก และไม่มีขีดจำกัด คุณสามารถบีบอัดวิดีโอ บีบอัด PDF และแปลงรูปแบบวิดีโอได้ไม่อั้นสิ้น"
+    },
+    {
+      "q": "ไฟล์ของฉันจะถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
+      "a": "ไม่ค่ะ การประมวลผลทั้งหมดเกิดขึ้นโดยตรงในเบราว์เซอร์โดยใช้เทคโนโลยี WebAssembly ไฟล์ไม่ออกจากอุปกรณ์และไม่ถูกส่งไปยังเซิร์ฟเวอร์ใด ข้อมูลของคุณเป็นส่วนตัวอย่างสมบูรณ์"
+    },
+    {
+      "q": "ต้องสร้างบัญชีเพื่อใช้เครื่องมือหรือไม่?",
+      "a": "ไม่ต้องสร้างบัญชีหรือลงทะเบียนค่ะ เปิดเครื่องมือที่ต้องการแล้วเริ่มใช้ได้เลย — ไม่ต้องลงทะเบียน ไม่ต้องใช้อีเมล และไม่ต้องตั้งรหัสผ่าน"
+    },
+    {
+      "q": "FileYuzu มีเครื่องมืออะไรบ้าง?",
+      "a": "FileYuzu ให้บริการเครื่องมือบีบอัดวิดีโอออนไลน์ฟรี เครื่องมือบีบอัด PDF และเครื่องมือแปลงวิดีโอที่รองรับรูปแบบ MP4, WebM, MOV, MKV และ MP3 โดยมีการเพิ่มเครื่องมือใหม่อย่างสม่ำเสมอ"
+    },
+    {
+      "q": "มีขีดจำกัดขนาดไฟล์หรือไม่?",
+      "a": "ไม่มีขีดจำกัดจากฝั่งเซิร์ฟเวอร์เนื่องจากการประมวลผลทั้งหมดเกิดในเบราว์เซอร์ โดยทั่วไปเครื่องมือส่วนใหญ่รองรับไฟล์สูงสุดถึง 500 MB ประสิทธิภาพขึ้นอยู่กับหน่วยความจำและความสามารถของอุปกรณ์"
+    },
+    {
+      "q": "ใช้ FileYuzu บนโทรศัพท์หรือแท็บเล็ตได้ไหม?",
+      "a": "ได้เลย! FileYuzu รองรับทุกขนาดหน้าจอและทำงานได้ดีบนสมาร์ทโฟน แท็บเล็ต และคอมพิวเตอร์ตั้งโต๊ะ ไม่ต้องติดตั้งแอปใด — แค่เปิดเว็บไซต์ในเบราว์เซอร์มือถือแล้วใช้เครื่องมือได้เลย"
+    }
+  ]
 }

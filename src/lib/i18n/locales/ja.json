@@ -1,4 +1,49 @@
 {
+  "_comment_home": "================ Home ================",
+  "home.seo.title": "FileYuzu — 無料オンライン動画ツール",
+  "home.seo.description": "FileYuzuは、無料でプライベートなオンライン動画およびファイルツールを提供します。アップロード不要・登録不要で、すべてブラウザ内で実行されます。",
+  "home.hero.title": "無料オンラインツール",
+  "home.hero.description": "ブラウザで直接実行される、プライベートで高速かつ使いやすいツール。ファイルがデバイス外に出ることはありません。",
+  "home.pill.private": "ファイルはデバイス外に出ません",
+  "home.pill.instant": "即時処理、待ち行列なし",
+  "home.pill.free": "100% 無料",
+  "home.why.private.title": "100% プライベート",
+  "home.why.private.desc": "圧縮はWebAssemblyを通じてブラウザ内で実行されます。ファイルがデバイス外に出ることはありません。",
+  "home.why.instant.title": "登録不要",
+  "home.why.instant.desc": "ページを開いてすぐに開始。アカウント不要、ウォーターマークなし、時間制限なし。",
+  "home.why.device.title": "あらゆるデバイスで動作",
+  "home.why.device.desc": "完全レスポンシブ。アプリのインストール不要。",
+  "home.faq.title": "よくある質問",
+  "_comment_home_faq": "6個のSEO最適化済みFAQ — 無料・プライバシー・アカウント不要・利用可能なツール・ファイルサイズ・モバイル対応をカバー",
+  "home.faq.items": [
+    {
+      "q": "FileYuzuのツールはすべて無料ですか？",
+      "a": "はい、FileYuzuのすべてのツールは完全無料で、隠れた料金、サブスクリプション、制限は一切ありません。動画圧縮、PDF圧縮、動画形式変換を何度でも無料でご利用いただけます。"
+    },
+    {
+      "q": "ファイルはサーバーにアップロードされますか？",
+      "a": "いいえ。すべての処理はWebAssembly技術を使用してブラウザ内で直接実行されます。ファイルはデバイス外に出ることはなく、サーバーに送信されることもありません。データは完全にプライベートです。"
+    },
+    {
+      "q": "ツールを使用するにはアカウントが必要ですか？",
+      "a": "アカウント・登録は一切不要です。利用したいツールを開いてすぐに使い始められます— 登録もメールアドレスもパスワードも不要です。"
+    },
+    {
+      "q": "FileYuzuで利用できるツールは何ですか？",
+      "a": "FileYuzuでは現在、無料のオンライン動画圧縮、PDF圧縮、およびMP4・WebM・MOV・MKV・MP3などの形式に対応した動画変換ツールを提供しています。今後も新しいツールを順次追加する予定です。"
+    },
+    {
+      "q": "ファイルサイズの制限はありますか？",
+      "a": "すべての処理はブラウザ内で行われるため、サーバー側の制限はありません。実際には大多数のツールで500 MBまでのファイルを扱えます。パフォーマンスはお使いのデバイスのメモリと処理能力によって異なります。"
+    },
+    {
+      "q": "FileYuzuはスマートフォンやタブレットで使えますか？",
+      "a": "はい！FileYuzuは完全レスポンシブデザインで、スマートフォン、タブレット、デスクトップに対応しています。アプリのインストールは不要です— モバイルブラウザでサイトを開くだけでどのツールも利用できます。"
+    }
+  ],
+  "_comment_categories": "================ Tool Categories ================",
+  "home.category.video": "動画",
+  "home.category.pdf": "PDF",
   "compress_video.seo.title": "FileYuzu — 無料オンライン動画圧縮ツール",
   "compress_video.seo.description": "FileYuzuでMP4、MOV、AVI、MKV、WebM動画をオンライン圧縮。アップロード不要・登録不要で、ブラウザ内で安全に動画ファイルサイズを削減できます。",
   "compress_video.hero.title": "無料オンライン動画圧縮ツール",
@@ -98,5 +143,59 @@
   "tool.video_rotator.title": "動画回転",
   "tool.video_rotator.description": "90° / 180°回転",
   "tool.video_cropper.title": "動画切り抜き",
-  "tool.video_cropper.description": "アスペクト比に合わせて切り抜き"
+  "tool.video_cropper.description": "アスペクト比に合わせて切り抜き",
+  "_comment_video_converter": "================ Video Converter ================",
+  "video_converter.seo.title": "FileYuzu — Free Online Video Converter",
+  "video_converter.seo.description": "Convert video files between MP4, WebM, MOV, MKV, and MP3 formats online with FileYuzu. Fast and private conversion in your browser.",
+  "video_converter.hero.title": "Free Online Video Converter",
+  "video_converter.hero.description": "Convert video files easily and securely in your browser. Supports MP4, WebM, MOV, MKV, and MP3.",
+  "video_converter.upload.title": "Drop a video file here",
+  "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM",
+  "video_converter.upload.btn_select": "Select file",
+  "video_converter.upload.btn_sample": "Try sample",
+  "video_converter.upload.hint": "Select one video file to convert",
+  "video_converter.settings.format_lbl": "Target format",
+  "video_converter.btn.convert": "Convert video",
+  "video_converter.btn.download": "Download file",
+  "video_converter.btn.convert_new": "Convert new files",
+  "video_converter.proc.converting": "Converting video",
+  "video_converter.how_to_use.title": "How to Convert a Video Online",
+  "video_converter.how_to_use.steps": [
+    "Upload a video file from your device or drag and drop it onto the upload area.",
+    "Select the desired output format (e.g., MP4, WebM, MP3) from the Target format options.",
+    "Click Convert and wait. The process runs locally on your device for complete privacy. Download when finished."
+  ],
+  "video_converter.why_use.title": "Why Use FileYuzu Converter",
+  "video_converter.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Conversion runs locally in your browser. Your files never leave your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up required",
+      "description": "Start converting immediately without creating an account or dealing with limits."
+    },
+    {
+      "icon": "player-play",
+      "title": "Multiple formats",
+      "description": "Convert to popular formats like MP4, WebM, MOV, or extract audio as MP3."
+    }
+  ],
+  "video_converter.faq.title": "Video Converter FAQ",
+  "video_converter.faq.items": [
+    {
+      "q": "Are my files uploaded to a server?",
+      "a": "No, all conversion is done locally on your device using WebAssembly. We do not store or process your files on our servers."
+    },
+    {
+      "q": "Can I convert video to audio?",
+      "a": "Yes! Just select 'MP3' as the target format and the audio track will be extracted and converted."
+    },
+    {
+      "q": "What formats are supported?",
+      "a": "We support input from most common video formats and can convert them to MP4, WebM, MOV, MKV, or MP3."
+    }
+  ]
 }
