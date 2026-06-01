@@ -27,6 +27,18 @@
     let convertedSize = $state(0);
     let convertedFile = $state<File | null>(null);
     
+    let audioPaused = $state(true);
+    let audioTime = $state(0);
+    let audioDuration = $state(0);
+    let audioRef = $state<HTMLAudioElement | undefined>();
+
+    function formatTime(seconds: number) {
+        if (isNaN(seconds) || !seconds) return '0:00';
+        const m = Math.floor(seconds / 60);
+        const s = Math.floor(seconds % 60);
+        return `${m}:${s < 10 ? '0' : ''}${s}`;
+    }
+    
     function setFile(file: File) {
         selectedFile = file;
         if (videoUrl) URL.revokeObjectURL(videoUrl);
@@ -145,7 +157,7 @@
             </div>
             
             <div class="settings">
-                <div class="setting-row format-row">
+                <div class="setting-row format-row" class:single-option={outputFormats.length === 1}>
                     <div class="setting-lbl" style="margin-bottom: 0; white-space: nowrap;">{texts.formatLbl}</div>
                     <div class="format-tags">
                         {#each outputFormats as fmt}
@@ -166,11 +178,26 @@
                     {#if videoUrl && !(status === 'done' && targetFormat === 'mp3')}
                         <video src={videoUrl} style="width:100%;height:100%;object-fit:contain;position:absolute;top:0;left:0;border-radius:inherit;background:#000;" controls></video>
                     {:else if videoUrl && status === 'done' && targetFormat === 'mp3'}
-                        <div style="width:100%; height:100%; background: linear-gradient(135deg, #1e293b, #0f172a); display:flex; flex-direction:column; align-items:center; justify-content:center; gap: 24px; position:absolute; top:0; left:0;">
-                            <div style="width: 80px; height: 80px; border-radius: 50%; background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.2); display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 16px rgba(0,0,0,0.2);">
-                                <i class="ti ti-music" aria-hidden="true" style="font-size:36px; color: #38bdf8;"></i>
+                        <div style="width:100%; height:100%; background: #111827; border-radius: inherit; display:flex; flex-direction:column; align-items:center; justify-content:center; gap: 24px; position:absolute; top:0; left:0;">
+                            <div style="width: 80px; height: 80px; border-radius: 24px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); display: flex; align-items: center; justify-content: center;">
+                                <i class="ti ti-music" aria-hidden="true" style="font-size:32px; color: #9ca3af;"></i>
                             </div>
-                            <audio src={videoUrl} style="width:85%; max-width: 320px; outline: none; border-radius: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" controls></audio>
+                            <div style="width: 90%; max-width: 360px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 30px; padding: 10px 14px; display: flex; align-items: center; gap: 12px;">
+                                <audio 
+                                    src={videoUrl} 
+                                    bind:this={audioRef}
+                                    bind:paused={audioPaused}
+                                    bind:currentTime={audioTime}
+                                    bind:duration={audioDuration}
+                                    onended={() => audioPaused = true}
+                                    style="display:none"
+                                ></audio>
+                                <button class="audio-play-btn" onclick={(e) => { e.stopPropagation(); audioPaused ? audioRef?.play() : audioRef?.pause() }}>
+                                    <i class="ti {audioPaused ? 'ti-player-play' : 'ti-player-pause'}" aria-hidden="true" style="font-size: 16px;"></i>
+                                </button>
+                                <input type="range" class="audio-seek" min="0" max={audioDuration || 100} value={audioTime} oninput={(e) => { if(audioRef) audioRef.currentTime = +(e.target).value }} />
+                                <div class="audio-time">{formatTime(audioTime)} / {formatTime(audioDuration)}</div>
+                            </div>
                         </div>
                     {:else}
                         <div class="preview-ph" style={status === 'done' ? "opacity:.25;color:#fff" : ""}><i class="ti ti-player-play" aria-hidden="true"></i><span>{status === 'done' ? '' : selectedFile?.name}</span></div>
@@ -195,7 +222,7 @@
 
         {#if status === 'file'}
             <div class="settings">
-                <div class="setting-row format-row">
+                <div class="setting-row format-row" class:single-option={outputFormats.length === 1}>
                     <div class="setting-lbl" style="margin-bottom: 0; white-space: nowrap;">{texts.formatLbl}</div>
                     <div class="format-tags">
                         {#each outputFormats as fmt}
@@ -216,7 +243,7 @@
 
         {#if status === 'proc'}
             <div class="settings">
-                <div class="setting-row format-row" style="opacity:.4;pointer-events:none;">
+                <div class="setting-row format-row" class:single-option={outputFormats.length === 1} style="opacity:.4;pointer-events:none;">
                     <div class="setting-lbl" style="margin-bottom: 0; white-space: nowrap;">{texts.formatLbl}</div>
                     <div class="format-tags">
                         {#each outputFormats as fmt}
@@ -266,11 +293,33 @@
     .format-tags {
         display: flex;
         flex-wrap: wrap;
-        gap: 8px;
+        gap: 5px;
     }
     @media (max-width: 768px) {
         .format-row {
             align-items: flex-start !important;
         }
+        .format-row.single-option {
+            flex-direction: row !important;
+            align-items: center !important;
+            justify-content: flex-start;
+            gap: 12px;
+        }
+    }
+
+    .audio-play-btn {
+        width: 32px; height: 32px; border-radius: 50%; background: var(--primary, #3b82f6); color: #fff; border: none; display: flex; align-items: center; justify-content: center; cursor: pointer; flex-shrink: 0; transition: background 0.2s; padding: 0;
+    }
+    .audio-play-btn:hover {
+        background: var(--primary-hover, #2563eb);
+    }
+    .audio-seek {
+        flex: 1; height: 4px; border-radius: 2px; -webkit-appearance: none; background: rgba(255,255,255,0.2); outline: none; cursor: pointer;
+    }
+    .audio-seek::-webkit-slider-thumb {
+        -webkit-appearance: none; width: 12px; height: 12px; border-radius: 50%; background: #fff; cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+    .audio-time {
+        font-size: 12px; color: rgba(255,255,255,0.7); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; flex-shrink: 0; min-width: 72px; text-align: right;
     }
 </style>

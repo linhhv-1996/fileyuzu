@@ -378,5 +378,165 @@
       "a": "Yes, it is completely free with no watermarks."
     }
   ],
-  "pdf_compressor.pages": "pages"
+  "pdf_compressor.pages": "pages",
+  "tool.mov_to_mp4.title": "MOV to MP4",
+  "tool.mov_to_mp4.description": "Convert MOV to MP4",
+  "tool.avi_to_mp4.title": "AVI to MP4",
+  "tool.avi_to_mp4.description": "Convert AVI to MP4",
+  "tool.mkv_to_mp4.title": "MKV to MP4",
+  "tool.mkv_to_mp4.description": "Convert MKV to MP4",
+  "tool.webm_to_mp4.title": "WebM to MP4",
+  "tool.webm_to_mp4.description": "Convert WebM to MP4",
+  "tool.video_to_mp3.title": "Video to MP3",
+  "tool.video_to_mp3.description": "Convert Video to MP3",
+  "_comment_mov_to_mp4": "================ MOV to MP4 ================",
+  "mov_to_mp4.seo.title": "FileYuzu — Convert MOV to MP4 Free Online",
+  "mov_to_mp4.seo.description": "Convert MOV video files to MP4 online with FileYuzu. Fast and private conversion in your browser.",
+  "mov_to_mp4.hero.title": "Convert MOV to MP4",
+  "mov_to_mp4.hero.description": "Convert your MOV videos to MP4 format easily and securely in your browser.",
+  "mov_to_mp4.how_to_use.title": "How to Convert MOV to MP4 Online",
+  "mov_to_mp4.how_to_use.steps": [
+    "Upload a MOV file from your device.",
+    "Click Convert and wait. The process runs locally on your device for complete privacy. Download your MP4 file when finished."
+  ],
+  "mov_to_mp4.why_use.title": "Why Use FileYuzu Converter",
+  "mov_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Conversion runs locally in your browser. Your files never leave your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up required",
+      "description": "Start converting immediately without creating an account or dealing with limits."
+    }
+  ],
+  "mov_to_mp4.faq.title": "MOV to MP4 FAQ",
+  "mov_to_mp4.faq.items": [
+    {
+      "q": "Are my files uploaded to a server?",
+      "a": "No, all conversion is done locally on your device. We do not store or process your files on our servers."
+    }
+  ],
+  "_comment_avi_to_mp4": "================ AVI to MP4 ================",
+  "avi_to_mp4.seo.title": "FileYuzu — Convert AVI to MP4 Free Online",
+  "avi_to_mp4.seo.description": "Convert AVI video files to MP4 online with FileYuzu. Fast and private conversion in your browser.",
+  "avi_to_mp4.hero.title": "Convert AVI to MP4",
+  "avi_to_mp4.hero.description": "Convert your AVI videos to MP4 format easily and securely in your browser.",
+  "avi_to_mp4.how_to_use.title": "How to Convert AVI to MP4 Online",
+  "avi_to_mp4.how_to_use.steps": [
+    "Upload an AVI file from your device.",
+    "Click Convert and wait. The process runs locally on your device for complete privacy. Download your MP4 file when finished."
+  ],
+  "avi_to_mp4.why_use.title": "Why Use FileYuzu Converter",
+  "avi_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Conversion runs locally in your browser. Your files never leave your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up required",
+      "description": "Start converting immediately without creating an account."
+    }
+  ],
+  "avi_to_mp4.faq.title": "AVI to MP4 FAQ",
+  "avi_to_mp4.faq.items": [
+    {
+      "q": "Are my files uploaded to a server?",
+      "a": "No, all conversion is done locally on your device."
+    }
+  ],
+  "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
+  "mkv_to_mp4.seo.title": "FileYuzu — Convert MKV to MP4 Free Online",
+  "mkv_to_mp4.seo.description": "Convert MKV video files to MP4 online with FileYuzu. Fast and private conversion in your browser.",
+  "mkv_to_mp4.hero.title": "Convert MKV to MP4",
+  "mkv_to_mp4.hero.description": "Convert your MKV videos to MP4 format easily and securely in your browser.",
+  "mkv_to_mp4.how_to_use.title": "How to Convert MKV to MP4 Online",
+  "mkv_to_mp4.how_to_use.steps": [
+    "Upload an MKV file from your device.",
+    "Click Convert and wait. The process runs locally on your device for complete privacy. Download your MP4 file when finished."
+  ],
+  "mkv_to_mp4.why_use.title": "Why Use FileYuzu Converter",
+  "mkv_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Conversion runs locally in your browser. Your files never leave your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up required",
+      "description": "Start converting immediately without creating an account."
+    }
+  ],
+  "mkv_to_mp4.faq.title": "MKV to MP4 FAQ",
+  "mkv_to_mp4.faq.items": [
+    {
+      "q": "Are my files uploaded to a server?",
+      "a": "No, all conversion is done locally on your device."
+    }
+  ],
+  "_comment_webm_to_mp4": "================ WebM to MP4 ================",
+  "webm_to_mp4.seo.title": "FileYuzu — Convert WebM to MP4 Free Online",
+  "webm_to_mp4.seo.description": "Convert WebM video files to MP4 online with FileYuzu. Fast and private conversion in your browser.",
+  "webm_to_mp4.hero.title": "Convert WebM to MP4",
+  "webm_to_mp4.hero.description": "Convert your WebM videos to MP4 format easily and securely in your browser.",
+  "webm_to_mp4.how_to_use.title": "How to Convert WebM to MP4 Online",
+  "webm_to_mp4.how_to_use.steps": [
+    "Upload a WebM file from your device.",
+    "Click Convert and wait. The process runs locally on your device for complete privacy. Download your MP4 file when finished."
+  ],
+  "webm_to_mp4.why_use.title": "Why Use FileYuzu Converter",
+  "webm_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Conversion runs locally in your browser. Your files never leave your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up required",
+      "description": "Start converting immediately without creating an account."
+    }
+  ],
+  "webm_to_mp4.faq.title": "WebM to MP4 FAQ",
+  "webm_to_mp4.faq.items": [
+    {
+      "q": "Are my files uploaded to a server?",
+      "a": "No, all conversion is done locally on your device."
+    }
+  ],
+  "_comment_video_to_mp3": "================ Video to MP3 ================",
+  "video_to_mp3.seo.title": "FileYuzu — Extract Audio from Video (Video to MP3) Free Online",
+  "video_to_mp3.seo.description": "Convert Video to MP3 online with FileYuzu. Extract audio from your video files easily in your browser.",
+  "video_to_mp3.hero.title": "Convert Video to MP3",
+  "video_to_mp3.hero.description": "Extract the audio track from your video and save it as an MP3 file directly in your browser.",
+  "video_to_mp3.how_to_use.title": "How to Convert Video to MP3 Online",
+  "video_to_mp3.how_to_use.steps": [
+    "Upload a video file from your device.",
+    "Click Convert and wait. The process runs locally on your device. Download your MP3 file when finished."
+  ],
+  "video_to_mp3.why_use.title": "Why Use FileYuzu Audio Extractor",
+  "video_to_mp3.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Conversion runs locally in your browser. Your files never leave your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up required",
+      "description": "Start converting immediately without creating an account."
+    }
+  ],
+  "video_to_mp3.faq.title": "Video to MP3 FAQ",
+  "video_to_mp3.faq.items": [
+    {
+      "q": "Are my files uploaded to a server?",
+      "a": "No, all conversion is done locally on your device."
+    }
+  ]
 }

@@ -1,53 +1,53 @@
 {
   "_comment_home": "================ Home ================",
-  "home.seo.title": "FileYuzu — Бесплатные онлайн-инструменты для видео",
-  "home.seo.description": "FileYuzu предлагает бесплатные онлайн-инструменты для видео и файлов. Работает в браузере без загрузки и регистрации.",
+  "home.seo.title": "FileYuzu — бесплатные онлайн-инструменты для видео",
+  "home.seo.description": "FileYuzu предлагает бесплатные и приватные онлайн-инструменты для видео и файлов. Всё работает прямо в браузере — без загрузки файлов на сервер и без регистрации.",
   "home.hero.title": "Бесплатные онлайн-инструменты",
-  "home.hero.description": "Быстрые и простые инструменты, работающие прямо в браузере. Файлы никогда не покидают ваше устройство.",
-  "home.pill.private": "Файлы остаются на устройстве",
-  "home.pill.instant": "Мгновенно, без очереди",
+  "home.hero.description": "Приватные, быстрые и простые инструменты, работающие прямо в браузере. Ваши файлы никогда не покидают устройство.",
+  "home.pill.private": "Файлы никогда не покидают устройство",
+  "home.pill.instant": "Мгновенно, без очередей",
   "home.pill.free": "100% бесплатно",
-  "home.why.private.title": "100% конфиденциально",
-  "home.why.private.desc": "Сжатие выполняется в браузере через WebAssembly. Файл никогда не покидает устройство.",
-  "home.why.instant.title": "Без регистрации",
-  "home.why.instant.desc": "Откройте страницу и начните. Никакого аккаунта, водяных знаков, ограничений по времени.",
+  "home.why.private.title": "100% приватно",
+  "home.why.private.desc": "Сжатие выполняется в вашем браузере через WebAssembly. Ваш файл никогда не покидает устройство.",
+  "home.why.instant.title": "Регистрация не требуется",
+  "home.why.instant.desc": "Откройте страницу и начните работу. Без аккаунта, без водяных знаков и без ограничений по времени.",
   "home.why.device.title": "Работает на любом устройстве",
-  "home.why.device.desc": "Полностью адаптивный. Не нужно устанавливать приложение.",
-  "home.faq.title": "Частые вопросы",
+  "home.why.device.desc": "Полностью адаптивный интерфейс. Установка приложения не требуется.",
+  "home.faq.title": "Часто задаваемые вопросы",
   "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
   "home.faq.items": [
     {
-      "q": "Все инструменты FileYuzu бесплатные?",
-      "a": "Да, все инструменты FileYuzu полностью бесплатны: без скрытых платежей, подписок и ограничений. Сжатие видео, PDF и конвертация форматов — всё бесплатно и без ограничений по количеству."
+      "q": "Все инструменты FileYuzu бесплатны?",
+      "a": "Да, каждый инструмент FileYuzu полностью бесплатен: без скрытых платежей, подписок и ограничений. Вы можете сжимать видео, сжимать PDF и конвертировать видеоформаты сколько угодно раз бесплатно."
     },
     {
       "q": "Мои файлы загружаются на сервер?",
-      "a": "Нет. Вся обработка происходит непосредственно в вашем браузере с помощью технологии WebAssembly. Файлы не покидают устройство и никуда не отправляются, ваши данные полностью конфиденциальны."
+      "a": "Нет. Вся обработка выполняется прямо в вашем браузере с использованием технологии WebAssembly. Ваши файлы никогда не покидают устройство и не отправляются на сервер, поэтому ваши данные остаются полностью приватными."
     },
     {
-      "q": "Нужно ли создавать аккаунт для использования инструментов?",
-      "a": "Аккаунт и регистрация не нужны. Откройте нужный инструмент и сразу начинайте — без регистрации, электронной почты и пароля."
+      "q": "Нужно ли создавать аккаунт, чтобы пользоваться инструментами?",
+      "a": "Аккаунт и регистрация не требуются. Просто откройте нужный инструмент и начните сразу — без регистрации, email и пароля."
     },
     {
-      "q": "Какие инструменты доступны на FileYuzu?",
-      "a": "FileYuzu предлагает бесплатный онлайн-компрессор видео, компрессор PDF, а также конвертер видео с поддержкой форматов MP4, WebM, MOV, MKV и MP3. Новые инструменты регулярно добавляются."
+      "q": "Какие инструменты доступны в FileYuzu?",
+      "a": "Сейчас FileYuzu предлагает бесплатный онлайн-компрессор видео, компрессор PDF и конвертер видео с поддержкой форматов MP4, WebM, MOV, MKV и MP3. Новые инструменты добавляются регулярно."
     },
     {
       "q": "Есть ли ограничение на размер файла?",
-      "a": "Серверных ограничений нет, поскольку вся обработка происходит в браузере. На практике большинство инструментов работает с файлами до 500 МБ. Производительность зависит от памяти и мощности вашего устройства."
+      "a": "Жёсткого серверного ограничения нет, потому что вся обработка происходит в вашем браузере. На практике большинство инструментов обрабатывают файлы до 500 МБ. Производительность зависит от памяти и мощности вашего устройства."
     },
     {
       "q": "Можно ли использовать FileYuzu на телефоне или планшете?",
-      "a": "Да! FileYuzu полностью адаптивен и работает на смартфонах, планшетах и на пк. Устанавливать приложение не нужно — просто откройте сайт в мобильном браузере и используйте любой инструмент."
+      "a": "Да! FileYuzu полностью адаптивен и работает на смартфонах, планшетах и компьютерах. Установка приложения не нужна — просто откройте сайт в мобильном браузере и используйте любой инструмент."
     }
   ],
   "_comment_categories": "================ Tool Categories ================",
   "home.category.video": "Видео",
   "home.category.pdf": "PDF",
-  "compress_video.seo.title": "FileYuzu — Бесплатный онлайн-компрессор видео",
-  "compress_video.seo.description": "Сжимайте видео MP4, MOV, AVI, MKV и WebM онлайн с FileYuzu. Уменьшайте размер файла прямо в браузере — без загрузки на сервер и без регистрации.",
+  "compress_video.seo.title": "FileYuzu — бесплатный онлайн-компрессор видео",
+  "compress_video.seo.description": "Сжимайте видео MP4, MOV, AVI, MKV и WebM онлайн с FileYuzu. Уменьшайте размер видео приватно в браузере — без загрузки на сервер и без регистрации.",
   "compress_video.hero.title": "Бесплатный онлайн-компрессор видео",
-  "compress_video.hero.description": "Уменьшайте размер видеофайлов онлайн — без загрузки, без регистрации. Работает полностью в браузере. Поддерживает MP4, MOV, AVI, MKV, WebM.",
+  "compress_video.hero.description": "Уменьшайте размер видео онлайн — без загрузки на сервер и без регистрации. Работает полностью в браузере. Поддерживает MP4, MOV, AVI, MKV, WebM.",
   "compress_video.upload.title": "Перетащите видеофайл сюда",
   "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · до 500 МБ",
   "compress_video.upload.btn_select": "Выбрать файл",
@@ -61,26 +61,26 @@
   "compress_video.proc.compressing": "Сжатие видео",
   "compress_video.how_to_use.title": "Как сжать видео онлайн",
   "compress_video.how_to_use.steps": [
-    "Загрузите видеофайл с вашего устройства или перетащите его в область загрузки.",
-    "Выберите предустановку сжатия или укажите нужный размер файла вручную. Используйте теги быстрого выбора для популярных платформ — Gmail, Discord, Slack.",
-    "Нажмите «Сжать» и подождите немного. Вся обработка выполняется локально в браузере — файл никогда не отправляется на сервер. По завершении скачайте результат."
+    "Загрузите видеофайл с устройства или перетащите его в область загрузки.",
+    "Выберите пресет сжатия или задайте собственный целевой размер файла. Используйте быстрые теги для популярных платформ, таких как Gmail, Discord или Slack.",
+    "Нажмите «Сжать» и немного подождите. Вся обработка выполняется локально в браузере — ваш файл никогда не отправляется на сервер. Скачайте результат после завершения."
   ],
-  "compress_video.why_use.title": "Почему FileYuzu",
+  "compress_video.why_use.title": "Почему стоит использовать FileYuzu",
   "compress_video.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% конфиденциально",
-      "description": "Сжатие выполняется в браузере через WebAssembly. Ваш файл никогда не покидает устройство."
+      "title": "100% приватно",
+      "description": "Сжатие выполняется в вашем браузере через WebAssembly. Ваш файл никогда не покидает устройство."
     },
     {
       "icon": "bolt",
-      "title": "Без регистрации",
-      "description": "Откройте страницу и начните. Никакого аккаунта, водяного знака или ограничений по времени."
+      "title": "Регистрация не требуется",
+      "description": "Откройте страницу и начните работу. Без аккаунта, без водяных знаков и без ограничений по времени."
     },
     {
       "icon": "player-play",
       "title": "Простой процесс",
-      "description": "Сжимайте одно видео за раз в удобном и понятном интерфейсе."
+      "description": "Сжимайте по одному видео за раз с простым и понятным процессом."
     },
     {
       "icon": "adjustments",
@@ -88,97 +88,97 @@
       "description": "Задайте точный размер для любой платформы — Gmail, Discord, Slack, Line, WhatsApp."
     }
   ],
-  "compress_video.faq.title": "Вопросы о компрессоре видео",
+  "compress_video.faq.title": "FAQ по компрессору видео",
   "compress_video.faq.items": [
     {
       "q": "Моё видео загружается на сервер?",
       "a": "Нет. Всё сжатие выполняется локально с помощью FFmpeg.wasm (WebAssembly). Ваш видеофайл никогда не покидает устройство."
     },
     {
-      "q": "Какие форматы видео поддерживаются?",
-      "a": "Мы поддерживаем MP4, MOV, AVI, MKV, WebM и большинство других распространённых форматов. Результат всегда сохраняется в MP4 для максимальной совместимости."
+      "q": "Какие видеоформаты поддерживаются?",
+      "a": "Мы поддерживаем MP4, MOV, AVI, MKV, WebM и большинство других распространённых форматов. Результат всегда сохраняется в MP4 для максимальной совместимости с устройствами."
     },
     {
-      "q": "Каков максимальный размер файла?",
-      "a": "Видео может быть до 500 МБ. Для больших файлов рассмотрите разбивку на части или используйте десктопный инструмент, например HandBrake."
+      "q": "Какой максимальный размер файла?",
+      "a": "Размер видео может быть до 500 МБ. Для более крупных файлов сначала попробуйте разделить видео или использовать настольную программу, например HandBrake."
     },
     {
-      "q": "Что означают пресеты «Низкое», «Баланс» и «Высокое»?",
-      "a": "«Баланс» уменьшает размер примерно на 60–80%, сохраняя хорошее качество на большинстве экранов. «Низкое» даёт наименьший файл с заметной потерей качества. «Высокое» сохраняет почти исходное качество при умеренном сжатии."
+      "q": "Что означают пресеты Low, Balance и High?",
+      "a": "Balance уменьшает размер примерно на 60–80%, сохраняя хорошее качество на большинстве экранов. Low создаёт самый маленький файл с более заметной потерей качества. High сохраняет качество, близкое к оригиналу, с умеренным уменьшением размера."
     },
     {
-      "q": "Что делает «Отключить звук»?",
-      "a": "Удаляет звуковую дорожку из сжатого видео. Полезно для немых клипов, записей экрана или когда нужен минимальный размер файла."
+      "q": "Что делает опция «Disable audio»?",
+      "a": "Она удаляет аудиодорожку из сжатого видео. Полезно для немых клипов, записей экрана или случаев, когда нужен минимальный размер файла."
     },
     {
-      "q": "Почему теги платформ показывают конкретные значения в МБ?",
-      "a": "У каждой платформы есть ограничение на размер вложений. Gmail — 25 МБ, Discord — 8 МБ (бесплатно), Slack — 100 МБ и т.д. Нажатие тега автоматически устанавливает нужный размер."
+      "q": "Почему в тегах платформ указаны конкретные значения в МБ?",
+      "a": "У каждой платформы есть ограничение на размер вложений. Gmail — 25 МБ, Discord — 8 МБ (бесплатный план), Slack — 100 МБ и так далее. При нажатии на тег целевой размер задаётся автоматически."
     },
     {
-      "q": "Будет ли заметная потеря качества?",
-      "a": "Зависит от пресета и исходного видео. Для большинства видео пресет «Баланс» даёт результат, который хорошо выглядит на телефонах и стандартных экранах. Если вас не устраивает результат, попробуйте другой пресет."
+      "q": "Будет ли заметное ухудшение качества?",
+      "a": "Это зависит от пресета и исходного видео. Для большинства видео пресет Balance даёт результат, который хорошо выглядит на телефонах и стандартных экранах. Если результат не устраивает, попробуйте другой пресет."
     }
   ],
   "_comment_pdf_compressor": "================ PDF Compressor ================",
-  "pdf_compressor.seo.title": "FileYuzu — бесплатный онлайн-компрессор PDF-файлов",
-  "pdf_compressor.seo.description": "Сжимайте PDF-файлы онлайн с помощью FileYuzu. Уменьшите размер PDF-файла конфиденциально в своем браузере, без загрузки и регистрации.",
-  "pdf_compressor.hero.title": "Бесплатный онлайн-компрессор PDF-файлов",
-  "pdf_compressor.hero.description": "Уменьшите размер PDF-файла онлайн — без загрузки и регистрации. Работает полностью в вашем браузере.",
+  "pdf_compressor.seo.title": "FileYuzu — бесплатный онлайн-компрессор PDF",
+  "pdf_compressor.seo.description": "Сжимайте PDF-файлы онлайн с FileYuzu. Уменьшайте размер PDF приватно в браузере — без загрузки на сервер и без регистрации.",
+  "pdf_compressor.hero.title": "Бесплатный онлайн-компрессор PDF",
+  "pdf_compressor.hero.description": "Уменьшайте размер PDF онлайн — без загрузки на сервер и без регистрации. Работает полностью в браузере.",
   "pdf_compressor.upload.title": "Перетащите PDF-файл сюда",
   "pdf_compressor.upload.subtitle": "PDF · до 100 МБ",
-  "pdf_compressor.upload.btn_select": "Выберите файл",
-  "pdf_compressor.upload.btn_sample": "Попробуйте образец",
+  "pdf_compressor.upload.btn_select": "Выбрать файл",
+  "pdf_compressor.upload.btn_sample": "Попробовать пример",
   "pdf_compressor.upload.hint": "Выберите один PDF-файл для сжатия",
-  "pdf_compressor.settings.quality_lbl": "Предустановка качества",
-  "pdf_compressor.settings.quality_balanced": "Сбалансированный (электронная книга)",
-  "pdf_compressor.settings.quality_maximum": "Максимум (Экран)",
+  "pdf_compressor.settings.quality_lbl": "Пресет качества",
+  "pdf_compressor.settings.quality_balanced": "Сбалансированный (Ebook)",
+  "pdf_compressor.settings.quality_maximum": "Максимальный (Screen)",
   "pdf_compressor.settings.password_lbl": "Пароль для разблокировки (необязательно)",
-  "pdf_compressor.settings.password_placeholder": "Пароль (если зашифровано)",
+  "pdf_compressor.settings.password_placeholder": "Пароль (если файл зашифрован)",
   "pdf_compressor.btn.compress": "Сжать PDF",
   "pdf_compressor.btn.download": "Скачать PDF",
-  "pdf_compressor.btn.compress_new": "Сжимать новые файлы",
+  "pdf_compressor.btn.compress_new": "Сжать новые файлы",
   "pdf_compressor.proc.compressing": "Сжатие PDF",
   "pdf_compressor.how_to_use.title": "Как сжать PDF онлайн",
   "pdf_compressor.how_to_use.steps": [
-    "Загрузите PDF-файл со своего устройства или перетащите его в область загрузки.",
-    "Выберите настройку качества («Сбалансированное» или «Максимальное») и при необходимости укажите пароль, если PDF-файл зашифрован.",
-    "Нажмите «Сжать» и подождите немного. Вся обработка выполняется локально в вашем браузере. Загрузите, когда закончите."
+    "Загрузите PDF-файл с устройства или перетащите его в область загрузки.",
+    "Выберите пресет качества (Balanced или Maximum) и при необходимости укажите пароль, если PDF зашифрован.",
+    "Нажмите «Сжать» и немного подождите. Вся обработка выполняется локально в браузере. Скачайте результат после завершения."
   ],
-  "pdf_compressor.why_use.title": "Зачем использовать FileYuzu PDF Compressor",
+  "pdf_compressor.why_use.title": "Почему стоит использовать PDF-компрессор FileYuzu",
   "pdf_compressor.why_use.benefits": [
     {
-      "icon": "щит-замок",
-      "title": "100% частный",
-      "description": "Сжатие выполняется в вашем браузере через WebAssembly. Ваш файл никогда не покидает ваше устройство."
+      "icon": "shield-lock",
+      "title": "100% приватно",
+      "description": "Сжатие выполняется в вашем браузере через WebAssembly. Ваш файл никогда не покидает устройство."
     },
     {
-      "icon": "болт",
+      "icon": "bolt",
       "title": "Регистрация не требуется",
-      "description": "Откройте страницу и начните. Нет аккаунта, нет водяных знаков, нет ограничений по времени."
+      "description": "Откройте страницу и начните работу. Без аккаунта, без водяных знаков и без ограничений по времени."
     },
     {
-      "icon": "игрок-игра",
-      "title": "Простой рабочий процесс",
-      "description": "Сжимайте по одному PDF-файлу за раз с помощью целенаправленного и простого рабочего процесса."
+      "icon": "player-play",
+      "title": "Простой процесс",
+      "description": "Сжимайте по одному PDF за раз с простым и понятным процессом."
     },
     {
-      "icon": "корректировки",
-      "title": "Регулируемое качество",
-      "description": "Выбирайте между сбалансированным сжатием для меньших размеров или максимальным для наилучшего качества изображения."
+      "icon": "adjustments",
+      "title": "Настраиваемое качество",
+      "description": "Выберите сбалансированное сжатие для меньшего размера или максимальное качество для лучшего визуального результата."
     }
   ],
-  "pdf_compressor.faq.title": "PDF-компрессор: часто задаваемые вопросы",
+  "pdf_compressor.faq.title": "FAQ по компрессору PDF",
   "pdf_compressor.faq.items": [
     {
-      "q": "Мой PDF-файл загружен на сервер?",
-      "a": "Нет. Все сжатие выполняется локально с помощью Ghostscript (WebAssembly). Ваш PDF-файл никогда не покидает ваше устройство."
+      "q": "Мой PDF загружается на сервер?",
+      "a": "Нет. Всё сжатие выполняется локально с помощью Ghostscript (WebAssembly). Ваш PDF-файл никогда не покидает устройство."
     },
     {
-      "q": "Каков максимальный размер файла?",
-      "a": "PDF-файл может иметь размер до 100 МБ."
+      "q": "Какой максимальный размер файла?",
+      "a": "Размер PDF может быть до 100 МБ."
     }
   ],
-  "related_tools.title": "Другие видеоинструменты",
+  "related_tools.title": "Похожие инструменты",
   "common.tools": "Инструменты",
   "common.language": "Язык",
   "common.footer.copyright": "© 2025 FileYuzu",
@@ -186,153 +186,153 @@
   "common.footer.terms": "Условия",
   "common.footer.contact": "Контакты",
   "tool.compress_video.title": "Компрессор видео",
-  "tool.compress_video.description": "Уменьшить размер видеофайла",
+  "tool.compress_video.description": "Уменьшить размер видео",
   "tool.pdf_compressor.title": "Компрессор PDF",
   "tool.pdf_compressor.description": "Оптимизировать PDF-файлы",
   "tool.video_converter.title": "Конвертер видео",
-  "tool.video_converter.description": "Конвертировать форматы видео",
+  "tool.video_converter.description": "Конвертировать видеоформаты",
   "tool.video_trimmer.title": "Обрезка видео",
-  "tool.video_trimmer.description": "Вырезать фрагменты в браузере",
-  "tool.gif_maker.title": "Создатель GIF",
+  "tool.video_trimmer.description": "Обрезайте клипы в браузере",
+  "tool.gif_maker.title": "Создание GIF",
   "tool.gif_maker.description": "Видео в анимированный GIF",
-  "tool.remove_audio.title": "Удалить звук",
+  "tool.remove_audio.title": "Удалить аудио",
   "tool.remove_audio.description": "Отключить звуковую дорожку",
   "tool.image_compressor.title": "Компрессор изображений",
   "tool.image_compressor.description": "JPG, PNG, WebP",
   "tool.video_rotator.title": "Поворот видео",
   "tool.video_rotator.description": "Повернуть на 90° / 180°",
   "tool.video_cropper.title": "Кадрирование видео",
-  "tool.video_cropper.description": "Обрезать соотношение сторон",
+  "tool.video_cropper.description": "Кадрировать по соотношению сторон",
   "_comment_video_converter": "================ Video Converter ================",
-  "video_converter.seo.title": "FileYuzu — Free Online Video Converter",
-  "video_converter.seo.description": "Convert video files between MP4, WebM, MOV, MKV, and MP3 formats online with FileYuzu. Fast and private conversion in your browser.",
-  "video_converter.hero.title": "Free Online Video Converter",
-  "video_converter.hero.description": "Convert video files easily and securely in your browser. Supports MP4, WebM, MOV, MKV, and MP3.",
-  "video_converter.upload.title": "Drop a video file here",
+  "video_converter.seo.title": "FileYuzu — бесплатный онлайн-конвертер видео",
+  "video_converter.seo.description": "Конвертируйте видеофайлы между форматами MP4, WebM, MOV, MKV и MP3 онлайн с FileYuzu. Быстрая и приватная конвертация в браузере.",
+  "video_converter.hero.title": "Бесплатный онлайн-конвертер видео",
+  "video_converter.hero.description": "Легко и безопасно конвертируйте видеофайлы в браузере. Поддерживаются MP4, WebM, MOV, MKV и MP3.",
+  "video_converter.upload.title": "Перетащите видеофайл сюда",
   "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM",
-  "video_converter.upload.btn_select": "Select file",
-  "video_converter.upload.btn_sample": "Try sample",
-  "video_converter.upload.hint": "Select one video file to convert",
-  "video_converter.settings.format_lbl": "Target format",
-  "video_converter.btn.convert": "Convert video",
-  "video_converter.btn.download": "Download file",
-  "video_converter.btn.convert_new": "Convert new files",
-  "video_converter.proc.converting": "Converting video",
-  "video_converter.how_to_use.title": "How to Convert a Video Online",
+  "video_converter.upload.btn_select": "Выбрать файл",
+  "video_converter.upload.btn_sample": "Попробовать пример",
+  "video_converter.upload.hint": "Выберите один видеофайл для конвертации",
+  "video_converter.settings.format_lbl": "Целевой формат",
+  "video_converter.btn.convert": "Конвертировать видео",
+  "video_converter.btn.download": "Скачать файл",
+  "video_converter.btn.convert_new": "Конвертировать новые файлы",
+  "video_converter.proc.converting": "Конвертация видео",
+  "video_converter.how_to_use.title": "Как конвертировать видео онлайн",
   "video_converter.how_to_use.steps": [
-    "Upload a video file from your device or drag and drop it onto the upload area.",
-    "Select the desired output format (e.g., MP4, WebM, MP3) from the Target format options.",
-    "Click Convert and wait. The process runs locally on your device for complete privacy. Download when finished."
+    "Загрузите видеофайл с устройства или перетащите его в область загрузки.",
+    "Выберите нужный формат вывода (например, MP4, WebM, MP3) в настройках целевого формата.",
+    "Нажмите «Конвертировать» и подождите. Процесс выполняется локально на вашем устройстве для полной приватности. Скачайте файл после завершения."
   ],
-  "video_converter.why_use.title": "Why Use FileYuzu Converter",
+  "video_converter.why_use.title": "Почему стоит использовать конвертер FileYuzu",
   "video_converter.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% private",
-      "description": "Conversion runs locally in your browser. Your files never leave your device."
+      "title": "100% приватно",
+      "description": "Конвертация выполняется локально в браузере. Ваши файлы никогда не покидают устройство."
     },
     {
       "icon": "bolt",
-      "title": "No sign-up required",
-      "description": "Start converting immediately without creating an account or dealing with limits."
+      "title": "Регистрация не требуется",
+      "description": "Начните конвертировать сразу, без создания аккаунта и без лишних ограничений."
     },
     {
       "icon": "player-play",
-      "title": "Multiple formats",
-      "description": "Convert to popular formats like MP4, WebM, MOV, or extract audio as MP3."
+      "title": "Несколько форматов",
+      "description": "Конвертируйте в популярные форматы, такие как MP4, WebM, MOV, или извлекайте аудио в MP3."
     },
     {
-      "icon": "ракета",
+      "icon": "rocket",
       "title": "Быстрая обработка",
-      "description": "Оптимизирован для скорости. Получите конвертированные файлы быстро, не дожидаясь очередей."
+      "description": "Оптимизировано для скорости. Получайте конвертированные файлы быстро, без ожидания в очередях."
     }
   ],
-  "video_converter.faq.title": "Video Converter FAQ",
+  "video_converter.faq.title": "FAQ по конвертеру видео",
   "video_converter.faq.items": [
     {
-      "q": "Are my files uploaded to a server?",
-      "a": "No, all conversion is done locally on your device using WebAssembly. We do not store or process your files on our servers."
+      "q": "Мои файлы загружаются на сервер?",
+      "a": "Нет, вся конвертация выполняется локально на вашем устройстве с использованием WebAssembly. Мы не храним и не обрабатываем ваши файлы на серверах."
     },
     {
-      "q": "Can I convert video to audio?",
-      "a": "Yes! Just select 'MP3' as the target format and the audio track will be extracted and converted."
+      "q": "Можно ли конвертировать видео в аудио?",
+      "a": "Да! Просто выберите 'MP3' как целевой формат, и аудиодорожка будет извлечена и сконвертирована."
     },
     {
-      "q": "What formats are supported?",
-      "a": "We support input from most common video formats and can convert them to MP4, WebM, MOV, MKV, or MP3."
+      "q": "Какие форматы поддерживаются?",
+      "a": "Мы поддерживаем большинство распространённых входных видеоформатов и можем конвертировать их в MP4, WebM, MOV, MKV или MP3."
     }
   ],
   "tool.compress_mp4.title": "Сжать MP4",
-  "tool.compress_mp4.description": "Уменьшить размер файла MP4",
+  "tool.compress_mp4.description": "Уменьшить размер MP4",
   "tool.reduce_video_size.title": "Уменьшить размер видео",
-  "tool.reduce_video_size.description": "Сжимать видео файлы",
+  "tool.reduce_video_size.description": "Уменьшайте видеофайлы",
   "_comment_compress_mp4": "================ Compress MP4 ================",
   "compress_mp4.seo.title": "FileYuzu — бесплатный онлайн-компрессор MP4",
-  "compress_mp4.seo.description": "Сжимайте видео MP4 онлайн с помощью FileYuzu. Уменьшите размер файла MP4 конфиденциально в своем браузере, без загрузки и регистрации.",
+  "compress_mp4.seo.description": "Сжимайте видео MP4 онлайн с FileYuzu. Уменьшайте размер MP4 приватно в браузере — без загрузки на сервер и без регистрации.",
   "compress_mp4.hero.title": "Бесплатный онлайн-компрессор MP4",
-  "compress_mp4.hero.description": "Уменьшите размер файла MP4 онлайн — без загрузки и регистрации. Работает полностью в вашем браузере.",
-  "compress_mp4.upload.title": "Перетащите сюда файл MP4.",
+  "compress_mp4.hero.description": "Уменьшайте размер MP4 онлайн — без загрузки на сервер и без регистрации. Работает полностью в браузере.",
+  "compress_mp4.upload.title": "Перетащите MP4-файл сюда",
   "compress_mp4.upload.subtitle": "MP4 · до 500 МБ",
-  "compress_mp4.upload.btn_select": "Выберите файл",
-  "compress_mp4.upload.btn_sample": "Попробуйте образец",
-  "compress_mp4.upload.hint": "Выберите один файл MP4 для сжатия",
-  "compress_mp4.settings.auto_optimize": "Автоматическая оптимизация",
+  "compress_mp4.upload.btn_select": "Выбрать файл",
+  "compress_mp4.upload.btn_sample": "Попробовать пример",
+  "compress_mp4.upload.hint": "Выберите один MP4-файл для сжатия",
+  "compress_mp4.settings.auto_optimize": "Автооптимизация",
   "compress_mp4.settings.size_lbl": "Целевой размер файла",
   "compress_mp4.btn.compress": "Сжать MP4",
   "compress_mp4.btn.download": "Скачать MP4",
-  "compress_mp4.btn.compress_new": "Сжимать новые файлы",
+  "compress_mp4.btn.compress_new": "Сжать новые файлы",
   "compress_mp4.proc.compressing": "Сжатие MP4",
   "compress_mp4.how_to_use.title": "Как сжать MP4 онлайн",
   "compress_mp4.how_to_use.steps": [
-    "Загрузите файл MP4 со своего устройства или перетащите его в область загрузки.",
-    "Выберите предустановку сжатия или установите собственный целевой размер файла.",
-    "Нажмите «Сжать» и подождите немного. Вся обработка выполняется локально в вашем браузере. Загрузите, когда закончите."
+    "Загрузите MP4-файл с устройства или перетащите его в область загрузки.",
+    "Выберите пресет сжатия или задайте собственный целевой размер файла.",
+    "Нажмите «Сжать» и немного подождите. Вся обработка выполняется локально в браузере. Скачайте результат после завершения."
   ],
-  "compress_mp4.why_use.title": "Зачем использовать компрессор FileYuzu MP4",
+  "compress_mp4.why_use.title": "Почему стоит использовать MP4-компрессор FileYuzu",
   "compress_mp4.why_use.benefits": [
     {
-      "icon": "щит-замок",
-      "title": "100% частный",
-      "description": "Сжатие выполняется в вашем браузере через WebAssembly. Ваш файл никогда не покидает ваше устройство."
+      "icon": "shield-lock",
+      "title": "100% приватно",
+      "description": "Сжатие выполняется в вашем браузере через WebAssembly. Ваш файл никогда не покидает устройство."
     },
     {
-      "icon": "болт",
+      "icon": "bolt",
       "title": "Регистрация не требуется",
-      "description": "Откройте страницу и начните. Нет аккаунта, нет водяных знаков, нет ограничений по времени."
+      "description": "Откройте страницу и начните работу. Без аккаунта, без водяных знаков и без ограничений по времени."
     },
     {
-      "icon": "игрок-игра",
-      "title": "Простой рабочий процесс",
-      "description": "Сжимайте по одному MP4 за раз с помощью целенаправленного и простого рабочего процесса."
+      "icon": "player-play",
+      "title": "Простой процесс",
+      "description": "Сжимайте по одному MP4 за раз с простым и понятным процессом."
     },
     {
-      "icon": "корректировки",
+      "icon": "adjustments",
       "title": "Гибкий целевой размер",
-      "description": "Установите точный размер для любой платформы."
+      "description": "Задайте точный размер для любой платформы."
     }
   ],
-  "compress_mp4.faq.title": "Часто задаваемые вопросы по компрессору MP4",
+  "compress_mp4.faq.title": "FAQ по компрессору MP4",
   "compress_mp4.faq.items": [
     {
-      "q": "Загружено ли мое видео на сервер?",
-      "a": "Нет. Все сжатие выполняется локально с помощью FFmpeg.wasm (WebAssembly). Ваш видеофайл никогда не покидает ваше устройство."
+      "q": "Моё видео загружается на сервер?",
+      "a": "Нет. Всё сжатие выполняется локально с помощью FFmpeg.wasm (WebAssembly). Ваш видеофайл никогда не покидает устройство."
     },
     {
-      "q": "Каков максимальный размер файла?",
-      "a": "Видео может иметь размер до 500 МБ."
+      "q": "Какой максимальный размер файла?",
+      "a": "Размер видео может быть до 500 МБ."
     }
   ],
   "_comment_reduce_video_size": "================ Reduce Video Size ================",
-  "reduce_video_size.seo.title": "FileYuzu — Уменьшите размер видео онлайн бесплатно",
-  "reduce_video_size.seo.description": "Сжимайте и уменьшайте размеры видеофайлов онлайн с помощью FileYuzu. Обрабатывайте локально в браузере без загрузки.",
+  "reduce_video_size.seo.title": "FileYuzu — бесплатное уменьшение размера видео онлайн",
+  "reduce_video_size.seo.description": "Сжимайте и уменьшайте размер видеофайлов онлайн с FileYuzu. Обработка выполняется локально в браузере, без загрузки на сервер.",
   "reduce_video_size.hero.title": "Уменьшить размер видеофайла",
-  "reduce_video_size.hero.description": "Быстро и безопасно уменьшайте размер видео в браузере.",
-  "reduce_video_size.upload.title": "Скиньте сюда видео файл",
+  "reduce_video_size.hero.description": "Быстро и безопасно уменьшайте размер видео прямо в браузере.",
+  "reduce_video_size.upload.title": "Перетащите видеофайл сюда",
   "reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · до 500 МБ",
-  "reduce_video_size.upload.btn_select": "Выберите файл",
-  "reduce_video_size.upload.btn_sample": "Попробуйте образец",
-  "reduce_video_size.upload.hint": "Выберите один видеофайл, чтобы уменьшить его размер.",
-  "reduce_video_size.settings.auto_optimize": "Автоматическая оптимизация",
+  "reduce_video_size.upload.btn_select": "Выбрать файл",
+  "reduce_video_size.upload.btn_sample": "Попробовать пример",
+  "reduce_video_size.upload.hint": "Выберите один видеофайл для уменьшения размера",
+  "reduce_video_size.settings.auto_optimize": "Автооптимизация",
   "reduce_video_size.settings.size_lbl": "Целевой размер файла",
   "reduce_video_size.btn.compress": "Уменьшить размер",
   "reduce_video_size.btn.download": "Скачать видео",
@@ -340,43 +340,203 @@
   "reduce_video_size.proc.compressing": "Уменьшение размера",
   "reduce_video_size.how_to_use.title": "Как уменьшить размер видео онлайн",
   "reduce_video_size.how_to_use.steps": [
-    "Загрузите видеофайл со своего устройства.",
+    "Загрузите видеофайл с устройства.",
     "Выберите целевой размер файла или уровень сжатия.",
-    "Нажмите «Уменьшить размер» и дождитесь завершения процесса локально в вашем браузере."
+    "Нажмите «Уменьшить размер» и дождитесь завершения процесса локально в браузере."
   ],
-  "reduce_video_size.why_use.title": "Зачем использовать FileYuzu для уменьшения размера",
+  "reduce_video_size.why_use.title": "Почему стоит использовать FileYuzu для уменьшения размера",
   "reduce_video_size.why_use.benefits": [
     {
-      "icon": "щит-замок",
-      "title": "Безопасный и конфиденциальный",
-      "description": "Все файлы обрабатываются локально на вашем устройстве. Никаких загрузок."
+      "icon": "shield-lock",
+      "title": "Безопасно и приватно",
+      "description": "Все файлы обрабатываются локально на вашем устройстве. Без загрузки на сервер."
     },
     {
-      "icon": "болт",
+      "icon": "bolt",
       "title": "Мгновенный старт",
-      "description": "Никакой регистрации или установки программного обеспечения не требуется."
+      "description": "Регистрация и установка программ не требуются."
     },
     {
-      "icon": "игрок-игра",
-      "title": "Простота в использовании",
-      "description": "Простой интерфейс, предназначенный для быстрого сжатия видео."
+      "icon": "player-play",
+      "title": "Легко использовать",
+      "description": "Простой интерфейс, созданный для быстрого уменьшения видео."
     },
     {
-      "icon": "корректировки",
+      "icon": "adjustments",
       "title": "Пользовательские цели",
-      "description": "Легко вписывайте свои видео в ограничения по размеру электронной почты или чата."
+      "description": "Легко подгоняйте видео под ограничения размера для email или чатов."
     }
   ],
-  "reduce_video_size.faq.title": "Уменьшить размер видео: часто задаваемые вопросы",
+  "reduce_video_size.faq.title": "FAQ по уменьшению размера видео",
   "reduce_video_size.faq.items": [
     {
-      "q": "Снизит ли уменьшение размера качество?",
-      "a": "Да, уменьшение размера файла неизбежно влечет за собой некоторую потерю качества, но наши оптимизированные настройки идеально балансируют размер и четкость."
+      "q": "Уменьшение размера снизит качество?",
+      "a": "Да, уменьшение размера файла неизбежно связано с некоторой потерей качества, но наши оптимизированные пресеты хорошо балансируют размер и чёткость."
     },
     {
-      "q": "Можно ли использовать этот инструмент бесплатно?",
-      "a": "Да, это совершенно бесплатно и без водяных знаков."
+      "q": "Этот инструмент бесплатный?",
+      "a": "Да, он полностью бесплатный и без водяных знаков."
     }
   ],
-  "pdf_compressor.pages": "Страницы"
+  "pdf_compressor.pages": "страниц",
+  "tool.mov_to_mp4.title": "MOV в MP4",
+  "tool.mov_to_mp4.description": "Конвертировать MOV в MP4",
+  "tool.avi_to_mp4.title": "AVI в MP4",
+  "tool.avi_to_mp4.description": "Конвертировать AVI в MP4",
+  "tool.mkv_to_mp4.title": "MKV в MP4",
+  "tool.mkv_to_mp4.description": "Конвертировать MKV в MP4",
+  "tool.webm_to_mp4.title": "WebM в MP4",
+  "tool.webm_to_mp4.description": "Конвертировать WebM в MP4",
+  "tool.video_to_mp3.title": "Видео в MP3",
+  "tool.video_to_mp3.description": "Конвертировать видео в MP3",
+  "_comment_mov_to_mp4": "================ MOV to MP4 ================",
+  "mov_to_mp4.seo.title": "FileYuzu — бесплатно конвертируйте MOV в MP4 онлайн",
+  "mov_to_mp4.seo.description": "Конвертируйте видеофайлы MOV в MP4 онлайн с FileYuzu. Быстрая и приватная конвертация в браузере.",
+  "mov_to_mp4.hero.title": "Конвертировать MOV в MP4",
+  "mov_to_mp4.hero.description": "Легко и безопасно конвертируйте видео MOV в формат MP4 прямо в браузере.",
+  "mov_to_mp4.how_to_use.title": "Как конвертировать MOV в MP4 онлайн",
+  "mov_to_mp4.how_to_use.steps": [
+    "Загрузите MOV-файл с устройства.",
+    "Нажмите «Конвертировать» и подождите. Процесс выполняется локально на вашем устройстве для полной приватности. Скачайте MP4-файл после завершения."
+  ],
+  "mov_to_mp4.why_use.title": "Почему стоит использовать конвертер FileYuzu",
+  "mov_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% приватно",
+      "description": "Конвертация выполняется локально в браузере. Ваши файлы никогда не покидают устройство."
+    },
+    {
+      "icon": "bolt",
+      "title": "Регистрация не требуется",
+      "description": "Начните конвертировать сразу, без создания аккаунта и без лишних ограничений."
+    }
+  ],
+  "mov_to_mp4.faq.title": "FAQ по MOV в MP4",
+  "mov_to_mp4.faq.items": [
+    {
+      "q": "Мои файлы загружаются на сервер?",
+      "a": "Нет, вся конвертация выполняется локально на вашем устройстве. Мы не храним и не обрабатываем ваши файлы на серверах."
+    }
+  ],
+  "_comment_avi_to_mp4": "================ AVI to MP4 ================",
+  "avi_to_mp4.seo.title": "FileYuzu — бесплатно конвертируйте AVI в MP4 онлайн",
+  "avi_to_mp4.seo.description": "Конвертируйте видеофайлы AVI в MP4 онлайн с FileYuzu. Быстрая и приватная конвертация в браузере.",
+  "avi_to_mp4.hero.title": "Конвертировать AVI в MP4",
+  "avi_to_mp4.hero.description": "Легко и безопасно конвертируйте видео AVI в формат MP4 прямо в браузере.",
+  "avi_to_mp4.how_to_use.title": "Как конвертировать AVI в MP4 онлайн",
+  "avi_to_mp4.how_to_use.steps": [
+    "Загрузите AVI-файл с устройства.",
+    "Нажмите «Конвертировать» и подождите. Процесс выполняется локально на вашем устройстве для полной приватности. Скачайте MP4-файл после завершения."
+  ],
+  "avi_to_mp4.why_use.title": "Почему стоит использовать конвертер FileYuzu",
+  "avi_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% приватно",
+      "description": "Конвертация выполняется локально в браузере. Ваши файлы никогда не покидают устройство."
+    },
+    {
+      "icon": "bolt",
+      "title": "Регистрация не требуется",
+      "description": "Начните конвертировать сразу, без создания аккаунта."
+    }
+  ],
+  "avi_to_mp4.faq.title": "FAQ по AVI в MP4",
+  "avi_to_mp4.faq.items": [
+    {
+      "q": "Мои файлы загружаются на сервер?",
+      "a": "Нет, вся конвертация выполняется локально на вашем устройстве."
+    }
+  ],
+  "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
+  "mkv_to_mp4.seo.title": "FileYuzu — бесплатно конвертируйте MKV в MP4 онлайн",
+  "mkv_to_mp4.seo.description": "Конвертируйте видеофайлы MKV в MP4 онлайн с FileYuzu. Быстрая и приватная конвертация в браузере.",
+  "mkv_to_mp4.hero.title": "Конвертировать MKV в MP4",
+  "mkv_to_mp4.hero.description": "Легко и безопасно конвертируйте видео MKV в формат MP4 прямо в браузере.",
+  "mkv_to_mp4.how_to_use.title": "Как конвертировать MKV в MP4 онлайн",
+  "mkv_to_mp4.how_to_use.steps": [
+    "Загрузите MKV-файл с устройства.",
+    "Нажмите «Конвертировать» и подождите. Процесс выполняется локально на вашем устройстве для полной приватности. Скачайте MP4-файл после завершения."
+  ],
+  "mkv_to_mp4.why_use.title": "Почему стоит использовать конвертер FileYuzu",
+  "mkv_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% приватно",
+      "description": "Конвертация выполняется локально в браузере. Ваши файлы никогда не покидают устройство."
+    },
+    {
+      "icon": "bolt",
+      "title": "Регистрация не требуется",
+      "description": "Начните конвертировать сразу, без создания аккаунта."
+    }
+  ],
+  "mkv_to_mp4.faq.title": "FAQ по MKV в MP4",
+  "mkv_to_mp4.faq.items": [
+    {
+      "q": "Мои файлы загружаются на сервер?",
+      "a": "Нет, вся конвертация выполняется локально на вашем устройстве."
+    }
+  ],
+  "_comment_webm_to_mp4": "================ WebM to MP4 ================",
+  "webm_to_mp4.seo.title": "FileYuzu — бесплатно конвертируйте WebM в MP4 онлайн",
+  "webm_to_mp4.seo.description": "Конвертируйте видеофайлы WebM в MP4 онлайн с FileYuzu. Быстрая и приватная конвертация в браузере.",
+  "webm_to_mp4.hero.title": "Конвертировать WebM в MP4",
+  "webm_to_mp4.hero.description": "Легко и безопасно конвертируйте видео WebM в формат MP4 прямо в браузере.",
+  "webm_to_mp4.how_to_use.title": "Как конвертировать WebM в MP4 онлайн",
+  "webm_to_mp4.how_to_use.steps": [
+    "Загрузите WebM-файл с устройства.",
+    "Нажмите «Конвертировать» и подождите. Процесс выполняется локально на вашем устройстве для полной приватности. Скачайте MP4-файл после завершения."
+  ],
+  "webm_to_mp4.why_use.title": "Почему стоит использовать конвертер FileYuzu",
+  "webm_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% приватно",
+      "description": "Конвертация выполняется локально в браузере. Ваши файлы никогда не покидают устройство."
+    },
+    {
+      "icon": "bolt",
+      "title": "Регистрация не требуется",
+      "description": "Начните конвертировать сразу, без создания аккаунта."
+    }
+  ],
+  "webm_to_mp4.faq.title": "FAQ по WebM в MP4",
+  "webm_to_mp4.faq.items": [
+    {
+      "q": "Мои файлы загружаются на сервер?",
+      "a": "Нет, вся конвертация выполняется локально на вашем устройстве."
+    }
+  ],
+  "_comment_video_to_mp3": "================ Video to MP3 ================",
+  "video_to_mp3.seo.title": "FileYuzu — бесплатно извлекайте аудио из видео (видео в MP3) онлайн",
+  "video_to_mp3.seo.description": "Конвертируйте видео в MP3 онлайн с FileYuzu. Легко извлекайте аудио из видеофайлов прямо в браузере.",
+  "video_to_mp3.hero.title": "Конвертировать видео в MP3",
+  "video_to_mp3.hero.description": "Извлеките аудиодорожку из видео и сохраните её как MP3-файл прямо в браузере.",
+  "video_to_mp3.how_to_use.title": "Как конвертировать видео в MP3 онлайн",
+  "video_to_mp3.how_to_use.steps": [
+    "Загрузите видеофайл с устройства.",
+    "Нажмите «Конвертировать» и подождите. Процесс выполняется локально на вашем устройстве. Скачайте MP3-файл после завершения."
+  ],
+  "video_to_mp3.why_use.title": "Почему стоит использовать аудио-экстрактор FileYuzu",
+  "video_to_mp3.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% приватно",
+      "description": "Конвертация выполняется локально в браузере. Ваши файлы никогда не покидают устройство."
+    },
+    {
+      "icon": "bolt",
+      "title": "Регистрация не требуется",
+      "description": "Начните конвертировать сразу, без создания аккаунта."
+    }
+  ],
+  "video_to_mp3.faq.title": "FAQ по видео в MP3",
+  "video_to_mp3.faq.items": [
+    {
+      "q": "Мои файлы загружаются на сервер?",
+      "a": "Нет, вся конвертация выполняется локально на вашем устройстве."
+    }
+  ]
 }

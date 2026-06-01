@@ -1,44 +1,44 @@
 {
   "_comment_home": "================ Home ================",
   "home.seo.title": "FileYuzu — เครื่องมือวิดีโอออนไลน์ฟรี",
-  "home.seo.description": "FileYuzu ให้บริการเครื่องมือวิดีโอและไฟล์ออนไลน์ฟรี ทำงานทั้งหมดในเบราว์เซอร์โดยไม่ต้องอัปโหลดหรือลงทะเบียน",
+  "home.seo.description": "FileYuzu มีเครื่องมือวิดีโอและไฟล์ออนไลน์ที่ฟรีและเป็นส่วนตัว ทำงานทั้งหมดในเบราว์เซอร์ของคุณ โดยไม่ต้องอัปโหลดและไม่ต้องสมัครสมาชิก",
   "home.hero.title": "เครื่องมือออนไลน์ฟรี",
-  "home.hero.description": "เครื่องมือที่เป็นส่วนตัว รวดเร็ว และใช้ง่าย ทำงานในเบราว์เซอร์โดยตรง ไฟล์ของคุณไม่ออกจากอุปกรณ์",
-  "home.pill.private": "ไฟล์ไม่ออกจากอุปกรณ์",
-  "home.pill.instant": "ประมวลผลทันที ไม่ต้องรอคิว",
+  "home.hero.description": "เครื่องมือที่เป็นส่วนตัว รวดเร็ว และใช้งานง่าย ทำงานโดยตรงในเบราว์เซอร์ของคุณ ไฟล์ของคุณจะไม่ออกจากอุปกรณ์",
+  "home.pill.private": "ไฟล์จะไม่ออกจากอุปกรณ์ของคุณ",
+  "home.pill.instant": "เริ่มได้ทันที ไม่ต้องรอคิว",
   "home.pill.free": "ฟรี 100%",
   "home.why.private.title": "เป็นส่วนตัว 100%",
-  "home.why.private.desc": "การบีบอัดทำงานในเบราว์เซอร์ผ่าน WebAssembly ไฟล์ไม่ออกจากอุปกรณ์",
-  "home.why.instant.title": "ไม่ต้องลงทะเบียน",
-  "home.why.instant.desc": "เปิดหน้าเว็บแล้วเริ่มได้เลย ไม่ต้องมีบัญชี ไม่มีลายน้ำ ไม่มีขีดจำกัดเวลา",
-  "home.why.device.title": "ใช้ได้ทุกอุปกรณ์",
-  "home.why.device.desc": "รองรับทุกขนาดหน้าจอ ไม่ต้องติดตั้งแอปใด ๆ",
+  "home.why.private.desc": "การบีบอัดทำงานในเบราว์เซอร์ของคุณผ่าน WebAssembly ไฟล์ของคุณจะไม่ออกจากอุปกรณ์",
+  "home.why.instant.title": "ไม่ต้องสมัครสมาชิก",
+  "home.why.instant.desc": "เปิดหน้าเว็บแล้วเริ่มใช้งานได้ทันที ไม่ต้องมีบัญชี ไม่มีลายน้ำ และไม่จำกัดเวลา",
+  "home.why.device.title": "ใช้งานได้บนทุกอุปกรณ์",
+  "home.why.device.desc": "รองรับทุกขนาดหน้าจอ ไม่ต้องติดตั้งแอป",
   "home.faq.title": "คำถามที่พบบ่อย",
   "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
   "home.faq.items": [
     {
-      "q": "เครื่องมือทั้งหมดของ FileYuzu ฟรีหรือไม่?",
-      "a": "ใช่ค่ะ เครื่องมือทุกอย่างบน FileYuzu ใช้ได้ฟรีสมบูรณ์ ไม่มีค่าใช้จ่ายแอบซ่อน ไม่มีการสมัครสมาชิก และไม่มีขีดจำกัด คุณสามารถบีบอัดวิดีโอ บีบอัด PDF และแปลงรูปแบบวิดีโอได้ไม่อั้นสิ้น"
+      "q": "เครื่องมือทั้งหมดบน FileYuzu ใช้งานฟรีหรือไม่?",
+      "a": "ใช่ เครื่องมือทุกตัวบน FileYuzu ใช้งานได้ฟรีทั้งหมด ไม่มีค่าใช้จ่ายแอบแฝง ไม่มีการสมัครสมาชิก และไม่มีข้อจำกัด คุณสามารถบีบอัดวิดีโอ บีบอัด PDF และแปลงรูปแบบวิดีโอได้กี่ครั้งก็ได้โดยไม่มีค่าใช้จ่าย"
     },
     {
       "q": "ไฟล์ของฉันจะถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
-      "a": "ไม่ค่ะ การประมวลผลทั้งหมดเกิดขึ้นโดยตรงในเบราว์เซอร์โดยใช้เทคโนโลยี WebAssembly ไฟล์ไม่ออกจากอุปกรณ์และไม่ถูกส่งไปยังเซิร์ฟเวอร์ใด ข้อมูลของคุณเป็นส่วนตัวอย่างสมบูรณ์"
+      "a": "ไม่ การประมวลผลทั้งหมดเกิดขึ้นโดยตรงในเบราว์เซอร์ของคุณโดยใช้เทคโนโลยี WebAssembly ไฟล์ของคุณจะไม่ออกจากอุปกรณ์และจะไม่ถูกส่งไปยังเซิร์ฟเวอร์ใด ๆ ดังนั้นข้อมูลของคุณจึงเป็นส่วนตัวอย่างสมบูรณ์"
     },
     {
-      "q": "ต้องสร้างบัญชีเพื่อใช้เครื่องมือหรือไม่?",
-      "a": "ไม่ต้องสร้างบัญชีหรือลงทะเบียนค่ะ เปิดเครื่องมือที่ต้องการแล้วเริ่มใช้ได้เลย — ไม่ต้องลงทะเบียน ไม่ต้องใช้อีเมล และไม่ต้องตั้งรหัสผ่าน"
+      "q": "ฉันต้องสร้างบัญชีเพื่อใช้เครื่องมือเหล่านี้หรือไม่?",
+      "a": "ไม่ต้องมีบัญชีหรือสมัครสมาชิก เพียงเปิดเครื่องมือที่ต้องการแล้วเริ่มใช้งานได้ทันที — ไม่ต้องลงทะเบียน ไม่ต้องใช้อีเมล ไม่ต้องใช้รหัสผ่าน"
     },
     {
       "q": "FileYuzu มีเครื่องมืออะไรบ้าง?",
-      "a": "FileYuzu ให้บริการเครื่องมือบีบอัดวิดีโอออนไลน์ฟรี เครื่องมือบีบอัด PDF และเครื่องมือแปลงวิดีโอที่รองรับรูปแบบ MP4, WebM, MOV, MKV และ MP3 โดยมีการเพิ่มเครื่องมือใหม่อย่างสม่ำเสมอ"
+      "a": "ปัจจุบัน FileYuzu มีเครื่องมือบีบอัดวิดีโอออนไลน์ฟรี เครื่องมือบีบอัด PDF และเครื่องมือแปลงวิดีโอที่รองรับรูปแบบอย่าง MP4, WebM, MOV, MKV และ MP3 โดยมีการเพิ่มเครื่องมือใหม่อย่างสม่ำเสมอ"
     },
     {
-      "q": "มีขีดจำกัดขนาดไฟล์หรือไม่?",
-      "a": "ไม่มีขีดจำกัดจากฝั่งเซิร์ฟเวอร์เนื่องจากการประมวลผลทั้งหมดเกิดในเบราว์เซอร์ โดยทั่วไปเครื่องมือส่วนใหญ่รองรับไฟล์สูงสุดถึง 500 MB ประสิทธิภาพขึ้นอยู่กับหน่วยความจำและความสามารถของอุปกรณ์"
+      "q": "มีการจำกัดขนาดไฟล์หรือไม่?",
+      "a": "ไม่มีข้อจำกัดตายตัวจากฝั่งเซิร์ฟเวอร์ เพราะการประมวลผลทั้งหมดเกิดขึ้นในเบราว์เซอร์ของคุณ โดยทั่วไปเครื่องมือส่วนใหญ่รองรับไฟล์ได้สูงสุด 500 MB ประสิทธิภาพขึ้นอยู่กับหน่วยความจำและพลังประมวลผลของอุปกรณ์คุณ"
     },
     {
-      "q": "ใช้ FileYuzu บนโทรศัพท์หรือแท็บเล็ตได้ไหม?",
-      "a": "ได้เลย! FileYuzu รองรับทุกขนาดหน้าจอและทำงานได้ดีบนสมาร์ทโฟน แท็บเล็ต และคอมพิวเตอร์ตั้งโต๊ะ ไม่ต้องติดตั้งแอปใด — แค่เปิดเว็บไซต์ในเบราว์เซอร์มือถือแล้วใช้เครื่องมือได้เลย"
+      "q": "ฉันใช้ FileYuzu บนโทรศัพท์หรือแท็บเล็ตได้ไหม?",
+      "a": "ได้! FileYuzu รองรับทุกขนาดหน้าจอและใช้งานได้บนสมาร์ตโฟน แท็บเล็ต และคอมพิวเตอร์เดสก์ท็อป ไม่ต้องติดตั้งแอป — เพียงเปิดเว็บไซต์ในเบราว์เซอร์มือถือแล้วใช้เครื่องมือใดก็ได้"
     }
   ],
   "_comment_categories": "================ Tool Categories ================",
@@ -47,13 +47,13 @@
   "compress_video.seo.title": "FileYuzu — เครื่องมือบีบอัดวิดีโอออนไลน์ฟรี",
   "compress_video.seo.description": "บีบอัดวิดีโอ MP4, MOV, AVI, MKV และ WebM ออนไลน์ด้วย FileYuzu ลดขนาดไฟล์วิดีโออย่างเป็นส่วนตัวในเบราว์เซอร์ของคุณ โดยไม่ต้องอัปโหลดและไม่ต้องสมัครสมาชิก",
   "compress_video.hero.title": "เครื่องมือบีบอัดวิดีโอออนไลน์ฟรี",
-  "compress_video.hero.description": "ลดขนาดไฟล์วิดีโอออนไลน์ — ไม่ต้องอัปโหลด ไม่ต้องสมัครสมาชิก ทำงานทั้งหมดในเบราว์เซอร์ของคุณ รองรับ MP4, MOV, AVI, MKV, WebM",
+  "compress_video.hero.description": "ลดขนาดไฟล์วิดีโอออนไลน์ — ไม่ต้องอัปโหลด ไม่ต้องสมัครสมาชิก ทำงานทั้งหมดในเบราว์เซอร์ รองรับ MP4, MOV, AVI, MKV, WebM",
   "compress_video.upload.title": "วางไฟล์วิดีโอที่นี่",
   "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · สูงสุด 500 MB",
   "compress_video.upload.btn_select": "เลือกไฟล์",
-  "compress_video.upload.btn_sample": "ลองใช้ไฟล์ตัวอย่าง",
-  "compress_video.upload.hint": "เลือกไฟล์วิดีโอ 1 ไฟล์เพื่อบีบอัด",
-  "compress_video.settings.auto_optimize": "ปรับให้เหมาะสมอัตโนมัติ",
+  "compress_video.upload.btn_sample": "ลองไฟล์ตัวอย่าง",
+  "compress_video.upload.hint": "เลือกไฟล์วิดีโอหนึ่งไฟล์เพื่อบีบอัด",
+  "compress_video.settings.auto_optimize": "ปรับแต่งอัตโนมัติ",
   "compress_video.settings.size_lbl": "ขนาดไฟล์เป้าหมาย",
   "compress_video.btn.compress": "บีบอัดวิดีโอ",
   "compress_video.btn.download": "ดาวน์โหลดวิดีโอ",
@@ -62,8 +62,8 @@
   "compress_video.how_to_use.title": "วิธีบีบอัดวิดีโอออนไลน์",
   "compress_video.how_to_use.steps": [
     "อัปโหลดไฟล์วิดีโอจากอุปกรณ์ของคุณ หรือลากแล้ววางลงในพื้นที่อัปโหลด",
-    "เลือกพรีเซ็ตการบีบอัด หรือตั้งค่าขนาดไฟล์เป้าหมายเอง ใช้แท็กเลือกด่วนสำหรับแพลตฟอร์มยอดนิยม เช่น Gmail, Discord หรือ Slack",
-    "คลิกบีบอัดแล้วรอสักครู่ การประมวลผลทั้งหมดทำงานภายในเบราว์เซอร์ของคุณ — ไฟล์ของคุณจะไม่ถูกส่งไปยังเซิร์ฟเวอร์ใด ๆ ดาวน์โหลดเมื่อเสร็จแล้ว"
+    "เลือกพรีเซ็ตการบีบอัดหรือตั้งค่าขนาดไฟล์เป้าหมายเอง ใช้แท็กเลือกด่วนสำหรับแพลตฟอร์มทั่วไป เช่น Gmail, Discord หรือ Slack",
+    "คลิกบีบอัดแล้วรอสักครู่ การประมวลผลทั้งหมดทำงานในเบราว์เซอร์ของคุณ — ไฟล์ของคุณจะไม่ถูกส่งไปยังเซิร์ฟเวอร์ใด ๆ ดาวน์โหลดเมื่อเสร็จสิ้น"
   ],
   "compress_video.why_use.title": "ทำไมต้องใช้ FileYuzu",
   "compress_video.why_use.benefits": [
@@ -75,110 +75,110 @@
     {
       "icon": "bolt",
       "title": "ไม่ต้องสมัครสมาชิก",
-      "description": "เปิดหน้าเว็บแล้วเริ่มใช้งานได้ทันที ไม่ต้องมีบัญชี ไม่มีลายน้ำ ไม่มีการจำกัดเวลา"
+      "description": "เปิดหน้าเว็บแล้วเริ่มใช้งานได้ทันที ไม่ต้องมีบัญชี ไม่มีลายน้ำ และไม่จำกัดเวลา"
     },
     {
       "icon": "player-play",
       "title": "ขั้นตอนเรียบง่าย",
-      "description": "บีบอัดวิดีโอทีละ 1 ไฟล์ด้วยขั้นตอนที่เรียบง่ายและใช้งานง่าย"
+      "description": "บีบอัดวิดีโอทีละไฟล์ด้วยขั้นตอนที่เรียบง่ายและตรงไปตรงมา"
     },
     {
       "icon": "adjustments",
-      "title": "กำหนดขนาดเป้าหมายได้ยืดหยุ่น",
-      "description": "ตั้งค่าขนาดที่แน่นอนสำหรับทุกแพลตฟอร์ม — Gmail, Discord, Slack, LINE, WhatsApp"
+      "title": "ขนาดเป้าหมายยืดหยุ่น",
+      "description": "ตั้งค่าขนาดที่ต้องการได้อย่างแม่นยำสำหรับทุกแพลตฟอร์ม — Gmail, Discord, Slack, Line, WhatsApp"
     }
   ],
   "compress_video.faq.title": "คำถามที่พบบ่อยเกี่ยวกับเครื่องมือบีบอัดวิดีโอ",
   "compress_video.faq.items": [
     {
-      "q": "วิดีโอของฉันถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
-      "a": "ไม่ การบีบอัดทั้งหมดทำงานในเครื่องโดยใช้ FFmpeg.wasm (WebAssembly) ไฟล์วิดีโอของคุณจะไม่ออกจากอุปกรณ์"
+      "q": "วิดีโอของฉันจะถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
+      "a": "ไม่ การบีบอัดทั้งหมดทำงานในอุปกรณ์ของคุณโดยใช้ FFmpeg.wasm (WebAssembly) ไฟล์วิดีโอของคุณจะไม่ออกจากอุปกรณ์"
     },
     {
-      "q": "รองรับไฟล์วิดีโอรูปแบบใดบ้าง?",
-      "a": "เรารองรับ MP4, MOV, AVI, MKV, WebM และรูปแบบทั่วไปอื่น ๆ ส่วนใหญ่ ไฟล์ผลลัพธ์จะเป็น MP4 เสมอเพื่อความเข้ากันได้สูงสุดกับอุปกรณ์"
+      "q": "รองรับรูปแบบวิดีโอใดบ้าง?",
+      "a": "เรารองรับ MP4, MOV, AVI, MKV, WebM และรูปแบบทั่วไปอื่น ๆ ส่วนใหญ่ ไฟล์ผลลัพธ์จะเป็น MP4 เสมอเพื่อให้เข้ากันได้กับอุปกรณ์มากที่สุด"
     },
     {
       "q": "ขนาดไฟล์สูงสุดคือเท่าไร?",
-      "a": "วิดีโอสามารถมีขนาดได้สูงสุด 500 MB สำหรับไฟล์ที่ใหญ่กว่านี้ ควรพิจารณาแบ่งวิดีโอก่อน หรือใช้เครื่องมือเดสก์ท็อปอย่าง HandBrake"
+      "a": "วิดีโอสามารถมีขนาดได้สูงสุด 500 MB สำหรับไฟล์ที่ใหญ่กว่า ควรพิจารณาแบ่งวิดีโอก่อนหรือใช้เครื่องมือเดสก์ท็อป เช่น HandBrake"
     },
     {
       "q": "พรีเซ็ต Low, Balance และ High หมายถึงอะไร?",
-      "a": "Balance จะลดขนาดประมาณ 60–80% ในขณะที่ยังคงทำให้วิดีโอดูดีบนหน้าจอส่วนใหญ่ Low จะสร้างไฟล์ที่เล็กที่สุดแต่มีการสูญเสียคุณภาพที่เห็นได้ชัดมากขึ้น ส่วน High จะคงคุณภาพใกล้เคียงต้นฉบับพร้อมการลดขนาดในระดับปานกลาง"
+      "a": "Balance ลดขนาดได้ประมาณ 60–80% โดยยังคงให้วิดีโอดูดีบนหน้าจอส่วนใหญ่ Low ให้ไฟล์เล็กที่สุดแต่คุณภาพลดลงอย่างเห็นได้ชัดกว่า ส่วน High รักษาคุณภาพใกล้เคียงต้นฉบับพร้อมลดขนาดในระดับปานกลาง"
     },
     {
       "q": "\"Disable audio\" ทำอะไร?",
-      "a": "ตัวเลือกนี้จะลบแทร็กเสียงออกจากวิดีโอที่บีบอัดแล้ว เหมาะสำหรับคลิปไม่มีเสียง การบันทึกหน้าจอ หรือเมื่อคุณต้องการขนาดไฟล์ที่เล็กที่สุดเท่าที่เป็นไปได้"
+      "a": "ตัวเลือกนี้จะลบแทร็กเสียงออกจากวิดีโอที่บีบอัด เหมาะสำหรับคลิปไม่มีเสียง การบันทึกหน้าจอ หรือเมื่อคุณต้องการขนาดไฟล์ที่เล็กที่สุด"
     },
     {
       "q": "ทำไมแท็กแพลตฟอร์มจึงแสดงค่า MB เฉพาะ?",
-      "a": "แต่ละแพลตฟอร์มมีขีดจำกัดขนาดไฟล์แนบ Gmail คือ 25 MB, Discord คือ 8 MB (ฟรี), Slack คือ 100 MB และอื่น ๆ เมื่อคลิกแท็ก ระบบจะตั้งค่าขนาดเป้าหมายให้อัตโนมัติ"
+      "a": "แต่ละแพลตฟอร์มมีขีดจำกัดขนาดไฟล์แนบ เช่น Gmail 25 MB, Discord 8 MB (ฟรี), Slack 100 MB เป็นต้น เมื่อคลิกแท็ก ระบบจะตั้งค่าขนาดเป้าหมายให้อัตโนมัติ"
     },
     {
       "q": "คุณภาพจะลดลงอย่างเห็นได้ชัดหรือไม่?",
-      "a": "ขึ้นอยู่กับพรีเซ็ตและวิดีโอต้นฉบับ สำหรับวิดีโอส่วนใหญ่ พรีเซ็ต Balance จะให้ผลลัพธ์ที่ดูดีบนโทรศัพท์และหน้าจอทั่วไป หากยังไม่พอใจ คุณสามารถลองพรีเซ็ตอื่นได้"
+      "a": "ขึ้นอยู่กับพรีเซ็ตและวิดีโอต้นฉบับ สำหรับวิดีโอส่วนใหญ่ พรีเซ็ต Balance จะให้ผลลัพธ์ที่ดูดีบนโทรศัพท์และหน้าจอมาตรฐาน หากยังไม่พอใจ คุณสามารถลองพรีเซ็ตอื่นได้"
     }
   ],
   "_comment_pdf_compressor": "================ PDF Compressor ================",
-  "pdf_compressor.seo.title": "FileYuzu — โปรแกรมบีบอัด PDF ออนไลน์ฟรี",
-  "pdf_compressor.seo.description": "บีบอัดไฟล์ PDF ออนไลน์ด้วย FileYuzu ลดขนาดไฟล์ PDF แบบส่วนตัวในเบราว์เซอร์ของคุณโดยไม่ต้องอัปโหลดและไม่ต้องลงทะเบียน",
-  "pdf_compressor.hero.title": "โปรแกรมบีบอัด PDF ออนไลน์ฟรี",
-  "pdf_compressor.hero.description": "ลดขนาดไฟล์ PDF ออนไลน์ — ไม่ต้องอัพโหลด ไม่ต้องสมัคร ทำงานได้อย่างสมบูรณ์ในเบราว์เซอร์ของคุณ",
+  "pdf_compressor.seo.title": "FileYuzu — เครื่องมือบีบอัด PDF ออนไลน์ฟรี",
+  "pdf_compressor.seo.description": "บีบอัดไฟล์ PDF ออนไลน์ด้วย FileYuzu ลดขนาดไฟล์ PDF อย่างเป็นส่วนตัวในเบราว์เซอร์ โดยไม่ต้องอัปโหลดและไม่ต้องสมัครสมาชิก",
+  "pdf_compressor.hero.title": "เครื่องมือบีบอัด PDF ออนไลน์ฟรี",
+  "pdf_compressor.hero.description": "ลดขนาดไฟล์ PDF ออนไลน์ — ไม่ต้องอัปโหลด ไม่ต้องสมัครสมาชิก ทำงานทั้งหมดในเบราว์เซอร์ของคุณ",
   "pdf_compressor.upload.title": "วางไฟล์ PDF ที่นี่",
   "pdf_compressor.upload.subtitle": "PDF · สูงสุด 100 MB",
   "pdf_compressor.upload.btn_select": "เลือกไฟล์",
-  "pdf_compressor.upload.btn_sample": "ลองตัวอย่าง",
-  "pdf_compressor.upload.hint": "เลือกไฟล์ PDF หนึ่งไฟล์ที่จะบีบอัด",
+  "pdf_compressor.upload.btn_sample": "ลองไฟล์ตัวอย่าง",
+  "pdf_compressor.upload.hint": "เลือกไฟล์ PDF หนึ่งไฟล์เพื่อบีบอัด",
   "pdf_compressor.settings.quality_lbl": "พรีเซ็ตคุณภาพ",
-  "pdf_compressor.settings.quality_balanced": "สมดุล (อีบุ๊ค)",
-  "pdf_compressor.settings.quality_maximum": "สูงสุด (หน้าจอ)",
-  "pdf_compressor.settings.password_lbl": "รหัสผ่านเพื่อปลดล็อค (ไม่จำเป็น)",
-  "pdf_compressor.settings.password_placeholder": "รหัสผ่าน (หากมีการเข้ารหัส)",
+  "pdf_compressor.settings.quality_balanced": "สมดุล (Ebook)",
+  "pdf_compressor.settings.quality_maximum": "สูงสุด (Screen)",
+  "pdf_compressor.settings.password_lbl": "รหัสผ่านเพื่อปลดล็อก (ไม่บังคับ)",
+  "pdf_compressor.settings.password_placeholder": "รหัสผ่าน (หากเข้ารหัส)",
   "pdf_compressor.btn.compress": "บีบอัด PDF",
-  "pdf_compressor.btn.download": "ดาวน์โหลดไฟล์ PDF",
+  "pdf_compressor.btn.download": "ดาวน์โหลด PDF",
   "pdf_compressor.btn.compress_new": "บีบอัดไฟล์ใหม่",
-  "pdf_compressor.proc.compressing": "การบีบอัด PDF",
+  "pdf_compressor.proc.compressing": "กำลังบีบอัด PDF",
   "pdf_compressor.how_to_use.title": "วิธีบีบอัด PDF ออนไลน์",
   "pdf_compressor.how_to_use.steps": [
-    "อัปโหลดไฟล์ PDF จากอุปกรณ์ของคุณ หรือลากและวางลงในพื้นที่อัปโหลด",
-    "เลือกการตั้งค่าคุณภาพล่วงหน้า (สมดุลหรือสูงสุด) และระบุรหัสผ่านหากไฟล์ PDF ถูกเข้ารหัส",
-    "คลิกบีบอัดแล้วรอสักครู่ การประมวลผลทั้งหมดทำงานภายในเบราว์เซอร์ของคุณ ดาวน์โหลดเมื่อเสร็จแล้ว"
+    "อัปโหลดไฟล์ PDF จากอุปกรณ์ของคุณ หรือลากแล้ววางลงในพื้นที่อัปโหลด",
+    "เลือกพรีเซ็ตคุณภาพ (Balanced หรือ Maximum) และใส่รหัสผ่านเพิ่มเติมหาก PDF ถูกเข้ารหัส",
+    "คลิกบีบอัดแล้วรอสักครู่ การประมวลผลทั้งหมดทำงานในเบราว์เซอร์ของคุณ ดาวน์โหลดเมื่อเสร็จสิ้น"
   ],
-  "pdf_compressor.why_use.title": "เหตุใดจึงต้องใช้ FileYuzu PDF Compressor",
+  "pdf_compressor.why_use.title": "ทำไมต้องใช้เครื่องมือบีบอัด PDF ของ FileYuzu",
   "pdf_compressor.why_use.benefits": [
     {
-      "icon": "โล่ล็อค",
-      "title": "ส่วนตัว 100%",
-      "description": "การบีบอัดทำงานในเบราว์เซอร์ของคุณผ่าน WebAssembly ไฟล์ของคุณจะไม่ออกจากอุปกรณ์ของคุณ"
+      "icon": "shield-lock",
+      "title": "เป็นส่วนตัว 100%",
+      "description": "การบีบอัดทำงานในเบราว์เซอร์ของคุณผ่าน WebAssembly ไฟล์ของคุณจะไม่ออกจากอุปกรณ์"
     },
     {
-      "icon": "สายฟ้า",
-      "title": "ไม่จำเป็นต้องลงทะเบียน",
-      "description": "เปิดหน้าและเริ่มต้น ไม่มีบัญชี ไม่มีลายน้ำ ไม่จำกัดเวลา"
+      "icon": "bolt",
+      "title": "ไม่ต้องสมัครสมาชิก",
+      "description": "เปิดหน้าเว็บแล้วเริ่มใช้งานได้ทันที ไม่ต้องมีบัญชี ไม่มีลายน้ำ และไม่จำกัดเวลา"
     },
     {
-      "icon": "ผู้เล่นเล่น",
-      "title": "ขั้นตอนการทำงานที่เรียบง่าย",
-      "description": "บีบอัด PDF ครั้งละหนึ่งไฟล์ด้วยขั้นตอนการทำงานที่เรียบง่ายและมุ่งเน้น"
+      "icon": "player-play",
+      "title": "ขั้นตอนเรียบง่าย",
+      "description": "บีบอัด PDF ทีละไฟล์ด้วยขั้นตอนที่เรียบง่ายและตรงไปตรงมา"
     },
     {
-      "icon": "การปรับเปลี่ยน",
+      "icon": "adjustments",
       "title": "ปรับคุณภาพได้",
-      "description": "เลือกระหว่างการบีบอัดที่สมดุลสำหรับขนาดที่เล็กกว่าหรือสูงสุดเพื่อให้ได้คุณภาพของภาพที่ดีที่สุด"
+      "description": "เลือกระหว่างการบีบอัดแบบสมดุลเพื่อให้ไฟล์เล็กลง หรือแบบสูงสุดเพื่อคุณภาพการแสดงผลที่ดีที่สุด"
     }
   ],
-  "pdf_compressor.faq.title": "คำถามที่พบบ่อยเกี่ยวกับคอมเพรสเซอร์ PDF",
+  "pdf_compressor.faq.title": "คำถามที่พบบ่อยเกี่ยวกับเครื่องมือบีบอัด PDF",
   "pdf_compressor.faq.items": [
     {
-      "q": "PDF ของฉันถูกอัพโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
-      "a": "ไม่ การบีบอัดทั้งหมดเสร็จสิ้นภายในเครื่องโดยใช้ Ghostscript (WebAssembly) ไฟล์ PDF ของคุณจะไม่มีวันออกจากอุปกรณ์ของคุณ"
+      "q": "PDF ของฉันจะถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
+      "a": "ไม่ การบีบอัดทั้งหมดทำงานในอุปกรณ์ของคุณโดยใช้ Ghostscript (WebAssembly) ไฟล์ PDF ของคุณจะไม่ออกจากอุปกรณ์"
     },
     {
       "q": "ขนาดไฟล์สูงสุดคือเท่าไร?",
-      "a": "PDF สามารถมีขนาดสูงสุด 100 MB"
+      "a": "PDF สามารถมีขนาดได้สูงสุด 100 MB"
     }
   ],
-  "related_tools.title": "เครื่องมือวิดีโอที่เกี่ยวข้อง",
+  "related_tools.title": "เครื่องมือที่เกี่ยวข้อง",
   "common.tools": "เครื่องมือ",
   "common.language": "ภาษา",
   "common.footer.copyright": "© 2025 FileYuzu",
@@ -188,78 +188,78 @@
   "tool.compress_video.title": "เครื่องมือบีบอัดวิดีโอ",
   "tool.compress_video.description": "ลดขนาดไฟล์วิดีโอ",
   "tool.pdf_compressor.title": "เครื่องมือบีบอัด PDF",
-  "tool.pdf_compressor.description": "ปรับแต่งไฟล์ PDF ให้เหมาะสม",
+  "tool.pdf_compressor.description": "ปรับขนาดไฟล์ PDF",
   "tool.video_converter.title": "เครื่องมือแปลงวิดีโอ",
   "tool.video_converter.description": "แปลงรูปแบบวิดีโอ",
   "tool.video_trimmer.title": "เครื่องมือตัดวิดีโอ",
   "tool.video_trimmer.description": "ตัดคลิปในเบราว์เซอร์",
   "tool.gif_maker.title": "เครื่องมือสร้าง GIF",
-  "tool.gif_maker.description": "แปลงวิดีโอเป็น GIF แบบเคลื่อนไหว",
+  "tool.gif_maker.description": "แปลงวิดีโอเป็น GIF เคลื่อนไหว",
   "tool.remove_audio.title": "ลบเสียง",
   "tool.remove_audio.description": "ปิดเสียงแทร็กวิดีโอ",
   "tool.image_compressor.title": "เครื่องมือบีบอัดรูปภาพ",
   "tool.image_compressor.description": "JPG, PNG, WebP",
   "tool.video_rotator.title": "เครื่องมือหมุนวิดีโอ",
   "tool.video_rotator.description": "หมุน 90° / 180°",
-  "tool.video_cropper.title": "เครื่องมือตัดครอบวิดีโอ",
-  "tool.video_cropper.description": "ตัดครอบตามอัตราส่วนภาพ",
+  "tool.video_cropper.title": "เครื่องมือครอปวิดีโอ",
+  "tool.video_cropper.description": "ครอปตามอัตราส่วนภาพ",
   "_comment_video_converter": "================ Video Converter ================",
-  "video_converter.seo.title": "FileYuzu — Free Online Video Converter",
-  "video_converter.seo.description": "Convert video files between MP4, WebM, MOV, MKV, and MP3 formats online with FileYuzu. Fast and private conversion in your browser.",
-  "video_converter.hero.title": "Free Online Video Converter",
-  "video_converter.hero.description": "Convert video files easily and securely in your browser. Supports MP4, WebM, MOV, MKV, and MP3.",
-  "video_converter.upload.title": "Drop a video file here",
+  "video_converter.seo.title": "FileYuzu — เครื่องมือแปลงวิดีโอออนไลน์ฟรี",
+  "video_converter.seo.description": "แปลงไฟล์วิดีโอระหว่างรูปแบบ MP4, WebM, MOV, MKV และ MP3 ออนไลน์ด้วย FileYuzu แปลงได้รวดเร็วและเป็นส่วนตัวในเบราว์เซอร์ของคุณ",
+  "video_converter.hero.title": "เครื่องมือแปลงวิดีโอออนไลน์ฟรี",
+  "video_converter.hero.description": "แปลงไฟล์วิดีโอได้ง่ายและปลอดภัยในเบราว์เซอร์ของคุณ รองรับ MP4, WebM, MOV, MKV และ MP3",
+  "video_converter.upload.title": "วางไฟล์วิดีโอที่นี่",
   "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM",
-  "video_converter.upload.btn_select": "Select file",
-  "video_converter.upload.btn_sample": "Try sample",
-  "video_converter.upload.hint": "Select one video file to convert",
-  "video_converter.settings.format_lbl": "Target format",
-  "video_converter.btn.convert": "Convert video",
-  "video_converter.btn.download": "Download file",
-  "video_converter.btn.convert_new": "Convert new files",
-  "video_converter.proc.converting": "Converting video",
-  "video_converter.how_to_use.title": "How to Convert a Video Online",
+  "video_converter.upload.btn_select": "เลือกไฟล์",
+  "video_converter.upload.btn_sample": "ลองไฟล์ตัวอย่าง",
+  "video_converter.upload.hint": "เลือกไฟล์วิดีโอหนึ่งไฟล์เพื่อแปลง",
+  "video_converter.settings.format_lbl": "รูปแบบเป้าหมาย",
+  "video_converter.btn.convert": "แปลงวิดีโอ",
+  "video_converter.btn.download": "ดาวน์โหลดไฟล์",
+  "video_converter.btn.convert_new": "แปลงไฟล์ใหม่",
+  "video_converter.proc.converting": "กำลังแปลงวิดีโอ",
+  "video_converter.how_to_use.title": "วิธีแปลงวิดีโอออนไลน์",
   "video_converter.how_to_use.steps": [
-    "Upload a video file from your device or drag and drop it onto the upload area.",
-    "Select the desired output format (e.g., MP4, WebM, MP3) from the Target format options.",
-    "Click Convert and wait. The process runs locally on your device for complete privacy. Download when finished."
+    "อัปโหลดไฟล์วิดีโอจากอุปกรณ์ของคุณ หรือลากแล้ววางลงในพื้นที่อัปโหลด",
+    "เลือกรูปแบบผลลัพธ์ที่ต้องการ (เช่น MP4, WebM, MP3) จากตัวเลือกรูปแบบเป้าหมาย",
+    "คลิกแปลงแล้วรอ กระบวนการทำงานในอุปกรณ์ของคุณเพื่อความเป็นส่วนตัวอย่างสมบูรณ์ ดาวน์โหลดเมื่อเสร็จสิ้น"
   ],
-  "video_converter.why_use.title": "Why Use FileYuzu Converter",
+  "video_converter.why_use.title": "ทำไมต้องใช้เครื่องมือแปลงไฟล์ของ FileYuzu",
   "video_converter.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% private",
-      "description": "Conversion runs locally in your browser. Your files never leave your device."
+      "title": "เป็นส่วนตัว 100%",
+      "description": "การแปลงทำงานในเบราว์เซอร์ของคุณ ไฟล์ของคุณจะไม่ออกจากอุปกรณ์"
     },
     {
       "icon": "bolt",
-      "title": "No sign-up required",
-      "description": "Start converting immediately without creating an account or dealing with limits."
+      "title": "ไม่ต้องสมัครสมาชิก",
+      "description": "เริ่มแปลงได้ทันทีโดยไม่ต้องสร้างบัญชีหรือเจอกับข้อจำกัด"
     },
     {
       "icon": "player-play",
-      "title": "Multiple formats",
-      "description": "Convert to popular formats like MP4, WebM, MOV, or extract audio as MP3."
+      "title": "หลายรูปแบบ",
+      "description": "แปลงเป็นรูปแบบยอดนิยม เช่น MP4, WebM, MOV หรือแยกเสียงเป็น MP3"
     },
     {
-      "icon": "จรวด",
-      "title": "การประมวลผลที่รวดเร็ว",
-      "description": "ปรับให้เหมาะสมเพื่อความเร็ว รับไฟล์ที่แปลงแล้วอย่างรวดเร็วโดยไม่ต้องรอคิว"
+      "icon": "rocket",
+      "title": "ประมวลผลรวดเร็ว",
+      "description": "ปรับให้เร็วเป็นพิเศษ รับไฟล์ที่แปลงแล้วได้อย่างรวดเร็วโดยไม่ต้องรอคิว"
     }
   ],
-  "video_converter.faq.title": "Video Converter FAQ",
+  "video_converter.faq.title": "คำถามที่พบบ่อยเกี่ยวกับเครื่องมือแปลงวิดีโอ",
   "video_converter.faq.items": [
     {
-      "q": "Are my files uploaded to a server?",
-      "a": "No, all conversion is done locally on your device using WebAssembly. We do not store or process your files on our servers."
+      "q": "ไฟล์ของฉันจะถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
+      "a": "ไม่ การแปลงทั้งหมดทำงานในอุปกรณ์ของคุณโดยใช้ WebAssembly เราไม่จัดเก็บหรือประมวลผลไฟล์ของคุณบนเซิร์ฟเวอร์ของเรา"
     },
     {
-      "q": "Can I convert video to audio?",
-      "a": "Yes! Just select 'MP3' as the target format and the audio track will be extracted and converted."
+      "q": "ฉันแปลงวิดีโอเป็นเสียงได้ไหม?",
+      "a": "ได้! เพียงเลือก 'MP3' เป็นรูปแบบเป้าหมาย ระบบจะแยกแทร็กเสียงและแปลงให้"
     },
     {
-      "q": "What formats are supported?",
-      "a": "We support input from most common video formats and can convert them to MP4, WebM, MOV, MKV, or MP3."
+      "q": "รองรับรูปแบบใดบ้าง?",
+      "a": "เรารองรับไฟล์นำเข้าจากรูปแบบวิดีโอทั่วไปส่วนใหญ่ และสามารถแปลงเป็น MP4, WebM, MOV, MKV หรือ MP3 ได้"
     }
   ],
   "tool.compress_mp4.title": "บีบอัด MP4",
@@ -267,116 +267,276 @@
   "tool.reduce_video_size.title": "ลดขนาดวิดีโอ",
   "tool.reduce_video_size.description": "ย่อขนาดไฟล์วิดีโอ",
   "_comment_compress_mp4": "================ Compress MP4 ================",
-  "compress_mp4.seo.title": "FileYuzu — โปรแกรมบีบอัด MP4 ออนไลน์ฟรี",
-  "compress_mp4.seo.description": "บีบอัดวิดีโอ MP4 ออนไลน์ด้วย FileYuzu ลดขนาดไฟล์ MP4 แบบส่วนตัวในเบราว์เซอร์ของคุณโดยไม่ต้องอัปโหลดและไม่ต้องลงทะเบียน",
-  "compress_mp4.hero.title": "โปรแกรมบีบอัด MP4 ออนไลน์ฟรี",
-  "compress_mp4.hero.description": "ลดขนาดไฟล์ MP4 ออนไลน์ — ไม่ต้องอัพโหลด ไม่ต้องสมัคร ทำงานได้อย่างสมบูรณ์ในเบราว์เซอร์ของคุณ",
+  "compress_mp4.seo.title": "FileYuzu — เครื่องมือบีบอัด MP4 ออนไลน์ฟรี",
+  "compress_mp4.seo.description": "บีบอัดวิดีโอ MP4 ออนไลน์ด้วย FileYuzu ลดขนาดไฟล์ MP4 อย่างเป็นส่วนตัวในเบราว์เซอร์ โดยไม่ต้องอัปโหลดและไม่ต้องสมัครสมาชิก",
+  "compress_mp4.hero.title": "เครื่องมือบีบอัด MP4 ออนไลน์ฟรี",
+  "compress_mp4.hero.description": "ลดขนาดไฟล์ MP4 ออนไลน์ — ไม่ต้องอัปโหลด ไม่ต้องสมัครสมาชิก ทำงานทั้งหมดในเบราว์เซอร์ของคุณ",
   "compress_mp4.upload.title": "วางไฟล์ MP4 ที่นี่",
   "compress_mp4.upload.subtitle": "MP4 · สูงสุด 500 MB",
   "compress_mp4.upload.btn_select": "เลือกไฟล์",
-  "compress_mp4.upload.btn_sample": "ลองตัวอย่าง",
-  "compress_mp4.upload.hint": "เลือกไฟล์ MP4 หนึ่งไฟล์ที่จะบีบอัด",
-  "compress_mp4.settings.auto_optimize": "ปรับให้เหมาะสมอัตโนมัติ",
+  "compress_mp4.upload.btn_sample": "ลองไฟล์ตัวอย่าง",
+  "compress_mp4.upload.hint": "เลือกไฟล์ MP4 หนึ่งไฟล์เพื่อบีบอัด",
+  "compress_mp4.settings.auto_optimize": "ปรับแต่งอัตโนมัติ",
   "compress_mp4.settings.size_lbl": "ขนาดไฟล์เป้าหมาย",
   "compress_mp4.btn.compress": "บีบอัด MP4",
   "compress_mp4.btn.download": "ดาวน์โหลด MP4",
   "compress_mp4.btn.compress_new": "บีบอัดไฟล์ใหม่",
-  "compress_mp4.proc.compressing": "การบีบอัด MP4",
+  "compress_mp4.proc.compressing": "กำลังบีบอัด MP4",
   "compress_mp4.how_to_use.title": "วิธีบีบอัด MP4 ออนไลน์",
   "compress_mp4.how_to_use.steps": [
-    "อัปโหลดไฟล์ MP4 จากอุปกรณ์ของคุณ หรือลากและวางลงในพื้นที่อัปโหลด",
-    "เลือกการตั้งค่าการบีบอัดล่วงหน้าหรือตั้งค่าขนาดไฟล์เป้าหมายที่กำหนดเอง",
-    "คลิกบีบอัดแล้วรอสักครู่ การประมวลผลทั้งหมดทำงานภายในเบราว์เซอร์ของคุณ ดาวน์โหลดเมื่อเสร็จแล้ว"
+    "อัปโหลดไฟล์ MP4 จากอุปกรณ์ของคุณ หรือลากแล้ววางลงในพื้นที่อัปโหลด",
+    "เลือกพรีเซ็ตการบีบอัดหรือตั้งค่าขนาดไฟล์เป้าหมายเอง",
+    "คลิกบีบอัดแล้วรอสักครู่ การประมวลผลทั้งหมดทำงานในเบราว์เซอร์ของคุณ ดาวน์โหลดเมื่อเสร็จสิ้น"
   ],
-  "compress_mp4.why_use.title": "เหตุใดจึงต้องใช้คอมเพรสเซอร์ FileYuzu MP4",
+  "compress_mp4.why_use.title": "ทำไมต้องใช้เครื่องมือบีบอัด MP4 ของ FileYuzu",
   "compress_mp4.why_use.benefits": [
     {
-      "icon": "โล่ล็อค",
-      "title": "ส่วนตัว 100%",
-      "description": "การบีบอัดทำงานในเบราว์เซอร์ของคุณผ่าน WebAssembly ไฟล์ของคุณจะไม่ออกจากอุปกรณ์ของคุณ"
+      "icon": "shield-lock",
+      "title": "เป็นส่วนตัว 100%",
+      "description": "การบีบอัดทำงานในเบราว์เซอร์ของคุณผ่าน WebAssembly ไฟล์ของคุณจะไม่ออกจากอุปกรณ์"
     },
     {
-      "icon": "สายฟ้า",
-      "title": "ไม่จำเป็นต้องลงทะเบียน",
-      "description": "เปิดหน้าและเริ่มต้น ไม่มีบัญชี ไม่มีลายน้ำ ไม่จำกัดเวลา"
+      "icon": "bolt",
+      "title": "ไม่ต้องสมัครสมาชิก",
+      "description": "เปิดหน้าเว็บแล้วเริ่มใช้งานได้ทันที ไม่ต้องมีบัญชี ไม่มีลายน้ำ และไม่จำกัดเวลา"
     },
     {
-      "icon": "ผู้เล่นเล่น",
-      "title": "ขั้นตอนการทำงานที่เรียบง่าย",
-      "description": "บีบอัด MP4 ครั้งละหนึ่งไฟล์ด้วยขั้นตอนการทำงานที่เรียบง่ายและมุ่งเน้น"
+      "icon": "player-play",
+      "title": "ขั้นตอนเรียบง่าย",
+      "description": "บีบอัด MP4 ทีละไฟล์ด้วยขั้นตอนที่เรียบง่ายและตรงไปตรงมา"
     },
     {
-      "icon": "การปรับเปลี่ยน",
-      "title": "ขนาดเป้าหมายที่ยืดหยุ่น",
-      "description": "กำหนดขนาดที่แน่นอนสำหรับแพลตฟอร์มใดๆ"
+      "icon": "adjustments",
+      "title": "ขนาดเป้าหมายยืดหยุ่น",
+      "description": "ตั้งค่าขนาดที่ต้องการได้อย่างแม่นยำสำหรับทุกแพลตฟอร์ม"
     }
   ],
-  "compress_mp4.faq.title": "คำถามที่พบบ่อยเกี่ยวกับคอมเพรสเซอร์ MP4",
+  "compress_mp4.faq.title": "คำถามที่พบบ่อยเกี่ยวกับเครื่องมือบีบอัด MP4",
   "compress_mp4.faq.items": [
     {
-      "q": "วิดีโอของฉันถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
-      "a": "ไม่ การบีบอัดทั้งหมดเสร็จสิ้นภายในเครื่องโดยใช้ FFmpeg.wasm (WebAssembly) ไฟล์วิดีโอของคุณจะไม่มีวันออกจากอุปกรณ์ของคุณ"
+      "q": "วิดีโอของฉันจะถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
+      "a": "ไม่ การบีบอัดทั้งหมดทำงานในอุปกรณ์ของคุณโดยใช้ FFmpeg.wasm (WebAssembly) ไฟล์วิดีโอของคุณจะไม่ออกจากอุปกรณ์"
     },
     {
       "q": "ขนาดไฟล์สูงสุดคือเท่าไร?",
-      "a": "วิดีโออาจมีขนาดสูงสุด 500 MB"
+      "a": "วิดีโอสามารถมีขนาดได้สูงสุด 500 MB"
     }
   ],
   "_comment_reduce_video_size": "================ Reduce Video Size ================",
   "reduce_video_size.seo.title": "FileYuzu — ลดขนาดวิดีโอออนไลน์ฟรี",
-  "reduce_video_size.seo.description": "ย่อและลดขนาดไฟล์วิดีโอออนไลน์ด้วย FileYuzu ประมวลผลภายในเบราว์เซอร์ของคุณโดยไม่ต้องอัปโหลด",
+  "reduce_video_size.seo.description": "ย่อและลดขนาดไฟล์วิดีโอออนไลน์ด้วย FileYuzu ประมวลผลในเบราว์เซอร์ของคุณโดยไม่ต้องอัปโหลด",
   "reduce_video_size.hero.title": "ลดขนาดไฟล์วิดีโอ",
-  "reduce_video_size.hero.description": "ทำให้วิดีโอของคุณเล็กลงอย่างรวดเร็วและปลอดภัยในเบราว์เซอร์ของคุณ",
+  "reduce_video_size.hero.description": "ทำให้วิดีโอของคุณเล็กลงอย่างรวดเร็วและปลอดภัยในเบราว์เซอร์",
   "reduce_video_size.upload.title": "วางไฟล์วิดีโอที่นี่",
   "reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · สูงสุด 500 MB",
   "reduce_video_size.upload.btn_select": "เลือกไฟล์",
-  "reduce_video_size.upload.btn_sample": "ลองตัวอย่าง",
+  "reduce_video_size.upload.btn_sample": "ลองไฟล์ตัวอย่าง",
   "reduce_video_size.upload.hint": "เลือกไฟล์วิดีโอหนึ่งไฟล์เพื่อลดขนาด",
-  "reduce_video_size.settings.auto_optimize": "ปรับให้เหมาะสมอัตโนมัติ",
+  "reduce_video_size.settings.auto_optimize": "ปรับแต่งอัตโนมัติ",
   "reduce_video_size.settings.size_lbl": "ขนาดไฟล์เป้าหมาย",
   "reduce_video_size.btn.compress": "ลดขนาด",
   "reduce_video_size.btn.download": "ดาวน์โหลดวิดีโอ",
   "reduce_video_size.btn.compress_new": "ลดขนาดไฟล์ใหม่",
-  "reduce_video_size.proc.compressing": "ลดขนาด",
+  "reduce_video_size.proc.compressing": "กำลังลดขนาด",
   "reduce_video_size.how_to_use.title": "วิธีลดขนาดวิดีโอออนไลน์",
   "reduce_video_size.how_to_use.steps": [
     "อัปโหลดไฟล์วิดีโอจากอุปกรณ์ของคุณ",
-    "เลือกขนาดไฟล์เป้าหมายหรือระดับการบีบอัดของคุณ",
-    "คลิกลดขนาดและรอให้กระบวนการเสร็จสิ้นภายในเบราว์เซอร์ของคุณ"
+    "เลือกขนาดไฟล์เป้าหมายหรือระดับการบีบอัด",
+    "คลิกลดขนาด แล้วรอให้กระบวนการเสร็จสมบูรณ์ในเบราว์เซอร์ของคุณ"
   ],
-  "reduce_video_size.why_use.title": "เหตุใดจึงใช้ FileYuzu เพื่อลดขนาด",
+  "reduce_video_size.why_use.title": "ทำไมต้องใช้ FileYuzu เพื่อลดขนาด",
   "reduce_video_size.why_use.benefits": [
     {
-      "icon": "โล่ล็อค",
+      "icon": "shield-lock",
       "title": "ปลอดภัยและเป็นส่วนตัว",
-      "description": "ไฟล์ทั้งหมดได้รับการประมวลผลภายในอุปกรณ์ของคุณ ไม่มีการอัปโหลด"
+      "description": "ไฟล์ทั้งหมดประมวลผลในอุปกรณ์ของคุณ ไม่ต้องอัปโหลด"
     },
     {
-      "icon": "สายฟ้า",
-      "title": "เริ่มทันที",
+      "icon": "bolt",
+      "title": "เริ่มได้ทันที",
       "description": "ไม่ต้องลงทะเบียนหรือติดตั้งซอฟต์แวร์"
     },
     {
-      "icon": "ผู้เล่นเล่น",
+      "icon": "player-play",
       "title": "ใช้งานง่าย",
-      "description": "อินเทอร์เฟซที่เรียบง่ายออกแบบมาเพื่อการย่อขนาดวิดีโออย่างรวดเร็ว"
+      "description": "อินเทอร์เฟซเรียบง่าย ออกแบบมาเพื่อย่อขนาดวิดีโออย่างรวดเร็ว"
     },
     {
-      "icon": "การปรับเปลี่ยน",
-      "title": "เป้าหมายที่กำหนดเอง",
-      "description": "ปรับวิดีโอของคุณให้พอดีกับขีดจำกัดขนาดอีเมลหรือแชทได้อย่างง่ายดาย"
+      "icon": "adjustments",
+      "title": "กำหนดเป้าหมายเอง",
+      "description": "ทำให้วิดีโอของคุณพอดีกับขีดจำกัดขนาดของอีเมลหรือแชตได้ง่าย"
     }
   ],
   "reduce_video_size.faq.title": "คำถามที่พบบ่อยเกี่ยวกับการลดขนาดวิดีโอ",
   "reduce_video_size.faq.items": [
     {
-      "q": "การลดขนาดจะลดคุณภาพลงหรือไม่?",
-      "a": "ใช่ การลดขนาดไฟล์ย่อมทำให้คุณภาพลดลงอย่างหลีกเลี่ยงไม่ได้ แต่ขนาดและความชัดเจนของพรีเซ็ตที่ได้รับการปรับปรุงอย่างเหมาะสมของเราสมบูรณ์แบบ"
+      "q": "การลดขนาดจะทำให้คุณภาพลดลงหรือไม่?",
+      "a": "ใช่ การลดขนาดไฟล์ย่อมทำให้คุณภาพลดลงบ้าง แต่พรีเซ็ตที่ปรับแต่งของเราช่วยสมดุลระหว่างขนาดและความคมชัดได้อย่างเหมาะสม"
     },
     {
-      "q": "เครื่องมือนี้ใช้งานได้ฟรีหรือไม่?",
-      "a": "ใช่ มันฟรีโดยไม่มีลายน้ำ"
+      "q": "เครื่องมือนี้ใช้งานฟรีหรือไม่?",
+      "a": "ใช่ ใช้งานได้ฟรีทั้งหมดและไม่มีลายน้ำ"
     }
   ],
-  "pdf_compressor.pages": "หน้า"
+  "pdf_compressor.pages": "หน้า",
+  "tool.mov_to_mp4.title": "MOV เป็น MP4",
+  "tool.mov_to_mp4.description": "แปลง MOV เป็น MP4",
+  "tool.avi_to_mp4.title": "AVI เป็น MP4",
+  "tool.avi_to_mp4.description": "แปลง AVI เป็น MP4",
+  "tool.mkv_to_mp4.title": "MKV เป็น MP4",
+  "tool.mkv_to_mp4.description": "แปลง MKV เป็น MP4",
+  "tool.webm_to_mp4.title": "WebM เป็น MP4",
+  "tool.webm_to_mp4.description": "แปลง WebM เป็น MP4",
+  "tool.video_to_mp3.title": "วิดีโอเป็น MP3",
+  "tool.video_to_mp3.description": "แปลงวิดีโอเป็น MP3",
+  "_comment_mov_to_mp4": "================ MOV to MP4 ================",
+  "mov_to_mp4.seo.title": "FileYuzu — แปลง MOV เป็น MP4 ออนไลน์ฟรี",
+  "mov_to_mp4.seo.description": "แปลงไฟล์วิดีโอ MOV เป็น MP4 ออนไลน์ด้วย FileYuzu แปลงได้รวดเร็วและเป็นส่วนตัวในเบราว์เซอร์ของคุณ",
+  "mov_to_mp4.hero.title": "แปลง MOV เป็น MP4",
+  "mov_to_mp4.hero.description": "แปลงวิดีโอ MOV ของคุณเป็นรูปแบบ MP4 ได้อย่างง่ายดายและปลอดภัยในเบราว์เซอร์",
+  "mov_to_mp4.how_to_use.title": "วิธีแปลง MOV เป็น MP4 ออนไลน์",
+  "mov_to_mp4.how_to_use.steps": [
+    "อัปโหลดไฟล์ MOV จากอุปกรณ์ของคุณ",
+    "คลิกแปลงแล้วรอ กระบวนการทำงานในอุปกรณ์ของคุณเพื่อความเป็นส่วนตัวอย่างสมบูรณ์ ดาวน์โหลดไฟล์ MP4 เมื่อเสร็จสิ้น"
+  ],
+  "mov_to_mp4.why_use.title": "ทำไมต้องใช้เครื่องมือแปลงไฟล์ของ FileYuzu",
+  "mov_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "เป็นส่วนตัว 100%",
+      "description": "การแปลงทำงานในเบราว์เซอร์ของคุณ ไฟล์ของคุณจะไม่ออกจากอุปกรณ์"
+    },
+    {
+      "icon": "bolt",
+      "title": "ไม่ต้องสมัครสมาชิก",
+      "description": "เริ่มแปลงได้ทันทีโดยไม่ต้องสร้างบัญชีหรือเจอกับข้อจำกัด"
+    }
+  ],
+  "mov_to_mp4.faq.title": "คำถามที่พบบ่อยเกี่ยวกับ MOV เป็น MP4",
+  "mov_to_mp4.faq.items": [
+    {
+      "q": "ไฟล์ของฉันจะถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
+      "a": "ไม่ การแปลงทั้งหมดทำงานในอุปกรณ์ของคุณ เราไม่จัดเก็บหรือประมวลผลไฟล์ของคุณบนเซิร์ฟเวอร์ของเรา"
+    }
+  ],
+  "_comment_avi_to_mp4": "================ AVI to MP4 ================",
+  "avi_to_mp4.seo.title": "FileYuzu — แปลง AVI เป็น MP4 ออนไลน์ฟรี",
+  "avi_to_mp4.seo.description": "แปลงไฟล์วิดีโอ AVI เป็น MP4 ออนไลน์ด้วย FileYuzu แปลงได้รวดเร็วและเป็นส่วนตัวในเบราว์เซอร์ของคุณ",
+  "avi_to_mp4.hero.title": "แปลง AVI เป็น MP4",
+  "avi_to_mp4.hero.description": "แปลงวิดีโอ AVI ของคุณเป็นรูปแบบ MP4 ได้อย่างง่ายดายและปลอดภัยในเบราว์เซอร์",
+  "avi_to_mp4.how_to_use.title": "วิธีแปลง AVI เป็น MP4 ออนไลน์",
+  "avi_to_mp4.how_to_use.steps": [
+    "อัปโหลดไฟล์ AVI จากอุปกรณ์ของคุณ",
+    "คลิกแปลงแล้วรอ กระบวนการทำงานในอุปกรณ์ของคุณเพื่อความเป็นส่วนตัวอย่างสมบูรณ์ ดาวน์โหลดไฟล์ MP4 เมื่อเสร็จสิ้น"
+  ],
+  "avi_to_mp4.why_use.title": "ทำไมต้องใช้เครื่องมือแปลงไฟล์ของ FileYuzu",
+  "avi_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "เป็นส่วนตัว 100%",
+      "description": "การแปลงทำงานในเบราว์เซอร์ของคุณ ไฟล์ของคุณจะไม่ออกจากอุปกรณ์"
+    },
+    {
+      "icon": "bolt",
+      "title": "ไม่ต้องสมัครสมาชิก",
+      "description": "เริ่มแปลงได้ทันทีโดยไม่ต้องสร้างบัญชี"
+    }
+  ],
+  "avi_to_mp4.faq.title": "คำถามที่พบบ่อยเกี่ยวกับ AVI เป็น MP4",
+  "avi_to_mp4.faq.items": [
+    {
+      "q": "ไฟล์ของฉันจะถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
+      "a": "ไม่ การแปลงทั้งหมดทำงานในอุปกรณ์ของคุณ"
+    }
+  ],
+  "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
+  "mkv_to_mp4.seo.title": "FileYuzu — แปลง MKV เป็น MP4 ออนไลน์ฟรี",
+  "mkv_to_mp4.seo.description": "แปลงไฟล์วิดีโอ MKV เป็น MP4 ออนไลน์ด้วย FileYuzu แปลงได้รวดเร็วและเป็นส่วนตัวในเบราว์เซอร์ของคุณ",
+  "mkv_to_mp4.hero.title": "แปลง MKV เป็น MP4",
+  "mkv_to_mp4.hero.description": "แปลงวิดีโอ MKV ของคุณเป็นรูปแบบ MP4 ได้อย่างง่ายดายและปลอดภัยในเบราว์เซอร์",
+  "mkv_to_mp4.how_to_use.title": "วิธีแปลง MKV เป็น MP4 ออนไลน์",
+  "mkv_to_mp4.how_to_use.steps": [
+    "อัปโหลดไฟล์ MKV จากอุปกรณ์ของคุณ",
+    "คลิกแปลงแล้วรอ กระบวนการทำงานในอุปกรณ์ของคุณเพื่อความเป็นส่วนตัวอย่างสมบูรณ์ ดาวน์โหลดไฟล์ MP4 เมื่อเสร็จสิ้น"
+  ],
+  "mkv_to_mp4.why_use.title": "ทำไมต้องใช้เครื่องมือแปลงไฟล์ของ FileYuzu",
+  "mkv_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "เป็นส่วนตัว 100%",
+      "description": "การแปลงทำงานในเบราว์เซอร์ของคุณ ไฟล์ของคุณจะไม่ออกจากอุปกรณ์"
+    },
+    {
+      "icon": "bolt",
+      "title": "ไม่ต้องสมัครสมาชิก",
+      "description": "เริ่มแปลงได้ทันทีโดยไม่ต้องสร้างบัญชี"
+    }
+  ],
+  "mkv_to_mp4.faq.title": "คำถามที่พบบ่อยเกี่ยวกับ MKV เป็น MP4",
+  "mkv_to_mp4.faq.items": [
+    {
+      "q": "ไฟล์ของฉันจะถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
+      "a": "ไม่ การแปลงทั้งหมดทำงานในอุปกรณ์ของคุณ"
+    }
+  ],
+  "_comment_webm_to_mp4": "================ WebM to MP4 ================",
+  "webm_to_mp4.seo.title": "FileYuzu — แปลง WebM เป็น MP4 ออนไลน์ฟรี",
+  "webm_to_mp4.seo.description": "แปลงไฟล์วิดีโอ WebM เป็น MP4 ออนไลน์ด้วย FileYuzu แปลงได้รวดเร็วและเป็นส่วนตัวในเบราว์เซอร์ของคุณ",
+  "webm_to_mp4.hero.title": "แปลง WebM เป็น MP4",
+  "webm_to_mp4.hero.description": "แปลงวิดีโอ WebM ของคุณเป็นรูปแบบ MP4 ได้อย่างง่ายดายและปลอดภัยในเบราว์เซอร์",
+  "webm_to_mp4.how_to_use.title": "วิธีแปลง WebM เป็น MP4 ออนไลน์",
+  "webm_to_mp4.how_to_use.steps": [
+    "อัปโหลดไฟล์ WebM จากอุปกรณ์ของคุณ",
+    "คลิกแปลงแล้วรอ กระบวนการทำงานในอุปกรณ์ของคุณเพื่อความเป็นส่วนตัวอย่างสมบูรณ์ ดาวน์โหลดไฟล์ MP4 เมื่อเสร็จสิ้น"
+  ],
+  "webm_to_mp4.why_use.title": "ทำไมต้องใช้เครื่องมือแปลงไฟล์ของ FileYuzu",
+  "webm_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "เป็นส่วนตัว 100%",
+      "description": "การแปลงทำงานในเบราว์เซอร์ของคุณ ไฟล์ของคุณจะไม่ออกจากอุปกรณ์"
+    },
+    {
+      "icon": "bolt",
+      "title": "ไม่ต้องสมัครสมาชิก",
+      "description": "เริ่มแปลงได้ทันทีโดยไม่ต้องสร้างบัญชี"
+    }
+  ],
+  "webm_to_mp4.faq.title": "คำถามที่พบบ่อยเกี่ยวกับ WebM เป็น MP4",
+  "webm_to_mp4.faq.items": [
+    {
+      "q": "ไฟล์ของฉันจะถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
+      "a": "ไม่ การแปลงทั้งหมดทำงานในอุปกรณ์ของคุณ"
+    }
+  ],
+  "_comment_video_to_mp3": "================ Video to MP3 ================",
+  "video_to_mp3.seo.title": "FileYuzu — ดึงเสียงจากวิดีโอ (วิดีโอเป็น MP3) ออนไลน์ฟรี",
+  "video_to_mp3.seo.description": "แปลงวิดีโอเป็น MP3 ออนไลน์ด้วย FileYuzu ดึงเสียงจากไฟล์วิดีโอของคุณได้ง่าย ๆ ในเบราว์เซอร์",
+  "video_to_mp3.hero.title": "แปลงวิดีโอเป็น MP3",
+  "video_to_mp3.hero.description": "ดึงแทร็กเสียงจากวิดีโอของคุณและบันทึกเป็นไฟล์ MP3 โดยตรงในเบราว์เซอร์",
+  "video_to_mp3.how_to_use.title": "วิธีแปลงวิดีโอเป็น MP3 ออนไลน์",
+  "video_to_mp3.how_to_use.steps": [
+    "อัปโหลดไฟล์วิดีโอจากอุปกรณ์ของคุณ",
+    "คลิกแปลงแล้วรอ กระบวนการทำงานในอุปกรณ์ของคุณ ดาวน์โหลดไฟล์ MP3 เมื่อเสร็จสิ้น"
+  ],
+  "video_to_mp3.why_use.title": "ทำไมต้องใช้เครื่องมือดึงเสียงของ FileYuzu",
+  "video_to_mp3.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "เป็นส่วนตัว 100%",
+      "description": "การแปลงทำงานในเบราว์เซอร์ของคุณ ไฟล์ของคุณจะไม่ออกจากอุปกรณ์"
+    },
+    {
+      "icon": "bolt",
+      "title": "ไม่ต้องสมัครสมาชิก",
+      "description": "เริ่มแปลงได้ทันทีโดยไม่ต้องสร้างบัญชี"
+    }
+  ],
+  "video_to_mp3.faq.title": "คำถามที่พบบ่อยเกี่ยวกับวิดีโอเป็น MP3",
+  "video_to_mp3.faq.items": [
+    {
+      "q": "ไฟล์ของฉันจะถูกอัปโหลดไปยังเซิร์ฟเวอร์หรือไม่?",
+      "a": "ไม่ การแปลงทั้งหมดทำงานในอุปกรณ์ของคุณ"
+    }
+  ]
 }
