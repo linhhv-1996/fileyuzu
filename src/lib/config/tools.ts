@@ -60,7 +60,7 @@ export const tools: ToolConfig[] = [
         titleKey: 'tool.pdf_compressor.title',
         descriptionKey: 'tool.pdf_compressor.description',
         icon: 'file-type-pdf',
-        related_tools: [],
+        related_tools: ['compress-mp4', 'video-converter', 'compress-video', 'reduce-video-size'],
         category: 'pdf',
         tags: ['PDF'],
     },

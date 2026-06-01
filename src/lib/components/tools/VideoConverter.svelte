@@ -145,13 +145,15 @@
             </div>
             
             <div class="settings">
-                <div class="setting-row" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
+                <div class="setting-row format-row">
                     <div class="setting-lbl" style="margin-bottom: 0; white-space: nowrap;">{texts.formatLbl}</div>
-                    {#each outputFormats as fmt}
-                        <span class="tag" class:on={targetFormat === fmt} role="button" tabindex="0" onclick={() => targetFormat = fmt} onkeydown={(e) => e.key==='Enter' && (targetFormat=fmt)}>
-                            {fmt.toUpperCase()}
-                        </span>
-                    {/each}
+                    <div class="format-tags">
+                        {#each outputFormats as fmt}
+                            <span class="tag" class:on={targetFormat === fmt} role="button" tabindex="0" onclick={() => targetFormat = fmt} onkeydown={(e) => e.key==='Enter' && (targetFormat=fmt)}>
+                                {fmt.toUpperCase()}
+                            </span>
+                        {/each}
+                    </div>
                 </div>
                 <hr class="settings-divider">
                 <button class="btn-cta" disabled><i class="ti ti-arrows-right-left" aria-hidden="true"></i> {texts.btnConvert}</button>
@@ -193,13 +195,15 @@
 
         {#if status === 'file'}
             <div class="settings">
-                <div class="setting-row" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
+                <div class="setting-row format-row">
                     <div class="setting-lbl" style="margin-bottom: 0; white-space: nowrap;">{texts.formatLbl}</div>
-                    {#each outputFormats as fmt}
-                        <span class="tag" class:on={targetFormat === fmt} role="button" tabindex="0" onclick={() => targetFormat = fmt} onkeydown={(e) => e.key==='Enter' && (targetFormat=fmt)}>
-                            {fmt.toUpperCase()}
-                        </span>
-                    {/each}
+                    <div class="format-tags">
+                        {#each outputFormats as fmt}
+                            <span class="tag" class:on={targetFormat === fmt} role="button" tabindex="0" onclick={() => targetFormat = fmt} onkeydown={(e) => e.key==='Enter' && (targetFormat=fmt)}>
+                                {fmt.toUpperCase()}
+                            </span>
+                        {/each}
+                    </div>
                 </div>
                 <hr class="settings-divider">
                 <button class="btn-cta" onclick={startConversion}>
@@ -212,11 +216,13 @@
 
         {#if status === 'proc'}
             <div class="settings">
-                <div class="setting-row" style="opacity:.4;pointer-events:none; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
+                <div class="setting-row format-row" style="opacity:.4;pointer-events:none;">
                     <div class="setting-lbl" style="margin-bottom: 0; white-space: nowrap;">{texts.formatLbl}</div>
-                    {#each outputFormats as fmt}
-                        <span class="tag" class:on={targetFormat === fmt}>{fmt.toUpperCase()}</span>
-                    {/each}
+                    <div class="format-tags">
+                        {#each outputFormats as fmt}
+                            <span class="tag" class:on={targetFormat === fmt}>{fmt.toUpperCase()}</span>
+                        {/each}
+                    </div>
                 </div>
                 <hr class="settings-divider">
                 <button class="btn-cta" disabled>
@@ -257,5 +263,14 @@
 <input type="file" bind:this={fileInput} accept={inputFormats} style="display:none" onchange={handleFileChange}>
 
 <style>
-    /* CSS is handled globally in app.css */
+    .format-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    @media (max-width: 768px) {
+        .format-row {
+            align-items: flex-start !important;
+        }
+    }
 </style>

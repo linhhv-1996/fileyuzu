@@ -119,7 +119,66 @@
       "a": "It depends on the preset and original video. For most videos, the Balance preset produces output that looks fine on phones and standard screens. You can try a different preset if you are not satisfied."
     }
   ],
-  "related_tools.title": "Related Video Tools",
+  "_comment_pdf_compressor": "================ PDF Compressor ================",
+  "pdf_compressor.seo.title": "FileYuzu — Free Online PDF Compressor",
+  "pdf_compressor.seo.description": "Compress PDF files online with FileYuzu. Reduce PDF file size privately in your browser with no upload and no sign-up.",
+  "pdf_compressor.hero.title": "Free Online PDF Compressor",
+  "pdf_compressor.hero.description": "Reduce PDF file size online — no upload, no sign-up. Runs entirely in your browser.",
+  "pdf_compressor.upload.title": "Drop a PDF file here",
+  "pdf_compressor.upload.subtitle": "PDF · up to 100 MB",
+  "pdf_compressor.upload.btn_select": "Select file",
+  "pdf_compressor.upload.btn_sample": "Try sample",
+  "pdf_compressor.upload.hint": "Select one PDF file to compress",
+  "pdf_compressor.settings.quality_lbl": "Quality preset",
+  "pdf_compressor.settings.quality_balanced": "Balanced (Ebook)",
+  "pdf_compressor.settings.quality_maximum": "Maximum (Screen)",
+  "pdf_compressor.settings.password_lbl": "Password to unlock (optional)",
+  "pdf_compressor.settings.password_placeholder": "Password (if encrypted)",
+  "pdf_compressor.btn.compress": "Compress PDF",
+  "pdf_compressor.btn.download": "Download PDF",
+  "pdf_compressor.btn.compress_new": "Compress new files",
+  "pdf_compressor.proc.compressing": "Compressing PDF",
+  "pdf_compressor.how_to_use.title": "How to Compress a PDF Online",
+  "pdf_compressor.how_to_use.steps": [
+    "Upload a PDF file from your device or drag and drop it onto the upload area.",
+    "Choose a quality preset (Balanced or Maximum) and optionally provide a password if the PDF is encrypted.",
+    "Click Compress and wait a moment. All processing runs locally in your browser. Download when done."
+  ],
+  "pdf_compressor.why_use.title": "Why Use FileYuzu PDF Compressor",
+  "pdf_compressor.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Compression runs in your browser via WebAssembly. Your file never leaves your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up needed",
+      "description": "Open the page and start. No account, no watermark, no time limit."
+    },
+    {
+      "icon": "player-play",
+      "title": "Simple workflow",
+      "description": "Compress one PDF at a time with a focused, simple workflow."
+    },
+    {
+      "icon": "adjustments",
+      "title": "Adjustable quality",
+      "description": "Choose between balanced compression for smaller sizes or maximum for the best visual quality."
+    }
+  ],
+  "pdf_compressor.faq.title": "PDF Compressor FAQ",
+  "pdf_compressor.faq.items": [
+    {
+      "q": "Is my PDF uploaded to a server?",
+      "a": "No. All compression is done locally using Ghostscript (WebAssembly). Your PDF file never leaves your device."
+    },
+    {
+      "q": "What is the maximum file size?",
+      "a": "The PDF can be up to 100 MB."
+    }
+  ],
+  "related_tools.title": "Related Tools",
   "common.tools": "Tools",
   "common.language": "Language",
   "common.footer.copyright": "© 2025 FileYuzu",
@@ -318,5 +377,6 @@
       "q": "Is this tool free to use?",
       "a": "Yes, it is completely free with no watermarks."
     }
-  ]
+  ],
+  "pdf_compressor.pages": "pages"
 }

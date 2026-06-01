@@ -14,7 +14,7 @@
   "home.why.device.title": "あらゆるデバイスで動作",
   "home.why.device.desc": "完全レスポンシブ。アプリのインストール不要。",
   "home.faq.title": "よくある質問",
-  "_comment_home_faq": "6個のSEO最適化済みFAQ — 無料・プライバシー・アカウント不要・利用可能なツール・ファイルサイズ・モバイル対応をカバー",
+  "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
   "home.faq.items": [
     {
       "q": "FileYuzuのツールはすべて無料ですか？",
@@ -119,6 +119,65 @@
       "a": "プリセットと元の動画によって異なります。ほとんどの動画では、Balanceプリセットによりスマートフォンや一般的な画面で十分きれいに見える出力になります。満足できない場合は、別のプリセットを試してください。"
     }
   ],
+  "_comment_pdf_compressor": "================ PDF Compressor ================",
+  "pdf_compressor.seo.title": "FileYuzu — 無料オンラインPDF圧縮ツール",
+  "pdf_compressor.seo.description": "FileYuzuでPDFファイルをオンライン圧縮。アップロード不要・登録不要で、ブラウザ内で安全にPDFファイルサイズを削減できます。",
+  "pdf_compressor.hero.title": "無料オンラインPDF圧縮ツール",
+  "pdf_compressor.hero.description": "PDFファイルサイズをオンラインで削減 — アップロード不要、登録不要。すべてブラウザ内で動作します。",
+  "pdf_compressor.upload.title": "ここにPDFファイルをドロップ",
+  "pdf_compressor.upload.subtitle": "PDF · 最大100 MB",
+  "pdf_compressor.upload.btn_select": "ファイルを選択",
+  "pdf_compressor.upload.btn_sample": "サンプルを試す",
+  "pdf_compressor.upload.hint": "圧縮するPDFファイルを1つ選択してください",
+  "pdf_compressor.settings.quality_lbl": "画質プリセット",
+  "pdf_compressor.settings.quality_balanced": "バランス（Ebook）",
+  "pdf_compressor.settings.quality_maximum": "最大（Screen）",
+  "pdf_compressor.settings.password_lbl": "パスワード（オプション）",
+  "pdf_compressor.settings.password_placeholder": "パスワード（暗号化されている場合）",
+  "pdf_compressor.btn.compress": "PDFを圧縮",
+  "pdf_compressor.btn.download": "PDFをダウンロード",
+  "pdf_compressor.btn.compress_new": "新しいファイルを圧縮",
+  "pdf_compressor.proc.compressing": "PDFを圧縮中",
+  "pdf_compressor.how_to_use.title": "オンラインでPDFを圧縮する方法",
+  "pdf_compressor.how_to_use.steps": [
+    "デバイスからPDFファイルをアップロードするか、アップロードエリアにドラッグ＆ドロップします。",
+    "画質プリセットを選択し、PDFが暗号化されている場合は必要に応じてパスワードを入力します。",
+    "「圧縮」をクリックして、しばらく待ちます。すべての処理はブラウザ内でローカルに実行されます。完了したらダウンロードしてください。"
+  ],
+  "pdf_compressor.why_use.title": "FileYuzuを使う理由",
+  "pdf_compressor.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100%プライベート",
+      "description": "圧縮はWebAssemblyを通じてブラウザ内で実行されます。ファイルがデバイス外に出ることはありません。"
+    },
+    {
+      "icon": "bolt",
+      "title": "登録不要",
+      "description": "ページを開いてすぐに開始できます。アカウント不要、ウォーターマークなし、時間制限なし。"
+    },
+    {
+      "icon": "player-play",
+      "title": "シンプルな操作",
+      "description": "1回につき1つのPDFを、迷わず簡単に圧縮できます。"
+    },
+    {
+      "icon": "adjustments",
+      "title": "調整可能な品質",
+      "description": "ファイルサイズを小さくするためのバランスの取れた圧縮と、最高の画質を得るための最大圧縮を選択できます。"
+    }
+  ],
+  "pdf_compressor.faq.title": "PDF圧縮ツールFAQ",
+  "pdf_compressor.faq.items": [
+    {
+      "q": "PDFはサーバーにアップロードされますか？",
+      "a": "いいえ。すべての圧縮はGhostscript（WebAssembly）を使用してローカルで行われます。PDFファイルがデバイス外に出ることはありません。"
+    },
+    {
+      "q": "最大ファイルサイズはいくつですか？",
+      "a": "PDFは最大100 MBまで対応しています。"
+    }
+  ],
   "related_tools.title": "関連動画ツール",
   "common.tools": "ツール",
   "common.language": "言語",
@@ -181,6 +240,11 @@
       "icon": "player-play",
       "title": "Multiple formats",
       "description": "Convert to popular formats like MP4, WebM, MOV, or extract audio as MP3."
+    },
+    {
+      "icon": "ロケット",
+      "title": "高速処理",
+      "description": "速度を重視して最適化されています。キューで待つことなく、変換されたファイルをすぐに取得できます。"
     }
   ],
   "video_converter.faq.title": "Video Converter FAQ",
@@ -197,5 +261,122 @@
       "q": "What formats are supported?",
       "a": "We support input from most common video formats and can convert them to MP4, WebM, MOV, MKV, or MP3."
     }
-  ]
+  ],
+  "tool.compress_mp4.title": "MP4を圧縮する",
+  "tool.compress_mp4.description": "MP4ファイルサイズを縮小する",
+  "tool.reduce_video_size.title": "ビデオのサイズを縮小する",
+  "tool.reduce_video_size.description": "ビデオファイルを縮小する",
+  "_comment_compress_mp4": "================ Compress MP4 ================",
+  "compress_mp4.seo.title": "FileYuzu — 無料のオンライン MP4 コンプレッサー",
+  "compress_mp4.seo.description": "FileYuzu を使用して MP4 ビデオをオンラインで圧縮します。アップロードやサインアップを行わずに、ブラウザで非公開で MP4 ファイルのサイズを削減します。",
+  "compress_mp4.hero.title": "無料のオンライン MP4 コンプレッサー",
+  "compress_mp4.hero.description": "MP4 ファイルのサイズをオンラインで縮小します — アップロードやサインアップは必要ありません。完全にブラウザ内で実行されます。",
+  "compress_mp4.upload.title": "MP4 ファイルをここにドロップします",
+  "compress_mp4.upload.subtitle": "MP4・最大500MB",
+  "compress_mp4.upload.btn_select": "ファイルを選択",
+  "compress_mp4.upload.btn_sample": "サンプルを試す",
+  "compress_mp4.upload.hint": "圧縮する MP4 ファイルを 1 つ選択します",
+  "compress_mp4.settings.auto_optimize": "自動最適化",
+  "compress_mp4.settings.size_lbl": "対象ファイルサイズ",
+  "compress_mp4.btn.compress": "MP4を圧縮する",
+  "compress_mp4.btn.download": "MP4をダウンロード",
+  "compress_mp4.btn.compress_new": "新しいファイルを圧縮する",
+  "compress_mp4.proc.compressing": "MP4を圧縮する",
+  "compress_mp4.how_to_use.title": "オンラインで MP4 を圧縮する方法",
+  "compress_mp4.how_to_use.steps": [
+    "MP4 ファイルをデバイスからアップロードするか、アップロード領域にドラッグ アンド ドロップします。",
+    "圧縮プリセットを選択するか、カスタムのターゲット ファイル サイズを設定します。",
+    "「圧縮」をクリックして、しばらく待ちます。すべての処理はブラウザ内でローカルに実行されます。完了したらダウンロードします。"
+  ],
+  "compress_mp4.why_use.title": "FileYuzu MP4 Compressor を使用する理由",
+  "compress_mp4.why_use.benefits": [
+    {
+      "icon": "シールドロック",
+      "title": "100%プライベート",
+      "description": "圧縮は WebAssembly を介してブラウザで実行されます。ファイルがデバイスから離れることはありません。"
+    },
+    {
+      "icon": "ボルト",
+      "title": "サインアップは必要ありません",
+      "description": "ページを開いて開始してください。アカウント、ウォーターマーク、時間制限はありません。"
+    },
+    {
+      "icon": "プレイヤープレイ",
+      "title": "シンプルなワークフロー",
+      "description": "焦点を絞ったシンプルなワークフローで、一度に 1 つの MP4 を圧縮します。"
+    },
+    {
+      "icon": "調整",
+      "title": "柔軟なターゲットサイズ",
+      "description": "あらゆるプラットフォームに正確なサイズを設定します。"
+    }
+  ],
+  "compress_mp4.faq.title": "MP4 コンプレッサーに関するよくある質問",
+  "compress_mp4.faq.items": [
+    {
+      "q": "私のビデオはサーバーにアップロードされていますか?",
+      "a": "いいえ。すべての圧縮は FFmpeg.wasm (WebAssembly) を使用してローカルで行われます。ビデオ ファイルがデバイスの外に出ることはありません。"
+    },
+    {
+      "q": "最大ファイルサイズはどれくらいですか?",
+      "a": "ビデオは最大 500 MB まで可能です。"
+    }
+  ],
+  "_comment_reduce_video_size": "================ Reduce Video Size ================",
+  "reduce_video_size.seo.title": "FileYuzu — オンラインでビデオのサイズを無料で削減",
+  "reduce_video_size.seo.description": "FileYuzu を使用してオンラインでビデオ ファイルのサイズを縮小および縮小します。アップロードせずにブラウザでローカルに処理します。",
+  "reduce_video_size.hero.title": "ビデオファイルのサイズを縮小する",
+  "reduce_video_size.hero.description": "ブラウザでビデオをすばやく安全に小さくできます。",
+  "reduce_video_size.upload.title": "ここにビデオファイルをドロップします",
+  "reduce_video_size.upload.subtitle": "MP4、MOV、AVI、MKV、WebM・最大500MB",
+  "reduce_video_size.upload.btn_select": "ファイルを選択",
+  "reduce_video_size.upload.btn_sample": "サンプルを試す",
+  "reduce_video_size.upload.hint": "サイズを削減するにはビデオ ファイルを 1 つ選択してください",
+  "reduce_video_size.settings.auto_optimize": "自動最適化",
+  "reduce_video_size.settings.size_lbl": "対象ファイルサイズ",
+  "reduce_video_size.btn.compress": "サイズを縮小する",
+  "reduce_video_size.btn.download": "ビデオをダウンロードする",
+  "reduce_video_size.btn.compress_new": "新しいファイルを減らす",
+  "reduce_video_size.proc.compressing": "サイズを小さくする",
+  "reduce_video_size.how_to_use.title": "オンラインでビデオのサイズを縮小する方法",
+  "reduce_video_size.how_to_use.steps": [
+    "デバイスからビデオ ファイルをアップロードします。",
+    "ターゲットのファイル サイズまたは圧縮レベルを選択します。",
+    "「サイズを縮小」をクリックし、ブラウザーでローカルにプロセスが完了するまで待ちます。"
+  ],
+  "reduce_video_size.why_use.title": "サイズを削減するために FileYuzu を使用する理由",
+  "reduce_video_size.why_use.benefits": [
+    {
+      "icon": "シールドロック",
+      "title": "安全かつプライベート",
+      "description": "すべてのファイルはデバイス上でローカルに処理されます。アップロードはありません。"
+    },
+    {
+      "icon": "ボルト",
+      "title": "インスタントスタート",
+      "description": "登録やソフトウェアのインストールは必要ありません。"
+    },
+    {
+      "icon": "プレイヤープレイ",
+      "title": "使いやすい",
+      "description": "ビデオを素早く縮小できるように設計されたシンプルなインターフェイス。"
+    },
+    {
+      "icon": "調整",
+      "title": "カスタムターゲット",
+      "description": "ビデオを電子メールまたはチャットのサイズ制限に簡単に合わせることができます。"
+    }
+  ],
+  "reduce_video_size.faq.title": "ビデオのサイズを縮小する FAQ",
+  "reduce_video_size.faq.items": [
+    {
+      "q": "サイズを小さくすると画質が低下しますか?",
+      "a": "はい、ファイル サイズを縮小すると、必然的に品質がある程度低下しますが、最適化されたプリセットはサイズと明瞭さのバランスを完璧にとります。"
+    },
+    {
+      "q": "このツールは無料で使用できますか?",
+      "a": "はい、ウォーターマークなしで完全に無料です。"
+    }
+  ],
+  "pdf_compressor.pages": "ページ"
 }

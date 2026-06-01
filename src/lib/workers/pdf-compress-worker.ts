@@ -38,7 +38,13 @@ self.onmessage = async (e: MessageEvent) => {
 					try {
 						// @ts-ignore
 						const uarray = (self as any).Module.FS.readFile("output.pdf", { encoding: "binary" });
-						self.postMessage({ success: true, pdfData: uarray });
+						
+						if (uarray.length > arrayBuffer.byteLength) {
+							// Return original if compressed is larger
+							self.postMessage({ success: true, pdfData: new Uint8Array(arrayBuffer) });
+						} else {
+							self.postMessage({ success: true, pdfData: uarray });
+						}
 					} catch (err) {
 						self.postMessage({ success: false, error: "Sai mật khẩu hoặc file PDF bị hỏng cấu trúc." });
 					}

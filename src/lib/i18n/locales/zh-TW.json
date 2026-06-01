@@ -13,6 +13,37 @@
   "home.why.instant.desc": "開啟頁面即可開始。無需帳號、無水印、無時間限制。",
   "home.why.device.title": "支援任何裝置",
   "home.why.device.desc": "全面自適應設計。不需安裝任何應用程式。",
+  "home.faq.title": "常見問題",
+  "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
+  "home.faq.items": [
+    {
+      "q": "FileYuzu 上的所有工具都免費嗎？",
+      "a": "是的，FileYuzu 的每個工具完全免費，無隐藏費用、無訂閱、無使用限制。您可以不限次數地健縮影片、健縮 PDF 以及轉換影片格式，完全免費。"
+    },
+    {
+      "q": "我的檔案會被上傳到伺服器嗎？",
+      "a": "不會。所有處理完全在您的瀏覽器中進行，使用 WebAssembly 技術。您的檔案永遠不會離開裝置，也不會傳輸到任何伺服器，資料完全私密。"
+    },
+    {
+      "q": "使用工具需要建立帳號嗎？",
+      "a": "不需要建立帳號或註冊。開啟您需要的工具即可立即開始 — 不需註冊、不需電郵、不需密碼。"
+    },
+    {
+      "q": "FileYuzu 提供哪些工具？",
+      "a": "FileYuzu 目前提供免費線上影片壓縮工具、PDF 壓縮工具，以及支援 MP4、WebM、MOV、MKV 與 MP3 等格式的影片轉換工具。將持續新增更多工具。"
+    },
+    {
+      "q": "檔案大小有限制嗎？",
+      "a": "由於所有處理在瀏覽器中進行，因此沒有伺服器端的大小限制。實際上大多數工具可處理最大 500 MB 的檔案。效能取決於您裝置的記憶體與處理能力。"
+    },
+    {
+      "q": "可以在手機或平板上使用 FileYuzu 嗎？",
+      "a": "可以！FileYuzu 完全自適應，支援智慧型手機、平板電腦與桌機。不需安裝任何應用程式 — 在行動瀏覽器中開啟網站即可使用所有工具。"
+    }
+  ],
+  "_comment_categories": "================ Tool Categories ================",
+  "home.category.video": "影片",
+  "home.category.pdf": "PDF",
   "compress_video.seo.title": "FileYuzu — 免費線上影片壓縮工具",
   "compress_video.seo.description": "使用 FileYuzu 線上壓縮 MP4、MOV、AVI、MKV 和 WebM 影片。無需上傳、無需註冊，即可在瀏覽器中私密地減少影片檔案大小。",
   "compress_video.hero.title": "免費線上影片壓縮工具",
@@ -88,6 +119,65 @@
       "a": "這取決於預設和原始影片。對大多數影片而言，Balance 預設在手機和一般螢幕上會產生看起來不錯的結果。如果不滿意，可以嘗試其他預設。"
     }
   ],
+  "_comment_pdf_compressor": "================ PDF Compressor ================",
+  "pdf_compressor.seo.title": "FileYuzu — 免費線上 PDF 壓縮器",
+  "pdf_compressor.seo.description": "使用 FileYuzu 在線壓縮 PDF 檔案。在瀏覽器中私下減小 PDF 檔案大小，無需上傳，無需註冊。",
+  "pdf_compressor.hero.title": "免費線上 PDF 壓縮器",
+  "pdf_compressor.hero.description": "線上減小 PDF 檔案大小 — 無需上傳，無需註冊。完全在您的瀏覽器中運行。",
+  "pdf_compressor.upload.title": "將 PDF 檔案拖放到此處",
+  "pdf_compressor.upload.subtitle": "PDF · 最大 100 MB",
+  "pdf_compressor.upload.btn_select": "選擇文件",
+  "pdf_compressor.upload.btn_sample": "試用樣品",
+  "pdf_compressor.upload.hint": "選擇一個 PDF 檔案進行壓縮",
+  "pdf_compressor.settings.quality_lbl": "品質預設",
+  "pdf_compressor.settings.quality_balanced": "平衡（電子書）",
+  "pdf_compressor.settings.quality_maximum": "最大（螢幕）",
+  "pdf_compressor.settings.password_lbl": "解鎖密碼（可選）",
+  "pdf_compressor.settings.password_placeholder": "密碼 (若已加密)",
+  "pdf_compressor.btn.compress": "壓縮PDF",
+  "pdf_compressor.btn.download": "下載PDF",
+  "pdf_compressor.btn.compress_new": "壓縮新文件",
+  "pdf_compressor.proc.compressing": "壓縮PDF",
+  "pdf_compressor.how_to_use.title": "如何在線壓縮 PDF",
+  "pdf_compressor.how_to_use.steps": [
+    "從您的裝置上傳 PDF 檔案或將其拖曳到上傳區域。",
+    "選擇品質預設（平衡或最高），如果 PDF 已加密，也可以選擇提供密碼。",
+    "點擊“壓縮”並稍等片刻。所有處理都在您的瀏覽器本地運行。完成後下載。"
+  ],
+  "pdf_compressor.why_use.title": "為什麼要使用FileYuzu PDF壓縮器",
+  "pdf_compressor.why_use.benefits": [
+    {
+      "icon": "屏蔽鎖",
+      "title": "100% 私人",
+      "description": "壓縮透過 WebAssembly 在瀏覽器中運作。您的文件永遠不會離開您的裝置。"
+    },
+    {
+      "icon": "螺栓",
+      "title": "無需註冊",
+      "description": "打开页面并开始。沒有帳戶，沒有浮水印，沒有時間限制。"
+    },
+    {
+      "icon": "玩家遊戲",
+      "title": "簡單的工作流程",
+      "description": "透過集中、簡單的工作流程一次壓縮一個 PDF。"
+    },
+    {
+      "icon": "調整",
+      "title": "品質可調",
+      "description": "選擇較小尺寸的平衡壓縮或最佳視覺品質的最大壓縮。"
+    }
+  ],
+  "pdf_compressor.faq.title": "PDF Compressor FAQ",
+  "pdf_compressor.faq.items": [
+    {
+      "q": "我的 PDF 是否上傳到伺服器？",
+      "a": "不會。所有壓縮都是使用 Ghostscript (WebAssembly) 在本地完成的。您的 PDF 檔案永遠不會離開您的裝置。"
+    },
+    {
+      "q": "最大檔案大小是多少？",
+      "a": "PDF 最大可達 100 MB。"
+    }
+  ],
   "related_tools.title": "相關影片工具",
   "common.tools": "工具",
   "common.language": "語言",
@@ -150,6 +240,11 @@
       "icon": "player-play",
       "title": "Multiple formats",
       "description": "Convert to popular formats like MP4, WebM, MOV, or extract audio as MP3."
+    },
+    {
+      "icon": "火箭",
+      "title": "快速處理",
+      "description": "針對速度進行了最佳化。快速取得轉換後的文件，無需排隊等待。"
     }
   ],
   "video_converter.faq.title": "Video Converter FAQ",
@@ -167,35 +262,121 @@
       "a": "We support input from most common video formats and can convert them to MP4, WebM, MOV, MKV, or MP3."
     }
   ],
-  "_comment_categories": "================ Tool Categories ================",
-  "home.category.video": "影片",
-  "home.category.pdf": "PDF",
-  "home.faq.title": "常見問題",
-  "_comment_home_faq": "6 個 SEO 最佳化 FAQ — 涵蓋：免費、無上傳/隱私、無需帳號、可用工具、檔案大小限制、行動裝置支援",
-  "home.faq.items": [
+  "tool.compress_mp4.title": "壓縮MP4",
+  "tool.compress_mp4.description": "減小 MP4 檔案大小",
+  "tool.reduce_video_size.title": "減小影片大小",
+  "tool.reduce_video_size.description": "縮小影片文件",
+  "_comment_compress_mp4": "================ Compress MP4 ================",
+  "compress_mp4.seo.title": "FileYuzu — 免費線上 MP4 壓縮器",
+  "compress_mp4.seo.description": "使用 FileYuzu 在線壓縮 MP4 影片。在瀏覽器中私下減少 MP4 檔案大小，無需上傳，無需註冊。",
+  "compress_mp4.hero.title": "免費在線 MP4 壓縮器",
+  "compress_mp4.hero.description": "線上減小 MP4 檔案大小 — 無需上傳，無需註冊。完全在您的瀏覽器中運行。",
+  "compress_mp4.upload.title": "將 MP4 檔案拖曳到此處",
+  "compress_mp4.upload.subtitle": "MP4 · 最大 500 MB",
+  "compress_mp4.upload.btn_select": "選擇文件",
+  "compress_mp4.upload.btn_sample": "試用樣品",
+  "compress_mp4.upload.hint": "選擇一個 MP4 檔案進行壓縮",
+  "compress_mp4.settings.auto_optimize": "自動最佳化",
+  "compress_mp4.settings.size_lbl": "目標檔案大小",
+  "compress_mp4.btn.compress": "壓縮MP4",
+  "compress_mp4.btn.download": "下載MP4",
+  "compress_mp4.btn.compress_new": "壓縮新文件",
+  "compress_mp4.proc.compressing": "壓縮MP4",
+  "compress_mp4.how_to_use.title": "如何在線壓縮 MP4",
+  "compress_mp4.how_to_use.steps": [
+    "從您的裝置上傳 MP4 檔案或將其拖曳到上傳區域。",
+    "選擇壓縮預設或設定自訂目標檔案大小。",
+    "點擊“壓縮”並稍等片刻。所有處理都在您的瀏覽器本地運行。完成後下載。"
+  ],
+  "compress_mp4.why_use.title": "為什麼要使用 FileYuzu MP4 壓縮器",
+  "compress_mp4.why_use.benefits": [
     {
-      "q": "FileYuzu 上的所有工具都免費嗎？",
-      "a": "是的，FileYuzu 的每個工具完全免費，無隐藏費用、無訂閱、無使用限制。您可以不限次數地健縮影片、健縮 PDF 以及轉換影片格式，完全免費。"
+      "icon": "屏蔽鎖",
+      "title": "100% 私人",
+      "description": "壓縮透過 WebAssembly 在瀏覽器中運作。您的文件永遠不會離開您的裝置。"
     },
     {
-      "q": "我的檔案會被上傳到伺服器嗎？",
-      "a": "不會。所有處理完全在您的瀏覽器中進行，使用 WebAssembly 技術。您的檔案永遠不會離開裝置，也不會傳輸到任何伺服器，資料完全私密。"
+      "icon": "螺栓",
+      "title": "無需註冊",
+      "description": "打開頁面並開始。沒有帳戶，沒有浮水印，沒有時間限制。"
     },
     {
-      "q": "使用工具需要建立帳號嗎？",
-      "a": "不需要建立帳號或註冊。開啟您需要的工具即可立即開始 — 不需註冊、不需電郵、不需密碼。"
+      "icon": "玩家遊戲",
+      "title": "簡單的工作流程",
+      "description": "透過集中、簡單的工作流程一次壓縮一張 MP4。"
     },
     {
-      "q": "FileYuzu 提供哪些工具？",
-      "a": "FileYuzu 目前提供免費線上影片壓縮工具、PDF 壓縮工具，以及支援 MP4、WebM、MOV、MKV 與 MP3 等格式的影片轉換工具。將持續新增更多工具。"
-    },
-    {
-      "q": "檔案大小有限制嗎？",
-      "a": "由於所有處理在瀏覽器中進行，因此沒有伺服器端的大小限制。實際上大多數工具可處理最大 500 MB 的檔案。效能取決於您裝置的記憶體與處理能力。"
-    },
-    {
-      "q": "可以在手機或平板上使用 FileYuzu 嗎？",
-      "a": "可以！FileYuzu 完全自適應，支援智慧型手機、平板電腦與桌機。不需安裝任何應用程式 — 在行動瀏覽器中開啟網站即可使用所有工具。"
+      "icon": "調整",
+      "title": "靈活的目標尺寸",
+      "description": "為任何平台設定精確的尺寸。"
     }
-  ]
+  ],
+  "compress_mp4.faq.title": "MP4 壓縮器常見問題解答",
+  "compress_mp4.faq.items": [
+    {
+      "q": "我的影片是否上傳到伺服器？",
+      "a": "不會。所有壓縮都是使用 FFmpeg.wasm (WebAssembly) 在本地完成。您的視訊檔案永遠不會離開您的裝置。"
+    },
+    {
+      "q": "最大檔案大小是多少？",
+      "a": "影片最大可達 500 MB。"
+    }
+  ],
+  "_comment_reduce_video_size": "================ Reduce Video Size ================",
+  "reduce_video_size.seo.title": "FileYuzu — 免費線上減小影片大小",
+  "reduce_video_size.seo.description": "使用 FileYuzu 在線縮小影片檔案大小。在瀏覽器中本機處理，無需上傳。",
+  "reduce_video_size.hero.title": "減小影片檔案大小",
+  "reduce_video_size.hero.description": "在瀏覽器中快速安全地縮小您的影片。",
+  "reduce_video_size.upload.title": "將影片檔拖放到此處",
+  "reduce_video_size.upload.subtitle": "MP4、MOV、AVI、MKV、WebM · 高達 500 MB",
+  "reduce_video_size.upload.btn_select": "選擇文件",
+  "reduce_video_size.upload.btn_sample": "試用樣品",
+  "reduce_video_size.upload.hint": "選擇一個視訊檔案以減小大小",
+  "reduce_video_size.settings.auto_optimize": "自動最佳化",
+  "reduce_video_size.settings.size_lbl": "目標檔案大小",
+  "reduce_video_size.btn.compress": "縮小尺寸",
+  "reduce_video_size.btn.download": "下載影片",
+  "reduce_video_size.btn.compress_new": "減少新文件",
+  "reduce_video_size.proc.compressing": "縮小尺寸",
+  "reduce_video_size.how_to_use.title": "如何在線減小視頻大小",
+  "reduce_video_size.how_to_use.steps": [
+    "從您的裝置上傳視訊檔案。",
+    "選擇您的目標檔案大小或壓縮等級。",
+    "點擊縮小大小並等待該過程在瀏覽器中本地完成。"
+  ],
+  "reduce_video_size.why_use.title": "為什麼要使用 FileYuzu 來減少大小",
+  "reduce_video_size.why_use.benefits": [
+    {
+      "icon": "屏蔽鎖",
+      "title": "安全且私密",
+      "description": "所有文件都在您的裝置上本地處理。沒有上傳。"
+    },
+    {
+      "icon": "螺栓",
+      "title": "即時啟動",
+      "description": "無需註冊或安裝軟體。"
+    },
+    {
+      "icon": "玩家遊戲",
+      "title": "方便使用",
+      "description": "簡單的介面專為快速視訊縮小而設計。"
+    },
+    {
+      "icon": "調整",
+      "title": "自訂目標",
+      "description": "輕鬆地將您的影片適應電子郵件或聊天的大小限制。"
+    }
+  ],
+  "reduce_video_size.faq.title": "減小影片大小常見問題解答",
+  "reduce_video_size.faq.items": [
+    {
+      "q": "減小尺寸會降低品質嗎？",
+      "a": "是的，減小檔案大小不可避免地會帶來一些品質損失，但我們優化的預設完美地平衡了大小和清晰度。"
+    },
+    {
+      "q": "這個工具可以免費使用嗎？",
+      "a": "是的，它是完全免費的，沒有浮水印。"
+    }
+  ],
+  "pdf_compressor.pages": "頁"
 }

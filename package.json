@@ -25,6 +25,7 @@
 		"@ffmpeg/ffmpeg": "^0.12.15",
 		"@ffmpeg/util": "^0.12.2",
 		"@mediabunny/mp3-encoder": "^1.45.4",
-		"mediabunny": "^1.45.4"
+		"mediabunny": "^1.45.4",
+		"pdfjs-dist": "^6.0.227"
 	}
 }

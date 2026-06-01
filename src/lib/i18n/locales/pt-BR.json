@@ -14,7 +14,7 @@
   "home.why.device.title": "Funciona em qualquer dispositivo",
   "home.why.device.desc": "Totalmente responsivo. Não precisa instalar nada.",
   "home.faq.title": "Perguntas Frequentes",
-  "_comment_home_faq": "6 FAQs otimizados para SEO — cobre: gratuito, sem upload/privacidade, sem conta, ferramentas disponíveis, limite de tamanho, suporte móvel",
+  "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
   "home.faq.items": [
     {
       "q": "Todas as ferramentas do FileYuzu são gratuitas?",
@@ -119,6 +119,65 @@
       "a": "Depende da predefinição e do vídeo original. Para a maioria dos vídeos, a predefinição Balance gera um resultado que fica bom em celulares e telas comuns. Você pode testar outra predefinição se não estiver satisfeito."
     }
   ],
+  "_comment_pdf_compressor": "================ PDF Compressor ================",
+  "pdf_compressor.seo.title": "FileYuzu — Compressor de PDF online gratuito",
+  "pdf_compressor.seo.description": "Compacte arquivos PDF online com FileYuzu. Reduza o tamanho do arquivo PDF de forma privada em seu navegador, sem upload e sem inscrição.",
+  "pdf_compressor.hero.title": "Compressor de PDF on-line gratuito",
+  "pdf_compressor.hero.description": "Reduza o tamanho do arquivo PDF on-line — sem upload, sem inscrição. Funciona inteiramente no seu navegador.",
+  "pdf_compressor.upload.title": "Solte um arquivo PDF aqui",
+  "pdf_compressor.upload.subtitle": "PDF · até 100 MB",
+  "pdf_compressor.upload.btn_select": "Selecione o arquivo",
+  "pdf_compressor.upload.btn_sample": "Experimente a amostra",
+  "pdf_compressor.upload.hint": "Selecione um arquivo PDF para compactar",
+  "pdf_compressor.settings.quality_lbl": "Predefinição de qualidade",
+  "pdf_compressor.settings.quality_balanced": "Equilibrado (E-book)",
+  "pdf_compressor.settings.quality_maximum": "Máximo (Tela)",
+  "pdf_compressor.settings.password_lbl": "Senha para desbloquear (opcional)",
+  "pdf_compressor.settings.password_placeholder": "Senha (se criptografado)",
+  "pdf_compressor.btn.compress": "Compactar PDF",
+  "pdf_compressor.btn.download": "Baixar PDF",
+  "pdf_compressor.btn.compress_new": "Compactar novos arquivos",
+  "pdf_compressor.proc.compressing": "Compactando PDF",
+  "pdf_compressor.how_to_use.title": "Como compactar um PDF online",
+  "pdf_compressor.how_to_use.steps": [
+    "Carregue um arquivo PDF do seu dispositivo ou arraste e solte-o na área de upload.",
+    "Escolha uma predefinição de qualidade (Balanceada ou Máxima) e, opcionalmente, forneça uma senha se o PDF estiver criptografado.",
+    "Clique em Compactar e aguarde um momento. Todo o processamento é executado localmente no seu navegador. Baixe quando terminar."
+  ],
+  "pdf_compressor.why_use.title": "Por que usar o compressor de PDF FileYuzu",
+  "pdf_compressor.why_use.benefits": [
+    {
+      "icon": "bloqueio de escudo",
+      "title": "100% privado",
+      "description": "A compactação é executada em seu navegador via WebAssembly. Seu arquivo nunca sai do seu dispositivo."
+    },
+    {
+      "icon": "parafuso",
+      "title": "Não é necessária inscrição",
+      "description": "Abra a página e comece. Sem conta, sem marca d'água, sem limite de tempo."
+    },
+    {
+      "icon": "jogo do jogador",
+      "title": "Fluxo de trabalho simples",
+      "description": "Comprima um PDF por vez com um fluxo de trabalho simples e focado."
+    },
+    {
+      "icon": "ajustes",
+      "title": "Qualidade ajustável",
+      "description": "Escolha entre compactação balanceada para tamanhos menores ou máxima para obter a melhor qualidade visual."
+    }
+  ],
+  "pdf_compressor.faq.title": "Perguntas frequentes sobre o compressor de PDF",
+  "pdf_compressor.faq.items": [
+    {
+      "q": "Meu PDF foi carregado em um servidor?",
+      "a": "Não. Toda a compactação é feita localmente usando Ghostscript (WebAssembly). Seu arquivo PDF nunca sai do seu dispositivo."
+    },
+    {
+      "q": "Qual é o tamanho máximo do arquivo?",
+      "a": "O PDF pode ter até 100 MB."
+    }
+  ],
   "related_tools.title": "Ferramentas de Vídeo Relacionadas",
   "common.tools": "Ferramentas",
   "common.language": "Idioma",
@@ -181,6 +240,11 @@
       "icon": "player-play",
       "title": "Multiple formats",
       "description": "Convert to popular formats like MP4, WebM, MOV, or extract audio as MP3."
+    },
+    {
+      "icon": "foguete",
+      "title": "Processamento rápido",
+      "description": "Otimizado para velocidade. Obtenha seus arquivos convertidos rapidamente, sem esperar em filas."
     }
   ],
   "video_converter.faq.title": "Video Converter FAQ",
@@ -197,5 +261,122 @@
       "q": "What formats are supported?",
       "a": "We support input from most common video formats and can convert them to MP4, WebM, MOV, MKV, or MP3."
     }
-  ]
+  ],
+  "tool.compress_mp4.title": "Comprimir MP4",
+  "tool.compress_mp4.description": "Reduza o tamanho do arquivo MP4",
+  "tool.reduce_video_size.title": "Reduza o tamanho do vídeo",
+  "tool.reduce_video_size.description": "Reduza arquivos de vídeo",
+  "_comment_compress_mp4": "================ Compress MP4 ================",
+  "compress_mp4.seo.title": "FileYuzu – Compressor MP4 online gratuito",
+  "compress_mp4.seo.description": "Compacte vídeos MP4 online com FileYuzu. Reduza o tamanho do arquivo MP4 de forma privada em seu navegador, sem upload e sem inscrição.",
+  "compress_mp4.hero.title": "Compressor MP4 Online Grátis",
+  "compress_mp4.hero.description": "Reduza o tamanho do arquivo MP4 online – sem upload, sem inscrição. Funciona inteiramente no seu navegador.",
+  "compress_mp4.upload.title": "Solte um arquivo MP4 aqui",
+  "compress_mp4.upload.subtitle": "MP4 · até 500 MB",
+  "compress_mp4.upload.btn_select": "Selecione o arquivo",
+  "compress_mp4.upload.btn_sample": "Experimente a amostra",
+  "compress_mp4.upload.hint": "Selecione um arquivo MP4 para compactar",
+  "compress_mp4.settings.auto_optimize": "Otimização automática",
+  "compress_mp4.settings.size_lbl": "Tamanho do arquivo de destino",
+  "compress_mp4.btn.compress": "Comprimir MP4",
+  "compress_mp4.btn.download": "Baixar MP4",
+  "compress_mp4.btn.compress_new": "Compactar novos arquivos",
+  "compress_mp4.proc.compressing": "Comprimindo MP4",
+  "compress_mp4.how_to_use.title": "Como compactar um MP4 online",
+  "compress_mp4.how_to_use.steps": [
+    "Carregue um arquivo MP4 do seu dispositivo ou arraste e solte-o na área de upload.",
+    "Escolha uma predefinição de compactação ou defina um tamanho de arquivo de destino personalizado.",
+    "Clique em Compactar e aguarde um momento. Todo o processamento é executado localmente no seu navegador. Baixe quando terminar."
+  ],
+  "compress_mp4.why_use.title": "Por que usar o compressor FileYuzu MP4",
+  "compress_mp4.why_use.benefits": [
+    {
+      "icon": "bloqueio de escudo",
+      "title": "100% privado",
+      "description": "A compactação é executada em seu navegador via WebAssembly. Seu arquivo nunca sai do seu dispositivo."
+    },
+    {
+      "icon": "parafuso",
+      "title": "Não é necessária inscrição",
+      "description": "Abra a página e comece. Sem conta, sem marca d'água, sem limite de tempo."
+    },
+    {
+      "icon": "jogo do jogador",
+      "title": "Fluxo de trabalho simples",
+      "description": "Comprima um MP4 por vez com um fluxo de trabalho simples e focado."
+    },
+    {
+      "icon": "ajustes",
+      "title": "Tamanho de destino flexível",
+      "description": "Defina um tamanho exato para qualquer plataforma."
+    }
+  ],
+  "compress_mp4.faq.title": "Perguntas frequentes sobre o compressor MP4",
+  "compress_mp4.faq.items": [
+    {
+      "q": "Meu vídeo é enviado para um servidor?",
+      "a": "Não. Toda compactação é feita localmente usando FFmpeg.wasm (WebAssembly). Seu arquivo de vídeo nunca sai do seu dispositivo."
+    },
+    {
+      "q": "Qual é o tamanho máximo do arquivo?",
+      "a": "O vídeo pode ter até 500 MB."
+    }
+  ],
+  "_comment_reduce_video_size": "================ Reduce Video Size ================",
+  "reduce_video_size.seo.title": "FileYuzu — Reduza o tamanho do vídeo online gratuitamente",
+  "reduce_video_size.seo.description": "Reduza e reduza o tamanho dos arquivos de vídeo online com FileYuzu. Processe localmente no seu navegador sem fazer upload.",
+  "reduce_video_size.hero.title": "Reduza o tamanho do arquivo de vídeo",
+  "reduce_video_size.hero.description": "Reduza seus vídeos de forma rápida e segura em seu navegador.",
+  "reduce_video_size.upload.title": "Solte um arquivo de vídeo aqui",
+  "reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · até 500 MB",
+  "reduce_video_size.upload.btn_select": "Selecione o arquivo",
+  "reduce_video_size.upload.btn_sample": "Experimente a amostra",
+  "reduce_video_size.upload.hint": "Selecione um arquivo de vídeo para reduzir o tamanho",
+  "reduce_video_size.settings.auto_optimize": "Otimização automática",
+  "reduce_video_size.settings.size_lbl": "Tamanho do arquivo de destino",
+  "reduce_video_size.btn.compress": "Reduzir tamanho",
+  "reduce_video_size.btn.download": "Baixar vídeo",
+  "reduce_video_size.btn.compress_new": "Reduza novos arquivos",
+  "reduce_video_size.proc.compressing": "Reduzindo tamanho",
+  "reduce_video_size.how_to_use.title": "Como reduzir o tamanho do vídeo online",
+  "reduce_video_size.how_to_use.steps": [
+    "Carregue um arquivo de vídeo do seu dispositivo.",
+    "Selecione o tamanho do arquivo de destino ou nível de compactação.",
+    "Clique em Reduzir tamanho e aguarde a conclusão do processo localmente em seu navegador."
+  ],
+  "reduce_video_size.why_use.title": "Por que usar FileYuzu para reduzir o tamanho",
+  "reduce_video_size.why_use.benefits": [
+    {
+      "icon": "bloqueio de escudo",
+      "title": "Seguro e privado",
+      "description": "Todos os arquivos são processados ​​localmente no seu dispositivo. Sem uploads."
+    },
+    {
+      "icon": "parafuso",
+      "title": "Início instantâneo",
+      "description": "Não é necessário registro ou instalação de software."
+    },
+    {
+      "icon": "jogo do jogador",
+      "title": "Fácil de usar",
+      "description": "Interface simples projetada para redução rápida de vídeo."
+    },
+    {
+      "icon": "ajustes",
+      "title": "Metas personalizadas",
+      "description": "Ajuste facilmente seus vídeos aos limites de tamanho de e-mail ou bate-papo."
+    }
+  ],
+  "reduce_video_size.faq.title": "Perguntas frequentes sobre redução do tamanho do vídeo",
+  "reduce_video_size.faq.items": [
+    {
+      "q": "Reduzir o tamanho diminuirá a qualidade?",
+      "a": "Sim, reduzir o tamanho do arquivo envolve inevitavelmente alguma perda de qualidade, mas nossas predefinições otimizadas equilibram perfeitamente o tamanho e a clareza."
+    },
+    {
+      "q": "Esta ferramenta é gratuita?",
+      "a": "Sim, é totalmente gratuito, sem marcas d’água."
+    }
+  ],
+  "pdf_compressor.pages": "Páginas"
 }

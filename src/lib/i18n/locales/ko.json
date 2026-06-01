@@ -14,7 +14,7 @@
   "home.why.device.title": "모든 기기에서 작동",
   "home.why.device.desc": "완전 반응형. 앱 설치 불필요.",
   "home.faq.title": "자주 묻는 질문",
-  "_comment_home_faq": "6개 SEO 최적화 FAQ — 무료, 업로드 없음/프라이버시, 계정 없음, 사용 가능한 도구, 파일 크기 제한, 모바일 지원 커버",
+  "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
   "home.faq.items": [
     {
       "q": "FileYuzu의 모든 도구는 무료인가요?",
@@ -119,6 +119,65 @@
       "a": "프리셋과 원본 동영상에 따라 다릅니다. 대부분의 동영상에서 Balance 프리셋은 휴대폰과 일반 화면에서 충분히 보기 좋은 결과물을 만듭니다. 만족스럽지 않다면 다른 프리셋을 시도해 보세요."
     }
   ],
+  "_comment_pdf_compressor": "================ PDF Compressor ================",
+  "pdf_compressor.seo.title": "FileYuzu — 무료 온라인 PDF 압축기",
+  "pdf_compressor.seo.description": "FileYuzu를 사용하여 온라인으로 PDF 파일을 압축하세요. 업로드나 가입 없이 브라우저에서 PDF 파일 크기를 비공개로 줄이세요.",
+  "pdf_compressor.hero.title": "무료 온라인 PDF 압축기",
+  "pdf_compressor.hero.description": "온라인으로 PDF 파일 크기를 줄이세요. 업로드나 가입이 필요하지 않습니다. 브라우저에서 완전히 실행됩니다.",
+  "pdf_compressor.upload.title": "여기에 PDF 파일을 드롭하세요.",
+  "pdf_compressor.upload.subtitle": "PDF · 최대 100MB",
+  "pdf_compressor.upload.btn_select": "파일 선택",
+  "pdf_compressor.upload.btn_sample": "샘플을 사용해 보세요",
+  "pdf_compressor.upload.hint": "압축할 PDF 파일 하나를 선택하세요.",
+  "pdf_compressor.settings.quality_lbl": "품질 사전 설정",
+  "pdf_compressor.settings.quality_balanced": "균형 잡힌(전자책)",
+  "pdf_compressor.settings.quality_maximum": "최대(화면)",
+  "pdf_compressor.settings.password_lbl": "잠금 해제 비밀번호(선택사항)",
+  "pdf_compressor.settings.password_placeholder": "비밀번호 (암호화된 경우)",
+  "pdf_compressor.btn.compress": "PDF 압축",
+  "pdf_compressor.btn.download": "PDF 다운로드",
+  "pdf_compressor.btn.compress_new": "새 파일 압축",
+  "pdf_compressor.proc.compressing": "PDF 압축",
+  "pdf_compressor.how_to_use.title": "PDF를 온라인으로 압축하는 방법",
+  "pdf_compressor.how_to_use.steps": [
+    "장치에서 PDF 파일을 업로드하거나 업로드 영역으로 끌어다 놓습니다.",
+    "품질 사전 설정(균형 또는 최대)을 선택하고 PDF가 암호화된 경우 선택적으로 비밀번호를 제공하십시오.",
+    "압축을 클릭하고 잠시 기다리십시오. 모든 처리는 브라우저에서 로컬로 실행됩니다. 완료되면 다운로드하세요."
+  ],
+  "pdf_compressor.why_use.title": "FileYuzu PDF 압축기를 사용하는 이유",
+  "pdf_compressor.why_use.benefits": [
+    {
+      "icon": "방패 자물쇠",
+      "title": "100% 비공개",
+      "description": "압축은 WebAssembly를 통해 브라우저에서 실행됩니다. 귀하의 파일은 결코 귀하의 장치를 떠나지 않습니다."
+    },
+    {
+      "icon": "볼트",
+      "title": "가입이 필요하지 않습니다",
+      "description": "페이지를 열고 시작하세요. 계정도, 워터마크도, 시간 제한도 없습니다."
+    },
+    {
+      "icon": "플레이어 플레이",
+      "title": "간단한 작업흐름",
+      "description": "집중적이고 간단한 작업 흐름으로 한 번에 하나의 PDF를 압축합니다."
+    },
+    {
+      "icon": "조정",
+      "title": "조정 가능한 품질",
+      "description": "더 작은 크기를 위한 균형 압축 또는 최고의 시각적 품질을 위한 최대 압축 중에서 선택하세요."
+    }
+  ],
+  "pdf_compressor.faq.title": "PDF 압축기 FAQ",
+  "pdf_compressor.faq.items": [
+    {
+      "q": "내 PDF가 서버에 업로드됩니까?",
+      "a": "아니요. 모든 압축은 Ghostscript(WebAssembly)를 사용하여 로컬에서 수행됩니다. PDF 파일은 절대 장치를 떠나지 않습니다."
+    },
+    {
+      "q": "최대 파일 크기는 얼마입니까?",
+      "a": "PDF는 최대 100MB까지 가능합니다."
+    }
+  ],
   "related_tools.title": "관련 동영상 도구",
   "common.tools": "도구",
   "common.language": "언어",
@@ -181,6 +240,11 @@
       "icon": "player-play",
       "title": "Multiple formats",
       "description": "Convert to popular formats like MP4, WebM, MOV, or extract audio as MP3."
+    },
+    {
+      "icon": "로켓",
+      "title": "빠른 처리",
+      "description": "속도에 최적화되었습니다. 대기열에서 기다리지 않고 변환된 파일을 빠르게 가져옵니다."
     }
   ],
   "video_converter.faq.title": "Video Converter FAQ",
@@ -197,5 +261,122 @@
       "q": "What formats are supported?",
       "a": "We support input from most common video formats and can convert them to MP4, WebM, MOV, MKV, or MP3."
     }
-  ]
+  ],
+  "tool.compress_mp4.title": "MP4 압축",
+  "tool.compress_mp4.description": "MP4 파일 크기 줄이기",
+  "tool.reduce_video_size.title": "비디오 크기 줄이기",
+  "tool.reduce_video_size.description": "비디오 파일 축소",
+  "_comment_compress_mp4": "================ Compress MP4 ================",
+  "compress_mp4.seo.title": "FileYuzu — 무료 온라인 MP4 압축기",
+  "compress_mp4.seo.description": "FileYuzu를 사용하여 온라인으로 MP4 비디오를 압축하세요. 업로드나 가입 없이 브라우저에서 비공개적으로 MP4 파일 크기를 줄이세요.",
+  "compress_mp4.hero.title": "무료 온라인 MP4 압축기",
+  "compress_mp4.hero.description": "온라인으로 MP4 파일 크기를 줄이세요. 업로드나 가입이 필요하지 않습니다. 브라우저에서 완전히 실행됩니다.",
+  "compress_mp4.upload.title": "여기에 MP4 파일을 드롭하세요.",
+  "compress_mp4.upload.subtitle": "MP4 · 최대 500MB",
+  "compress_mp4.upload.btn_select": "파일 선택",
+  "compress_mp4.upload.btn_sample": "샘플을 사용해 보세요",
+  "compress_mp4.upload.hint": "압축할 하나의 MP4 파일을 선택하세요.",
+  "compress_mp4.settings.auto_optimize": "자동 최적화",
+  "compress_mp4.settings.size_lbl": "대상 파일 크기",
+  "compress_mp4.btn.compress": "MP4 압축",
+  "compress_mp4.btn.download": "MP4 다운로드",
+  "compress_mp4.btn.compress_new": "새 파일 압축",
+  "compress_mp4.proc.compressing": "MP4 압축",
+  "compress_mp4.how_to_use.title": "MP4를 온라인으로 압축하는 방법",
+  "compress_mp4.how_to_use.steps": [
+    "장치에서 MP4 파일을 업로드하거나 업로드 영역으로 끌어다 놓습니다.",
+    "압축 사전 설정을 선택하거나 사용자 정의 대상 파일 크기를 설정하세요.",
+    "압축을 클릭하고 잠시 기다리십시오. 모든 처리는 브라우저에서 로컬로 실행됩니다. 완료되면 다운로드하세요."
+  ],
+  "compress_mp4.why_use.title": "FileYuzu MP4 압축기를 사용하는 이유",
+  "compress_mp4.why_use.benefits": [
+    {
+      "icon": "방패 자물쇠",
+      "title": "100% 비공개",
+      "description": "압축은 WebAssembly를 통해 브라우저에서 실행됩니다. 귀하의 파일은 결코 귀하의 장치를 떠나지 않습니다."
+    },
+    {
+      "icon": "볼트",
+      "title": "가입이 필요하지 않습니다",
+      "description": "페이지를 열고 시작하세요. 계정도, 워터마크도, 시간 제한도 없습니다."
+    },
+    {
+      "icon": "플레이어 플레이",
+      "title": "간단한 작업흐름",
+      "description": "집중적이고 간단한 작업 흐름으로 한 번에 하나의 MP4를 압축합니다."
+    },
+    {
+      "icon": "조정",
+      "title": "유연한 목표 크기",
+      "description": "모든 플랫폼에 대해 정확한 크기를 설정하세요."
+    }
+  ],
+  "compress_mp4.faq.title": "MP4 압축기 FAQ",
+  "compress_mp4.faq.items": [
+    {
+      "q": "내 동영상이 서버에 업로드되나요?",
+      "a": "아니요. 모든 압축은 FFmpeg.wasm(WebAssembly)을 사용하여 로컬로 수행됩니다. 비디오 파일은 절대로 장치를 떠나지 않습니다."
+    },
+    {
+      "q": "최대 파일 크기는 얼마입니까?",
+      "a": "비디오는 최대 500MB까지 가능합니다."
+    }
+  ],
+  "_comment_reduce_video_size": "================ Reduce Video Size ================",
+  "reduce_video_size.seo.title": "FileYuzu — 온라인에서 무료로 비디오 크기 줄이기",
+  "reduce_video_size.seo.description": "FileYuzu를 사용하여 온라인으로 비디오 파일 크기를 축소하고 줄이세요. 업로드하지 않고 브라우저에서 로컬로 처리하세요.",
+  "reduce_video_size.hero.title": "비디오 파일 크기 줄이기",
+  "reduce_video_size.hero.description": "브라우저에서 비디오 크기를 빠르고 안전하게 축소하세요.",
+  "reduce_video_size.upload.title": "여기에 비디오 파일을 드롭하세요",
+  "reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · 최대 500MB",
+  "reduce_video_size.upload.btn_select": "파일 선택",
+  "reduce_video_size.upload.btn_sample": "샘플을 사용해 보세요",
+  "reduce_video_size.upload.hint": "크기를 줄이려면 하나의 비디오 파일을 선택하세요.",
+  "reduce_video_size.settings.auto_optimize": "자동 최적화",
+  "reduce_video_size.settings.size_lbl": "대상 파일 크기",
+  "reduce_video_size.btn.compress": "크기 줄이기",
+  "reduce_video_size.btn.download": "비디오 다운로드",
+  "reduce_video_size.btn.compress_new": "새 파일 줄이기",
+  "reduce_video_size.proc.compressing": "크기 줄이기",
+  "reduce_video_size.how_to_use.title": "온라인에서 비디오 크기를 줄이는 방법",
+  "reduce_video_size.how_to_use.steps": [
+    "장치에서 비디오 파일을 업로드하십시오.",
+    "대상 파일 크기 또는 압축 수준을 선택하십시오.",
+    "크기 줄이기를 클릭하고 브라우저에서 프로세스가 로컬로 완료될 때까지 기다립니다."
+  ],
+  "reduce_video_size.why_use.title": "FileYuzu를 사용하여 크기를 줄이는 이유",
+  "reduce_video_size.why_use.benefits": [
+    {
+      "icon": "방패 자물쇠",
+      "title": "보안 및 비공개",
+      "description": "모든 파일은 장치에서 로컬로 처리됩니다. 업로드가 없습니다."
+    },
+    {
+      "icon": "볼트",
+      "title": "즉시 시작",
+      "description": "등록이나 소프트웨어 설치가 필요하지 않습니다."
+    },
+    {
+      "icon": "플레이어 플레이",
+      "title": "사용하기 쉬움",
+      "description": "빠른 비디오 축소를 위해 설계된 간단한 인터페이스."
+    },
+    {
+      "icon": "조정",
+      "title": "맞춤 타겟",
+      "description": "비디오를 이메일이나 채팅 크기 제한에 쉽게 맞출 수 있습니다."
+    }
+  ],
+  "reduce_video_size.faq.title": "비디오 크기 줄이기 FAQ",
+  "reduce_video_size.faq.items": [
+    {
+      "q": "크기를 줄이면 품질이 저하되나요?",
+      "a": "예, 파일 크기를 줄이면 필연적으로 품질이 저하되지만 최적화된 사전 설정은 크기와 선명도의 균형을 완벽하게 유지합니다."
+    },
+    {
+      "q": "이 도구는 무료로 사용할 수 있나요?",
+      "a": "네, 워터마크 없이 완전 무료입니다."
+    }
+  ],
+  "pdf_compressor.pages": "페이지"
 }
