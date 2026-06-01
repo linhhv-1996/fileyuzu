@@ -180,6 +180,7 @@
   ],
   "related_tools.title": "Похожие инструменты",
   "common.tools": "Инструменты",
+  "common.blog": "Блог",
   "common.language": "Язык",
   "common.footer.copyright": "© 2025 FileYuzu",
   "common.footer.privacy": "Конфиденциальность",
@@ -538,5 +539,53 @@
       "q": "Мои файлы загружаются на сервер?",
       "a": "Нет, вся конвертация выполняется локально на вашем устройстве."
     }
-  ]
+  ],
+  "_comment_mp4_converter": "================ MP4 Converter ================",
+  "mp4_converter.seo.title": "FileYuzu — MP4 Converter Online Free",
+  "mp4_converter.seo.description": "Convert any video to MP4 format online for free with FileYuzu. Fast, secure, and easy to use.",
+  "mp4_converter.hero.title": "MP4 Converter",
+  "mp4_converter.hero.description": "Convert your video files to MP4 format easily and securely in your browser.",
+  "mp4_converter.how_to_use.title": "How to Convert Video to MP4 Online",
+  "mp4_converter.how_to_use.steps": [
+    "Upload your video file (MOV, AVI, WebM, etc.).",
+    "Select MP4 as the target format.",
+    "Click Convert to start the process.",
+    "Download the converted MP4 file."
+  ],
+  "mp4_converter.why_use.title": "Why Use FileYuzu MP4 Converter",
+  "mp4_converter.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Conversion runs locally in your browser. Your files never leave your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up required",
+      "description": "Start converting immediately without creating an account or dealing with limits."
+    },
+    {
+      "icon": "player-play",
+      "title": "Multiple formats supported",
+      "description": "Upload almost any video format and get a standard MP4 file."
+    },
+    {
+      "icon": "rocket",
+      "title": "Fast processing",
+      "description": "Optimized for speed. Get your converted files quickly without waiting in queues."
+    }
+  ],
+  "mp4_converter.faq.title": "MP4 Converter FAQ",
+  "mp4_converter.faq.items": [
+    {
+      "q": "Is it free to use?",
+      "a": "Yes, FileYuzu's MP4 converter is completely free with no limits."
+    },
+    {
+      "q": "Are my files secure?",
+      "a": "Absolutely. All conversions happen locally in your browser, so your files are never uploaded to our servers."
+    }
+  ],
+  "tool.mp4_converter.title": "MP4 Converter",
+  "tool.mp4_converter.description": "Convert any video to MP4"
 }

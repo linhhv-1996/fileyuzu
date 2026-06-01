@@ -148,7 +148,7 @@
             </div>
             
             <div class="settings">
-                <div class="setting-row">
+                <div class="setting-row inline-row">
                     <div class="setting-lbl">{texts.autoOptimizeLbl}</div>
                     <div class="setting-ctl">
                         <button class="toggle" class:on={autoOptimize} onclick={() => autoOptimize = !autoOptimize} aria-label={texts.autoOptimizeLbl}></button>
@@ -210,7 +210,7 @@
 
         {#if status === 'file'}
             <div class="settings">
-                <div class="setting-row">
+                <div class="setting-row inline-row">
                     <div class="setting-lbl">{texts.autoOptimizeLbl}</div>
                     <div class="setting-ctl">
                         <button class="toggle" class:on={autoOptimize} onclick={() => autoOptimize = !autoOptimize} aria-label={texts.autoOptimizeLbl}></button>
@@ -247,7 +247,7 @@
 
         {#if status === 'proc'}
             <div class="settings">
-                <div class="setting-row" style="opacity:.4;pointer-events:none">
+                <div class="setting-row inline-row" style="opacity:.4;pointer-events:none">
                     <div class="setting-lbl">{texts.autoOptimizeLbl}</div>
                     <div class="setting-ctl">
                         <button class="toggle" class:on={autoOptimize} aria-label={texts.autoOptimizeLbl}></button>
@@ -274,14 +274,11 @@
                     </div>
                 </div>
                 <hr class="settings-divider">
-                <button class="btn-cta" disabled>
+                <button class="btn-cta" disabled style="background: linear-gradient(to right, var(--ac) {progress}%, #bccfe0 {progress}%); color: #fff; border-color: transparent;">
                     <span class="spin" aria-hidden="true"><i class="ti ti-loader-2"></i></span>
                     <span class="cta-desktop">{progress}% — {texts.procCompressing}</span>
                     <span class="cta-mobile" style="display:none">{progress}% — {texts.procCompressing}</span>
                 </button>
-                <div class="prog-wrap" role="progressbar" aria-valuenow={progress} aria-valuemin="0" aria-valuemax="100">
-                    <div class="prog-fill" style="width: {progress}%"></div>
-                </div>
             </div>
         {/if}
 
@@ -313,4 +310,13 @@
 
 <style>
     /* CSS is handled globally in app.css */
+    @media (max-width: 768px) {
+        .setting-row.inline-row {
+            flex-direction: row !important;
+            align-items: center !important;
+        }
+        .setting-row.inline-row .setting-ctl {
+            width: auto !important;
+        }
+    }
 </style>

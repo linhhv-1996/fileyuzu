@@ -2,6 +2,7 @@ export interface ToolConfig {
     slug: string;
     titleKey: string;
     descriptionKey: string;
+    shortDescriptionKey: string;
     icon: string;
     related_tools: string[];
     category: string;   // e.g. 'video', 'pdf'
@@ -23,8 +24,14 @@ export const tools: ToolConfig[] = [
         slug: 'compress-video',
         titleKey: 'tool.compress_video.title',
         descriptionKey: 'tool.compress_video.description',
+        shortDescriptionKey: 'tool.compress_video.short_description',
         icon: 'movie',
-        related_tools: ['pdf-compressor', 'video-converter', 'compress-mp4', 'reduce-video-size'],
+        related_tools: [
+            'compress-mp4',
+            'video-converter',
+            'mov-to-mp4',
+            'compress-pdf',
+        ],
         category: 'video',
         tags: ['MP4', 'MOV', 'AVI'],
     },
@@ -32,8 +39,14 @@ export const tools: ToolConfig[] = [
         slug: 'compress-mp4',
         titleKey: 'tool.compress_mp4.title',
         descriptionKey: 'tool.compress_mp4.description',
+        shortDescriptionKey: 'tool.compress_mp4.short_description',
         icon: 'movie',
-        related_tools: ['compress-video', 'reduce-video-size'],
+        related_tools: [
+            'compress-video',
+            'mp4-converter',
+            'mov-to-mp4',
+            'webm-to-mp4',
+        ],
         category: 'video',
         tags: ['MP4'],
     },
@@ -41,8 +54,14 @@ export const tools: ToolConfig[] = [
         slug: 'reduce-video-size',
         titleKey: 'tool.reduce_video_size.title',
         descriptionKey: 'tool.reduce_video_size.description',
+        shortDescriptionKey: 'tool.reduce_video_size.short_description',
         icon: 'movie',
-        related_tools: ['compress-video', 'compress-mp4'],
+        related_tools: [
+            'compress-video',
+            'video-converter',
+            'mov-to-mp4',
+            'webm-to-mp4',
+        ],
         category: 'video',
         tags: ['MP4', 'MOV', 'WebM'],
     },
@@ -50,17 +69,29 @@ export const tools: ToolConfig[] = [
         slug: 'video-converter',
         titleKey: 'tool.video_converter.title',
         descriptionKey: 'tool.video_converter.description',
+        shortDescriptionKey: 'tool.video_converter.short_description',
         icon: 'arrows-right-left',
-        related_tools: ['compress-video'],
+        related_tools: [
+            'mov-to-mp4',
+            'avi-to-mp4',
+            'mkv-to-mp4',
+            'webm-to-mp4',
+        ],
         category: 'video',
         tags: ['MP4', 'WebM', 'MP3'],
     },
     {
-        slug: 'pdf-compressor',
+        slug: 'compress-pdf',
         titleKey: 'tool.pdf_compressor.title',
         descriptionKey: 'tool.pdf_compressor.description',
+        shortDescriptionKey: 'tool.pdf_compressor.short_description',
         icon: 'file-type-pdf',
-        related_tools: ['compress-mp4', 'video-converter', 'compress-video', 'reduce-video-size'],
+        related_tools: [
+            'compress-video',
+            'reduce-video-size',
+            'compress-mp4',
+            'video-converter',
+        ],
         category: 'pdf',
         tags: ['PDF'],
     },
@@ -68,8 +99,14 @@ export const tools: ToolConfig[] = [
         slug: 'mov-to-mp4',
         titleKey: 'tool.mov_to_mp4.title',
         descriptionKey: 'tool.mov_to_mp4.description',
+        shortDescriptionKey: 'tool.mov_to_mp4.short_description',
         icon: 'arrows-right-left',
-        related_tools: ['video-converter', 'compress-mp4', 'video-to-mp3'],
+        related_tools: [
+            'video-converter',
+            'mkv-to-mp4',
+            'avi-to-mp4',
+            'compress-mp4',
+        ],
         category: 'video',
         tags: ['MOV', 'MP4'],
     },
@@ -77,8 +114,14 @@ export const tools: ToolConfig[] = [
         slug: 'avi-to-mp4',
         titleKey: 'tool.avi_to_mp4.title',
         descriptionKey: 'tool.avi_to_mp4.description',
+        shortDescriptionKey: 'tool.avi_to_mp4.short_description',
         icon: 'arrows-right-left',
-        related_tools: ['video-converter', 'compress-mp4', 'video-to-mp3'],
+        related_tools: [
+            'video-converter',
+            'mkv-to-mp4',
+            'mov-to-mp4',
+            'compress-mp4',
+        ],
         category: 'video',
         tags: ['AVI', 'MP4'],
     },
@@ -86,8 +129,14 @@ export const tools: ToolConfig[] = [
         slug: 'mkv-to-mp4',
         titleKey: 'tool.mkv_to_mp4.title',
         descriptionKey: 'tool.mkv_to_mp4.description',
+        shortDescriptionKey: 'tool.mkv_to_mp4.short_description',
         icon: 'arrows-right-left',
-        related_tools: ['video-converter', 'compress-mp4', 'video-to-mp3'],
+        related_tools: [
+            'video-converter',
+            'mov-to-mp4',
+            'avi-to-mp4',
+            'compress-mp4',
+        ],
         category: 'video',
         tags: ['MKV', 'MP4'],
     },
@@ -95,8 +144,14 @@ export const tools: ToolConfig[] = [
         slug: 'webm-to-mp4',
         titleKey: 'tool.webm_to_mp4.title',
         descriptionKey: 'tool.webm_to_mp4.description',
+        shortDescriptionKey: 'tool.webm_to_mp4.short_description',
         icon: 'arrows-right-left',
-        related_tools: ['video-converter', 'compress-mp4', 'video-to-mp3'],
+        related_tools: [
+            'video-converter',
+            'mkv-to-mp4',
+            'avi-to-mp4',
+            'compress-mp4',
+        ],
         category: 'video',
         tags: ['WebM', 'MP4'],
     },
@@ -104,17 +159,83 @@ export const tools: ToolConfig[] = [
         slug: 'video-to-mp3',
         titleKey: 'tool.video_to_mp3.title',
         descriptionKey: 'tool.video_to_mp3.description',
+        shortDescriptionKey: 'tool.video_to_mp3.short_description',
         icon: 'music',
-        related_tools: ['video-converter', 'compress-mp4', 'mov-to-mp4'],
+        related_tools: [
+            'video-converter',
+            'mkv-to-mp4',
+            'avi-to-mp4',
+            'compress-mp4',
+        ],
         category: 'video',
         tags: ['Video', 'MP3'],
+    },
+    {
+        slug: 'mp4-converter',
+        titleKey: 'tool.mp4_converter.title',
+        descriptionKey: 'tool.mp4_converter.description',
+        shortDescriptionKey: 'tool.mp4_converter.short_description',
+        icon: 'arrows-right-left',
+        related_tools: [
+            'mov-to-mp4',
+            'mkv-to-mp4',
+            'avi-to-mp4',
+            'webm-to-mp4',
+        ],
+        category: 'video',
+        tags: ['Video', 'MP4'],
     },
 ];
 
 export function getRelatedTools(currentSlug: string): ToolConfig[] {
-    const current = tools.find(t => t.slug === currentSlug);
+    const current = tools.find(tool => tool.slug === currentSlug);
     if (!current) return [];
+
+    const seen = new Set<string>();
+
     return current.related_tools
-        .map(slug => tools.find(t => t.slug === slug))
-        .filter(Boolean) as ToolConfig[];
+        .filter(slug => {
+            if (slug === currentSlug) return false;
+            if (seen.has(slug)) return false;
+
+            seen.add(slug);
+            return true;
+        })
+        .map(slug => tools.find(tool => tool.slug === slug))
+        .filter((tool): tool is ToolConfig => Boolean(tool));
+}
+
+export function validateRelatedTools(): string[] {
+    const toolSlugs = new Set(tools.map(tool => tool.slug));
+    const errors: string[] = [];
+
+    for (const tool of tools) {
+        const seen = new Set<string>();
+
+        for (const relatedSlug of tool.related_tools) {
+            if (relatedSlug === tool.slug) {
+                errors.push(`${tool.slug}: related_tools contains itself`);
+            }
+
+            if (!toolSlugs.has(relatedSlug)) {
+                errors.push(`${tool.slug}: related tool "${relatedSlug}" does not exist`);
+            }
+
+            if (seen.has(relatedSlug)) {
+                errors.push(`${tool.slug}: duplicate related tool "${relatedSlug}"`);
+            }
+
+            seen.add(relatedSlug);
+        }
+
+        if (tool.related_tools.length < 4) {
+            errors.push(`${tool.slug}: should have at least 4 related tools`);
+        }
+
+        if (tool.related_tools.length > 6) {
+            errors.push(`${tool.slug}: should have at most 6 related tools`);
+        }
+    }
+
+    return errors;
 }

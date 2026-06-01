@@ -1,16 +1,16 @@
 {
   "_comment_home": "================ Home ================",
-  "home.seo.title": "FileYuzu — Ferramentas de vídeo online gratuitas",
-  "home.seo.description": "O FileYuzu oferece ferramentas online gratuitas e privadas para vídeos e arquivos. Tudo roda diretamente no seu navegador, sem upload e sem cadastro.",
+  "home.seo.title": "FileYuzu — Ferramentas de vídeo online grátis",
+  "home.seo.description": "O FileYuzu oferece ferramentas online gratuitas e privadas para vídeos e arquivos. Funciona totalmente no seu navegador, sem upload e sem cadastro.",
   "home.hero.title": "Ferramentas online gratuitas",
   "home.hero.description": "Ferramentas privadas, rápidas e fáceis de usar que rodam diretamente no seu navegador. Seus arquivos nunca saem do seu dispositivo.",
   "home.pill.private": "Os arquivos nunca saem do seu dispositivo",
   "home.pill.instant": "Instantâneo, sem filas",
-  "home.pill.free": "100% gratuito",
+  "home.pill.free": "100% grátis",
   "home.why.private.title": "100% privado",
   "home.why.private.desc": "A compressão roda no seu navegador via WebAssembly. Seu arquivo nunca sai do seu dispositivo.",
   "home.why.instant.title": "Não precisa de cadastro",
-  "home.why.instant.desc": "Abra a página e comece. Sem conta, sem marca d’água e sem limite de tempo.",
+  "home.why.instant.desc": "Abra a página e comece. Sem conta, sem marca-d’água, sem limite de tempo.",
   "home.why.device.title": "Funciona em qualquer dispositivo",
   "home.why.device.desc": "Totalmente responsivo. Não é necessário instalar aplicativo.",
   "home.faq.title": "Perguntas frequentes",
@@ -18,15 +18,15 @@
   "home.faq.items": [
     {
       "q": "Todas as ferramentas do FileYuzu são gratuitas?",
-      "a": "Sim, todas as ferramentas do FileYuzu são totalmente gratuitas, sem taxas ocultas, sem assinaturas e sem limites. Você pode comprimir vídeos, comprimir PDFs e converter formatos de vídeo quantas vezes quiser, sem custo."
+      "a": "Sim, todas as ferramentas do FileYuzu são totalmente gratuitas, sem taxas ocultas, sem assinaturas e sem limites. Você pode compactar vídeos, compactar PDFs e converter formatos de vídeo quantas vezes quiser, sem custo."
     },
     {
       "q": "Meus arquivos são enviados para um servidor?",
-      "a": "Não. Todo o processamento acontece diretamente no seu navegador usando a tecnologia WebAssembly. Seus arquivos nunca saem do seu dispositivo e nunca são enviados para nenhum servidor, então seus dados permanecem totalmente privados."
+      "a": "Não. Todo o processamento acontece diretamente no seu navegador usando a tecnologia WebAssembly. Seus arquivos nunca saem do seu dispositivo e nunca são enviados para nenhum servidor, mantendo seus dados totalmente privados."
     },
     {
       "q": "Preciso criar uma conta para usar essas ferramentas?",
-      "a": "Não é necessário criar conta nem fazer cadastro. Basta abrir a ferramenta que você precisa e começar imediatamente — sem registro, sem e-mail e sem senha."
+      "a": "Não é preciso criar conta nem se cadastrar. Basta abrir a ferramenta de que você precisa e começar imediatamente — sem registro, sem e-mail, sem senha."
     },
     {
       "q": "Quais ferramentas estão disponíveis no FileYuzu?",
@@ -34,36 +34,36 @@
     },
     {
       "q": "Existe limite de tamanho de arquivo?",
-      "a": "Não há um limite rígido do lado do servidor, pois todo o processamento acontece no seu navegador. Na prática, a maioria das ferramentas processa arquivos de até 500 MB. O desempenho depende da memória e da capacidade de processamento do seu dispositivo."
+      "a": "Não há um limite rígido do lado do servidor, pois todo o processamento acontece no seu navegador. Na prática, a maioria das ferramentas lida com arquivos de até 500 MB. O desempenho depende da memória e da capacidade de processamento do seu dispositivo."
     },
     {
       "q": "Posso usar o FileYuzu no celular ou tablet?",
-      "a": "Sim! O FileYuzu é totalmente responsivo e funciona em smartphones, tablets e computadores. Não é necessário instalar aplicativo — basta abrir o site no navegador do celular e usar qualquer ferramenta."
+      "a": "Sim! O FileYuzu é totalmente responsivo e funciona em smartphones, tablets e computadores. Não é necessário instalar aplicativo — basta abrir o site no navegador móvel e usar qualquer ferramenta."
     }
   ],
   "_comment_categories": "================ Tool Categories ================",
   "home.category.video": "Vídeo",
   "home.category.pdf": "PDF",
-  "compress_video.seo.title": "FileYuzu — Compressor de vídeo online gratuito",
-  "compress_video.seo.description": "Comprima vídeos MP4, MOV, AVI, MKV e WebM online com o FileYuzu. Reduza o tamanho do vídeo com privacidade no seu navegador, sem upload e sem cadastro.",
-  "compress_video.hero.title": "Compressor de vídeo online gratuito",
-  "compress_video.hero.description": "Reduza o tamanho de vídeos online — sem upload e sem cadastro. Roda totalmente no seu navegador. Suporta MP4, MOV, AVI, MKV e WebM.",
+  "compress_video.seo.title": "FileYuzu — Compressor de vídeo online grátis",
+  "compress_video.seo.description": "Comprima vídeos MP4, MOV, AVI, MKV e WebM online com o FileYuzu. Reduza o tamanho do vídeo com privacidade no navegador, sem upload e sem cadastro.",
+  "compress_video.hero.title": "Compressor de vídeo online grátis",
+  "compress_video.hero.description": "Reduza o tamanho de vídeos online — sem upload, sem cadastro. Funciona totalmente no seu navegador. Suporta MP4, MOV, AVI, MKV e WebM.",
   "compress_video.upload.title": "Solte um arquivo de vídeo aqui",
   "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · até 500 MB",
   "compress_video.upload.btn_select": "Selecionar arquivo",
   "compress_video.upload.btn_sample": "Testar exemplo",
-  "compress_video.upload.hint": "Selecione um arquivo de vídeo para comprimir",
+  "compress_video.upload.hint": "Selecione um arquivo de vídeo para compactar",
   "compress_video.settings.auto_optimize": "Otimização automática",
   "compress_video.settings.size_lbl": "Tamanho de arquivo desejado",
-  "compress_video.btn.compress": "Comprimir vídeo",
+  "compress_video.btn.compress": "Compactar vídeo",
   "compress_video.btn.download": "Baixar vídeo",
-  "compress_video.btn.compress_new": "Comprimir novos arquivos",
-  "compress_video.proc.compressing": "Comprimindo vídeo",
-  "compress_video.how_to_use.title": "Como comprimir um vídeo online",
+  "compress_video.btn.compress_new": "Compactar novos arquivos",
+  "compress_video.proc.compressing": "Compactando vídeo",
+  "compress_video.how_to_use.title": "Como compactar um vídeo online",
   "compress_video.how_to_use.steps": [
     "Envie um arquivo de vídeo do seu dispositivo ou arraste e solte-o na área de upload.",
-    "Escolha uma predefinição de compressão ou defina um tamanho de arquivo personalizado. Use as tags de seleção rápida para plataformas comuns como Gmail, Discord ou Slack.",
-    "Clique em Comprimir e aguarde um momento. Todo o processamento roda localmente no seu navegador — seu arquivo nunca é enviado para nenhum servidor. Baixe quando terminar."
+    "Escolha uma predefinição de compressão ou defina um tamanho de arquivo desejado personalizado. Use as etiquetas de seleção rápida para plataformas comuns como Gmail, Discord ou Slack.",
+    "Clique em Compactar e aguarde um momento. Todo o processamento roda localmente no seu navegador — seu arquivo nunca é enviado para nenhum servidor. Baixe quando terminar."
   ],
   "compress_video.why_use.title": "Por que usar o FileYuzu",
   "compress_video.why_use.benefits": [
@@ -75,7 +75,7 @@
     {
       "icon": "bolt",
       "title": "Não precisa de cadastro",
-      "description": "Abra a página e comece. Sem conta, sem marca d’água e sem limite de tempo."
+      "description": "Abra a página e comece. Sem conta, sem marca-d’água, sem limite de tempo."
     },
     {
       "icon": "player-play",
@@ -103,46 +103,46 @@
       "a": "O vídeo pode ter até 500 MB. Para arquivos maiores, considere dividir o vídeo primeiro ou usar uma ferramenta de desktop como o HandBrake."
     },
     {
-      "q": "O que significam as predefinições Baixa, Equilibrada e Alta?",
-      "a": "Equilibrada reduz o tamanho em cerca de 60–80%, mantendo o vídeo com boa aparência na maioria das telas. Baixa gera o menor arquivo, com perda de qualidade mais visível. Alta mantém qualidade próxima da original, com redução moderada."
+      "q": "O que significam as predefinições Low, Balance e High?",
+      "a": "Balance reduz o tamanho em cerca de 60–80%, mantendo o vídeo com boa aparência na maioria das telas. Low gera o menor arquivo, com perda de qualidade mais visível. High mantém qualidade próxima da original, com redução moderada."
     },
     {
-      "q": "O que faz a opção “Desativar áudio”?",
-      "a": "Ela remove a faixa de áudio do vídeo comprimido. É útil para clipes sem som, gravações de tela ou quando você precisa do menor tamanho de arquivo possível."
+      "q": "O que “Desativar áudio” faz?",
+      "a": "Remove a faixa de áudio do vídeo compactado. É útil para clipes sem som, gravações de tela ou quando você precisa do menor tamanho de arquivo possível."
     },
     {
-      "q": "Por que as tags de plataforma mostram valores específicos em MB?",
-      "a": "Cada plataforma tem um limite de tamanho para anexos. O Gmail é 25 MB, o Discord é 8 MB (grátis), o Slack é 100 MB e assim por diante. Ao clicar em uma tag, o tamanho desejado é definido automaticamente."
+      "q": "Por que as etiquetas de plataforma mostram valores específicos em MB?",
+      "a": "Cada plataforma tem um limite de tamanho para anexos. Gmail é 25 MB, Discord 8 MB (gratuito), Slack 100 MB e assim por diante. Clicar em uma etiqueta define o tamanho desejado automaticamente."
     },
     {
-      "q": "Haverá perda visível de qualidade?",
-      "a": "Depende da predefinição e do vídeo original. Para a maioria dos vídeos, a predefinição Equilibrada gera um resultado que fica bom em celulares e telas comuns. Você pode testar outra predefinição se não ficar satisfeito."
+      "q": "Haverá queda visível de qualidade?",
+      "a": "Depende da predefinição e do vídeo original. Para a maioria dos vídeos, a predefinição Balance gera um resultado que fica bom em celulares e telas comuns. Você pode testar outra predefinição se não ficar satisfeito."
     }
   ],
   "_comment_pdf_compressor": "================ PDF Compressor ================",
-  "pdf_compressor.seo.title": "FileYuzu — Compressor de PDF online gratuito",
-  "pdf_compressor.seo.description": "Comprima arquivos PDF online com o FileYuzu. Reduza o tamanho do PDF com privacidade no seu navegador, sem upload e sem cadastro.",
-  "pdf_compressor.hero.title": "Compressor de PDF online gratuito",
-  "pdf_compressor.hero.description": "Reduza o tamanho de PDFs online — sem upload e sem cadastro. Roda totalmente no seu navegador.",
+  "pdf_compressor.seo.title": "FileYuzu — Compressor de PDF online grátis",
+  "pdf_compressor.seo.description": "Comprima arquivos PDF online com o FileYuzu. Reduza o tamanho do PDF com privacidade no navegador, sem upload e sem cadastro.",
+  "pdf_compressor.hero.title": "Compressor de PDF online grátis",
+  "pdf_compressor.hero.description": "Reduza o tamanho de PDFs online — sem upload, sem cadastro. Funciona totalmente no seu navegador.",
   "pdf_compressor.upload.title": "Solte um arquivo PDF aqui",
   "pdf_compressor.upload.subtitle": "PDF · até 100 MB",
   "pdf_compressor.upload.btn_select": "Selecionar arquivo",
   "pdf_compressor.upload.btn_sample": "Testar exemplo",
-  "pdf_compressor.upload.hint": "Selecione um arquivo PDF para comprimir",
+  "pdf_compressor.upload.hint": "Selecione um arquivo PDF para compactar",
   "pdf_compressor.settings.quality_lbl": "Predefinição de qualidade",
-  "pdf_compressor.settings.quality_balanced": "Equilibrada (Ebook)",
-  "pdf_compressor.settings.quality_maximum": "Máxima (Tela)",
+  "pdf_compressor.settings.quality_balanced": "Equilibrado (Ebook)",
+  "pdf_compressor.settings.quality_maximum": "Máximo (Tela)",
   "pdf_compressor.settings.password_lbl": "Senha para desbloquear (opcional)",
   "pdf_compressor.settings.password_placeholder": "Senha (se estiver criptografado)",
-  "pdf_compressor.btn.compress": "Comprimir PDF",
+  "pdf_compressor.btn.compress": "Compactar PDF",
   "pdf_compressor.btn.download": "Baixar PDF",
-  "pdf_compressor.btn.compress_new": "Comprimir novos arquivos",
-  "pdf_compressor.proc.compressing": "Comprimindo PDF",
-  "pdf_compressor.how_to_use.title": "Como comprimir um PDF online",
+  "pdf_compressor.btn.compress_new": "Compactar novos arquivos",
+  "pdf_compressor.proc.compressing": "Compactando PDF",
+  "pdf_compressor.how_to_use.title": "Como compactar um PDF online",
   "pdf_compressor.how_to_use.steps": [
     "Envie um arquivo PDF do seu dispositivo ou arraste e solte-o na área de upload.",
-    "Escolha uma predefinição de qualidade (Equilibrada ou Máxima) e, opcionalmente, informe uma senha se o PDF estiver criptografado.",
-    "Clique em Comprimir e aguarde um momento. Todo o processamento roda localmente no seu navegador. Baixe quando terminar."
+    "Escolha uma predefinição de qualidade (Equilibrado ou Máximo) e, opcionalmente, informe uma senha se o PDF estiver criptografado.",
+    "Clique em Compactar e aguarde um momento. Todo o processamento roda localmente no seu navegador. Baixe quando terminar."
   ],
   "pdf_compressor.why_use.title": "Por que usar o compressor de PDF do FileYuzu",
   "pdf_compressor.why_use.benefits": [
@@ -154,7 +154,7 @@
     {
       "icon": "bolt",
       "title": "Não precisa de cadastro",
-      "description": "Abra a página e comece. Sem conta, sem marca d’água e sem limite de tempo."
+      "description": "Abra a página e comece. Sem conta, sem marca-d’água, sem limite de tempo."
     },
     {
       "icon": "player-play",
@@ -180,34 +180,50 @@
   ],
   "related_tools.title": "Ferramentas relacionadas",
   "common.tools": "Ferramentas",
+  "common.blog": "Blog",
   "common.language": "Idioma",
   "common.footer.copyright": "© 2025 FileYuzu",
   "common.footer.privacy": "Privacidade",
   "common.footer.terms": "Termos",
   "common.footer.contact": "Contato",
   "tool.compress_video.title": "Compressor de vídeo",
-  "tool.compress_video.description": "Reduzir tamanho do vídeo",
+  "tool.compress_video.description": "Comprima vídeos gratuitamente no seu navegador. Seus arquivos permanecem privados e nunca são enviados para o nosso servidor.",
+  "tool.compress_video.short_description": "Comprima vídeos com privacidade no seu navegador.",
   "tool.pdf_compressor.title": "Compressor de PDF",
-  "tool.pdf_compressor.description": "Otimizar arquivos PDF",
+  "tool.pdf_compressor.description": "Reduza o tamanho de PDFs gratuitamente, diretamente no seu navegador. Não é necessário upload, então seus documentos permanecem privados.",
+  "tool.pdf_compressor.short_description": "Reduza o tamanho de PDFs sem enviar arquivos.",
   "tool.video_converter.title": "Conversor de vídeo",
-  "tool.video_converter.description": "Converter formatos de vídeo",
-  "tool.video_trimmer.title": "Cortador de vídeo",
-  "tool.video_trimmer.description": "Corte clipes no navegador",
-  "tool.gif_maker.title": "Criador de GIF",
-  "tool.gif_maker.description": "Vídeo para GIF animado",
-  "tool.remove_audio.title": "Remover áudio",
-  "tool.remove_audio.description": "Silenciar faixa de vídeo",
-  "tool.image_compressor.title": "Compressor de imagem",
-  "tool.image_compressor.description": "JPG, PNG, WebP",
-  "tool.video_rotator.title": "Rotacionador de vídeo",
-  "tool.video_rotator.description": "Girar 90° / 180°",
-  "tool.video_cropper.title": "Recortador de vídeo",
-  "tool.video_cropper.description": "Recortar proporção",
+  "tool.video_converter.description": "Converta arquivos de vídeo para diferentes formatos gratuitamente. Tudo roda no seu navegador, sem enviar arquivos para um servidor.",
+  "tool.video_converter.short_description": "Converta vídeos diretamente no seu navegador.",
+  "tool.mov_to_mp4.title": "MOV para MP4",
+  "tool.mov_to_mp4.description": "Converta vídeos MOV para MP4 gratuitamente no seu navegador. Rápido, privado e sem necessidade de upload para servidor.",
+  "tool.mov_to_mp4.short_description": "Converta vídeos MOV para MP4 com privacidade.",
+  "tool.avi_to_mp4.title": "AVI para MP4",
+  "tool.avi_to_mp4.description": "Converta arquivos AVI para MP4 gratuitamente, diretamente no seu dispositivo. Seus vídeos não são enviados para o nosso servidor.",
+  "tool.avi_to_mp4.short_description": "Converta arquivos AVI para MP4 no seu dispositivo.",
+  "tool.mkv_to_mp4.title": "MKV para MP4",
+  "tool.mkv_to_mp4.description": "Converta vídeos MKV para MP4 gratuitamente no seu navegador. Processamento privado, sem necessidade de upload.",
+  "tool.mkv_to_mp4.short_description": "Converta vídeos MKV para MP4 com privacidade.",
+  "tool.webm_to_mp4.title": "WebM para MP4",
+  "tool.webm_to_mp4.description": "Converta vídeos WebM para MP4 gratuitamente, diretamente no navegador. Seus arquivos permanecem no seu dispositivo.",
+  "tool.webm_to_mp4.short_description": "Converta vídeos WebM para MP4 no navegador.",
+  "tool.video_to_mp3.title": "Vídeo para MP3",
+  "tool.video_to_mp3.description": "Extraia áudio MP3 de vídeos gratuitamente. Conversão privada no navegador, sem upload para servidor.",
+  "tool.video_to_mp3.short_description": "Extraia áudio MP3 de vídeos com privacidade.",
+  "tool.mp4_converter.title": "Conversor de MP4",
+  "tool.mp4_converter.description": "Converta vídeos para MP4 gratuitamente no navegador. Seguro, privado e sem envio de arquivos.",
+  "tool.mp4_converter.short_description": "Converta vídeos para MP4 com segurança.",
+  "tool.compress_mp4.title": "Compactar MP4",
+  "tool.compress_mp4.description": "Reduza o tamanho de arquivos MP4 gratuitamente, diretamente no navegador. Seu vídeo permanece privado no seu dispositivo.",
+  "tool.compress_mp4.short_description": "Compacte arquivos MP4 no seu dispositivo.",
+  "tool.reduce_video_size.title": "Reduzir tamanho de vídeo",
+  "tool.reduce_video_size.description": "Diminua arquivos de vídeo gratuitamente sem enviá-los. A compressão roda com privacidade no navegador.",
+  "tool.reduce_video_size.short_description": "Diminua arquivos de vídeo com privacidade.",
   "_comment_video_converter": "================ Video Converter ================",
-  "video_converter.seo.title": "FileYuzu — Conversor de vídeo online gratuito",
-  "video_converter.seo.description": "Converta arquivos de vídeo entre os formatos MP4, WebM, MOV, MKV e MP3 online com o FileYuzu. Conversão rápida e privada no seu navegador.",
-  "video_converter.hero.title": "Conversor de vídeo online gratuito",
-  "video_converter.hero.description": "Converta arquivos de vídeo com facilidade e segurança no seu navegador. Suporta MP4, WebM, MOV, MKV e MP3.",
+  "video_converter.seo.title": "FileYuzu — Conversor de vídeo online grátis",
+  "video_converter.seo.description": "Converta arquivos de vídeo entre os formatos MP4, WebM, MOV, MKV e MP3 online com o FileYuzu. Conversão rápida e privada no navegador.",
+  "video_converter.hero.title": "Conversor de vídeo online grátis",
+  "video_converter.hero.description": "Converta arquivos de vídeo com facilidade e segurança no navegador. Suporta MP4, WebM, MOV, MKV e MP3.",
   "video_converter.upload.title": "Solte um arquivo de vídeo aqui",
   "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM",
   "video_converter.upload.btn_select": "Selecionar arquivo",
@@ -234,7 +250,7 @@
     {
       "icon": "bolt",
       "title": "Não é necessário cadastro",
-      "description": "Comece a converter imediatamente, sem criar conta ou lidar com limites."
+      "description": "Comece a converter imediatamente sem criar conta nem lidar com limites."
     },
     {
       "icon": "player-play",
@@ -254,39 +270,35 @@
       "a": "Não, toda a conversão é feita localmente no seu dispositivo usando WebAssembly. Não armazenamos nem processamos seus arquivos em nossos servidores."
     },
     {
-      "q": "Posso converter vídeo para áudio?",
+      "q": "Posso converter vídeo em áudio?",
       "a": "Sim! Basta selecionar 'MP3' como formato de destino e a faixa de áudio será extraída e convertida."
     },
     {
       "q": "Quais formatos são suportados?",
-      "a": "Suportamos entrada na maioria dos formatos de vídeo comuns e podemos convertê-los para MP4, WebM, MOV, MKV ou MP3."
+      "a": "Suportamos entrada da maioria dos formatos de vídeo comuns e podemos convertê-los para MP4, WebM, MOV, MKV ou MP3."
     }
   ],
-  "tool.compress_mp4.title": "Comprimir MP4",
-  "tool.compress_mp4.description": "Reduzir tamanho do MP4",
-  "tool.reduce_video_size.title": "Reduzir tamanho do vídeo",
-  "tool.reduce_video_size.description": "Diminuir arquivos de vídeo",
   "_comment_compress_mp4": "================ Compress MP4 ================",
-  "compress_mp4.seo.title": "FileYuzu — Compressor de MP4 online gratuito",
-  "compress_mp4.seo.description": "Comprima vídeos MP4 online com o FileYuzu. Reduza o tamanho do MP4 com privacidade no seu navegador, sem upload e sem cadastro.",
-  "compress_mp4.hero.title": "Compressor de MP4 online gratuito",
-  "compress_mp4.hero.description": "Reduza o tamanho de arquivos MP4 online — sem upload e sem cadastro. Roda totalmente no seu navegador.",
+  "compress_mp4.seo.title": "FileYuzu — Compressor de MP4 online grátis",
+  "compress_mp4.seo.description": "Comprima vídeos MP4 online com o FileYuzu. Reduza o tamanho de MP4 com privacidade no navegador, sem upload e sem cadastro.",
+  "compress_mp4.hero.title": "Compressor de MP4 online grátis",
+  "compress_mp4.hero.description": "Reduza o tamanho de MP4 online — sem upload, sem cadastro. Funciona totalmente no seu navegador.",
   "compress_mp4.upload.title": "Solte um arquivo MP4 aqui",
   "compress_mp4.upload.subtitle": "MP4 · até 500 MB",
   "compress_mp4.upload.btn_select": "Selecionar arquivo",
   "compress_mp4.upload.btn_sample": "Testar exemplo",
-  "compress_mp4.upload.hint": "Selecione um arquivo MP4 para comprimir",
+  "compress_mp4.upload.hint": "Selecione um arquivo MP4 para compactar",
   "compress_mp4.settings.auto_optimize": "Otimização automática",
   "compress_mp4.settings.size_lbl": "Tamanho de arquivo desejado",
-  "compress_mp4.btn.compress": "Comprimir MP4",
+  "compress_mp4.btn.compress": "Compactar MP4",
   "compress_mp4.btn.download": "Baixar MP4",
-  "compress_mp4.btn.compress_new": "Comprimir novos arquivos",
-  "compress_mp4.proc.compressing": "Comprimindo MP4",
-  "compress_mp4.how_to_use.title": "Como comprimir um MP4 online",
+  "compress_mp4.btn.compress_new": "Compactar novos arquivos",
+  "compress_mp4.proc.compressing": "Compactando MP4",
+  "compress_mp4.how_to_use.title": "Como compactar um MP4 online",
   "compress_mp4.how_to_use.steps": [
     "Envie um arquivo MP4 do seu dispositivo ou arraste e solte-o na área de upload.",
-    "Escolha uma predefinição de compressão ou defina um tamanho de arquivo personalizado.",
-    "Clique em Comprimir e aguarde um momento. Todo o processamento roda localmente no seu navegador. Baixe quando terminar."
+    "Escolha uma predefinição de compressão ou defina um tamanho de arquivo desejado personalizado.",
+    "Clique em Compactar e aguarde um momento. Todo o processamento roda localmente no seu navegador. Baixe quando terminar."
   ],
   "compress_mp4.why_use.title": "Por que usar o compressor de MP4 do FileYuzu",
   "compress_mp4.why_use.benefits": [
@@ -298,7 +310,7 @@
     {
       "icon": "bolt",
       "title": "Não precisa de cadastro",
-      "description": "Abra a página e comece. Sem conta, sem marca d’água e sem limite de tempo."
+      "description": "Abra a página e comece. Sem conta, sem marca-d’água, sem limite de tempo."
     },
     {
       "icon": "player-play",
@@ -324,9 +336,9 @@
   ],
   "_comment_reduce_video_size": "================ Reduce Video Size ================",
   "reduce_video_size.seo.title": "FileYuzu — Reduzir tamanho de vídeo online grátis",
-  "reduce_video_size.seo.description": "Diminua e reduza o tamanho de arquivos de vídeo online com o FileYuzu. Processe localmente no seu navegador, sem upload.",
+  "reduce_video_size.seo.description": "Diminua e reduza o tamanho de vídeos online com o FileYuzu. Processe localmente no navegador sem fazer upload.",
   "reduce_video_size.hero.title": "Reduzir tamanho do arquivo de vídeo",
-  "reduce_video_size.hero.description": "Deixe seus vídeos menores de forma rápida e segura no seu navegador.",
+  "reduce_video_size.hero.description": "Diminua seus vídeos com rapidez e segurança no navegador.",
   "reduce_video_size.upload.title": "Solte um arquivo de vídeo aqui",
   "reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · até 500 MB",
   "reduce_video_size.upload.btn_select": "Selecionar arquivo",
@@ -338,7 +350,7 @@
   "reduce_video_size.btn.download": "Baixar vídeo",
   "reduce_video_size.btn.compress_new": "Reduzir novos arquivos",
   "reduce_video_size.proc.compressing": "Reduzindo tamanho",
-  "reduce_video_size.how_to_use.title": "Como reduzir o tamanho de um vídeo online",
+  "reduce_video_size.how_to_use.title": "Como reduzir o tamanho de vídeo online",
   "reduce_video_size.how_to_use.steps": [
     "Envie um arquivo de vídeo do seu dispositivo.",
     "Selecione o tamanho de arquivo desejado ou o nível de compressão.",
@@ -353,13 +365,13 @@
     },
     {
       "icon": "bolt",
-      "title": "Início instantâneo",
-      "description": "Não é necessário registro nem instalação de software."
+      "title": "Início imediato",
+      "description": "Não é necessário cadastro nem instalação de software."
     },
     {
       "icon": "player-play",
       "title": "Fácil de usar",
-      "description": "Interface simples projetada para reduzir vídeos rapidamente."
+      "description": "Interface simples, criada para reduzir vídeos rapidamente."
     },
     {
       "icon": "adjustments",
@@ -375,25 +387,15 @@
     },
     {
       "q": "Esta ferramenta é gratuita?",
-      "a": "Sim, ela é totalmente gratuita e sem marcas d’água."
+      "a": "Sim, ela é totalmente gratuita e sem marcas-d’água."
     }
   ],
   "pdf_compressor.pages": "páginas",
-  "tool.mov_to_mp4.title": "MOV para MP4",
-  "tool.mov_to_mp4.description": "Converter MOV para MP4",
-  "tool.avi_to_mp4.title": "AVI para MP4",
-  "tool.avi_to_mp4.description": "Converter AVI para MP4",
-  "tool.mkv_to_mp4.title": "MKV para MP4",
-  "tool.mkv_to_mp4.description": "Converter MKV para MP4",
-  "tool.webm_to_mp4.title": "WebM para MP4",
-  "tool.webm_to_mp4.description": "Converter WebM para MP4",
-  "tool.video_to_mp3.title": "Vídeo para MP3",
-  "tool.video_to_mp3.description": "Converter vídeo para MP3",
   "_comment_mov_to_mp4": "================ MOV to MP4 ================",
   "mov_to_mp4.seo.title": "FileYuzu — Converter MOV para MP4 online grátis",
-  "mov_to_mp4.seo.description": "Converta arquivos de vídeo MOV para MP4 online com o FileYuzu. Conversão rápida e privada no seu navegador.",
+  "mov_to_mp4.seo.description": "Converta arquivos de vídeo MOV para MP4 online com o FileYuzu. Conversão rápida e privada no navegador.",
   "mov_to_mp4.hero.title": "Converter MOV para MP4",
-  "mov_to_mp4.hero.description": "Converta seus vídeos MOV para o formato MP4 com facilidade e segurança no seu navegador.",
+  "mov_to_mp4.hero.description": "Converta seus vídeos MOV para o formato MP4 com facilidade e segurança no navegador.",
   "mov_to_mp4.how_to_use.title": "Como converter MOV para MP4 online",
   "mov_to_mp4.how_to_use.steps": [
     "Envie um arquivo MOV do seu dispositivo.",
@@ -409,7 +411,7 @@
     {
       "icon": "bolt",
       "title": "Não é necessário cadastro",
-      "description": "Comece a converter imediatamente, sem criar conta ou lidar com limites."
+      "description": "Comece a converter imediatamente sem criar conta nem lidar com limites."
     }
   ],
   "mov_to_mp4.faq.title": "FAQ de MOV para MP4",
@@ -421,9 +423,9 @@
   ],
   "_comment_avi_to_mp4": "================ AVI to MP4 ================",
   "avi_to_mp4.seo.title": "FileYuzu — Converter AVI para MP4 online grátis",
-  "avi_to_mp4.seo.description": "Converta arquivos de vídeo AVI para MP4 online com o FileYuzu. Conversão rápida e privada no seu navegador.",
+  "avi_to_mp4.seo.description": "Converta arquivos de vídeo AVI para MP4 online com o FileYuzu. Conversão rápida e privada no navegador.",
   "avi_to_mp4.hero.title": "Converter AVI para MP4",
-  "avi_to_mp4.hero.description": "Converta seus vídeos AVI para o formato MP4 com facilidade e segurança no seu navegador.",
+  "avi_to_mp4.hero.description": "Converta seus vídeos AVI para o formato MP4 com facilidade e segurança no navegador.",
   "avi_to_mp4.how_to_use.title": "Como converter AVI para MP4 online",
   "avi_to_mp4.how_to_use.steps": [
     "Envie um arquivo AVI do seu dispositivo.",
@@ -451,9 +453,9 @@
   ],
   "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
   "mkv_to_mp4.seo.title": "FileYuzu — Converter MKV para MP4 online grátis",
-  "mkv_to_mp4.seo.description": "Converta arquivos de vídeo MKV para MP4 online com o FileYuzu. Conversão rápida e privada no seu navegador.",
+  "mkv_to_mp4.seo.description": "Converta arquivos de vídeo MKV para MP4 online com o FileYuzu. Conversão rápida e privada no navegador.",
   "mkv_to_mp4.hero.title": "Converter MKV para MP4",
-  "mkv_to_mp4.hero.description": "Converta seus vídeos MKV para o formato MP4 com facilidade e segurança no seu navegador.",
+  "mkv_to_mp4.hero.description": "Converta seus vídeos MKV para o formato MP4 com facilidade e segurança no navegador.",
   "mkv_to_mp4.how_to_use.title": "Como converter MKV para MP4 online",
   "mkv_to_mp4.how_to_use.steps": [
     "Envie um arquivo MKV do seu dispositivo.",
@@ -481,9 +483,9 @@
   ],
   "_comment_webm_to_mp4": "================ WebM to MP4 ================",
   "webm_to_mp4.seo.title": "FileYuzu — Converter WebM para MP4 online grátis",
-  "webm_to_mp4.seo.description": "Converta arquivos de vídeo WebM para MP4 online com o FileYuzu. Conversão rápida e privada no seu navegador.",
+  "webm_to_mp4.seo.description": "Converta arquivos de vídeo WebM para MP4 online com o FileYuzu. Conversão rápida e privada no navegador.",
   "webm_to_mp4.hero.title": "Converter WebM para MP4",
-  "webm_to_mp4.hero.description": "Converta seus vídeos WebM para o formato MP4 com facilidade e segurança no seu navegador.",
+  "webm_to_mp4.hero.description": "Converta seus vídeos WebM para o formato MP4 com facilidade e segurança no navegador.",
   "webm_to_mp4.how_to_use.title": "Como converter WebM para MP4 online",
   "webm_to_mp4.how_to_use.steps": [
     "Envie um arquivo WebM do seu dispositivo.",
@@ -510,10 +512,10 @@
     }
   ],
   "_comment_video_to_mp3": "================ Video to MP3 ================",
-  "video_to_mp3.seo.title": "FileYuzu — Extrair áudio de vídeo (vídeo para MP3) online grátis",
-  "video_to_mp3.seo.description": "Converta vídeo para MP3 online com o FileYuzu. Extraia áudio dos seus arquivos de vídeo com facilidade no seu navegador.",
+  "video_to_mp3.seo.title": "FileYuzu — Extrair áudio de vídeo (Vídeo para MP3) online grátis",
+  "video_to_mp3.seo.description": "Converta vídeo para MP3 online com o FileYuzu. Extraia áudio dos seus arquivos de vídeo com facilidade no navegador.",
   "video_to_mp3.hero.title": "Converter vídeo para MP3",
-  "video_to_mp3.hero.description": "Extraia a faixa de áudio do seu vídeo e salve-a como um arquivo MP3 diretamente no seu navegador.",
+  "video_to_mp3.hero.description": "Extraia a faixa de áudio do seu vídeo e salve como um arquivo MP3 diretamente no navegador.",
   "video_to_mp3.how_to_use.title": "Como converter vídeo para MP3 online",
   "video_to_mp3.how_to_use.steps": [
     "Envie um arquivo de vídeo do seu dispositivo.",
@@ -537,6 +539,52 @@
     {
       "q": "Meus arquivos são enviados para um servidor?",
       "a": "Não, toda a conversão é feita localmente no seu dispositivo."
+    }
+  ],
+  "_comment_mp4_converter": "================ MP4 Converter ================",
+  "mp4_converter.seo.title": "FileYuzu — Conversor de MP4 online grátis",
+  "mp4_converter.seo.description": "Converta qualquer vídeo para o formato MP4 online gratuitamente com o FileYuzu. Rápido, seguro e fácil de usar.",
+  "mp4_converter.hero.title": "Conversor de MP4",
+  "mp4_converter.hero.description": "Converta seus arquivos de vídeo para o formato MP4 com facilidade e segurança no navegador.",
+  "mp4_converter.how_to_use.title": "Como converter vídeo para MP4 online",
+  "mp4_converter.how_to_use.steps": [
+    "Envie seu arquivo de vídeo (MOV, AVI, WebM etc.).",
+    "Selecione MP4 como formato de destino.",
+    "Clique em Converter para iniciar o processo.",
+    "Baixe o arquivo MP4 convertido."
+  ],
+  "mp4_converter.why_use.title": "Por que usar o conversor de MP4 do FileYuzu",
+  "mp4_converter.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% privado",
+      "description": "A conversão roda localmente no seu navegador. Seus arquivos nunca saem do seu dispositivo."
+    },
+    {
+      "icon": "bolt",
+      "title": "Não é necessário cadastro",
+      "description": "Comece a converter imediatamente sem criar conta nem lidar com limites."
+    },
+    {
+      "icon": "player-play",
+      "title": "Suporte a vários formatos",
+      "description": "Envie praticamente qualquer formato de vídeo e obtenha um arquivo MP4 padrão."
+    },
+    {
+      "icon": "rocket",
+      "title": "Processamento rápido",
+      "description": "Otimizado para velocidade. Receba seus arquivos convertidos rapidamente, sem esperar em filas."
+    }
+  ],
+  "mp4_converter.faq.title": "FAQ do conversor de MP4",
+  "mp4_converter.faq.items": [
+    {
+      "q": "É gratuito?",
+      "a": "Sim, o conversor de MP4 do FileYuzu é totalmente gratuito e sem limites."
+    },
+    {
+      "q": "Meus arquivos estão seguros?",
+      "a": "Com certeza. Todas as conversões acontecem localmente no seu navegador, então seus arquivos nunca são enviados para nossos servidores."
     }
   ]
 }

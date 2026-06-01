@@ -252,14 +252,11 @@
                     </div>
                 </div>
                 <hr class="settings-divider">
-                <button class="btn-cta" disabled>
+                <button class="btn-cta" disabled style="background: linear-gradient(to right, var(--ac) {progress}%, #bccfe0 {progress}%); color: #fff; border-color: transparent;">
                     <span class="spin" aria-hidden="true"><i class="ti ti-loader-2"></i></span>
                     <span class="cta-desktop">{progress}% — {texts.procConverting}</span>
                     <span class="cta-mobile" style="display:none">{progress}% — {texts.procConverting}</span>
                 </button>
-                <div class="prog-wrap" role="progressbar" aria-valuenow={progress} aria-valuemin="0" aria-valuemax="100">
-                    <div class="prog-fill" style="width: {progress}%"></div>
-                </div>
             </div>
         {/if}
 

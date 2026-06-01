@@ -1,55 +1,55 @@
 {
-  "_comment_home": "================ Home ================",
+  "_comment_home": "================ ホーム ================",
   "home.seo.title": "FileYuzu — 無料オンライン動画ツール",
-  "home.seo.description": "FileYuzuは、無料でプライベートに使えるオンライン動画・ファイルツールを提供しています。アップロード不要、登録不要で、すべてブラウザ内で処理されます。",
+  "home.seo.description": "FileYuzuは、無料でプライベートに使えるオンライン動画・ファイルツールを提供しています。アップロード不要・登録不要で、すべてブラウザ内で動作します。",
   "home.hero.title": "無料オンラインツール",
-  "home.hero.description": "プライベートで高速、使いやすいツールをブラウザ上で直接利用できます。ファイルがデバイスの外に出ることはありません。",
-  "home.pill.private": "ファイルはデバイス内に留まります",
-  "home.pill.instant": "待ち時間なしですぐ使える",
-  "home.pill.free": "100%無料",
-  "home.why.private.title": "100%プライベート",
-  "home.why.private.desc": "WebAssemblyにより、圧縮処理はブラウザ内で実行されます。ファイルがデバイスの外に出ることはありません。",
+  "home.hero.description": "プライベートで高速、使いやすいツールがブラウザ内で直接動作します。ファイルがお使いの端末から外へ出ることはありません。",
+  "home.pill.private": "ファイルがお使いの端末から外へ出ることはありません",
+  "home.pill.instant": "即時処理、待ち行列なし",
+  "home.pill.free": "100% 無料",
+  "home.why.private.title": "100% プライベート",
+  "home.why.private.desc": "圧縮はWebAssemblyを使ってブラウザ内で実行されます。ファイルがお使いの端末から外へ出ることはありません。",
   "home.why.instant.title": "登録不要",
-  "home.why.instant.desc": "ページを開いてすぐに開始できます。アカウント、透かし、時間制限はありません。",
-  "home.why.device.title": "どのデバイスでも利用可能",
+  "home.why.instant.desc": "ページを開くだけですぐに開始できます。アカウント不要、ウォーターマークなし、時間制限なし。",
+  "home.why.device.title": "あらゆる端末で利用可能",
   "home.why.device.desc": "完全レスポンシブ対応。アプリのインストールは不要です。",
   "home.faq.title": "よくある質問",
-  "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
+  "_comment_home_faq": "ホームページ向けのSEO最適化済みFAQ 6件 — 無料、プライバシー/アップロード不要、アカウント不要、利用可能なツール、ファイルサイズ制限、モバイル対応をカバー",
   "home.faq.items": [
     {
       "q": "FileYuzuのすべてのツールは無料で使えますか？",
-      "a": "はい。FileYuzuのすべてのツールは完全無料で、隠れた料金、サブスクリプション、制限はありません。動画圧縮、PDF圧縮、動画形式変換を何度でも無料で利用できます。"
+      "a": "はい。FileYuzuのすべてのツールは完全無料で、隠れた料金、サブスクリプション、制限はありません。動画圧縮、PDF圧縮、動画形式の変換を、何度でも無料で利用できます。"
     },
     {
       "q": "ファイルはサーバーにアップロードされますか？",
-      "a": "いいえ。すべての処理はWebAssembly技術を使ってブラウザ内で直接行われます。ファイルがデバイスの外に出たり、サーバーに送信されたりすることはないため、データは完全にプライベートに保たれます。"
+      "a": "いいえ。すべての処理はWebAssembly技術を使ってブラウザ内で直接行われます。ファイルがお使いの端末から外へ出たり、サーバーに送信されたりすることはないため、データは完全にプライベートに保たれます。"
     },
     {
-      "q": "ツールを使うにはアカウント作成が必要ですか？",
-      "a": "いいえ。アカウント作成や登録は不要です。必要なツールを開くだけで、登録、メール、パスワードなしですぐに開始できます。"
+      "q": "これらのツールを使うにはアカウント作成が必要ですか？",
+      "a": "アカウント作成や登録は不要です。必要なツールを開いてすぐに開始できます。登録、メール、パスワードは不要です。"
     },
     {
-      "q": "FileYuzuではどのようなツールが使えますか？",
-      "a": "FileYuzuでは現在、無料オンライン動画圧縮、PDF圧縮、MP4、WebM、MOV、MKV、MP3などに対応した動画変換ツールを提供しています。今後さらに多くのツールを追加予定です。"
+      "q": "FileYuzuではどのようなツールが利用できますか？",
+      "a": "FileYuzuでは現在、無料のオンライン動画圧縮、PDF圧縮、MP4、WebM、MOV、MKV、MP3などに対応した動画変換ツールを提供しています。今後も新しいツールを順次追加しています。"
     },
     {
       "q": "ファイルサイズの制限はありますか？",
-      "a": "すべての処理がブラウザ内で行われるため、サーバー側の厳密な制限はありません。実際には、ほとんどのツールで最大500 MB程度のファイルを処理できます。パフォーマンスはデバイスのメモリと処理能力に依存します。"
+      "a": "すべての処理はブラウザ内で行われるため、サーバー側の厳密な制限はありません。実際には、多くのツールで最大500MB程度のファイルを処理できます。パフォーマンスはお使いの端末のメモリと処理能力によって異なります。"
     },
     {
-      "q": "スマートフォンやタブレットでも使えますか？",
-      "a": "はい。FileYuzuは完全レスポンシブ対応で、スマートフォン、タブレット、デスクトップで利用できます。アプリのインストールは不要です。モバイルブラウザでサイトを開くだけで、どのツールも使用できます。"
+      "q": "FileYuzuはスマートフォンやタブレットで使えますか？",
+      "a": "はい。FileYuzuは完全レスポンシブ対応で、スマートフォン、タブレット、デスクトップパソコンで利用できます。アプリのインストールは不要です。モバイルブラウザでサイトを開くだけで、どのツールでも使えます。"
     }
   ],
-  "_comment_categories": "================ Tool Categories ================",
+  "_comment_categories": "================ ツールカテゴリ ================",
   "home.category.video": "動画",
   "home.category.pdf": "PDF",
   "compress_video.seo.title": "FileYuzu — 無料オンライン動画圧縮ツール",
-  "compress_video.seo.description": "FileYuzuでMP4、MOV、AVI、MKV、WebM動画をオンライン圧縮。アップロード不要・登録不要で、ブラウザ内でプライベートに動画サイズを削減できます。",
+  "compress_video.seo.description": "FileYuzuでMP4、MOV、AVI、MKV、WebM動画をオンライン圧縮。アップロード不要・登録不要で、ブラウザ内でプライベートに動画ファイルサイズを削減できます。",
   "compress_video.hero.title": "無料オンライン動画圧縮ツール",
-  "compress_video.hero.description": "動画ファイルサイズをオンラインで削減 — アップロード不要、登録不要。すべてブラウザ内で実行されます。MP4、MOV、AVI、MKV、WebMに対応。",
+  "compress_video.hero.description": "動画ファイルサイズをオンラインで削減 — アップロード不要、登録不要。すべてブラウザ内で動作します。MP4、MOV、AVI、MKV、WebMに対応しています。",
   "compress_video.upload.title": "ここに動画ファイルをドロップ",
-  "compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM · 最大500 MB",
+  "compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM · 最大500MB",
   "compress_video.upload.btn_select": "ファイルを選択",
   "compress_video.upload.btn_sample": "サンプルを試す",
   "compress_video.upload.hint": "圧縮する動画ファイルを1つ選択してください",
@@ -59,220 +59,232 @@
   "compress_video.btn.download": "動画をダウンロード",
   "compress_video.btn.compress_new": "新しいファイルを圧縮",
   "compress_video.proc.compressing": "動画を圧縮中",
-  "compress_video.how_to_use.title": "オンラインで動画を圧縮する方法",
+  "compress_video.how_to_use.title": "動画をオンラインで圧縮する方法",
   "compress_video.how_to_use.steps": [
-    "デバイスから動画ファイルをアップロードするか、アップロードエリアにドラッグ＆ドロップします。",
-    "圧縮プリセットを選択するか、カスタムの目標ファイルサイズを設定します。Gmail、Discord、Slackなどの一般的なプラットフォーム向けクイック選択タグも利用できます。",
-    "「圧縮」をクリックして少し待ちます。すべての処理はブラウザ内でローカルに実行されるため、ファイルがサーバーに送信されることはありません。完了したらダウンロードします。"
+    "お使いの端末から動画ファイルをアップロードするか、アップロードエリアにドラッグ＆ドロップします。",
+    "圧縮プリセットを選択するか、目標ファイルサイズをカスタム設定します。Gmail、Discord、Slackなどの一般的なプラットフォーム向けには、クイック選択タグを使用できます。",
+    "「圧縮」をクリックしてしばらく待ちます。すべての処理はブラウザ内でローカルに実行され、ファイルがサーバーに送信されることはありません。完了したらダウンロードします。"
   ],
   "compress_video.why_use.title": "FileYuzuを使う理由",
   "compress_video.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100%プライベート",
-      "description": "WebAssemblyにより、圧縮処理はブラウザ内で実行されます。ファイルがデバイスの外に出ることはありません。"
+      "title": "100% プライベート",
+      "description": "圧縮はWebAssemblyを使ってブラウザ内で実行されます。ファイルがお使いの端末から外へ出ることはありません。"
     },
     {
       "icon": "bolt",
       "title": "登録不要",
-      "description": "ページを開いてすぐに開始できます。アカウント、透かし、時間制限はありません。"
+      "description": "ページを開くだけですぐに開始できます。アカウント不要、ウォーターマークなし、時間制限なし。"
     },
     {
       "icon": "player-play",
       "title": "シンプルなワークフロー",
-      "description": "1つの動画を集中的かつシンプルな流れで圧縮できます。"
+      "description": "シンプルでわかりやすいワークフローで、動画を1つずつ圧縮できます。"
     },
     {
       "icon": "adjustments",
       "title": "柔軟な目標サイズ",
-      "description": "Gmail、Discord、Slack、Line、WhatsAppなど、任意のプラットフォームに合わせて正確なサイズを設定できます。"
+      "description": "Gmail、Discord、Slack、LINE、WhatsAppなど、あらゆるプラットフォームに合わせて正確なサイズを設定できます。"
     }
   ],
-  "compress_video.faq.title": "動画圧縮FAQ",
+  "compress_video.faq.title": "動画圧縮に関するFAQ",
   "compress_video.faq.items": [
     {
       "q": "動画はサーバーにアップロードされますか？",
-      "a": "いいえ。すべての圧縮はFFmpeg.wasm（WebAssembly）を使ってローカルで行われます。動画ファイルがデバイスの外に出ることはありません。"
+      "a": "いいえ。すべての圧縮はFFmpeg.wasm（WebAssembly）を使ってローカルに行われます。動画ファイルがお使いの端末から外へ出ることはありません。"
     },
     {
       "q": "対応している動画形式は何ですか？",
-      "a": "MP4、MOV、AVI、MKV、WebM、およびその他の一般的な形式に対応しています。出力は最大限のデバイス互換性のため常にMP4です。"
+      "a": "MP4、MOV、AVI、MKV、WebM、およびほとんどの一般的な形式に対応しています。最大限のデバイス互換性を確保するため、出力は常にMP4です。"
     },
     {
       "q": "最大ファイルサイズはどれくらいですか？",
-      "a": "動画は最大500 MBまで対応しています。より大きなファイルの場合は、先に動画を分割するか、HandBrakeなどのデスクトップツールの使用をご検討ください。"
+      "a": "動画は最大500MBまで対応しています。より大きいファイルの場合は、先に動画を分割するか、HandBrakeなどのデスクトップツールの使用をご検討ください。"
     },
     {
-      "q": "Low、Balance、Highプリセットは何を意味しますか？",
-      "a": "Balanceは、ほとんどの画面で良好な見た目を保ちながらサイズを約60〜80%削減します。Lowは最小サイズを優先し、画質低下がより目立つ場合があります。Highは元に近い画質を保ちながら適度にサイズを削減します。"
+      "q": "低・バランス・高のプリセットは何を意味しますか？",
+      "a": "「バランス」は、多くの画面で見やすい画質を保ちながらサイズを約60〜80%削減します。「低」は最も小さいファイルを作成しますが、画質劣化が目立ちやすくなります。「高」は元に近い品質を保ちながら適度に削減します。"
     },
     {
       "q": "「音声を無効化」は何をしますか？",
-      "a": "圧縮後の動画から音声トラックを削除します。無音クリップ、画面録画、または可能な限りファイルサイズを小さくしたい場合に便利です。"
+      "a": "圧縮後の動画から音声トラックを削除します。無音クリップ、画面録画、またはできるだけ小さいファイルサイズが必要な場合に便利です。"
     },
     {
       "q": "プラットフォームタグに特定のMB値が表示されるのはなぜですか？",
-      "a": "各プラットフォームには添付ファイルサイズ制限があります。Gmailは25 MB、Discordは無料プランで8 MB、Slackは100 MBなどです。タグをクリックすると目標サイズが自動設定されます。"
+      "a": "各プラットフォームには添付ファイルのサイズ制限があります。Gmailは25MB、Discordは8MB（無料プラン）、Slackは100MBなどです。タグをクリックすると、目標サイズが自動的に設定されます。"
     },
     {
-      "q": "画質は目に見えて低下しますか？",
-      "a": "プリセットと元動画によります。ほとんどの動画では、Balanceプリセットの出力はスマートフォンや標準的な画面で十分きれいに見えます。満足できない場合は別のプリセットを試せます。"
+      "q": "見た目にわかる画質低下はありますか？",
+      "a": "プリセットと元の動画によって異なります。ほとんどの動画では、「バランス」プリセットによりスマートフォンや一般的な画面で十分きれいに見える出力になります。満足できない場合は別のプリセットを試すことができます。"
     }
   ],
-  "_comment_pdf_compressor": "================ PDF Compressor ================",
+  "_comment_pdf_compressor": "================ PDF圧縮 ================",
   "pdf_compressor.seo.title": "FileYuzu — 無料オンラインPDF圧縮ツール",
-  "pdf_compressor.seo.description": "FileYuzuでPDFファイルをオンライン圧縮。アップロード不要・登録不要で、ブラウザ内でプライベートにPDFサイズを削減できます。",
+  "pdf_compressor.seo.description": "FileYuzuでPDFファイルをオンライン圧縮。アップロード不要・登録不要で、ブラウザ内でプライベートにPDFファイルサイズを削減できます。",
   "pdf_compressor.hero.title": "無料オンラインPDF圧縮ツール",
-  "pdf_compressor.hero.description": "PDFファイルサイズをオンラインで削減 — アップロード不要、登録不要。すべてブラウザ内で実行されます。",
+  "pdf_compressor.hero.description": "PDFファイルサイズをオンラインで削減 — アップロード不要、登録不要。すべてブラウザ内で動作します。",
   "pdf_compressor.upload.title": "ここにPDFファイルをドロップ",
-  "pdf_compressor.upload.subtitle": "PDF · 最大100 MB",
+  "pdf_compressor.upload.subtitle": "PDF · 最大100MB",
   "pdf_compressor.upload.btn_select": "ファイルを選択",
   "pdf_compressor.upload.btn_sample": "サンプルを試す",
   "pdf_compressor.upload.hint": "圧縮するPDFファイルを1つ選択してください",
   "pdf_compressor.settings.quality_lbl": "品質プリセット",
-  "pdf_compressor.settings.quality_balanced": "バランス（Ebook）",
-  "pdf_compressor.settings.quality_maximum": "最大（Screen）",
+  "pdf_compressor.settings.quality_balanced": "バランス（電子書籍）",
+  "pdf_compressor.settings.quality_maximum": "最大（スクリーン）",
   "pdf_compressor.settings.password_lbl": "ロック解除用パスワード（任意）",
   "pdf_compressor.settings.password_placeholder": "パスワード（暗号化されている場合）",
   "pdf_compressor.btn.compress": "PDFを圧縮",
   "pdf_compressor.btn.download": "PDFをダウンロード",
   "pdf_compressor.btn.compress_new": "新しいファイルを圧縮",
   "pdf_compressor.proc.compressing": "PDFを圧縮中",
-  "pdf_compressor.how_to_use.title": "オンラインでPDFを圧縮する方法",
+  "pdf_compressor.how_to_use.title": "PDFをオンラインで圧縮する方法",
   "pdf_compressor.how_to_use.steps": [
-    "デバイスからPDFファイルをアップロードするか、アップロードエリアにドラッグ＆ドロップします。",
+    "お使いの端末からPDFファイルをアップロードするか、アップロードエリアにドラッグ＆ドロップします。",
     "品質プリセット（バランスまたは最大）を選択し、PDFが暗号化されている場合は必要に応じてパスワードを入力します。",
-    "「圧縮」をクリックして少し待ちます。すべての処理はブラウザ内でローカルに実行されます。完了したらダウンロードします。"
+    "「圧縮」をクリックしてしばらく待ちます。すべての処理はブラウザ内でローカルに実行されます。完了したらダウンロードします。"
   ],
-  "pdf_compressor.why_use.title": "FileYuzu PDF圧縮を使う理由",
+  "pdf_compressor.why_use.title": "FileYuzu PDF圧縮ツールを使う理由",
   "pdf_compressor.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100%プライベート",
-      "description": "WebAssemblyにより、圧縮処理はブラウザ内で実行されます。ファイルがデバイスの外に出ることはありません。"
+      "title": "100% プライベート",
+      "description": "圧縮はWebAssemblyを使ってブラウザ内で実行されます。ファイルがお使いの端末から外へ出ることはありません。"
     },
     {
       "icon": "bolt",
       "title": "登録不要",
-      "description": "ページを開いてすぐに開始できます。アカウント、透かし、時間制限はありません。"
+      "description": "ページを開くだけですぐに開始できます。アカウント不要、ウォーターマークなし、時間制限なし。"
     },
     {
       "icon": "player-play",
       "title": "シンプルなワークフロー",
-      "description": "1つのPDFを集中的かつシンプルな流れで圧縮できます。"
+      "description": "シンプルでわかりやすいワークフローで、PDFを1つずつ圧縮できます。"
     },
     {
       "icon": "adjustments",
       "title": "調整可能な品質",
-      "description": "より小さいサイズ向けのバランス圧縮、または最高の見た目を重視する最大品質を選択できます。"
+      "description": "より小さいサイズにするバランス圧縮か、最高の表示品質を保つ最大品質を選択できます。"
     }
   ],
-  "pdf_compressor.faq.title": "PDF圧縮FAQ",
+  "pdf_compressor.faq.title": "PDF圧縮に関するFAQ",
   "pdf_compressor.faq.items": [
     {
       "q": "PDFはサーバーにアップロードされますか？",
-      "a": "いいえ。すべての圧縮はGhostscript（WebAssembly）を使ってローカルで行われます。PDFファイルがデバイスの外に出ることはありません。"
+      "a": "いいえ。すべての圧縮はGhostscript（WebAssembly）を使ってローカルに行われます。PDFファイルがお使いの端末から外へ出ることはありません。"
     },
     {
       "q": "最大ファイルサイズはどれくらいですか？",
-      "a": "PDFは最大100 MBまで対応しています。"
+      "a": "PDFは最大100MBまで対応しています。"
     }
   ],
   "related_tools.title": "関連ツール",
   "common.tools": "ツール",
+  "common.blog": "ブログ",
   "common.language": "言語",
   "common.footer.copyright": "© 2025 FileYuzu",
   "common.footer.privacy": "プライバシー",
   "common.footer.terms": "利用規約",
   "common.footer.contact": "お問い合わせ",
-  "tool.compress_video.title": "動画圧縮",
-  "tool.compress_video.description": "動画ファイルサイズを削減",
-  "tool.pdf_compressor.title": "PDF圧縮",
-  "tool.pdf_compressor.description": "PDFファイルを最適化",
-  "tool.video_converter.title": "動画変換",
-  "tool.video_converter.description": "動画形式を変換",
-  "tool.video_trimmer.title": "動画トリミング",
-  "tool.video_trimmer.description": "ブラウザでクリップをカット",
-  "tool.gif_maker.title": "GIF作成",
-  "tool.gif_maker.description": "動画からアニメーションGIFへ",
-  "tool.remove_audio.title": "音声削除",
-  "tool.remove_audio.description": "動画の音声トラックをミュート",
-  "tool.image_compressor.title": "画像圧縮",
-  "tool.image_compressor.description": "JPG、PNG、WebP",
-  "tool.video_rotator.title": "動画回転",
-  "tool.video_rotator.description": "90° / 180°回転",
-  "tool.video_cropper.title": "動画クロップ",
-  "tool.video_cropper.description": "アスペクト比でクロップ",
-  "_comment_video_converter": "================ Video Converter ================",
+  "tool.compress_video.title": "動画圧縮ツール",
+  "tool.compress_video.description": "ブラウザ内で動画を無料圧縮。ファイルはプライベートに保たれ、当社サーバーへアップロードされることはありません。",
+  "tool.compress_video.short_description": "ブラウザ内で動画をプライベートに圧縮します。",
+  "tool.pdf_compressor.title": "PDF圧縮ツール",
+  "tool.pdf_compressor.description": "ブラウザ内でPDFファイルサイズを無料で削減できます。アップロード不要なので、文書はプライベートに保たれます。",
+  "tool.pdf_compressor.short_description": "ファイルをアップロードせずにPDFサイズを削減します。",
+  "tool.video_converter.title": "動画変換ツール",
+  "tool.video_converter.description": "動画ファイルをさまざまな形式に無料で変換できます。すべてブラウザ内で実行され、ファイルをサーバーへアップロードする必要はありません。",
+  "tool.video_converter.short_description": "ブラウザ内で動画を直接変換します。",
+  "tool.mov_to_mp4.title": "MOVからMP4へ",
+  "tool.mov_to_mp4.description": "ブラウザ内でMOV動画を無料でMP4に変換できます。高速・プライベートで、サーバーへのアップロードは不要です。",
+  "tool.mov_to_mp4.short_description": "MOV動画をプライベートにMP4へ変換します。",
+  "tool.avi_to_mp4.title": "AVIからMP4へ",
+  "tool.avi_to_mp4.description": "AVIファイルをお使いの端末上で直接、無料でMP4に変換できます。動画が当社サーバーにアップロードされることはありません。",
+  "tool.avi_to_mp4.short_description": "お使いの端末上でAVIファイルをMP4に変換します。",
+  "tool.mkv_to_mp4.title": "MKVからMP4へ",
+  "tool.mkv_to_mp4.description": "ブラウザ内でMKV動画を無料でMP4に変換できます。ファイルのアップロード不要で、プライベートに処理されます。",
+  "tool.mkv_to_mp4.short_description": "MKV動画をプライベートにMP4へ変換します。",
+  "tool.webm_to_mp4.title": "WebMからMP4へ",
+  "tool.webm_to_mp4.description": "ブラウザ内でWebM動画を無料でMP4に変換できます。ファイルはお使いの端末上に留まります。",
+  "tool.webm_to_mp4.short_description": "ブラウザ内でWebM動画をMP4に変換します。",
+  "tool.video_to_mp3.title": "動画からMP3へ",
+  "tool.video_to_mp3.description": "動画からMP3音声を無料で抽出できます。サーバーへのアップロード不要で、ブラウザベースのプライベート変換が可能です。",
+  "tool.video_to_mp3.short_description": "動画からMP3音声をプライベートに抽出します。",
+  "tool.mp4_converter.title": "MP4変換ツール",
+  "tool.mp4_converter.description": "ブラウザ内で動画を無料でMP4に変換できます。安全でプライベート、ファイルのアップロードはありません。",
+  "tool.mp4_converter.short_description": "動画を安全にMP4へ変換します。",
+  "tool.compress_mp4.title": "MP4を圧縮",
+  "tool.compress_mp4.description": "ブラウザ内でMP4ファイルサイズを無料で削減できます。動画はお使いの端末上に留まり、プライベートに保たれます。",
+  "tool.compress_mp4.short_description": "お使いの端末上でMP4ファイルを圧縮します。",
+  "tool.reduce_video_size.title": "動画サイズを縮小",
+  "tool.reduce_video_size.description": "アップロードせずに動画ファイルを無料で小さくできます。圧縮はブラウザ内でプライベートに実行されます。",
+  "tool.reduce_video_size.short_description": "動画ファイルをプライベートに小さくします。",
+  "_comment_video_converter": "================ 動画変換 ================",
   "video_converter.seo.title": "FileYuzu — 無料オンライン動画変換ツール",
-  "video_converter.seo.description": "FileYuzuで動画ファイルをMP4、WebM、MOV、MKV、MP3形式にオンライン変換。ブラウザ内で高速かつプライベートに変換できます。",
+  "video_converter.seo.description": "FileYuzuで動画ファイルをMP4、WebM、MOV、MKV、MP3形式間でオンライン変換。ブラウザ内で高速かつプライベートに変換できます。",
   "video_converter.hero.title": "無料オンライン動画変換ツール",
-  "video_converter.hero.description": "ブラウザ内で動画ファイルを簡単かつ安全に変換できます。MP4、WebM、MOV、MKV、MP3に対応。",
+  "video_converter.hero.description": "ブラウザ内で動画ファイルを簡単かつ安全に変換できます。MP4、WebM、MOV、MKV、MP3に対応しています。",
   "video_converter.upload.title": "ここに動画ファイルをドロップ",
   "video_converter.upload.subtitle": "MP4、MOV、AVI、MKV、WebM",
   "video_converter.upload.btn_select": "ファイルを選択",
   "video_converter.upload.btn_sample": "サンプルを試す",
   "video_converter.upload.hint": "変換する動画ファイルを1つ選択してください",
-  "video_converter.settings.format_lbl": "変換先形式",
+  "video_converter.settings.format_lbl": "ターゲット形式",
   "video_converter.btn.convert": "動画を変換",
   "video_converter.btn.download": "ファイルをダウンロード",
   "video_converter.btn.convert_new": "新しいファイルを変換",
   "video_converter.proc.converting": "動画を変換中",
-  "video_converter.how_to_use.title": "オンラインで動画を変換する方法",
+  "video_converter.how_to_use.title": "動画をオンラインで変換する方法",
   "video_converter.how_to_use.steps": [
-    "デバイスから動画ファイルをアップロードするか、アップロードエリアにドラッグ＆ドロップします。",
-    "変換先形式オプションから希望する出力形式（例：MP4、WebM、MP3）を選択します。",
-    "「変換」をクリックして待ちます。処理は完全なプライバシーのためデバイス上でローカルに実行されます。完了したらダウンロードします。"
+    "お使いの端末から動画ファイルをアップロードするか、アップロードエリアにドラッグ＆ドロップします。",
+    "ターゲット形式のオプションから、希望する出力形式（例：MP4、WebM、MP3）を選択します。",
+    "「変換」をクリックして待ちます。処理はお使いの端末上でローカルに実行されるため、プライバシーが守られます。完了したらダウンロードします。"
   ],
   "video_converter.why_use.title": "FileYuzu変換ツールを使う理由",
   "video_converter.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100%プライベート",
-      "description": "変換処理はブラウザ内でローカルに実行されます。ファイルがデバイスの外に出ることはありません。"
+      "title": "100% プライベート",
+      "description": "変換はブラウザ内でローカルに実行されます。ファイルがお使いの端末から外へ出ることはありません。"
     },
     {
       "icon": "bolt",
       "title": "登録不要",
-      "description": "アカウント作成や制限に悩まされることなく、すぐに変換を開始できます。"
+      "description": "アカウント作成や制限に煩わされることなく、すぐに変換を開始できます。"
     },
     {
       "icon": "player-play",
-      "title": "複数形式に対応",
-      "description": "MP4、WebM、MOVなどの一般的な形式へ変換したり、音声をMP3として抽出したりできます。"
+      "title": "複数形式",
+      "description": "MP4、WebM、MOVなどの一般的な形式に変換したり、音声をMP3として抽出できます。"
     },
     {
       "icon": "rocket",
       "title": "高速処理",
-      "description": "速度に最適化されています。待ち行列なしで変換済みファイルをすばやく取得できます。"
+      "description": "速度に最適化されています。待ち行列なしで、変換済みファイルをすばやく取得できます。"
     }
   ],
-  "video_converter.faq.title": "動画変換FAQ",
+  "video_converter.faq.title": "動画変換に関するFAQ",
   "video_converter.faq.items": [
     {
       "q": "ファイルはサーバーにアップロードされますか？",
-      "a": "いいえ。すべての変換はWebAssemblyを使ってデバイス上でローカルに行われます。サーバー上でファイルを保存または処理することはありません。"
+      "a": "いいえ。すべての変換はWebAssemblyを使ってお使いの端末上でローカルに行われます。当社サーバーでファイルを保存または処理することはありません。"
     },
     {
       "q": "動画を音声に変換できますか？",
-      "a": "はい。「MP3」を変換先形式として選択するだけで、音声トラックが抽出されMP3に変換されます。"
+      "a": "はい。ターゲット形式として「MP3」を選択するだけで、音声トラックが抽出されて変換されます。"
     },
     {
       "q": "対応している形式は何ですか？",
-      "a": "ほとんどの一般的な動画形式の入力に対応し、MP4、WebM、MOV、MKV、MP3へ変換できます。"
+      "a": "ほとんどの一般的な動画形式の入力に対応しており、MP4、WebM、MOV、MKV、MP3に変換できます。"
     }
   ],
-  "tool.compress_mp4.title": "MP4圧縮",
-  "tool.compress_mp4.description": "MP4ファイルサイズを削減",
-  "tool.reduce_video_size.title": "動画サイズ削減",
-  "tool.reduce_video_size.description": "動画ファイルを小さくする",
-  "_comment_compress_mp4": "================ Compress MP4 ================",
+  "_comment_compress_mp4": "================ MP4圧縮 ================",
   "compress_mp4.seo.title": "FileYuzu — 無料オンラインMP4圧縮ツール",
   "compress_mp4.seo.description": "FileYuzuでMP4動画をオンライン圧縮。アップロード不要・登録不要で、ブラウザ内でプライベートにMP4ファイルサイズを削減できます。",
   "compress_mp4.hero.title": "無料オンラインMP4圧縮ツール",
-  "compress_mp4.hero.description": "MP4ファイルサイズをオンラインで削減 — アップロード不要、登録不要。すべてブラウザ内で実行されます。",
+  "compress_mp4.hero.description": "MP4ファイルサイズをオンラインで削減 — アップロード不要、登録不要。すべてブラウザ内で動作します。",
   "compress_mp4.upload.title": "ここにMP4ファイルをドロップ",
-  "compress_mp4.upload.subtitle": "MP4 · 最大500 MB",
+  "compress_mp4.upload.subtitle": "MP4 · 最大500MB",
   "compress_mp4.upload.btn_select": "ファイルを選択",
   "compress_mp4.upload.btn_sample": "サンプルを試す",
   "compress_mp4.upload.hint": "圧縮するMP4ファイルを1つ選択してください",
@@ -282,74 +294,74 @@
   "compress_mp4.btn.download": "MP4をダウンロード",
   "compress_mp4.btn.compress_new": "新しいファイルを圧縮",
   "compress_mp4.proc.compressing": "MP4を圧縮中",
-  "compress_mp4.how_to_use.title": "オンラインでMP4を圧縮する方法",
+  "compress_mp4.how_to_use.title": "MP4をオンラインで圧縮する方法",
   "compress_mp4.how_to_use.steps": [
-    "デバイスからMP4ファイルをアップロードするか、アップロードエリアにドラッグ＆ドロップします。",
-    "圧縮プリセットを選択するか、カスタムの目標ファイルサイズを設定します。",
-    "「圧縮」をクリックして少し待ちます。すべての処理はブラウザ内でローカルに実行されます。完了したらダウンロードします。"
+    "お使いの端末からMP4ファイルをアップロードするか、アップロードエリアにドラッグ＆ドロップします。",
+    "圧縮プリセットを選択するか、目標ファイルサイズをカスタム設定します。",
+    "「圧縮」をクリックしてしばらく待ちます。すべての処理はブラウザ内でローカルに実行されます。完了したらダウンロードします。"
   ],
-  "compress_mp4.why_use.title": "FileYuzu MP4圧縮を使う理由",
+  "compress_mp4.why_use.title": "FileYuzu MP4圧縮ツールを使う理由",
   "compress_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100%プライベート",
-      "description": "WebAssemblyにより、圧縮処理はブラウザ内で実行されます。ファイルがデバイスの外に出ることはありません。"
+      "title": "100% プライベート",
+      "description": "圧縮はWebAssemblyを使ってブラウザ内で実行されます。ファイルがお使いの端末から外へ出ることはありません。"
     },
     {
       "icon": "bolt",
       "title": "登録不要",
-      "description": "ページを開いてすぐに開始できます。アカウント、透かし、時間制限はありません。"
+      "description": "ページを開くだけですぐに開始できます。アカウント不要、ウォーターマークなし、時間制限なし。"
     },
     {
       "icon": "player-play",
       "title": "シンプルなワークフロー",
-      "description": "1つのMP4を集中的かつシンプルな流れで圧縮できます。"
+      "description": "シンプルでわかりやすいワークフローで、MP4を1つずつ圧縮できます。"
     },
     {
       "icon": "adjustments",
       "title": "柔軟な目標サイズ",
-      "description": "任意のプラットフォームに合わせて正確なサイズを設定できます。"
+      "description": "あらゆるプラットフォームに合わせて正確なサイズを設定できます。"
     }
   ],
-  "compress_mp4.faq.title": "MP4圧縮FAQ",
+  "compress_mp4.faq.title": "MP4圧縮に関するFAQ",
   "compress_mp4.faq.items": [
     {
       "q": "動画はサーバーにアップロードされますか？",
-      "a": "いいえ。すべての圧縮はFFmpeg.wasm（WebAssembly）を使ってローカルで行われます。動画ファイルがデバイスの外に出ることはありません。"
+      "a": "いいえ。すべての圧縮はFFmpeg.wasm（WebAssembly）を使ってローカルに行われます。動画ファイルがお使いの端末から外へ出ることはありません。"
     },
     {
       "q": "最大ファイルサイズはどれくらいですか？",
-      "a": "動画は最大500 MBまで対応しています。"
+      "a": "動画は最大500MBまで対応しています。"
     }
   ],
-  "_comment_reduce_video_size": "================ Reduce Video Size ================",
-  "reduce_video_size.seo.title": "FileYuzu — 動画サイズをオンラインで無料削減",
-  "reduce_video_size.seo.description": "FileYuzuで動画ファイルサイズをオンラインで縮小・削減。アップロードせずにブラウザ内でローカル処理します。",
-  "reduce_video_size.hero.title": "動画ファイルサイズを削減",
-  "reduce_video_size.hero.description": "ブラウザ内で動画をすばやく安全に小さくできます。",
+  "_comment_reduce_video_size": "================ 動画サイズ縮小 ================",
+  "reduce_video_size.seo.title": "FileYuzu — 動画サイズを無料でオンライン縮小",
+  "reduce_video_size.seo.description": "FileYuzuで動画ファイルサイズをオンラインで縮小・削減できます。アップロードせず、ブラウザ内でローカル処理します。",
+  "reduce_video_size.hero.title": "動画ファイルサイズを縮小",
+  "reduce_video_size.hero.description": "ブラウザ内で動画を素早く安全に小さくできます。",
   "reduce_video_size.upload.title": "ここに動画ファイルをドロップ",
-  "reduce_video_size.upload.subtitle": "MP4、MOV、AVI、MKV、WebM · 最大500 MB",
+  "reduce_video_size.upload.subtitle": "MP4、MOV、AVI、MKV、WebM · 最大500MB",
   "reduce_video_size.upload.btn_select": "ファイルを選択",
   "reduce_video_size.upload.btn_sample": "サンプルを試す",
-  "reduce_video_size.upload.hint": "サイズを削減する動画ファイルを1つ選択してください",
+  "reduce_video_size.upload.hint": "サイズを縮小する動画ファイルを1つ選択してください",
   "reduce_video_size.settings.auto_optimize": "自動最適化",
   "reduce_video_size.settings.size_lbl": "目標ファイルサイズ",
-  "reduce_video_size.btn.compress": "サイズを削減",
+  "reduce_video_size.btn.compress": "サイズを縮小",
   "reduce_video_size.btn.download": "動画をダウンロード",
-  "reduce_video_size.btn.compress_new": "新しいファイルのサイズを削減",
-  "reduce_video_size.proc.compressing": "サイズを削減中",
-  "reduce_video_size.how_to_use.title": "オンラインで動画サイズを削減する方法",
+  "reduce_video_size.btn.compress_new": "新しいファイルを縮小",
+  "reduce_video_size.proc.compressing": "サイズを縮小中",
+  "reduce_video_size.how_to_use.title": "動画サイズをオンラインで縮小する方法",
   "reduce_video_size.how_to_use.steps": [
-    "デバイスから動画ファイルをアップロードします。",
+    "お使いの端末から動画ファイルをアップロードします。",
     "目標ファイルサイズまたは圧縮レベルを選択します。",
-    "「サイズを削減」をクリックし、ブラウザ内でローカル処理が完了するまで待ちます。"
+    "「サイズを縮小」をクリックし、ブラウザ内でローカル処理が完了するまで待ちます。"
   ],
-  "reduce_video_size.why_use.title": "FileYuzuでサイズを削減する理由",
+  "reduce_video_size.why_use.title": "FileYuzuでサイズを縮小する理由",
   "reduce_video_size.why_use.benefits": [
     {
       "icon": "shield-lock",
       "title": "安全・プライベート",
-      "description": "すべてのファイルはデバイス上でローカル処理されます。アップロードはありません。"
+      "description": "すべてのファイルはお使いの端末上でローカル処理されます。アップロードはありません。"
     },
     {
       "icon": "bolt",
@@ -359,172 +371,72 @@
     {
       "icon": "player-play",
       "title": "使いやすい",
-      "description": "動画をすばやく小さくするために設計されたシンプルなインターフェースです。"
+      "description": "動画をすばやく縮小できるよう設計されたシンプルなインターフェースです。"
     },
     {
       "icon": "adjustments",
       "title": "カスタム目標",
-      "description": "メールやチャットのサイズ制限に合わせて動画を簡単に調整できます。"
+      "description": "メールやチャットのサイズ制限に収まるよう、動画を簡単に調整できます。"
     }
   ],
-  "reduce_video_size.faq.title": "動画サイズ削減FAQ",
+  "reduce_video_size.faq.title": "動画サイズ縮小に関するFAQ",
   "reduce_video_size.faq.items": [
     {
-      "q": "サイズを削減すると画質は下がりますか？",
-      "a": "はい。ファイルサイズの削減にはどうしても多少の画質低下が伴いますが、最適化されたプリセットによりサイズと鮮明さのバランスをうまく保ちます。"
+      "q": "サイズを縮小すると品質は下がりますか？",
+      "a": "はい。ファイルサイズを縮小すると、どうしても多少の品質低下は発生しますが、最適化されたプリセットによりサイズと鮮明さのバランスをうまく調整できます。"
     },
     {
       "q": "このツールは無料で使えますか？",
-      "a": "はい。完全無料で、透かしもありません。"
+      "a": "はい。完全無料で、ウォーターマークもありません。"
     }
   ],
   "pdf_compressor.pages": "ページ",
-  "tool.mov_to_mp4.title": "MOVからMP4へ",
-  "tool.mov_to_mp4.description": "MOVをMP4に変換",
-  "tool.avi_to_mp4.title": "AVIからMP4へ",
-  "tool.avi_to_mp4.description": "AVIをMP4に変換",
-  "tool.mkv_to_mp4.title": "MKVからMP4へ",
-  "tool.mkv_to_mp4.description": "MKVをMP4に変換",
-  "tool.webm_to_mp4.title": "WebMからMP4へ",
-  "tool.webm_to_mp4.description": "WebMをMP4に変換",
-  "tool.video_to_mp3.title": "動画からMP3へ",
-  "tool.video_to_mp3.description": "動画をMP3に変換",
-  "_comment_mov_to_mp4": "================ MOV to MP4 ================",
+  "_comment_mov_to_mp4": "================ MOVからMP4へ ================",
   "mov_to_mp4.seo.title": "FileYuzu — MOVをMP4に無料オンライン変換",
-  "mov_to_mp4.seo.description": "FileYuzuでMOV動画ファイルをMP4にオンライン変換。ブラウザ内で高速かつプライベートに変換できます。",
+  "mov_to_mp4.seo.description": "FileYuzuでMOV動画ファイルをオンラインでMP4に変換。ブラウザ内で高速かつプライベートに変換できます。",
   "mov_to_mp4.hero.title": "MOVをMP4に変換",
-  "mov_to_mp4.hero.description": "MOV動画をMP4形式に、ブラウザ内で簡単かつ安全に変換できます。",
-  "mov_to_mp4.how_to_use.title": "オンラインでMOVをMP4に変換する方法",
+  "mov_to_mp4.hero.description": "MOV動画をブラウザ内で簡単かつ安全にMP4形式へ変換できます。",
+  "mov_to_mp4.how_to_use.title": "MOVをMP4にオンライン変換する方法",
   "mov_to_mp4.how_to_use.steps": [
-    "デバイスからMOVファイルをアップロードします。",
-    "「変換」をクリックして待ちます。処理は完全なプライバシーのためデバイス上でローカルに実行されます。完了したらMP4ファイルをダウンロードします。"
+    "お使いの端末からMOVファイルをアップロードします。",
+    "「変換」をクリックして待ちます。処理はお使いの端末上でローカルに実行されるため、プライバシーが守られます。完了したらMP4ファイルをダウンロードします。"
   ],
   "mov_to_mp4.why_use.title": "FileYuzu変換ツールを使う理由",
   "mov_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100%プライベート",
-      "description": "変換処理はブラウザ内でローカルに実行されます。ファイルがデバイスの外に出ることはありません。"
+      "title": "100% プライベート",
+      "description": "変換はブラウザ内でローカルに実行されます。ファイルがお使いの端末から外へ出ることはありません。"
     },
     {
       "icon": "bolt",
       "title": "登録不要",
-      "description": "アカウント作成や制限なしで、すぐに変換を開始できます。"
+      "description": "アカウント作成や制限に煩わされることなく、すぐに変換を開始できます。"
     }
   ],
-  "mov_to_mp4.faq.title": "MOVからMP4への変換FAQ",
+  "mov_to_mp4.faq.title": "MOVからMP4への変換に関するFAQ",
   "mov_to_mp4.faq.items": [
     {
       "q": "ファイルはサーバーにアップロードされますか？",
-      "a": "いいえ。すべての変換はデバイス上でローカルに行われます。サーバー上でファイルを保存または処理することはありません。"
+      "a": "いいえ。すべての変換はお使いの端末上でローカルに行われます。当社サーバーでファイルを保存または処理することはありません。"
     }
   ],
-  "_comment_avi_to_mp4": "================ AVI to MP4 ================",
+  "_comment_avi_to_mp4": "================ AVIからMP4へ ================",
   "avi_to_mp4.seo.title": "FileYuzu — AVIをMP4に無料オンライン変換",
-  "avi_to_mp4.seo.description": "FileYuzuでAVI動画ファイルをMP4にオンライン変換。ブラウザ内で高速かつプライベートに変換できます。",
+  "avi_to_mp4.seo.description": "FileYuzuでAVI動画ファイルをオンラインでMP4に変換。ブラウザ内で高速かつプライベートに変換できます。",
   "avi_to_mp4.hero.title": "AVIをMP4に変換",
-  "avi_to_mp4.hero.description": "AVI動画をMP4形式に、ブラウザ内で簡単かつ安全に変換できます。",
-  "avi_to_mp4.how_to_use.title": "オンラインでAVIをMP4に変換する方法",
+  "avi_to_mp4.hero.description": "AVI動画をブラウザ内で簡単かつ安全にMP4形式へ変換できます。",
+  "avi_to_mp4.how_to_use.title": "AVIをMP4にオンライン変換する方法",
   "avi_to_mp4.how_to_use.steps": [
-    "デバイスからAVIファイルをアップロードします。",
-    "「変換」をクリックして待ちます。処理は完全なプライバシーのためデバイス上でローカルに実行されます。完了したらMP4ファイルをダウンロードします。"
+    "お使いの端末からAVIファイルをアップロードします。",
+    "「変換」をクリックして待ちます。処理はお使いの端末上でローカルに実行されるため、プライバシーが守られます。完了したらMP4ファイルをダウンロードします。"
   ],
   "avi_to_mp4.why_use.title": "FileYuzu変換ツールを使う理由",
   "avi_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100%プライベート",
-      "description": "変換処理はブラウザ内でローカルに実行されます。ファイルがデバイスの外に出ることはありません。"
-    },
-    {
-      "icon": "bolt",
-      "title": "登録不要",
-      "description": "アカウント作成や制限なしで、すぐに変換を開始できます。"
-    }
-  ],
-  "avi_to_mp4.faq.title": "AVIからMP4への変換FAQ",
-  "avi_to_mp4.faq.items": [
-    {
-      "q": "ファイルはサーバーにアップロードされますか？",
-      "a": "いいえ。すべての変換はデバイス上でローカルに行われます。サーバー上でファイルを保存または処理することはありません。"
-    }
-  ],
-  "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
-  "mkv_to_mp4.seo.title": "FileYuzu — MKVをMP4に無料オンライン変換",
-  "mkv_to_mp4.seo.description": "FileYuzuでMKV動画ファイルをMP4にオンライン変換。ブラウザ内で高速かつプライベートに変換できます。",
-  "mkv_to_mp4.hero.title": "MKVをMP4に変換",
-  "mkv_to_mp4.hero.description": "MKV動画をMP4形式に、ブラウザ内で簡単かつ安全に変換できます。",
-  "mkv_to_mp4.how_to_use.title": "オンラインでMKVをMP4に変換する方法",
-  "mkv_to_mp4.how_to_use.steps": [
-    "デバイスからMKVファイルをアップロードします。",
-    "「変換」をクリックして待ちます。処理は完全なプライバシーのためデバイス上でローカルに実行されます。完了したらMP4ファイルをダウンロードします。"
-  ],
-  "mkv_to_mp4.why_use.title": "FileYuzu変換ツールを使う理由",
-  "mkv_to_mp4.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "100%プライベート",
-      "description": "変換処理はブラウザ内でローカルに実行されます。ファイルがデバイスの外に出ることはありません。"
-    },
-    {
-      "icon": "bolt",
-      "title": "登録不要",
-      "description": "アカウント作成や制限なしで、すぐに変換を開始できます。"
-    }
-  ],
-  "mkv_to_mp4.faq.title": "MKVからMP4への変換FAQ",
-  "mkv_to_mp4.faq.items": [
-    {
-      "q": "ファイルはサーバーにアップロードされますか？",
-      "a": "いいえ。すべての変換はデバイス上でローカルに行われます。サーバー上でファイルを保存または処理することはありません。"
-    }
-  ],
-  "_comment_webm_to_mp4": "================ WebM to MP4 ================",
-  "webm_to_mp4.seo.title": "FileYuzu — WebMをMP4に無料オンライン変換",
-  "webm_to_mp4.seo.description": "FileYuzuでWebM動画ファイルをMP4にオンライン変換。ブラウザ内で高速かつプライベートに変換できます。",
-  "webm_to_mp4.hero.title": "WebMをMP4に変換",
-  "webm_to_mp4.hero.description": "WebM動画をMP4形式に、ブラウザ内で簡単かつ安全に変換できます。",
-  "webm_to_mp4.how_to_use.title": "オンラインでWebMをMP4に変換する方法",
-  "webm_to_mp4.how_to_use.steps": [
-    "デバイスからWebMファイルをアップロードします。",
-    "「変換」をクリックして待ちます。処理は完全なプライバシーのためデバイス上でローカルに実行されます。完了したらMP4ファイルをダウンロードします。"
-  ],
-  "webm_to_mp4.why_use.title": "FileYuzu変換ツールを使う理由",
-  "webm_to_mp4.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "100%プライベート",
-      "description": "変換処理はブラウザ内でローカルに実行されます。ファイルがデバイスの外に出ることはありません。"
-    },
-    {
-      "icon": "bolt",
-      "title": "登録不要",
-      "description": "アカウント作成や制限なしで、すぐに変換を開始できます。"
-    }
-  ],
-  "webm_to_mp4.faq.title": "WebMからMP4への変換FAQ",
-  "webm_to_mp4.faq.items": [
-    {
-      "q": "ファイルはサーバーにアップロードされますか？",
-      "a": "いいえ。すべての変換はデバイス上でローカルに行われます。サーバー上でファイルを保存または処理することはありません。"
-    }
-  ],
-  "_comment_video_to_mp3": "================ Video to MP3 ================",
-  "video_to_mp3.seo.title": "FileYuzu — 動画から音声を抽出（動画をMP3に変換）無料オンライン",
-  "video_to_mp3.seo.description": "FileYuzuで動画をMP3にオンライン変換。動画ファイルから音声をブラウザ内で簡単に抽出できます。",
-  "video_to_mp3.hero.title": "動画をMP3に変換",
-  "video_to_mp3.hero.description": "動画から音声トラックを抽出し、ブラウザ内で直接MP3ファイルとして保存できます。",
-  "video_to_mp3.how_to_use.title": "オンラインで動画をMP3に変換する方法",
-  "video_to_mp3.how_to_use.steps": [
-    "デバイスから動画ファイルをアップロードします。",
-    "「変換」をクリックして待ちます。処理はデバイス上でローカルに実行されます。完了したらMP3ファイルをダウンロードします。"
-  ],
-  "video_to_mp3.why_use.title": "FileYuzu音声抽出ツールを使う理由",
-  "video_to_mp3.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "100%プライベート",
-      "description": "変換処理はブラウザ内でローカルに実行されます。ファイルがデバイスの外に出ることはありません。"
+      "title": "100% プライベート",
+      "description": "変換はブラウザ内でローカルに実行されます。ファイルがお使いの端末から外へ出ることはありません。"
     },
     {
       "icon": "bolt",
@@ -532,11 +444,147 @@
       "description": "アカウントを作成せずに、すぐに変換を開始できます。"
     }
   ],
-  "video_to_mp3.faq.title": "動画からMP3への変換FAQ",
+  "avi_to_mp4.faq.title": "AVIからMP4への変換に関するFAQ",
+  "avi_to_mp4.faq.items": [
+    {
+      "q": "ファイルはサーバーにアップロードされますか？",
+      "a": "いいえ。すべての変換はお使いの端末上でローカルに行われます。"
+    }
+  ],
+  "_comment_mkv_to_mp4": "================ MKVからMP4へ ================",
+  "mkv_to_mp4.seo.title": "FileYuzu — MKVをMP4に無料オンライン変換",
+  "mkv_to_mp4.seo.description": "FileYuzuでMKV動画ファイルをオンラインでMP4に変換。ブラウザ内で高速かつプライベートに変換できます。",
+  "mkv_to_mp4.hero.title": "MKVをMP4に変換",
+  "mkv_to_mp4.hero.description": "MKV動画をブラウザ内で簡単かつ安全にMP4形式へ変換できます。",
+  "mkv_to_mp4.how_to_use.title": "MKVをMP4にオンライン変換する方法",
+  "mkv_to_mp4.how_to_use.steps": [
+    "お使いの端末からMKVファイルをアップロードします。",
+    "「変換」をクリックして待ちます。処理はお使いの端末上でローカルに実行されるため、プライバシーが守られます。完了したらMP4ファイルをダウンロードします。"
+  ],
+  "mkv_to_mp4.why_use.title": "FileYuzu変換ツールを使う理由",
+  "mkv_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% プライベート",
+      "description": "変換はブラウザ内でローカルに実行されます。ファイルがお使いの端末から外へ出ることはありません。"
+    },
+    {
+      "icon": "bolt",
+      "title": "登録不要",
+      "description": "アカウントを作成せずに、すぐに変換を開始できます。"
+    }
+  ],
+  "mkv_to_mp4.faq.title": "MKVからMP4への変換に関するFAQ",
+  "mkv_to_mp4.faq.items": [
+    {
+      "q": "ファイルはサーバーにアップロードされますか？",
+      "a": "いいえ。すべての変換はお使いの端末上でローカルに行われます。"
+    }
+  ],
+  "_comment_webm_to_mp4": "================ WebMからMP4へ ================",
+  "webm_to_mp4.seo.title": "FileYuzu — WebMをMP4に無料オンライン変換",
+  "webm_to_mp4.seo.description": "FileYuzuでWebM動画ファイルをオンラインでMP4に変換。ブラウザ内で高速かつプライベートに変換できます。",
+  "webm_to_mp4.hero.title": "WebMをMP4に変換",
+  "webm_to_mp4.hero.description": "WebM動画をブラウザ内で簡単かつ安全にMP4形式へ変換できます。",
+  "webm_to_mp4.how_to_use.title": "WebMをMP4にオンライン変換する方法",
+  "webm_to_mp4.how_to_use.steps": [
+    "お使いの端末からWebMファイルをアップロードします。",
+    "「変換」をクリックして待ちます。処理はお使いの端末上でローカルに実行されるため、プライバシーが守られます。完了したらMP4ファイルをダウンロードします。"
+  ],
+  "webm_to_mp4.why_use.title": "FileYuzu変換ツールを使う理由",
+  "webm_to_mp4.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% プライベート",
+      "description": "変換はブラウザ内でローカルに実行されます。ファイルがお使いの端末から外へ出ることはありません。"
+    },
+    {
+      "icon": "bolt",
+      "title": "登録不要",
+      "description": "アカウントを作成せずに、すぐに変換を開始できます。"
+    }
+  ],
+  "webm_to_mp4.faq.title": "WebMからMP4への変換に関するFAQ",
+  "webm_to_mp4.faq.items": [
+    {
+      "q": "ファイルはサーバーにアップロードされますか？",
+      "a": "いいえ。すべての変換はお使いの端末上でローカルに行われます。"
+    }
+  ],
+  "_comment_video_to_mp3": "================ 動画からMP3へ ================",
+  "video_to_mp3.seo.title": "FileYuzu — 動画から音声を抽出（動画をMP3に変換）無料オンライン",
+  "video_to_mp3.seo.description": "FileYuzuで動画をオンラインでMP3に変換。ブラウザ内で動画ファイルから音声を簡単に抽出できます。",
+  "video_to_mp3.hero.title": "動画をMP3に変換",
+  "video_to_mp3.hero.description": "動画から音声トラックを抽出し、ブラウザ内で直接MP3ファイルとして保存します。",
+  "video_to_mp3.how_to_use.title": "動画をMP3にオンライン変換する方法",
+  "video_to_mp3.how_to_use.steps": [
+    "お使いの端末から動画ファイルをアップロードします。",
+    "「変換」をクリックして待ちます。処理はお使いの端末上でローカルに実行されます。完了したらMP3ファイルをダウンロードします。"
+  ],
+  "video_to_mp3.why_use.title": "FileYuzu音声抽出ツールを使う理由",
+  "video_to_mp3.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% プライベート",
+      "description": "変換はブラウザ内でローカルに実行されます。ファイルがお使いの端末から外へ出ることはありません。"
+    },
+    {
+      "icon": "bolt",
+      "title": "登録不要",
+      "description": "アカウントを作成せずに、すぐに変換を開始できます。"
+    }
+  ],
+  "video_to_mp3.faq.title": "動画からMP3への変換に関するFAQ",
   "video_to_mp3.faq.items": [
     {
       "q": "ファイルはサーバーにアップロードされますか？",
-      "a": "いいえ。すべての変換はデバイス上でローカルに行われます。"
+      "a": "いいえ。すべての変換はお使いの端末上でローカルに行われます。"
+    }
+  ],
+  "_comment_mp4_converter": "================ MP4変換 ================",
+  "mp4_converter.seo.title": "FileYuzu — 無料オンラインMP4変換ツール",
+  "mp4_converter.seo.description": "FileYuzuであらゆる動画をオンラインで無料でMP4形式に変換。高速・安全で使いやすいツールです。",
+  "mp4_converter.hero.title": "MP4変換ツール",
+  "mp4_converter.hero.description": "動画ファイルをブラウザ内で簡単かつ安全にMP4形式へ変換できます。",
+  "mp4_converter.how_to_use.title": "動画をMP4にオンライン変換する方法",
+  "mp4_converter.how_to_use.steps": [
+    "動画ファイル（MOV、AVI、WebMなど）をアップロードします。",
+    "ターゲット形式としてMP4を選択します。",
+    "「変換」をクリックして処理を開始します。",
+    "変換されたMP4ファイルをダウンロードします。"
+  ],
+  "mp4_converter.why_use.title": "FileYuzu MP4変換ツールを使う理由",
+  "mp4_converter.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% プライベート",
+      "description": "変換はブラウザ内でローカルに実行されます。ファイルがお使いの端末から外へ出ることはありません。"
+    },
+    {
+      "icon": "bolt",
+      "title": "登録不要",
+      "description": "アカウント作成や制限に煩わされることなく、すぐに変換を開始できます。"
+    },
+    {
+      "icon": "player-play",
+      "title": "複数形式に対応",
+      "description": "ほぼあらゆる動画形式をアップロードして、標準的なMP4ファイルを取得できます。"
+    },
+    {
+      "icon": "rocket",
+      "title": "高速処理",
+      "description": "速度に最適化されています。待ち行列なしで、変換済みファイルをすばやく取得できます。"
+    }
+  ],
+  "mp4_converter.faq.title": "MP4変換に関するFAQ",
+  "mp4_converter.faq.items": [
+    {
+      "q": "無料で使えますか？",
+      "a": "はい。FileYuzuのMP4変換ツールは完全無料で、制限はありません。"
+    },
+    {
+      "q": "ファイルは安全ですか？",
+      "a": "はい。すべての変換はブラウザ内でローカルに行われるため、ファイルが当社サーバーにアップロードされることはありません。"
     }
   ]
 }

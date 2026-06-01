@@ -17,7 +17,7 @@
                 <i class="ti ti-{tool.icon}" aria-hidden="true"></i>
                 <div>
                     <span class="rel-name">{t(tool.titleKey, dict)}</span>
-                    <span class="rel-sub">{t(tool.descriptionKey, dict)}</span>
+                    <span class="rel-sub">{t(tool.shortDescriptionKey, dict)}</span>
                 </div>
             </a>
         {/each}

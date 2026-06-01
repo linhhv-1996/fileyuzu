@@ -180,29 +180,60 @@
   ],
   "related_tools.title": "Related Tools",
   "common.tools": "Tools",
+  "common.blog": "Blog",
   "common.language": "Language",
   "common.footer.copyright": "© 2025 FileYuzu",
   "common.footer.privacy": "Privacy",
   "common.footer.terms": "Terms",
   "common.footer.contact": "Contact",
-  "tool.compress_video.title": "Video Compressor",
-  "tool.compress_video.description": "Reduce video file size",
-  "tool.pdf_compressor.title": "PDF Compressor",
-  "tool.pdf_compressor.description": "Optimize PDF files",
-  "tool.video_converter.title": "Video Converter",
-  "tool.video_converter.description": "Convert video formats",
-  "tool.video_trimmer.title": "Video trimmer",
-  "tool.video_trimmer.description": "Cut clips in browser",
-  "tool.gif_maker.title": "GIF maker",
-  "tool.gif_maker.description": "Video to animated GIF",
-  "tool.remove_audio.title": "Remove audio",
-  "tool.remove_audio.description": "Mute video track",
-  "tool.image_compressor.title": "Image compressor",
-  "tool.image_compressor.description": "JPG, PNG, WebP",
-  "tool.video_rotator.title": "Video rotator",
-  "tool.video_rotator.description": "Rotate 90° / 180°",
-  "tool.video_cropper.title": "Video cropper",
-  "tool.video_cropper.description": "Crop aspect ratio",
+
+
+"tool.compress_video.title": "Video Compressor",
+"tool.compress_video.description": "Compress videos for free in your browser. Your files stay private and are never uploaded to our server.",
+"tool.compress_video.short_description": "Compress videos privately in your browser.",
+
+"tool.pdf_compressor.title": "PDF Compressor",
+"tool.pdf_compressor.description": "Reduce PDF file size for free, directly in your browser. No upload required, so your documents stay private.",
+"tool.pdf_compressor.short_description": "Reduce PDF size without uploading files.",
+
+"tool.video_converter.title": "Video Converter",
+"tool.video_converter.description": "Convert video files to different formats for free. Everything runs in your browser without uploading files to a server.",
+"tool.video_converter.short_description": "Convert videos directly in your browser.",
+
+"tool.mov_to_mp4.title": "MOV to MP4",
+"tool.mov_to_mp4.description": "Convert MOV videos to MP4 for free in your browser. Fast, private, and no server upload needed.",
+"tool.mov_to_mp4.short_description": "Convert MOV videos to MP4 privately.",
+
+"tool.avi_to_mp4.title": "AVI to MP4",
+"tool.avi_to_mp4.description": "Convert AVI files to MP4 for free, directly on your device. Your videos are not uploaded to our server.",
+"tool.avi_to_mp4.short_description": "Convert AVI files to MP4 on your device.",
+
+"tool.mkv_to_mp4.title": "MKV to MP4",
+"tool.mkv_to_mp4.description": "Convert MKV videos to MP4 for free in your browser. Private processing with no file upload required.",
+"tool.mkv_to_mp4.short_description": "Convert MKV videos to MP4 privately.",
+
+"tool.webm_to_mp4.title": "WebM to MP4",
+"tool.webm_to_mp4.description": "Convert WebM videos to MP4 for free, right in your browser. Your files stay on your device.",
+"tool.webm_to_mp4.short_description": "Convert WebM videos to MP4 in your browser.",
+
+"tool.video_to_mp3.title": "Video to MP3",
+"tool.video_to_mp3.description": "Extract MP3 audio from videos for free. Private browser-based conversion with no server upload.",
+"tool.video_to_mp3.short_description": "Extract MP3 audio from videos privately.",
+
+"tool.mp4_converter.title": "MP4 Converter",
+"tool.mp4_converter.description": "Convert videos to MP4 for free in your browser. Secure, private, and no files are uploaded.",
+"tool.mp4_converter.short_description": "Convert videos to MP4 securely.",
+
+"tool.compress_mp4.title": "Compress MP4",
+"tool.compress_mp4.description": "Reduce MP4 file size for free, directly in your browser. Your video stays private on your device.",
+"tool.compress_mp4.short_description": "Compress MP4 files on your device.",
+
+"tool.reduce_video_size.title": "Reduce Video Size",
+"tool.reduce_video_size.description": "Make video files smaller for free without uploading them. Compression runs privately in your browser.",
+"tool.reduce_video_size.short_description": "Make video files smaller privately.",
+
+
+  
   "_comment_video_converter": "================ Video Converter ================",
   "video_converter.seo.title": "FileYuzu — Free Online Video Converter",
   "video_converter.seo.description": "Convert video files between MP4, WebM, MOV, MKV, and MP3 formats online with FileYuzu. Fast and private conversion in your browser.",
@@ -262,10 +293,6 @@
       "a": "We support input from most common video formats and can convert them to MP4, WebM, MOV, MKV, or MP3."
     }
   ],
-  "tool.compress_mp4.title": "Compress MP4",
-  "tool.compress_mp4.description": "Reduce MP4 file size",
-  "tool.reduce_video_size.title": "Reduce Video Size",
-  "tool.reduce_video_size.description": "Shrink video files",
   "_comment_compress_mp4": "================ Compress MP4 ================",
   "compress_mp4.seo.title": "FileYuzu — Free Online MP4 Compressor",
   "compress_mp4.seo.description": "Compress MP4 videos online with FileYuzu. Reduce MP4 file size privately in your browser with no upload and no sign-up.",
@@ -379,16 +406,7 @@
     }
   ],
   "pdf_compressor.pages": "pages",
-  "tool.mov_to_mp4.title": "MOV to MP4",
-  "tool.mov_to_mp4.description": "Convert MOV to MP4",
-  "tool.avi_to_mp4.title": "AVI to MP4",
-  "tool.avi_to_mp4.description": "Convert AVI to MP4",
-  "tool.mkv_to_mp4.title": "MKV to MP4",
-  "tool.mkv_to_mp4.description": "Convert MKV to MP4",
-  "tool.webm_to_mp4.title": "WebM to MP4",
-  "tool.webm_to_mp4.description": "Convert WebM to MP4",
-  "tool.video_to_mp3.title": "Video to MP3",
-  "tool.video_to_mp3.description": "Convert Video to MP3",
+
   "_comment_mov_to_mp4": "================ MOV to MP4 ================",
   "mov_to_mp4.seo.title": "FileYuzu — Convert MOV to MP4 Free Online",
   "mov_to_mp4.seo.description": "Convert MOV video files to MP4 online with FileYuzu. Fast and private conversion in your browser.",
@@ -537,6 +555,52 @@
     {
       "q": "Are my files uploaded to a server?",
       "a": "No, all conversion is done locally on your device."
+    }
+  ],
+  "_comment_mp4_converter": "================ MP4 Converter ================",
+  "mp4_converter.seo.title": "FileYuzu — MP4 Converter Online Free",
+  "mp4_converter.seo.description": "Convert any video to MP4 format online for free with FileYuzu. Fast, secure, and easy to use.",
+  "mp4_converter.hero.title": "MP4 Converter",
+  "mp4_converter.hero.description": "Convert your video files to MP4 format easily and securely in your browser.",
+  "mp4_converter.how_to_use.title": "How to Convert Video to MP4 Online",
+  "mp4_converter.how_to_use.steps": [
+    "Upload your video file (MOV, AVI, WebM, etc.).",
+    "Select MP4 as the target format.",
+    "Click Convert to start the process.",
+    "Download the converted MP4 file."
+  ],
+  "mp4_converter.why_use.title": "Why Use FileYuzu MP4 Converter",
+  "mp4_converter.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% private",
+      "description": "Conversion runs locally in your browser. Your files never leave your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No sign-up required",
+      "description": "Start converting immediately without creating an account or dealing with limits."
+    },
+    {
+      "icon": "player-play",
+      "title": "Multiple formats supported",
+      "description": "Upload almost any video format and get a standard MP4 file."
+    },
+    {
+      "icon": "rocket",
+      "title": "Fast processing",
+      "description": "Optimized for speed. Get your converted files quickly without waiting in queues."
+    }
+  ],
+  "mp4_converter.faq.title": "MP4 Converter FAQ",
+  "mp4_converter.faq.items": [
+    {
+      "q": "Is it free to use?",
+      "a": "Yes, FileYuzu's MP4 converter is completely free with no limits."
+    },
+    {
+      "q": "Are my files secure?",
+      "a": "Absolutely. All conversions happen locally in your browser, so your files are never uploaded to our servers."
     }
   ]
 }

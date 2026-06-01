@@ -36,14 +36,46 @@ export async function convertWithFFmpeg(
   // Determine ffmpeg arguments based on target format
   const args = ['-i', safeName];
 
+  // if (ext === 'mp3') {
+  //   args.push('-vn');
+  // } else if (ext === 'webm') {
+  //   args.push('-c:v', 'libvpx-vp9', '-crf', '30', '-b:v', '0', '-c:a', 'libopus');
+  // } else if (ext === 'mp4' || ext === 'mkv' || ext === 'mov') {
+  //   args.push('-c:v', 'libx264', '-crf', '23', '-preset', 'ultrafast', '-c:a', 'aac');
+  // } else {
+  //   // Generic fallback for any other format
+  //   args.push('-c:v', 'copy', '-c:a', 'copy');
+  // }
   if (ext === 'mp3') {
-    args.push('-vn');
+    args.push('-vn', '-c:a', 'libmp3lame', '-q:a', '0');
   } else if (ext === 'webm') {
-    args.push('-c:v', 'libvpx-vp9', '-crf', '30', '-b:v', '0', '-c:a', 'libopus');
-  } else if (ext === 'mp4' || ext === 'mkv' || ext === 'mov') {
-    args.push('-c:v', 'libx264', '-crf', '23', '-preset', 'ultrafast', '-c:a', 'aac');
+    args.push(
+      '-c:v', 'libvpx-vp9',
+      '-crf', '20',
+      '-b:v', '0',
+      '-c:a', 'libopus',
+      '-b:a', '192k'
+    );
+  } else if (ext === 'mp4') {
+    args.push(
+      '-c:v', 'libx264',
+      '-crf', '18',
+      '-preset', 'medium',
+      '-c:a', 'aac',
+      '-b:a', '256k',
+      '-movflags', '+faststart'
+    );
+  } else if (ext === 'mov') {
+    args.push(
+      '-c:v', 'libx264',
+      '-crf', '18',
+      '-preset', 'medium',
+      '-c:a', 'aac',
+      '-b:a', '256k'
+    );
+  } else if (ext === 'mkv') {
+    args.push('-c:v', 'copy', '-c:a', 'copy');
   } else {
-    // Generic fallback for any other format
     args.push('-c:v', 'copy', '-c:a', 'copy');
   }
   

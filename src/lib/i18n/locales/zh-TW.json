@@ -1,53 +1,53 @@
 {
   "_comment_home": "================ Home ================",
   "home.seo.title": "FileYuzu — 免費線上影片工具",
-  "home.seo.description": "FileYuzu 提供免費、私密的線上影片與檔案工具。全程在你的瀏覽器中執行，無需上傳，也不需要註冊。",
+  "home.seo.description": "FileYuzu 提供免費、注重隱私的線上影片與檔案工具。全程在瀏覽器中執行，無需上傳，也無需註冊。",
   "home.hero.title": "免費線上工具",
-  "home.hero.description": "私密、快速、易用的工具，直接在你的瀏覽器中執行。你的檔案永遠不會離開你的裝置。",
+  "home.hero.description": "隱私、安全、快速又好用的工具，直接在瀏覽器中執行。你的檔案永遠不會離開裝置。",
   "home.pill.private": "檔案永遠不會離開你的裝置",
-  "home.pill.instant": "即時處理，無需排隊",
+  "home.pill.instant": "立即處理，無需排隊",
   "home.pill.free": "100% 免費",
-  "home.why.private.title": "100% 私密",
-  "home.why.private.desc": "壓縮透過 WebAssembly 在你的瀏覽器中執行。你的檔案永遠不會離開你的裝置。",
+  "home.why.private.title": "100% 隱私保護",
+  "home.why.private.desc": "壓縮透過 WebAssembly 在瀏覽器中執行。你的檔案永遠不會離開裝置。",
   "home.why.instant.title": "無需註冊",
-  "home.why.instant.desc": "打開頁面即可開始使用。無需帳號、無浮水印、無時間限制。",
+  "home.why.instant.desc": "打開頁面即可開始。無需帳號、無浮水印、無時間限制。",
   "home.why.device.title": "適用於任何裝置",
-  "home.why.device.desc": "完整響應式設計。無需安裝 App。",
+  "home.why.device.desc": "完全響應式設計。無需安裝 App。",
   "home.faq.title": "常見問題",
   "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
   "home.faq.items": [
     {
       "q": "FileYuzu 上的所有工具都可以免費使用嗎？",
-      "a": "可以，FileYuzu 上的每個工具都完全免費，沒有隱藏費用、沒有訂閱，也沒有使用限制。你可以免費不限次數壓縮影片、壓縮 PDF，以及轉換影片格式。"
+      "a": "可以，FileYuzu 的每個工具都完全免費，沒有隱藏費用、沒有訂閱，也沒有使用限制。你可以免費壓縮影片、壓縮 PDF，以及不限次數轉換影片格式。"
     },
     {
-      "q": "我的檔案會上傳到伺服器嗎？",
-      "a": "不會。所有處理都使用 WebAssembly 技術直接在你的瀏覽器中完成。你的檔案永遠不會離開你的裝置，也不會傳送到任何伺服器，因此你的資料會保持完全私密。"
+      "q": "我的檔案會被上傳到伺服器嗎？",
+      "a": "不會。所有處理都會使用 WebAssembly 技術直接在你的瀏覽器中完成。你的檔案永遠不會離開裝置，也不會被傳送到任何伺服器，因此資料能保持完全私密。"
     },
     {
-      "q": "我需要建立帳號才能使用這些工具嗎？",
-      "a": "不需要帳號或註冊。只要打開你需要的工具即可立即開始使用 — 不用註冊、不用電子郵件、不用密碼。"
+      "q": "使用這些工具需要建立帳號嗎？",
+      "a": "不需要帳號或註冊。只要打開你需要的工具即可立即開始——無需註冊、無需電子郵件、無需密碼。"
     },
     {
       "q": "FileYuzu 提供哪些工具？",
-      "a": "FileYuzu 目前提供免費線上影片壓縮工具、PDF 壓縮工具，以及支援 MP4、WebM、MOV、MKV、MP3 等格式的影片轉換工具。更多工具正在持續新增中。"
+      "a": "FileYuzu 目前提供免費線上影片壓縮工具、PDF 壓縮工具，以及支援 MP4、WebM、MOV、MKV、MP3 等格式的影片轉換工具。更多工具會持續新增。"
     },
     {
       "q": "有檔案大小限制嗎？",
-      "a": "由於所有處理都在你的瀏覽器中進行，因此沒有硬性的伺服器端限制。實際上，大多數工具可處理最高 500 MB 的檔案。效能取決於你裝置的記憶體與處理能力。"
+      "a": "由於所有處理都在瀏覽器中完成，因此沒有固定的伺服器端限制。實際上，多數工具可處理最高 500 MB 的檔案。效能取決於你裝置的記憶體與處理能力。"
     },
     {
       "q": "我可以在手機或平板上使用 FileYuzu 嗎？",
-      "a": "可以！FileYuzu 採用完整響應式設計，可在智慧型手機、平板和桌上型電腦上使用。無需安裝 App — 只要在手機瀏覽器中開啟網站，就能使用任何工具。"
+      "a": "可以！FileYuzu 採用完全響應式設計，可在智慧型手機、平板與桌上型電腦上使用。無需安裝 App——只要在行動瀏覽器中開啟網站即可使用任何工具。"
     }
   ],
   "_comment_categories": "================ Tool Categories ================",
   "home.category.video": "影片",
   "home.category.pdf": "PDF",
   "compress_video.seo.title": "FileYuzu — 免費線上影片壓縮工具",
-  "compress_video.seo.description": "使用 FileYuzu 線上壓縮 MP4、MOV、AVI、MKV 和 WebM 影片。直接在瀏覽器中私密縮小影片檔案，無需上傳，也不需要註冊。",
+  "compress_video.seo.description": "使用 FileYuzu 線上壓縮 MP4、MOV、AVI、MKV 和 WebM 影片。直接在瀏覽器中私密縮小影片檔案大小，無需上傳，也無需註冊。",
   "compress_video.hero.title": "免費線上影片壓縮工具",
-  "compress_video.hero.description": "線上縮小影片檔案 — 無需上傳、無需註冊。全程在你的瀏覽器中執行。支援 MP4、MOV、AVI、MKV、WebM。",
+  "compress_video.hero.description": "線上縮小影片檔案大小——無需上傳、無需註冊。全程在瀏覽器中執行。支援 MP4、MOV、AVI、MKV、WebM。",
   "compress_video.upload.title": "將影片檔案拖放到這裡",
   "compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM · 最高 500 MB",
   "compress_video.upload.btn_select": "選擇檔案",
@@ -62,20 +62,20 @@
   "compress_video.how_to_use.title": "如何線上壓縮影片",
   "compress_video.how_to_use.steps": [
     "從你的裝置上傳影片檔案，或將檔案拖放到上傳區域。",
-    "選擇壓縮預設，或設定自訂目標檔案大小。你也可以使用 Gmail、Discord、Slack 等常見平台的快速選擇標籤。",
-    "點擊「壓縮」並稍候片刻。所有處理都在你的瀏覽器本機執行 — 你的檔案不會傳送到任何伺服器。完成後即可下載。"
+    "選擇壓縮預設，或設定自訂目標檔案大小。可使用 Gmail、Discord 或 Slack 等常見平台的快速選擇標籤。",
+    "點擊「壓縮」並稍候片刻。所有處理都會在你的瀏覽器本機執行——你的檔案絕不會被傳送到任何伺服器。完成後即可下載。"
   ],
   "compress_video.why_use.title": "為什麼選擇 FileYuzu",
   "compress_video.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% 私密",
-      "description": "壓縮透過 WebAssembly 在你的瀏覽器中執行。你的檔案永遠不會離開你的裝置。"
+      "title": "100% 隱私保護",
+      "description": "壓縮透過 WebAssembly 在瀏覽器中執行。你的檔案永遠不會離開裝置。"
     },
     {
       "icon": "bolt",
       "title": "無需註冊",
-      "description": "打開頁面即可開始使用。無需帳號、無浮水印、無時間限制。"
+      "description": "打開頁面即可開始。無需帳號、無浮水印、無時間限制。"
     },
     {
       "icon": "player-play",
@@ -84,19 +84,19 @@
     },
     {
       "icon": "adjustments",
-      "title": "彈性目標大小",
-      "description": "為任何平台設定精確大小 — Gmail、Discord、Slack、Line、WhatsApp。"
+      "title": "彈性的目標大小",
+      "description": "為任何平台設定精確大小——Gmail、Discord、Slack、Line、WhatsApp。"
     }
   ],
   "compress_video.faq.title": "影片壓縮工具常見問題",
   "compress_video.faq.items": [
     {
-      "q": "我的影片會上傳到伺服器嗎？",
-      "a": "不會。所有壓縮都使用 FFmpeg.wasm（WebAssembly）在本機完成。你的影片檔案永遠不會離開你的裝置。"
+      "q": "我的影片會被上傳到伺服器嗎？",
+      "a": "不會。所有壓縮都會使用 FFmpeg.wasm（WebAssembly）在本機完成。你的影片檔案永遠不會離開裝置。"
     },
     {
       "q": "支援哪些影片格式？",
-      "a": "我們支援 MP4、MOV、AVI、MKV、WebM 以及大多數其他常見格式。輸出一律為 MP4，以獲得最佳裝置相容性。"
+      "a": "我們支援 MP4、MOV、AVI、MKV、WebM 以及多數其他常見格式。輸出一律為 MP4，以獲得最佳裝置相容性。"
     },
     {
       "q": "最大檔案大小是多少？",
@@ -104,11 +104,11 @@
     },
     {
       "q": "Low、Balance 和 High 預設代表什麼？",
-      "a": "Balance 可在多數螢幕上保持良好畫質，同時將大小減少約 60–80%。Low 會產生最小檔案，但畫質損失較明顯。High 則保留接近原始的畫質，並提供中等程度的壓縮。"
+      "a": "Balance 可將大小降低約 60–80%，同時在多數螢幕上保持良好畫質。Low 會產生最小檔案，但畫質損失較明顯。High 則維持接近原始畫質，並提供中等程度的壓縮。"
     },
     {
       "q": "「停用音訊」有什麼作用？",
-      "a": "它會從壓縮後的影片中移除音軌。適用於靜音短片、螢幕錄影，或需要盡可能縮小檔案大小的情況。"
+      "a": "它會從壓縮後的影片中移除音軌。適合靜音短片、螢幕錄影，或需要盡可能縮小檔案時使用。"
     },
     {
       "q": "為什麼平台標籤會顯示特定的 MB 數值？",
@@ -116,14 +116,14 @@
     },
     {
       "q": "畫質會明顯下降嗎？",
-      "a": "這取決於預設與原始影片。對大多數影片來說，Balance 預設在手機和一般螢幕上的效果都不錯。如果不滿意，也可以嘗試其他預設。"
+      "a": "這取決於預設值和原始影片。對大多數影片而言，Balance 預設在手機與一般螢幕上的效果都相當不錯。如果不滿意，也可以嘗試其他預設。"
     }
   ],
   "_comment_pdf_compressor": "================ PDF Compressor ================",
   "pdf_compressor.seo.title": "FileYuzu — 免費線上 PDF 壓縮工具",
-  "pdf_compressor.seo.description": "使用 FileYuzu 線上壓縮 PDF 檔案。直接在瀏覽器中私密縮小 PDF 檔案，無需上傳，也不需要註冊。",
+  "pdf_compressor.seo.description": "使用 FileYuzu 線上壓縮 PDF 檔案。直接在瀏覽器中私密縮小 PDF 檔案大小，無需上傳，也無需註冊。",
   "pdf_compressor.hero.title": "免費線上 PDF 壓縮工具",
-  "pdf_compressor.hero.description": "線上縮小 PDF 檔案 — 無需上傳、無需註冊。全程在你的瀏覽器中執行。",
+  "pdf_compressor.hero.description": "線上縮小 PDF 檔案大小——無需上傳、無需註冊。全程在瀏覽器中執行。",
   "pdf_compressor.upload.title": "將 PDF 檔案拖放到這裡",
   "pdf_compressor.upload.subtitle": "PDF · 最高 100 MB",
   "pdf_compressor.upload.btn_select": "選擇檔案",
@@ -131,9 +131,9 @@
   "pdf_compressor.upload.hint": "選擇一個 PDF 檔案進行壓縮",
   "pdf_compressor.settings.quality_lbl": "畫質預設",
   "pdf_compressor.settings.quality_balanced": "平衡（電子書）",
-  "pdf_compressor.settings.quality_maximum": "最高（螢幕）",
+  "pdf_compressor.settings.quality_maximum": "最大壓縮（螢幕）",
   "pdf_compressor.settings.password_lbl": "解鎖密碼（選填）",
-  "pdf_compressor.settings.password_placeholder": "密碼（如果已加密）",
+  "pdf_compressor.settings.password_placeholder": "密碼（若已加密）",
   "pdf_compressor.btn.compress": "壓縮 PDF",
   "pdf_compressor.btn.download": "下載 PDF",
   "pdf_compressor.btn.compress_new": "壓縮新檔案",
@@ -141,20 +141,20 @@
   "pdf_compressor.how_to_use.title": "如何線上壓縮 PDF",
   "pdf_compressor.how_to_use.steps": [
     "從你的裝置上傳 PDF 檔案，或將檔案拖放到上傳區域。",
-    "選擇畫質預設（平衡或最高），如果 PDF 已加密，也可以選填密碼。",
-    "點擊「壓縮」並稍候片刻。所有處理都在你的瀏覽器本機執行。完成後即可下載。"
+    "選擇畫質預設（平衡或最大壓縮），若 PDF 已加密，也可以提供密碼。",
+    "點擊「壓縮」並稍候片刻。所有處理都會在你的瀏覽器本機執行。完成後即可下載。"
   ],
-  "pdf_compressor.why_use.title": "為什麼選擇 FileYuzu PDF 壓縮工具",
+  "pdf_compressor.why_use.title": "為什麼使用 FileYuzu PDF 壓縮工具",
   "pdf_compressor.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% 私密",
-      "description": "壓縮透過 WebAssembly 在你的瀏覽器中執行。你的檔案永遠不會離開你的裝置。"
+      "title": "100% 隱私保護",
+      "description": "壓縮透過 WebAssembly 在瀏覽器中執行。你的檔案永遠不會離開裝置。"
     },
     {
       "icon": "bolt",
       "title": "無需註冊",
-      "description": "打開頁面即可開始使用。無需帳號、無浮水印、無時間限制。"
+      "description": "打開頁面即可開始。無需帳號、無浮水印、無時間限制。"
     },
     {
       "icon": "player-play",
@@ -164,14 +164,14 @@
     {
       "icon": "adjustments",
       "title": "可調整畫質",
-      "description": "可選擇平衡壓縮以縮小檔案，或選擇最高品質以取得最佳視覺效果。"
+      "description": "可在較小檔案大小的平衡壓縮，與最佳視覺品質的最大品質之間選擇。"
     }
   ],
   "pdf_compressor.faq.title": "PDF 壓縮工具常見問題",
   "pdf_compressor.faq.items": [
     {
-      "q": "我的 PDF 會上傳到伺服器嗎？",
-      "a": "不會。所有壓縮都使用 Ghostscript（WebAssembly）在本機完成。你的 PDF 檔案永遠不會離開你的裝置。"
+      "q": "我的 PDF 會被上傳到伺服器嗎？",
+      "a": "不會。所有壓縮都會使用 Ghostscript（WebAssembly）在本機完成。你的 PDF 檔案永遠不會離開裝置。"
     },
     {
       "q": "最大檔案大小是多少？",
@@ -180,32 +180,48 @@
   ],
   "related_tools.title": "相關工具",
   "common.tools": "工具",
+  "common.blog": "部落格",
   "common.language": "語言",
   "common.footer.copyright": "© 2025 FileYuzu",
   "common.footer.privacy": "隱私權",
   "common.footer.terms": "條款",
   "common.footer.contact": "聯絡我們",
   "tool.compress_video.title": "影片壓縮工具",
-  "tool.compress_video.description": "縮小影片檔案大小",
+  "tool.compress_video.description": "在瀏覽器中免費壓縮影片。你的檔案會保持私密，絕不會上傳到我們的伺服器。",
+  "tool.compress_video.short_description": "在瀏覽器中私密壓縮影片。",
   "tool.pdf_compressor.title": "PDF 壓縮工具",
-  "tool.pdf_compressor.description": "最佳化 PDF 檔案",
+  "tool.pdf_compressor.description": "直接在瀏覽器中免費縮小 PDF 檔案大小。無需上傳，因此你的文件能保持私密。",
+  "tool.pdf_compressor.short_description": "無需上傳檔案即可縮小 PDF 大小。",
   "tool.video_converter.title": "影片轉換工具",
-  "tool.video_converter.description": "轉換影片格式",
-  "tool.video_trimmer.title": "影片剪輯工具",
-  "tool.video_trimmer.description": "在瀏覽器中剪輯片段",
-  "tool.gif_maker.title": "GIF 製作工具",
-  "tool.gif_maker.description": "影片轉動畫 GIF",
-  "tool.remove_audio.title": "移除音訊",
-  "tool.remove_audio.description": "將影片音軌靜音",
-  "tool.image_compressor.title": "圖片壓縮工具",
-  "tool.image_compressor.description": "JPG、PNG、WebP",
-  "tool.video_rotator.title": "影片旋轉工具",
-  "tool.video_rotator.description": "旋轉 90° / 180°",
-  "tool.video_cropper.title": "影片裁切工具",
-  "tool.video_cropper.description": "裁切長寬比",
+  "tool.video_converter.description": "免費將影片檔案轉換為不同格式。所有流程都在瀏覽器中執行，無需將檔案上傳到伺服器。",
+  "tool.video_converter.short_description": "直接在瀏覽器中轉換影片。",
+  "tool.mov_to_mp4.title": "MOV 轉 MP4",
+  "tool.mov_to_mp4.description": "在瀏覽器中免費將 MOV 影片轉換為 MP4。快速、私密，且無需上傳到伺服器。",
+  "tool.mov_to_mp4.short_description": "私密地將 MOV 影片轉換為 MP4。",
+  "tool.avi_to_mp4.title": "AVI 轉 MP4",
+  "tool.avi_to_mp4.description": "直接在你的裝置上免費將 AVI 檔案轉換為 MP4。你的影片不會上傳到我們的伺服器。",
+  "tool.avi_to_mp4.short_description": "在你的裝置上將 AVI 檔案轉換為 MP4。",
+  "tool.mkv_to_mp4.title": "MKV 轉 MP4",
+  "tool.mkv_to_mp4.description": "在瀏覽器中免費將 MKV 影片轉換為 MP4。私密處理，無需上傳檔案。",
+  "tool.mkv_to_mp4.short_description": "私密地將 MKV 影片轉換為 MP4。",
+  "tool.webm_to_mp4.title": "WebM 轉 MP4",
+  "tool.webm_to_mp4.description": "直接在瀏覽器中免費將 WebM 影片轉換為 MP4。你的檔案會留在裝置上。",
+  "tool.webm_to_mp4.short_description": "在瀏覽器中將 WebM 影片轉換為 MP4。",
+  "tool.video_to_mp3.title": "影片轉 MP3",
+  "tool.video_to_mp3.description": "免費從影片中擷取 MP3 音訊。以瀏覽器為基礎的私密轉換，無需上傳到伺服器。",
+  "tool.video_to_mp3.short_description": "私密地從影片中擷取 MP3 音訊。",
+  "tool.mp4_converter.title": "MP4 轉換工具",
+  "tool.mp4_converter.description": "在瀏覽器中免費將影片轉換為 MP4。安全、私密，且不會上傳任何檔案。",
+  "tool.mp4_converter.short_description": "安全地將影片轉換為 MP4。",
+  "tool.compress_mp4.title": "壓縮 MP4",
+  "tool.compress_mp4.description": "直接在瀏覽器中免費縮小 MP4 檔案大小。你的影片會私密地留在裝置上。",
+  "tool.compress_mp4.short_description": "在你的裝置上壓縮 MP4 檔案。",
+  "tool.reduce_video_size.title": "縮小影片大小",
+  "tool.reduce_video_size.description": "無需上傳即可免費縮小影片檔案。壓縮會在你的瀏覽器中私密執行。",
+  "tool.reduce_video_size.short_description": "私密地縮小影片檔案。",
   "_comment_video_converter": "================ Video Converter ================",
   "video_converter.seo.title": "FileYuzu — 免費線上影片轉換工具",
-  "video_converter.seo.description": "使用 FileYuzu 線上在 MP4、WebM、MOV、MKV 和 MP3 格式之間轉換影片檔案。直接在瀏覽器中快速且私密地轉換。",
+  "video_converter.seo.description": "使用 FileYuzu 線上在 MP4、WebM、MOV、MKV 和 MP3 格式之間轉換影片檔案。快速且私密地在瀏覽器中完成轉換。",
   "video_converter.hero.title": "免費線上影片轉換工具",
   "video_converter.hero.description": "在瀏覽器中輕鬆且安全地轉換影片檔案。支援 MP4、WebM、MOV、MKV 和 MP3。",
   "video_converter.upload.title": "將影片檔案拖放到這裡",
@@ -222,24 +238,24 @@
   "video_converter.how_to_use.steps": [
     "從你的裝置上傳影片檔案，或將檔案拖放到上傳區域。",
     "從目標格式選項中選擇想要的輸出格式（例如 MP4、WebM、MP3）。",
-    "點擊「轉換」並等待。此過程會在你的裝置本機執行，確保完整隱私。完成後即可下載。"
+    "點擊「轉換」並等待。整個流程會在你的裝置本機執行，以確保完整隱私。完成後即可下載。"
   ],
-  "video_converter.why_use.title": "為什麼選擇 FileYuzu 轉換工具",
+  "video_converter.why_use.title": "為什麼使用 FileYuzu 轉換工具",
   "video_converter.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% 私密",
-      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開你的裝置。"
+      "title": "100% 隱私保護",
+      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開裝置。"
     },
     {
       "icon": "bolt",
       "title": "無需註冊",
-      "description": "無需建立帳號，也不用處理限制，即可立即開始轉換。"
+      "description": "無需建立帳號，也不用受限，即可立即開始轉換。"
     },
     {
       "icon": "player-play",
       "title": "多種格式",
-      "description": "可轉換為 MP4、WebM、MOV 等熱門格式，或將音訊擷取為 MP3。"
+      "description": "可轉換為 MP4、WebM、MOV 等熱門格式，或擷取音訊為 MP3。"
     },
     {
       "icon": "rocket",
@@ -250,8 +266,8 @@
   "video_converter.faq.title": "影片轉換工具常見問題",
   "video_converter.faq.items": [
     {
-      "q": "我的檔案會上傳到伺服器嗎？",
-      "a": "不會，所有轉換都使用 WebAssembly 在你的裝置本機完成。我們不會在伺服器上儲存或處理你的檔案。"
+      "q": "我的檔案會被上傳到伺服器嗎？",
+      "a": "不會，所有轉換都會使用 WebAssembly 在你的裝置本機完成。我們不會在伺服器上儲存或處理你的檔案。"
     },
     {
       "q": "我可以將影片轉成音訊嗎？",
@@ -259,18 +275,14 @@
     },
     {
       "q": "支援哪些格式？",
-      "a": "我們支援大多數常見影片格式的輸入，並可轉換為 MP4、WebM、MOV、MKV 或 MP3。"
+      "a": "我們支援多數常見影片格式的輸入，並可將其轉換為 MP4、WebM、MOV、MKV 或 MP3。"
     }
   ],
-  "tool.compress_mp4.title": "壓縮 MP4",
-  "tool.compress_mp4.description": "縮小 MP4 檔案大小",
-  "tool.reduce_video_size.title": "縮小影片大小",
-  "tool.reduce_video_size.description": "壓縮影片檔案",
   "_comment_compress_mp4": "================ Compress MP4 ================",
   "compress_mp4.seo.title": "FileYuzu — 免費線上 MP4 壓縮工具",
-  "compress_mp4.seo.description": "使用 FileYuzu 線上壓縮 MP4 影片。直接在瀏覽器中私密縮小 MP4 檔案，無需上傳，也不需要註冊。",
+  "compress_mp4.seo.description": "使用 FileYuzu 線上壓縮 MP4 影片。直接在瀏覽器中私密縮小 MP4 檔案大小，無需上傳，也無需註冊。",
   "compress_mp4.hero.title": "免費線上 MP4 壓縮工具",
-  "compress_mp4.hero.description": "線上縮小 MP4 檔案 — 無需上傳、無需註冊。全程在你的瀏覽器中執行。",
+  "compress_mp4.hero.description": "線上縮小 MP4 檔案大小——無需上傳、無需註冊。全程在瀏覽器中執行。",
   "compress_mp4.upload.title": "將 MP4 檔案拖放到這裡",
   "compress_mp4.upload.subtitle": "MP4 · 最高 500 MB",
   "compress_mp4.upload.btn_select": "選擇檔案",
@@ -286,19 +298,19 @@
   "compress_mp4.how_to_use.steps": [
     "從你的裝置上傳 MP4 檔案，或將檔案拖放到上傳區域。",
     "選擇壓縮預設，或設定自訂目標檔案大小。",
-    "點擊「壓縮」並稍候片刻。所有處理都在你的瀏覽器本機執行。完成後即可下載。"
+    "點擊「壓縮」並稍候片刻。所有處理都會在你的瀏覽器本機執行。完成後即可下載。"
   ],
-  "compress_mp4.why_use.title": "為什麼選擇 FileYuzu MP4 壓縮工具",
+  "compress_mp4.why_use.title": "為什麼使用 FileYuzu MP4 壓縮工具",
   "compress_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% 私密",
-      "description": "壓縮透過 WebAssembly 在你的瀏覽器中執行。你的檔案永遠不會離開你的裝置。"
+      "title": "100% 隱私保護",
+      "description": "壓縮透過 WebAssembly 在瀏覽器中執行。你的檔案永遠不會離開裝置。"
     },
     {
       "icon": "bolt",
       "title": "無需註冊",
-      "description": "打開頁面即可開始使用。無需帳號、無浮水印、無時間限制。"
+      "description": "打開頁面即可開始。無需帳號、無浮水印、無時間限制。"
     },
     {
       "icon": "player-play",
@@ -307,15 +319,15 @@
     },
     {
       "icon": "adjustments",
-      "title": "彈性目標大小",
+      "title": "彈性的目標大小",
       "description": "為任何平台設定精確大小。"
     }
   ],
   "compress_mp4.faq.title": "MP4 壓縮工具常見問題",
   "compress_mp4.faq.items": [
     {
-      "q": "我的影片會上傳到伺服器嗎？",
-      "a": "不會。所有壓縮都使用 FFmpeg.wasm（WebAssembly）在本機完成。你的影片檔案永遠不會離開你的裝置。"
+      "q": "我的影片會被上傳到伺服器嗎？",
+      "a": "不會。所有壓縮都會使用 FFmpeg.wasm（WebAssembly）在本機完成。你的影片檔案永遠不會離開裝置。"
     },
     {
       "q": "最大檔案大小是多少？",
@@ -324,9 +336,9 @@
   ],
   "_comment_reduce_video_size": "================ Reduce Video Size ================",
   "reduce_video_size.seo.title": "FileYuzu — 免費線上縮小影片大小",
-  "reduce_video_size.seo.description": "使用 FileYuzu 線上壓縮並縮小影片檔案大小。直接在瀏覽器本機處理，無需上傳。",
+  "reduce_video_size.seo.description": "使用 FileYuzu 線上縮小影片檔案大小。無需上傳，直接在瀏覽器中本機處理。",
   "reduce_video_size.hero.title": "縮小影片檔案大小",
-  "reduce_video_size.hero.description": "在瀏覽器中快速且安全地縮小影片。",
+  "reduce_video_size.hero.description": "在瀏覽器中快速且安全地縮小你的影片。",
   "reduce_video_size.upload.title": "將影片檔案拖放到這裡",
   "reduce_video_size.upload.subtitle": "MP4、MOV、AVI、MKV、WebM · 最高 500 MB",
   "reduce_video_size.upload.btn_select": "選擇檔案",
@@ -342,14 +354,14 @@
   "reduce_video_size.how_to_use.steps": [
     "從你的裝置上傳影片檔案。",
     "選擇你的目標檔案大小或壓縮等級。",
-    "點擊「縮小大小」，並等待處理在你的瀏覽器本機完成。"
+    "點擊「縮小大小」，並等待流程在你的瀏覽器本機完成。"
   ],
   "reduce_video_size.why_use.title": "為什麼使用 FileYuzu 縮小大小",
   "reduce_video_size.why_use.benefits": [
     {
       "icon": "shield-lock",
       "title": "安全且私密",
-      "description": "所有檔案都在你的裝置本機處理。無需上傳。"
+      "description": "所有檔案都會在你的裝置本機處理。無需上傳。"
     },
     {
       "icon": "bolt",
@@ -359,184 +371,220 @@
     {
       "icon": "player-play",
       "title": "簡單易用",
-      "description": "為快速縮小影片而設計的簡潔介面。"
+      "description": "簡潔介面，專為快速縮小影片而設計。"
     },
     {
       "icon": "adjustments",
       "title": "自訂目標",
-      "description": "輕鬆讓你的影片符合電子郵件或聊天工具的大小限制。"
+      "description": "輕鬆讓影片符合電子郵件或聊天平台的大小限制。"
     }
   ],
   "reduce_video_size.faq.title": "縮小影片大小常見問題",
   "reduce_video_size.faq.items": [
     {
       "q": "縮小大小會降低畫質嗎？",
-      "a": "會，縮小檔案大小不可避免會造成一些畫質損失，但我們的最佳化預設能在大小與清晰度之間取得良好平衡。"
+      "a": "會，縮小檔案大小不可避免會造成一些畫質損失，但我們最佳化的預設能很好地平衡大小與清晰度。"
     },
     {
       "q": "這個工具可以免費使用嗎？",
-      "a": "可以，它完全免費，而且沒有浮水印。"
+      "a": "可以，完全免費且沒有浮水印。"
     }
   ],
   "pdf_compressor.pages": "頁",
-  "tool.mov_to_mp4.title": "MOV 轉 MP4",
-  "tool.mov_to_mp4.description": "將 MOV 轉換為 MP4",
-  "tool.avi_to_mp4.title": "AVI 轉 MP4",
-  "tool.avi_to_mp4.description": "將 AVI 轉換為 MP4",
-  "tool.mkv_to_mp4.title": "MKV 轉 MP4",
-  "tool.mkv_to_mp4.description": "將 MKV 轉換為 MP4",
-  "tool.webm_to_mp4.title": "WebM 轉 MP4",
-  "tool.webm_to_mp4.description": "將 WebM 轉換為 MP4",
-  "tool.video_to_mp3.title": "影片轉 MP3",
-  "tool.video_to_mp3.description": "將影片轉換為 MP3",
   "_comment_mov_to_mp4": "================ MOV to MP4 ================",
   "mov_to_mp4.seo.title": "FileYuzu — 免費線上將 MOV 轉換為 MP4",
-  "mov_to_mp4.seo.description": "使用 FileYuzu 線上將 MOV 影片檔案轉換為 MP4。直接在瀏覽器中快速且私密地轉換。",
+  "mov_to_mp4.seo.description": "使用 FileYuzu 線上將 MOV 影片檔案轉換為 MP4。快速且私密地在瀏覽器中完成轉換。",
   "mov_to_mp4.hero.title": "將 MOV 轉換為 MP4",
-  "mov_to_mp4.hero.description": "在瀏覽器中輕鬆且安全地將你的 MOV 影片轉換為 MP4 格式。",
+  "mov_to_mp4.hero.description": "在瀏覽器中輕鬆且安全地將 MOV 影片轉換為 MP4 格式。",
   "mov_to_mp4.how_to_use.title": "如何線上將 MOV 轉換為 MP4",
   "mov_to_mp4.how_to_use.steps": [
     "從你的裝置上傳 MOV 檔案。",
-    "點擊「轉換」並等待。此過程會在你的裝置本機執行，確保完整隱私。完成後即可下載你的 MP4 檔案。"
+    "點擊「轉換」並等待。流程會在你的裝置本機執行，以確保完整隱私。完成後即可下載 MP4 檔案。"
   ],
-  "mov_to_mp4.why_use.title": "為什麼選擇 FileYuzu 轉換工具",
+  "mov_to_mp4.why_use.title": "為什麼使用 FileYuzu 轉換工具",
   "mov_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% 私密",
-      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開你的裝置。"
+      "title": "100% 隱私保護",
+      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開裝置。"
     },
     {
       "icon": "bolt",
       "title": "無需註冊",
-      "description": "無需建立帳號，也不用處理限制，即可立即開始轉換。"
+      "description": "無需建立帳號，也不用受限，即可立即開始轉換。"
     }
   ],
   "mov_to_mp4.faq.title": "MOV 轉 MP4 常見問題",
   "mov_to_mp4.faq.items": [
     {
-      "q": "我的檔案會上傳到伺服器嗎？",
-      "a": "不會，所有轉換都在你的裝置本機完成。我們不會在伺服器上儲存或處理你的檔案。"
+      "q": "我的檔案會被上傳到伺服器嗎？",
+      "a": "不會，所有轉換都會在你的裝置本機完成。我們不會在伺服器上儲存或處理你的檔案。"
     }
   ],
   "_comment_avi_to_mp4": "================ AVI to MP4 ================",
   "avi_to_mp4.seo.title": "FileYuzu — 免費線上將 AVI 轉換為 MP4",
-  "avi_to_mp4.seo.description": "使用 FileYuzu 線上將 AVI 影片檔案轉換為 MP4。直接在瀏覽器中快速且私密地轉換。",
+  "avi_to_mp4.seo.description": "使用 FileYuzu 線上將 AVI 影片檔案轉換為 MP4。快速且私密地在瀏覽器中完成轉換。",
   "avi_to_mp4.hero.title": "將 AVI 轉換為 MP4",
-  "avi_to_mp4.hero.description": "在瀏覽器中輕鬆且安全地將你的 AVI 影片轉換為 MP4 格式。",
+  "avi_to_mp4.hero.description": "在瀏覽器中輕鬆且安全地將 AVI 影片轉換為 MP4 格式。",
   "avi_to_mp4.how_to_use.title": "如何線上將 AVI 轉換為 MP4",
   "avi_to_mp4.how_to_use.steps": [
     "從你的裝置上傳 AVI 檔案。",
-    "點擊「轉換」並等待。此過程會在你的裝置本機執行，確保完整隱私。完成後即可下載你的 MP4 檔案。"
+    "點擊「轉換」並等待。流程會在你的裝置本機執行，以確保完整隱私。完成後即可下載 MP4 檔案。"
   ],
-  "avi_to_mp4.why_use.title": "為什麼選擇 FileYuzu 轉換工具",
+  "avi_to_mp4.why_use.title": "為什麼使用 FileYuzu 轉換工具",
   "avi_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% 私密",
-      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開你的裝置。"
+      "title": "100% 隱私保護",
+      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開裝置。"
     },
     {
       "icon": "bolt",
       "title": "無需註冊",
-      "description": "無需建立帳號，即可立即開始轉換。"
+      "description": "無需建立帳號即可立即開始轉換。"
     }
   ],
   "avi_to_mp4.faq.title": "AVI 轉 MP4 常見問題",
   "avi_to_mp4.faq.items": [
     {
-      "q": "我的檔案會上傳到伺服器嗎？",
-      "a": "不會，所有轉換都在你的裝置本機完成。"
+      "q": "我的檔案會被上傳到伺服器嗎？",
+      "a": "不會，所有轉換都會在你的裝置本機完成。"
     }
   ],
   "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
   "mkv_to_mp4.seo.title": "FileYuzu — 免費線上將 MKV 轉換為 MP4",
-  "mkv_to_mp4.seo.description": "使用 FileYuzu 線上將 MKV 影片檔案轉換為 MP4。直接在瀏覽器中快速且私密地轉換。",
+  "mkv_to_mp4.seo.description": "使用 FileYuzu 線上將 MKV 影片檔案轉換為 MP4。快速且私密地在瀏覽器中完成轉換。",
   "mkv_to_mp4.hero.title": "將 MKV 轉換為 MP4",
-  "mkv_to_mp4.hero.description": "在瀏覽器中輕鬆且安全地將你的 MKV 影片轉換為 MP4 格式。",
+  "mkv_to_mp4.hero.description": "在瀏覽器中輕鬆且安全地將 MKV 影片轉換為 MP4 格式。",
   "mkv_to_mp4.how_to_use.title": "如何線上將 MKV 轉換為 MP4",
   "mkv_to_mp4.how_to_use.steps": [
     "從你的裝置上傳 MKV 檔案。",
-    "點擊「轉換」並等待。此過程會在你的裝置本機執行，確保完整隱私。完成後即可下載你的 MP4 檔案。"
+    "點擊「轉換」並等待。流程會在你的裝置本機執行，以確保完整隱私。完成後即可下載 MP4 檔案。"
   ],
-  "mkv_to_mp4.why_use.title": "為什麼選擇 FileYuzu 轉換工具",
+  "mkv_to_mp4.why_use.title": "為什麼使用 FileYuzu 轉換工具",
   "mkv_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% 私密",
-      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開你的裝置。"
+      "title": "100% 隱私保護",
+      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開裝置。"
     },
     {
       "icon": "bolt",
       "title": "無需註冊",
-      "description": "無需建立帳號，即可立即開始轉換。"
+      "description": "無需建立帳號即可立即開始轉換。"
     }
   ],
   "mkv_to_mp4.faq.title": "MKV 轉 MP4 常見問題",
   "mkv_to_mp4.faq.items": [
     {
-      "q": "我的檔案會上傳到伺服器嗎？",
-      "a": "不會，所有轉換都在你的裝置本機完成。"
+      "q": "我的檔案會被上傳到伺服器嗎？",
+      "a": "不會，所有轉換都會在你的裝置本機完成。"
     }
   ],
   "_comment_webm_to_mp4": "================ WebM to MP4 ================",
   "webm_to_mp4.seo.title": "FileYuzu — 免費線上將 WebM 轉換為 MP4",
-  "webm_to_mp4.seo.description": "使用 FileYuzu 線上將 WebM 影片檔案轉換為 MP4。直接在瀏覽器中快速且私密地轉換。",
+  "webm_to_mp4.seo.description": "使用 FileYuzu 線上將 WebM 影片檔案轉換為 MP4。快速且私密地在瀏覽器中完成轉換。",
   "webm_to_mp4.hero.title": "將 WebM 轉換為 MP4",
-  "webm_to_mp4.hero.description": "在瀏覽器中輕鬆且安全地將你的 WebM 影片轉換為 MP4 格式。",
+  "webm_to_mp4.hero.description": "在瀏覽器中輕鬆且安全地將 WebM 影片轉換為 MP4 格式。",
   "webm_to_mp4.how_to_use.title": "如何線上將 WebM 轉換為 MP4",
   "webm_to_mp4.how_to_use.steps": [
     "從你的裝置上傳 WebM 檔案。",
-    "點擊「轉換」並等待。此過程會在你的裝置本機執行，確保完整隱私。完成後即可下載你的 MP4 檔案。"
+    "點擊「轉換」並等待。流程會在你的裝置本機執行，以確保完整隱私。完成後即可下載 MP4 檔案。"
   ],
-  "webm_to_mp4.why_use.title": "為什麼選擇 FileYuzu 轉換工具",
+  "webm_to_mp4.why_use.title": "為什麼使用 FileYuzu 轉換工具",
   "webm_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% 私密",
-      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開你的裝置。"
+      "title": "100% 隱私保護",
+      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開裝置。"
     },
     {
       "icon": "bolt",
       "title": "無需註冊",
-      "description": "無需建立帳號，即可立即開始轉換。"
+      "description": "無需建立帳號即可立即開始轉換。"
     }
   ],
   "webm_to_mp4.faq.title": "WebM 轉 MP4 常見問題",
   "webm_to_mp4.faq.items": [
     {
-      "q": "我的檔案會上傳到伺服器嗎？",
-      "a": "不會，所有轉換都在你的裝置本機完成。"
+      "q": "我的檔案會被上傳到伺服器嗎？",
+      "a": "不會，所有轉換都會在你的裝置本機完成。"
     }
   ],
   "_comment_video_to_mp3": "================ Video to MP3 ================",
   "video_to_mp3.seo.title": "FileYuzu — 免費線上從影片擷取音訊（影片轉 MP3）",
   "video_to_mp3.seo.description": "使用 FileYuzu 線上將影片轉換為 MP3。直接在瀏覽器中輕鬆從影片檔案擷取音訊。",
   "video_to_mp3.hero.title": "將影片轉換為 MP3",
-  "video_to_mp3.hero.description": "直接在瀏覽器中從你的影片擷取音軌，並儲存為 MP3 檔案。",
+  "video_to_mp3.hero.description": "直接在瀏覽器中從影片擷取音軌，並儲存為 MP3 檔案。",
   "video_to_mp3.how_to_use.title": "如何線上將影片轉換為 MP3",
   "video_to_mp3.how_to_use.steps": [
     "從你的裝置上傳影片檔案。",
-    "點擊「轉換」並等待。此過程會在你的裝置本機執行。完成後即可下載你的 MP3 檔案。"
+    "點擊「轉換」並等待。流程會在你的裝置本機執行。完成後即可下載 MP3 檔案。"
   ],
-  "video_to_mp3.why_use.title": "為什麼選擇 FileYuzu 音訊擷取工具",
+  "video_to_mp3.why_use.title": "為什麼使用 FileYuzu 音訊擷取工具",
   "video_to_mp3.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% 私密",
-      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開你的裝置。"
+      "title": "100% 隱私保護",
+      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開裝置。"
     },
     {
       "icon": "bolt",
       "title": "無需註冊",
-      "description": "無需建立帳號，即可立即開始轉換。"
+      "description": "無需建立帳號即可立即開始轉換。"
     }
   ],
   "video_to_mp3.faq.title": "影片轉 MP3 常見問題",
   "video_to_mp3.faq.items": [
     {
-      "q": "我的檔案會上傳到伺服器嗎？",
-      "a": "不會，所有轉換都在你的裝置本機完成。"
+      "q": "我的檔案會被上傳到伺服器嗎？",
+      "a": "不會，所有轉換都會在你的裝置本機完成。"
+    }
+  ],
+  "_comment_mp4_converter": "================ MP4 Converter ================",
+  "mp4_converter.seo.title": "FileYuzu — 免費線上 MP4 轉換工具",
+  "mp4_converter.seo.description": "使用 FileYuzu 免費線上將任何影片轉換為 MP4 格式。快速、安全且易於使用。",
+  "mp4_converter.hero.title": "MP4 轉換工具",
+  "mp4_converter.hero.description": "在瀏覽器中輕鬆且安全地將影片檔案轉換為 MP4 格式。",
+  "mp4_converter.how_to_use.title": "如何線上將影片轉換為 MP4",
+  "mp4_converter.how_to_use.steps": [
+    "上傳你的影片檔案（MOV、AVI、WebM 等）。",
+    "選擇 MP4 作為目標格式。",
+    "點擊「轉換」開始處理。",
+    "下載轉換後的 MP4 檔案。"
+  ],
+  "mp4_converter.why_use.title": "為什麼使用 FileYuzu MP4 轉換工具",
+  "mp4_converter.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% 隱私保護",
+      "description": "轉換會在你的瀏覽器本機執行。你的檔案永遠不會離開裝置。"
+    },
+    {
+      "icon": "bolt",
+      "title": "無需註冊",
+      "description": "無需建立帳號，也不用受限，即可立即開始轉換。"
+    },
+    {
+      "icon": "player-play",
+      "title": "支援多種格式",
+      "description": "上傳幾乎任何影片格式，並取得標準 MP4 檔案。"
+    },
+    {
+      "icon": "rocket",
+      "title": "快速處理",
+      "description": "針對速度最佳化。無需排隊等待，即可快速取得轉換後的檔案。"
+    }
+  ],
+  "mp4_converter.faq.title": "MP4 轉換工具常見問題",
+  "mp4_converter.faq.items": [
+    {
+      "q": "可以免費使用嗎？",
+      "a": "可以，FileYuzu 的 MP4 轉換工具完全免費，沒有使用限制。"
+    },
+    {
+      "q": "我的檔案安全嗎？",
+      "a": "絕對安全。所有轉換都會在你的瀏覽器本機執行，因此你的檔案永遠不會上傳到我們的伺服器。"
     }
   ]
 }

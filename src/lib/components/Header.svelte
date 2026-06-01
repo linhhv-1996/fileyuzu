@@ -42,7 +42,7 @@
                     <i class="ti ti-chevron-down chev" aria-hidden="true"></i>
                 </button>
                 <div class="dd-menu" role="menu">
-                    <a href={langUrl(lang, '/')} class="dd-item" role="menuitem">
+                    <a href={langUrl(lang, '/compress-video')} class="dd-item" role="menuitem">
                         <i class="ti ti-movie" aria-hidden="true"></i>
                         <span><span class="dd-title">{t('tool.compress_video.title', dict)}</span><span class="dd-sub">{t('tool.compress_video.description', dict)}</span></span>
                     </a>
@@ -56,6 +56,11 @@
                     </a>
                 </div>
             </div>
+            
+            <a href={langUrl(lang, '/blog')} class="nav-trigger" style="text-decoration: none;">
+                <i class="ti ti-article" aria-hidden="true"></i>
+                {t('common.blog', dict) || 'Blog'}
+            </a>
         </nav>
 
         <div class="hdr-r">
@@ -67,7 +72,8 @@
                 </button>
                 <div class="dd-menu" role="listbox" aria-label={t('common.language', dict)}>
                     {#each SUPPORTED_LANGUAGES as l}
-                        <a href={langUrl(l.code, $page.url.pathname.replace(`/${lang}`, '').replace(/^\/$/, '') || '/')} class="dd-item lang-option" data-sveltekit-reload role="option" aria-selected={l.code === lang}>
+                        {@const targetPath = $page.url.pathname.includes('/blog') ? '/' : ($page.url.pathname.replace(`/${lang}`, '').replace(/^\/$/, '') || '/')}
+                        <a href={langUrl(l.code, targetPath)} class="dd-item lang-option" data-sveltekit-reload role="option" aria-selected={l.code === lang}>
                             <span class="lang-flag">{l.flag}</span><span>{l.name}</span>
                         </a>
                     {/each}
