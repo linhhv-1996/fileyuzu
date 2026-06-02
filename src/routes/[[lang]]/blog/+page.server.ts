@@ -1,7 +1,11 @@
+import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import matter from 'gray-matter';
 
-export const load: PageServerLoad = async ({ params }) => {
+export const load: PageServerLoad = async ({ params, setHeaders }) => {
+    setHeaders({
+        'X-Robots-Tag': 'noindex, nofollow'
+    });
     const lang = params.lang || 'en';
     
     // We must use import.meta.glob statically without dynamic variables inside the glob string.
@@ -21,8 +25,6 @@ export const load: PageServerLoad = async ({ params }) => {
             
             posts.push({
                 slug,
-                title: parsed.data.title || 'Untitled',
-                description: parsed.data.description || '',
                 date: parsed.data.date || ''
             });
         }
@@ -31,7 +33,11 @@ export const load: PageServerLoad = async ({ params }) => {
     // Sort by date descending
     posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     
-    return {
-        posts
-    };
+    if (posts.length > 0) {
+        const latestSlug = posts[0].slug;
+        const redirectUrl = lang === 'en' ? `/blog/${latestSlug}` : `/${lang}/blog/${latestSlug}`;
+        throw redirect(302, redirectUrl);
+    }
+    
+    throw redirect(302, lang === 'en' ? '/' : `/${lang}`);
 };

@@ -1,7 +1,8 @@
 ---
 title: "The Ultimate Guide to PDF Optimization"
-date: "2026-05-15"
-description: "Learn how to optimize and compress your PDF documents for faster sharing, smaller email attachments, and better web performance."
+date: "2026-06-01"
+description: "A comprehensive guide on PDF compression techniques, formats, and tools to reduce file size while maintaining excellent visual quality."
+ctaTool: "compress-pdf"
 ---
 
 Portable Document Format (PDF) is the gold standard for sharing documents. It ensures that your files look exactly the same regardless of the device or software used to open them. However, PDFs, especially those packed with high-resolution images or complex graphics, can quickly become bloated.

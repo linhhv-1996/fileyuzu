@@ -122,7 +122,7 @@
     }
 
     .hero h1 {
-        font-size: clamp(24px, 4vw, 36px);
+        font-size: clamp(28px, 5vw, 42px);
         font-weight: 700;
         color: var(--tx);
         margin-bottom: 12px;
@@ -131,7 +131,7 @@
     }
 
     .hero p {
-        font-size: 15.5px;
+        font-size: 16.5px;
         color: var(--tx-sub);
         max-width: 520px;
         margin: 0 0 24px;
@@ -149,7 +149,7 @@
         display: inline-flex;
         align-items: center;
         gap: 5px;
-        font-size: 12.5px;
+        font-size: 13.5px;
         color: var(--tx-sub);
         background: var(--bg-sub);
         border: 1px solid var(--bd-lt);
@@ -183,7 +183,7 @@
     /* Category box */
     .cat-box {
         border: 1px solid var(--bd);
-        border-radius: 10px;
+        border-radius: var(--r);
         overflow: hidden;
         background: var(--bg);
     }
@@ -198,14 +198,14 @@
     }
 
     .cat-name {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 700;
         color: var(--tx-sub);
         letter-spacing: 0.06em;
     }
 
     .cat-count {
-        font-size: 12px;
+        font-size: 13px;
         color: var(--tx-mt);
         background: var(--bg);
         border: 1px solid var(--bd-lt);
@@ -250,16 +250,17 @@
     }
 
     .tool-row-title {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 650;
         color: var(--tx);
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        transition: color 0.15s ease;
     }
 
     .tool-row-desc {
-        font-size: 12.5px;
+        font-size: 13.5px;
         color: var(--tx-sub);
         white-space: nowrap;
         overflow: hidden;
@@ -276,7 +277,7 @@
     }
 
     .fmt-tag {
-        font-size: 11px;
+        font-size: 12px;
         font-weight: 500;
         color: var(--tx-mt);
         border: 1px solid var(--bd-lt);
@@ -310,7 +311,7 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 0;
         border: 1px solid var(--bd);
-        border-radius: 10px;
+        border-radius: var(--r);
         overflow: hidden;
     }
 
@@ -351,14 +352,14 @@
 
     .why-card strong {
         display: block;
-        font-size: 13.5px;
+        font-size: 15px;
         font-weight: 650;
         color: var(--tx);
     }
 
     .why-card p {
         margin: 0;
-        font-size: 13px;
+        font-size: 14px;
         color: var(--tx-sub);
         line-height: 1.55;
     }
@@ -370,7 +371,7 @@
     }
 
     .faq-section h2 {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 650;
         color: var(--tx);
         margin: 0 0 20px;
@@ -381,7 +382,7 @@
         flex-direction: column;
         gap: 0;
         border: 1px solid var(--bd);
-        border-radius: 10px;
+        border-radius: var(--r);
         overflow: hidden;
     }
 
@@ -395,7 +396,7 @@
     }
 
     .faq-item h3 {
-        font-size: 13.5px;
+        font-size: 15px;
         font-weight: 600;
         color: var(--tx);
         margin: 0 0 5px;
@@ -404,7 +405,7 @@
 
     .faq-item p {
         margin: 0;
-        font-size: 13px;
+        font-size: 14px;
         color: var(--tx-sub);
         line-height: 1.6;
     }

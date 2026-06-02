@@ -20,11 +20,33 @@ export const load: PageServerLoad = async ({ params }) => {
     const parsed = matter(rawContent);
     const htmlContent = marked.parse(parsed.content);
     
+    // Load related posts (other posts in the same language)
+    const relatedPosts = [];
+    for (const path in modules) {
+        if (path.includes(`/blog/${lang}/`) && path !== filePath) {
+            const relatedRawContent = await modules[path]() as string;
+            const relatedParsed = matter(relatedRawContent);
+            const relatedFilename = path.split('/').pop() || '';
+            const relatedSlug = relatedFilename.replace('.md', '');
+            
+            relatedPosts.push({
+                slug: relatedSlug,
+                title: relatedParsed.data.title || 'Untitled',
+                date: relatedParsed.data.date || ''
+            });
+        }
+    }
+    
+    // Sort related posts by date descending
+    relatedPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    
     return {
         slug,
         title: parsed.data.title || 'Untitled',
         description: parsed.data.description || '',
         date: parsed.data.date || '',
-        content: htmlContent
+        content: htmlContent,
+        ctaTool: parsed.data.ctaTool || null,
+        relatedPosts: relatedPosts.slice(0, 5) // Get top 5 recent related posts
     };
 };

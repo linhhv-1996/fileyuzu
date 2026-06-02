@@ -2,6 +2,7 @@
 title: "Why You Should Convert Your Videos to MP4"
 date: "2026-05-25"
 description: "Discover why MP4 is the universal standard for video files and how converting your videos can improve compatibility and playback."
+ctaTool: "video-converter"
 ---
 
 Have you ever tried to play a video file, only to be met with an error message saying "format not supported"? Or perhaps you've tried to upload a video to a social media platform, and it failed because of an obscure file extension. 

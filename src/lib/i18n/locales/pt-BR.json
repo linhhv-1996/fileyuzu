@@ -1,7 +1,75 @@
 {
+  "compress_video.upload.title": "Solte um arquivo de vídeo aqui para comprimir",
+"compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · até 500 MB",
+"compress_video.upload.btn_select": "Selecionar arquivo de vídeo",
+"compress_video.upload.btn_sample": "Testar vídeo de exemplo",
+"compress_video.upload.hint": "Selecione um vídeo para comprimir e reduzir o tamanho do arquivo",
+
+"compress_mp4.upload.title": "Solte um arquivo MP4 aqui para comprimir",
+"compress_mp4.upload.subtitle": "MP4 · até 500 MB · menor com boa qualidade",
+"compress_mp4.upload.btn_select": "Selecionar arquivo MP4",
+"compress_mp4.upload.btn_sample": "Testar MP4 de exemplo",
+"compress_mp4.upload.hint": "Selecione um arquivo MP4 para comprimir e deixar menor",
+
+"reduce_video_size.upload.title": "Solte seu vídeo aqui para reduzir o tamanho",
+"reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · máximo 500 MB",
+"reduce_video_size.upload.btn_select": "Procurar arquivo de vídeo",
+"reduce_video_size.upload.btn_sample": "Usar vídeo de exemplo",
+"reduce_video_size.upload.hint": "Envie um vídeo para reduzir rapidamente o tamanho do arquivo",
+
+"video_converter.upload.title": "Solte um arquivo de vídeo aqui para converter",
+"video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · conversão no navegador",
+"video_converter.upload.btn_select": "Selecionar arquivo de vídeo",
+"video_converter.upload.btn_sample": "Testar vídeo de exemplo",
+"video_converter.upload.hint": "Selecione um vídeo para converter para outro formato",
+
+"mov_to_mp4.upload.title": "Solte um arquivo MOV aqui para converter para MP4",
+"mov_to_mp4.upload.subtitle": "MOV · converta para MP4 e reproduza com facilidade",
+"mov_to_mp4.upload.btn_select": "Selecionar arquivo MOV",
+"mov_to_mp4.upload.btn_sample": "Testar MOV de exemplo",
+"mov_to_mp4.upload.hint": "Selecione um vídeo MOV para converter em MP4",
+
+"avi_to_mp4.upload.title": "Solte um arquivo AVI aqui para converter para MP4",
+"avi_to_mp4.upload.subtitle": "AVI · converta para MP4 com mais compatibilidade",
+"avi_to_mp4.upload.btn_select": "Selecionar arquivo AVI",
+"avi_to_mp4.upload.btn_sample": "Testar AVI de exemplo",
+"avi_to_mp4.upload.hint": "Selecione um vídeo AVI para converter em MP4",
+
+"mkv_to_mp4.upload.title": "Solte um arquivo MKV aqui para converter para MP4",
+"mkv_to_mp4.upload.subtitle": "MKV · converta para MP4 e reproduza com facilidade",
+"mkv_to_mp4.upload.btn_select": "Selecionar arquivo MKV",
+"mkv_to_mp4.upload.btn_sample": "Testar MKV de exemplo",
+"mkv_to_mp4.upload.hint": "Selecione um vídeo MKV para converter em MP4",
+
+"webm_to_mp4.upload.title": "Solte um arquivo WebM aqui para converter para MP4",
+"webm_to_mp4.upload.subtitle": "WebM · converta para MP4 para mais dispositivos",
+"webm_to_mp4.upload.btn_select": "Selecionar arquivo WebM",
+"webm_to_mp4.upload.btn_sample": "Testar WebM de exemplo",
+"webm_to_mp4.upload.hint": "Selecione um vídeo WebM para converter em MP4",
+
+"mp4_converter.upload.title": "Solte um vídeo aqui para converter para MP4",
+"mp4_converter.upload.subtitle": "Vários formatos de vídeo · converter para MP4",
+"mp4_converter.upload.btn_select": "Selecionar arquivo de vídeo",
+"mp4_converter.upload.btn_sample": "Testar vídeo de exemplo",
+"mp4_converter.upload.hint": "Selecione um vídeo para converter em MP4",
+
+"video_2_mp3.upload.title": "Solte um vídeo aqui para converter para MP3",
+"video_2_mp3.upload.subtitle": "Vários formatos de vídeo · extrair áudio em MP3",
+"video_2_mp3.upload.btn_select": "Selecionar arquivo de vídeo",
+"video_2_mp3.upload.btn_sample": "Testar vídeo de exemplo",
+"video_2_mp3.upload.hint": "Selecione um vídeo para converter o áudio em MP3",
+
+"pdf_compressor.upload.title": "Solte um arquivo PDF aqui para comprimir",
+"pdf_compressor.upload.subtitle": "PDF · até 100 MB · reduzir tamanho do arquivo",
+"pdf_compressor.upload.btn_select": "Selecionar arquivo PDF",
+"pdf_compressor.upload.btn_sample": "Testar PDF de exemplo",
+"pdf_compressor.upload.hint": "Selecione um PDF para comprimir e deixar menor",
+
+
+
   "_comment_home": "================ Home ================",
-  "home.seo.title": "FileYuzu — Ferramentas de vídeo online grátis",
-  "home.seo.description": "O FileYuzu oferece ferramentas online gratuitas e privadas para vídeos e arquivos. Funciona totalmente no seu navegador, sem upload e sem cadastro.",
+  "home.seo.title": "UploadLess — Ferramentas de vídeo online grátis",
+  "home.seo.description": "O UploadLess oferece ferramentas online gratuitas e privadas para vídeos e arquivos. Funciona totalmente no seu navegador, sem upload e sem cadastro.",
   "home.hero.title": "Ferramentas online gratuitas",
   "home.hero.description": "Ferramentas privadas, rápidas e fáceis de usar que rodam diretamente no seu navegador. Seus arquivos nunca saem do seu dispositivo.",
   "home.pill.private": "Os arquivos nunca saem do seu dispositivo",
@@ -17,8 +85,8 @@
   "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
   "home.faq.items": [
     {
-      "q": "Todas as ferramentas do FileYuzu são gratuitas?",
-      "a": "Sim, todas as ferramentas do FileYuzu são totalmente gratuitas, sem taxas ocultas, sem assinaturas e sem limites. Você pode compactar vídeos, compactar PDFs e converter formatos de vídeo quantas vezes quiser, sem custo."
+      "q": "Todas as ferramentas do UploadLess são gratuitas?",
+      "a": "Sim, todas as ferramentas do UploadLess são totalmente gratuitas, sem taxas ocultas, sem assinaturas e sem limites. Você pode compactar vídeos, compactar PDFs e converter formatos de vídeo quantas vezes quiser, sem custo."
     },
     {
       "q": "Meus arquivos são enviados para um servidor?",
@@ -29,30 +97,26 @@
       "a": "Não é preciso criar conta nem se cadastrar. Basta abrir a ferramenta de que você precisa e começar imediatamente — sem registro, sem e-mail, sem senha."
     },
     {
-      "q": "Quais ferramentas estão disponíveis no FileYuzu?",
-      "a": "Atualmente, o FileYuzu oferece um compressor de vídeo online gratuito, um compressor de PDF e um conversor de vídeo com suporte a formatos como MP4, WebM, MOV, MKV e MP3. Novas ferramentas são adicionadas regularmente."
+      "q": "Quais ferramentas estão disponíveis no UploadLess?",
+      "a": "Atualmente, o UploadLess oferece um compressor de vídeo online gratuito, um compressor de PDF e um conversor de vídeo com suporte a formatos como MP4, WebM, MOV, MKV e MP3. Novas ferramentas são adicionadas regularmente."
     },
     {
       "q": "Existe limite de tamanho de arquivo?",
       "a": "Não há um limite rígido do lado do servidor, pois todo o processamento acontece no seu navegador. Na prática, a maioria das ferramentas lida com arquivos de até 500 MB. O desempenho depende da memória e da capacidade de processamento do seu dispositivo."
     },
     {
-      "q": "Posso usar o FileYuzu no celular ou tablet?",
-      "a": "Sim! O FileYuzu é totalmente responsivo e funciona em smartphones, tablets e computadores. Não é necessário instalar aplicativo — basta abrir o site no navegador móvel e usar qualquer ferramenta."
+      "q": "Posso usar o UploadLess no celular ou tablet?",
+      "a": "Sim! O UploadLess é totalmente responsivo e funciona em smartphones, tablets e computadores. Não é necessário instalar aplicativo — basta abrir o site no navegador móvel e usar qualquer ferramenta."
     }
   ],
   "_comment_categories": "================ Tool Categories ================",
   "home.category.video": "Vídeo",
   "home.category.pdf": "PDF",
-  "compress_video.seo.title": "FileYuzu — Compressor de vídeo online grátis",
-  "compress_video.seo.description": "Comprima vídeos MP4, MOV, AVI, MKV e WebM online com o FileYuzu. Reduza o tamanho do vídeo com privacidade no navegador, sem upload e sem cadastro.",
+  "compress_video.seo.title": "Comprimir vídeo online grátis | Compressor de vídeo",
+  "compress_video.seo.description": "Comprima vídeos online grátis em MP4, MOV, AVI, MKV e WebM. Reduza arquivos grandes com privacidade no navegador, sem upload e sem cadastro.",
   "compress_video.hero.title": "Compressor de vídeo online grátis",
-  "compress_video.hero.description": "Reduza o tamanho de vídeos online — sem upload, sem cadastro. Funciona totalmente no seu navegador. Suporta MP4, MOV, AVI, MKV e WebM.",
-  "compress_video.upload.title": "Solte um arquivo de vídeo aqui",
-  "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · até 500 MB",
-  "compress_video.upload.btn_select": "Selecionar arquivo",
-  "compress_video.upload.btn_sample": "Testar exemplo",
-  "compress_video.upload.hint": "Selecione um arquivo de vídeo para compactar",
+  "compress_video.hero.description": "Comprima vídeos MP4, MOV, AVI, MKV e WebM direto no navegador. Reduza arquivos grandes com privacidade — sem upload, sem cadastro e sem instalar nada.",
+
   "compress_video.settings.auto_optimize": "Otimização automática",
   "compress_video.settings.size_lbl": "Tamanho de arquivo desejado",
   "compress_video.btn.compress": "Compactar vídeo",
@@ -61,74 +125,82 @@
   "compress_video.proc.compressing": "Compactando vídeo",
   "compress_video.how_to_use.title": "Como compactar um vídeo online",
   "compress_video.how_to_use.steps": [
-    "Envie um arquivo de vídeo do seu dispositivo ou arraste e solte-o na área de upload.",
-    "Escolha uma predefinição de compressão ou defina um tamanho de arquivo desejado personalizado. Use as etiquetas de seleção rápida para plataformas comuns como Gmail, Discord ou Slack.",
-    "Clique em Compactar e aguarde um momento. Todo o processamento roda localmente no seu navegador — seu arquivo nunca é enviado para nenhum servidor. Baixe quando terminar."
+    "Selecione um vídeo do seu dispositivo ou arraste e solte o arquivo na área de upload.",
+    "Escolha uma predefinição de compressão ou defina um tamanho final personalizado. Use os atalhos rápidos para limites comuns de plataformas como Gmail, Discord e Slack.",
+    "Clique em Comprimir e aguarde alguns instantes. Todo o processamento acontece localmente no seu navegador — seu vídeo nunca é enviado para servidores. Depois, baixe o arquivo comprimido."
   ],
-  "compress_video.why_use.title": "Por que usar o FileYuzu",
+  "compress_video.why_use.title": "Por que usar o UploadLess",
   "compress_video.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% privado",
-      "description": "A compressão roda no seu navegador via WebAssembly. Seu arquivo nunca sai do seu dispositivo."
+      "title": "Compressão privada",
+      "description": "O vídeo é comprimido diretamente no seu navegador. Seu arquivo nunca sai do dispositivo e não é enviado para servidores."
     },
     {
       "icon": "bolt",
-      "title": "Não precisa de cadastro",
-      "description": "Abra a página e comece. Sem conta, sem marca-d’água, sem limite de tempo."
+      "title": "Grátis e sem cadastro",
+      "description": "Abra o compressor de vídeo online e comece na hora. Sem conta, sem instalação e sem marca-d’água."
     },
     {
       "icon": "player-play",
-      "title": "Fluxo simples",
-      "description": "Comprima um vídeo por vez com um fluxo simples e focado."
+      "title": "Funciona com formatos populares",
+      "description": "Comprima vídeos em MP4, MOV, AVI, MKV e WebM em um fluxo simples, rápido e fácil de usar."
     },
     {
       "icon": "adjustments",
-      "title": "Tamanho desejado flexível",
-      "description": "Defina um tamanho exato para qualquer plataforma — Gmail, Discord, Slack, Line, WhatsApp."
+      "title": "Controle o tamanho final",
+      "description": "Escolha uma predefinição ou defina um tamanho desejado para reduzir vídeos grandes para Gmail, Discord, Slack, WhatsApp e outras plataformas."
     }
   ],
   "compress_video.faq.title": "FAQ do compressor de vídeo",
   "compress_video.faq.items": [
     {
+      "q": "Como comprimir um vídeo online grátis?",
+      "a": "Para comprimir um vídeo online, selecione um arquivo do seu dispositivo, escolha uma predefinição ou defina o tamanho final desejado e clique em Comprimir. O processo acontece diretamente no navegador, sem upload, sem cadastro e sem instalar programas."
+    },
+    {
       "q": "Meu vídeo é enviado para um servidor?",
-      "a": "Não. Toda a compressão é feita localmente usando FFmpeg.wasm (WebAssembly). Seu arquivo de vídeo nunca sai do seu dispositivo."
+      "a": "Não. A compressão é feita localmente no seu navegador usando WebAssembly. Seu arquivo de vídeo nunca sai do seu dispositivo, o que ajuda a manter mais privacidade durante todo o processo."
     },
     {
-      "q": "Quais formatos de vídeo são suportados?",
-      "a": "Suportamos MP4, MOV, AVI, MKV, WebM e a maioria dos outros formatos comuns. A saída é sempre MP4 para máxima compatibilidade com dispositivos."
+      "q": "Quais formatos de vídeo posso comprimir?",
+      "a": "Você pode comprimir formatos populares como MP4, MOV, AVI, MKV e WebM. O compressor de vídeo é ideal para reduzir arquivos grandes antes de enviar por e-mail, apps de mensagem ou plataformas de trabalho."
     },
     {
-      "q": "Qual é o tamanho máximo do arquivo?",
-      "a": "O vídeo pode ter até 500 MB. Para arquivos maiores, considere dividir o vídeo primeiro ou usar uma ferramenta de desktop como o HandBrake."
+      "q": "Posso comprimir vídeo MP4 nesta ferramenta?",
+      "a": "Sim. Você pode comprimir vídeos MP4 diretamente no navegador. Esta página funciona com vários formatos de vídeo; se você quer uma página focada apenas em MP4, use a ferramenta específica para comprimir MP4."
     },
     {
-      "q": "O que significam as predefinições Low, Balance e High?",
-      "a": "Balance reduz o tamanho em cerca de 60–80%, mantendo o vídeo com boa aparência na maioria das telas. Low gera o menor arquivo, com perda de qualidade mais visível. High mantém qualidade próxima da original, com redução moderada."
+      "q": "Como reduzir o tamanho de um vídeo sem perder muita qualidade?",
+      "a": "Para reduzir o tamanho de um vídeo sem perder muita qualidade, escolha uma compressão equilibrada ou defina um tamanho final realista. Quanto menor o arquivo desejado, maior pode ser a perda de qualidade visual."
     },
     {
-      "q": "O que “Desativar áudio” faz?",
-      "a": "Remove a faixa de áudio do vídeo compactado. É útil para clipes sem som, gravações de tela ou quando você precisa do menor tamanho de arquivo possível."
+      "q": "Posso definir um tamanho final para o vídeo?",
+      "a": "Sim. Você pode escolher uma predefinição de compressão ou informar um tamanho final personalizado. Isso ajuda a reduzir vídeos para limites comuns de envio em plataformas como Gmail, Discord, Slack, WhatsApp e outras."
     },
     {
-      "q": "Por que as etiquetas de plataforma mostram valores específicos em MB?",
-      "a": "Cada plataforma tem um limite de tamanho para anexos. Gmail é 25 MB, Discord 8 MB (gratuito), Slack 100 MB e assim por diante. Clicar em uma etiqueta define o tamanho desejado automaticamente."
+      "q": "Preciso criar conta para usar o compressor de vídeo?",
+      "a": "Não. O compressor de vídeo online funciona sem cadastro. Basta abrir a página, escolher o vídeo e iniciar a compressão diretamente no navegador."
     },
     {
-      "q": "Haverá queda visível de qualidade?",
-      "a": "Depende da predefinição e do vídeo original. Para a maioria dos vídeos, a predefinição Balance gera um resultado que fica bom em celulares e telas comuns. Você pode testar outra predefinição se não ficar satisfeito."
+      "q": "A ferramenta adiciona marca-d’água no vídeo comprimido?",
+      "a": "Não. O vídeo comprimido não recebe marca-d’água. Você pode reduzir o tamanho do arquivo e baixar o resultado sem adicionar logotipo ou texto sobre o vídeo."
+    },
+    {
+      "q": "Por que a compressão pode demorar em vídeos grandes?",
+      "a": "Vídeos grandes ou em alta resolução exigem mais processamento para serem comprimidos. Como tudo roda localmente no navegador, o tempo depende do tamanho do arquivo, da duração do vídeo e da potência do seu dispositivo."
+    },
+    {
+      "q": "Qual é a diferença entre comprimir vídeo e reduzir tamanho de vídeo?",
+      "a": "Na prática, os dois termos são muito parecidos: ambos significam diminuir o tamanho do arquivo de vídeo. Comprimir vídeo geralmente se refere ao processo técnico de compressão; reduzir tamanho de vídeo descreve o resultado final que o usuário quer alcançar."
     }
   ],
   "_comment_pdf_compressor": "================ PDF Compressor ================",
-  "pdf_compressor.seo.title": "FileYuzu — Compressor de PDF online grátis",
-  "pdf_compressor.seo.description": "Comprima arquivos PDF online com o FileYuzu. Reduza o tamanho do PDF com privacidade no navegador, sem upload e sem cadastro.",
-  "pdf_compressor.hero.title": "Compressor de PDF online grátis",
-  "pdf_compressor.hero.description": "Reduza o tamanho de PDFs online — sem upload, sem cadastro. Funciona totalmente no seu navegador.",
-  "pdf_compressor.upload.title": "Solte um arquivo PDF aqui",
-  "pdf_compressor.upload.subtitle": "PDF · até 100 MB",
-  "pdf_compressor.upload.btn_select": "Selecionar arquivo",
-  "pdf_compressor.upload.btn_sample": "Testar exemplo",
-  "pdf_compressor.upload.hint": "Selecione um arquivo PDF para compactar",
+  "pdf_compressor.seo.title": "Comprimir PDF online grátis | UploadLess",
+  "pdf_compressor.seo.description": "Comprima PDF online grátis com privacidade. Reduza o tamanho do PDF no navegador, sem upload, sem cadastro e sem instalar nada.",
+  "pdf_compressor.hero.title": "Comprimir PDF online grátis",
+  "pdf_compressor.hero.description": "Reduza o tamanho do PDF e deixe arquivos mais leves sem upload, sem cadastro e sem instalar. A compressão acontece no seu navegador.",
+
   "pdf_compressor.settings.quality_lbl": "Predefinição de qualidade",
   "pdf_compressor.settings.quality_balanced": "Equilibrado (Ebook)",
   "pdf_compressor.settings.quality_maximum": "Máximo (Tela)",
@@ -140,49 +212,82 @@
   "pdf_compressor.proc.compressing": "Compactando PDF",
   "pdf_compressor.how_to_use.title": "Como compactar um PDF online",
   "pdf_compressor.how_to_use.steps": [
-    "Envie um arquivo PDF do seu dispositivo ou arraste e solte-o na área de upload.",
-    "Escolha uma predefinição de qualidade (Equilibrado ou Máximo) e, opcionalmente, informe uma senha se o PDF estiver criptografado.",
-    "Clique em Compactar e aguarde um momento. Todo o processamento roda localmente no seu navegador. Baixe quando terminar."
+    "Selecione um arquivo PDF do seu dispositivo ou arraste e solte o arquivo na área de upload.",
+    "Escolha o nível de compressão ideal, como Equilibrado ou Máximo. Se o PDF estiver protegido por senha, informe a senha para continuar.",
+    "Clique em Comprimir PDF e aguarde alguns instantes. Todo o processamento acontece localmente no seu navegador. Depois, baixe o PDF comprimido."
   ],
-  "pdf_compressor.why_use.title": "Por que usar o compressor de PDF do FileYuzu",
+  "pdf_compressor.why_use.title": "Por que usar o compressor de PDF do UploadLess",
   "pdf_compressor.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% privado",
-      "description": "A compressão roda no seu navegador via WebAssembly. Seu arquivo nunca sai do seu dispositivo."
+      "title": "Privado e seguro",
+      "description": "Comprima PDF online com privacidade. A compressão acontece no seu navegador e o arquivo nunca sai do seu dispositivo."
     },
     {
       "icon": "bolt",
-      "title": "Não precisa de cadastro",
-      "description": "Abra a página e comece. Sem conta, sem marca-d’água, sem limite de tempo."
+      "title": "Sem cadastro",
+      "description": "Reduza o tamanho do PDF sem criar conta, sem instalar programas e sem marca-d’água."
     },
     {
       "icon": "player-play",
-      "title": "Fluxo simples",
-      "description": "Comprima um PDF por vez com um fluxo simples e focado."
+      "title": "Rápido e simples",
+      "description": "Escolha um PDF, ajuste a compressão e baixe o arquivo menor em poucos cliques."
     },
     {
       "icon": "adjustments",
-      "title": "Qualidade ajustável",
-      "description": "Escolha entre compressão equilibrada para tamanhos menores ou máxima para a melhor qualidade visual."
+      "title": "Compressão ajustável",
+      "description": "Use o modo Equilibrado para deixar o PDF mais leve ou o modo Máximo para preservar melhor a qualidade visual."
     }
   ],
   "pdf_compressor.faq.title": "FAQ do compressor de PDF",
   "pdf_compressor.faq.items": [
     {
       "q": "Meu PDF é enviado para um servidor?",
-      "a": "Não. Toda a compressão é feita localmente usando Ghostscript (WebAssembly). Seu arquivo PDF nunca sai do seu dispositivo."
+      "a": "Não. Todo o processo para comprimir PDF acontece localmente no seu navegador usando Ghostscript em WebAssembly. Seu arquivo PDF nunca sai do seu dispositivo."
     },
     {
-      "q": "Qual é o tamanho máximo do arquivo?",
-      "a": "O PDF pode ter até 100 MB."
+      "q": "Como comprimir PDF online grátis?",
+      "a": "Selecione ou arraste um arquivo PDF, escolha o nível de compressão e clique em Comprimir PDF. Depois, baixe o PDF comprimido diretamente no seu navegador, sem cadastro e sem instalar nada."
+    },
+    {
+      "q": "Comprimir PDF reduz a qualidade do arquivo?",
+      "a": "Pode haver alguma redução de qualidade, principalmente em imagens dentro do PDF. Para equilibrar tamanho e aparência, use o modo Equilibrado. Para preservar melhor a qualidade visual, use o modo Máximo."
+    },
+    {
+      "q": "Qual é o tamanho máximo do arquivo PDF?",
+      "a": "Você pode comprimir arquivos PDF de até 100 MB. Como o processamento roda no navegador, PDFs muito grandes podem levar mais tempo dependendo do seu dispositivo."
+    },
+    {
+      "q": "Posso comprimir PDF protegido por senha?",
+      "a": "Sim. Se o PDF estiver criptografado ou protegido por senha, informe a senha correta antes de iniciar a compressão. A senha é usada apenas localmente no seu navegador."
+    },
+    {
+      "q": "Como reduzir o tamanho do PDF ao máximo?",
+      "a": "Escolha o modo de compressão mais forte disponível. Ele ajuda a deixar o PDF mais leve, mas pode reduzir mais a qualidade de imagens e elementos visuais."
+    },
+    {
+      "q": "Preciso criar conta para comprimir PDF?",
+      "a": "Não. Você pode comprimir PDF online grátis sem cadastro, sem login, sem marca-d’água e sem limite de tempo."
+    },
+    {
+      "q": "Funciona no celular?",
+      "a": "Sim. O compressor de PDF funciona em navegadores modernos no celular, tablet e computador. Em arquivos grandes, o desempenho pode variar conforme a memória e a velocidade do dispositivo."
+    },
+    {
+      "q": "Por que meu PDF não diminuiu muito?",
+      "a": "Alguns PDFs já estão otimizados ou contêm pouco conteúdo comprimível. PDFs com muitas imagens grandes geralmente reduzem mais do que arquivos compostos principalmente por texto ou vetores."
+    },
+    {
+      "q": "Qual é a diferença entre comprimir PDF e compactar PDF?",
+      "a": "Na prática, os dois termos são usados para a mesma intenção: reduzir o tamanho do arquivo PDF. No Brasil, muitas pessoas pesquisam por comprimir PDF, compactar PDF e reduzir tamanho do PDF."
     }
   ],
   "related_tools.title": "Ferramentas relacionadas",
   "common.tools": "Ferramentas",
   "common.blog": "Blog",
+  "blog.also_read": "Leia também",
   "common.language": "Idioma",
-  "common.footer.copyright": "© 2025 FileYuzu",
+  "common.footer.copyright": "© 2025 UploadLess",
   "common.footer.privacy": "Privacidade",
   "common.footer.terms": "Termos",
   "common.footer.contact": "Contato",
@@ -220,15 +325,11 @@
   "tool.reduce_video_size.description": "Diminua arquivos de vídeo gratuitamente sem enviá-los. A compressão roda com privacidade no navegador.",
   "tool.reduce_video_size.short_description": "Diminua arquivos de vídeo com privacidade.",
   "_comment_video_converter": "================ Video Converter ================",
-  "video_converter.seo.title": "FileYuzu — Conversor de vídeo online grátis",
-  "video_converter.seo.description": "Converta arquivos de vídeo entre os formatos MP4, WebM, MOV, MKV e MP3 online com o FileYuzu. Conversão rápida e privada no navegador.",
+  "video_converter.seo.title": "Conversor de vídeo online grátis | UploadLess",
+  "video_converter.seo.description": "Converta vídeos online entre MP4, MOV, MKV, WebM, AVI e outros formatos. Grátis, rápido e privado: tudo funciona direto no navegador.",
   "video_converter.hero.title": "Conversor de vídeo online grátis",
-  "video_converter.hero.description": "Converta arquivos de vídeo com facilidade e segurança no navegador. Suporta MP4, WebM, MOV, MKV e MP3.",
-  "video_converter.upload.title": "Solte um arquivo de vídeo aqui",
-  "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM",
-  "video_converter.upload.btn_select": "Selecionar arquivo",
-  "video_converter.upload.btn_sample": "Testar exemplo",
-  "video_converter.upload.hint": "Selecione um arquivo de vídeo para converter",
+  "video_converter.hero.description": "Converta vídeos entre MP4, MOV, MKV, WebM, AVI e outros formatos com facilidade. Uma ferramenta grátis, rápida e privada que funciona direto no navegador.",
+
   "video_converter.settings.format_lbl": "Formato de destino",
   "video_converter.btn.convert": "Converter vídeo",
   "video_converter.btn.download": "Baixar arquivo",
@@ -237,57 +338,81 @@
   "video_converter.how_to_use.title": "Como converter um vídeo online",
   "video_converter.how_to_use.steps": [
     "Envie um arquivo de vídeo do seu dispositivo ou arraste e solte-o na área de upload.",
-    "Selecione o formato de saída desejado (por exemplo, MP4, WebM, MP3) nas opções de formato de destino.",
-    "Clique em Converter e aguarde. O processo roda localmente no seu dispositivo para total privacidade. Baixe quando terminar."
+    "Escolha o formato de saída desejado, como MP4, WebM, MOV, MKV, AVI ou MP3.",
+    "Clique em Converter e aguarde. O processo acontece no seu navegador para manter seus arquivos privados. Baixe o vídeo quando terminar."
   ],
-  "video_converter.why_use.title": "Por que usar o conversor do FileYuzu",
+  "video_converter.why_use.title": "Por que usar o conversor do UploadLess",
   "video_converter.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% privado",
-      "description": "A conversão roda localmente no seu navegador. Seus arquivos nunca saem do seu dispositivo."
+      "title": "Privado no navegador",
+      "description": "A conversão acontece localmente no seu navegador. Seus vídeos não precisam ser enviados para servidores."
     },
     {
       "icon": "bolt",
-      "title": "Não é necessário cadastro",
-      "description": "Comece a converter imediatamente sem criar conta nem lidar com limites."
+      "title": "Sem cadastro",
+      "description": "Converta vídeos online sem criar conta, instalar programas ou passar por etapas desnecessárias."
     },
     {
       "icon": "player-play",
       "title": "Vários formatos",
-      "description": "Converta para formatos populares como MP4, WebM, MOV ou extraia o áudio como MP3."
+      "description": "Converta entre formatos populares como MP4, MOV, MKV, WebM, AVI e também extraia áudio em MP3."
     },
     {
       "icon": "rocket",
-      "title": "Processamento rápido",
-      "description": "Otimizado para velocidade. Receba seus arquivos convertidos rapidamente, sem esperar em filas."
+      "title": "Rápido e fácil",
+      "description": "Escolha o arquivo, selecione o formato de saída e baixe o resultado em poucos passos."
     }
   ],
   "video_converter.faq.title": "FAQ do conversor de vídeo",
   "video_converter.faq.items": [
     {
-      "q": "Meus arquivos são enviados para um servidor?",
-      "a": "Não, toda a conversão é feita localmente no seu dispositivo usando WebAssembly. Não armazenamos nem processamos seus arquivos em nossos servidores."
+      "q": "O que é um conversor de vídeo online?",
+      "a": "Um conversor de vídeo online é uma ferramenta que permite alterar o formato de um arquivo de vídeo diretamente no navegador. Com ela, você pode converter vídeos para formatos como MP4, WebM, MOV, MKV, AVI ou MP3 sem instalar programas."
     },
     {
-      "q": "Posso converter vídeo em áudio?",
-      "a": "Sim! Basta selecionar 'MP3' como formato de destino e a faixa de áudio será extraída e convertida."
+      "q": "Como converter vídeo online grátis?",
+      "a": "Para converter vídeo online grátis, envie o arquivo, escolha o formato de saída desejado e clique em Converter. Quando o processo terminar, basta baixar o arquivo convertido para o seu dispositivo."
     },
     {
-      "q": "Quais formatos são suportados?",
-      "a": "Suportamos entrada da maioria dos formatos de vídeo comuns e podemos convertê-los para MP4, WebM, MOV, MKV ou MP3."
+      "q": "Meus vídeos são enviados para um servidor?",
+      "a": "Não. A conversão acontece localmente no seu navegador usando tecnologia WebAssembly. Seus arquivos não precisam ser enviados para servidores, o que ajuda a manter seus vídeos privados."
+    },
+    {
+      "q": "Quais formatos de vídeo posso converter?",
+      "a": "Você pode converter arquivos de vídeo em formatos populares como MP4, MOV, MKV, WebM, AVI e outros formatos comuns. Também é possível extrair o áudio do vídeo em MP3."
+    },
+    {
+      "q": "Posso converter vídeo para MP4?",
+      "a": "Sim. Você pode usar o conversor de vídeo para transformar arquivos de diferentes formatos em MP4, um dos formatos mais compatíveis para celular, computador, redes sociais e players de vídeo."
+    },
+    {
+      "q": "Posso converter vídeo em áudio MP3?",
+      "a": "Sim. Se você quiser extrair apenas o áudio de um vídeo, selecione MP3 como formato de saída. A ferramenta irá converter a faixa de áudio e gerar um arquivo MP3 para download."
+    },
+    {
+      "q": "Preciso instalar algum programa para converter vídeos?",
+      "a": "Não. Este conversor de vídeo funciona direto no navegador, sem instalação de software, extensões ou aplicativos. Basta abrir a página, enviar o arquivo e escolher o formato de saída."
+    },
+    {
+      "q": "A conversão de vídeo perde qualidade?",
+      "a": "Toda conversão pode alterar o tamanho e a qualidade do arquivo dependendo do formato escolhido e das configurações usadas. Para melhores resultados, escolha um formato adequado ao seu objetivo, como MP4 para compatibilidade ou WebM para uso na web."
+    },
+    {
+      "q": "Posso converter vídeos grandes?",
+      "a": "Sim, mas o desempenho depende da memória e da capacidade do seu dispositivo, já que a conversão roda no navegador. Para arquivos muito grandes, mantenha a aba aberta até o processo terminar."
+    },
+    {
+      "q": "Esse conversor de vídeo adiciona marca d’água?",
+      "a": "Não. A ferramenta converte seus vídeos sem adicionar marca d’água ao arquivo final. O vídeo convertido fica pronto para baixar no formato escolhido."
     }
   ],
   "_comment_compress_mp4": "================ Compress MP4 ================",
-  "compress_mp4.seo.title": "FileYuzu — Compressor de MP4 online grátis",
-  "compress_mp4.seo.description": "Comprima vídeos MP4 online com o FileYuzu. Reduza o tamanho de MP4 com privacidade no navegador, sem upload e sem cadastro.",
+  "compress_mp4.seo.title": "Comprimir MP4 online grátis | Compressor de MP4",
+  "compress_mp4.seo.description": "Comprima vídeos MP4 online grátis e reduza arquivos grandes com privacidade no navegador. Sem upload, sem cadastro e sem marca-d’água.",
   "compress_mp4.hero.title": "Compressor de MP4 online grátis",
-  "compress_mp4.hero.description": "Reduza o tamanho de MP4 online — sem upload, sem cadastro. Funciona totalmente no seu navegador.",
-  "compress_mp4.upload.title": "Solte um arquivo MP4 aqui",
-  "compress_mp4.upload.subtitle": "MP4 · até 500 MB",
-  "compress_mp4.upload.btn_select": "Selecionar arquivo",
-  "compress_mp4.upload.btn_sample": "Testar exemplo",
-  "compress_mp4.upload.hint": "Selecione um arquivo MP4 para compactar",
+  "compress_mp4.hero.description": "Reduza o tamanho de vídeos MP4 direto no navegador — sem upload, sem cadastro e sem instalar nada. Ideal para deixar arquivos MP4 mais leves.",
+
   "compress_mp4.settings.auto_optimize": "Otimização automática",
   "compress_mp4.settings.size_lbl": "Tamanho de arquivo desejado",
   "compress_mp4.btn.compress": "Compactar MP4",
@@ -296,54 +421,82 @@
   "compress_mp4.proc.compressing": "Compactando MP4",
   "compress_mp4.how_to_use.title": "Como compactar um MP4 online",
   "compress_mp4.how_to_use.steps": [
-    "Envie um arquivo MP4 do seu dispositivo ou arraste e solte-o na área de upload.",
-    "Escolha uma predefinição de compressão ou defina um tamanho de arquivo desejado personalizado.",
-    "Clique em Compactar e aguarde um momento. Todo o processamento roda localmente no seu navegador. Baixe quando terminar."
+    "Selecione um arquivo MP4 do seu dispositivo ou arraste e solte o vídeo na área de upload.",
+    "Escolha uma predefinição de compressão ou defina um tamanho final personalizado para reduzir o MP4 ao limite desejado.",
+    "Clique em Comprimir e aguarde alguns instantes. Todo o processamento acontece localmente no seu navegador — seu arquivo MP4 nunca é enviado para servidores. Depois, baixe o vídeo comprimido."
   ],
-  "compress_mp4.why_use.title": "Por que usar o compressor de MP4 do FileYuzu",
+  "compress_mp4.why_use.title": "Por que usar o compressor de MP4 do UploadLess",
   "compress_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% privado",
-      "description": "A compressão roda no seu navegador via WebAssembly. Seu arquivo nunca sai do seu dispositivo."
+      "title": "Compressão privada de MP4",
+      "description": "O arquivo MP4 é comprimido diretamente no seu navegador. Seu vídeo nunca sai do dispositivo e não é enviado para servidores."
     },
     {
       "icon": "bolt",
-      "title": "Não precisa de cadastro",
-      "description": "Abra a página e comece. Sem conta, sem marca-d’água, sem limite de tempo."
+      "title": "Grátis e sem cadastro",
+      "description": "Abra o compressor de MP4 online e comece na hora. Sem conta, sem instalação e sem marca-d’água."
     },
     {
       "icon": "player-play",
-      "title": "Fluxo simples",
-      "description": "Comprima um MP4 por vez com um fluxo simples e focado."
+      "title": "Fluxo simples para MP4",
+      "description": "Comprima um vídeo MP4 por vez com um processo simples, focado e fácil de usar."
     },
     {
       "icon": "adjustments",
-      "title": "Tamanho desejado flexível",
-      "description": "Defina um tamanho exato para qualquer plataforma."
+      "title": "Controle o tamanho do MP4",
+      "description": "Escolha uma predefinição ou defina um tamanho final personalizado para reduzir MP4 para Gmail, Discord, Slack, WhatsApp e outras plataformas."
     }
   ],
   "compress_mp4.faq.title": "FAQ do compressor de MP4",
   "compress_mp4.faq.items": [
     {
-      "q": "Meu vídeo é enviado para um servidor?",
-      "a": "Não. Toda a compressão é feita localmente usando FFmpeg.wasm (WebAssembly). Seu arquivo de vídeo nunca sai do seu dispositivo."
+      "q": "Como comprimir MP4 online grátis?",
+      "a": "Para comprimir MP4 online, selecione um arquivo MP4 do seu dispositivo, escolha uma predefinição ou defina o tamanho final desejado e clique em Comprimir. O processo roda diretamente no navegador, sem upload, sem cadastro e sem instalar programas."
     },
     {
-      "q": "Qual é o tamanho máximo do arquivo?",
-      "a": "O vídeo pode ter até 500 MB."
+      "q": "Meu vídeo MP4 é enviado para um servidor?",
+      "a": "Não. A compressão do MP4 é feita localmente no seu navegador usando WebAssembly. Seu arquivo nunca sai do seu dispositivo e não é enviado para servidores."
+    },
+    {
+      "q": "Qual é o tamanho máximo do arquivo MP4?",
+      "a": "O arquivo MP4 pode ter até 500 MB. Vídeos maiores podem exigir mais memória e processamento do navegador, então o desempenho também depende do seu dispositivo."
+    },
+    {
+      "q": "Como reduzir o tamanho de um MP4 sem perder muita qualidade?",
+      "a": "Para reduzir o tamanho de um MP4 sem perder muita qualidade, escolha uma compressão equilibrada ou defina um tamanho final realista. Quanto menor o arquivo desejado, maior pode ser a perda de qualidade visual."
+    },
+    {
+      "q": "Posso definir um tamanho final para o arquivo MP4?",
+      "a": "Sim. Você pode escolher uma predefinição ou informar um tamanho final personalizado para reduzir o MP4 ao limite necessário para e-mail, apps de mensagem ou plataformas como Gmail, Discord, Slack e WhatsApp."
+    },
+    {
+      "q": "Preciso criar conta para usar o compressor de MP4?",
+      "a": "Não. O compressor de MP4 online funciona sem cadastro. Basta abrir a página, selecionar o vídeo MP4 e iniciar a compressão diretamente no navegador."
+    },
+    {
+      "q": "O MP4 comprimido fica com marca-d’água?",
+      "a": "Não. A ferramenta não adiciona marca-d’água ao vídeo. Você pode comprimir o MP4 e baixar o arquivo final sem logotipo, texto ou marca visual adicionada."
+    },
+    {
+      "q": "Por que meu MP4 demora para comprimir?",
+      "a": "A compressão pode demorar mais quando o MP4 é grande, tem alta resolução ou longa duração. Como o processamento acontece no navegador, o tempo depende do tamanho do arquivo e da potência do seu dispositivo."
+    },
+    {
+      "q": "Essa ferramenta serve apenas para arquivos MP4?",
+      "a": "Esta página é focada em comprimir arquivos MP4. Se você precisa comprimir outros formatos, como MOV, AVI, MKV ou WebM, use o compressor de vídeo online geral."
+    },
+    {
+      "q": "Qual é a diferença entre comprimir MP4 e reduzir tamanho de MP4?",
+      "a": "Comprimir MP4 é o processo usado para diminuir o peso do arquivo. Reduzir tamanho de MP4 é o resultado que o usuário procura: deixar o vídeo mais leve para enviar, compartilhar ou armazenar."
     }
   ],
   "_comment_reduce_video_size": "================ Reduce Video Size ================",
-  "reduce_video_size.seo.title": "FileYuzu — Reduzir tamanho de vídeo online grátis",
-  "reduce_video_size.seo.description": "Diminua e reduza o tamanho de vídeos online com o FileYuzu. Processe localmente no navegador sem fazer upload.",
+  "reduce_video_size.seo.title": "Reduzir tamanho de vídeo online grátis",
+  "reduce_video_size.seo.description": "Reduza o tamanho de vídeos online grátis e deixe arquivos grandes mais leves. Funciona no navegador, sem upload, sem cadastro e sem marca-d’água.",
   "reduce_video_size.hero.title": "Reduzir tamanho do arquivo de vídeo",
-  "reduce_video_size.hero.description": "Diminua seus vídeos com rapidez e segurança no navegador.",
-  "reduce_video_size.upload.title": "Solte um arquivo de vídeo aqui",
-  "reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · até 500 MB",
-  "reduce_video_size.upload.btn_select": "Selecionar arquivo",
-  "reduce_video_size.upload.btn_sample": "Testar exemplo",
-  "reduce_video_size.upload.hint": "Selecione um arquivo de vídeo para reduzir o tamanho",
+  "reduce_video_size.hero.description": "Diminua o tamanho de vídeos grandes direto no navegador. Deixe seus arquivos mais leves para enviar, compartilhar ou armazenar — sem upload e sem cadastro.",
+
   "reduce_video_size.settings.auto_optimize": "Otimização automática",
   "reduce_video_size.settings.size_lbl": "Tamanho de arquivo desejado",
   "reduce_video_size.btn.compress": "Reduzir tamanho",
@@ -352,239 +505,534 @@
   "reduce_video_size.proc.compressing": "Reduzindo tamanho",
   "reduce_video_size.how_to_use.title": "Como reduzir o tamanho de vídeo online",
   "reduce_video_size.how_to_use.steps": [
-    "Envie um arquivo de vídeo do seu dispositivo.",
-    "Selecione o tamanho de arquivo desejado ou o nível de compressão.",
-    "Clique em Reduzir tamanho e aguarde o processo ser concluído localmente no seu navegador."
+    "Selecione um arquivo de vídeo do seu dispositivo ou arraste e solte o vídeo na área de upload.",
+    "Escolha o tamanho final desejado ou use uma predefinição para deixar o vídeo mais leve.",
+    "Clique em Reduzir tamanho e aguarde alguns instantes. O processo acontece localmente no seu navegador — seu vídeo nunca é enviado para servidores. Depois, baixe o arquivo reduzido."
   ],
-  "reduce_video_size.why_use.title": "Por que usar o FileYuzu para reduzir tamanho",
+  "reduce_video_size.why_use.title": "Por que usar o UploadLess para reduzir tamanho",
   "reduce_video_size.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "Seguro e privado",
-      "description": "Todos os arquivos são processados localmente no seu dispositivo. Sem uploads."
+      "title": "Redução privada",
+      "description": "O vídeo é reduzido diretamente no seu navegador. Seu arquivo não sai do dispositivo e nunca é enviado para servidores."
     },
     {
       "icon": "bolt",
-      "title": "Início imediato",
-      "description": "Não é necessário cadastro nem instalação de software."
+      "title": "Rápido e sem cadastro",
+      "description": "Comece a reduzir o tamanho do vídeo na hora. Sem conta, sem instalação e sem marca-d’água."
     },
     {
       "icon": "player-play",
-      "title": "Fácil de usar",
-      "description": "Interface simples, criada para reduzir vídeos rapidamente."
+      "title": "Deixe vídeos mais leves",
+      "description": "Diminua arquivos de vídeo grandes com um fluxo simples, ideal para enviar, compartilhar ou economizar espaço."
     },
     {
       "icon": "adjustments",
-      "title": "Metas personalizadas",
-      "description": "Ajuste facilmente seus vídeos aos limites de tamanho de e-mail ou chat."
+      "title": "Tamanho final sob controle",
+      "description": "Escolha uma meta de tamanho para ajustar o vídeo aos limites de e-mail, chat, redes sociais e plataformas de trabalho."
     }
   ],
   "reduce_video_size.faq.title": "FAQ sobre redução de tamanho de vídeo",
   "reduce_video_size.faq.items": [
     {
-      "q": "Reduzir o tamanho diminui a qualidade?",
-      "a": "Sim, reduzir o tamanho do arquivo inevitavelmente envolve alguma perda de qualidade, mas nossas predefinições otimizadas equilibram muito bem tamanho e nitidez."
+      "q": "Como reduzir o tamanho de um vídeo online grátis?",
+      "a": "Para reduzir o tamanho de um vídeo online, selecione um arquivo do seu dispositivo, escolha o tamanho final desejado ou uma predefinição e clique em Reduzir tamanho. O processo acontece diretamente no navegador, sem upload, sem cadastro e sem instalar programas."
     },
     {
-      "q": "Esta ferramenta é gratuita?",
-      "a": "Sim, ela é totalmente gratuita e sem marcas-d’água."
+      "q": "Reduzir o tamanho do vídeo diminui a qualidade?",
+      "a": "Sim. Reduzir o tamanho do arquivo de vídeo normalmente envolve alguma perda de qualidade, porque o arquivo final precisa ficar mais leve. Para manter um bom resultado, escolha uma meta de tamanho realista e evite reduções muito agressivas."
+    },
+    {
+      "q": "Esta ferramenta para reduzir vídeo é gratuita?",
+      "a": "Sim. A ferramenta é gratuita, funciona online e não adiciona marca-d’água ao vídeo reduzido. Você também não precisa criar conta para usar."
+    },
+    {
+      "q": "Meu vídeo é enviado para algum servidor?",
+      "a": "Não. O vídeo é processado localmente no seu navegador. Seu arquivo não sai do seu dispositivo e não é enviado para servidores, o que ajuda a manter mais privacidade."
+    },
+    {
+      "q": "Quais formatos de vídeo posso reduzir?",
+      "a": "Você pode reduzir o tamanho de formatos populares como MP4, MOV, AVI, MKV e WebM. A ferramenta é útil para diminuir arquivos grandes antes de enviar, compartilhar ou armazenar."
+    },
+    {
+      "q": "Posso escolher o tamanho final do vídeo?",
+      "a": "Sim. Você pode definir uma meta de tamanho personalizada para deixar o vídeo mais leve. Isso ajuda a ajustar o arquivo para limites de e-mail, chat, redes sociais ou plataformas de trabalho."
+    },
+    {
+      "q": "Como deixar um vídeo mais leve para enviar pelo WhatsApp?",
+      "a": "Selecione o vídeo, escolha uma meta de tamanho menor e clique em Reduzir tamanho. Depois, baixe o arquivo reduzido e envie pelo WhatsApp. Quanto menor a meta escolhida, mais leve o vídeo fica, mas a qualidade também pode diminuir."
+    },
+    {
+      "q": "Por que meu vídeo ainda ficou grande depois de reduzir?",
+      "a": "O tamanho final depende da duração, resolução, taxa de bits e conteúdo do vídeo. Vídeos longos, em alta resolução ou com muito movimento podem continuar grandes mesmo após a redução. Para diminuir mais, escolha uma meta menor ou uma predefinição mais forte."
+    },
+    {
+      "q": "Qual é a diferença entre reduzir tamanho de vídeo e comprimir vídeo?",
+      "a": "Reduzir tamanho de vídeo descreve o objetivo: deixar o arquivo menor e mais leve. Comprimir vídeo descreve o processo técnico usado para alcançar esse resultado. Nesta página, o foco é reduzir o tamanho final do arquivo."
+    },
+    {
+      "q": "Preciso instalar algum programa para diminuir o vídeo?",
+      "a": "Não. Você pode diminuir o tamanho do vídeo online, direto no navegador. Não é necessário instalar software, criar conta ou fazer upload do arquivo para servidores."
     }
   ],
   "pdf_compressor.pages": "páginas",
   "_comment_mov_to_mp4": "================ MOV to MP4 ================",
-  "mov_to_mp4.seo.title": "FileYuzu — Converter MOV para MP4 online grátis",
-  "mov_to_mp4.seo.description": "Converta arquivos de vídeo MOV para MP4 online com o FileYuzu. Conversão rápida e privada no navegador.",
-  "mov_to_mp4.hero.title": "Converter MOV para MP4",
-  "mov_to_mp4.hero.description": "Converta seus vídeos MOV para o formato MP4 com facilidade e segurança no navegador.",
+  "mov_to_mp4.seo.title": "Converter MOV para MP4 online grátis | UploadLess",
+  "mov_to_mp4.seo.description": "Converta MOV para MP4 online grátis, rápido e com privacidade no navegador. Transforme vídeos MOV em MP4 sem instalar programas.",
+  "mov_to_mp4.hero.title": "Converter MOV para MP4 online",
+  "mov_to_mp4.hero.description": "Transforme arquivos MOV em MP4 direto no navegador. Conversão grátis, rápida e privada, ideal para vídeos do iPhone, Mac e câmeras.",
   "mov_to_mp4.how_to_use.title": "Como converter MOV para MP4 online",
   "mov_to_mp4.how_to_use.steps": [
-    "Envie um arquivo MOV do seu dispositivo.",
-    "Clique em Converter e aguarde. O processo roda localmente no seu dispositivo para total privacidade. Baixe seu arquivo MP4 quando terminar."
+    "Envie um arquivo MOV do seu dispositivo ou arraste e solte o vídeo na área de upload.",
+    "Clique em Converter e aguarde. A conversão de MOV para MP4 acontece no seu navegador para manter seus arquivos privados. Baixe o MP4 quando terminar."
   ],
-  "mov_to_mp4.why_use.title": "Por que usar o conversor do FileYuzu",
+  "mov_to_mp4.why_use.title": "Por que usar o conversor do UploadLess",
   "mov_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% privado",
-      "description": "A conversão roda localmente no seu navegador. Seus arquivos nunca saem do seu dispositivo."
+      "title": "Privado no navegador",
+      "description": "A conversão de MOV para MP4 acontece localmente no seu navegador. Seus arquivos não precisam ser enviados para servidores."
     },
     {
       "icon": "bolt",
-      "title": "Não é necessário cadastro",
-      "description": "Comece a converter imediatamente sem criar conta nem lidar com limites."
+      "title": "Sem cadastro",
+      "description": "Converta arquivos MOV online sem criar conta, instalar programas ou passar por etapas desnecessárias."
+    },
+    {
+      "icon": "player-play",
+      "title": "MP4 mais compatível",
+      "description": "Transforme vídeos MOV em MP4 para abrir, compartilhar e reproduzir com mais facilidade em celulares, computadores e redes sociais."
+    },
+    {
+      "icon": "device-mobile",
+      "title": "Ideal para iPhone e Mac",
+      "description": "Converta vídeos MOV gravados no iPhone, iPad ou Mac para MP4, um formato mais prático para enviar, editar e publicar."
     }
   ],
   "mov_to_mp4.faq.title": "FAQ de MOV para MP4",
   "mov_to_mp4.faq.items": [
     {
-      "q": "Meus arquivos são enviados para um servidor?",
-      "a": "Não, toda a conversão é feita localmente no seu dispositivo. Não armazenamos nem processamos seus arquivos em nossos servidores."
+      "q": "Como converter MOV para MP4 online?",
+      "a": "Para converter MOV para MP4 online, envie seu arquivo MOV, clique em Converter e aguarde o processamento. Quando terminar, baixe o vídeo em MP4 diretamente no seu dispositivo."
+    },
+    {
+      "q": "Meus arquivos MOV são enviados para um servidor?",
+      "a": "Não. A conversão de MOV para MP4 acontece localmente no seu navegador. Seus arquivos não precisam ser enviados para servidores, o que ajuda a manter seus vídeos privados."
+    },
+    {
+      "q": "Por que converter MOV para MP4?",
+      "a": "O formato MP4 costuma ser mais compatível com celulares, computadores, navegadores, redes sociais e editores de vídeo. Converter MOV para MP4 facilita reproduzir, compartilhar e publicar seus vídeos."
+    },
+    {
+      "q": "Posso converter vídeos MOV do iPhone para MP4?",
+      "a": "Sim. Arquivos MOV gravados no iPhone, iPad ou Mac podem ser convertidos para MP4, deixando o vídeo mais fácil de abrir, enviar, editar ou postar em diferentes plataformas."
+    },
+    {
+      "q": "Preciso instalar algum programa para converter MOV em MP4?",
+      "a": "Não. O conversor MOV para MP4 funciona direto no navegador, sem instalar programas, aplicativos ou extensões. Basta abrir a ferramenta, enviar o vídeo e baixar o arquivo convertido."
+    },
+    {
+      "q": "Converter MOV para MP4 reduz a qualidade do vídeo?",
+      "a": "A conversão pode alterar a qualidade dependendo das configurações e do arquivo original. Em geral, o MP4 mantém boa qualidade visual e oferece melhor compatibilidade para uso no dia a dia."
+    },
+    {
+      "q": "Posso converter MOV para MP4 grátis?",
+      "a": "Sim. Você pode converter arquivos MOV para MP4 gratuitamente, sem cadastro e sem precisar enviar seus vídeos para serviços externos."
+    },
+    {
+      "q": "Qual é a diferença entre MOV e MP4?",
+      "a": "MOV é um formato muito usado por dispositivos Apple, como iPhone e Mac. MP4 é mais universal e costuma funcionar melhor em navegadores, celulares Android, redes sociais e players de vídeo."
+    },
+    {
+      "q": "Posso converter arquivos MOV grandes?",
+      "a": "Sim, mas o desempenho depende da memória e da capacidade do seu dispositivo, já que a conversão roda no navegador. Para vídeos grandes, mantenha a aba aberta até o processo terminar."
+    },
+    {
+      "q": "O arquivo MP4 convertido terá marca d’água?",
+      "a": "Não. A ferramenta converte MOV para MP4 sem adicionar marca d’água ao vídeo final. O arquivo convertido fica pronto para baixar e usar."
     }
   ],
   "_comment_avi_to_mp4": "================ AVI to MP4 ================",
-  "avi_to_mp4.seo.title": "FileYuzu — Converter AVI para MP4 online grátis",
-  "avi_to_mp4.seo.description": "Converta arquivos de vídeo AVI para MP4 online com o FileYuzu. Conversão rápida e privada no navegador.",
-  "avi_to_mp4.hero.title": "Converter AVI para MP4",
-  "avi_to_mp4.hero.description": "Converta seus vídeos AVI para o formato MP4 com facilidade e segurança no navegador.",
+  "avi_to_mp4.seo.title": "Converter AVI para MP4 online grátis | UploadLess",
+  "avi_to_mp4.seo.description": "Converta AVI para MP4 online grátis, rápido e com privacidade no navegador. Transforme vídeos AVI em MP4 sem instalar programas.",
+  "avi_to_mp4.hero.title": "Converter AVI para MP4 online",
+  "avi_to_mp4.hero.description": "Transforme arquivos AVI em MP4 direto no navegador. Conversão grátis, rápida e privada para deixar seus vídeos mais compatíveis.",
   "avi_to_mp4.how_to_use.title": "Como converter AVI para MP4 online",
   "avi_to_mp4.how_to_use.steps": [
-    "Envie um arquivo AVI do seu dispositivo.",
-    "Clique em Converter e aguarde. O processo roda localmente no seu dispositivo para total privacidade. Baixe seu arquivo MP4 quando terminar."
+    "Envie um arquivo AVI do seu dispositivo ou arraste e solte o vídeo na área de upload.",
+    "Clique em Converter e aguarde. A conversão de AVI para MP4 acontece no seu navegador para manter seus arquivos privados. Baixe o MP4 quando terminar."
   ],
-  "avi_to_mp4.why_use.title": "Por que usar o conversor do FileYuzu",
+  "avi_to_mp4.why_use.title": "Por que usar o conversor do UploadLess",
   "avi_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% privado",
-      "description": "A conversão roda localmente no seu navegador. Seus arquivos nunca saem do seu dispositivo."
+      "title": "Privado no navegador",
+      "description": "A conversão de AVI para MP4 acontece localmente no seu navegador. Seus arquivos não precisam ser enviados para servidores."
     },
     {
       "icon": "bolt",
-      "title": "Não é necessário cadastro",
-      "description": "Comece a converter imediatamente sem criar uma conta."
+      "title": "Sem cadastro",
+      "description": "Converta arquivos AVI online sem criar conta, instalar programas ou passar por etapas desnecessárias."
+    },
+    {
+      "icon": "player-play",
+      "title": "MP4 mais compatível",
+      "description": "Transforme vídeos AVI em MP4 para abrir, compartilhar e reproduzir com mais facilidade em celulares, computadores e redes sociais."
+    },
+    {
+      "icon": "download",
+      "title": "Sem instalar programas",
+      "description": "Use o conversor AVI para MP4 direto no navegador, sem baixar aplicativos, extensões ou softwares adicionais."
     }
   ],
   "avi_to_mp4.faq.title": "FAQ de AVI para MP4",
   "avi_to_mp4.faq.items": [
     {
-      "q": "Meus arquivos são enviados para um servidor?",
-      "a": "Não, toda a conversão é feita localmente no seu dispositivo."
+      "q": "Como converter AVI para MP4 online?",
+      "a": "Para converter AVI para MP4 online, envie seu arquivo AVI, clique em Converter e aguarde o processamento. Quando terminar, baixe o vídeo em MP4 diretamente no seu dispositivo."
+    },
+    {
+      "q": "Meus arquivos AVI são enviados para um servidor?",
+      "a": "Não. A conversão de AVI para MP4 acontece localmente no seu navegador. Seus arquivos não precisam ser enviados para servidores, o que ajuda a manter seus vídeos privados."
+    },
+    {
+      "q": "Por que converter AVI para MP4?",
+      "a": "O MP4 costuma ser mais compatível com celulares, computadores, navegadores, redes sociais e players modernos. Converter AVI para MP4 facilita reproduzir, compartilhar e publicar seus vídeos."
+    },
+    {
+      "q": "Preciso instalar algum programa para converter AVI em MP4?",
+      "a": "Não. O conversor AVI para MP4 funciona direto no navegador, sem instalar programas, aplicativos ou extensões. Basta abrir a ferramenta, enviar o vídeo e baixar o arquivo convertido."
+    },
+    {
+      "q": "Posso converter AVI para MP4 grátis?",
+      "a": "Sim. Você pode converter arquivos AVI para MP4 gratuitamente, sem cadastro e sem precisar usar softwares pagos ou serviços complicados."
+    },
+    {
+      "q": "Converter AVI para MP4 reduz a qualidade do vídeo?",
+      "a": "A conversão pode alterar a qualidade dependendo do arquivo original e das configurações usadas. Em geral, o MP4 mantém boa qualidade visual e oferece melhor compatibilidade para uso diário."
+    },
+    {
+      "q": "Qual é a diferença entre AVI e MP4?",
+      "a": "AVI é um formato de vídeo mais antigo e pode ter problemas de compatibilidade em alguns dispositivos e navegadores. MP4 é mais moderno, leve e amplamente aceito em celulares, computadores e plataformas online."
+    },
+    {
+      "q": "Posso converter arquivos AVI grandes?",
+      "a": "Sim, mas o desempenho depende da memória e da capacidade do seu dispositivo, já que a conversão roda no navegador. Para vídeos grandes, mantenha a aba aberta até o processo terminar."
+    },
+    {
+      "q": "O arquivo MP4 convertido terá marca d’água?",
+      "a": "Não. A ferramenta converte AVI para MP4 sem adicionar marca d’água ao vídeo final. O arquivo convertido fica pronto para baixar e usar."
+    },
+    {
+      "q": "O MP4 convertido funciona no celular e nas redes sociais?",
+      "a": "Sim. O formato MP4 é amplamente compatível com celulares Android, iPhone, navegadores, aplicativos de mensagem, redes sociais e editores de vídeo."
     }
   ],
   "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
-  "mkv_to_mp4.seo.title": "FileYuzu — Converter MKV para MP4 online grátis",
-  "mkv_to_mp4.seo.description": "Converta arquivos de vídeo MKV para MP4 online com o FileYuzu. Conversão rápida e privada no navegador.",
-  "mkv_to_mp4.hero.title": "Converter MKV para MP4",
-  "mkv_to_mp4.hero.description": "Converta seus vídeos MKV para o formato MP4 com facilidade e segurança no navegador.",
+  "mkv_to_mp4.seo.title": "Converter MKV para MP4 online grátis | UploadLess",
+  "mkv_to_mp4.seo.description": "Converta MKV para MP4 online grátis, rápido e com privacidade no navegador. Transforme vídeos MKV em MP4 sem instalar programas.",
+  "mkv_to_mp4.hero.title": "Converter MKV para MP4 online",
+  "mkv_to_mp4.hero.description": "Transforme arquivos MKV em MP4 direto no navegador. Conversão grátis, rápida e privada para deixar seus vídeos mais compatíveis.",
   "mkv_to_mp4.how_to_use.title": "Como converter MKV para MP4 online",
   "mkv_to_mp4.how_to_use.steps": [
-    "Envie um arquivo MKV do seu dispositivo.",
-    "Clique em Converter e aguarde. O processo roda localmente no seu dispositivo para total privacidade. Baixe seu arquivo MP4 quando terminar."
+    "Envie um arquivo MKV do seu dispositivo ou arraste e solte o vídeo na área de upload.",
+    "Clique em Converter e aguarde. A conversão de MKV para MP4 acontece no seu navegador para manter seus arquivos privados. Baixe o MP4 quando terminar."
   ],
-  "mkv_to_mp4.why_use.title": "Por que usar o conversor do FileYuzu",
+  "mkv_to_mp4.why_use.title": "Por que usar o conversor do UploadLess",
   "mkv_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% privado",
-      "description": "A conversão roda localmente no seu navegador. Seus arquivos nunca saem do seu dispositivo."
+      "title": "Privado no navegador",
+      "description": "A conversão de MKV para MP4 acontece localmente no seu navegador. Seus arquivos não precisam ser enviados para servidores."
     },
     {
       "icon": "bolt",
-      "title": "Não é necessário cadastro",
-      "description": "Comece a converter imediatamente sem criar uma conta."
+      "title": "Sem cadastro",
+      "description": "Converta arquivos MKV online sem criar conta, instalar programas ou passar por etapas desnecessárias."
+    },
+    {
+      "icon": "player-play",
+      "title": "MP4 mais compatível",
+      "description": "Transforme vídeos MKV em MP4 para abrir, compartilhar e reproduzir com mais facilidade em celulares, computadores e redes sociais."
+    },
+    {
+      "icon": "movie",
+      "title": "Ideal para vídeos MKV",
+      "description": "Converta arquivos MKV, incluindo filmes, gravações e vídeos longos, para um formato MP4 mais prático para assistir e enviar."
     }
   ],
   "mkv_to_mp4.faq.title": "FAQ de MKV para MP4",
   "mkv_to_mp4.faq.items": [
     {
-      "q": "Meus arquivos são enviados para um servidor?",
-      "a": "Não, toda a conversão é feita localmente no seu dispositivo."
+      "q": "Como converter MKV para MP4 online?",
+      "a": "Para converter MKV para MP4 online, envie seu arquivo MKV, clique em Converter e aguarde o processamento. Quando terminar, baixe o vídeo em MP4 diretamente no seu dispositivo."
+    },
+    {
+      "q": "Meus arquivos MKV são enviados para um servidor?",
+      "a": "Não. A conversão de MKV para MP4 acontece localmente no seu navegador. Seus arquivos não precisam ser enviados para servidores, o que ajuda a manter seus vídeos privados."
+    },
+    {
+      "q": "Por que converter MKV para MP4?",
+      "a": "O MP4 costuma ser mais compatível com celulares, computadores, navegadores, redes sociais, TVs e players de vídeo. Converter MKV para MP4 facilita assistir, compartilhar e publicar seus vídeos."
+    },
+    {
+      "q": "Preciso instalar algum programa para converter MKV em MP4?",
+      "a": "Não. O conversor MKV para MP4 funciona direto no navegador, sem instalar programas, aplicativos ou extensões. Basta abrir a ferramenta, enviar o vídeo e baixar o arquivo convertido."
+    },
+    {
+      "q": "Posso converter MKV para MP4 grátis?",
+      "a": "Sim. Você pode converter arquivos MKV para MP4 gratuitamente, sem cadastro e sem precisar usar softwares pagos ou serviços complicados."
+    },
+    {
+      "q": "Converter MKV para MP4 reduz a qualidade do vídeo?",
+      "a": "A conversão pode alterar a qualidade dependendo do arquivo original e das configurações usadas. Em geral, o MP4 mantém boa qualidade visual e oferece melhor compatibilidade para uso diário."
+    },
+    {
+      "q": "Qual é a diferença entre MKV e MP4?",
+      "a": "MKV é um contêiner flexível que pode incluir vídeo, várias faixas de áudio e legendas. MP4 é mais amplamente aceito em dispositivos, navegadores, redes sociais e players modernos."
+    },
+    {
+      "q": "O que acontece com as legendas e faixas de áudio do MKV?",
+      "a": "Arquivos MKV podem conter várias faixas de áudio e legendas. Ao converter para MP4, o resultado pode depender das faixas reconhecidas pelo navegador e das opções disponíveis na ferramenta."
+    },
+    {
+      "q": "Posso converter arquivos MKV grandes?",
+      "a": "Sim, mas o desempenho depende da memória e da capacidade do seu dispositivo, já que a conversão roda no navegador. Para vídeos grandes, mantenha a aba aberta até o processo terminar."
+    },
+    {
+      "q": "O arquivo MP4 convertido terá marca d’água?",
+      "a": "Não. A ferramenta converte MKV para MP4 sem adicionar marca d’água ao vídeo final. O arquivo convertido fica pronto para baixar e usar."
     }
   ],
   "_comment_webm_to_mp4": "================ WebM to MP4 ================",
-  "webm_to_mp4.seo.title": "FileYuzu — Converter WebM para MP4 online grátis",
-  "webm_to_mp4.seo.description": "Converta arquivos de vídeo WebM para MP4 online com o FileYuzu. Conversão rápida e privada no navegador.",
-  "webm_to_mp4.hero.title": "Converter WebM para MP4",
-  "webm_to_mp4.hero.description": "Converta seus vídeos WebM para o formato MP4 com facilidade e segurança no navegador.",
+  "webm_to_mp4.seo.title": "Converter WebM para MP4 online grátis | UploadLess",
+  "webm_to_mp4.seo.description": "Converta WebM para MP4 online grátis, rápido e com privacidade no navegador. Transforme vídeos WebM em MP4 sem instalar programas.",
+  "webm_to_mp4.hero.title": "Converter WebM para MP4 online",
+  "webm_to_mp4.hero.description": "Transforme arquivos WebM em MP4 direto no navegador. Conversão grátis, rápida e privada para deixar seus vídeos mais compatíveis.",
   "webm_to_mp4.how_to_use.title": "Como converter WebM para MP4 online",
   "webm_to_mp4.how_to_use.steps": [
-    "Envie um arquivo WebM do seu dispositivo.",
-    "Clique em Converter e aguarde. O processo roda localmente no seu dispositivo para total privacidade. Baixe seu arquivo MP4 quando terminar."
+    "Envie um arquivo WebM do seu dispositivo ou arraste e solte o vídeo na área de upload.",
+    "Clique em Converter e aguarde. A conversão de WebM para MP4 acontece no seu navegador para manter seus arquivos privados. Baixe o MP4 quando terminar."
   ],
-  "webm_to_mp4.why_use.title": "Por que usar o conversor do FileYuzu",
+  "webm_to_mp4.why_use.title": "Por que usar o conversor do UploadLess",
   "webm_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% privado",
-      "description": "A conversão roda localmente no seu navegador. Seus arquivos nunca saem do seu dispositivo."
+      "title": "Privado no navegador",
+      "description": "A conversão de WebM para MP4 acontece localmente no seu navegador. Seus arquivos não precisam ser enviados para servidores."
     },
     {
       "icon": "bolt",
-      "title": "Não é necessário cadastro",
-      "description": "Comece a converter imediatamente sem criar uma conta."
+      "title": "Sem cadastro",
+      "description": "Converta arquivos WebM online sem criar conta, instalar programas ou passar por etapas desnecessárias."
+    },
+    {
+      "icon": "player-play",
+      "title": "MP4 mais compatível",
+      "description": "Transforme vídeos WebM em MP4 para abrir, compartilhar e reproduzir com mais facilidade em celulares, computadores e redes sociais."
+    },
+    {
+      "icon": "browser",
+      "title": "Ideal para vídeos da web",
+      "description": "Converta arquivos WebM baixados do navegador, sites ou ferramentas online para um formato MP4 mais prático de usar."
     }
   ],
   "webm_to_mp4.faq.title": "FAQ de WebM para MP4",
   "webm_to_mp4.faq.items": [
     {
-      "q": "Meus arquivos são enviados para um servidor?",
-      "a": "Não, toda a conversão é feita localmente no seu dispositivo."
+      "q": "Como converter WebM para MP4 online?",
+      "a": "Para converter WebM para MP4 online, envie seu arquivo WebM, clique em Converter e aguarde o processamento. Quando terminar, baixe o vídeo em MP4 diretamente no seu dispositivo."
+    },
+    {
+      "q": "Meus arquivos WebM são enviados para um servidor?",
+      "a": "Não. A conversão de WebM para MP4 acontece localmente no seu navegador. Seus arquivos não precisam ser enviados para servidores, o que ajuda a manter seus vídeos privados."
+    },
+    {
+      "q": "Por que converter WebM para MP4?",
+      "a": "O MP4 costuma ser mais compatível com celulares, computadores, redes sociais, aplicativos de mensagem e editores de vídeo. Converter WebM para MP4 facilita abrir, compartilhar e publicar seus vídeos."
+    },
+    {
+      "q": "Preciso instalar algum programa para converter WebM em MP4?",
+      "a": "Não. O conversor WebM para MP4 funciona direto no navegador, sem instalar programas, aplicativos ou extensões. Basta abrir a ferramenta, enviar o vídeo e baixar o arquivo convertido."
+    },
+    {
+      "q": "Posso converter WebM para MP4 grátis?",
+      "a": "Sim. Você pode converter arquivos WebM para MP4 gratuitamente, sem cadastro e sem precisar usar softwares pagos ou serviços complicados."
+    },
+    {
+      "q": "Converter WebM para MP4 reduz a qualidade do vídeo?",
+      "a": "A conversão pode alterar a qualidade dependendo do arquivo original e das configurações usadas. Em geral, o MP4 mantém boa qualidade visual e oferece melhor compatibilidade para uso diário."
+    },
+    {
+      "q": "Qual é a diferença entre WebM e MP4?",
+      "a": "WebM é um formato muito usado na web e em navegadores. MP4 é mais amplamente aceito em celulares, redes sociais, editores, players de vídeo e aplicativos de mensagem."
+    },
+    {
+      "q": "Posso converter vídeos WebM baixados do navegador?",
+      "a": "Sim. Você pode converter arquivos WebM baixados de sites, ferramentas online ou gravações do navegador para MP4, deixando o vídeo mais fácil de abrir e compartilhar."
+    },
+    {
+      "q": "Posso converter arquivos WebM grandes?",
+      "a": "Sim, mas o desempenho depende da memória e da capacidade do seu dispositivo, já que a conversão roda no navegador. Para vídeos grandes, mantenha a aba aberta até o processo terminar."
+    },
+    {
+      "q": "O arquivo MP4 convertido terá marca d’água?",
+      "a": "Não. A ferramenta converte WebM para MP4 sem adicionar marca d’água ao vídeo final. O arquivo convertido fica pronto para baixar e usar."
     }
   ],
   "_comment_video_to_mp3": "================ Video to MP3 ================",
-  "video_to_mp3.seo.title": "FileYuzu — Extrair áudio de vídeo (Vídeo para MP3) online grátis",
-  "video_to_mp3.seo.description": "Converta vídeo para MP3 online com o FileYuzu. Extraia áudio dos seus arquivos de vídeo com facilidade no navegador.",
-  "video_to_mp3.hero.title": "Converter vídeo para MP3",
-  "video_to_mp3.hero.description": "Extraia a faixa de áudio do seu vídeo e salve como um arquivo MP3 diretamente no navegador.",
+  "video_to_mp3.seo.title": "Extrair áudio de vídeo online grátis — MP4 para MP3",
+  "video_to_mp3.seo.description": "Extraia áudio de vídeo online grátis e converta MP4 para MP3 no navegador. Transforme vídeos em áudio com rapidez, privacidade e sem instalar.",
+  "video_to_mp3.hero.title": "Extrair áudio de vídeo",
+  "video_to_mp3.hero.description": "Converta vídeos em MP3 direto no navegador. Envie arquivos MP4, MOV, AVI, MKV ou WebM e extraia o áudio com rapidez e privacidade.",
   "video_to_mp3.how_to_use.title": "Como converter vídeo para MP3 online",
   "video_to_mp3.how_to_use.steps": [
-    "Envie um arquivo de vídeo do seu dispositivo.",
-    "Clique em Converter e aguarde. O processo roda localmente no seu dispositivo. Baixe seu arquivo MP3 quando terminar."
+    "Envie o vídeo do seu dispositivo para extrair o áudio.",
+    "Clique em Converter e aguarde. O processo roda localmente no seu navegador.",
+    "Baixe o arquivo MP3 quando a conversão terminar."
   ],
-  "video_to_mp3.why_use.title": "Por que usar o extrator de áudio do FileYuzu",
+  "video_to_mp3.why_use.title": "Por que usar o extrator de áudio do UploadLess",
   "video_to_mp3.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% privado",
-      "description": "A conversão roda localmente no seu navegador. Seus arquivos nunca saem do seu dispositivo."
+      "title": "Conversão privada",
+      "description": "Extraia áudio de vídeo direto no navegador. Seus arquivos não são enviados para servidores."
     },
     {
       "icon": "bolt",
-      "title": "Não é necessário cadastro",
-      "description": "Comece a converter imediatamente sem criar uma conta."
+      "title": "Rápido e fácil",
+      "description": "Converta vídeo para MP3 em poucos cliques, sem instalar programas no seu dispositivo."
+    },
+    {
+      "icon": "user-x",
+      "title": "Sem cadastro",
+      "description": "Use a ferramenta online grátis imediatamente, sem criar conta ou informar dados pessoais."
+    },
+    {
+      "icon": "file-audio",
+      "title": "MP3 pronto para baixar",
+      "description": "Transforme MP4, MOV, AVI, MKV ou WebM em MP3 e baixe o áudio quando a conversão terminar."
     }
   ],
   "video_to_mp3.faq.title": "FAQ de vídeo para MP3",
   "video_to_mp3.faq.items": [
     {
+      "q": "Como extrair áudio de vídeo online?",
+      "a": "Envie seu arquivo de vídeo, clique em Converter e baixe o áudio em MP3 quando o processo terminar. A conversão acontece diretamente no navegador."
+    },
+    {
+      "q": "Posso converter MP4 para MP3 grátis?",
+      "a": "Sim. Você pode converter MP4 para MP3 online grátis, sem instalar programas e sem criar uma conta."
+    },
+    {
       "q": "Meus arquivos são enviados para um servidor?",
-      "a": "Não, toda a conversão é feita localmente no seu dispositivo."
+      "a": "Não. A conversão roda localmente no seu navegador, então seus vídeos não são enviados para servidores."
+    },
+    {
+      "q": "Quais formatos de vídeo posso transformar em MP3?",
+      "a": "Você pode extrair áudio de formatos comuns como MP4, MOV, AVI, MKV e WebM, salvando o resultado como arquivo MP3."
+    },
+    {
+      "q": "Dá para transformar vídeo em MP3 pelo celular?",
+      "a": "Sim. A ferramenta funciona no navegador do celular, tablet ou computador, sem precisar baixar aplicativos."
+    },
+    {
+      "q": "A qualidade do áudio é mantida ao converter vídeo para MP3?",
+      "a": "A ferramenta extrai o áudio do vídeo e gera um arquivo MP3. A qualidade final depende da qualidade do áudio original no arquivo enviado."
+    },
+    {
+      "q": "Preciso instalar algum programa para extrair áudio de vídeo?",
+      "a": "Não. Você pode extrair áudio de vídeo online direto no navegador, sem instalar software no dispositivo."
+    },
+    {
+      "q": "Posso extrair música de um vídeo?",
+      "a": "Sim. Se o vídeo tiver uma faixa de áudio ou música, você pode converter o vídeo em MP3 e baixar apenas o áudio."
+    },
+    {
+      "q": "Quanto tempo leva para converter vídeo para MP3?",
+      "a": "O tempo de conversão depende do tamanho do vídeo e da velocidade do seu dispositivo. Como o processo é local, arquivos menores costumam ficar prontos rapidamente."
+    },
+    {
+      "q": "O arquivo MP3 fica salvo automaticamente?",
+      "a": "Não. Depois que a conversão terminar, você precisa clicar para baixar o arquivo MP3 no seu dispositivo."
     }
   ],
   "_comment_mp4_converter": "================ MP4 Converter ================",
-  "mp4_converter.seo.title": "FileYuzu — Conversor de MP4 online grátis",
-  "mp4_converter.seo.description": "Converta qualquer vídeo para o formato MP4 online gratuitamente com o FileYuzu. Rápido, seguro e fácil de usar.",
-  "mp4_converter.hero.title": "Conversor de MP4",
-  "mp4_converter.hero.description": "Converta seus arquivos de vídeo para o formato MP4 com facilidade e segurança no navegador.",
+  "mp4_converter.seo.title": "Converter para MP4 online grátis | UploadLess",
+  "mp4_converter.seo.description": "Converta vídeos para MP4 online grátis, rápido e com privacidade no navegador. Transforme MOV, MKV, WebM, AVI e outros formatos em MP4.",
+  "mp4_converter.hero.title": "Converter vídeo para MP4 online",
+  "mp4_converter.hero.description": "Transforme seus arquivos de vídeo em MP4 direto no navegador. Conversão grátis, rápida e privada, sem instalar programas.",
   "mp4_converter.how_to_use.title": "Como converter vídeo para MP4 online",
   "mp4_converter.how_to_use.steps": [
-    "Envie seu arquivo de vídeo (MOV, AVI, WebM etc.).",
-    "Selecione MP4 como formato de destino.",
-    "Clique em Converter para iniciar o processo.",
-    "Baixe o arquivo MP4 convertido."
+    "Envie seu arquivo de vídeo em qualquer formato comum, como MOV, MKV, WebM, AVI, FLV, WMV ou outros.",
+    "Selecione MP4 como formato de saída para converter o vídeo para um formato mais compatível.",
+    "Clique em Converter e aguarde. O processo acontece no seu navegador para manter seus arquivos privados.",
+    "Baixe o arquivo MP4 convertido quando o processo terminar."
   ],
-  "mp4_converter.why_use.title": "Por que usar o conversor de MP4 do FileYuzu",
+  "mp4_converter.why_use.title": "Por que usar o conversor de MP4 do UploadLess",
   "mp4_converter.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% privado",
-      "description": "A conversão roda localmente no seu navegador. Seus arquivos nunca saem do seu dispositivo."
+      "title": "Privado no navegador",
+      "description": "A conversão para MP4 acontece localmente no seu navegador. Seus arquivos não precisam ser enviados para servidores."
     },
     {
       "icon": "bolt",
-      "title": "Não é necessário cadastro",
-      "description": "Comece a converter imediatamente sem criar conta nem lidar com limites."
+      "title": "Sem cadastro",
+      "description": "Converta vídeos para MP4 online sem criar conta, instalar programas ou passar por etapas desnecessárias."
     },
     {
       "icon": "player-play",
       "title": "Suporte a vários formatos",
-      "description": "Envie praticamente qualquer formato de vídeo e obtenha um arquivo MP4 padrão."
+      "description": "Envie vídeos em MOV, MKV, WebM, AVI, FLV, WMV e outros formatos comuns para gerar um arquivo MP4 compatível."
     },
     {
       "icon": "rocket",
-      "title": "Processamento rápido",
-      "description": "Otimizado para velocidade. Receba seus arquivos convertidos rapidamente, sem esperar em filas."
+      "title": "MP4 pronto para usar",
+      "description": "Crie arquivos MP4 fáceis de reproduzir, enviar, editar e publicar em celulares, computadores, redes sociais e aplicativos."
     }
   ],
   "mp4_converter.faq.title": "FAQ do conversor de MP4",
   "mp4_converter.faq.items": [
     {
-      "q": "É gratuito?",
-      "a": "Sim, o conversor de MP4 do FileYuzu é totalmente gratuito e sem limites."
+      "q": "Como converter vídeo para MP4 online?",
+      "a": "Para converter vídeo para MP4 online, envie seu arquivo, selecione MP4 como formato de saída e clique em Converter. Quando o processo terminar, baixe o arquivo MP4 convertido no seu dispositivo."
     },
     {
-      "q": "Meus arquivos estão seguros?",
-      "a": "Com certeza. Todas as conversões acontecem localmente no seu navegador, então seus arquivos nunca são enviados para nossos servidores."
+      "q": "Quais formatos posso converter para MP4?",
+      "a": "Você pode converter vários formatos de vídeo para MP4, como MOV, MKV, WebM, AVI, FLV, WMV e outros formatos comuns. O objetivo é transformar o vídeo em um arquivo MP4 mais compatível."
+    },
+    {
+      "q": "O conversor de MP4 é gratuito?",
+      "a": "Sim. Você pode converter vídeos para MP4 gratuitamente, sem cadastro e sem precisar instalar programas ou usar softwares pagos."
+    },
+    {
+      "q": "Meus arquivos são enviados para um servidor?",
+      "a": "Não. A conversão para MP4 acontece localmente no seu navegador. Seus arquivos não precisam ser enviados para servidores, o que ajuda a manter seus vídeos privados."
+    },
+    {
+      "q": "Preciso instalar algum programa para converter para MP4?",
+      "a": "Não. O conversor de MP4 funciona direto no navegador, sem instalar aplicativos, extensões ou softwares adicionais. Basta abrir a ferramenta, enviar o vídeo e baixar o MP4 convertido."
+    },
+    {
+      "q": "Por que converter um vídeo para MP4?",
+      "a": "O MP4 é um dos formatos de vídeo mais compatíveis. Ele costuma funcionar bem em celulares, computadores, navegadores, redes sociais, aplicativos de mensagem, players e editores de vídeo."
+    },
+    {
+      "q": "Converter vídeo para MP4 reduz a qualidade?",
+      "a": "A conversão pode alterar a qualidade dependendo do arquivo original e das configurações usadas. Em geral, o MP4 mantém boa qualidade visual e oferece um bom equilíbrio entre compatibilidade e tamanho de arquivo."
+    },
+    {
+      "q": "Posso converter vídeos grandes para MP4?",
+      "a": "Sim, mas o desempenho depende da memória e da capacidade do seu dispositivo, já que a conversão roda no navegador. Para vídeos grandes, mantenha a aba aberta até o processo terminar."
+    },
+    {
+      "q": "O arquivo MP4 convertido terá marca d’água?",
+      "a": "Não. A ferramenta converte vídeos para MP4 sem adicionar marca d’água ao arquivo final. O MP4 convertido fica pronto para baixar e usar."
+    },
+    {
+      "q": "O MP4 convertido funciona no celular e nas redes sociais?",
+      "a": "Sim. O formato MP4 é amplamente aceito em Android, iPhone, Windows, Mac, navegadores, aplicativos de mensagem, redes sociais e plataformas de vídeo."
     }
   ]
 }

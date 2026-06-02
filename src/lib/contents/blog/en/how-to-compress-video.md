@@ -1,7 +1,8 @@
 ---
 title: "How to Compress Video Files Without Losing Quality"
-date: "2026-06-01"
-description: "A comprehensive guide on video compression techniques, formats, and tools to reduce file size while maintaining excellent visual quality."
+date: "2024-03-15"
+description: "Learn how to easily compress video files online for free to share them via email, WhatsApp, or Discord."
+ctaTool: "compress-video"
 ---
 
 In today's digital age, video content is everywhere. From social media to professional presentations, high-quality video is essential. However, the downside of pristine 4K and 1080p footage is massive file sizes. Large videos consume storage space quickly, take forever to upload, and can cause buffering issues for viewers.

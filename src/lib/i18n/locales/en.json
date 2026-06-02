@@ -1,7 +1,75 @@
 {
+"compress_video.upload.title": "Drop a video file here to compress",
+"compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM & more · up to 500 MB",
+"compress_video.upload.btn_select": "Select video file",
+"compress_video.upload.btn_sample": "Try sample video",
+"compress_video.upload.hint": "Select one video file to compress and reduce its file size",
+
+"compress_mp4.upload.title": "Drop an MP4 file here to compress",
+"compress_mp4.upload.subtitle": "MP4 · up to 500 MB · smaller file, good quality",
+"compress_mp4.upload.btn_select": "Select MP4 file",
+"compress_mp4.upload.btn_sample": "Try sample MP4",
+"compress_mp4.upload.hint": "Select one MP4 file to compress and make it smaller",
+
+"reduce_video_size.upload.title": "Drop your video file here to reduce its size",
+"reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM & more · Max 500 MB",
+"reduce_video_size.upload.btn_select": "Browse video file",
+"reduce_video_size.upload.btn_sample": "Use sample video",
+"reduce_video_size.upload.hint": "Upload one video to reduce its file size quickly",
+
+"video_converter.upload.title": "Drop a video file here to convert",
+"video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM & more · browser-based conversion",
+"video_converter.upload.btn_select": "Select video file",
+"video_converter.upload.btn_sample": "Try sample video",
+"video_converter.upload.hint": "Select one video file to convert to another format",
+
+"mov_to_mp4.upload.title": "Drop a MOV file here to convert to MP4",
+"mov_to_mp4.upload.subtitle": "MOV · convert to MP4 for easy playback",
+"mov_to_mp4.upload.btn_select": "Select MOV file",
+"mov_to_mp4.upload.btn_sample": "Try sample MOV",
+"mov_to_mp4.upload.hint": "Select one MOV video file to convert into MP4",
+
+"avi_to_mp4.upload.title": "Drop an AVI file here to convert to MP4",
+"avi_to_mp4.upload.subtitle": "AVI · convert to MP4 for better compatibility",
+"avi_to_mp4.upload.btn_select": "Select AVI file",
+"avi_to_mp4.upload.btn_sample": "Try sample AVI",
+"avi_to_mp4.upload.hint": "Select one AVI video file to convert into MP4",
+
+"mkv_to_mp4.upload.title": "Drop an MKV file here to convert to MP4",
+"mkv_to_mp4.upload.subtitle": "MKV · convert to MP4 for easy playback",
+"mkv_to_mp4.upload.btn_select": "Select MKV file",
+"mkv_to_mp4.upload.btn_sample": "Try sample MKV",
+"mkv_to_mp4.upload.hint": "Select one MKV video file to convert into MP4",
+
+"webm_to_mp4.upload.title": "Drop a WebM file here to convert to MP4",
+"webm_to_mp4.upload.subtitle": "WebM · convert to MP4 for wider support",
+"webm_to_mp4.upload.btn_select": "Select WebM file",
+"webm_to_mp4.upload.btn_sample": "Try sample WebM",
+"webm_to_mp4.upload.hint": "Select one WebM video file to convert into MP4",
+
+"mp4_converter.upload.title": "Drop a video file here to convert to MP4",
+"mp4_converter.upload.subtitle": "Many video formats · convert to MP4",
+"mp4_converter.upload.btn_select": "Select video file",
+"mp4_converter.upload.btn_sample": "Try sample video",
+"mp4_converter.upload.hint": "Select one video file to convert into MP4",
+
+"video_2_mp3.upload.title": "Drop a video file here to convert to MP3",
+"video_2_mp3.upload.subtitle": "Many video formats · extract audio as MP3",
+"video_2_mp3.upload.btn_select": "Select video file",
+"video_2_mp3.upload.btn_sample": "Try sample video",
+"video_2_mp3.upload.hint": "Select one video file to convert its audio to MP3",
+
+"pdf_compressor.upload.title": "Drop a PDF file here to compress",
+"pdf_compressor.upload.subtitle": "PDF · up to 100 MB · smaller file size",
+"pdf_compressor.upload.btn_select": "Select PDF file",
+"pdf_compressor.upload.btn_sample": "Try sample PDF",
+"pdf_compressor.upload.hint": "Select one PDF file to compress and make it smaller",
+
+
+
   "_comment_home": "================ Home ================",
-  "home.seo.title": "FileYuzu — Free Online Video Tools",
-  "home.seo.description": "FileYuzu offers free, private, online video and file tools. Run entirely in your browser with no upload and no sign-up.",
+  "home.seo.title": "UploadLess — Free Online Video Tools",
+  "home.seo.description": "UploadLess offers free, private, online video and file tools. Run entirely in your browser with no upload and no sign-up.",
   "home.hero.title": "Free Online Tools",
   "home.hero.description": "Private, fast, and easy to use tools running directly in your browser. Your files never leave your device.",
   "home.pill.private": "Files never leave your device",
@@ -17,8 +85,8 @@
   "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
   "home.faq.items": [
     {
-      "q": "Are all the tools on FileYuzu free to use?",
-      "a": "Yes, every tool on FileYuzu is completely free with no hidden fees, no subscriptions, and no limits. You can compress videos, compress PDFs, and convert video formats as many times as you like at no cost."
+      "q": "Are all the tools on UploadLess free to use?",
+      "a": "Yes, every tool on UploadLess is completely free with no hidden fees, no subscriptions, and no limits. You can compress videos, compress PDFs, and convert video formats as many times as you like at no cost."
     },
     {
       "q": "Do my files get uploaded to a server?",
@@ -29,30 +97,26 @@
       "a": "No account or sign-up is required. Just open the tool you need and start immediately — no registration, no email, no password."
     },
     {
-      "q": "What tools are available on FileYuzu?",
-      "a": "FileYuzu currently offers a free online video compressor, a PDF compressor, and a video converter supporting formats like MP4, WebM, MOV, MKV, and MP3. More tools are being added regularly."
+      "q": "What tools are available on UploadLess?",
+      "a": "UploadLess currently offers a free online video compressor, a PDF compressor, and a video converter supporting formats like MP4, WebM, MOV, MKV, and MP3. More tools are being added regularly."
     },
     {
       "q": "Is there a file size limit?",
       "a": "There is no hard server-side limit since all processing happens in your browser. In practice, most tools handle files up to 500 MB. Performance depends on your device's memory and processing power."
     },
     {
-      "q": "Can I use FileYuzu on my phone or tablet?",
-      "a": "Yes! FileYuzu is fully responsive and works on smartphones, tablets, and desktop computers. No app installation is needed — just open the site in your mobile browser and use any tool."
+      "q": "Can I use UploadLess on my phone or tablet?",
+      "a": "Yes! UploadLess is fully responsive and works on smartphones, tablets, and desktop computers. No app installation is needed — just open the site in your mobile browser and use any tool."
     }
   ],
   "_comment_categories": "================ Tool Categories ================",
   "home.category.video": "Video",
   "home.category.pdf": "PDF",
-  "compress_video.seo.title": "FileYuzu — Free Online Video Compressor",
-  "compress_video.seo.description": "Compress MP4, MOV, AVI, MKV, and WebM videos online with FileYuzu. Reduce video file size privately in your browser with no upload and no sign-up.",
+  "compress_video.seo.title": "Free Online Video Compressor — Compress Video | UploadLess",
+  "compress_video.seo.description": "Compress videos online for free with UploadLess. Reduce file size in your browser — no upload, no sign-up. Supports MP4, MOV, AVI, MKV, WebM.",
   "compress_video.hero.title": "Free Online Video Compressor",
-  "compress_video.hero.description": "Reduce video file size online — no upload, no sign-up. Runs entirely in your browser. Supports MP4, MOV, AVI, MKV, WebM.",
-  "compress_video.upload.title": "Drop a video file here",
-  "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · up to 500 MB",
-  "compress_video.upload.btn_select": "Select file",
-  "compress_video.upload.btn_sample": "Try sample",
-  "compress_video.upload.hint": "Select one video file to compress",
+  "compress_video.hero.description": "Compress video files online for free — no upload, no sign-up. Runs entirely in your browser and supports MP4, MOV, AVI, MKV, and WebM.",
+
   "compress_video.settings.auto_optimize": "Auto optimize",
   "compress_video.settings.size_lbl": "Target file size",
   "compress_video.btn.compress": "Compress video",
@@ -61,11 +125,11 @@
   "compress_video.proc.compressing": "Compressing video",
   "compress_video.how_to_use.title": "How to Compress a Video Online",
   "compress_video.how_to_use.steps": [
-    "Upload a video file from your device or drag and drop it onto the upload area.",
-    "Choose a compression preset or set a custom target file size. Use the quick-select tags for common platforms like Gmail, Discord, or Slack.",
-    "Click Compress and wait a moment. All processing runs locally in your browser — your file is never sent to any server. Download when done."
+    "Add a video file from your device, or drag and drop it into the upload area to start compressing your video online.",
+    "Keep Auto optimize turned on for automatic video compression, or turn it off to choose Target file size and compress your video for platforms like Discord, LINE, Gmail, WhatsApp, or Slack.",
+    "Click Compress to reduce the video file size. Everything runs locally in your browser, so your video is never uploaded to a server. Download the compressed video when it is ready."
   ],
-  "compress_video.why_use.title": "Why Use FileYuzu",
+  "compress_video.why_use.title": "Why Use UploadLess",
   "compress_video.why_use.benefits": [
     {
       "icon": "shield-lock",
@@ -91,44 +155,44 @@
   "compress_video.faq.title": "Video Compressor FAQ",
   "compress_video.faq.items": [
     {
+      "q": "How can I compress a video online?",
+      "a": "Add your video file, keep Auto optimize turned on, and click Compress. UploadLess will automatically reduce the video file size in your browser without uploading it to a server."
+    },
+    {
+      "q": "Is this video compressor free?",
+      "a": "Yes. UploadLess is a free online video compressor. You can compress video files directly in your browser without creating an account."
+    },
+    {
       "q": "Is my video uploaded to a server?",
-      "a": "No. All compression is done locally using FFmpeg.wasm (WebAssembly). Your video file never leaves your device."
+      "a": "No. Video compression runs locally in your browser using WebAssembly technology. Your video file stays on your device and is never uploaded to our server."
     },
     {
       "q": "What video formats are supported?",
-      "a": "We support MP4, MOV, AVI, MKV, WebM, and most other common formats. Output is always MP4 for maximum device compatibility."
+      "a": "UploadLess supports most video formats that can be processed in your browser, including MP4, MOV, AVI, MKV, WebM, M4V, 3GP, FLV, and more. The compressed output is saved as MP4 for better compatibility across devices and platforms."
     },
     {
-      "q": "What is the maximum file size?",
-      "a": "The video can be up to 500 MB. For larger files, consider splitting the video first or using a desktop tool like HandBrake."
+      "q": "What is Auto optimize?",
+      "a": "Auto optimize is the default compression mode. It automatically chooses balanced video compression settings to reduce file size while keeping the video quality suitable for everyday use."
     },
     {
-      "q": "What do the Low, Balance, and High presets mean?",
-      "a": "Balance reduces size by around 60–80% while keeping the video looking good on most screens. Low produces the smallest file with more visible quality loss. High keeps near-original quality with moderate reduction."
+      "q": "Can I choose a target video file size?",
+      "a": "Yes. Turn off Auto optimize to use Target file size mode. You can enter a custom size or use quick tags for platforms like Discord, LINE, Gmail, WhatsApp, and Slack."
     },
     {
-      "q": "What does \"Disable audio\" do?",
-      "a": "It strips the audio track from the compressed video. Useful for mute clips, screen recordings, or when you need the smallest possible file size."
+      "q": "Will compressing a video reduce its quality?",
+      "a": "Usually, yes, but the goal is to make the video file smaller while keeping it watchable. Auto optimize is designed to balance file size and quality for most videos."
     },
     {
-      "q": "Why do the platform tags show specific MB values?",
-      "a": "Each platform has an attachment size limit. Gmail is 25 MB, Discord 8 MB (free), Slack 100 MB, and so on. Clicking a tag sets the target size automatically."
-    },
-    {
-      "q": "Will there be a visible quality drop?",
-      "a": "It depends on the preset and original video. For most videos, the Balance preset produces output that looks fine on phones and standard screens. You can try a different preset if you are not satisfied."
+      "q": "Why should I use a browser-based video compressor?",
+      "a": "A browser-based video compressor is faster and more private for everyday files because the video does not need to be uploaded first. It is useful when you want to reduce video file size for email, chat apps, or sharing online."
     }
   ],
   "_comment_pdf_compressor": "================ PDF Compressor ================",
-  "pdf_compressor.seo.title": "FileYuzu — Free Online PDF Compressor",
-  "pdf_compressor.seo.description": "Compress PDF files online with FileYuzu. Reduce PDF file size privately in your browser with no upload and no sign-up.",
+  "pdf_compressor.seo.title": "Free Online PDF Compressor — Compress PDF Files | UploadLess",
+  "pdf_compressor.seo.description": "Compress PDF files online for free with UploadLess. Reduce PDF file size privately in your browser with no upload, no sign-up, and fast results.",
   "pdf_compressor.hero.title": "Free Online PDF Compressor",
-  "pdf_compressor.hero.description": "Reduce PDF file size online — no upload, no sign-up. Runs entirely in your browser.",
-  "pdf_compressor.upload.title": "Drop a PDF file here",
-  "pdf_compressor.upload.subtitle": "PDF · up to 100 MB",
-  "pdf_compressor.upload.btn_select": "Select file",
-  "pdf_compressor.upload.btn_sample": "Try sample",
-  "pdf_compressor.upload.hint": "Select one PDF file to compress",
+  "pdf_compressor.hero.description": "Reduce PDF file size online for free — no upload, no sign-up. Runs entirely in your browser.",
+
   "pdf_compressor.settings.quality_lbl": "Quality preset",
   "pdf_compressor.settings.quality_balanced": "Balanced (Ebook)",
   "pdf_compressor.settings.quality_maximum": "Maximum (Screen)",
@@ -140,110 +204,125 @@
   "pdf_compressor.proc.compressing": "Compressing PDF",
   "pdf_compressor.how_to_use.title": "How to Compress a PDF Online",
   "pdf_compressor.how_to_use.steps": [
-    "Upload a PDF file from your device or drag and drop it onto the upload area.",
-    "Choose a quality preset (Balanced or Maximum) and optionally provide a password if the PDF is encrypted.",
-    "Click Compress and wait a moment. All processing runs locally in your browser. Download when done."
+    "Select a PDF file from your device or drag and drop it into the upload area.",
+    "Choose a quality preset: Balanced (Ebook) for the best default results, or Maximum (Screen) for stronger compression.",
+    "If your PDF is encrypted, enter the password so it can be processed locally.",
+    "Click Compress and wait a moment. Your PDF is compressed in your browser, then you can download the smaller file."
   ],
-  "pdf_compressor.why_use.title": "Why Use FileYuzu PDF Compressor",
+  "pdf_compressor.why_use.title": "Why Use UploadLess PDF Compressor",
   "pdf_compressor.why_use.benefits": [
     {
       "icon": "shield-lock",
       "title": "100% private",
-      "description": "Compression runs in your browser via WebAssembly. Your file never leaves your device."
+      "description": "PDF compression runs locally in your browser. Your file never leaves your device."
     },
     {
       "icon": "bolt",
       "title": "No sign-up needed",
-      "description": "Open the page and start. No account, no watermark, no time limit."
+      "description": "Compress PDF files instantly with no account, no watermark, and no time limit."
     },
     {
       "icon": "player-play",
       "title": "Simple workflow",
-      "description": "Compress one PDF at a time with a focused, simple workflow."
+      "description": "Choose one PDF, pick a quality preset, and download the compressed file in a few clicks."
     },
     {
       "icon": "adjustments",
       "title": "Adjustable quality",
-      "description": "Choose between balanced compression for smaller sizes or maximum for the best visual quality."
+      "description": "Use Balanced (Ebook) for the best default results, or Maximum (Screen) for stronger compression."
     }
   ],
   "pdf_compressor.faq.title": "PDF Compressor FAQ",
   "pdf_compressor.faq.items": [
     {
       "q": "Is my PDF uploaded to a server?",
-      "a": "No. All compression is done locally using Ghostscript (WebAssembly). Your PDF file never leaves your device."
+      "a": "No. PDF compression runs locally in your browser using Ghostscript powered by WebAssembly. Your PDF file never leaves your device."
     },
     {
-      "q": "What is the maximum file size?",
-      "a": "The PDF can be up to 100 MB."
+      "q": "What is the maximum PDF file size?",
+      "a": "You can compress PDF files up to 100 MB. Very large or image-heavy PDFs may take longer depending on your device and browser."
+    },
+    {
+      "q": "Is this PDF compressor free?",
+      "a": "Yes. UploadLess lets you compress PDF files online for free with no sign-up, no watermark, and no installation required."
+    },
+    {
+      "q": "How do I reduce PDF file size online?",
+      "a": "Select or drag and drop your PDF, choose a quality preset, then click Compress. The tool will reduce the PDF file size in your browser and let you download the smaller file."
+    },
+    {
+      "q": "Which quality preset should I choose?",
+      "a": "Balanced (Ebook) is the default and works best for most PDFs. Choose Maximum (Screen) when you want stronger compression and a smaller file size."
+    },
+    {
+      "q": "Can I compress a PDF without losing quality?",
+      "a": "PDF compression usually reduces file size by optimizing images and document data, so some visual quality may change. For the best balance, use the Balanced (Ebook) preset."
+    },
+    {
+      "q": "Can I compress a PDF for email?",
+      "a": "Yes. This tool can make PDF files smaller for email attachments, form uploads, and sharing. The final size depends on the original PDF content and the quality preset you choose."
+    },
+    {
+      "q": "Can I compress a password-protected PDF?",
+      "a": "Yes, if you know the password. Enter the PDF password before compression so the file can be unlocked and processed locally in your browser."
+    },
+    {
+      "q": "Does this PDF compressor work on Mac, Windows, iPhone, and Android?",
+      "a": "Yes. UploadLess works in modern browsers on Mac, Windows, iPhone, Android, and other devices. No app installation is required."
+    },
+    {
+      "q": "Can I compress multiple PDF files at once?",
+      "a": "Currently, this tool compresses one PDF at a time to keep the workflow simple, private, and stable in your browser."
     }
   ],
   "related_tools.title": "Related Tools",
   "common.tools": "Tools",
   "common.blog": "Blog",
+  "blog.also_read": "Also Read",
   "common.language": "Language",
-  "common.footer.copyright": "© 2025 FileYuzu",
+  "common.footer.copyright": "© 2025 UploadLess",
   "common.footer.privacy": "Privacy",
   "common.footer.terms": "Terms",
   "common.footer.contact": "Contact",
-
-
-"tool.compress_video.title": "Video Compressor",
-"tool.compress_video.description": "Compress videos for free in your browser. Your files stay private and are never uploaded to our server.",
-"tool.compress_video.short_description": "Compress videos privately in your browser.",
-
-"tool.pdf_compressor.title": "PDF Compressor",
-"tool.pdf_compressor.description": "Reduce PDF file size for free, directly in your browser. No upload required, so your documents stay private.",
-"tool.pdf_compressor.short_description": "Reduce PDF size without uploading files.",
-
-"tool.video_converter.title": "Video Converter",
-"tool.video_converter.description": "Convert video files to different formats for free. Everything runs in your browser without uploading files to a server.",
-"tool.video_converter.short_description": "Convert videos directly in your browser.",
-
-"tool.mov_to_mp4.title": "MOV to MP4",
-"tool.mov_to_mp4.description": "Convert MOV videos to MP4 for free in your browser. Fast, private, and no server upload needed.",
-"tool.mov_to_mp4.short_description": "Convert MOV videos to MP4 privately.",
-
-"tool.avi_to_mp4.title": "AVI to MP4",
-"tool.avi_to_mp4.description": "Convert AVI files to MP4 for free, directly on your device. Your videos are not uploaded to our server.",
-"tool.avi_to_mp4.short_description": "Convert AVI files to MP4 on your device.",
-
-"tool.mkv_to_mp4.title": "MKV to MP4",
-"tool.mkv_to_mp4.description": "Convert MKV videos to MP4 for free in your browser. Private processing with no file upload required.",
-"tool.mkv_to_mp4.short_description": "Convert MKV videos to MP4 privately.",
-
-"tool.webm_to_mp4.title": "WebM to MP4",
-"tool.webm_to_mp4.description": "Convert WebM videos to MP4 for free, right in your browser. Your files stay on your device.",
-"tool.webm_to_mp4.short_description": "Convert WebM videos to MP4 in your browser.",
-
-"tool.video_to_mp3.title": "Video to MP3",
-"tool.video_to_mp3.description": "Extract MP3 audio from videos for free. Private browser-based conversion with no server upload.",
-"tool.video_to_mp3.short_description": "Extract MP3 audio from videos privately.",
-
-"tool.mp4_converter.title": "MP4 Converter",
-"tool.mp4_converter.description": "Convert videos to MP4 for free in your browser. Secure, private, and no files are uploaded.",
-"tool.mp4_converter.short_description": "Convert videos to MP4 securely.",
-
-"tool.compress_mp4.title": "Compress MP4",
-"tool.compress_mp4.description": "Reduce MP4 file size for free, directly in your browser. Your video stays private on your device.",
-"tool.compress_mp4.short_description": "Compress MP4 files on your device.",
-
-"tool.reduce_video_size.title": "Reduce Video Size",
-"tool.reduce_video_size.description": "Make video files smaller for free without uploading them. Compression runs privately in your browser.",
-"tool.reduce_video_size.short_description": "Make video files smaller privately.",
-
-
-  
+  "tool.compress_video.title": "Video Compressor",
+  "tool.compress_video.description": "Compress videos for free in your browser. Your files stay private and are never uploaded to our server.",
+  "tool.compress_video.short_description": "Compress videos privately in your browser.",
+  "tool.pdf_compressor.title": "PDF Compressor",
+  "tool.pdf_compressor.description": "Reduce PDF file size for free, directly in your browser. No upload required, so your documents stay private.",
+  "tool.pdf_compressor.short_description": "Reduce PDF size without uploading files.",
+  "tool.video_converter.title": "Video Converter",
+  "tool.video_converter.description": "Convert video files to different formats for free. Everything runs in your browser without uploading files to a server.",
+  "tool.video_converter.short_description": "Convert videos directly in your browser.",
+  "tool.mov_to_mp4.title": "MOV to MP4",
+  "tool.mov_to_mp4.description": "Convert MOV videos to MP4 for free in your browser. Fast, private, and no server upload needed.",
+  "tool.mov_to_mp4.short_description": "Convert MOV videos to MP4 privately.",
+  "tool.avi_to_mp4.title": "AVI to MP4",
+  "tool.avi_to_mp4.description": "Convert AVI files to MP4 for free, directly on your device. Your videos are not uploaded to our server.",
+  "tool.avi_to_mp4.short_description": "Convert AVI files to MP4 on your device.",
+  "tool.mkv_to_mp4.title": "MKV to MP4",
+  "tool.mkv_to_mp4.description": "Convert MKV videos to MP4 for free in your browser. Private processing with no file upload required.",
+  "tool.mkv_to_mp4.short_description": "Convert MKV videos to MP4 privately.",
+  "tool.webm_to_mp4.title": "WebM to MP4",
+  "tool.webm_to_mp4.description": "Convert WebM videos to MP4 for free, right in your browser. Your files stay on your device.",
+  "tool.webm_to_mp4.short_description": "Convert WebM videos to MP4 in your browser.",
+  "tool.video_to_mp3.title": "Video to MP3",
+  "tool.video_to_mp3.description": "Extract MP3 audio from videos for free. Private browser-based conversion with no server upload.",
+  "tool.video_to_mp3.short_description": "Extract MP3 audio from videos privately.",
+  "tool.mp4_converter.title": "MP4 Converter",
+  "tool.mp4_converter.description": "Convert videos to MP4 for free in your browser. Secure, private, and no files are uploaded.",
+  "tool.mp4_converter.short_description": "Convert videos to MP4 securely.",
+  "tool.compress_mp4.title": "Compress MP4",
+  "tool.compress_mp4.description": "Reduce MP4 file size for free, directly in your browser. Your video stays private on your device.",
+  "tool.compress_mp4.short_description": "Compress MP4 files on your device.",
+  "tool.reduce_video_size.title": "Reduce Video Size",
+  "tool.reduce_video_size.description": "Make video files smaller for free without uploading them. Compression runs privately in your browser.",
+  "tool.reduce_video_size.short_description": "Make video files smaller privately.",
   "_comment_video_converter": "================ Video Converter ================",
-  "video_converter.seo.title": "FileYuzu — Free Online Video Converter",
-  "video_converter.seo.description": "Convert video files between MP4, WebM, MOV, MKV, and MP3 formats online with FileYuzu. Fast and private conversion in your browser.",
+  "video_converter.seo.title": "Free Online Video Converter | UploadLess",
+  "video_converter.seo.description": "Convert videos online for free with UploadLess. Change formats like MP4, MOV, MKV, WebM, AVI, and more privately in your browser—no uploads needed.",
   "video_converter.hero.title": "Free Online Video Converter",
-  "video_converter.hero.description": "Convert video files easily and securely in your browser. Supports MP4, WebM, MOV, MKV, and MP3.",
-  "video_converter.upload.title": "Drop a video file here",
-  "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM",
-  "video_converter.upload.btn_select": "Select file",
-  "video_converter.upload.btn_sample": "Try sample",
-  "video_converter.upload.hint": "Select one video file to convert",
+  "video_converter.hero.description": "Convert video files between MP4, MOV, MKV, WebM, AVI, and more. Fast, private, browser-based conversion with no watermark.",
+
   "video_converter.settings.format_lbl": "Target format",
   "video_converter.btn.convert": "Convert video",
   "video_converter.btn.download": "Download file",
@@ -251,58 +330,74 @@
   "video_converter.proc.converting": "Converting video",
   "video_converter.how_to_use.title": "How to Convert a Video Online",
   "video_converter.how_to_use.steps": [
-    "Upload a video file from your device or drag and drop it onto the upload area.",
-    "Select the desired output format (e.g., MP4, WebM, MP3) from the Target format options.",
-    "Click Convert and wait. The process runs locally on your device for complete privacy. Download when finished."
+    "Upload a video file from your device, or drag and drop it into the online video converter.",
+    "Choose the output format you want, such as MP4, WebM, MOV, MKV, AVI, or MP3.",
+    "Click Convert to change the video format. The conversion runs locally in your browser for privacy, then download your converted file."
   ],
-  "video_converter.why_use.title": "Why Use FileYuzu Converter",
+  "video_converter.why_use.title": "Why Use UploadLess Converter",
   "video_converter.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% private",
-      "description": "Conversion runs locally in your browser. Your files never leave your device."
+      "title": "Private video conversion",
+      "description": "Convert video files locally in your browser. Your videos are never uploaded, so they stay private on your device."
     },
     {
       "icon": "bolt",
-      "title": "No sign-up required",
-      "description": "Start converting immediately without creating an account or dealing with limits."
+      "title": "Free and easy to use",
+      "description": "Use this free online video converter without signing up, installing software, or waiting through unnecessary steps."
     },
     {
       "icon": "player-play",
-      "title": "Multiple formats",
-      "description": "Convert to popular formats like MP4, WebM, MOV, or extract audio as MP3."
+      "title": "Supports popular formats",
+      "description": "Convert between common video formats like MP4, WebM, MOV, MKV, AVI, and more, or extract audio as MP3."
     },
     {
       "icon": "rocket",
-      "title": "Fast processing",
-      "description": "Optimized for speed. Get your converted files quickly without waiting in queues."
+      "title": "Fast browser-based converter",
+      "description": "Change video format quickly with optimized in-browser processing and download your converted file when it is ready."
     }
   ],
   "video_converter.faq.title": "Video Converter FAQ",
   "video_converter.faq.items": [
     {
-      "q": "Are my files uploaded to a server?",
-      "a": "No, all conversion is done locally on your device using WebAssembly. We do not store or process your files on our servers."
+      "q": "What is an online video converter?",
+      "a": "An online video converter lets you change a video file from one format to another, such as MP4, WebM, MOV, MKV, or AVI. With UploadLess, the conversion runs directly in your browser, so you do not need to install software."
     },
     {
-      "q": "Can I convert video to audio?",
-      "a": "Yes! Just select 'MP3' as the target format and the audio track will be extracted and converted."
+      "q": "Is this video converter free to use?",
+      "a": "Yes. UploadLess is a free online video converter you can use without creating an account. You can upload a video, choose an output format, convert it, and download the converted file from your browser."
     },
     {
-      "q": "What formats are supported?",
-      "a": "We support input from most common video formats and can convert them to MP4, WebM, MOV, MKV, or MP3."
+      "q": "Are my video files uploaded to a server?",
+      "a": "No. Video conversion is processed locally on your device using browser-based technology such as WebAssembly. Your files are not uploaded to our servers, which helps keep your videos private."
+    },
+    {
+      "q": "What video formats can I convert?",
+      "a": "You can convert most common video file formats, including MP4, MOV, MKV, WebM, AVI, and more. You can also choose audio formats like MP3 when you want to extract sound from a video."
+    },
+    {
+      "q": "Can I convert a video to MP3 audio?",
+      "a": "Yes. Select MP3 as the target format to extract the audio track from your video. This is useful when you want to turn a video file into an audio file for listening or sharing."
+    },
+    {
+      "q": "Will the converted video have a watermark?",
+      "a": "No. UploadLess converts your video without adding a watermark. Your downloaded file is the converted version of your original video, without branding placed on top of it."
+    },
+    {
+      "q": "Can I convert HD or 4K videos?",
+      "a": "Yes, you can convert HD and 4K videos if your device and browser have enough processing power. Because conversion runs locally, larger or higher-resolution videos may take longer to process."
+    },
+    {
+      "q": "Why should I use a browser-based video converter?",
+      "a": "A browser-based video converter is convenient because it works without installing apps, and it is more private because the conversion can happen on your own device. It is a fast way to convert video files online while keeping control of your files."
     }
   ],
   "_comment_compress_mp4": "================ Compress MP4 ================",
-  "compress_mp4.seo.title": "FileYuzu — Free Online MP4 Compressor",
-  "compress_mp4.seo.description": "Compress MP4 videos online with FileYuzu. Reduce MP4 file size privately in your browser with no upload and no sign-up.",
+  "compress_mp4.seo.title": "MP4 Compressor Online — Compress MP4 Free | UploadLess",
+  "compress_mp4.seo.description": "Compress MP4 videos online for free with UploadLess. Reduce MP4 file size privately in your browser — no upload, no sign-up.",
   "compress_mp4.hero.title": "Free Online MP4 Compressor",
-  "compress_mp4.hero.description": "Reduce MP4 file size online — no upload, no sign-up. Runs entirely in your browser.",
-  "compress_mp4.upload.title": "Drop an MP4 file here",
-  "compress_mp4.upload.subtitle": "MP4 · up to 500 MB",
-  "compress_mp4.upload.btn_select": "Select file",
-  "compress_mp4.upload.btn_sample": "Try sample",
-  "compress_mp4.upload.hint": "Select one MP4 file to compress",
+  "compress_mp4.hero.description": "Compress MP4 files online and reduce video size for email, chat apps, or sharing. Private, browser-based MP4 compression with no upload and no sign-up.",
+
   "compress_mp4.settings.auto_optimize": "Auto optimize",
   "compress_mp4.settings.size_lbl": "Target file size",
   "compress_mp4.btn.compress": "Compress MP4",
@@ -311,54 +406,74 @@
   "compress_mp4.proc.compressing": "Compressing MP4",
   "compress_mp4.how_to_use.title": "How to Compress an MP4 Online",
   "compress_mp4.how_to_use.steps": [
-    "Upload an MP4 file from your device or drag and drop it onto the upload area.",
-    "Choose a compression preset or set a custom target file size.",
-    "Click Compress and wait a moment. All processing runs locally in your browser. Download when done."
+    "Add an MP4 video from your device, or drag and drop it into the upload area to start compressing your MP4 online.",
+    "Keep Auto optimize turned on for automatic MP4 compression, or turn it off to choose Target file size and make the MP4 smaller for Discord, LINE, Gmail, WhatsApp, Slack, and more.",
+    "Click Compress to reduce the MP4 file size. Everything runs locally in your browser, so your video is never uploaded to a server. Download the compressed MP4 when it is ready."
   ],
-  "compress_mp4.why_use.title": "Why Use FileYuzu MP4 Compressor",
+  "compress_mp4.why_use.title": "Why Use UploadLess MP4 Compressor",
   "compress_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% private",
-      "description": "Compression runs in your browser via WebAssembly. Your file never leaves your device."
+      "title": "Private MP4 compression",
+      "description": "Compress MP4 files directly in your browser. Your video stays on your device and is never uploaded to a server."
     },
     {
       "icon": "bolt",
-      "title": "No sign-up needed",
-      "description": "Open the page and start. No account, no watermark, no time limit."
+      "title": "Fast and free to use",
+      "description": "Open the MP4 compressor and start right away. No account, no sign-up, and no watermark."
     },
     {
       "icon": "player-play",
-      "title": "Simple workflow",
-      "description": "Compress one MP4 at a time with a focused, simple workflow."
+      "title": "Auto optimize by default",
+      "description": "Let UploadLess automatically reduce MP4 file size with balanced settings for everyday sharing."
     },
     {
       "icon": "adjustments",
-      "title": "Flexible target size",
-      "description": "Set an exact size for any platform."
+      "title": "Target any file size",
+      "description": "Turn off Auto optimize to choose a custom target size or use quick tags for Discord, LINE, Gmail, WhatsApp, Slack, and more."
     }
   ],
   "compress_mp4.faq.title": "MP4 Compressor FAQ",
   "compress_mp4.faq.items": [
     {
-      "q": "Is my video uploaded to a server?",
-      "a": "No. All compression is done locally using FFmpeg.wasm (WebAssembly). Your video file never leaves your device."
+      "q": "How can I compress an MP4 video online?",
+      "a": "Add your MP4 video, keep Auto optimize turned on, and click Compress. UploadLess will reduce the MP4 file size directly in your browser without uploading the video to a server."
     },
     {
-      "q": "What is the maximum file size?",
-      "a": "The video can be up to 500 MB."
+      "q": "Is this MP4 compressor free?",
+      "a": "Yes. UploadLess is a free online MP4 compressor. You can compress MP4 videos without creating an account, installing software, or adding a watermark."
+    },
+    {
+      "q": "Is my MP4 video uploaded to a server?",
+      "a": "No. MP4 compression runs locally in your browser using WebAssembly technology. Your video stays on your device and is never uploaded to our server."
+    },
+    {
+      "q": "Can I reduce MP4 file size for email or chat apps?",
+      "a": "Yes. You can make an MP4 smaller for Gmail, Discord, LINE, WhatsApp, Slack, and other platforms. Turn off Auto optimize to choose Target file size or use a quick size tag."
+    },
+    {
+      "q": "What is Auto optimize for MP4 compression?",
+      "a": "Auto optimize is the default mode. It automatically chooses balanced compression settings to reduce MP4 file size while keeping the video quality suitable for everyday sharing."
+    },
+    {
+      "q": "Can I choose a target MP4 file size?",
+      "a": "Yes. Turn off Auto optimize to use Target file size mode. You can enter a custom size or select a preset tag for common platforms like Discord, LINE, Gmail, WhatsApp, and Slack."
+    },
+    {
+      "q": "Will compressing an MP4 reduce video quality?",
+      "a": "Usually, some quality reduction is expected when making an MP4 file smaller. Auto optimize is designed to balance file size and quality, so the compressed MP4 still looks good for most everyday uses."
+    },
+    {
+      "q": "What is the maximum MP4 file size?",
+      "a": "You can compress MP4 videos up to 500 MB. For larger files, consider trimming the video first or using a desktop video compressor."
     }
   ],
   "_comment_reduce_video_size": "================ Reduce Video Size ================",
-  "reduce_video_size.seo.title": "FileYuzu — Reduce Video Size Online Free",
-  "reduce_video_size.seo.description": "Shrink and reduce video file sizes online with FileYuzu. Process locally in your browser without uploading.",
-  "reduce_video_size.hero.title": "Reduce Video File Size",
-  "reduce_video_size.hero.description": "Make your videos smaller quickly and securely in your browser.",
-  "reduce_video_size.upload.title": "Drop a video file here",
-  "reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM · up to 500 MB",
-  "reduce_video_size.upload.btn_select": "Select file",
-  "reduce_video_size.upload.btn_sample": "Try sample",
-  "reduce_video_size.upload.hint": "Select one video file to reduce size",
+  "reduce_video_size.seo.title": "Reduce Video Size Online Free — Make Videos Smaller | UploadLess",
+  "reduce_video_size.seo.description": "Reduce video file size online for free with UploadLess. Make videos smaller privately in your browser — no upload, no sign-up. Supports MP4, MOV, AVI, MKV, WebM.",
+  "reduce_video_size.hero.title": "Reduce Video File Size Online",
+  "reduce_video_size.hero.description": "Make your video smaller in your browser with Auto optimize or choose a target file size for email, chat apps, and sharing.",
+  
   "reduce_video_size.settings.auto_optimize": "Auto optimize",
   "reduce_video_size.settings.size_lbl": "Target file size",
   "reduce_video_size.btn.compress": "Reduce Size",
@@ -367,240 +482,490 @@
   "reduce_video_size.proc.compressing": "Reducing size",
   "reduce_video_size.how_to_use.title": "How to Reduce Video Size Online",
   "reduce_video_size.how_to_use.steps": [
-    "Upload a video file from your device.",
-    "Select your target file size or compression level.",
-    "Click Reduce Size and wait for the process to complete locally in your browser."
+    "Add a video file from your device, or drag and drop it into the upload area to start reducing video size online.",
+    "Keep Auto optimize turned on to make the video smaller automatically, or turn it off to choose Target file size for email, Discord, LINE, Gmail, WhatsApp, Slack, and more.",
+    "Click Reduce Size to reduce the video file size. Everything runs locally in your browser, so your video is never uploaded to a server. Download the smaller video when it is ready."
   ],
-  "reduce_video_size.why_use.title": "Why Use FileYuzu to Reduce Size",
+  "reduce_video_size.why_use.title": "Why Use UploadLess to Reduce Size",
   "reduce_video_size.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "Secure & Private",
-      "description": "All files are processed locally on your device. No uploads."
+      "title": "Private video size reduction",
+      "description": "Reduce video file size directly in your browser. Your video stays on your device and is never uploaded to a server."
     },
     {
       "icon": "bolt",
-      "title": "Instant Start",
-      "description": "No registration or software installation required."
+      "title": "No sign-up or install",
+      "description": "Make videos smaller online without creating an account, installing software, or adding a watermark."
     },
     {
       "icon": "player-play",
-      "title": "Easy to Use",
-      "description": "Simple interface designed for quick video shrinking."
+      "title": "Auto optimize by default",
+      "description": "Let UploadLess automatically shrink video size with balanced settings for everyday sharing."
     },
     {
       "icon": "adjustments",
-      "title": "Custom Targets",
-      "description": "Easily fit your videos into email or chat size limits."
+      "title": "Fit email and chat limits",
+      "description": "Turn off Auto optimize to choose a target file size or use quick tags for Discord, LINE, Gmail, WhatsApp, Slack, and more."
     }
   ],
   "reduce_video_size.faq.title": "Reduce Video Size FAQ",
   "reduce_video_size.faq.items": [
     {
-      "q": "Will reducing the size lower the quality?",
-      "a": "Yes, reducing file size inevitably involves some loss of quality, but our optimized presets balance size and clarity perfectly."
+      "q": "How can I reduce video file size online?",
+      "a": "Add your video, keep Auto optimize turned on, and click Reduce Size. UploadLess will make the video smaller directly in your browser without uploading it to a server."
     },
     {
-      "q": "Is this tool free to use?",
-      "a": "Yes, it is completely free with no watermarks."
+      "q": "Is this video size reducer free?",
+      "a": "Yes. UploadLess is a free online video size reducer. You can reduce video file size without creating an account, installing software, or adding a watermark."
+    },
+    {
+      "q": "Will reducing video size lower the quality?",
+      "a": "Usually, yes. Making a video file smaller often involves some quality reduction, but Auto optimize is designed to balance smaller file size with clear, watchable video quality."
+    },
+    {
+      "q": "Is my video uploaded to a server?",
+      "a": "No. Video size reduction runs locally in your browser using WebAssembly technology. Your video stays on your device and is never uploaded to our server."
+    },
+    {
+      "q": "Can I choose a target video file size?",
+      "a": "Yes. Turn off Auto optimize to use Target file size mode. You can enter a custom size or select a quick tag for platforms like Discord, LINE, Gmail, WhatsApp, and Slack."
+    },
+    {
+      "q": "Can I make a video smaller for email or chat apps?",
+      "a": "Yes. You can reduce video size for Gmail, Discord, LINE, WhatsApp, Slack, and other platforms by choosing a target file size or using one of the quick size tags."
+    },
+    {
+      "q": "What video formats can I reduce in size?",
+      "a": "UploadLess supports most video formats that can be processed in your browser, including MP4, MOV, AVI, MKV, WebM, M4V, 3GP, FLV, and more. The smaller output file is saved as MP4 for better compatibility."
+    },
+    {
+      "q": "What is the difference between reducing video size and compressing a video?",
+      "a": "They are closely related. Compressing a video is the process, while reducing video size is the result. This page focuses on helping you make video files smaller for sharing, email, and storage."
     }
   ],
   "pdf_compressor.pages": "pages",
-
   "_comment_mov_to_mp4": "================ MOV to MP4 ================",
-  "mov_to_mp4.seo.title": "FileYuzu — Convert MOV to MP4 Free Online",
-  "mov_to_mp4.seo.description": "Convert MOV video files to MP4 online with FileYuzu. Fast and private conversion in your browser.",
-  "mov_to_mp4.hero.title": "Convert MOV to MP4",
-  "mov_to_mp4.hero.description": "Convert your MOV videos to MP4 format easily and securely in your browser.",
+  "mov_to_mp4.seo.title": "Convert MOV to MP4 Online Free | UploadLess",
+  "mov_to_mp4.seo.description": "Convert MOV files to MP4 online for free with UploadLess. Fast, private browser-based conversion with no uploads, no sign-up, and no watermark.",
+  "mov_to_mp4.hero.title": "Convert MOV to MP4 Online",
+  "mov_to_mp4.hero.description": "Convert MOV videos to MP4 in your browser. Free, fast, private, and easy to use with no uploads or watermark.",
   "mov_to_mp4.how_to_use.title": "How to Convert MOV to MP4 Online",
   "mov_to_mp4.how_to_use.steps": [
-    "Upload a MOV file from your device.",
-    "Click Convert and wait. The process runs locally on your device for complete privacy. Download your MP4 file when finished."
+    "Upload a MOV file from your device, or drag and drop it into the MOV to MP4 converter.",
+    "Click Convert to change your MOV video to MP4. The conversion runs locally in your browser for privacy.",
+    "Download your converted MP4 file when the process is finished. No upload, sign-up, or watermark required."
   ],
-  "mov_to_mp4.why_use.title": "Why Use FileYuzu Converter",
+  "mov_to_mp4.why_use.title": "Why Use UploadLess Converter",
   "mov_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% private",
-      "description": "Conversion runs locally in your browser. Your files never leave your device."
+      "title": "Private MOV to MP4 conversion",
+      "description": "Convert MOV files to MP4 locally in your browser. Your videos are not uploaded, so they stay private on your device."
     },
     {
       "icon": "bolt",
-      "title": "No sign-up required",
-      "description": "Start converting immediately without creating an account or dealing with limits."
+      "title": "Free with no sign-up",
+      "description": "Use the MOV to MP4 converter online for free without creating an account, installing software, or waiting in queues."
+    },
+    {
+      "icon": "device-desktop",
+      "title": "Better MP4 compatibility",
+      "description": "Turn MOV videos into MP4 files that are easier to play, edit, upload, and share across more devices and platforms."
+    },
+    {
+      "icon": "droplet-off",
+      "title": "No watermark added",
+      "description": "Convert your MOV video to MP4 without adding a watermark or branding to the downloaded file."
     }
   ],
   "mov_to_mp4.faq.title": "MOV to MP4 FAQ",
   "mov_to_mp4.faq.items": [
     {
-      "q": "Are my files uploaded to a server?",
-      "a": "No, all conversion is done locally on your device. We do not store or process your files on our servers."
+      "q": "How do I convert MOV to MP4 online?",
+      "a": "Upload your MOV file, click Convert, and download the MP4 file when it is ready. UploadLess converts MOV to MP4 directly in your browser, so you do not need to install any software."
+    },
+    {
+      "q": "Is this MOV to MP4 converter free?",
+      "a": "Yes. You can use this MOV to MP4 converter online for free without creating an account. Just add your MOV video, convert it, and save the MP4 file to your device."
+    },
+    {
+      "q": "Are my MOV files uploaded to a server?",
+      "a": "No. The MOV to MP4 conversion runs locally on your device in the browser. Your video files are not uploaded to our servers, which helps keep your files private."
+    },
+    {
+      "q": "Can I convert iPhone MOV videos to MP4?",
+      "a": "Yes. MOV files recorded on iPhone, iPad, cameras, or QuickTime can be converted to MP4. This makes the video easier to play, upload, edit, and share on more devices and platforms."
+    },
+    {
+      "q": "Will converting MOV to MP4 reduce video quality?",
+      "a": "Converting a MOV file to MP4 may slightly change the video quality depending on the original file and conversion settings. UploadLess is designed to keep the output clear while creating a widely compatible MP4 file."
+    },
+    {
+      "q": "Why should I convert MOV files to MP4?",
+      "a": "MP4 is one of the most widely supported video formats. Converting MOV to MP4 can make your video easier to open on Windows, Android, browsers, social media platforms, and video editing apps."
+    },
+    {
+      "q": "Can I convert large MOV files?",
+      "a": "Yes, you can convert large MOV files if your browser and device have enough memory and processing power. Because the conversion runs locally, larger videos may take more time to convert."
+    },
+    {
+      "q": "Will the converted MP4 file have a watermark?",
+      "a": "No. UploadLess converts MOV videos to MP4 without adding a watermark. The downloaded MP4 file will not include UploadLess branding on your video."
     }
   ],
   "_comment_avi_to_mp4": "================ AVI to MP4 ================",
-  "avi_to_mp4.seo.title": "FileYuzu — Convert AVI to MP4 Free Online",
-  "avi_to_mp4.seo.description": "Convert AVI video files to MP4 online with FileYuzu. Fast and private conversion in your browser.",
-  "avi_to_mp4.hero.title": "Convert AVI to MP4",
-  "avi_to_mp4.hero.description": "Convert your AVI videos to MP4 format easily and securely in your browser.",
+  "avi_to_mp4.seo.title": "Convert AVI to MP4 Online Free | UploadLess",
+  "avi_to_mp4.seo.description": "Convert AVI files to MP4 online for free with UploadLess. Fast, private browser-based conversion with no uploads, no sign-up, and no watermark.",
+  "avi_to_mp4.hero.title": "Convert AVI to MP4 Online",
+  "avi_to_mp4.hero.description": "Convert AVI videos to MP4 in your browser. Free, fast, private, and easy to use with no uploads or watermark.",
   "avi_to_mp4.how_to_use.title": "How to Convert AVI to MP4 Online",
   "avi_to_mp4.how_to_use.steps": [
-    "Upload an AVI file from your device.",
-    "Click Convert and wait. The process runs locally on your device for complete privacy. Download your MP4 file when finished."
+    "Upload an AVI file from your device, or drag and drop it into the AVI to MP4 converter.",
+    "Click Convert to change your AVI video to MP4. The conversion runs locally in your browser for privacy.",
+    "Download your converted MP4 file when the process is finished. No upload, sign-up, or watermark required."
   ],
-  "avi_to_mp4.why_use.title": "Why Use FileYuzu Converter",
+  "avi_to_mp4.why_use.title": "Why Use UploadLess Converter",
   "avi_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% private",
-      "description": "Conversion runs locally in your browser. Your files never leave your device."
+      "title": "Private AVI to MP4 conversion",
+      "description": "Convert AVI files to MP4 locally in your browser. Your videos are not uploaded, so they stay private on your device."
     },
     {
       "icon": "bolt",
-      "title": "No sign-up required",
-      "description": "Start converting immediately without creating an account."
+      "title": "Free with no sign-up",
+      "description": "Use the AVI to MP4 converter online for free without creating an account, installing software, or waiting in queues."
+    },
+    {
+      "icon": "device-desktop",
+      "title": "Better MP4 compatibility",
+      "description": "Turn AVI videos into MP4 files that are easier to play, upload, edit, and share across modern devices and platforms."
+    },
+    {
+      "icon": "droplet-off",
+      "title": "No watermark added",
+      "description": "Convert your AVI video to MP4 without adding a watermark or branding to the downloaded file."
     }
   ],
   "avi_to_mp4.faq.title": "AVI to MP4 FAQ",
   "avi_to_mp4.faq.items": [
     {
-      "q": "Are my files uploaded to a server?",
-      "a": "No, all conversion is done locally on your device."
+      "q": "How do I convert AVI to MP4 online?",
+      "a": "Upload your AVI file, click Convert, and download the MP4 file when it is ready. UploadLess converts AVI to MP4 directly in your browser, so you do not need to install extra software."
+    },
+    {
+      "q": "Is this AVI to MP4 converter free?",
+      "a": "Yes. You can use this AVI to MP4 converter online for free without creating an account. Add your AVI video, convert it, and save the MP4 file to your device."
+    },
+    {
+      "q": "Are my AVI files uploaded to a server?",
+      "a": "No. The AVI to MP4 conversion runs locally on your device in the browser. Your video files are not uploaded to our servers, which helps keep your files private."
+    },
+    {
+      "q": "Why should I convert AVI files to MP4?",
+      "a": "AVI is an older video format and may not play smoothly on some modern devices, browsers, or apps. Converting AVI to MP4 makes the video easier to play, upload, edit, and share."
+    },
+    {
+      "q": "Will converting AVI to MP4 reduce video quality?",
+      "a": "Converting an AVI file to MP4 may slightly change the video quality depending on the original video and conversion settings. UploadLess is designed to create a clear MP4 file while improving compatibility."
+    },
+    {
+      "q": "Can I convert large AVI files?",
+      "a": "Yes, you can convert large AVI files if your browser and device have enough memory and processing power. Because conversion runs locally, larger videos may take longer to process."
+    },
+    {
+      "q": "Will the converted MP4 file have a watermark?",
+      "a": "No. UploadLess converts AVI videos to MP4 without adding a watermark. The downloaded MP4 file will not include UploadLess branding on your video."
+    },
+    {
+      "q": "Can I play the converted MP4 on phones and browsers?",
+      "a": "Yes. MP4 is widely supported by modern phones, tablets, browsers, video players, and social media platforms, so converting AVI to MP4 can make your video easier to open and share."
     }
   ],
   "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
-  "mkv_to_mp4.seo.title": "FileYuzu — Convert MKV to MP4 Free Online",
-  "mkv_to_mp4.seo.description": "Convert MKV video files to MP4 online with FileYuzu. Fast and private conversion in your browser.",
-  "mkv_to_mp4.hero.title": "Convert MKV to MP4",
-  "mkv_to_mp4.hero.description": "Convert your MKV videos to MP4 format easily and securely in your browser.",
+  "mkv_to_mp4.seo.title": "Convert MKV to MP4 Online Free | UploadLess",
+  "mkv_to_mp4.seo.description": "Convert MKV files to MP4 online for free with UploadLess. Fast, private browser-based conversion with no uploads, no sign-up, and no watermark.",
+  "mkv_to_mp4.hero.title": "Convert MKV to MP4 Online",
+  "mkv_to_mp4.hero.description": "Convert MKV videos to MP4 in your browser. Free, fast, private, and easy to use with no uploads or watermark.",
   "mkv_to_mp4.how_to_use.title": "How to Convert MKV to MP4 Online",
   "mkv_to_mp4.how_to_use.steps": [
-    "Upload an MKV file from your device.",
-    "Click Convert and wait. The process runs locally on your device for complete privacy. Download your MP4 file when finished."
+    "Upload an MKV file from your device, or drag and drop it into the MKV to MP4 converter.",
+    "Click Convert to change your MKV video to MP4. The conversion runs locally in your browser for privacy.",
+    "Download your converted MP4 file when the process is finished. No upload, sign-up, or watermark required."
   ],
-  "mkv_to_mp4.why_use.title": "Why Use FileYuzu Converter",
+  "mkv_to_mp4.why_use.title": "Why Use UploadLess Converter",
   "mkv_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% private",
-      "description": "Conversion runs locally in your browser. Your files never leave your device."
+      "title": "Private MKV to MP4 conversion",
+      "description": "Convert MKV files to MP4 locally in your browser. Your videos are not uploaded, so they stay private on your device."
     },
     {
       "icon": "bolt",
-      "title": "No sign-up required",
-      "description": "Start converting immediately without creating an account."
+      "title": "Free with no sign-up",
+      "description": "Use the MKV to MP4 converter online for free without creating an account, installing software, or waiting in queues."
+    },
+    {
+      "icon": "device-desktop",
+      "title": "Better MP4 compatibility",
+      "description": "Turn MKV videos into MP4 files that are easier to play, upload, edit, and share across phones, browsers, and platforms."
+    },
+    {
+      "icon": "droplet-off",
+      "title": "No watermark added",
+      "description": "Convert your MKV video to MP4 without adding a watermark or branding to the downloaded file."
     }
   ],
   "mkv_to_mp4.faq.title": "MKV to MP4 FAQ",
   "mkv_to_mp4.faq.items": [
     {
-      "q": "Are my files uploaded to a server?",
-      "a": "No, all conversion is done locally on your device."
+      "q": "How do I convert MKV to MP4 online?",
+      "a": "Upload your MKV file, click Convert, and download the MP4 file when it is ready. UploadLess converts MKV to MP4 directly in your browser, so you do not need to install extra software."
+    },
+    {
+      "q": "Is this MKV to MP4 converter free?",
+      "a": "Yes. You can use this MKV to MP4 converter online for free without creating an account. Add your MKV video, convert it, and save the MP4 file to your device."
+    },
+    {
+      "q": "Are my MKV files uploaded to a server?",
+      "a": "No. The MKV to MP4 conversion runs locally on your device in the browser. Your video files are not uploaded to our servers, which helps keep your files private."
+    },
+    {
+      "q": "Why should I convert MKV files to MP4?",
+      "a": "MKV files can contain high-quality video, multiple audio tracks, or subtitles, but they are not supported everywhere. Converting MKV to MP4 makes the video easier to play, upload, edit, and share."
+    },
+    {
+      "q": "Will converting MKV to MP4 reduce video quality?",
+      "a": "Converting an MKV file to MP4 may slightly change the video quality depending on the original file and conversion settings. UploadLess is designed to create a clear MP4 file while improving compatibility."
+    },
+    {
+      "q": "Can I convert large MKV files?",
+      "a": "Yes, you can convert large MKV files if your browser and device have enough memory and processing power. Because conversion runs locally, larger videos may take more time to process."
+    },
+    {
+      "q": "What happens to subtitles or multiple audio tracks in an MKV file?",
+      "a": "MKV files may include subtitles or multiple audio tracks. The converted MP4 output depends on what your browser can process and the selected conversion settings, so check the final MP4 file after conversion."
+    },
+    {
+      "q": "Will the converted MP4 file have a watermark?",
+      "a": "No. UploadLess converts MKV videos to MP4 without adding a watermark. The downloaded MP4 file will not include UploadLess branding on your video."
     }
   ],
   "_comment_webm_to_mp4": "================ WebM to MP4 ================",
-  "webm_to_mp4.seo.title": "FileYuzu — Convert WebM to MP4 Free Online",
-  "webm_to_mp4.seo.description": "Convert WebM video files to MP4 online with FileYuzu. Fast and private conversion in your browser.",
-  "webm_to_mp4.hero.title": "Convert WebM to MP4",
-  "webm_to_mp4.hero.description": "Convert your WebM videos to MP4 format easily and securely in your browser.",
+  "webm_to_mp4.seo.title": "Convert WebM to MP4 Online Free | UploadLess",
+  "webm_to_mp4.seo.description": "Convert WebM files to MP4 online for free with UploadLess. Fast, private browser-based conversion with no uploads, no sign-up, and no watermark.",
+  "webm_to_mp4.hero.title": "Convert WebM to MP4 Online",
+  "webm_to_mp4.hero.description": "Convert WebM videos to MP4 in your browser. Free, fast, private, and easy to use with no uploads or watermark.",
   "webm_to_mp4.how_to_use.title": "How to Convert WebM to MP4 Online",
   "webm_to_mp4.how_to_use.steps": [
-    "Upload a WebM file from your device.",
-    "Click Convert and wait. The process runs locally on your device for complete privacy. Download your MP4 file when finished."
+    "Upload a WebM file from your device, or drag and drop it into the WebM to MP4 converter.",
+    "Click Convert to change your WebM video to MP4. The conversion runs locally in your browser for privacy.",
+    "Download your converted MP4 file when the process is finished. No upload, sign-up, or watermark required."
   ],
-  "webm_to_mp4.why_use.title": "Why Use FileYuzu Converter",
+  "webm_to_mp4.why_use.title": "Why Use UploadLess Converter",
   "webm_to_mp4.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% private",
-      "description": "Conversion runs locally in your browser. Your files never leave your device."
+      "title": "Private WebM to MP4 conversion",
+      "description": "Convert WebM files to MP4 locally in your browser. Your videos are not uploaded, so they stay private on your device."
     },
     {
       "icon": "bolt",
-      "title": "No sign-up required",
-      "description": "Start converting immediately without creating an account."
+      "title": "Free with no sign-up",
+      "description": "Use the WebM to MP4 converter online for free without creating an account, installing software, or waiting in queues."
+    },
+    {
+      "icon": "device-desktop",
+      "title": "Better MP4 compatibility",
+      "description": "Turn WebM videos into MP4 files that are easier to play, upload, edit, and share across phones, apps, and platforms."
+    },
+    {
+      "icon": "droplet-off",
+      "title": "No watermark added",
+      "description": "Convert your WebM video to MP4 without adding a watermark or branding to the downloaded file."
     }
   ],
   "webm_to_mp4.faq.title": "WebM to MP4 FAQ",
   "webm_to_mp4.faq.items": [
     {
-      "q": "Are my files uploaded to a server?",
-      "a": "No, all conversion is done locally on your device."
+      "q": "How do I convert WebM to MP4 online?",
+      "a": "Upload your WebM file, click Convert, and download the MP4 file when it is ready. UploadLess converts WebM to MP4 directly in your browser, so you do not need to install extra software."
+    },
+    {
+      "q": "Is this WebM to MP4 converter free?",
+      "a": "Yes. You can use this WebM to MP4 converter online for free without creating an account. Add your WebM video, convert it, and save the MP4 file to your device."
+    },
+    {
+      "q": "Are my WebM files uploaded to a server?",
+      "a": "No. The WebM to MP4 conversion runs locally on your device in the browser. Your video files are not uploaded to our servers, which helps keep your files private."
+    },
+    {
+      "q": "Why should I convert WebM files to MP4?",
+      "a": "WebM is useful for web video, but MP4 is supported by more devices, apps, video editors, and social platforms. Converting WebM to MP4 can make your video easier to play, upload, edit, and share."
+    },
+    {
+      "q": "Will converting WebM to MP4 reduce video quality?",
+      "a": "Converting a WebM file to MP4 may slightly change the video quality depending on the original file and conversion settings. UploadLess is designed to create a clear MP4 file while improving compatibility."
+    },
+    {
+      "q": "Can I convert large WebM files?",
+      "a": "Yes, you can convert large WebM files if your browser and device have enough memory and processing power. Because conversion runs locally, larger videos may take more time to process."
+    },
+    {
+      "q": "Can I upload the converted MP4 to social media or editing apps?",
+      "a": "Yes. MP4 is widely accepted by social media platforms, video editors, phones, tablets, and browsers, so converting WebM to MP4 can make your video easier to use in different workflows."
+    },
+    {
+      "q": "Will the converted MP4 file have a watermark?",
+      "a": "No. UploadLess converts WebM videos to MP4 without adding a watermark. The downloaded MP4 file will not include UploadLess branding on your video."
     }
   ],
   "_comment_video_to_mp3": "================ Video to MP3 ================",
-  "video_to_mp3.seo.title": "FileYuzu — Extract Audio from Video (Video to MP3) Free Online",
-  "video_to_mp3.seo.description": "Convert Video to MP3 online with FileYuzu. Extract audio from your video files easily in your browser.",
-  "video_to_mp3.hero.title": "Convert Video to MP3",
-  "video_to_mp3.hero.description": "Extract the audio track from your video and save it as an MP3 file directly in your browser.",
+  "video_to_mp3.seo.title": "Video to MP3 Converter Online – Free & Private | UploadLess",
+  "video_to_mp3.seo.description": "Convert video to MP3 online with UploadLess. Extract audio from MP4, MOV, MKV, WebM, and AVI files in your browser—free, fast, and private.",
+  "video_to_mp3.hero.title": "Video to MP3 Converter",
+  "video_to_mp3.hero.description": "Extract audio from MP4, MOV, MKV, WebM, or AVI videos and save it as an MP3 directly in your browser.",
   "video_to_mp3.how_to_use.title": "How to Convert Video to MP3 Online",
   "video_to_mp3.how_to_use.steps": [
-    "Upload a video file from your device.",
-    "Click Convert and wait. The process runs locally on your device. Download your MP3 file when finished."
+    "Upload your video file, such as MP4, MOV, MKV, WebM, or AVI.",
+    "Choose MP3 as the output format for extracting audio.",
+    "Click Convert Video to MP3. UploadLess will extract the audio in your browser, then you can download the MP3 file."
   ],
-  "video_to_mp3.why_use.title": "Why Use FileYuzu Audio Extractor",
+  "video_to_mp3.why_use.title": "Why Use UploadLess Audio Extractor",
   "video_to_mp3.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% private",
-      "description": "Conversion runs locally in your browser. Your files never leave your device."
+      "title": "Private video to MP3 conversion",
+      "description": "Convert video to MP3 directly in your browser. Your files stay on your device and are never uploaded."
     },
     {
       "icon": "bolt",
-      "title": "No sign-up required",
-      "description": "Start converting immediately without creating an account."
+      "title": "Fast and free to use",
+      "description": "Extract audio from video online without sign-up, watermarks, or software installation."
+    },
+    {
+      "icon": "file-music",
+      "title": "Extract clear MP3 audio",
+      "description": "Turn your video into an MP3 audio file for music, voice recordings, lectures, podcasts, and more."
+    },
+    {
+      "icon": "file-video",
+      "title": "Supports popular video formats",
+      "description": "Upload common video formats like MP4, MOV, MKV, WebM, and AVI, then convert them to MP3 in seconds."
     }
   ],
   "video_to_mp3.faq.title": "Video to MP3 FAQ",
   "video_to_mp3.faq.items": [
     {
-      "q": "Are my files uploaded to a server?",
-      "a": "No, all conversion is done locally on your device."
+      "q": "How do I convert a video to MP3 online?",
+      "a": "Upload your video file, choose MP3 as the output format, and click Convert. UploadLess extracts the audio from your video and saves it as an MP3 file directly in your browser."
+    },
+    {
+      "q": "Is this video to MP3 converter free?",
+      "a": "Yes. You can use UploadLess as a free video to MP3 converter without creating an account, installing software, or adding a watermark."
+    },
+    {
+      "q": "Can I extract audio from a video file?",
+      "a": "Yes. This tool works as a video audio extractor, allowing you to extract audio, music, voice, or sound from a video and download it as an MP3 file."
+    },
+    {
+      "q": "Can I convert MP4 to MP3?",
+      "a": "Yes. You can upload an MP4 video and convert it to MP3 online. The tool extracts the audio track from your MP4 file and saves it as an MP3."
+    },
+    {
+      "q": "Can I convert MOV, MKV, WebM, or AVI to MP3?",
+      "a": "Yes. UploadLess supports popular video formats including MOV, MKV, WebM, AVI, and MP4, so you can convert common video files to MP3 in your browser."
+    },
+    {
+      "q": "Are my video files uploaded to a server?",
+      "a": "No. The video to MP3 conversion runs locally in your browser, so your files stay on your device and are not uploaded to a server."
+    },
+    {
+      "q": "Do I need to paste a video URL?",
+      "a": "No. This tool is designed for video files from your device. You can upload a local video file and convert it to MP3 without using a URL."
+    },
+    {
+      "q": "Do I need to install software to convert video to MP3?",
+      "a": "No. UploadLess is an online video to MP3 converter that runs in your browser, so you do not need to install any desktop software or extension."
+    },
+    {
+      "q": "Will the MP3 audio quality stay good?",
+      "a": "UploadLess extracts the audio from your video and saves it as an MP3 file with good quality for music, voice recordings, lectures, podcasts, and other common uses."
+    },
+    {
+      "q": "Can I use this tool as a video to audio converter?",
+      "a": "Yes. You can use it as a video to audio converter to turn a video file into an MP3 audio file quickly, privately, and directly in your browser."
     }
   ],
   "_comment_mp4_converter": "================ MP4 Converter ================",
-  "mp4_converter.seo.title": "FileYuzu — MP4 Converter Online Free",
-  "mp4_converter.seo.description": "Convert any video to MP4 format online for free with FileYuzu. Fast, secure, and easy to use.",
-  "mp4_converter.hero.title": "MP4 Converter",
-  "mp4_converter.hero.description": "Convert your video files to MP4 format easily and securely in your browser.",
+  "mp4_converter.seo.title": "MP4 Converter Online Free | UploadLess",
+  "mp4_converter.seo.description": "Convert videos to MP4 online for free with UploadLess. Fast, private browser-based MP4 conversion with no uploads, no sign-up, and no watermark.",
+  "mp4_converter.hero.title": "Free Online MP4 Converter",
+  "mp4_converter.hero.description": "Convert video files to MP4 in your browser. Free, fast, private, and easy to use with no uploads or watermark.",
   "mp4_converter.how_to_use.title": "How to Convert Video to MP4 Online",
   "mp4_converter.how_to_use.steps": [
-    "Upload your video file (MOV, AVI, WebM, etc.).",
-    "Select MP4 as the target format.",
-    "Click Convert to start the process.",
-    "Download the converted MP4 file."
+    "Upload your video file, such as MOV, AVI, WebM, MKV, or another common video format.",
+    "Select MP4 as the target format in the online MP4 converter.",
+    "Click Convert to change your video to MP4. The conversion runs locally in your browser for privacy.",
+    "Download your converted MP4 file when the process is finished. No upload, sign-up, or watermark required."
   ],
-  "mp4_converter.why_use.title": "Why Use FileYuzu MP4 Converter",
+  "mp4_converter.why_use.title": "Why Use UploadLess MP4 Converter",
   "mp4_converter.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "100% private",
-      "description": "Conversion runs locally in your browser. Your files never leave your device."
+      "title": "Private MP4 conversion",
+      "description": "Convert videos to MP4 locally in your browser. Your files are not uploaded, so they stay private on your device."
     },
     {
       "icon": "bolt",
-      "title": "No sign-up required",
-      "description": "Start converting immediately without creating an account or dealing with limits."
+      "title": "Free with no sign-up",
+      "description": "Use the online MP4 converter for free without creating an account, installing software, or waiting in queues."
     },
     {
       "icon": "player-play",
-      "title": "Multiple formats supported",
-      "description": "Upload almost any video format and get a standard MP4 file."
+      "title": "Convert many formats to MP4",
+      "description": "Upload common video formats like MOV, AVI, WebM, MKV, and more, then convert them into a standard MP4 file."
     },
     {
       "icon": "rocket",
-      "title": "Fast processing",
-      "description": "Optimized for speed. Get your converted files quickly without waiting in queues."
+      "title": "Fast browser-based converter",
+      "description": "Change video files to MP4 quickly with optimized in-browser processing and download your converted file when ready."
     }
   ],
   "mp4_converter.faq.title": "MP4 Converter FAQ",
   "mp4_converter.faq.items": [
     {
-      "q": "Is it free to use?",
-      "a": "Yes, FileYuzu's MP4 converter is completely free with no limits."
+      "q": "What is an MP4 converter?",
+      "a": "An MP4 converter changes video files from formats like MOV, AVI, WebM, MKV, and more into MP4. MP4 is widely supported by phones, browsers, video players, editors, and social media platforms."
     },
     {
-      "q": "Are my files secure?",
-      "a": "Absolutely. All conversions happen locally in your browser, so your files are never uploaded to our servers."
+      "q": "Is this MP4 converter free to use?",
+      "a": "Yes. UploadLess is a free online MP4 converter you can use without creating an account. Upload your video, convert it to MP4, and download the converted file from your browser."
+    },
+    {
+      "q": "Are my video files uploaded to a server?",
+      "a": "No. The MP4 conversion runs locally on your device in the browser. Your files are not uploaded to our servers, which helps keep your videos private."
+    },
+    {
+      "q": "What video formats can I convert to MP4?",
+      "a": "You can convert many common video formats to MP4, including MOV, AVI, WebM, MKV, and other video files supported by your browser. Choose your file, select MP4, and start converting."
+    },
+    {
+      "q": "Why should I convert video files to MP4?",
+      "a": "MP4 is one of the most compatible video formats. Converting videos to MP4 can make them easier to play, upload, edit, share, and use across different devices and platforms."
+    },
+    {
+      "q": "Will converting to MP4 reduce video quality?",
+      "a": "Converting a video to MP4 may slightly change the quality depending on the original file and conversion settings. UploadLess is designed to create a clear MP4 file while improving compatibility."
+    },
+    {
+      "q": "Can I convert large videos to MP4?",
+      "a": "Yes, you can convert large videos to MP4 if your browser and device have enough memory and processing power. Because conversion runs locally, larger files may take longer to process."
+    },
+    {
+      "q": "Will the converted MP4 have a watermark?",
+      "a": "No. UploadLess converts videos to MP4 without adding a watermark. The downloaded MP4 file will not include UploadLess branding on your video."
     }
   ]
 }

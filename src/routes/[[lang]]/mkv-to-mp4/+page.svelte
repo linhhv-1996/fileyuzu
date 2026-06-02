@@ -12,11 +12,12 @@
     let dict = $derived($page.data.dict);
     
     let converterTexts = $derived({
-        uploadTitle: t('video_converter.upload.title', dict),
-        uploadSubtitle: t('video_converter.upload.subtitle', dict),
-        btnSelect: t('video_converter.upload.btn_select', dict),
-        btnSample: t('video_converter.upload.btn_sample', dict),
-        hint: t('video_converter.upload.hint', dict),
+        uploadTitle: t('mkv_to_mp4.upload.title', dict),
+        uploadSubtitle: t('mkv_to_mp4.upload.subtitle', dict),
+        btnSelect: t('mkv_to_mp4.upload.btn_select', dict),
+        btnSample: t('mkv_to_mp4.upload.btn_sample', dict),
+        hint: t('mkv_to_mp4.upload.hint', dict),
+
         formatLbl: t('video_converter.settings.format_lbl', dict),
         btnConvert: t('video_converter.btn.convert', dict),
         btnDownload: t('video_converter.btn.download', dict),
