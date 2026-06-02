@@ -22,6 +22,7 @@
     let targetFormat = $state(outputFormats[0] || 'mp4');
     let videoUrl = $state<string | null>(null);
     let isDragging = $state(false);
+    let isLoadingSample = $state(false);
     
     let progress = $state(0);
     let convertedSize = $state(0);
@@ -136,7 +137,8 @@
                     <button class="btn-primary" onclick={(e) => { e.stopPropagation(); fileInput?.click(); }}>
                         <i class="ti ti-upload" aria-hidden="true"></i> {texts.btnSelect}
                     </button>
-                    <button class="btn-default" onclick={(e) => { e.stopPropagation();
+                    <button class="btn-default" disabled={isLoadingSample} onclick={(e) => { e.stopPropagation();
+                        isLoadingSample = true;
                         fetch(sampleVideoPath)
                             .then(res => {
                                 if (!res.ok) throw new Error('Sample not found, using mock.');
@@ -147,9 +149,16 @@
                             })
                             .catch(() => {
                                 setFile(new File(["sample content"], sampleVideoPath.split('/').pop() || 'sample.mp4', { type: "video/mp4" }));
+                            })
+                            .finally(() => {
+                                isLoadingSample = false;
                             });
                     }}>
-                        <i class="ti ti-player-play" aria-hidden="true"></i> {texts.btnSample}
+                        {#if isLoadingSample}
+                            <span class="spin" aria-hidden="true"><i class="ti ti-loader-2"></i></span> {texts.btnSample}
+                        {:else}
+                            <i class="ti ti-player-play" aria-hidden="true"></i> {texts.btnSample}
+                        {/if}
                     </button>
                 </div>
                 <p class="hint hint-desktop">{texts.hint}</p>

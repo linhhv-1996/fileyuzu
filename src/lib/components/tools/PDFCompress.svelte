@@ -32,7 +32,8 @@
 
         try {
             const pdfjsLib = await import('pdfjs-dist/legacy/build/pdf.mjs');
-            pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.mjs`;
+            const { default: pdfWorkerUrl } = await import('pdfjs-dist/legacy/build/pdf.worker.min.mjs?url');
+            pdfjsLib.GlobalWorkerOptions.workerSrc = pdfWorkerUrl;
             
             const arrayBuffer = await file.arrayBuffer();
             const loadingTask = pdfjsLib.getDocument({ data: new Uint8Array(arrayBuffer) });
@@ -97,7 +98,7 @@
     
     function compressPdfFile(file: File, quality: string, pass: string): Promise<File> {
         return new Promise((resolve, reject) => {
-            const workerUrl = new URL('$lib/workers/pdf-compress-worker.ts', import.meta.url);
+            const workerUrl = new URL('../../workers/pdf-compress-worker.ts', import.meta.url);
             const worker = new Worker(workerUrl, { type: 'module' });
             
             const localFileUrl = URL.createObjectURL(file);
@@ -200,7 +201,7 @@
                             });
                     }}>
                         {#if isLoadingSample}
-                            <span class="spin" aria-hidden="true"><i class="ti ti-loader-2"></i></span> {texts.btnSample || 'Load sample'}
+                            <span class="spin" aria-hidden="true"><i class="ti ti-loader-2"></i></span>
                         {:else}
                             <i class="ti ti-file" aria-hidden="true"></i> {texts.btnSample || 'Load sample'}
                         {/if}
@@ -225,7 +226,7 @@
                     <div class="setting-ctl">
                         <div class="size-row w-full">
                             <div class="size-input-line w-full">
-                                <input class="size-input w-full" type="password" placeholder={texts.passwordPlaceholder || "Password (if encrypted)"} bind:value={password}>
+                                <input class="size-input w-full" type="password" autocomplete="new-password" placeholder={texts.passwordPlaceholder || "Password (if encrypted)"} bind:value={password}>
                             </div>
                         </div>
                     </div>
@@ -241,7 +242,6 @@
                     {#if isPdfLoading}
                         <div class="pdf-loading-overlay">
                             <span class="spin pdf-spinner"><i class="ti ti-loader-2" aria-hidden="true"></i></span>
-                            <span>Loading PDF...</span>
                         </div>
                     {/if}
                     <iframe src={pdfUrl + '#toolbar=0'} onload={() => isPdfLoading = false} class="pdf-iframe" class:loading={isPdfLoading} title="PDF Preview"></iframe>
@@ -287,7 +287,7 @@
                     <div class="setting-ctl">
                         <div class="size-row w-full">
                             <div class="size-input-line w-full">
-                                <input class="size-input w-full" type="password" placeholder={texts.passwordPlaceholder || "Password (if encrypted)"} bind:value={password}>
+                                <input class="size-input w-full" type="password" autocomplete="new-password" placeholder={texts.passwordPlaceholder || "Password (if encrypted)"} bind:value={password}>
                             </div>
                         </div>
                     </div>
@@ -317,7 +317,7 @@
                     <div class="setting-ctl">
                         <div class="size-row w-full">
                             <div class="size-input-line w-full">
-                                <input class="size-input w-full" type="password" disabled placeholder={texts.passwordPlaceholder || "Password (if encrypted)"} bind:value={password}>
+                                <input class="size-input w-full" type="password" autocomplete="new-password" disabled placeholder={texts.passwordPlaceholder || "Password (if encrypted)"} bind:value={password}>
                             </div>
                         </div>
                     </div>

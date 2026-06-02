@@ -15,6 +15,7 @@
     let targetSize = $state('');
     let videoUrl = $state<string | null>(null);
     let isDragging = $state(false);
+    let isLoadingSample = $state(false);
     
     let progress = $state(0);
     let compressedSize = $state(0);
@@ -126,7 +127,8 @@
                     <button class="btn-primary" onclick={(e) => { e.stopPropagation(); fileInput?.click(); }}>
                         <i class="ti ti-upload" aria-hidden="true"></i> {texts.btnSelect}
                     </button>
-                    <button class="btn-default" onclick={(e) => { e.stopPropagation();
+                    <button class="btn-default" disabled={isLoadingSample} onclick={(e) => { e.stopPropagation();
+                        isLoadingSample = true;
                         // Mock sample
                         fetch('/file_sample_1280x720.mp4')
                             .then(res => {
@@ -138,9 +140,16 @@
                             })
                             .catch(() => {
                                 setFile(new File(["sample content"], "file_sample_1280x720.mp4", { type: "video/mp4" }));
+                            })
+                            .finally(() => {
+                                isLoadingSample = false;
                             });
                     }}>
-                        <i class="ti ti-player-play" aria-hidden="true"></i> {texts.btnSample}
+                        {#if isLoadingSample}
+                            <span class="spin" aria-hidden="true"><i class="ti ti-loader-2"></i></span> {texts.btnSample}
+                        {:else}
+                            <i class="ti ti-player-play" aria-hidden="true"></i> {texts.btnSample}
+                        {/if}
                     </button>
                 </div>
                 <p class="hint hint-desktop">{texts.hint}</p>
