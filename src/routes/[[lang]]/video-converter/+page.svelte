@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t } from '$lib/i18n/config';
     import { getRelatedTools } from '$lib/config/tools';
@@ -27,10 +28,7 @@
     let relatedTools = $derived(getRelatedTools('video-converter'));
 </script>
 
-<svelte:head>
-    <title>{t('video_converter.seo.title', dict)}</title>
-    <meta name="description" content={t('video_converter.seo.description', dict)}>
-</svelte:head>
+<Seo title={t('video_converter.seo.title', dict)} description={t('video_converter.seo.description', dict)} />
 
 <div class="hero">
     <h1>{t('video_converter.hero.title', dict)}</h1>

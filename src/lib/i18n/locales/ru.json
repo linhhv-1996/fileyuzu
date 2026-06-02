@@ -1,4 +1,6 @@
 {
+          "common.try_now": "Используйте этот инструмент бесплатно",
+
   "compress_video.upload.title": "Перетащите видеофайл сюда для сжатия",
 "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM и другие · до 500 MB",
 "compress_video.upload.btn_select": "Выбрать видеофайл",

@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t } from '$lib/i18n/config';
     import { getRelatedTools } from '$lib/config/tools';
@@ -32,10 +33,7 @@
     let relatedTools = $derived(getRelatedTools('compress-pdf'));
 </script>
 
-<svelte:head>
-    <title>{t('pdf_compressor.seo.title', dict)}</title>
-    <meta name="description" content={t('pdf_compressor.seo.description', dict)}>
-</svelte:head>
+<Seo title={t('pdf_compressor.seo.title', dict)} description={t('pdf_compressor.seo.description', dict)} />
 
 <div class="hero">
     <h1>{t('pdf_compressor.hero.title', dict)}</h1>

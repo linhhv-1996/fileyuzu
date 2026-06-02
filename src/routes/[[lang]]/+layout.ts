@@ -1,5 +1,5 @@
 import type { LayoutLoad } from './$types';
-import { SUPPORTED_LANGUAGES } from '$lib/i18n/config';
+import { getCanonicalLang, isValidLang } from '$lib/i18n/config';
 import { error, redirect } from '@sveltejs/kit';
 
 export const load: LayoutLoad = async ({ params, url }) => {
@@ -8,11 +8,11 @@ export const load: LayoutLoad = async ({ params, url }) => {
         redirect(301, newPath + url.search);
     }
 
-    const lang = params.lang || 'en';
-    
-    if (params.lang && !SUPPORTED_LANGUAGES.some(l => l.code === lang)) {
+    if (params.lang && !isValidLang(params.lang)) {
         error(404, 'Language not found');
     }
+    
+    const lang = getCanonicalLang(params.lang);
 
     let dict = {};
     try {
@@ -24,6 +24,7 @@ export const load: LayoutLoad = async ({ params, url }) => {
     }
 
     return {
-        dict
+        dict,
+        lang
     };
 };

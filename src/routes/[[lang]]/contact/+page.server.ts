@@ -1,10 +1,11 @@
+import { getCanonicalLang } from '$lib/i18n/config';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 
 export const load: PageServerLoad = async ({ params }) => {
-    const lang = params.lang || 'en';
+    const lang = getCanonicalLang(params.lang);
     // Glob all markdown files to find the correct one
     const modules = import.meta.glob('/src/lib/contents/legal/**/*.md', { query: '?raw', import: 'default' });
     

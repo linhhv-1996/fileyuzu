@@ -1,4 +1,6 @@
 {
+        "common.try_now": "Use esta ferramenta gratuitamente",
+
   "compress_video.upload.title": "Solte um arquivo de vídeo aqui para comprimir",
 "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · até 500 MB",
 "compress_video.upload.btn_select": "Selecionar arquivo de vídeo",

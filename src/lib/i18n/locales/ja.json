@@ -1,4 +1,7 @@
 {
+    "common.try_now": "このツールを無料で使う",
+
+
  "compress_video.upload.title": "圧縮する動画ファイルをここにドロップ",
 "compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM など · 最大500 MB",
 "compress_video.upload.btn_select": "動画ファイルを選択",

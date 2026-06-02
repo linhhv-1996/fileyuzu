@@ -405,7 +405,8 @@ a:hover {
     border: 1px dashed var(--bd);
     border-radius: 8px;
     /* height: 220px; */
-    height: 280px;
+    min-height: 280px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1114,6 +1115,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 14px;
+    position: sticky;
+    top: 80px;
 }
 
 .sb-title {
@@ -1459,7 +1462,8 @@ RESPONSIVE
     }
 
     .upload-box {
-        /* height: 200px; */
+        min-height: 180px;
+        height: auto;
         gap: 8px;
     }
 

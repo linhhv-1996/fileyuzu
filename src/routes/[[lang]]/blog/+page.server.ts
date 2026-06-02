@@ -1,3 +1,4 @@
+import { getCanonicalLang } from '$lib/i18n/config';
 import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import matter from 'gray-matter';
@@ -6,7 +7,8 @@ export const load: PageServerLoad = async ({ params, setHeaders }) => {
     setHeaders({
         'X-Robots-Tag': 'noindex, nofollow'
     });
-    const lang = params.lang || 'en';
+    const lang = getCanonicalLang(params.lang);
+    const urlLang = lang.toLowerCase();
     
     // We must use import.meta.glob statically without dynamic variables inside the glob string.
     // glob all markdown files and filter by lang.
@@ -15,7 +17,7 @@ export const load: PageServerLoad = async ({ params, setHeaders }) => {
     const posts = [];
     
     for (const path in modules) {
-        if (path.includes(`/blog/${lang}/`)) {
+        if (path.includes(`/blog/${urlLang}/`)) {
             const rawContent = await modules[path]() as string;
             const parsed = matter(rawContent);
             
@@ -35,9 +37,9 @@ export const load: PageServerLoad = async ({ params, setHeaders }) => {
     
     if (posts.length > 0) {
         const latestSlug = posts[0].slug;
-        const redirectUrl = lang === 'en' ? `/blog/${latestSlug}` : `/${lang}/blog/${latestSlug}`;
+        const redirectUrl = urlLang === 'en' ? `/blog/${latestSlug}` : `/${urlLang}/blog/${latestSlug}`;
         throw redirect(302, redirectUrl);
     }
     
-    throw redirect(302, lang === 'en' ? '/' : `/${lang}`);
+    throw redirect(302, urlLang === 'en' ? '/' : `/${urlLang}`);
 };

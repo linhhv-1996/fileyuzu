@@ -6,7 +6,7 @@
     let { title = '', tools = [], mobile = false }: { title?: string, tools?: ToolConfig[], mobile?: boolean } = $props();
 
     let dict = $derived($page.data.dict);
-    let lang = $derived($page.params.lang || 'en');
+    let lang = $derived($page.data.lang || 'en');
 </script>
 
 <div class="card" style={mobile ? "margin-top:14px" : ""}>

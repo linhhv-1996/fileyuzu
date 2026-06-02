@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t } from '$lib/i18n/config';
     import { getRelatedTools } from '$lib/config/tools';
@@ -28,10 +29,7 @@
     let relatedTools = $derived(getRelatedTools('compress-video'));
 </script>
 
-<svelte:head>
-    <title>{t('compress_video.seo.title', dict)}</title>
-    <meta name="description" content={t('compress_video.seo.description', dict)}>
-</svelte:head>
+<Seo title={t('compress_video.seo.title', dict)} description={t('compress_video.seo.description', dict)} />
 
 <div class="hero">
     <h1>{t('compress_video.hero.title', dict)}</h1>

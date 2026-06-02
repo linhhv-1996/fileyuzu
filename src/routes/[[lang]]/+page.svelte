@@ -1,10 +1,11 @@
 <script lang="ts">
+    import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t, langUrl } from '$lib/i18n/config';
     import { tools, categories } from '$lib/config/tools';
 
     let dict = $derived($page.data.dict);
-    let lang = $derived($page.params.lang || 'en');
+    let lang = $derived($page.data.lang || 'en');
 
     // Group tools by category, preserving categories order
     let grouped = $derived(
@@ -16,10 +17,7 @@
     );
 </script>
 
-<svelte:head>
-    <title>{t('home.seo.title', dict)}</title>
-    <meta name="description" content={t('home.seo.description', dict)}>
-</svelte:head>
+<Seo title={t('home.seo.title', dict)} description={t('home.seo.description', dict)} />
 
 <!-- Hero -->
 <section class="hero">

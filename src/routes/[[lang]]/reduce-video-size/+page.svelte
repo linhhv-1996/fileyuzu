@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t } from '$lib/i18n/config';
     import { getRelatedTools } from '$lib/config/tools';
@@ -28,10 +29,7 @@
     let relatedTools = $derived(getRelatedTools('reduce-video-size'));
 </script>
 
-<svelte:head>
-    <title>{t('reduce_video_size.seo.title', dict)}</title>
-    <meta name="description" content={t('reduce_video_size.seo.description', dict)}>
-</svelte:head>
+<Seo title={t('reduce_video_size.seo.title', dict)} description={t('reduce_video_size.seo.description', dict)} />
 
 <div class="hero">
     <h1>{t('reduce_video_size.hero.title', dict)}</h1>

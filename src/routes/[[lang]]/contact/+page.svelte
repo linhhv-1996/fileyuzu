@@ -1,12 +1,11 @@
 <script lang="ts">
+    import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
 
     let { data } = $props();
 </script>
 
-<svelte:head>
-    <title>{data.title} - UploadLess</title>
-</svelte:head>
+<Seo title="{data.title} - UploadLess" noIndex={true} />
 
 <main class="article-page">
     <div class="article-container">

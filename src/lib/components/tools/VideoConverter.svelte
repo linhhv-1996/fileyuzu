@@ -195,7 +195,7 @@
                                 <button class="audio-play-btn" onclick={(e) => { e.stopPropagation(); audioPaused ? audioRef?.play() : audioRef?.pause() }}>
                                     <i class="ti {audioPaused ? 'ti-player-play' : 'ti-player-pause'}" aria-hidden="true" style="font-size: 16px;"></i>
                                 </button>
-                                <input type="range" class="audio-seek" min="0" max={audioDuration || 100} value={audioTime} oninput={(e) => { if(audioRef) audioRef.currentTime = +(e.target).value }} />
+                                <input type="range" class="audio-seek" min="0" max={audioDuration || 100} value={audioTime} oninput={(e) => { if (audioRef && e.currentTarget) audioRef.currentTime = +(e.currentTarget as HTMLInputElement).value }} />
                                 <div class="audio-time">{formatTime(audioTime)} / {formatTime(audioDuration)}</div>
                             </div>
                         </div>

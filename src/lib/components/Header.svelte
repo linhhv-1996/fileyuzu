@@ -2,7 +2,7 @@
     import { page } from '$app/stores';
     import { t, langUrl, SUPPORTED_LANGUAGES } from '$lib/i18n/config';
 
-    let lang = $derived($page.params.lang || 'en');
+    let lang = $derived($page.data.lang || 'en');
     let dict = $derived($page.data.dict);
     
     let currentLang = $derived(SUPPORTED_LANGUAGES.find(l => l.code === lang) || SUPPORTED_LANGUAGES[0]);
@@ -81,7 +81,7 @@
                 </button>
                 <div class="dd-menu" role="listbox" aria-label={t('common.language', dict)}>
                     {#each SUPPORTED_LANGUAGES as l}
-                        {@const targetPath = $page.url.pathname.includes('/blog') ? '/' : ($page.url.pathname.replace(`/${lang}`, '').replace(/^\/$/, '') || '/')}
+                        {@const targetPath = $page.url.pathname.includes('/blog') ? '/' : ($page.url.pathname.replace(`/${lang.toLowerCase()}`, '').replace(/^\/$/, '') || '/')}
                         <a href={langUrl(l.code, targetPath)} class="dd-item lang-option" data-sveltekit-reload role="option" aria-selected={l.code === lang} onclick={() => mobileMenuOpen = false}>
                             <span class="lang-flag">{l.flag}</span><span>{l.name}</span>
                         </a>

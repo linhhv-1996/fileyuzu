@@ -3,7 +3,7 @@
     import { t, langUrl } from '$lib/i18n/config';
 
     let dict = $derived($page.data.dict);
-    let lang = $derived($page.params.lang || 'en');
+    let lang = $derived($page.data.lang || 'en');
 </script>
 
 <footer class="ftr">

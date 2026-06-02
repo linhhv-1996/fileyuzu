@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t } from '$lib/i18n/config';
     import { getRelatedTools } from '$lib/config/tools';
@@ -28,10 +29,7 @@
     let relatedTools = $derived(getRelatedTools('mkv-to-mp4'));
 </script>
 
-<svelte:head>
-    <title>{t('mkv_to_mp4.seo.title', dict)}</title>
-    <meta name="description" content={t('mkv_to_mp4.seo.description', dict)}>
-</svelte:head>
+<Seo title={t('mkv_to_mp4.seo.title', dict)} description={t('mkv_to_mp4.seo.description', dict)} />
 
 <div class="hero">
     <h1>{t('mkv_to_mp4.hero.title', dict)}</h1>

@@ -1,4 +1,6 @@
 {
+            "common.try_now": "ใช้เครื่องมือนี้ฟรี",
+
   "compress_video.upload.title": "วางไฟล์วิดีโอที่นี่เพื่อบีบอัด",
 "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM และอื่น ๆ · สูงสุด 500 MB",
 "compress_video.upload.btn_select": "เลือกไฟล์วิดีโอ",

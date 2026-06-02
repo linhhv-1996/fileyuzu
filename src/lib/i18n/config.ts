@@ -1,12 +1,25 @@
 export const SUPPORTED_LANGUAGES = [
     { code: 'en', name: 'English', flag: '🇺🇸' },
     { code: 'ja', name: '日本語', flag: '🇯🇵' },
-    { code: 'zh-TW', name: '繁體中文', flag: '🇹🇼' },
+    { code: 'zh-tw', name: '繁體中文', flag: '🇹🇼' },
     { code: 'ko', name: '한국어', flag: '🇰🇷' },
-    { code: 'pt-BR', name: 'Português', flag: '🇧🇷' },
+    { code: 'pt-br', name: 'Português', flag: '🇧🇷' },
     { code: 'th', name: 'ไทย', flag: '🇹🇭' },
     { code: 'ru', name: 'Русский', flag: '🇰🇿' }
 ];
+
+export function getCanonicalLang(lang: string | undefined): string {
+    if (!lang) return 'en';
+    const l = lang.toLowerCase();
+    const found = SUPPORTED_LANGUAGES.find(sl => sl.code.toLowerCase() === l);
+    return found ? found.code : 'en';
+}
+
+export function isValidLang(lang: string | undefined): boolean {
+    if (!lang) return false;
+    const l = lang.toLowerCase();
+    return SUPPORTED_LANGUAGES.some(sl => sl.code.toLowerCase() === l);
+}
 
 export function t(key: string, dict: Record<string, any>): any {
     if (!dict) return key;
@@ -44,7 +57,8 @@ export function t(key: string, dict: Record<string, any>): any {
 }
 
 export function langUrl(lang: string, path: string): string {
-    const basePath = lang === 'en' ? '' : `/${lang}`;
+    const urlLang = lang.toLowerCase();
+    const basePath = urlLang === 'en' ? '' : `/${urlLang}`;
     const normalizedPath = path.startsWith('/') ? path : `/${path}`;
     const url = `${basePath}${normalizedPath}`;
     return url === '' ? '/' : url;
