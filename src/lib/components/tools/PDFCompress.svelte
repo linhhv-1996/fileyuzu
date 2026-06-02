@@ -96,10 +96,11 @@
         status = 'idle';
     }
     
+    import PDFWorker from '../../workers/pdf-compress-worker.ts?worker';
+
     function compressPdfFile(file: File, quality: string, pass: string): Promise<File> {
         return new Promise((resolve, reject) => {
-            const workerUrl = new URL('../../workers/pdf-compress-worker.ts', import.meta.url);
-            const worker = new Worker(workerUrl, { type: 'module' });
+            const worker = new PDFWorker();
             
             const localFileUrl = URL.createObjectURL(file);
             
@@ -225,9 +226,9 @@
                     <div class="setting-lbl" >{texts.passwordLbl || 'Password to unlock (optional)'}</div>
                     <div class="setting-ctl">
                         <div class="size-row w-full">
-                            <div class="size-input-line w-full">
+                            <form class="size-input-line w-full" onsubmit={(e) => e.preventDefault()}>
                                 <input class="size-input w-full" type="password" autocomplete="new-password" placeholder={texts.passwordPlaceholder || "Password (if encrypted)"} bind:value={password}>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -286,9 +287,9 @@
                     <div class="setting-lbl" >{texts.passwordLbl || 'Password to unlock (optional)'}</div>
                     <div class="setting-ctl">
                         <div class="size-row w-full">
-                            <div class="size-input-line w-full">
+                            <form class="size-input-line w-full" onsubmit={(e) => e.preventDefault()}>
                                 <input class="size-input w-full" type="password" autocomplete="new-password" placeholder={texts.passwordPlaceholder || "Password (if encrypted)"} bind:value={password}>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -316,9 +317,9 @@
                     <div class="setting-lbl" >{texts.passwordLbl || 'Password to unlock (optional)'}</div>
                     <div class="setting-ctl">
                         <div class="size-row w-full">
-                            <div class="size-input-line w-full">
+                            <form class="size-input-line w-full" onsubmit={(e) => e.preventDefault()}>
                                 <input class="size-input w-full" type="password" autocomplete="new-password" disabled placeholder={texts.passwordPlaceholder || "Password (if encrypted)"} bind:value={password}>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
