@@ -1,7 +1,7 @@
 import { getCanonicalLang } from '$lib/i18n/config';
 import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
-import matter from 'gray-matter';
+import { parseFrontmatter as matter } from '$lib/utils/markdown';
 
 export const load: PageServerLoad = async ({ params, setHeaders }) => {
     setHeaders({
