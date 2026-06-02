@@ -36,7 +36,7 @@ export const GET: RequestHandler = async ({ url }) => {
     }
 
     // 2. Blog pages
-    const modules = import.meta.glob('/src/lib/contents/blog/**/*.md');
+    const modules = import.meta.glob('/src/lib/contents/blog/**/*.md', { query: '?raw', import: 'default' });
     
     for (const path of Object.keys(modules)) {
         const match = path.match(/\/blog\/([^/]+)\/([^/]+)\.md$/);
