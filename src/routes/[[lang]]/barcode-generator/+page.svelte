@@ -22,6 +22,7 @@
         btnGenerate: t('barcode_generator.btn_generate', dict),
         resultsTitle: t('barcode_generator.results_title', dict),
         btnDownload: t('barcode_generator.btn_download', dict),
+        btnDownloadZip: t('barcode_generator.btn_download_zip', dict),
         btnGenNew: t('barcode_generator.btn_downloadbtn_gen_new', dict),
         yes: t('barcode_generator.yes', dict),
         no: t('barcode_generator.no', dict)

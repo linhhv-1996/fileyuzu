@@ -1033,6 +1033,7 @@
   "barcode_generator.btn_generate": "Gerar Códigos de Barras",
   "barcode_generator.results_title": "Códigos de Barras Gerados",
   "barcode_generator.btn_download": "Baixar",
+  "barcode_generator.btn_download_zip": "Baixar ZIP",
   "barcode_generator.yes": "Sim",
   "barcode_generator.no": "Não",
   "barcode_generator.why_use.title": "Por Que Usar o Gerador de Código de Barras da UploadLess",

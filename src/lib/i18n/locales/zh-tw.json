@@ -1033,6 +1033,7 @@
   "barcode_generator.btn_generate": "產生條碼",
   "barcode_generator.results_title": "已產生的條碼",
   "barcode_generator.btn_download": "下載",
+  "barcode_generator.btn_download_zip": "下載 ZIP",
   "barcode_generator.yes": "是",
   "barcode_generator.no": "否",
   "barcode_generator.why_use.title": "為什麼使用 UploadLess 條碼產生器",

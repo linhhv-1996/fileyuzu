@@ -966,6 +966,7 @@
   "barcode_generator.btn_generate": "Generate Barcodes",
   "barcode_generator.results_title": "Generated Barcodes",
   "barcode_generator.btn_download": "Download",
+  "barcode_generator.btn_download_zip": "Download ZIP",
   "barcode_generator.yes": "Yes",
   "barcode_generator.no": "No",
   "barcode_generator.why_use.title": "Why Use UploadLess Barcode Generator",

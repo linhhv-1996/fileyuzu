@@ -1036,6 +1036,7 @@
   "barcode_generator.btn_generate": "バーコードを生成",
   "barcode_generator.results_title": "生成されたバーコード",
   "barcode_generator.btn_download": "ダウンロード",
+  "barcode_generator.btn_download_zip": "ZIPをダウンロード",
   "barcode_generator.yes": "はい",
   "barcode_generator.no": "いいえ",
   "barcode_generator.why_use.title": "UploadLess バーコード生成ツールを使う理由",

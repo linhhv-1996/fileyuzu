@@ -1032,6 +1032,7 @@
   "barcode_generator.btn_generate": "바코드 생성",
   "barcode_generator.results_title": "생성된 바코드",
   "barcode_generator.btn_download": "다운로드",
+  "barcode_generator.btn_download_zip": "ZIP 다운로드",
   "barcode_generator.yes": "예",
   "barcode_generator.no": "아니요",
   "barcode_generator.why_use.title": "UploadLess 바코드 생성기를 사용하는 이유",

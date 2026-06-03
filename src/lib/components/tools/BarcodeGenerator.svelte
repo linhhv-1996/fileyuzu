@@ -415,7 +415,7 @@
                 {#if results.length > 1}
                     <button class="btn-dl" onclick={downloadZip}>
                         <i class="ti ti-folder-down" aria-hidden="true"></i>
-                        Download ZIP
+                        {texts.btnDownloadZip || "Download ZIP"}
                     </button>
                 {:else}
                     <button
