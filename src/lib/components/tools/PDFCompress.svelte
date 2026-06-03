@@ -366,7 +366,7 @@
     .pdf-spinner { font-size: 2rem; margin-bottom: 0.5rem; }
     .pdf-iframe { width: 100%; height: 100%; border: none; min-height: 400px; display: block; transition: opacity 0.3s; opacity: 1; }
     .pdf-iframe.loading { opacity: 0; }
-    .pdf-rm-btn { position: absolute; top: 10px; right: 10px; z-index: 10; background: var(--bg); color: var(--text); box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+    .pdf-rm-btn { z-index: 10; }
     .pdf-page-count { position: absolute; top: 12px; left: 12px; z-index: 10; background: rgba(0,0,0,0.6); color: white; font-size: 0.8rem; padding: 4px 10px; border-radius: 999px; font-weight: 500; backdrop-filter: blur(4px); }
     .strikethrough-dim { text-decoration: line-through; opacity: 0.6; }
     .text-green-bold { color: var(--green); font-weight: 600; }
