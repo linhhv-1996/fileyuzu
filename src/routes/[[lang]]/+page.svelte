@@ -2,19 +2,10 @@
     import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t, langUrl } from '$lib/i18n/config';
-    import { tools, categories } from '$lib/config/tools';
+    import { tools } from '$lib/config/tools';
 
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
-
-    // Group tools by category, preserving categories order
-    let grouped = $derived(
-        categories.map(cat => ({
-            ...cat,
-            label: t(cat.labelKey, dict),
-            items: tools.filter(tool => tool.category === cat.id),
-        })).filter(g => g.items.length > 0)
-    );
 </script>
 
 <Seo title={t('home.seo.title', dict)} description={t('home.seo.description', dict)} />
@@ -40,34 +31,24 @@
     </div>
 </section>
 
-<!-- Categories grid -->
-<section class="cats-section">
-    <div class="cats-grid">
-        {#each grouped as group}
-            <div class="cat-box">
-                <div class="cat-header">
-                    <span class="cat-name">{group.label.toUpperCase()}</span>
-                    <span class="cat-count">{group.items.length}</span>
+<!-- Tools grid -->
+<section class="tools-section">
+    <div class="tools-grid">
+        {#each tools as tool}
+            <a href={langUrl(lang, `/${tool.slug}`)} class="tool-card">
+                <div class="tool-card-main">
+                    <span class="tool-card-title">{t(tool.titleKey, dict)}</span>
+                    <span class="tool-card-desc">{t(tool.descriptionKey, dict)}</span>
                 </div>
-                <div class="cat-tools">
-                    {#each group.items as tool, i}
-                        <a href={langUrl(lang, `/${tool.slug}`)} class="tool-row">
-                            <div class="tool-row-main">
-                                <span class="tool-row-title">{t(tool.titleKey, dict)}</span>
-                                <span class="tool-row-desc">{t(tool.descriptionKey, dict)}</span>
-                            </div>
-                            {#if tool.tags && tool.tags.length > 0}
-                                <div class="tool-row-tags">
-                                    {#each tool.tags as tag}
-                                        <span class="fmt-tag">{tag}</span>
-                                    {/each}
-                                </div>
-                            {/if}
-                            <i class="ti ti-chevron-right row-arrow" aria-hidden="true"></i>
-                        </a>
-                    {/each}
-                </div>
-            </div>
+                {#if tool.tags && tool.tags.length > 0}
+                    <div class="tool-card-tags">
+                        {#each tool.tags as tag}
+                            <span class="fmt-tag">{tag}</span>
+                        {/each}
+                    </div>
+                {/if}
+                <i class="ti ti-chevron-right card-arrow" aria-hidden="true"></i>
+            </a>
         {/each}
     </div>
 </section>
@@ -160,94 +141,55 @@
         flex-shrink: 0;
     }
 
-    /* ── Categories grid ── */
-    .cats-section {
+    /* ── Tools grid ── */
+    .tools-section {
         margin-bottom: 30px;
     }
 
-    .cats-grid {
+    .tools-grid {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 12px;
         align-items: start;
     }
 
-    @media (max-width: 640px) {
-        .cats-grid {
-            grid-template-columns: 1fr;
+    @media (max-width: 768px) {
+        .tools-grid {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 6px;
         }
     }
 
-    /* Category box */
-    .cat-box {
-        border: 1px solid var(--bd);
-        border-radius: var(--r);
-        overflow: hidden;
-        background: var(--bg);
-    }
-
-    .cat-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 11px 16px;
-        background: var(--bg-sub);
-        border-bottom: 1px solid var(--bd);
-    }
-
-    .cat-name {
-        font-size: 13px;
-        font-weight: 700;
-        color: var(--tx-sub);
-        letter-spacing: 0.06em;
-    }
-
-    .cat-count {
-        font-size: 13px;
-        color: var(--tx-mt);
-        background: var(--bg);
-        border: 1px solid var(--bd-lt);
-        border-radius: 999px;
-        padding: 1px 8px;
-        font-weight: 500;
-    }
-
-    .cat-tools {
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* Tool row */
-    .tool-row {
+    /* Tool card */
+    .tool-card {
         display: flex;
         align-items: center;
         gap: 10px;
-        padding: 14px 16px;
+        padding: 16px;
         text-decoration: none;
         color: inherit;
-        border-bottom: 1px solid var(--bd-lt);
-        transition: background 0.12s;
+        border: 1px solid var(--bd);
+        border-radius: var(--r);
+        background: var(--bg);
+        transition: background 0.12s, border-color 0.12s;
         position: relative;
+        min-width: 0;
     }
 
-    .tool-row:last-child {
-        border-bottom: none;
-    }
-
-    .tool-row:hover {
+    .tool-card:hover {
         background: var(--bg-sub);
         text-decoration: none;
     }
 
-    .tool-row-main {
+    .tool-card-main {
         flex: 1;
         min-width: 0;
         display: flex;
         flex-direction: column;
-        gap: 3px;
+        gap: 4px;
     }
 
-    .tool-row-title {
+    .tool-card-title {
         font-size: 15px;
         font-weight: 650;
         color: var(--tx);
@@ -257,7 +199,7 @@
         transition: color 0.15s ease;
     }
 
-    .tool-row-desc {
+    .tool-card-desc {
         font-size: 13.5px;
         color: var(--tx-sub);
         white-space: nowrap;
@@ -266,7 +208,7 @@
     }
 
     /* Format tags */
-    .tool-row-tags {
+    .tool-card-tags {
         display: flex;
         gap: 4px;
         flex-wrap: wrap;
@@ -285,14 +227,14 @@
         white-space: nowrap;
     }
 
-    .row-arrow {
+    .card-arrow {
         font-size: 14px;
         color: var(--tx-mt);
         flex-shrink: 0;
         transition: transform 0.12s, color 0.12s;
     }
 
-    .tool-row:hover .row-arrow {
+    .tool-card:hover .card-arrow {
         color: var(--ac);
         transform: translateX(2px);
     }
