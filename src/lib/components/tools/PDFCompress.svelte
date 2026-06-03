@@ -202,7 +202,7 @@
                             });
                     }}>
                         {#if isLoadingSample}
-                            <span class="spin" aria-hidden="true"><i class="ti ti-loader-2"></i></span>
+                            <span class="spin" aria-hidden="true"><i class="ti ti-loader-2"></i></span> {texts.btnSample || 'Load sample'}
                         {:else}
                             <i class="ti ti-file" aria-hidden="true"></i> {texts.btnSample || 'Load sample'}
                         {/if}
