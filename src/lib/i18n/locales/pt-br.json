@@ -70,8 +70,9 @@
 
 
   "_comment_home": "================ Home ================",
-  "home.seo.title": "UploadLess — Ferramentas de vídeo online grátis",
-  "home.seo.description": "O UploadLess oferece ferramentas online gratuitas e privadas para vídeos e arquivos. Funciona totalmente no seu navegador, sem upload e sem cadastro.",
+    "home.seo.title": "Ferramentas de arquivos online grátis — Privadas e baseadas no navegador",
+    "home.seo.description": "Use ferramentas online grátis para compactar, converter e editar arquivos diretamente no navegador. Sem uploads, sem cadastro, e seus arquivos permanecem privados.",
+    
   "home.hero.title": "Ferramentas online gratuitas",
   "home.hero.description": "Ferramentas privadas, rápidas e fáceis de usar que rodam diretamente no seu navegador. Seus arquivos nunca saem do seu dispositivo.",
   "home.pill.private": "Os arquivos nunca saem do seu dispositivo",

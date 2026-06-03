@@ -72,8 +72,10 @@
 
 
   "_comment_home": "================ Home ================",
-  "home.seo.title": "UploadLess — 免費線上影片工具",
-  "home.seo.description": "UploadLess 提供免費、注重隱私的線上影片與檔案工具。全程在瀏覽器中執行，無需上傳，也無需註冊。",
+    "home.seo.title": "免費線上檔案工具 — 私密、瀏覽器內處理",
+    "home.seo.description": "使用免費線上工具，直接在瀏覽器中壓縮、轉換和編輯檔案。無需上傳、無需註冊，您的檔案保持私密。",
+  
+
   "home.hero.title": "免費線上工具",
   "home.hero.description": "隱私、安全、快速又好用的工具，直接在瀏覽器中執行。你的檔案永遠不會離開裝置。",
   "home.pill.private": "檔案永遠不會離開你的裝置",
