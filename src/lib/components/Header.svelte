@@ -1,6 +1,7 @@
 <script lang="ts">
     import { page } from '$app/stores';
     import { t, langUrl, SUPPORTED_LANGUAGES } from '$lib/i18n/config';
+    import { tools } from '$lib/config/tools';
 
     let lang = $derived($page.data.lang || 'en');
     let dict = $derived($page.data.dict);
@@ -10,6 +11,8 @@
     let navOpen = $state(false);
     let langOpen = $state(false);
     let mobileMenuOpen = $state(false);
+
+    let filteredTools = $derived(tools.filter(tool => !tool.markets || tool.markets.includes(lang)));
 
     function toggleNav(e: Event) {
         e.stopPropagation();
@@ -55,18 +58,12 @@
                         <i class="ti ti-chevron-down chev" aria-hidden="true"></i>
                     </button>
                     <div class="dd-menu" role="menu">
-                        <a href={langUrl(lang, '/compress-video')} class="dd-item" role="menuitem" onclick={() => mobileMenuOpen = false}>
-                            <i class="ti ti-movie" aria-hidden="true"></i>
-                            <span><span class="dd-title">{t('tool.compress_video.title', dict)}</span><span class="dd-sub">{t('tool.compress_video.description', dict)}</span></span>
-                        </a>
-                        <a href={langUrl(lang, '/compress-pdf')} class="dd-item" role="menuitem" onclick={() => mobileMenuOpen = false}>
-                            <i class="ti ti-file-type-pdf" aria-hidden="true"></i>
-                            <span><span class="dd-title">{t('tool.pdf_compressor.title', dict)}</span><span class="dd-sub">{t('tool.pdf_compressor.description', dict)}</span></span>
-                        </a>
-                        <a href={langUrl(lang, '/video-converter')} class="dd-item" role="menuitem" onclick={() => mobileMenuOpen = false}>
-                            <i class="ti ti-arrows-right-left" aria-hidden="true"></i>
-                            <span><span class="dd-title">{t('tool.video_converter.title', dict)}</span><span class="dd-sub">{t('tool.video_converter.description', dict)}</span></span>
-                        </a>
+                        {#each filteredTools as tool}
+                            <a href={langUrl(lang, `/${tool.slug}`)} class="dd-item" role="menuitem" onclick={() => mobileMenuOpen = false}>
+                                <i class="ti ti-{tool.icon}" aria-hidden="true"></i>
+                                <span><span class="dd-title">{t(tool.titleKey, dict)}</span><span class="dd-sub">{t(tool.shortDescriptionKey || tool.descriptionKey, dict)}</span></span>
+                            </a>
+                        {/each}
                     </div>
                 </div>
             </nav>
@@ -81,8 +78,7 @@
                 </button>
                 <div class="dd-menu" role="listbox" aria-label={t('common.language', dict)}>
                     {#each SUPPORTED_LANGUAGES as l}
-                        {@const targetPath = $page.url.pathname.includes('/blog') ? '/' : ($page.url.pathname.replace(`/${lang.toLowerCase()}`, '').replace(/^\/$/, '') || '/')}
-                        <a href={langUrl(l.code, targetPath)} class="dd-item lang-option" data-sveltekit-reload role="option" aria-selected={l.code === lang} onclick={() => mobileMenuOpen = false}>
+                        <a href={langUrl(l.code, '/')} class="dd-item lang-option" data-sveltekit-reload role="option" aria-selected={l.code === lang} onclick={() => mobileMenuOpen = false}>
                             <span class="lang-flag">{l.flag}</span><span>{l.name}</span>
                         </a>
                     {/each}

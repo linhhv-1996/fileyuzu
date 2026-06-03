@@ -1,83 +1,65 @@
 {
-      "common.try_now": "이 도구를 무료로 사용하기",
-      "home.search.placeholder": "도구 검색",
- "blog.author_bio": "J.Julian은 UploadLess의 창립자이자 리드 개발자입니다. 소프트웨어 엔지니어링과 웹 아키텍처에 대한 탄탄한 배경을 바탕으로, 현대 웹을 위한 안전하고 고성능이며 사용자 친화적인 파일 공유 솔루션을 구축하는 데 전념하고 있습니다.",
-
-
+  "common.try_now": "이 도구를 무료로 사용하기",
+  "home.search.placeholder": "도구 검색",
+  "blog.author_bio": "J.Julian은 UploadLess의 창립자이자 리드 개발자입니다. 소프트웨어 엔지니어링과 웹 아키텍처에 대한 탄탄한 배경을 바탕으로, 현대 웹을 위한 안전하고 고성능이며 사용자 친화적인 파일 공유 솔루션을 구축하는 데 전념하고 있습니다.",
   "compress_video.upload.title": "압축할 동영상 파일을 여기에 드롭하세요",
-"compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM 등 · 최대 500 MB",
-"compress_video.upload.btn_select": "동영상 파일 선택",
-"compress_video.upload.btn_sample": "샘플 동영상 사용해보기",
-"compress_video.upload.hint": "압축하여 파일 크기를 줄일 동영상 1개를 선택하세요",
-
-"compress_mp4.upload.title": "압축할 MP4 파일을 여기에 드롭하세요",
-"compress_mp4.upload.subtitle": "MP4 · 최대 500 MB · 화질은 유지하고 용량은 줄이기",
-"compress_mp4.upload.btn_select": "MP4 파일 선택",
-"compress_mp4.upload.btn_sample": "샘플 MP4 사용해보기",
-"compress_mp4.upload.hint": "압축하여 더 작게 만들 MP4 파일 1개를 선택하세요",
-
-"reduce_video_size.upload.title": "크기를 줄일 동영상 파일을 여기에 드롭하세요",
-"reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM 등 · 최대 500 MB",
-"reduce_video_size.upload.btn_select": "동영상 파일 찾아보기",
-"reduce_video_size.upload.btn_sample": "샘플 동영상 사용",
-"reduce_video_size.upload.hint": "파일 크기를 빠르게 줄일 동영상 1개를 업로드하세요",
-
-"video_converter.upload.title": "변환할 동영상 파일을 여기에 드롭하세요",
-"video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM 등 · 브라우저에서 변환",
-"video_converter.upload.btn_select": "동영상 파일 선택",
-"video_converter.upload.btn_sample": "샘플 동영상 사용해보기",
-"video_converter.upload.hint": "다른 형식으로 변환할 동영상 파일 1개를 선택하세요",
-
-"mov_to_mp4.upload.title": "MP4로 변환할 MOV 파일을 여기에 드롭하세요",
-"mov_to_mp4.upload.subtitle": "MOV · MP4로 변환해 더 쉽게 재생",
-"mov_to_mp4.upload.btn_select": "MOV 파일 선택",
-"mov_to_mp4.upload.btn_sample": "샘플 MOV 사용해보기",
-"mov_to_mp4.upload.hint": "MP4로 변환할 MOV 동영상 파일 1개를 선택하세요",
-
-"avi_to_mp4.upload.title": "MP4로 변환할 AVI 파일을 여기에 드롭하세요",
-"avi_to_mp4.upload.subtitle": "AVI · MP4로 변환해 호환성 향상",
-"avi_to_mp4.upload.btn_select": "AVI 파일 선택",
-"avi_to_mp4.upload.btn_sample": "샘플 AVI 사용해보기",
-"avi_to_mp4.upload.hint": "MP4로 변환할 AVI 동영상 파일 1개를 선택하세요",
-
-"mkv_to_mp4.upload.title": "MP4로 변환할 MKV 파일을 여기에 드롭하세요",
-"mkv_to_mp4.upload.subtitle": "MKV · MP4로 변환해 더 쉽게 재생",
-"mkv_to_mp4.upload.btn_select": "MKV 파일 선택",
-"mkv_to_mp4.upload.btn_sample": "샘플 MKV 사용해보기",
-"mkv_to_mp4.upload.hint": "MP4로 변환할 MKV 동영상 파일 1개를 선택하세요",
-
-"webm_to_mp4.upload.title": "MP4로 변환할 WebM 파일을 여기에 드롭하세요",
-"webm_to_mp4.upload.subtitle": "WebM · MP4로 변환해 더 많은 기기에서 재생",
-"webm_to_mp4.upload.btn_select": "WebM 파일 선택",
-"webm_to_mp4.upload.btn_sample": "샘플 WebM 사용해보기",
-"webm_to_mp4.upload.hint": "MP4로 변환할 WebM 동영상 파일 1개를 선택하세요",
-
-"mp4_converter.upload.title": "MP4로 변환할 동영상 파일을 여기에 드롭하세요",
-"mp4_converter.upload.subtitle": "다양한 동영상 형식 · MP4로 변환",
-"mp4_converter.upload.btn_select": "동영상 파일 선택",
-"mp4_converter.upload.btn_sample": "샘플 동영상 사용해보기",
-"mp4_converter.upload.hint": "MP4로 변환할 동영상 파일 1개를 선택하세요",
-
-"video_2_mp3.upload.title": "MP3로 변환할 동영상 파일을 여기에 드롭하세요",
-"video_2_mp3.upload.subtitle": "다양한 동영상 형식 · 오디오를 MP3로 추출",
-"video_2_mp3.upload.btn_select": "동영상 파일 선택",
-"video_2_mp3.upload.btn_sample": "샘플 동영상 사용해보기",
-"video_2_mp3.upload.hint": "오디오를 MP3로 변환할 동영상 파일 1개를 선택하세요",
-
-"pdf_compressor.upload.title": "압축할 PDF 파일을 여기에 드롭하세요",
-"pdf_compressor.upload.subtitle": "PDF · 최대 100 MB · 파일 크기 줄이기",
-"pdf_compressor.upload.btn_select": "PDF 파일 선택",
-"pdf_compressor.upload.btn_sample": "샘플 PDF 사용해보기",
-"pdf_compressor.upload.hint": "압축하여 더 작게 만들 PDF 파일 1개를 선택하세요",
-
-
-
-
-
+  "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM 등 · 최대 500 MB",
+  "compress_video.upload.btn_select": "동영상 파일 선택",
+  "compress_video.upload.btn_sample": "샘플 동영상 사용해보기",
+  "compress_video.upload.hint": "압축하여 파일 크기를 줄일 동영상 1개를 선택하세요",
+  "compress_mp4.upload.title": "압축할 MP4 파일을 여기에 드롭하세요",
+  "compress_mp4.upload.subtitle": "MP4 · 최대 500 MB · 화질은 유지하고 용량은 줄이기",
+  "compress_mp4.upload.btn_select": "MP4 파일 선택",
+  "compress_mp4.upload.btn_sample": "샘플 MP4 사용해보기",
+  "compress_mp4.upload.hint": "압축하여 더 작게 만들 MP4 파일 1개를 선택하세요",
+  "reduce_video_size.upload.title": "크기를 줄일 동영상 파일을 여기에 드롭하세요",
+  "reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM 등 · 최대 500 MB",
+  "reduce_video_size.upload.btn_select": "동영상 파일 찾아보기",
+  "reduce_video_size.upload.btn_sample": "샘플 동영상 사용",
+  "reduce_video_size.upload.hint": "파일 크기를 빠르게 줄일 동영상 1개를 업로드하세요",
+  "video_converter.upload.title": "변환할 동영상 파일을 여기에 드롭하세요",
+  "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM 등 · 브라우저에서 변환",
+  "video_converter.upload.btn_select": "동영상 파일 선택",
+  "video_converter.upload.btn_sample": "샘플 동영상 사용해보기",
+  "video_converter.upload.hint": "다른 형식으로 변환할 동영상 파일 1개를 선택하세요",
+  "mov_to_mp4.upload.title": "MP4로 변환할 MOV 파일을 여기에 드롭하세요",
+  "mov_to_mp4.upload.subtitle": "MOV · MP4로 변환해 더 쉽게 재생",
+  "mov_to_mp4.upload.btn_select": "MOV 파일 선택",
+  "mov_to_mp4.upload.btn_sample": "샘플 MOV 사용해보기",
+  "mov_to_mp4.upload.hint": "MP4로 변환할 MOV 동영상 파일 1개를 선택하세요",
+  "avi_to_mp4.upload.title": "MP4로 변환할 AVI 파일을 여기에 드롭하세요",
+  "avi_to_mp4.upload.subtitle": "AVI · MP4로 변환해 호환성 향상",
+  "avi_to_mp4.upload.btn_select": "AVI 파일 선택",
+  "avi_to_mp4.upload.btn_sample": "샘플 AVI 사용해보기",
+  "avi_to_mp4.upload.hint": "MP4로 변환할 AVI 동영상 파일 1개를 선택하세요",
+  "mkv_to_mp4.upload.title": "MP4로 변환할 MKV 파일을 여기에 드롭하세요",
+  "mkv_to_mp4.upload.subtitle": "MKV · MP4로 변환해 더 쉽게 재생",
+  "mkv_to_mp4.upload.btn_select": "MKV 파일 선택",
+  "mkv_to_mp4.upload.btn_sample": "샘플 MKV 사용해보기",
+  "mkv_to_mp4.upload.hint": "MP4로 변환할 MKV 동영상 파일 1개를 선택하세요",
+  "webm_to_mp4.upload.title": "MP4로 변환할 WebM 파일을 여기에 드롭하세요",
+  "webm_to_mp4.upload.subtitle": "WebM · MP4로 변환해 더 많은 기기에서 재생",
+  "webm_to_mp4.upload.btn_select": "WebM 파일 선택",
+  "webm_to_mp4.upload.btn_sample": "샘플 WebM 사용해보기",
+  "webm_to_mp4.upload.hint": "MP4로 변환할 WebM 동영상 파일 1개를 선택하세요",
+  "mp4_converter.upload.title": "MP4로 변환할 동영상 파일을 여기에 드롭하세요",
+  "mp4_converter.upload.subtitle": "다양한 동영상 형식 · MP4로 변환",
+  "mp4_converter.upload.btn_select": "동영상 파일 선택",
+  "mp4_converter.upload.btn_sample": "샘플 동영상 사용해보기",
+  "mp4_converter.upload.hint": "MP4로 변환할 동영상 파일 1개를 선택하세요",
+  "video_2_mp3.upload.title": "MP3로 변환할 동영상 파일을 여기에 드롭하세요",
+  "video_2_mp3.upload.subtitle": "다양한 동영상 형식 · 오디오를 MP3로 추출",
+  "video_2_mp3.upload.btn_select": "동영상 파일 선택",
+  "video_2_mp3.upload.btn_sample": "샘플 동영상 사용해보기",
+  "video_2_mp3.upload.hint": "오디오를 MP3로 변환할 동영상 파일 1개를 선택하세요",
+  "pdf_compressor.upload.title": "압축할 PDF 파일을 여기에 드롭하세요",
+  "pdf_compressor.upload.subtitle": "PDF · 최대 100 MB · 파일 크기 줄이기",
+  "pdf_compressor.upload.btn_select": "PDF 파일 선택",
+  "pdf_compressor.upload.btn_sample": "샘플 PDF 사용해보기",
+  "pdf_compressor.upload.hint": "압축하여 더 작게 만들 PDF 파일 1개를 선택하세요",
   "_comment_home": "================ Home ================",
-    "home.seo.title": "무료 온라인 파일 도구 — 비공개 브라우저 기반",
-    "home.seo.description": "무료 온라인 도구를 사용해 브라우저에서 직접 파일을 압축, 변환, 편집하세요. 업로드도, 가입도 필요 없으며 파일은 비공개로 유지됩니다.",
-    
+  "home.seo.title": "무료 온라인 파일 도구 — 비공개 브라우저 기반",
+  "home.seo.description": "무료 온라인 도구를 사용해 브라우저에서 직접 파일을 압축, 변환, 편집하세요. 업로드도, 가입도 필요 없으며 파일은 비공개로 유지됩니다.",
   "home.hero.title": "무료 온라인 도구",
   "home.hero.description": "개인정보를 보호하고 빠르며 사용하기 쉬운 도구가 브라우저에서 직접 실행됩니다. 파일은 기기를 떠나지 않습니다.",
   "home.pill.private": "파일은 기기를 떠나지 않습니다",
@@ -124,7 +106,6 @@
   "compress_video.seo.description": "MP4, MOV, AVI, MKV, WebM 동영상 용량을 온라인에서 줄이세요. 업로드·회원가입 없이 브라우저에서 안전하게 동영상 파일을 압축할 수 있습니다.",
   "compress_video.hero.title": "무료 온라인 동영상 압축기",
   "compress_video.hero.description": "동영상 파일 용량을 빠르게 줄이세요. 업로드 없이 브라우저에서만 압축되며 MP4, MOV, AVI, MKV, WebM 파일을 지원합니다.",
-
   "compress_video.settings.auto_optimize": "자동 최적화",
   "compress_video.settings.size_lbl": "목표 파일 크기",
   "compress_video.btn.compress": "동영상 압축",
@@ -208,7 +189,6 @@
   "pdf_compressor.seo.description": "PDF 용량 줄이기와 PDF 압축을 온라인에서 무료로 하세요. 업로드나 회원가입 없이 브라우저에서 안전하게 PDF 파일 크기를 줄일 수 있습니다.",
   "pdf_compressor.hero.title": "무료 온라인 PDF 압축기",
   "pdf_compressor.hero.description": "PDF 용량 줄이기와 PDF 압축을 빠르게 처리하세요. 업로드 없이 브라우저에서 PDF 파일 크기를 안전하게 줄입니다.",
-
   "pdf_compressor.settings.quality_lbl": "품질 프리셋",
   "pdf_compressor.settings.quality_balanced": "균형 (전자책)",
   "pdf_compressor.settings.quality_maximum": "최대 (화면)",
@@ -220,77 +200,76 @@
   "pdf_compressor.proc.compressing": "PDF 압축 중",
   "pdf_compressor.how_to_use.title": "온라인에서 PDF를 압축하는 방법",
   "pdf_compressor.how_to_use.steps": [
-  "PDF 파일을 선택하거나 업로드 영역에 끌어다 놓으세요.",
-  "압축 품질을 선택하세요. 필요하면 균형 압축 또는 최대 압축을 선택하고, 암호화된 PDF라면 비밀번호를 입력하세요.",
-  "압축 버튼을 클릭하면 브라우저에서 PDF 용량 줄이기가 시작됩니다. 완료되면 압축된 PDF 파일을 다운로드하세요."
-],
-
+    "PDF 파일을 선택하거나 업로드 영역에 끌어다 놓으세요.",
+    "압축 품질을 선택하세요. 필요하면 균형 압축 또는 최대 압축을 선택하고, 암호화된 PDF라면 비밀번호를 입력하세요.",
+    "압축 버튼을 클릭하면 브라우저에서 PDF 용량 줄이기가 시작됩니다. 완료되면 압축된 PDF 파일을 다운로드하세요."
+  ],
   "pdf_compressor.why_use.title": "UploadLess PDF 압축기를 사용해야 하는 이유",
-"pdf_compressor.why_use.benefits": [
-  {
-    "icon": "shield-lock",
-    "title": "브라우저에서 안전한 PDF 압축",
-    "description": "PDF 압축은 WebAssembly를 통해 브라우저에서 로컬로 실행됩니다. 파일은 기기를 떠나지 않아 비공개로 PDF 용량 줄이기를 할 수 있습니다."
-  },
-  {
-    "icon": "bolt",
-    "title": "무료, 회원가입 필요 없음",
-    "description": "계정 생성이나 로그인 없이 바로 PDF 파일 크기 줄이기를 시작하세요. 워터마크, 업로드 대기, 시간 제한 없이 사용할 수 있습니다."
-  },
-  {
-    "icon": "player-play",
-    "title": "간단한 PDF 압축 과정",
-    "description": "PDF 파일을 추가하고 압축 옵션을 선택한 뒤 다운로드하면 끝입니다. 복잡한 설정 없이 한 번에 하나의 PDF를 빠르게 압축하세요."
-  },
-  {
-    "icon": "adjustments",
-    "title": "압축 품질 선택 가능",
-    "description": "균형 압축으로 품질과 파일 크기를 적절히 조절하거나, 최대 압축으로 더 작은 PDF 파일을 만들 수 있습니다."
-  }
-],
+  "pdf_compressor.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "브라우저에서 안전한 PDF 압축",
+      "description": "PDF 압축은 WebAssembly를 통해 브라우저에서 로컬로 실행됩니다. 파일은 기기를 떠나지 않아 비공개로 PDF 용량 줄이기를 할 수 있습니다."
+    },
+    {
+      "icon": "bolt",
+      "title": "무료, 회원가입 필요 없음",
+      "description": "계정 생성이나 로그인 없이 바로 PDF 파일 크기 줄이기를 시작하세요. 워터마크, 업로드 대기, 시간 제한 없이 사용할 수 있습니다."
+    },
+    {
+      "icon": "player-play",
+      "title": "간단한 PDF 압축 과정",
+      "description": "PDF 파일을 추가하고 압축 옵션을 선택한 뒤 다운로드하면 끝입니다. 복잡한 설정 없이 한 번에 하나의 PDF를 빠르게 압축하세요."
+    },
+    {
+      "icon": "adjustments",
+      "title": "압축 품질 선택 가능",
+      "description": "균형 압축으로 품질과 파일 크기를 적절히 조절하거나, 최대 압축으로 더 작은 PDF 파일을 만들 수 있습니다."
+    }
+  ],
   "pdf_compressor.faq.title": "PDF 압축기 FAQ",
-"pdf_compressor.faq.items": [
-  {
-    "q": "PDF 용량 줄이기는 어떻게 하나요?",
-    "a": "PDF 파일을 선택하거나 업로드 영역에 끌어다 놓은 뒤 압축 품질을 선택하고 압축 버튼을 클릭하면 됩니다. 처리가 끝나면 용량이 줄어든 PDF 파일을 바로 다운로드할 수 있습니다."
-  },
-  {
-    "q": "PDF 압축은 무료로 사용할 수 있나요?",
-    "a": "네, 무료로 PDF 압축을 사용할 수 있습니다. 회원가입이나 로그인 없이 브라우저에서 바로 PDF 파일 크기 줄이기를 시작할 수 있습니다."
-  },
-  {
-    "q": "PDF 파일을 서버에 업로드하나요?",
-    "a": "아니요. PDF 압축은 브라우저에서 로컬로 처리됩니다. 파일이 기기를 떠나지 않기 때문에 개인정보가 포함된 문서도 더 안전하게 PDF 용량 줄이기를 할 수 있습니다."
-  },
-  {
-    "q": "PDF 압축 후 화질이 많이 떨어지나요?",
-    "a": "압축률에 따라 화질 변화가 생길 수 있습니다. 균형 압축은 품질과 파일 크기를 적절히 유지하는 데 좋고, 최대 압축은 더 작은 PDF 파일이 필요할 때 적합합니다."
-  },
-  {
-    "q": "PDF 파일 크기 줄이기는 어떤 경우에 필요하나요?",
-    "a": "이메일 첨부, 온라인 제출, 학교 과제, 회사 문서 공유, 이력서 업로드처럼 파일 크기 제한이 있는 곳에 PDF를 올려야 할 때 PDF 파일 크기 줄이기가 유용합니다."
-  },
-  {
-    "q": "암호가 걸린 PDF도 압축할 수 있나요?",
-    "a": "PDF가 암호화되어 있다면 올바른 비밀번호를 입력해야 압축할 수 있습니다. 비밀번호는 브라우저에서만 사용되며 서버로 업로드되지 않습니다."
-  },
-  {
-    "q": "좋은 PDF 압축 사이트를 고를 때 무엇을 봐야 하나요?",
-    "a": "PDF 압축 사이트를 고를 때는 파일 업로드 방식, 개인정보 보호, 회원가입 필요 여부, 워터마크 유무, 압축 품질 선택 가능 여부를 확인하는 것이 좋습니다."
-  },
-  {
-    "q": "모바일에서도 PDF 용량 줄이기를 할 수 있나요?",
-    "a": "네, 최신 모바일 브라우저에서도 PDF 용량 줄이기를 사용할 수 있습니다. 다만 큰 PDF 파일은 기기 성능에 따라 처리 시간이 더 걸릴 수 있습니다."
-  },
-  {
-    "q": "PDF 압축이 실패하는 이유는 무엇인가요?",
-    "a": "파일이 손상되었거나, 암호가 잘못되었거나, 브라우저 메모리가 부족하거나, PDF 구조가 특수한 경우 압축이 실패할 수 있습니다. 이때는 파일을 다시 저장한 뒤 시도해 보세요."
-  },
-  {
-    "q": "PDF 압축 후 원본 파일은 변경되나요?",
-    "a": "아니요. 원본 PDF 파일은 그대로 유지됩니다. 압축이 완료되면 용량이 줄어든 새 PDF 파일을 다운로드하는 방식입니다."
-  }
-],
+  "pdf_compressor.faq.items": [
+    {
+      "q": "PDF 용량 줄이기는 어떻게 하나요?",
+      "a": "PDF 파일을 선택하거나 업로드 영역에 끌어다 놓은 뒤 압축 품질을 선택하고 압축 버튼을 클릭하면 됩니다. 처리가 끝나면 용량이 줄어든 PDF 파일을 바로 다운로드할 수 있습니다."
+    },
+    {
+      "q": "PDF 압축은 무료로 사용할 수 있나요?",
+      "a": "네, 무료로 PDF 압축을 사용할 수 있습니다. 회원가입이나 로그인 없이 브라우저에서 바로 PDF 파일 크기 줄이기를 시작할 수 있습니다."
+    },
+    {
+      "q": "PDF 파일을 서버에 업로드하나요?",
+      "a": "아니요. PDF 압축은 브라우저에서 로컬로 처리됩니다. 파일이 기기를 떠나지 않기 때문에 개인정보가 포함된 문서도 더 안전하게 PDF 용량 줄이기를 할 수 있습니다."
+    },
+    {
+      "q": "PDF 압축 후 화질이 많이 떨어지나요?",
+      "a": "압축률에 따라 화질 변화가 생길 수 있습니다. 균형 압축은 품질과 파일 크기를 적절히 유지하는 데 좋고, 최대 압축은 더 작은 PDF 파일이 필요할 때 적합합니다."
+    },
+    {
+      "q": "PDF 파일 크기 줄이기는 어떤 경우에 필요하나요?",
+      "a": "이메일 첨부, 온라인 제출, 학교 과제, 회사 문서 공유, 이력서 업로드처럼 파일 크기 제한이 있는 곳에 PDF를 올려야 할 때 PDF 파일 크기 줄이기가 유용합니다."
+    },
+    {
+      "q": "암호가 걸린 PDF도 압축할 수 있나요?",
+      "a": "PDF가 암호화되어 있다면 올바른 비밀번호를 입력해야 압축할 수 있습니다. 비밀번호는 브라우저에서만 사용되며 서버로 업로드되지 않습니다."
+    },
+    {
+      "q": "좋은 PDF 압축 사이트를 고를 때 무엇을 봐야 하나요?",
+      "a": "PDF 압축 사이트를 고를 때는 파일 업로드 방식, 개인정보 보호, 회원가입 필요 여부, 워터마크 유무, 압축 품질 선택 가능 여부를 확인하는 것이 좋습니다."
+    },
+    {
+      "q": "모바일에서도 PDF 용량 줄이기를 할 수 있나요?",
+      "a": "네, 최신 모바일 브라우저에서도 PDF 용량 줄이기를 사용할 수 있습니다. 다만 큰 PDF 파일은 기기 성능에 따라 처리 시간이 더 걸릴 수 있습니다."
+    },
+    {
+      "q": "PDF 압축이 실패하는 이유는 무엇인가요?",
+      "a": "파일이 손상되었거나, 암호가 잘못되었거나, 브라우저 메모리가 부족하거나, PDF 구조가 특수한 경우 압축이 실패할 수 있습니다. 이때는 파일을 다시 저장한 뒤 시도해 보세요."
+    },
+    {
+      "q": "PDF 압축 후 원본 파일은 변경되나요?",
+      "a": "아니요. 원본 PDF 파일은 그대로 유지됩니다. 압축이 완료되면 용량이 줄어든 새 PDF 파일을 다운로드하는 방식입니다."
+    }
+  ],
   "related_tools.title": "관련 도구",
   "common.tools": "도구",
   "common.blog": "블로그",
@@ -338,7 +317,6 @@
   "video_converter.seo.description": "브라우저에서 동영상 파일을 MP4, MOV, MKV, WebM, AVI 등 다양한 형식으로 변환하세요. 설치 없이 빠르고 안전한 무료 온라인 동영상 변환기입니다.",
   "video_converter.hero.title": "무료 온라인 동영상 변환기",
   "video_converter.hero.description": "MP4, MOV, MKV, WebM, AVI 등 다양한 동영상 형식을 브라우저에서 바로 변환하세요. 설치 없이 빠르고 안전하게 처리됩니다.",
-
   "video_converter.settings.format_lbl": "대상 형식",
   "video_converter.btn.convert": "동영상 변환",
   "video_converter.btn.download": "파일 다운로드",
@@ -421,7 +399,6 @@
   "compress_mp4.seo.description": "MP4 동영상 용량을 온라인에서 줄이세요. 서버 업로드나 회원가입 없이 브라우저에서 비공개로 MP4 파일을 압축할 수 있습니다.",
   "compress_mp4.hero.title": "무료 온라인 MP4 압축기",
   "compress_mp4.hero.description": "MP4 파일 크기를 빠르게 줄이세요. 서버 업로드 없이 브라우저에서만 압축되며 회원가입이나 설치가 필요 없습니다.",
-
   "compress_mp4.settings.auto_optimize": "자동 최적화",
   "compress_mp4.settings.size_lbl": "목표 파일 크기",
   "compress_mp4.btn.compress": "MP4 압축",
@@ -505,7 +482,6 @@
   "reduce_video_size.seo.description": "MP4, MOV, AVI, MKV, WebM 동영상 파일 크기를 온라인에서 줄이세요. 서버 업로드나 회원가입 없이 브라우저에서 비공개로 처리됩니다.",
   "reduce_video_size.hero.title": "동영상 파일 크기 줄이기",
   "reduce_video_size.hero.description": "온라인에서 동영상 크기를 빠르게 줄이세요. 서버 업로드 없이 브라우저에서만 처리되며 MP4, MOV, AVI, MKV, WebM을 지원합니다.",
-
   "reduce_video_size.settings.auto_optimize": "자동 최적화",
   "reduce_video_size.settings.size_lbl": "목표 파일 크기",
   "reduce_video_size.btn.compress": "크기 줄이기",
@@ -966,8 +942,6 @@
       "a": "아니요. 별도 변환 프로그램을 설치하지 않아도 됩니다. 온라인에서 브라우저만으로 동영상 파일 MP3 변환과 MP4 오디오 추출을 처리할 수 있습니다."
     }
   ],
-  
-
   "_comment_mp4_converter": "================ MP4 Converter ================",
   "mp4_converter.seo.title": "MP4 변환기 - 무료 온라인 동영상 MP4 변환 | UploadLess",
   "mp4_converter.seo.description": "브라우저에서 동영상 파일을 MP4로 빠르고 안전하게 변환하세요. MOV, MKV, AVI, WebM 등을 설치 없이 무료로 변환할 수 있습니다.",
@@ -1043,6 +1017,100 @@
     {
       "q": "MP4 변환 후 파일 크기가 줄어드나요?",
       "a": "경우에 따라 파일 크기가 줄어들 수 있습니다. 결과 용량은 원본 동영상 형식, 해상도, 길이, 코덱, 변환 설정에 따라 달라집니다."
+    }
+  ],
+  "_comment_barcode_generator": "================ Barcode Generator ================",
+  "tool.barcode_generator.title": "바코드 생성기",
+  "tool.barcode_generator.description": "브라우저에서 무료로 바코드 이미지를 생성하세요. EAN/JAN, Code 128, QR 코드, Data Matrix 등을 지원합니다.",
+  "tool.barcode_generator.short_description": "브라우저에서 바코드를 생성하세요.",
+  "barcode_generator.content_lbl": "바코드 내용",
+  "barcode_generator.content_placeholder": "바코드 내용을 한 줄에 하나씩 입력...",
+  "barcode_generator.type_lbl": "바코드 유형",
+  "barcode_generator.scale_lbl": "크기(스케일)",
+  "barcode_generator.label_lbl": "라벨 표시",
+  "barcode_generator.format_lbl": "출력 형식",
+  "barcode_generator.btn_generate": "바코드 생성",
+  "barcode_generator.results_title": "생성된 바코드",
+  "barcode_generator.btn_download": "다운로드",
+  "barcode_generator.yes": "예",
+  "barcode_generator.no": "아니요",
+  "barcode_generator.why_use.title": "UploadLess 바코드 생성기를 사용하는 이유",
+  "barcode_generator.how_to_use.title": "온라인에서 바코드를 생성하는 방법",
+  "barcode_generator.faq.title": "바코드 생성기 FAQ",
+  "barcode_generator.btn_downloadbtn_gen_new": "새 바코드 생성",
+  "barcode_generator.seo.title": "무료 바코드 생성기 - 온라인으로 바코드 만들기",
+  "barcode_generator.seo.description": "무료 온라인 바코드 생성기로 상품, 라벨, 재고용 바코드를 빠르게 만들고 PNG, SVG, PDF로 다운로드하거나 인쇄하세요.",
+  "barcode_generator.hero.title": "무료 온라인 바코드 생성기",
+  "barcode_generator.hero.description": "상품 코드, 라벨, 재고 관리용 바코드를 즉시 생성하세요. 단일 또는 일괄 바코드를 만들고 PNG, SVG, PDF 형식으로 저장하거나 인쇄할 수 있습니다.",
+  "barcode_generator.how_to_use.steps": [
+    "필요한 바코드 유형을 선택하세요. Code 128, EAN-13, UPC, QR 코드 등을 사용할 수 있습니다.",
+    "텍스트 입력란에 바코드 데이터를 입력하세요. 여러 개의 바코드를 만들려면 한 줄에 하나씩 값을 입력하면 됩니다.",
+    "바코드 크기, 라벨 표시 여부, 다운로드 형식을 PNG 또는 SVG 등으로 설정하세요.",
+    "바코드 생성을 클릭하면 브라우저에서 즉시 바코드가 생성됩니다.",
+    "생성된 바코드를 개별적으로 다운로드하거나 상품 라벨, 재고 관리, 포장 등에 활용하세요."
+  ],
+  "barcode_generator.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "개인정보를 보호하는 바코드 생성기",
+      "description": "브라우저에서 직접 바코드를 생성하세요. 입력한 바코드 데이터는 서버로 업로드, 저장, 전송되지 않습니다."
+    },
+    {
+      "icon": "bolt",
+      "title": "빠른 온라인 바코드 생성",
+      "description": "프로그램 설치나 회원가입 없이 단일 바코드 또는 여러 개의 바코드를 즉시 만들 수 있습니다."
+    },
+    {
+      "icon": "device-desktop",
+      "title": "고품질 바코드 다운로드 형식",
+      "description": "생성한 바코드를 선명한 PNG 이미지 또는 확대해도 깨끗한 SVG 파일로 다운로드하여 상품 라벨, 포장, 인쇄에 활용하세요."
+    },
+    {
+      "icon": "list",
+      "title": "일괄 바코드 생성 지원",
+      "description": "한 줄에 하나씩 바코드 값을 입력해 여러 개의 바코드를 한 번에 생성하세요. 재고 관리, 상품 코드, 대량 라벨 제작에 적합합니다."
+    }
+  ],
+  "barcode_generator.faq.items": [
+    {
+      "q": "온라인에서 무료로 바코드를 생성할 수 있나요?",
+      "a": "네. 무료 온라인 바코드 생성기를 사용하면 프로그램 설치 없이 브라우저에서 바로 바코드를 만들 수 있습니다. 상품 코드, 라벨, 재고 관리, 포장용 바코드를 빠르게 생성할 수 있습니다."
+    },
+    {
+      "q": "바코드 생성기는 어떻게 사용하나요?",
+      "a": "먼저 Code 128, EAN-13, UPC 등 필요한 바코드 유형을 선택한 다음 바코드 데이터를 입력하세요. 크기와 라벨 표시 옵션을 설정한 뒤 바코드를 생성하고 PNG 또는 SVG 파일로 다운로드하면 됩니다."
+    },
+    {
+      "q": "상품 바코드 만들기에 사용할 수 있나요?",
+      "a": "네. 상품 바코드 만들기, 상품 코드 관리, 제품 라벨 제작, 포장 인쇄용 바코드 생성에 사용할 수 있습니다. 단, 실제 유통용 상품 바코드는 필요한 경우 공식 등록 번호를 사용해야 합니다."
+    },
+    {
+      "q": "여러 개의 바코드를 한 번에 만들 수 있나요?",
+      "a": "네. 한 줄에 하나씩 바코드 값을 입력하면 여러 개의 바코드를 일괄 생성할 수 있습니다. 대량 상품 코드, 재고 번호, 배치 라벨, 창고 관리용 바코드를 만들 때 유용합니다."
+    },
+    {
+      "q": "바코드 이미지를 PNG로 다운로드할 수 있나요?",
+      "a": "네. 생성한 바코드를 PNG 이미지로 다운로드할 수 있습니다. PNG 형식은 웹페이지, 문서, 상품 라벨, 인쇄용 디자인에 쉽게 삽입할 수 있어 바코드 이미지 만들기에 적합합니다."
+    },
+    {
+      "q": "SVG 바코드 파일도 만들 수 있나요?",
+      "a": "네. SVG 형식으로 바코드를 다운로드하면 크기를 확대해도 선명하게 유지됩니다. 고해상도 인쇄, 패키지 디자인, 라벨 제작처럼 깨끗한 바코드 이미지가 필요한 작업에 적합합니다."
+    },
+    {
+      "q": "인쇄용 바코드 라벨을 만들 수 있나요?",
+      "a": "네. 생성한 바코드를 다운로드한 뒤 라벨 편집 프로그램, 문서 편집기, 디자인 도구에 삽입해 인쇄용 바코드 라벨로 사용할 수 있습니다. 상품 라벨, 재고 라벨, 포장 라벨 제작에 활용할 수 있습니다."
+    },
+    {
+      "q": "바코드 데이터가 서버에 업로드되나요?",
+      "a": "아니요. 바코드는 브라우저에서 직접 생성되며 입력한 바코드 데이터는 서버로 업로드, 저장, 전송되지 않습니다. 민감한 상품 코드나 내부 재고 번호를 다룰 때도 안전하게 사용할 수 있습니다."
+    },
+    {
+      "q": "어떤 바코드 형식을 선택해야 하나요?",
+      "a": "일반적인 텍스트나 내부 관리 코드는 Code 128을 많이 사용하고, 소매 상품에는 EAN-13 또는 UPC가 자주 사용됩니다. QR 코드는 URL, 연락처, 긴 텍스트처럼 더 많은 정보를 담아야 할 때 적합합니다."
+    },
+    {
+      "q": "바코드가 스캔되지 않을 때는 어떻게 해야 하나요?",
+      "a": "바코드 값이 선택한 형식에 맞는지 확인하고, 이미지 크기와 여백을 충분히 설정하세요. 인쇄 품질이 낮거나 바코드가 너무 작으면 스캔이 어려울 수 있으므로 PNG 또는 SVG 파일을 선명하게 출력하는 것이 좋습니다."
     }
   ]
 }

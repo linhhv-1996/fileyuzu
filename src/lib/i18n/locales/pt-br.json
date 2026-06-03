@@ -1,81 +1,65 @@
 {
-        "common.try_now": "Use esta ferramenta gratuitamente",
-        "home.search.placeholder": "Pesquisar ferramentas",
- "blog.author_bio": "J.Julian é o criador e desenvolvedor líder do UploadLess. Com uma sólida experiência em engenharia de software e arquitetura web, ele se dedica a criar soluções de compartilhamento de arquivos seguras, de alto desempenho e fáceis de usar para a web moderna.",
-
-
+  "common.try_now": "Use esta ferramenta gratuitamente",
+  "home.search.placeholder": "Pesquisar ferramentas",
+  "blog.author_bio": "J.Julian é o criador e desenvolvedor líder do UploadLess. Com uma sólida experiência em engenharia de software e arquitetura web, ele se dedica a criar soluções de compartilhamento de arquivos seguras, de alto desempenho e fáceis de usar para a web moderna.",
   "compress_video.upload.title": "Solte um arquivo de vídeo aqui para comprimir",
-"compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · até 500 MB",
-"compress_video.upload.btn_select": "Selecionar arquivo de vídeo",
-"compress_video.upload.btn_sample": "Testar vídeo de exemplo",
-"compress_video.upload.hint": "Selecione um vídeo para comprimir e reduzir o tamanho do arquivo",
-
-"compress_mp4.upload.title": "Solte um arquivo MP4 aqui para comprimir",
-"compress_mp4.upload.subtitle": "MP4 · até 500 MB · menor com boa qualidade",
-"compress_mp4.upload.btn_select": "Selecionar arquivo MP4",
-"compress_mp4.upload.btn_sample": "Testar MP4 de exemplo",
-"compress_mp4.upload.hint": "Selecione um arquivo MP4 para comprimir e deixar menor",
-
-"reduce_video_size.upload.title": "Solte seu vídeo aqui para reduzir o tamanho",
-"reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · máximo 500 MB",
-"reduce_video_size.upload.btn_select": "Procurar arquivo de vídeo",
-"reduce_video_size.upload.btn_sample": "Usar vídeo de exemplo",
-"reduce_video_size.upload.hint": "Envie um vídeo para reduzir rapidamente o tamanho do arquivo",
-
-"video_converter.upload.title": "Solte um arquivo de vídeo aqui para converter",
-"video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · conversão no navegador",
-"video_converter.upload.btn_select": "Selecionar arquivo de vídeo",
-"video_converter.upload.btn_sample": "Testar vídeo de exemplo",
-"video_converter.upload.hint": "Selecione um vídeo para converter para outro formato",
-
-"mov_to_mp4.upload.title": "Solte um arquivo MOV aqui para converter para MP4",
-"mov_to_mp4.upload.subtitle": "MOV · converta para MP4 e reproduza com facilidade",
-"mov_to_mp4.upload.btn_select": "Selecionar arquivo MOV",
-"mov_to_mp4.upload.btn_sample": "Testar MOV de exemplo",
-"mov_to_mp4.upload.hint": "Selecione um vídeo MOV para converter em MP4",
-
-"avi_to_mp4.upload.title": "Solte um arquivo AVI aqui para converter para MP4",
-"avi_to_mp4.upload.subtitle": "AVI · converta para MP4 com mais compatibilidade",
-"avi_to_mp4.upload.btn_select": "Selecionar arquivo AVI",
-"avi_to_mp4.upload.btn_sample": "Testar AVI de exemplo",
-"avi_to_mp4.upload.hint": "Selecione um vídeo AVI para converter em MP4",
-
-"mkv_to_mp4.upload.title": "Solte um arquivo MKV aqui para converter para MP4",
-"mkv_to_mp4.upload.subtitle": "MKV · converta para MP4 e reproduza com facilidade",
-"mkv_to_mp4.upload.btn_select": "Selecionar arquivo MKV",
-"mkv_to_mp4.upload.btn_sample": "Testar MKV de exemplo",
-"mkv_to_mp4.upload.hint": "Selecione um vídeo MKV para converter em MP4",
-
-"webm_to_mp4.upload.title": "Solte um arquivo WebM aqui para converter para MP4",
-"webm_to_mp4.upload.subtitle": "WebM · converta para MP4 para mais dispositivos",
-"webm_to_mp4.upload.btn_select": "Selecionar arquivo WebM",
-"webm_to_mp4.upload.btn_sample": "Testar WebM de exemplo",
-"webm_to_mp4.upload.hint": "Selecione um vídeo WebM para converter em MP4",
-
-"mp4_converter.upload.title": "Solte um vídeo aqui para converter para MP4",
-"mp4_converter.upload.subtitle": "Vários formatos de vídeo · converter para MP4",
-"mp4_converter.upload.btn_select": "Selecionar arquivo de vídeo",
-"mp4_converter.upload.btn_sample": "Testar vídeo de exemplo",
-"mp4_converter.upload.hint": "Selecione um vídeo para converter em MP4",
-
-"video_2_mp3.upload.title": "Solte um vídeo aqui para converter para MP3",
-"video_2_mp3.upload.subtitle": "Vários formatos de vídeo · extrair áudio em MP3",
-"video_2_mp3.upload.btn_select": "Selecionar arquivo de vídeo",
-"video_2_mp3.upload.btn_sample": "Testar vídeo de exemplo",
-"video_2_mp3.upload.hint": "Selecione um vídeo para converter o áudio em MP3",
-
-"pdf_compressor.upload.title": "Solte um arquivo PDF aqui para comprimir",
-"pdf_compressor.upload.subtitle": "PDF · até 100 MB · reduzir tamanho do arquivo",
-"pdf_compressor.upload.btn_select": "Selecionar arquivo PDF",
-"pdf_compressor.upload.btn_sample": "Testar PDF de exemplo",
-"pdf_compressor.upload.hint": "Selecione um PDF para comprimir e deixar menor",
-
-
-
+  "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · até 500 MB",
+  "compress_video.upload.btn_select": "Selecionar arquivo de vídeo",
+  "compress_video.upload.btn_sample": "Testar vídeo de exemplo",
+  "compress_video.upload.hint": "Selecione um vídeo para comprimir e reduzir o tamanho do arquivo",
+  "compress_mp4.upload.title": "Solte um arquivo MP4 aqui para comprimir",
+  "compress_mp4.upload.subtitle": "MP4 · até 500 MB · menor com boa qualidade",
+  "compress_mp4.upload.btn_select": "Selecionar arquivo MP4",
+  "compress_mp4.upload.btn_sample": "Testar MP4 de exemplo",
+  "compress_mp4.upload.hint": "Selecione um arquivo MP4 para comprimir e deixar menor",
+  "reduce_video_size.upload.title": "Solte seu vídeo aqui para reduzir o tamanho",
+  "reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · máximo 500 MB",
+  "reduce_video_size.upload.btn_select": "Procurar arquivo de vídeo",
+  "reduce_video_size.upload.btn_sample": "Usar vídeo de exemplo",
+  "reduce_video_size.upload.hint": "Envie um vídeo para reduzir rapidamente o tamanho do arquivo",
+  "video_converter.upload.title": "Solte um arquivo de vídeo aqui para converter",
+  "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · conversão no navegador",
+  "video_converter.upload.btn_select": "Selecionar arquivo de vídeo",
+  "video_converter.upload.btn_sample": "Testar vídeo de exemplo",
+  "video_converter.upload.hint": "Selecione um vídeo para converter para outro formato",
+  "mov_to_mp4.upload.title": "Solte um arquivo MOV aqui para converter para MP4",
+  "mov_to_mp4.upload.subtitle": "MOV · converta para MP4 e reproduza com facilidade",
+  "mov_to_mp4.upload.btn_select": "Selecionar arquivo MOV",
+  "mov_to_mp4.upload.btn_sample": "Testar MOV de exemplo",
+  "mov_to_mp4.upload.hint": "Selecione um vídeo MOV para converter em MP4",
+  "avi_to_mp4.upload.title": "Solte um arquivo AVI aqui para converter para MP4",
+  "avi_to_mp4.upload.subtitle": "AVI · converta para MP4 com mais compatibilidade",
+  "avi_to_mp4.upload.btn_select": "Selecionar arquivo AVI",
+  "avi_to_mp4.upload.btn_sample": "Testar AVI de exemplo",
+  "avi_to_mp4.upload.hint": "Selecione um vídeo AVI para converter em MP4",
+  "mkv_to_mp4.upload.title": "Solte um arquivo MKV aqui para converter para MP4",
+  "mkv_to_mp4.upload.subtitle": "MKV · converta para MP4 e reproduza com facilidade",
+  "mkv_to_mp4.upload.btn_select": "Selecionar arquivo MKV",
+  "mkv_to_mp4.upload.btn_sample": "Testar MKV de exemplo",
+  "mkv_to_mp4.upload.hint": "Selecione um vídeo MKV para converter em MP4",
+  "webm_to_mp4.upload.title": "Solte um arquivo WebM aqui para converter para MP4",
+  "webm_to_mp4.upload.subtitle": "WebM · converta para MP4 para mais dispositivos",
+  "webm_to_mp4.upload.btn_select": "Selecionar arquivo WebM",
+  "webm_to_mp4.upload.btn_sample": "Testar WebM de exemplo",
+  "webm_to_mp4.upload.hint": "Selecione um vídeo WebM para converter em MP4",
+  "mp4_converter.upload.title": "Solte um vídeo aqui para converter para MP4",
+  "mp4_converter.upload.subtitle": "Vários formatos de vídeo · converter para MP4",
+  "mp4_converter.upload.btn_select": "Selecionar arquivo de vídeo",
+  "mp4_converter.upload.btn_sample": "Testar vídeo de exemplo",
+  "mp4_converter.upload.hint": "Selecione um vídeo para converter em MP4",
+  "video_2_mp3.upload.title": "Solte um vídeo aqui para converter para MP3",
+  "video_2_mp3.upload.subtitle": "Vários formatos de vídeo · extrair áudio em MP3",
+  "video_2_mp3.upload.btn_select": "Selecionar arquivo de vídeo",
+  "video_2_mp3.upload.btn_sample": "Testar vídeo de exemplo",
+  "video_2_mp3.upload.hint": "Selecione um vídeo para converter o áudio em MP3",
+  "pdf_compressor.upload.title": "Solte um arquivo PDF aqui para comprimir",
+  "pdf_compressor.upload.subtitle": "PDF · até 100 MB · reduzir tamanho do arquivo",
+  "pdf_compressor.upload.btn_select": "Selecionar arquivo PDF",
+  "pdf_compressor.upload.btn_sample": "Testar PDF de exemplo",
+  "pdf_compressor.upload.hint": "Selecione um PDF para comprimir e deixar menor",
   "_comment_home": "================ Home ================",
-    "home.seo.title": "Ferramentas de arquivos online grátis — Privadas e baseadas no navegador",
-    "home.seo.description": "Use ferramentas online grátis para compactar, converter e editar arquivos diretamente no navegador. Sem uploads, sem cadastro, e seus arquivos permanecem privados.",
-    
+  "home.seo.title": "Ferramentas de arquivos online grátis — Privadas e baseadas no navegador",
+  "home.seo.description": "Use ferramentas online grátis para compactar, converter e editar arquivos diretamente no navegador. Sem uploads, sem cadastro, e seus arquivos permanecem privados.",
   "home.hero.title": "Ferramentas online gratuitas",
   "home.hero.description": "Ferramentas privadas, rápidas e fáceis de usar que rodam diretamente no seu navegador. Seus arquivos nunca saem do seu dispositivo.",
   "home.pill.private": "Os arquivos nunca saem do seu dispositivo",
@@ -122,7 +106,6 @@
   "compress_video.seo.description": "Comprima vídeos online grátis em MP4, MOV, AVI, MKV e WebM. Reduza arquivos grandes com privacidade no navegador, sem upload e sem cadastro.",
   "compress_video.hero.title": "Compressor de vídeo online grátis",
   "compress_video.hero.description": "Comprima vídeos MP4, MOV, AVI, MKV e WebM direto no navegador. Reduza arquivos grandes com privacidade — sem upload, sem cadastro e sem instalar nada.",
-
   "compress_video.settings.auto_optimize": "Otimização automática",
   "compress_video.settings.size_lbl": "Tamanho de arquivo desejado",
   "compress_video.btn.compress": "Compactar vídeo",
@@ -206,7 +189,6 @@
   "pdf_compressor.seo.description": "Comprima PDF online grátis com privacidade. Reduza o tamanho do PDF no navegador, sem upload, sem cadastro e sem instalar nada.",
   "pdf_compressor.hero.title": "Comprimir PDF online grátis",
   "pdf_compressor.hero.description": "Reduza o tamanho do PDF e deixe arquivos mais leves sem upload, sem cadastro e sem instalar. A compressão acontece no seu navegador.",
-
   "pdf_compressor.settings.quality_lbl": "Predefinição de qualidade",
   "pdf_compressor.settings.quality_balanced": "Equilibrado (Ebook)",
   "pdf_compressor.settings.quality_maximum": "Máximo (Tela)",
@@ -335,7 +317,6 @@
   "video_converter.seo.description": "Converta vídeos online entre MP4, MOV, MKV, WebM, AVI e outros formatos. Grátis, rápido e privado: tudo funciona direto no navegador.",
   "video_converter.hero.title": "Conversor de vídeo online grátis",
   "video_converter.hero.description": "Converta vídeos entre MP4, MOV, MKV, WebM, AVI e outros formatos com facilidade. Uma ferramenta grátis, rápida e privada que funciona direto no navegador.",
-
   "video_converter.settings.format_lbl": "Formato de destino",
   "video_converter.btn.convert": "Converter vídeo",
   "video_converter.btn.download": "Baixar arquivo",
@@ -418,7 +399,6 @@
   "compress_mp4.seo.description": "Comprima vídeos MP4 online grátis e reduza arquivos grandes com privacidade no navegador. Sem upload, sem cadastro e sem marca-d’água.",
   "compress_mp4.hero.title": "Compressor de MP4 online grátis",
   "compress_mp4.hero.description": "Reduza o tamanho de vídeos MP4 direto no navegador — sem upload, sem cadastro e sem instalar nada. Ideal para deixar arquivos MP4 mais leves.",
-
   "compress_mp4.settings.auto_optimize": "Otimização automática",
   "compress_mp4.settings.size_lbl": "Tamanho de arquivo desejado",
   "compress_mp4.btn.compress": "Compactar MP4",
@@ -502,7 +482,6 @@
   "reduce_video_size.seo.description": "Reduza o tamanho de vídeos online grátis e deixe arquivos grandes mais leves. Funciona no navegador, sem upload, sem cadastro e sem marca-d’água.",
   "reduce_video_size.hero.title": "Reduzir tamanho do arquivo de vídeo",
   "reduce_video_size.hero.description": "Diminua o tamanho de vídeos grandes direto no navegador. Deixe seus arquivos mais leves para enviar, compartilhar ou armazenar — sem upload e sem cadastro.",
-
   "reduce_video_size.settings.auto_optimize": "Otimização automática",
   "reduce_video_size.settings.size_lbl": "Tamanho de arquivo desejado",
   "reduce_video_size.btn.compress": "Reduzir tamanho",
@@ -1039,6 +1018,100 @@
     {
       "q": "O MP4 convertido funciona no celular e nas redes sociais?",
       "a": "Sim. O formato MP4 é amplamente aceito em Android, iPhone, Windows, Mac, navegadores, aplicativos de mensagem, redes sociais e plataformas de vídeo."
+    }
+  ],
+  "_comment_barcode_generator": "================ Barcode Generator ================",
+  "tool.barcode_generator.title": "Gerador de Código de Barras",
+  "tool.barcode_generator.description": "Gere imagens de códigos de barras gratuitamente diretamente no seu navegador. Compatível com EAN/JAN, Code 128, QR Code, Data Matrix e muito mais.",
+  "tool.barcode_generator.short_description": "Gere códigos de barras no seu navegador.",
+  "barcode_generator.content_lbl": "Conteúdo do Código de Barras",
+  "barcode_generator.content_placeholder": "Digite o conteúdo do código de barras, um por linha...",
+  "barcode_generator.type_lbl": "Tipo de Código de Barras",
+  "barcode_generator.scale_lbl": "Tamanho (Escala)",
+  "barcode_generator.label_lbl": "Mostrar Rótulo",
+  "barcode_generator.format_lbl": "Formato de Saída",
+  "barcode_generator.btn_generate": "Gerar Códigos de Barras",
+  "barcode_generator.results_title": "Códigos de Barras Gerados",
+  "barcode_generator.btn_download": "Baixar",
+  "barcode_generator.yes": "Sim",
+  "barcode_generator.no": "Não",
+  "barcode_generator.why_use.title": "Por Que Usar o Gerador de Código de Barras da UploadLess",
+  "barcode_generator.how_to_use.title": "Como Gerar Códigos de Barras Online",
+  "barcode_generator.faq.title": "FAQ do Gerador de Código de Barras",
+  "barcode_generator.btn_downloadbtn_gen_new": "Gerar novos códigos de barras",
+  "barcode_generator.seo.title": "Gerador de Código de Barras Grátis - Criar Barcode",
+  "barcode_generator.seo.description": "Crie códigos de barras online grátis para produtos, etiquetas, estoque e embalagens. Gere barcodes em PNG, SVG ou PDF, individualmente ou em lote.",
+  "barcode_generator.hero.title": "Gerador de Código de Barras Online Grátis",
+  "barcode_generator.hero.description": "Gere códigos de barras instantaneamente para produtos, etiquetas, estoque e embalagens. Crie um código único ou em lote e baixe em PNG, SVG, PDF ou pronto para imprimir.",
+  "barcode_generator.how_to_use.steps": [
+    "Escolha o tipo de código de barras que você precisa, como Code 128, EAN-13, UPC ou QR Code.",
+    "Digite os dados do código de barras no campo de texto. Para criar vários códigos, adicione um valor por linha.",
+    "Personalize o tamanho do código de barras, a exibição do texto e o formato de download, como PNG, SVG ou PDF.",
+    "Clique em Gerar Códigos de Barras para criar seus códigos instantaneamente no navegador.",
+    "Baixe cada código de barras individualmente ou use os arquivos gerados em etiquetas, produtos, estoque ou embalagens."
+  ],
+  "barcode_generator.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "Gerador de Código de Barras Privado",
+      "description": "Crie códigos de barras diretamente no navegador. Seus dados não são enviados, armazenados ou compartilhados com nenhum servidor."
+    },
+    {
+      "icon": "bolt",
+      "title": "Criação Rápida de Códigos de Barras Online",
+      "description": "Gere um ou vários códigos de barras instantaneamente, sem instalar programas e sem criar uma conta."
+    },
+    {
+      "icon": "device-desktop",
+      "title": "Formatos de Exportação em Alta Qualidade",
+      "description": "Baixe seus códigos de barras gerados em PNG nítido ou SVG escalável para etiquetas, produtos e embalagens."
+    },
+    {
+      "icon": "list",
+      "title": "Gerador de Código de Barras em Lote",
+      "description": "Crie vários códigos de barras de uma só vez inserindo um valor por linha, ideal para estoque, códigos de produtos e etiquetas em lote."
+    }
+  ],
+  "barcode_generator.faq.items": [
+    {
+      "q": "O que é um gerador de código de barras?",
+      "a": "Um gerador de código de barras é uma ferramenta online que permite criar códigos de barras para produtos, etiquetas, estoque, embalagens e identificação de itens de forma rápida e prática."
+    },
+    {
+      "q": "Posso gerar código de barras grátis online?",
+      "a": "Sim. Você pode gerar código de barras online grátis diretamente no navegador, sem instalar programas e sem precisar criar uma conta."
+    },
+    {
+      "q": "Quais tipos de códigos de barras posso criar?",
+      "a": "Você pode criar tipos populares de códigos de barras, como Code 128, Code 39, EAN-13, EAN-8, UPC-A, ITF-14, QR Code, Data Matrix e JAN para produtos, etiquetas, estoque e embalagens."
+    },
+    {
+      "q": "Como criar código de barras para produtos?",
+      "a": "Para criar código de barras para produtos, escolha o tipo de código, insira o número ou valor do produto, personalize o formato e gere o arquivo para usar em etiquetas, embalagens ou sistemas de estoque."
+    },
+    {
+      "q": "Posso gerar código EAN-13?",
+      "a": "Sim. O gerador de código EAN-13 permite criar códigos de barras usados em produtos de varejo, desde que você insira um número EAN válido no formato correto."
+    },
+    {
+      "q": "Posso criar códigos de barras em lote?",
+      "a": "Sim. Você pode usar o gerador de código de barras em lote inserindo um valor por linha para criar vários códigos de barras de uma só vez, ideal para estoque, SKUs, produtos e etiquetas em massa."
+    },
+    {
+      "q": "Quais formatos posso baixar?",
+      "a": "Você pode baixar os códigos de barras gerados em formatos como PNG, SVG ou PDF, dependendo da sua necessidade para impressão, etiquetas, produtos, embalagens ou uso digital."
+    },
+    {
+      "q": "O código de barras gerado pode ser impresso?",
+      "a": "Sim. Depois de gerar o código de barras, você pode baixar o arquivo e imprimir em etiquetas, documentos, embalagens ou materiais de identificação de produtos."
+    },
+    {
+      "q": "Meus dados de código de barras são enviados para algum servidor?",
+      "a": "Não. Os códigos de barras são criados diretamente no navegador, ajudando a manter seus dados privados sem enviar, armazenar ou compartilhar as informações com servidores."
+    },
+    {
+      "q": "Preciso instalar um programa para fazer código de barras?",
+      "a": "Não. Você pode fazer código de barras online usando uma ferramenta no navegador, sem baixar software, sem instalar extensões e sem configurar programas complexos."
     }
   ]
 }

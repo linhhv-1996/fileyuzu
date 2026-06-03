@@ -11,7 +11,8 @@
     --bg-sub: #f6f9fc;
     --bd: #d2dce6;
     --bd-lt: #e8eef4;
-    --tx: #1e2d3d;
+    /* --tx: #1e2d3d; */
+     --tx: #405062;
     --tx-sub: #526475;
     --tx-mt: #8d9baa;
     --ac: #4a90d9;
@@ -222,6 +223,8 @@ a:hover {
     left: 0;
     right: auto;
     min-width: 230px;
+    max-height: 80vh;
+    overflow-y: auto;
 }
 
 .nav-dd.open .dd-menu,
@@ -268,7 +271,7 @@ a:hover {
 .dd-sub {
     display: block;
     margin-top: 1px;
-    font-size: 12.5px;
+    font-size: 12px;
     color: var(--tx-sub);
 }
 
@@ -1229,6 +1232,8 @@ RESPONSIVE
         gap: 16px;
         box-shadow: 0 14px 36px rgba(22, 50, 63, .14);
         z-index: 100;
+        max-height: calc(100vh - 56px);
+        overflow-y: auto;
     }
 
     .hdr-menu.open {

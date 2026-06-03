@@ -1,85 +1,65 @@
 {
-          "common.try_now": "免費使用這個工具",
-          "home.search.placeholder": "搜尋工具",
-          "blog.author_bio": "J.Julian 是 UploadLess 的創作者兼首席開發者。他擁有深厚的軟體工程與 Web 架構背景，致力於為現代 Web 打造安全、高效能且使用者友善的檔案分享解決方案。",
-
-          
-
+  "common.try_now": "免費使用這個工具",
+  "home.search.placeholder": "搜尋工具",
+  "blog.author_bio": "J.Julian 是 UploadLess 的創作者兼首席開發者。他擁有深厚的軟體工程與 Web 架構背景，致力於為現代 Web 打造安全、高效能且使用者友善的檔案分享解決方案。",
   "compress_video.upload.title": "將要壓縮的影片檔案拖放到這裡",
-"compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM 等 · 最大 500 MB",
-"compress_video.upload.btn_select": "選擇影片檔案",
-"compress_video.upload.btn_sample": "試用範例影片",
-"compress_video.upload.hint": "請選擇一個要壓縮並縮小檔案大小的影片",
-
-"compress_mp4.upload.title": "將要壓縮的 MP4 檔案拖放到這裡",
-"compress_mp4.upload.subtitle": "MP4 · 最大 500 MB · 保持畫質並縮小檔案",
-"compress_mp4.upload.btn_select": "選擇 MP4 檔案",
-"compress_mp4.upload.btn_sample": "試用範例 MP4",
-"compress_mp4.upload.hint": "請選擇一個要壓縮並縮小的 MP4 檔案",
-
-"reduce_video_size.upload.title": "將要縮小尺寸的影片檔案拖放到這裡",
-"reduce_video_size.upload.subtitle": "MP4、MOV、AVI、MKV、WebM 等 · 最大 500 MB",
-"reduce_video_size.upload.btn_select": "瀏覽影片檔案",
-"reduce_video_size.upload.btn_sample": "使用範例影片",
-"reduce_video_size.upload.hint": "請上傳一個要快速縮小檔案大小的影片",
-
-"video_converter.upload.title": "將要轉換的影片檔案拖放到這裡",
-"video_converter.upload.subtitle": "MP4、MOV、AVI、MKV、WebM 等 · 在瀏覽器中轉換",
-"video_converter.upload.btn_select": "選擇影片檔案",
-"video_converter.upload.btn_sample": "試用範例影片",
-"video_converter.upload.hint": "請選擇一個要轉換成其他格式的影片檔案",
-
-"mov_to_mp4.upload.title": "將要轉換為 MP4 的 MOV 檔案拖放到這裡",
-"mov_to_mp4.upload.subtitle": "MOV · 轉換為 MP4，播放更方便",
-"mov_to_mp4.upload.btn_select": "選擇 MOV 檔案",
-"mov_to_mp4.upload.btn_sample": "試用範例 MOV",
-"mov_to_mp4.upload.hint": "請選擇一個要轉換為 MP4 的 MOV 影片檔案",
-
-"avi_to_mp4.upload.title": "將要轉換為 MP4 的 AVI 檔案拖放到這裡",
-"avi_to_mp4.upload.subtitle": "AVI · 轉換為 MP4，提升相容性",
-"avi_to_mp4.upload.btn_select": "選擇 AVI 檔案",
-"avi_to_mp4.upload.btn_sample": "試用範例 AVI",
-"avi_to_mp4.upload.hint": "請選擇一個要轉換為 MP4 的 AVI 影片檔案",
-
-"mkv_to_mp4.upload.title": "將要轉換為 MP4 的 MKV 檔案拖放到這裡",
-"mkv_to_mp4.upload.subtitle": "MKV · 轉換為 MP4，播放更方便",
-"mkv_to_mp4.upload.btn_select": "選擇 MKV 檔案",
-"mkv_to_mp4.upload.btn_sample": "試用範例 MKV",
-"mkv_to_mp4.upload.hint": "請選擇一個要轉換為 MP4 的 MKV 影片檔案",
-
-"webm_to_mp4.upload.title": "將要轉換為 MP4 的 WebM 檔案拖放到這裡",
-"webm_to_mp4.upload.subtitle": "WebM · 轉換為 MP4，支援更多裝置",
-"webm_to_mp4.upload.btn_select": "選擇 WebM 檔案",
-"webm_to_mp4.upload.btn_sample": "試用範例 WebM",
-"webm_to_mp4.upload.hint": "請選擇一個要轉換為 MP4 的 WebM 影片檔案",
-
-"mp4_converter.upload.title": "將要轉換為 MP4 的影片檔案拖放到這裡",
-"mp4_converter.upload.subtitle": "多種影片格式 · 轉換為 MP4",
-"mp4_converter.upload.btn_select": "選擇影片檔案",
-"mp4_converter.upload.btn_sample": "試用範例影片",
-"mp4_converter.upload.hint": "請選擇一個要轉換為 MP4 的影片檔案",
-
-"video_2_mp3.upload.title": "將要轉換為 MP3 的影片檔案拖放到這裡",
-"video_2_mp3.upload.subtitle": "多種影片格式 · 擷取音訊為 MP3",
-"video_2_mp3.upload.btn_select": "選擇影片檔案",
-"video_2_mp3.upload.btn_sample": "試用範例影片",
-"video_2_mp3.upload.hint": "請選擇一個要將音訊轉換為 MP3 的影片檔案",
-
-"pdf_compressor.upload.title": "將要壓縮的 PDF 檔案拖放到這裡",
-"pdf_compressor.upload.subtitle": "PDF · 最大 100 MB · 縮小檔案大小",
-"pdf_compressor.upload.btn_select": "選擇 PDF 檔案",
-"pdf_compressor.upload.btn_sample": "試用範例 PDF",
-"pdf_compressor.upload.hint": "請選擇一個要壓縮並縮小的 PDF 檔案",
-
-
-
-
-
+  "compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM 等 · 最大 500 MB",
+  "compress_video.upload.btn_select": "選擇影片檔案",
+  "compress_video.upload.btn_sample": "試用範例影片",
+  "compress_video.upload.hint": "請選擇一個要壓縮並縮小檔案大小的影片",
+  "compress_mp4.upload.title": "將要壓縮的 MP4 檔案拖放到這裡",
+  "compress_mp4.upload.subtitle": "MP4 · 最大 500 MB · 保持畫質並縮小檔案",
+  "compress_mp4.upload.btn_select": "選擇 MP4 檔案",
+  "compress_mp4.upload.btn_sample": "試用範例 MP4",
+  "compress_mp4.upload.hint": "請選擇一個要壓縮並縮小的 MP4 檔案",
+  "reduce_video_size.upload.title": "將要縮小尺寸的影片檔案拖放到這裡",
+  "reduce_video_size.upload.subtitle": "MP4、MOV、AVI、MKV、WebM 等 · 最大 500 MB",
+  "reduce_video_size.upload.btn_select": "瀏覽影片檔案",
+  "reduce_video_size.upload.btn_sample": "使用範例影片",
+  "reduce_video_size.upload.hint": "請上傳一個要快速縮小檔案大小的影片",
+  "video_converter.upload.title": "將要轉換的影片檔案拖放到這裡",
+  "video_converter.upload.subtitle": "MP4、MOV、AVI、MKV、WebM 等 · 在瀏覽器中轉換",
+  "video_converter.upload.btn_select": "選擇影片檔案",
+  "video_converter.upload.btn_sample": "試用範例影片",
+  "video_converter.upload.hint": "請選擇一個要轉換成其他格式的影片檔案",
+  "mov_to_mp4.upload.title": "將要轉換為 MP4 的 MOV 檔案拖放到這裡",
+  "mov_to_mp4.upload.subtitle": "MOV · 轉換為 MP4，播放更方便",
+  "mov_to_mp4.upload.btn_select": "選擇 MOV 檔案",
+  "mov_to_mp4.upload.btn_sample": "試用範例 MOV",
+  "mov_to_mp4.upload.hint": "請選擇一個要轉換為 MP4 的 MOV 影片檔案",
+  "avi_to_mp4.upload.title": "將要轉換為 MP4 的 AVI 檔案拖放到這裡",
+  "avi_to_mp4.upload.subtitle": "AVI · 轉換為 MP4，提升相容性",
+  "avi_to_mp4.upload.btn_select": "選擇 AVI 檔案",
+  "avi_to_mp4.upload.btn_sample": "試用範例 AVI",
+  "avi_to_mp4.upload.hint": "請選擇一個要轉換為 MP4 的 AVI 影片檔案",
+  "mkv_to_mp4.upload.title": "將要轉換為 MP4 的 MKV 檔案拖放到這裡",
+  "mkv_to_mp4.upload.subtitle": "MKV · 轉換為 MP4，播放更方便",
+  "mkv_to_mp4.upload.btn_select": "選擇 MKV 檔案",
+  "mkv_to_mp4.upload.btn_sample": "試用範例 MKV",
+  "mkv_to_mp4.upload.hint": "請選擇一個要轉換為 MP4 的 MKV 影片檔案",
+  "webm_to_mp4.upload.title": "將要轉換為 MP4 的 WebM 檔案拖放到這裡",
+  "webm_to_mp4.upload.subtitle": "WebM · 轉換為 MP4，支援更多裝置",
+  "webm_to_mp4.upload.btn_select": "選擇 WebM 檔案",
+  "webm_to_mp4.upload.btn_sample": "試用範例 WebM",
+  "webm_to_mp4.upload.hint": "請選擇一個要轉換為 MP4 的 WebM 影片檔案",
+  "mp4_converter.upload.title": "將要轉換為 MP4 的影片檔案拖放到這裡",
+  "mp4_converter.upload.subtitle": "多種影片格式 · 轉換為 MP4",
+  "mp4_converter.upload.btn_select": "選擇影片檔案",
+  "mp4_converter.upload.btn_sample": "試用範例影片",
+  "mp4_converter.upload.hint": "請選擇一個要轉換為 MP4 的影片檔案",
+  "video_2_mp3.upload.title": "將要轉換為 MP3 的影片檔案拖放到這裡",
+  "video_2_mp3.upload.subtitle": "多種影片格式 · 擷取音訊為 MP3",
+  "video_2_mp3.upload.btn_select": "選擇影片檔案",
+  "video_2_mp3.upload.btn_sample": "試用範例影片",
+  "video_2_mp3.upload.hint": "請選擇一個要將音訊轉換為 MP3 的影片檔案",
+  "pdf_compressor.upload.title": "將要壓縮的 PDF 檔案拖放到這裡",
+  "pdf_compressor.upload.subtitle": "PDF · 最大 100 MB · 縮小檔案大小",
+  "pdf_compressor.upload.btn_select": "選擇 PDF 檔案",
+  "pdf_compressor.upload.btn_sample": "試用範例 PDF",
+  "pdf_compressor.upload.hint": "請選擇一個要壓縮並縮小的 PDF 檔案",
   "_comment_home": "================ Home ================",
-    "home.seo.title": "免費線上檔案工具 — 私密、瀏覽器內處理",
-    "home.seo.description": "使用免費線上工具，直接在瀏覽器中壓縮、轉換和編輯檔案。無需上傳、無需註冊，您的檔案保持私密。",
-  
-
+  "home.seo.title": "免費線上檔案工具 — 私密、瀏覽器內處理",
+  "home.seo.description": "使用免費線上工具，直接在瀏覽器中壓縮、轉換和編輯檔案。無需上傳、無需註冊，您的檔案保持私密。",
   "home.hero.title": "免費線上工具",
   "home.hero.description": "隱私、安全、快速又好用的工具，直接在瀏覽器中執行。你的檔案永遠不會離開裝置。",
   "home.pill.private": "檔案永遠不會離開你的裝置",
@@ -126,7 +106,6 @@
   "compress_video.seo.description": "使用 UploadLess 免費線上壓縮影片，快速縮小影片檔案大小。支援 MP4、MOV、AVI、MKV、WebM 等幾乎所有常見格式，直接在瀏覽器中私密處理，無需上傳、無需註冊。",
   "compress_video.hero.title": "免費線上影片壓縮工具",
   "compress_video.hero.description": "線上壓縮影片並縮小影片檔案大小——無需上傳、無需註冊。全程在瀏覽器中私密執行，支援 MP4、MOV、AVI、MKV、WebM 等幾乎所有常見影片格式。",
-
   "compress_video.settings.auto_optimize": "自動最佳化",
   "compress_video.settings.size_lbl": "目標檔案大小",
   "compress_video.btn.compress": "壓縮影片",
@@ -210,7 +189,6 @@
   "pdf_compressor.seo.description": "免費線上壓縮 PDF，快速縮小 PDF 檔案大小與容量。免安裝、免註冊，檔案在瀏覽器中處理，不需上傳，兼顧速度、畫質與隱私。",
   "pdf_compressor.hero.title": "免費線上 PDF 壓縮工具",
   "pdf_compressor.hero.description": "直接在瀏覽器中壓縮 PDF，快速縮小檔案大小與容量。無需上傳、免安裝、免註冊，適合報告、履歷、合約與掃描 PDF。",
-
   "pdf_compressor.settings.quality_lbl": "畫質預設",
   "pdf_compressor.settings.quality_balanced": "平衡（電子書）",
   "pdf_compressor.settings.quality_maximum": "最大壓縮（螢幕）",
@@ -339,7 +317,6 @@
   "video_converter.seo.description": "免費線上影片轉檔工具，支援 MP4、MOV、MKV、WebM、AVI 等常見格式。直接在瀏覽器完成轉換，免安裝、不用上傳，安全又快速。",
   "video_converter.hero.title": "免費線上影片轉檔工具",
   "video_converter.hero.description": "在瀏覽器中轉換影片格式，支援 MP4、MOV、MKV、WebM、AVI。免安裝、不用上傳檔案，快速、安全又方便。",
-
   "video_converter.settings.format_lbl": "目標格式",
   "video_converter.btn.convert": "轉換影片",
   "video_converter.btn.download": "下載檔案",
@@ -422,7 +399,6 @@
   "compress_mp4.seo.description": "使用 UploadLess 免費線上壓縮 MP4 影片，快速縮小 MP4 檔案大小。直接在瀏覽器中私密處理，無需上傳、無需註冊，也不需要安裝軟體。",
   "compress_mp4.hero.title": "免費線上 MP4 壓縮工具",
   "compress_mp4.hero.description": "線上縮小 MP4 檔案大小——無需上傳、無需註冊。全程在瀏覽器本機執行，適合分享、上傳或傳送前壓縮 MP4 影片。",
-
   "compress_mp4.settings.auto_optimize": "自動最佳化",
   "compress_mp4.settings.size_lbl": "目標檔案大小",
   "compress_mp4.btn.compress": "壓縮 MP4",
@@ -506,7 +482,6 @@
   "reduce_video_size.seo.description": "使用 UploadLess 免費線上縮小影片檔案大小，快速降低影片容量。支援 MP4、MOV、AVI、MKV、WebM 等常見格式，直接在瀏覽器本機處理，無需上傳、無需註冊。",
   "reduce_video_size.hero.title": "免費線上縮小影片檔案大小",
   "reduce_video_size.hero.description": "快速降低影片容量，讓影片更適合上傳、分享或傳送。可自動最佳化，也可設定目標 MB；全程在瀏覽器本機執行。",
-
   "reduce_video_size.settings.auto_optimize": "自動最佳化",
   "reduce_video_size.settings.size_lbl": "目標檔案大小",
   "reduce_video_size.btn.compress": "縮小大小",
@@ -1043,6 +1018,100 @@
     {
       "q": "MP4 適合上傳到社群平台嗎？",
       "a": "通常適合。MP4 是許多社群平台、網站、播放器與剪輯工具常用的影片格式，將影片轉成 MP4 後，通常更方便上傳、播放與分享。"
+    }
+  ],
+  "_comment_barcode_generator": "================ Barcode Generator ================",
+  "tool.barcode_generator.title": "條碼產生器",
+  "tool.barcode_generator.description": "直接在瀏覽器中免費產生條碼圖片。支援 EAN/JAN、Code 128、QR Code、Data Matrix 等格式。",
+  "tool.barcode_generator.short_description": "在瀏覽器中產生條碼。",
+  "barcode_generator.content_lbl": "條碼內容",
+  "barcode_generator.content_placeholder": "請輸入條碼內容，每行一筆...",
+  "barcode_generator.type_lbl": "條碼類型",
+  "barcode_generator.scale_lbl": "大小（比例）",
+  "barcode_generator.label_lbl": "顯示標籤",
+  "barcode_generator.format_lbl": "輸出格式",
+  "barcode_generator.btn_generate": "產生條碼",
+  "barcode_generator.results_title": "已產生的條碼",
+  "barcode_generator.btn_download": "下載",
+  "barcode_generator.yes": "是",
+  "barcode_generator.no": "否",
+  "barcode_generator.why_use.title": "為什麼使用 UploadLess 條碼產生器",
+  "barcode_generator.how_to_use.title": "如何在線上產生條碼",
+  "barcode_generator.faq.title": "條碼產生器常見問題",
+  "barcode_generator.btn_downloadbtn_gen_new": "產生新的條碼",
+  "barcode_generator.seo.title": "免費條碼產生器｜線上製作 EAN-13、Code 128 條碼",
+  "barcode_generator.seo.description": "免費線上產生條碼，支援 EAN-13、UPC、Code 128、Code 39 與一維條碼。可製作商品、庫存、SKU、序號與批次條碼，下載 PNG、SVG、PDF 或直接列印。",
+  "barcode_generator.hero.title": "免費線上條碼產生器",
+  "barcode_generator.hero.description": "快速製作商品、庫存、SKU 與序號條碼。支援單一或批次產生 EAN-13、UPC、Code 128、Code 39 條碼，並下載 PNG、SVG、PDF 或列印。",
+  "barcode_generator.how_to_use.steps": [
+    "選擇需要的條碼類型，例如 Code 128、EAN-13、UPC 或 QR Code。",
+    "在文字欄位中輸入條碼資料。若要批次產生多個條碼，請每行輸入一筆資料。",
+    "自訂條碼尺寸、是否顯示文字標籤，以及下載格式，例如 PNG、SVG 或 PDF。",
+    "點擊產生條碼，即可在瀏覽器中立即建立條碼。",
+    "可單獨下載每個條碼，或將產生的檔案用於商品標籤、庫存管理、包裝與物流。"
+  ],
+  "barcode_generator.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "隱私安全的條碼產生器",
+      "description": "直接在瀏覽器中建立條碼，條碼資料不會上傳、儲存或傳送到伺服器，適合商品編號、庫存資料與內部代碼使用。"
+    },
+    {
+      "icon": "bolt",
+      "title": "快速線上產生條碼",
+      "description": "免安裝軟體、免註冊帳號，即可快速產生單一或多個條碼，適合商品標籤、倉儲管理與日常列印需求。"
+    },
+    {
+      "icon": "device-desktop",
+      "title": "高品質條碼下載格式",
+      "description": "將產生的條碼下載為清晰的 PNG 圖片、可縮放 SVG 檔案或 PDF，方便用於產品包裝、標籤列印與物流文件。"
+    },
+    {
+      "icon": "list",
+      "title": "批次條碼產生器",
+      "description": "每行輸入一筆條碼資料，即可一次建立多個條碼，適合大量商品碼、SKU、序號、庫存標籤與批次列印。"
+    }
+  ],
+  "barcode_generator.faq.items": [
+    {
+      "q": "什麼是條碼產生器？",
+      "a": "條碼產生器是一個線上工具，可將商品編號、SKU、庫存代碼、序號或其他文字資料轉換成可掃描的條碼，方便用於商品標籤、庫存管理、包裝與物流。"
+    },
+    {
+      "q": "可以免費線上產生條碼嗎？",
+      "a": "可以。你可以使用免費條碼產生器在線上建立條碼，不需要安裝軟體或註冊帳號，輸入資料後即可快速產生並下載條碼圖片。"
+    },
+    {
+      "q": "這個條碼產生器支援哪些條碼類型？",
+      "a": "你可以產生常見的一維條碼類型，例如 Code 128、Code 39、EAN-13、EAN-8、UPC-A、ITF-14，也可用於商品條碼、庫存條碼、SKU 條碼與序號條碼。"
+    },
+    {
+      "q": "如何製作 EAN-13 商品條碼？",
+      "a": "選擇 EAN-13 條碼類型，輸入正確的 12 或 13 位數字，即可線上產生 EAN-13 條碼。EAN-13 常用於零售商品、包裝標籤與商品識別。"
+    },
+    {
+      "q": "Code 128 條碼適合用在哪裡？",
+      "a": "Code 128 條碼可支援數字、英文與部分符號，適合用於庫存管理、物流標籤、出貨單、資產標籤、SKU、序號與內部代碼。"
+    },
+    {
+      "q": "Code 39 和 Code 128 條碼有什麼不同？",
+      "a": "Code 39 較簡單，常用於基本文字與數字編碼；Code 128 資料密度較高，可容納更多字元，通常更適合庫存、物流、產品代碼與專業標籤列印。"
+    },
+    {
+      "q": "可以一次產生多個條碼嗎？",
+      "a": "可以。使用批次條碼產生器時，只要每行輸入一筆條碼資料，就能一次產生多個條碼，適合大量商品碼、SKU、序號、庫存標籤與批次列印。"
+    },
+    {
+      "q": "可以從 Excel 或 CSV 資料產生條碼嗎？",
+      "a": "可以將 Excel 或 CSV 中的商品編號、SKU、庫存代碼或序號複製到輸入欄位，每行放一筆資料，即可批次產生條碼並用於標籤、商品或庫存管理。"
+    },
+    {
+      "q": "產生的條碼可以下載成什麼格式？",
+      "a": "產生條碼後，可以下載為 PNG 圖片、SVG 向量檔或 PDF。PNG 適合一般圖片使用，SVG 適合高品質縮放，PDF 則方便列印商品標籤與包裝文件。"
+    },
+    {
+      "q": "線上條碼產生器會上傳或儲存我的資料嗎？",
+      "a": "條碼會直接在瀏覽器中產生，你輸入的商品編號、庫存資料、SKU 或序號不會上傳、儲存或傳送到伺服器，適合處理內部代碼與商品資料。"
     }
   ]
 }

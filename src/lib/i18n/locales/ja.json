@@ -1,82 +1,65 @@
 {
-    "common.try_now": "このツールを無料で使う",
+  "common.try_now": "このツールを無料で使う",
   "home.search.placeholder": "ツールを検索",
   "blog.author_bio": "J.JulianはUploadLessのクリエイター兼リード開発者です。ソフトウェアエンジニアリングとWebアーキテクチャにおける豊富な経験を活かし、現代のWeb向けに安全で高性能、かつ使いやすいファイル共有ソリューションの構築に取り組んでいます。",
-
- "compress_video.upload.title": "圧縮する動画ファイルをここにドロップ",
-"compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM など · 最大500 MB",
-"compress_video.upload.btn_select": "動画ファイルを選択",
-"compress_video.upload.btn_sample": "サンプル動画を試す",
-"compress_video.upload.hint": "圧縮してファイルサイズを小さくする動画を1つ選択してください",
-
-"compress_mp4.upload.title": "圧縮するMP4ファイルをここにドロップ",
-"compress_mp4.upload.subtitle": "MP4 · 最大500 MB · 画質を保ちながら軽量化",
-"compress_mp4.upload.btn_select": "MP4ファイルを選択",
-"compress_mp4.upload.btn_sample": "サンプルMP4を試す",
-"compress_mp4.upload.hint": "圧縮して小さくするMP4ファイルを1つ選択してください",
-
-"reduce_video_size.upload.title": "サイズを小さくする動画ファイルをここにドロップ",
-"reduce_video_size.upload.subtitle": "MP4、MOV、AVI、MKV、WebM など · 最大500 MB",
-"reduce_video_size.upload.btn_select": "動画ファイルを参照",
-"reduce_video_size.upload.btn_sample": "サンプル動画を使う",
-"reduce_video_size.upload.hint": "ファイルサイズをすばやく小さくする動画を1つアップロードしてください",
-
-"video_converter.upload.title": "変換する動画ファイルをここにドロップ",
-"video_converter.upload.subtitle": "MP4、MOV、AVI、MKV、WebM など · ブラウザで変換",
-"video_converter.upload.btn_select": "動画ファイルを選択",
-"video_converter.upload.btn_sample": "サンプル動画を試す",
-"video_converter.upload.hint": "別の形式に変換する動画ファイルを1つ選択してください",
-
-"mov_to_mp4.upload.title": "MP4に変換するMOVファイルをここにドロップ",
-"mov_to_mp4.upload.subtitle": "MOV · MP4に変換して再生しやすく",
-"mov_to_mp4.upload.btn_select": "MOVファイルを選択",
-"mov_to_mp4.upload.btn_sample": "サンプルMOVを試す",
-"mov_to_mp4.upload.hint": "MP4に変換するMOV動画ファイルを1つ選択してください",
-
-"avi_to_mp4.upload.title": "MP4に変換するAVIファイルをここにドロップ",
-"avi_to_mp4.upload.subtitle": "AVI · MP4に変換して互換性アップ",
-"avi_to_mp4.upload.btn_select": "AVIファイルを選択",
-"avi_to_mp4.upload.btn_sample": "サンプルAVIを試す",
-"avi_to_mp4.upload.hint": "MP4に変換するAVI動画ファイルを1つ選択してください",
-
-"mkv_to_mp4.upload.title": "MP4に変換するMKVファイルをここにドロップ",
-"mkv_to_mp4.upload.subtitle": "MKV · MP4に変換して再生しやすく",
-"mkv_to_mp4.upload.btn_select": "MKVファイルを選択",
-"mkv_to_mp4.upload.btn_sample": "サンプルMKVを試す",
-"mkv_to_mp4.upload.hint": "MP4に変換するMKV動画ファイルを1つ選択してください",
-
-"webm_to_mp4.upload.title": "MP4に変換するWebMファイルをここにドロップ",
-"webm_to_mp4.upload.subtitle": "WebM · MP4に変換して幅広く再生",
-"webm_to_mp4.upload.btn_select": "WebMファイルを選択",
-"webm_to_mp4.upload.btn_sample": "サンプルWebMを試す",
-"webm_to_mp4.upload.hint": "MP4に変換するWebM動画ファイルを1つ選択してください",
-
-"mp4_converter.upload.title": "MP4に変換する動画ファイルをここにドロップ",
-"mp4_converter.upload.subtitle": "さまざまな動画形式 · MP4に変換",
-"mp4_converter.upload.btn_select": "動画ファイルを選択",
-"mp4_converter.upload.btn_sample": "サンプル動画を試す",
-"mp4_converter.upload.hint": "MP4に変換する動画ファイルを1つ選択してください",
-
-"video_2_mp3.upload.title": "MP3に変換する動画ファイルをここにドロップ",
-"video_2_mp3.upload.subtitle": "さまざまな動画形式 · 音声をMP3で抽出",
-"video_2_mp3.upload.btn_select": "動画ファイルを選択",
-"video_2_mp3.upload.btn_sample": "サンプル動画を試す",
-"video_2_mp3.upload.hint": "音声をMP3に変換する動画ファイルを1つ選択してください",
-
-"pdf_compressor.upload.title": "圧縮するPDFファイルをここにドロップ",
-"pdf_compressor.upload.subtitle": "PDF · 最大100 MB · ファイルサイズを軽量化",
-"pdf_compressor.upload.btn_select": "PDFファイルを選択",
-"pdf_compressor.upload.btn_sample": "サンプルPDFを試す",
-"pdf_compressor.upload.hint": "圧縮して小さくするPDFファイルを1つ選択してください",
-  
-
-
-
-
+  "compress_video.upload.title": "圧縮する動画ファイルをここにドロップ",
+  "compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM など · 最大500 MB",
+  "compress_video.upload.btn_select": "動画ファイルを選択",
+  "compress_video.upload.btn_sample": "サンプル動画を試す",
+  "compress_video.upload.hint": "圧縮してファイルサイズを小さくする動画を1つ選択してください",
+  "compress_mp4.upload.title": "圧縮するMP4ファイルをここにドロップ",
+  "compress_mp4.upload.subtitle": "MP4 · 最大500 MB · 画質を保ちながら軽量化",
+  "compress_mp4.upload.btn_select": "MP4ファイルを選択",
+  "compress_mp4.upload.btn_sample": "サンプルMP4を試す",
+  "compress_mp4.upload.hint": "圧縮して小さくするMP4ファイルを1つ選択してください",
+  "reduce_video_size.upload.title": "サイズを小さくする動画ファイルをここにドロップ",
+  "reduce_video_size.upload.subtitle": "MP4、MOV、AVI、MKV、WebM など · 最大500 MB",
+  "reduce_video_size.upload.btn_select": "動画ファイルを参照",
+  "reduce_video_size.upload.btn_sample": "サンプル動画を使う",
+  "reduce_video_size.upload.hint": "ファイルサイズをすばやく小さくする動画を1つアップロードしてください",
+  "video_converter.upload.title": "変換する動画ファイルをここにドロップ",
+  "video_converter.upload.subtitle": "MP4、MOV、AVI、MKV、WebM など · ブラウザで変換",
+  "video_converter.upload.btn_select": "動画ファイルを選択",
+  "video_converter.upload.btn_sample": "サンプル動画を試す",
+  "video_converter.upload.hint": "別の形式に変換する動画ファイルを1つ選択してください",
+  "mov_to_mp4.upload.title": "MP4に変換するMOVファイルをここにドロップ",
+  "mov_to_mp4.upload.subtitle": "MOV · MP4に変換して再生しやすく",
+  "mov_to_mp4.upload.btn_select": "MOVファイルを選択",
+  "mov_to_mp4.upload.btn_sample": "サンプルMOVを試す",
+  "mov_to_mp4.upload.hint": "MP4に変換するMOV動画ファイルを1つ選択してください",
+  "avi_to_mp4.upload.title": "MP4に変換するAVIファイルをここにドロップ",
+  "avi_to_mp4.upload.subtitle": "AVI · MP4に変換して互換性アップ",
+  "avi_to_mp4.upload.btn_select": "AVIファイルを選択",
+  "avi_to_mp4.upload.btn_sample": "サンプルAVIを試す",
+  "avi_to_mp4.upload.hint": "MP4に変換するAVI動画ファイルを1つ選択してください",
+  "mkv_to_mp4.upload.title": "MP4に変換するMKVファイルをここにドロップ",
+  "mkv_to_mp4.upload.subtitle": "MKV · MP4に変換して再生しやすく",
+  "mkv_to_mp4.upload.btn_select": "MKVファイルを選択",
+  "mkv_to_mp4.upload.btn_sample": "サンプルMKVを試す",
+  "mkv_to_mp4.upload.hint": "MP4に変換するMKV動画ファイルを1つ選択してください",
+  "webm_to_mp4.upload.title": "MP4に変換するWebMファイルをここにドロップ",
+  "webm_to_mp4.upload.subtitle": "WebM · MP4に変換して幅広く再生",
+  "webm_to_mp4.upload.btn_select": "WebMファイルを選択",
+  "webm_to_mp4.upload.btn_sample": "サンプルWebMを試す",
+  "webm_to_mp4.upload.hint": "MP4に変換するWebM動画ファイルを1つ選択してください",
+  "mp4_converter.upload.title": "MP4に変換する動画ファイルをここにドロップ",
+  "mp4_converter.upload.subtitle": "さまざまな動画形式 · MP4に変換",
+  "mp4_converter.upload.btn_select": "動画ファイルを選択",
+  "mp4_converter.upload.btn_sample": "サンプル動画を試す",
+  "mp4_converter.upload.hint": "MP4に変換する動画ファイルを1つ選択してください",
+  "video_2_mp3.upload.title": "MP3に変換する動画ファイルをここにドロップ",
+  "video_2_mp3.upload.subtitle": "さまざまな動画形式 · 音声をMP3で抽出",
+  "video_2_mp3.upload.btn_select": "動画ファイルを選択",
+  "video_2_mp3.upload.btn_sample": "サンプル動画を試す",
+  "video_2_mp3.upload.hint": "音声をMP3に変換する動画ファイルを1つ選択してください",
+  "pdf_compressor.upload.title": "圧縮するPDFファイルをここにドロップ",
+  "pdf_compressor.upload.subtitle": "PDF · 最大100 MB · ファイルサイズを軽量化",
+  "pdf_compressor.upload.btn_select": "PDFファイルを選択",
+  "pdf_compressor.upload.btn_sample": "サンプルPDFを試す",
+  "pdf_compressor.upload.hint": "圧縮して小さくするPDFファイルを1つ選択してください",
   "_comment_home": "================ Home ================",
-    "home.seo.title": "無料オンラインファイルツール — プライベートでブラウザベース",
-    "home.seo.description": "無料オンラインツールを使って、ブラウザ上でファイルを直接圧縮、変換、編集できます。アップロード不要、登録不要で、ファイルはプライベートに保たれます。",
-
+  "home.seo.title": "無料オンラインファイルツール — プライベートでブラウザベース",
+  "home.seo.description": "無料オンラインツールを使って、ブラウザ上でファイルを直接圧縮、変換、編集できます。アップロード不要、登録不要で、ファイルはプライベートに保たれます。",
   "home.hero.title": "無料オンラインツール",
   "home.hero.description": "プライベートで高速、使いやすいツールがブラウザ内で直接動作します。ファイルがお使いの端末から外へ出ることはありません。",
   "home.pill.private": "ファイルがお使いの端末から外へ出ることはありません",
@@ -123,7 +106,6 @@
   "compress_video.seo.description": "動画を無料でオンライン圧縮。MP4・MOV・AVI・MKV・WebMなどの動画ファイルサイズを、アップロード不要・登録不要でブラウザ内だけで安全に削減できます。",
   "compress_video.hero.title": "無料オンライン動画圧縮ツール",
   "compress_video.hero.description": "動画をオンラインで簡単に圧縮。アップロード不要・登録不要で、すべてブラウザ内で処理されます。MP4、MOV、AVI、MKV、WebMなどに対応しています。",
-
   "compress_video.settings.auto_optimize": "自動最適化",
   "compress_video.settings.size_lbl": "目標ファイルサイズ",
   "compress_video.btn.compress": "動画を圧縮",
@@ -207,7 +189,6 @@
   "pdf_compressor.seo.description": "PDFを無料でオンライン圧縮。アップロード不要・登録不要で、ブラウザ内だけで安全にPDFファイルサイズを小さくできます。",
   "pdf_compressor.hero.title": "無料オンラインPDF圧縮ツール",
   "pdf_compressor.hero.description": "PDFを圧縮してファイルサイズを小さくする無料ツール。アップロード不要・登録不要で、すべてブラウザ内で安全に処理します。",
-
   "pdf_compressor.settings.quality_lbl": "品質プリセット",
   "pdf_compressor.settings.quality_balanced": "バランス（電子書籍）",
   "pdf_compressor.settings.quality_maximum": "最大（スクリーン）",
@@ -289,7 +270,6 @@
       "a": "はい。PDFがパスワード保護されている場合は、必要に応じてパスワードを入力することで圧縮できます。処理はブラウザ内で行われます。"
     }
   ],
-
   "related_tools.title": "関連ツール",
   "common.tools": "ツール",
   "common.blog": "ブログ",
@@ -332,14 +312,11 @@
   "tool.reduce_video_size.title": "動画サイズを縮小",
   "tool.reduce_video_size.description": "アップロードせずに動画ファイルを無料で小さくできます。圧縮はブラウザ内でプライベートに実行されます。",
   "tool.reduce_video_size.short_description": "動画ファイルをプライベートに小さくします。",
-
-
   "_comment_video_converter": "================ Video Converter ================",
   "video_converter.seo.title": "動画変換サイト｜無料オンライン動画変換ツール | UploadLess",
   "video_converter.seo.description": "UploadLessで動画ファイルをMP4、MOV、MKV、WebM、AVIなど主要形式へオンライン変換。インストール不要で、ブラウザ内で安全に無料変換できます。",
   "video_converter.hero.title": "無料オンライン動画変換ツール",
   "video_converter.hero.description": "MP4、MOV、MKV、WebM、AVIなど主要な動画形式をブラウザ内で簡単に変換できます。インストール不要で、安全に使える無料の動画変換ツールです。",
-
   "video_converter.settings.format_lbl": "ターゲット形式",
   "video_converter.btn.convert": "動画を変換",
   "video_converter.btn.download": "ファイルをダウンロード",
@@ -351,7 +328,6 @@
     "対応している出力形式の中から、変換したい動画形式を選択します。MP4、MOV、MKV、WebM、AVIなど、さまざまな形式に対応しています。",
     "「変換」をクリックすると、ブラウザ内で動画変換が開始されます。処理はお使いの端末上で行われるため、ファイルを安全に変換できます。完了したら変換済みファイルをダウンロードします。"
   ],
-
   "video_converter.why_use.title": "UploadLess変換ツールを使う理由",
   "video_converter.why_use.benefits": [
     {
@@ -375,7 +351,6 @@
       "description": "シンプルな操作で動画形式をすばやく変換できます。待ち時間を抑え、変換済みファイルをすぐにダウンロードできます。"
     }
   ],
-
   "video_converter.faq.title": "動画変換に関するFAQ",
   "video_converter.faq.items": [
     {
@@ -419,14 +394,11 @@
       "a": "ファイル形式が特殊な場合や、動画ファイルが破損している場合は変換できないことがあります。別のブラウザを試す、ファイル名を変更する、または元ファイルを確認してから再度アップロードしてください。"
     }
   ],
-
-
   "_comment_compress_mp4": "================ Compress MP4 ================",
   "compress_mp4.seo.title": "MP4圧縮オンライン無料ツール - UploadLess",
   "compress_mp4.seo.description": "MP4を無料でオンライン圧縮。アップロード不要・登録不要で、ブラウザ内だけで安全にMP4ファイルサイズを小さくできます。",
   "compress_mp4.hero.title": "無料オンラインMP4圧縮ツール",
   "compress_mp4.hero.description": "MP4ファイルサイズをブラウザ内で削減。アップロード不要・登録不要で、動画を安全にすばやく軽くできます。",
-
   "compress_mp4.settings.auto_optimize": "自動最適化",
   "compress_mp4.settings.size_lbl": "目標ファイルサイズ",
   "compress_mp4.btn.compress": "MP4を圧縮",
@@ -510,7 +482,6 @@
   "reduce_video_size.seo.description": "動画サイズを無料で小さくできます。アップロード不要・登録不要で、ブラウザ内だけで安全に動画容量を削減できます。",
   "reduce_video_size.hero.title": "動画サイズを小さくする",
   "reduce_video_size.hero.description": "アップロード不要で動画容量を削減。ブラウザ内で安全に処理し、メールやSNSで共有しやすいサイズにできます。",
-
   "reduce_video_size.settings.auto_optimize": "自動最適化",
   "reduce_video_size.settings.size_lbl": "目標ファイルサイズ",
   "reduce_video_size.btn.compress": "サイズを縮小",
@@ -595,7 +566,6 @@
   "mov_to_mp4.seo.description": "MOVをMP4に無料でオンライン変換。インストール不要・登録不要で、ブラウザ内だけで安全にMOV動画をMP4形式へ変換できます。",
   "mov_to_mp4.hero.title": "MOVをMP4に変換",
   "mov_to_mp4.hero.description": "MOV動画ファイルをブラウザ内で簡単にMP4形式へ変換できます。インストール不要で、安全に使える無料のMOV MP4変換ツールです。",
-
   "mov_to_mp4.how_to_use.title": "MOVをMP4にオンライン変換する方法",
   "mov_to_mp4.how_to_use.steps": [
     "お使いの端末からMOVファイルを選択するか、アップロードエリアにドラッグ＆ドロップします。",
@@ -668,13 +638,11 @@
       "a": "このページはMOVをMP4に変換するための専用ツールです。MP4からMOVなど別の形式に変換したい場合は、動画変換ツールで希望する出力形式を選択してください。"
     }
   ],
-
   "_comment_avi_to_mp4": "================ AVI to MP4 ================",
   "avi_to_mp4.seo.title": "AVI MP4 変換｜AVIをMP4に無料変換 | UploadLess",
   "avi_to_mp4.seo.description": "AVIをMP4に無料でオンライン変換。インストール不要・登録不要で、ブラウザ内だけで安全にAVI動画をMP4形式へ変換できます。",
   "avi_to_mp4.hero.title": "AVIをMP4に変換",
   "avi_to_mp4.hero.description": "AVI動画ファイルをブラウザ内で簡単にMP4形式へ変換できます。インストール不要で、安全に使える無料のAVI MP4変換ツールです。",
-
   "avi_to_mp4.how_to_use.title": "AVIをMP4にオンライン変換する方法",
   "avi_to_mp4.how_to_use.steps": [
     "お使いの端末からAVIファイルを選択するか、アップロードエリアにドラッグ＆ドロップします。",
@@ -747,8 +715,6 @@
       "a": "このページはAVIをMP4に変換するための専用ツールです。MP4からAVIなど別の形式に変換したい場合は、動画変換ツールで希望する出力形式を選択してください。"
     }
   ],
-
-
   "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
   "mkv_to_mp4.seo.title": "MKV MP4 変換｜MKVをMP4に無料変換 | UploadLess",
   "mkv_to_mp4.seo.description": "MKV動画ファイルをMP4にオンライン変換。インストール不要で、ブラウザ内で安全にMKVをMP4形式へ無料変換できます。",
@@ -826,8 +792,6 @@
       "a": "このページはMKVをMP4に変換するための専用ツールです。MP4からMKVなど別の形式に変換したい場合は、動画変換ツールで希望する出力形式を選択してください。"
     }
   ],
-
-
   "_comment_webm_to_mp4": "================ WebM to MP4 ================",
   "webm_to_mp4.seo.title": "WebM MP4 変換｜WebMをMP4に無料変換 | UploadLess",
   "webm_to_mp4.seo.description": "WebM動画ファイルをMP4にオンライン変換。インストール不要で、ブラウザ内で安全にWebMをMP4形式へ無料変換できます。",
@@ -907,84 +871,81 @@
   ],
   "_comment_video_to_mp3": "================ Video to MP3 ================",
   "video_to_mp3.seo.title": "MP4・動画をMP3に変換｜音声抽出 無料オンライン - UploadLess",
-"video_to_mp3.seo.description": "MP4・MOV・WEBMなどの動画をMP3に無料変換。動画から音声を抽出し、ブラウザ内だけで安全にMP3ファイルとして保存できます。",
-"video_to_mp3.hero.title": "動画をMP3に変換",
-"video_to_mp3.hero.description": "MP4・MOV・WEBMなどの動画ファイルから音声を抽出し、ブラウザ内でMP3として保存できます。",
+  "video_to_mp3.seo.description": "MP4・MOV・WEBMなどの動画をMP3に無料変換。動画から音声を抽出し、ブラウザ内だけで安全にMP3ファイルとして保存できます。",
+  "video_to_mp3.hero.title": "動画をMP3に変換",
+  "video_to_mp3.hero.description": "MP4・MOV・WEBMなどの動画ファイルから音声を抽出し、ブラウザ内でMP3として保存できます。",
   "video_to_mp3.how_to_use.title": "動画をMP3にオンライン変換する方法",
-"video_to_mp3.how_to_use.steps": [
-  "ほとんどの主要な動画形式に対応しています。変換したい動画ファイルをアップロードします。",
-  "「変換」をクリックすると、動画から音声が抽出されMP3に変換されます。",
-  "変換が完了したら、MP3ファイルを端末にダウンロードします。"
-],
+  "video_to_mp3.how_to_use.steps": [
+    "ほとんどの主要な動画形式に対応しています。変換したい動画ファイルをアップロードします。",
+    "「変換」をクリックすると、動画から音声が抽出されMP3に変換されます。",
+    "変換が完了したら、MP3ファイルを端末にダウンロードします。"
+  ],
   "video_to_mp3.why_use.title": "UploadLess音声抽出ツールを使う理由",
   "video_to_mp3.why_use.benefits": [
-  {
-    "icon": "shield-lock",
-    "title": "ブラウザ内で安全に変換",
-    "description": "動画からMP3への変換はブラウザ内でローカルに実行されます。ファイルがお使いの端末から外へ出ることはありません。"
-  },
-  {
-    "icon": "bolt",
-    "title": "無料・登録不要",
-    "description": "アカウント作成やインストールは不要。動画ファイルをアップロードするだけで、すぐにMP3へ変換できます。"
-  },
-  {
-    "icon": "music",
-    "title": "動画から音声を簡単抽出",
-    "description": "MP4・MOV・WEBMなどの動画ファイルから音声トラックを抽出し、MP3ファイルとして保存できます。"
-  },
-  {
-    "icon": "monitor-smartphone",
-    "title": "PC・スマホで使える",
-    "description": "ブラウザで動作するため、Windows・Mac・スマホなど、さまざまな端末から動画をMP3に変換できます。"
-  }
-],
-  
+    {
+      "icon": "shield-lock",
+      "title": "ブラウザ内で安全に変換",
+      "description": "動画からMP3への変換はブラウザ内でローカルに実行されます。ファイルがお使いの端末から外へ出ることはありません。"
+    },
+    {
+      "icon": "bolt",
+      "title": "無料・登録不要",
+      "description": "アカウント作成やインストールは不要。動画ファイルをアップロードするだけで、すぐにMP3へ変換できます。"
+    },
+    {
+      "icon": "music",
+      "title": "動画から音声を簡単抽出",
+      "description": "MP4・MOV・WEBMなどの動画ファイルから音声トラックを抽出し、MP3ファイルとして保存できます。"
+    },
+    {
+      "icon": "monitor-smartphone",
+      "title": "PC・スマホで使える",
+      "description": "ブラウザで動作するため、Windows・Mac・スマホなど、さまざまな端末から動画をMP3に変換できます。"
+    }
+  ],
   "video_to_mp3.faq.title": "動画からMP3への変換に関するFAQ",
-"video_to_mp3.faq.items": [
-  {
-    "q": "動画をMP3に変換できますか？",
-    "a": "はい。MP4・MOV・WEBM・AVI・MKVなど、さまざまな形式の動画ファイルをMP3に変換できます。"
-  },
-  {
-    "q": "MP4をMP3に変換できますか？",
-    "a": "はい。MP4動画から音声を抽出し、MP3ファイルとして保存できます。"
-  },
-  {
-    "q": "動画から音声だけを抽出できますか？",
-    "a": "はい。動画ファイルに含まれる音声トラックだけを抽出して、MP3形式で保存できます。"
-  },
-  {
-    "q": "MOVやWEBM、MKV、AVIもMP3に変換できますか？",
-    "a": "はい。主要な動画形式に幅広く対応しているため、MOV・WEBM・MKV・AVIなどの動画もMP3に変換できます。"
-  },
-  {
-    "q": "動画をアップロードしてMP3に変換する必要がありますか？",
-    "a": "ファイルは選択しますが、変換処理はブラウザ内でローカルに実行されます。動画ファイルがサーバーへアップロードされることはありません。"
-  },
-  {
-    "q": "ファイルはサーバーにアップロードされますか？",
-    "a": "いいえ。動画からMP3への変換はお使いの端末上で行われます。ファイルがお使いの端末から外へ出ることはありません。"
-  },
-  {
-    "q": "ブラウザだけで動画をMP3に変換できますか？",
-    "a": "はい。ソフトのインストールは不要です。ブラウザ上で動画ファイルを選択し、そのままMP3に変換できます。"
-  },
-  {
-    "q": "無料で動画をMP3に変換できますか？",
-    "a": "はい。UploadLessでは、動画から音声を抽出してMP3に変換する機能を無料で利用できます。"
-  },
-  {
-    "q": "高音質でMP3に変換できますか？",
-    "a": "元の動画ファイルの音声品質をできるだけ保ちながら、MP3ファイルとして保存できます。"
-  },
-  {
-    "q": "スマホでも動画をMP3に変換できますか？",
-    "a": "はい。ブラウザで動作するため、スマホ・タブレット・PCから動画をMP3に変換できます。"
-  }
-],
-
-
+  "video_to_mp3.faq.items": [
+    {
+      "q": "動画をMP3に変換できますか？",
+      "a": "はい。MP4・MOV・WEBM・AVI・MKVなど、さまざまな形式の動画ファイルをMP3に変換できます。"
+    },
+    {
+      "q": "MP4をMP3に変換できますか？",
+      "a": "はい。MP4動画から音声を抽出し、MP3ファイルとして保存できます。"
+    },
+    {
+      "q": "動画から音声だけを抽出できますか？",
+      "a": "はい。動画ファイルに含まれる音声トラックだけを抽出して、MP3形式で保存できます。"
+    },
+    {
+      "q": "MOVやWEBM、MKV、AVIもMP3に変換できますか？",
+      "a": "はい。主要な動画形式に幅広く対応しているため、MOV・WEBM・MKV・AVIなどの動画もMP3に変換できます。"
+    },
+    {
+      "q": "動画をアップロードしてMP3に変換する必要がありますか？",
+      "a": "ファイルは選択しますが、変換処理はブラウザ内でローカルに実行されます。動画ファイルがサーバーへアップロードされることはありません。"
+    },
+    {
+      "q": "ファイルはサーバーにアップロードされますか？",
+      "a": "いいえ。動画からMP3への変換はお使いの端末上で行われます。ファイルがお使いの端末から外へ出ることはありません。"
+    },
+    {
+      "q": "ブラウザだけで動画をMP3に変換できますか？",
+      "a": "はい。ソフトのインストールは不要です。ブラウザ上で動画ファイルを選択し、そのままMP3に変換できます。"
+    },
+    {
+      "q": "無料で動画をMP3に変換できますか？",
+      "a": "はい。UploadLessでは、動画から音声を抽出してMP3に変換する機能を無料で利用できます。"
+    },
+    {
+      "q": "高音質でMP3に変換できますか？",
+      "a": "元の動画ファイルの音声品質をできるだけ保ちながら、MP3ファイルとして保存できます。"
+    },
+    {
+      "q": "スマホでも動画をMP3に変換できますか？",
+      "a": "はい。ブラウザで動作するため、スマホ・タブレット・PCから動画をMP3に変換できます。"
+    }
+  ],
   "_comment_mp4_converter": "================ MP4 Converter ================",
   "mp4_converter.seo.title": "MP4変換｜動画をMP4に無料変換 | UploadLess",
   "mp4_converter.seo.description": "MOV、AVI、MKV、WebMなどの動画ファイルをMP4にオンライン変換。インストール不要で、安全に無料MP4変換できます。",
@@ -1060,6 +1021,193 @@
     {
       "q": "MP4から別の形式に変換することもできますか？",
       "a": "このページは動画をMP4に変換するためのMP4変換ツールです。MP4からMOV、WebM、MKVなど別の形式に変換したい場合は、動画変換ツールで希望する出力形式を選択してください。"
+    }
+  ],
+  "_comment_barcode_generator": "================ Barcode Generator ================",
+  "tool.barcode_generator.title": "バーコード生成ツール",
+  "tool.barcode_generator.description": "ブラウザ上で無料でバーコード画像を生成できます。EAN/JAN、Code 128、QRコード、Data Matrix などに対応しています。",
+  "tool.barcode_generator.short_description": "ブラウザ上でバーコードを生成できます。",
+  "barcode_generator.content_lbl": "バーコード内容",
+  "barcode_generator.content_placeholder": "バーコード内容を1行に1つずつ入力...",
+  "barcode_generator.type_lbl": "バーコード種類",
+  "barcode_generator.scale_lbl": "サイズ（スケール）",
+  "barcode_generator.label_lbl": "ラベルを表示",
+  "barcode_generator.format_lbl": "出力形式",
+  "barcode_generator.btn_generate": "バーコードを生成",
+  "barcode_generator.results_title": "生成されたバーコード",
+  "barcode_generator.btn_download": "ダウンロード",
+  "barcode_generator.yes": "はい",
+  "barcode_generator.no": "いいえ",
+  "barcode_generator.why_use.title": "UploadLess バーコード生成ツールを使う理由",
+  "barcode_generator.how_to_use.title": "オンラインでバーコードを生成する方法",
+  "barcode_generator.faq.title": "バーコード生成ツール FAQ",
+  "barcode_generator.btn_downloadbtn_gen_new": "新しいバーコードを生成",
+  "barcode_generator.seo.title": "バーコード作成を無料で｜オンライン生成ツール",
+  "barcode_generator.seo.description": "無料でバーコードをオンライン作成。商品・在庫・ラベル用のCode 128、EAN-13、UPCなどを生成し、PNG・SVG・PDFで保存できます。",
+  "barcode_generator.hero.title": "無料オンラインバーコード作成ツール",
+  "barcode_generator.hero.description": "商品・在庫・ラベル用のバーコードをすぐに作成。Code 128、EAN-13、UPCなどに対応し、PNG・SVG・PDFで保存できます。",
+  "barcode_generator.how_to_use.steps": [
+    "バーコードの種類を選択します。Code 128、EAN-13、UPC、QRコードなどから用途に合う形式を選べます。",
+    "バーコードにしたいデータを入力します。複数作成する場合は、1行に1つずつ値を入力してください。",
+    "バーコードのサイズ、ラベル表示、余白、ダウンロード形式（PNG・SVG・PDFなど）を設定します。",
+    "「バーコードを生成」をクリックすると、ブラウザ上でバーコードがすぐに作成されます。",
+    "作成したバーコードを個別にダウンロードし、商品ラベル、在庫管理、パッケージ、印刷用データなどに利用できます。"
+  ],
+  "barcode_generator.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "プライベートにバーコード作成",
+      "description": "バーコードはブラウザ上で直接作成されます。入力したデータはアップロード、保存、サーバー送信されません。"
+    },
+    {
+      "icon": "bolt",
+      "title": "すばやくオンライン生成",
+      "description": "ソフトのインストールやアカウント作成なしで、単一または複数のバーコードをすぐに生成できます。"
+    },
+    {
+      "icon": "device-desktop",
+      "title": "高品質な形式で保存",
+      "description": "作成したバーコードをPNG、SVG、PDFなどで保存できます。商品ラベル、パッケージ、印刷用データにも使いやすい形式です。"
+    },
+    {
+      "icon": "list",
+      "title": "複数バーコードを一括作成",
+      "description": "1行に1つずつ値を入力するだけで、複数のバーコードをまとめて作成できます。在庫管理、商品コード、ラベル作成に便利です。"
+    }
+  ],
+  "barcode_generator.faq.items": [
+    {
+      "q": "このツールではどの種類のバーコードを作成できますか？",
+      "a": "Code 128、Code 39、EAN-13、UPC、ITF、Data Matrix、QRコードなど、商品ラベル、在庫管理、配送、パッケージに使えるさまざまなバーコードを作成できます。JANコード専用の作成には、別ページのJANコード作成ツールをご利用ください。"
+    },
+    {
+      "q": "無料でバーコードを作成できますか？",
+      "a": "はい。オンラインで無料でバーコードを作成できます。ソフトのインストールやアカウント登録は不要で、ブラウザ上ですぐにバーコードを生成できます。"
+    },
+    {
+      "q": "バーコードをオンラインで作成するにはどうすればいいですか？",
+      "a": "バーコードの種類を選び、バーコードにしたい文字や数字を入力して、「バーコードを生成」をクリックするだけです。作成したバーコードは画像ファイルとして保存できます。"
+    },
+    {
+      "q": "複数のバーコードを一括作成できますか？",
+      "a": "はい。1行に1つずつ値を入力すると、複数のバーコードをまとめて作成できます。商品コード、SKU、シリアル番号、在庫ラベルなどを一括で生成したい場合に便利です。"
+    },
+    {
+      "q": "作成したバーコードはどの形式でダウンロードできますか？",
+      "a": "作成したバーコードは、PNG、SVG、PDFなどの形式でダウンロードできます。PNGは画像として使いやすく、SVGは拡大してもきれいなため、ラベルや印刷用データに適しています。"
+    },
+    {
+      "q": "商品バーコードの作成にも使えますか？",
+      "a": "はい。商品ラベル、製品コード、在庫管理、パッケージ用のバーコード作成に利用できます。商品に必要なバーコード規格を確認したうえで、EAN-13、UPC、Code 128など適切な形式を選んでください。"
+    },
+    {
+      "q": "Code 128やCode 39のバーコードを作成できますか？",
+      "a": "はい。Code 128やCode 39のバーコードを作成できます。Code 128は英数字や記号を効率よく表現でき、Code 39はシンプルな英数字コードや管理ラベルによく使われます。"
+    },
+    {
+      "q": "EAN-13やUPCのバーコードを生成できますか？",
+      "a": "はい。EAN-13やUPC形式のバーコードも生成できます。商品コードや販売用バーコードとして使う場合は、入力する桁数やコード体系が正しいか確認してから作成してください。"
+    },
+    {
+      "q": "入力したバーコードデータはサーバーに送信されますか？",
+      "a": "いいえ。バーコードはブラウザ上で作成されるため、入力したデータはアップロード、保存、サーバー送信されません。商品コードや社内管理番号を扱う場合でも安心して利用できます。"
+    },
+    {
+      "q": "作成したバーコードを印刷できますか？",
+      "a": "はい。作成したバーコードをPNG、SVG、PDFなどで保存し、ラベルシール、商品タグ、在庫管理表、パッケージ用データとして印刷できます。印刷前にスキャナーで読み取り確認することをおすすめします。"
+    }
+  ],
+  "_comment_jan_code_generator": "================ JAN Code Generator ================",
+  "tool.jan_code_generator.title": "JANコード作成ツール",
+  "tool.jan_code_generator.description": "ブラウザ上で無料でJANコード画像を生成できます。EAN-13/JANに対応しています。",
+  "tool.jan_code_generator.short_description": "ブラウザ上でJANコードを生成できます。",
+  "jan_code_generator.content_lbl": "JANコード内容",
+  "jan_code_generator.content_placeholder": "JANコード内容を1行に1つずつ入力...",
+  "jan_code_generator.type_lbl": "バーコード種類",
+  "jan_code_generator.scale_lbl": "サイズ（スケール）",
+  "jan_code_generator.label_lbl": "ラベルを表示",
+  "jan_code_generator.format_lbl": "出力形式",
+  "jan_code_generator.btn_generate": "JANコードを生成",
+  "jan_code_generator.results_title": "生成されたJANコード",
+  "jan_code_generator.btn_download": "ダウンロード",
+  "jan_code_generator.yes": "はい",
+  "jan_code_generator.no": "いいえ",
+  "jan_code_generator.why_use.title": "UploadLess JANコード生成ツールを使う理由",
+  "jan_code_generator.how_to_use.title": "オンラインでJANコードを生成する方法",
+  "jan_code_generator.faq.title": "JANコード生成ツール FAQ",
+  "jan_code_generator.btn_downloadbtn_gen_new": "新しいJANコードを生成",
+  "jan_code_generator.seo.title": "JANコード作成｜無料でJANバーコード生成",
+  "jan_code_generator.seo.description": "JANコードを無料で作成・生成。13桁の商品バーコードやEAN-13形式に対応し、JANチェックデジットを確認して画像で保存できます。",
+  "jan_code_generator.hero.title": "JANコードを無料で作成・生成",
+  "jan_code_generator.hero.description": "13桁のJANコードを入力して、商品用バーコードをブラウザで作成。EAN-13形式やチェックデジット確認にも対応しています。",
+  "jan_code_generator.how_to_use.steps": [
+    "作成したいJANコード（13桁または8桁）を入力エリアに入力します。",
+    "JANコードの内容を確認し、必要に応じてチェックデジットを確認します。",
+    "「JANコードを生成」をクリックして、商品用バーコードを作成します。",
+    "生成されたJANバーコードを画像として保存します。"
+  ],
+  "jan_code_generator.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "プライバシーを保護",
+      "description": "ブラウザ内でJANコードを作成するため、入力したデータがサーバーに送信されることはありません。"
+    },
+    {
+      "icon": "zap",
+      "title": "すぐにJANコードを生成",
+      "description": "13桁または8桁のコードを入力するだけで、商品用のJANバーコードをすばやく生成できます。"
+    },
+    {
+      "icon": "check-circle",
+      "title": "チェックデジットを確認",
+      "description": "JANコードのチェックデジットを確認できるため、商品バーコード作成時の入力ミスを防ぎやすくなります。"
+    },
+    {
+      "icon": "download",
+      "title": "画像として保存可能",
+      "description": "生成したJANバーコードは画像として保存でき、商品ラベルや在庫管理などに活用できます。"
+    }
+  ],
+  "jan_code_generator.faq.items": [
+    {
+      "q": "JANコードを無料で生成できますか？",
+      "a": "はい。無料でJANコードを生成できます。13桁または8桁のJANコードを入力するだけで、商品用のJANバーコードを作成できます。"
+    },
+    {
+      "q": "JANコード作成とJANコードの発行は同じですか？",
+      "a": "いいえ、異なります。このツールは入力したJANコードからバーコード画像を作成するためのものです。公式な事業者コードや商品コードの取得・登録は別途行う必要があります。"
+    },
+    {
+      "q": "13桁のJANコードを作成できますか？",
+      "a": "はい。一般的な商品バーコードで使われる13桁のJANコードを入力して、JANバーコードを生成できます。"
+    },
+    {
+      "q": "8桁のJANコードにも対応していますか？",
+      "a": "はい。短縮タイプのJAN-8コードにも対応しているため、8桁のJANコードからバーコードを作成できます。"
+    },
+    {
+      "q": "JANチェックデジットとは何ですか？",
+      "a": "JANチェックデジットは、JANコードの末尾に付く確認用の数字です。コードの入力ミスや読み取りエラーを検出しやすくするために使われます。"
+    },
+    {
+      "q": "JANコードのチェックデジットを確認できますか？",
+      "a": "はい。入力したJANコードのチェックデジットを確認できるため、商品バーコード作成前のミス防止に役立ちます。"
+    },
+    {
+      "q": "JANコードとEAN-13は同じですか？",
+      "a": "JANコードは日本で使われる商品識別コードで、13桁のJANコードはEAN-13形式のバーコードとして扱われます。そのため、商品バーコード作成ではEAN-13形式として利用されます。"
+    },
+    {
+      "q": "商品バーコード作成に使えますか？",
+      "a": "はい。JANコードを使った商品バーコード作成に利用できます。商品ラベル、パッケージ、在庫管理用のバーコード画像を作成できます。"
+    },
+    {
+      "q": "作成したJANバーコードは画像として保存できますか？",
+      "a": "はい。生成したJANバーコードは画像として保存でき、商品ラベルや資料、在庫管理シートなどに利用できます。"
+    },
+    {
+      "q": "JANバーコードが読み取れない場合はどうすればよいですか？",
+      "a": "JANコードの桁数、チェックデジット、バーコードのサイズ、余白、印刷時の解像度を確認してください。小さすぎる画像や余白が不足している場合、スキャナーで読み取れないことがあります。"
     }
   ]
 }

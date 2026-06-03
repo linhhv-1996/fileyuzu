@@ -11,6 +11,8 @@
 
     let filteredTools = $derived(
         tools.filter(tool => {
+            if (tool.markets && !tool.markets.includes(lang)) return false;
+            
             if (!searchQuery) return true;
             const query = searchQuery.toLowerCase();
             const title = String(t(tool.titleKey, dict) || '').toLowerCase();

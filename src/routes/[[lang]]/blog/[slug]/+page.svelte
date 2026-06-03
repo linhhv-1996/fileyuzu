@@ -155,7 +155,7 @@
     }
 
     :global(.article-content h2) {
-        font-size: 1.75rem;
+        font-size: 22px;
         font-weight: 700;
         color: var(--tx);
         margin: 2rem 0 1rem 0;
@@ -164,7 +164,7 @@
     }
 
     :global(.article-content h3) {
-        font-size: 1.375rem;
+        font-size: 18px;
         font-weight: 700;
         color: var(--tx);
         margin: 1.5rem 0 0.75rem 0;
@@ -461,8 +461,8 @@
     }
 
     .related-item-title {
-        font-size: 0.95rem;
-        font-weight: 600;
+        font-size: 13px;
+        font-weight: 400;
         color: var(--tx);
         margin: 0 0 0.25rem 0;
         line-height: 1.4;
@@ -471,7 +471,7 @@
 
 
     .related-item-date {
-        font-size: 0.8rem;
+        font-size: 12px;
         color: var(--tx-sub);
     }
 

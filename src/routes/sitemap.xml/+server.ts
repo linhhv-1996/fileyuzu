@@ -15,9 +15,11 @@ export const GET: RequestHandler = async ({ url }) => {
         return `${origin}${finalPath}`;
     };
 
-    const addLocalizedUrls = (basePath: string) => {
+    const addLocalizedUrls = (basePath: string, allowedMarkets?: string[]) => {
         let node = '';
         for (const lang of SUPPORTED_LANGUAGES) {
+            if (allowedMarkets && !allowedMarkets.includes(lang.code)) continue;
+            
             const locPath = langUrl(lang.code, basePath);
             const locUrl = getFinalUrl(locPath);
             node += `  <url>\n`;
@@ -32,7 +34,7 @@ export const GET: RequestHandler = async ({ url }) => {
     
     // Tools pages
     for (const tool of tools) {
-        xml += addLocalizedUrls(`/${tool.slug}`);
+        xml += addLocalizedUrls(`/${tool.slug}`, tool.markets);
     }
 
     // 2. Blog pages

@@ -2,79 +2,64 @@
   "common.try_now": "Use this tool for free",
   "home.search.placeholder": "Search tools",
   "blog.author_bio": "J.Julian is the creator and lead developer of UploadLess. With a strong background in software engineering and web architecture, he is dedicated to building secure, high-performance, and user-friendly file-sharing solutions for the modern web.",
-
-"compress_video.upload.title": "Drop a video file here to compress",
-"compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM & more · up to 500 MB",
-"compress_video.upload.btn_select": "Select video file",
-"compress_video.upload.btn_sample": "Try sample video",
-"compress_video.upload.hint": "Select one video file to compress and reduce its file size",
-
-"compress_mp4.upload.title": "Drop an MP4 file here to compress",
-"compress_mp4.upload.subtitle": "MP4 · up to 500 MB · smaller file, good quality",
-"compress_mp4.upload.btn_select": "Select MP4 file",
-"compress_mp4.upload.btn_sample": "Try sample MP4",
-"compress_mp4.upload.hint": "Select one MP4 file to compress and make it smaller",
-
-"reduce_video_size.upload.title": "Drop your video file here to reduce its size",
-"reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM & more · Max 500 MB",
-"reduce_video_size.upload.btn_select": "Browse video file",
-"reduce_video_size.upload.btn_sample": "Use sample video",
-"reduce_video_size.upload.hint": "Upload one video to reduce its file size quickly",
-
-"video_converter.upload.title": "Drop a video file here to convert",
-"video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM & more · browser-based conversion",
-"video_converter.upload.btn_select": "Select video file",
-"video_converter.upload.btn_sample": "Try sample video",
-"video_converter.upload.hint": "Select one video file to convert to another format",
-
-"mov_to_mp4.upload.title": "Drop a MOV file here to convert to MP4",
-"mov_to_mp4.upload.subtitle": "MOV · convert to MP4 for easy playback",
-"mov_to_mp4.upload.btn_select": "Select MOV file",
-"mov_to_mp4.upload.btn_sample": "Try sample MOV",
-"mov_to_mp4.upload.hint": "Select one MOV video file to convert into MP4",
-
-"avi_to_mp4.upload.title": "Drop an AVI file here to convert to MP4",
-"avi_to_mp4.upload.subtitle": "AVI · convert to MP4 for better compatibility",
-"avi_to_mp4.upload.btn_select": "Select AVI file",
-"avi_to_mp4.upload.btn_sample": "Try sample AVI",
-"avi_to_mp4.upload.hint": "Select one AVI video file to convert into MP4",
-
-"mkv_to_mp4.upload.title": "Drop an MKV file here to convert to MP4",
-"mkv_to_mp4.upload.subtitle": "MKV · convert to MP4 for easy playback",
-"mkv_to_mp4.upload.btn_select": "Select MKV file",
-"mkv_to_mp4.upload.btn_sample": "Try sample MKV",
-"mkv_to_mp4.upload.hint": "Select one MKV video file to convert into MP4",
-
-"webm_to_mp4.upload.title": "Drop a WebM file here to convert to MP4",
-"webm_to_mp4.upload.subtitle": "WebM · convert to MP4 for wider support",
-"webm_to_mp4.upload.btn_select": "Select WebM file",
-"webm_to_mp4.upload.btn_sample": "Try sample WebM",
-"webm_to_mp4.upload.hint": "Select one WebM video file to convert into MP4",
-
-"mp4_converter.upload.title": "Drop a video file here to convert to MP4",
-"mp4_converter.upload.subtitle": "Many video formats · convert to MP4",
-"mp4_converter.upload.btn_select": "Select video file",
-"mp4_converter.upload.btn_sample": "Try sample video",
-"mp4_converter.upload.hint": "Select one video file to convert into MP4",
-
-"video_2_mp3.upload.title": "Drop a video file here to convert to MP3",
-"video_2_mp3.upload.subtitle": "Many video formats · extract audio as MP3",
-"video_2_mp3.upload.btn_select": "Select video file",
-"video_2_mp3.upload.btn_sample": "Try sample video",
-"video_2_mp3.upload.hint": "Select one video file to convert its audio to MP3",
-
-"pdf_compressor.upload.title": "Drop a PDF file here to compress",
-"pdf_compressor.upload.subtitle": "PDF · up to 100 MB · smaller file size",
-"pdf_compressor.upload.btn_select": "Select PDF file",
-"pdf_compressor.upload.btn_sample": "Try sample PDF",
-"pdf_compressor.upload.hint": "Select one PDF file to compress and make it smaller",
-
-
-
+  "compress_video.upload.title": "Drop a video file here to compress",
+  "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM & more · up to 500 MB",
+  "compress_video.upload.btn_select": "Select video file",
+  "compress_video.upload.btn_sample": "Try sample video",
+  "compress_video.upload.hint": "Select one video file to compress and reduce its file size",
+  "compress_mp4.upload.title": "Drop an MP4 file here to compress",
+  "compress_mp4.upload.subtitle": "MP4 · up to 500 MB · smaller file, good quality",
+  "compress_mp4.upload.btn_select": "Select MP4 file",
+  "compress_mp4.upload.btn_sample": "Try sample MP4",
+  "compress_mp4.upload.hint": "Select one MP4 file to compress and make it smaller",
+  "reduce_video_size.upload.title": "Drop your video file here to reduce its size",
+  "reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM & more · Max 500 MB",
+  "reduce_video_size.upload.btn_select": "Browse video file",
+  "reduce_video_size.upload.btn_sample": "Use sample video",
+  "reduce_video_size.upload.hint": "Upload one video to reduce its file size quickly",
+  "video_converter.upload.title": "Drop a video file here to convert",
+  "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM & more · browser-based conversion",
+  "video_converter.upload.btn_select": "Select video file",
+  "video_converter.upload.btn_sample": "Try sample video",
+  "video_converter.upload.hint": "Select one video file to convert to another format",
+  "mov_to_mp4.upload.title": "Drop a MOV file here to convert to MP4",
+  "mov_to_mp4.upload.subtitle": "MOV · convert to MP4 for easy playback",
+  "mov_to_mp4.upload.btn_select": "Select MOV file",
+  "mov_to_mp4.upload.btn_sample": "Try sample MOV",
+  "mov_to_mp4.upload.hint": "Select one MOV video file to convert into MP4",
+  "avi_to_mp4.upload.title": "Drop an AVI file here to convert to MP4",
+  "avi_to_mp4.upload.subtitle": "AVI · convert to MP4 for better compatibility",
+  "avi_to_mp4.upload.btn_select": "Select AVI file",
+  "avi_to_mp4.upload.btn_sample": "Try sample AVI",
+  "avi_to_mp4.upload.hint": "Select one AVI video file to convert into MP4",
+  "mkv_to_mp4.upload.title": "Drop an MKV file here to convert to MP4",
+  "mkv_to_mp4.upload.subtitle": "MKV · convert to MP4 for easy playback",
+  "mkv_to_mp4.upload.btn_select": "Select MKV file",
+  "mkv_to_mp4.upload.btn_sample": "Try sample MKV",
+  "mkv_to_mp4.upload.hint": "Select one MKV video file to convert into MP4",
+  "webm_to_mp4.upload.title": "Drop a WebM file here to convert to MP4",
+  "webm_to_mp4.upload.subtitle": "WebM · convert to MP4 for wider support",
+  "webm_to_mp4.upload.btn_select": "Select WebM file",
+  "webm_to_mp4.upload.btn_sample": "Try sample WebM",
+  "webm_to_mp4.upload.hint": "Select one WebM video file to convert into MP4",
+  "mp4_converter.upload.title": "Drop a video file here to convert to MP4",
+  "mp4_converter.upload.subtitle": "Many video formats · convert to MP4",
+  "mp4_converter.upload.btn_select": "Select video file",
+  "mp4_converter.upload.btn_sample": "Try sample video",
+  "mp4_converter.upload.hint": "Select one video file to convert into MP4",
+  "video_2_mp3.upload.title": "Drop a video file here to convert to MP3",
+  "video_2_mp3.upload.subtitle": "Many video formats · extract audio as MP3",
+  "video_2_mp3.upload.btn_select": "Select video file",
+  "video_2_mp3.upload.btn_sample": "Try sample video",
+  "video_2_mp3.upload.hint": "Select one video file to convert its audio to MP3",
+  "pdf_compressor.upload.title": "Drop a PDF file here to compress",
+  "pdf_compressor.upload.subtitle": "PDF · up to 100 MB · smaller file size",
+  "pdf_compressor.upload.btn_select": "Select PDF file",
+  "pdf_compressor.upload.btn_sample": "Try sample PDF",
+  "pdf_compressor.upload.hint": "Select one PDF file to compress and make it smaller",
   "_comment_home": "================ Home ================",
   "home.seo.title": "Free Online File Tools — Private, Browser-Based",
-"home.seo.description": "Use free online tools to compress, convert, and edit files directly in your browser. No uploads, no sign-up, and your files stay private.",
-
+  "home.seo.description": "Use free online tools to compress, convert, and edit files directly in your browser. No uploads, no sign-up, and your files stay private.",
   "home.hero.title": "Free Online Tools",
   "home.hero.description": "Private, fast, and easy to use tools running directly in your browser. Your files never leave your device.",
   "home.pill.private": "Files never leave your device",
@@ -121,7 +106,6 @@
   "compress_video.seo.description": "Compress videos online for free with UploadLess. Reduce file size in your browser — no upload, no sign-up. Supports MP4, MOV, AVI, MKV, WebM.",
   "compress_video.hero.title": "Free Online Video Compressor",
   "compress_video.hero.description": "Compress video files online for free — no upload, no sign-up. Runs entirely in your browser and supports MP4, MOV, AVI, MKV, and WebM.",
-
   "compress_video.settings.auto_optimize": "Auto optimize",
   "compress_video.settings.size_lbl": "Target file size",
   "compress_video.btn.compress": "Compress video",
@@ -197,7 +181,6 @@
   "pdf_compressor.seo.description": "Compress PDF files online for free with UploadLess. Reduce PDF file size privately in your browser with no upload, no sign-up, and fast results.",
   "pdf_compressor.hero.title": "Free Online PDF Compressor",
   "pdf_compressor.hero.description": "Reduce PDF file size online for free — no upload, no sign-up. Runs entirely in your browser.",
-
   "pdf_compressor.settings.quality_lbl": "Quality preset",
   "pdf_compressor.settings.quality_balanced": "Balanced (Ebook)",
   "pdf_compressor.settings.quality_maximum": "Maximum (Screen)",
@@ -327,7 +310,6 @@
   "video_converter.seo.description": "Convert videos online for free with UploadLess. Change formats like MP4, MOV, MKV, WebM, AVI, and more privately in your browser—no uploads needed.",
   "video_converter.hero.title": "Free Online Video Converter",
   "video_converter.hero.description": "Convert video files between MP4, MOV, MKV, WebM, AVI, and more. Fast, private, browser-based conversion with no watermark.",
-
   "video_converter.settings.format_lbl": "Target format",
   "video_converter.btn.convert": "Convert video",
   "video_converter.btn.download": "Download file",
@@ -402,7 +384,6 @@
   "compress_mp4.seo.description": "Compress MP4 videos online for free with UploadLess. Reduce MP4 file size privately in your browser — no upload, no sign-up.",
   "compress_mp4.hero.title": "Free Online MP4 Compressor",
   "compress_mp4.hero.description": "Compress MP4 files online and reduce video size for email, chat apps, or sharing. Private, browser-based MP4 compression with no upload and no sign-up.",
-
   "compress_mp4.settings.auto_optimize": "Auto optimize",
   "compress_mp4.settings.size_lbl": "Target file size",
   "compress_mp4.btn.compress": "Compress MP4",
@@ -478,7 +459,6 @@
   "reduce_video_size.seo.description": "Reduce video file size online for free with UploadLess. Make videos smaller privately in your browser — no upload, no sign-up. Supports MP4, MOV, AVI, MKV, WebM.",
   "reduce_video_size.hero.title": "Reduce Video File Size Online",
   "reduce_video_size.hero.description": "Make your video smaller in your browser with Auto optimize or choose a target file size for email, chat apps, and sharing.",
-  
   "reduce_video_size.settings.auto_optimize": "Auto optimize",
   "reduce_video_size.settings.size_lbl": "Target file size",
   "reduce_video_size.btn.compress": "Reduce Size",
@@ -971,6 +951,100 @@
     {
       "q": "Will the converted MP4 have a watermark?",
       "a": "No. UploadLess converts videos to MP4 without adding a watermark. The downloaded MP4 file will not include UploadLess branding on your video."
+    }
+  ],
+  "_comment_barcode_generator": "================ Barcode Generator ================",
+  "tool.barcode_generator.title": "Barcode Generator",
+  "tool.barcode_generator.description": "Generate barcode images for free directly in your browser. Supports EAN/JAN, Code 128, QR Code, Data Matrix, and more.",
+  "tool.barcode_generator.short_description": "Generate barcodes in your browser.",
+  "barcode_generator.content_lbl": "Barcode Content",
+  "barcode_generator.content_placeholder": "Enter barcode content, one per line...",
+  "barcode_generator.type_lbl": "Barcode Type",
+  "barcode_generator.scale_lbl": "Size (Scale)",
+  "barcode_generator.label_lbl": "Show Label",
+  "barcode_generator.format_lbl": "Output Format",
+  "barcode_generator.btn_generate": "Generate Barcodes",
+  "barcode_generator.results_title": "Generated Barcodes",
+  "barcode_generator.btn_download": "Download",
+  "barcode_generator.yes": "Yes",
+  "barcode_generator.no": "No",
+  "barcode_generator.why_use.title": "Why Use UploadLess Barcode Generator",
+  "barcode_generator.how_to_use.title": "How to Generate Barcodes Online",
+  "barcode_generator.faq.title": "Barcode Generator FAQ",
+  "barcode_generator.btn_downloadbtn_gen_new": "Generate new barcodes",
+  "barcode_generator.seo.title": "Free Barcode Generator Online - Create & Print Barcodes",
+  "barcode_generator.seo.description": "Create barcodes online for free. Generate printable barcode labels, product codes, PNG images, SVG files, PDFs, or bulk barcodes in seconds.",
+  "barcode_generator.hero.title": "Free Online Barcode Generator",
+  "barcode_generator.hero.description": "Create barcodes instantly for products, labels, inventory, and packaging. Generate single or bulk barcodes, then download as PNG, SVG, PDF, or print-ready files.",
+  "barcode_generator.how_to_use.steps": [
+    "Choose the barcode type you need, such as Code 128, EAN-13, UPC, or QR Code.",
+    "Enter your barcode data in the text area. To create multiple barcodes, add one value per line.",
+    "Customize the barcode size, label display, and download format, such as PNG or SVG.",
+    "Click Generate Barcodes to create your barcodes instantly in your browser.",
+    "Download each barcode individually or use the generated files for labels, products, inventory, or packaging."
+  ],
+  "barcode_generator.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "Private Barcode Generator",
+      "description": "Create barcodes directly in your browser. Your barcode data is not uploaded, stored, or sent to any server."
+    },
+    {
+      "icon": "bolt",
+      "title": "Fast Online Barcode Creation",
+      "description": "Generate single or multiple barcodes instantly without installing software or creating an account."
+    },
+    {
+      "icon": "device-desktop",
+      "title": "High-Quality Export Formats",
+      "description": "Download your generated barcodes as crisp PNG images or scalable SVG files for labels, products, and packaging."
+    },
+    {
+      "icon": "list",
+      "title": "Bulk Barcode Generator",
+      "description": "Create multiple barcodes at once by entering one barcode value per line, ideal for inventory, product codes, and batch labels."
+    }
+  ],
+  "barcode_generator.faq.items": [
+    {
+      "q": "What types of barcodes can I generate?",
+      "a": "You can generate popular barcode types such as Code 128, EAN-13, EAN-8, UPC-A, QR Code, Data Matrix, ITF-14, and JAN codes for products, labels, inventory, and packaging."
+    },
+    {
+      "q": "Is this barcode generator free to use?",
+      "a": "Yes. This free barcode generator lets you create barcodes online without installing software or creating an account."
+    },
+    {
+      "q": "Can I create barcodes online without uploading my data?",
+      "a": "Yes. Barcodes are generated directly in your browser, so your barcode values are not uploaded or stored on a server."
+    },
+    {
+      "q": "Can I generate multiple barcodes at once?",
+      "a": "Yes. The bulk barcode generator lets you create multiple barcodes by entering one barcode value per line, making it useful for inventory lists, product codes, and batch labels."
+    },
+    {
+      "q": "Can I use this as a barcode label maker?",
+      "a": "Yes. You can create printable barcode labels for products, packaging, inventory, shelves, and shipping workflows, then download the generated barcode images."
+    },
+    {
+      "q": "Can I make product barcodes with this tool?",
+      "a": "Yes. You can use the product barcode generator to create barcodes for product codes, SKU numbers, retail labels, and packaging. For official retail UPC or EAN codes, make sure your numbers are properly registered."
+    },
+    {
+      "q": "What file formats can I download?",
+      "a": "You can download generated barcodes as high-quality PNG images or scalable SVG files, depending on the format options available in the tool."
+    },
+    {
+      "q": "Can I create printable barcodes?",
+      "a": "Yes. You can generate printable barcodes for labels, documents, packaging, and product tags. For best results, use a clear size and test the barcode with a scanner before printing in bulk."
+    },
+    {
+      "q": "Can I generate JAN codes?",
+      "a": "Yes. You can create JAN-style barcodes such as EAN-13/JAN codes. If you need a valid JAN code, make sure the code value and check digit follow the correct standard."
+    },
+    {
+      "q": "Do I need to install any barcode maker software?",
+      "a": "No. This barcode maker works online in your browser, so you can create barcode images quickly without downloading desktop software."
     }
   ]
 }

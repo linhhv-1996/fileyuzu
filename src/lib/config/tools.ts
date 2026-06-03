@@ -7,6 +7,7 @@ export interface ToolConfig {
     related_tools: string[];
     category: string;   // e.g. 'video', 'pdf'
     tags?: string[];    // format chips shown on home page
+    markets?: string[]; // undefined = all markets, else only specified languages
 }
 
 export interface CategoryConfig {
@@ -184,6 +185,54 @@ export const tools: ToolConfig[] = [
         ],
         category: 'video',
         tags: ['Video', 'MP4'],
+    },
+    // {
+    //     slug: 'jp-only-test',
+    //     titleKey: 'tool.jp_only.title',
+    //     descriptionKey: 'tool.jp_only.description',
+    //     shortDescriptionKey: 'tool.jp_only.short_description',
+    //     icon: 'star',
+    //     related_tools: [
+    //         'compress-pdf',
+    //         'compress-video',
+    //         'video-converter',
+    //         'mp4-converter',
+    //     ],
+    //     category: 'video',
+    //     markets: ['ja'],
+    // },
+    {
+        slug: 'barcode-generator',
+        titleKey: 'tool.barcode_generator.title',
+        descriptionKey: 'tool.barcode_generator.description',
+        shortDescriptionKey: 'tool.barcode_generator.short_description',
+        icon: 'barcode',
+        related_tools: [
+            'jan-code-generator',
+            'compress-pdf',
+            'compress-video',
+            'video-converter',
+            'mp4-converter',
+        ],
+        category: 'pdf',
+        tags: ['Barcode', 'QR Code'],
+        markets: ['en', 'ja', 'ko', 'pt-br', 'zh-tw', 'th'],
+    },
+    {
+        slug: 'jan-code-generator',
+        titleKey: 'tool.jan_code_generator.title',
+        descriptionKey: 'tool.jan_code_generator.description',
+        shortDescriptionKey: 'tool.jan_code_generator.short_description',
+        icon: 'barcode',
+        related_tools: [
+            'barcode-generator',
+            'compress-pdf',
+            'compress-video',
+            'video-converter',
+        ],
+        category: 'pdf',
+        tags: ['JAN', 'EAN-13'],
+        markets: ['ja'],
     },
 ];
 

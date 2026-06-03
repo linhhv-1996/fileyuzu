@@ -16,6 +16,7 @@
 		"@sveltejs/kit": "^2.57.0",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
 		"@types/marked": "^5.0.2",
+		"@types/qrcode": "^1.5.6",
 		"svelte": "^5.55.2",
 		"svelte-check": "^4.4.6",
 		"typescript": "^6.0.2",
@@ -27,8 +28,11 @@
 		"@ffmpeg/util": "^0.12.2",
 		"@mediabunny/mp3-encoder": "^1.45.4",
 		"gray-matter": "^4.0.3",
+		"jsbarcode": "^3.12.3",
+		"jszip": "^3.10.1",
 		"marked": "^18.0.4",
 		"mediabunny": "^1.45.4",
-		"pdfjs-dist": "^6.0.227"
+		"pdfjs-dist": "^6.0.227",
+		"qrcode": "^1.5.4"
 	}
 }

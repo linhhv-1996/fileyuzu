@@ -51,7 +51,7 @@
     }
 
     :global(.article-content h2) {
-        font-size: 1.75rem;
+        font-size: 22px;
         font-weight: 700;
         color: var(--tx);
         margin: 2rem 0 1rem 0;
@@ -60,7 +60,7 @@
     }
 
     :global(.article-content h3) {
-        font-size: 1.35rem;
+        font-size: 18px;
         font-weight: 700;
         color: var(--tx);
         margin: 1.5rem 0 0.75rem 0;

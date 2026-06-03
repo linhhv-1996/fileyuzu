@@ -1,83 +1,65 @@
 {
-            "common.try_now": "ใช้เครื่องมือนี้ฟรี",
-            "home.search.placeholder": "ค้นหาเครื่องมือ",
-            "blog.author_bio": "J.Julian คือผู้สร้างและหัวหน้านักพัฒนาของ UploadLess ด้วยพื้นฐานที่แข็งแกร่งด้านวิศวกรรมซอฟต์แวร์และสถาปัตยกรรมเว็บ เขามุ่งมั่นที่จะสร้างโซลูชันการแชร์ไฟล์ที่ปลอดภัย ประสิทธิภาพสูง และใช้งานง่ายสำหรับเว็บยุคใหม่",
-
+  "common.try_now": "ใช้เครื่องมือนี้ฟรี",
+  "home.search.placeholder": "ค้นหาเครื่องมือ",
+  "blog.author_bio": "J.Julian คือผู้สร้างและหัวหน้านักพัฒนาของ UploadLess ด้วยพื้นฐานที่แข็งแกร่งด้านวิศวกรรมซอฟต์แวร์และสถาปัตยกรรมเว็บ เขามุ่งมั่นที่จะสร้างโซลูชันการแชร์ไฟล์ที่ปลอดภัย ประสิทธิภาพสูง และใช้งานง่ายสำหรับเว็บยุคใหม่",
   "compress_video.upload.title": "วางไฟล์วิดีโอที่นี่เพื่อบีบอัด",
-"compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM และอื่น ๆ · สูงสุด 500 MB",
-"compress_video.upload.btn_select": "เลือกไฟล์วิดีโอ",
-"compress_video.upload.btn_sample": "ลองใช้วิดีโอตัวอย่าง",
-"compress_video.upload.hint": "เลือกวิดีโอ 1 ไฟล์เพื่อบีบอัดและลดขนาดไฟล์",
-
-"compress_mp4.upload.title": "วางไฟล์ MP4 ที่นี่เพื่อบีบอัด",
-"compress_mp4.upload.subtitle": "MP4 · สูงสุด 500 MB · ไฟล์เล็กลง คุณภาพยังดี",
-"compress_mp4.upload.btn_select": "เลือกไฟล์ MP4",
-"compress_mp4.upload.btn_sample": "ลองใช้ MP4 ตัวอย่าง",
-"compress_mp4.upload.hint": "เลือกไฟล์ MP4 1 ไฟล์เพื่อบีบอัดให้เล็กลง",
-
-"reduce_video_size.upload.title": "วางวิดีโอของคุณที่นี่เพื่อลดขนาด",
-"reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM และอื่น ๆ · สูงสุด 500 MB",
-"reduce_video_size.upload.btn_select": "เรียกดูไฟล์วิดีโอ",
-"reduce_video_size.upload.btn_sample": "ใช้วิดีโอตัวอย่าง",
-"reduce_video_size.upload.hint": "อัปโหลดวิดีโอ 1 ไฟล์เพื่อลดขนาดไฟล์อย่างรวดเร็ว",
-
-"video_converter.upload.title": "วางไฟล์วิดีโอที่นี่เพื่อแปลง",
-"video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM และอื่น ๆ · แปลงในเบราว์เซอร์",
-"video_converter.upload.btn_select": "เลือกไฟล์วิดีโอ",
-"video_converter.upload.btn_sample": "ลองใช้วิดีโอตัวอย่าง",
-"video_converter.upload.hint": "เลือกไฟล์วิดีโอ 1 ไฟล์เพื่อแปลงเป็นรูปแบบอื่น",
-
-"mov_to_mp4.upload.title": "วางไฟล์ MOV ที่นี่เพื่อแปลงเป็น MP4",
-"mov_to_mp4.upload.subtitle": "MOV · แปลงเป็น MP4 เพื่อเล่นได้ง่ายขึ้น",
-"mov_to_mp4.upload.btn_select": "เลือกไฟล์ MOV",
-"mov_to_mp4.upload.btn_sample": "ลองใช้ MOV ตัวอย่าง",
-"mov_to_mp4.upload.hint": "เลือกไฟล์วิดีโอ MOV 1 ไฟล์เพื่อแปลงเป็น MP4",
-
-"avi_to_mp4.upload.title": "วางไฟล์ AVI ที่นี่เพื่อแปลงเป็น MP4",
-"avi_to_mp4.upload.subtitle": "AVI · แปลงเป็น MP4 เพื่อรองรับได้ดียิ่งขึ้น",
-"avi_to_mp4.upload.btn_select": "เลือกไฟล์ AVI",
-"avi_to_mp4.upload.btn_sample": "ลองใช้ AVI ตัวอย่าง",
-"avi_to_mp4.upload.hint": "เลือกไฟล์วิดีโอ AVI 1 ไฟล์เพื่อแปลงเป็น MP4",
-
-"mkv_to_mp4.upload.title": "วางไฟล์ MKV ที่นี่เพื่อแปลงเป็น MP4",
-"mkv_to_mp4.upload.subtitle": "MKV · แปลงเป็น MP4 เพื่อเล่นได้ง่ายขึ้น",
-"mkv_to_mp4.upload.btn_select": "เลือกไฟล์ MKV",
-"mkv_to_mp4.upload.btn_sample": "ลองใช้ MKV ตัวอย่าง",
-"mkv_to_mp4.upload.hint": "เลือกไฟล์วิดีโอ MKV 1 ไฟล์เพื่อแปลงเป็น MP4",
-
-"webm_to_mp4.upload.title": "วางไฟล์ WebM ที่นี่เพื่อแปลงเป็น MP4",
-"webm_to_mp4.upload.subtitle": "WebM · แปลงเป็น MP4 เพื่อใช้ได้กับอุปกรณ์มากขึ้น",
-"webm_to_mp4.upload.btn_select": "เลือกไฟล์ WebM",
-"webm_to_mp4.upload.btn_sample": "ลองใช้ WebM ตัวอย่าง",
-"webm_to_mp4.upload.hint": "เลือกไฟล์วิดีโอ WebM 1 ไฟล์เพื่อแปลงเป็น MP4",
-
-"mp4_converter.upload.title": "วางวิดีโอที่นี่เพื่อแปลงเป็น MP4",
-"mp4_converter.upload.subtitle": "รองรับวิดีโอหลายรูปแบบ · แปลงเป็น MP4",
-"mp4_converter.upload.btn_select": "เลือกไฟล์วิดีโอ",
-"mp4_converter.upload.btn_sample": "ลองใช้วิดีโอตัวอย่าง",
-"mp4_converter.upload.hint": "เลือกวิดีโอ 1 ไฟล์เพื่อแปลงเป็น MP4",
-
-"video_2_mp3.upload.title": "วางวิดีโอที่นี่เพื่อแปลงเป็น MP3",
-"video_2_mp3.upload.subtitle": "รองรับวิดีโอหลายรูปแบบ · แยกเสียงเป็น MP3",
-"video_2_mp3.upload.btn_select": "เลือกไฟล์วิดีโอ",
-"video_2_mp3.upload.btn_sample": "ลองใช้วิดีโอตัวอย่าง",
-"video_2_mp3.upload.hint": "เลือกวิดีโอ 1 ไฟล์เพื่อแปลงเสียงเป็น MP3",
-
-"pdf_compressor.upload.title": "วางไฟล์ PDF ที่นี่เพื่อบีบอัด",
-"pdf_compressor.upload.subtitle": "PDF · สูงสุด 100 MB · ลดขนาดไฟล์",
-"pdf_compressor.upload.btn_select": "เลือกไฟล์ PDF",
-"pdf_compressor.upload.btn_sample": "ลองใช้ PDF ตัวอย่าง",
-"pdf_compressor.upload.hint": "เลือกไฟล์ PDF 1 ไฟล์เพื่อบีบอัดให้เล็กลง",
-  
-
-
-
-
-
+  "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM และอื่น ๆ · สูงสุด 500 MB",
+  "compress_video.upload.btn_select": "เลือกไฟล์วิดีโอ",
+  "compress_video.upload.btn_sample": "ลองใช้วิดีโอตัวอย่าง",
+  "compress_video.upload.hint": "เลือกวิดีโอ 1 ไฟล์เพื่อบีบอัดและลดขนาดไฟล์",
+  "compress_mp4.upload.title": "วางไฟล์ MP4 ที่นี่เพื่อบีบอัด",
+  "compress_mp4.upload.subtitle": "MP4 · สูงสุด 500 MB · ไฟล์เล็กลง คุณภาพยังดี",
+  "compress_mp4.upload.btn_select": "เลือกไฟล์ MP4",
+  "compress_mp4.upload.btn_sample": "ลองใช้ MP4 ตัวอย่าง",
+  "compress_mp4.upload.hint": "เลือกไฟล์ MP4 1 ไฟล์เพื่อบีบอัดให้เล็กลง",
+  "reduce_video_size.upload.title": "วางวิดีโอของคุณที่นี่เพื่อลดขนาด",
+  "reduce_video_size.upload.subtitle": "MP4, MOV, AVI, MKV, WebM และอื่น ๆ · สูงสุด 500 MB",
+  "reduce_video_size.upload.btn_select": "เรียกดูไฟล์วิดีโอ",
+  "reduce_video_size.upload.btn_sample": "ใช้วิดีโอตัวอย่าง",
+  "reduce_video_size.upload.hint": "อัปโหลดวิดีโอ 1 ไฟล์เพื่อลดขนาดไฟล์อย่างรวดเร็ว",
+  "video_converter.upload.title": "วางไฟล์วิดีโอที่นี่เพื่อแปลง",
+  "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM และอื่น ๆ · แปลงในเบราว์เซอร์",
+  "video_converter.upload.btn_select": "เลือกไฟล์วิดีโอ",
+  "video_converter.upload.btn_sample": "ลองใช้วิดีโอตัวอย่าง",
+  "video_converter.upload.hint": "เลือกไฟล์วิดีโอ 1 ไฟล์เพื่อแปลงเป็นรูปแบบอื่น",
+  "mov_to_mp4.upload.title": "วางไฟล์ MOV ที่นี่เพื่อแปลงเป็น MP4",
+  "mov_to_mp4.upload.subtitle": "MOV · แปลงเป็น MP4 เพื่อเล่นได้ง่ายขึ้น",
+  "mov_to_mp4.upload.btn_select": "เลือกไฟล์ MOV",
+  "mov_to_mp4.upload.btn_sample": "ลองใช้ MOV ตัวอย่าง",
+  "mov_to_mp4.upload.hint": "เลือกไฟล์วิดีโอ MOV 1 ไฟล์เพื่อแปลงเป็น MP4",
+  "avi_to_mp4.upload.title": "วางไฟล์ AVI ที่นี่เพื่อแปลงเป็น MP4",
+  "avi_to_mp4.upload.subtitle": "AVI · แปลงเป็น MP4 เพื่อรองรับได้ดียิ่งขึ้น",
+  "avi_to_mp4.upload.btn_select": "เลือกไฟล์ AVI",
+  "avi_to_mp4.upload.btn_sample": "ลองใช้ AVI ตัวอย่าง",
+  "avi_to_mp4.upload.hint": "เลือกไฟล์วิดีโอ AVI 1 ไฟล์เพื่อแปลงเป็น MP4",
+  "mkv_to_mp4.upload.title": "วางไฟล์ MKV ที่นี่เพื่อแปลงเป็น MP4",
+  "mkv_to_mp4.upload.subtitle": "MKV · แปลงเป็น MP4 เพื่อเล่นได้ง่ายขึ้น",
+  "mkv_to_mp4.upload.btn_select": "เลือกไฟล์ MKV",
+  "mkv_to_mp4.upload.btn_sample": "ลองใช้ MKV ตัวอย่าง",
+  "mkv_to_mp4.upload.hint": "เลือกไฟล์วิดีโอ MKV 1 ไฟล์เพื่อแปลงเป็น MP4",
+  "webm_to_mp4.upload.title": "วางไฟล์ WebM ที่นี่เพื่อแปลงเป็น MP4",
+  "webm_to_mp4.upload.subtitle": "WebM · แปลงเป็น MP4 เพื่อใช้ได้กับอุปกรณ์มากขึ้น",
+  "webm_to_mp4.upload.btn_select": "เลือกไฟล์ WebM",
+  "webm_to_mp4.upload.btn_sample": "ลองใช้ WebM ตัวอย่าง",
+  "webm_to_mp4.upload.hint": "เลือกไฟล์วิดีโอ WebM 1 ไฟล์เพื่อแปลงเป็น MP4",
+  "mp4_converter.upload.title": "วางวิดีโอที่นี่เพื่อแปลงเป็น MP4",
+  "mp4_converter.upload.subtitle": "รองรับวิดีโอหลายรูปแบบ · แปลงเป็น MP4",
+  "mp4_converter.upload.btn_select": "เลือกไฟล์วิดีโอ",
+  "mp4_converter.upload.btn_sample": "ลองใช้วิดีโอตัวอย่าง",
+  "mp4_converter.upload.hint": "เลือกวิดีโอ 1 ไฟล์เพื่อแปลงเป็น MP4",
+  "video_2_mp3.upload.title": "วางวิดีโอที่นี่เพื่อแปลงเป็น MP3",
+  "video_2_mp3.upload.subtitle": "รองรับวิดีโอหลายรูปแบบ · แยกเสียงเป็น MP3",
+  "video_2_mp3.upload.btn_select": "เลือกไฟล์วิดีโอ",
+  "video_2_mp3.upload.btn_sample": "ลองใช้วิดีโอตัวอย่าง",
+  "video_2_mp3.upload.hint": "เลือกวิดีโอ 1 ไฟล์เพื่อแปลงเสียงเป็น MP3",
+  "pdf_compressor.upload.title": "วางไฟล์ PDF ที่นี่เพื่อบีบอัด",
+  "pdf_compressor.upload.subtitle": "PDF · สูงสุด 100 MB · ลดขนาดไฟล์",
+  "pdf_compressor.upload.btn_select": "เลือกไฟล์ PDF",
+  "pdf_compressor.upload.btn_sample": "ลองใช้ PDF ตัวอย่าง",
+  "pdf_compressor.upload.hint": "เลือกไฟล์ PDF 1 ไฟล์เพื่อบีบอัดให้เล็กลง",
   "_comment_home": "================ Home ================",
-    "home.seo.title": "เครื่องมือไฟล์ออนไลน์ฟรี — เป็นส่วนตัว ใช้งานผ่านเบราว์เซอร์",
-    "home.seo.description": "ใช้เครื่องมือออนไลน์ฟรีเพื่อบีบอัด แปลง และแก้ไขไฟล์ได้โดยตรงในเบราว์เซอร์ ไม่ต้องอัปโหลด ไม่ต้องสมัครสมาชิก และไฟล์ของคุณยังคงเป็นส่วนตัว",
-  
+  "home.seo.title": "เครื่องมือไฟล์ออนไลน์ฟรี — เป็นส่วนตัว ใช้งานผ่านเบราว์เซอร์",
+  "home.seo.description": "ใช้เครื่องมือออนไลน์ฟรีเพื่อบีบอัด แปลง และแก้ไขไฟล์ได้โดยตรงในเบราว์เซอร์ ไม่ต้องอัปโหลด ไม่ต้องสมัครสมาชิก และไฟล์ของคุณยังคงเป็นส่วนตัว",
   "home.hero.title": "เครื่องมือออนไลน์ฟรี",
   "home.hero.description": "เครื่องมือที่เป็นส่วนตัว รวดเร็ว และใช้งานง่าย ทำงานโดยตรงในเบราว์เซอร์ของคุณ ไฟล์ของคุณจะไม่ออกจากอุปกรณ์ของคุณ",
   "home.pill.private": "ไฟล์ไม่ออกจากอุปกรณ์ของคุณ",
@@ -124,7 +106,6 @@
   "compress_video.seo.description": "บีบอัดไฟล์วิดีโอออนไลน์ฟรี ลดขนาดวิดีโอให้เล็กลง รองรับ MP4, MOV, AVI, MKV และ WebM ทำงานในเบราว์เซอร์ ปลอดภัย ไม่ต้องอัปโหลด",
   "compress_video.hero.title": "เครื่องมือบีบอัดวิดีโอออนไลน์ฟรี",
   "compress_video.hero.description": "บีบอัดและลดขนาดไฟล์วิดีโอออนไลน์ได้ทันที — ไม่ต้องอัปโหลด ไม่ต้องสมัครสมาชิก ทุกอย่างทำงานในเบราว์เซอร์ของคุณ รองรับ MP4, MOV, AVI, MKV และ WebM",
-
   "compress_video.settings.auto_optimize": "ปรับให้เหมาะสมอัตโนมัติ",
   "compress_video.settings.size_lbl": "ขนาดไฟล์เป้าหมาย",
   "compress_video.btn.compress": "บีบอัดวิดีโอ",
@@ -208,7 +189,6 @@
   "pdf_compressor.seo.description": "บีบอัดไฟล์ PDF ออนไลน์ฟรี ลดขนาดไฟล์ PDF และย่อไฟล์ PDF ได้อย่างปลอดภัยในเบราว์เซอร์ ไม่ต้องอัปโหลด ไม่ต้องติดตั้ง และไม่ต้องสมัครสมาชิก",
   "pdf_compressor.hero.title": "บีบอัดไฟล์ PDF ออนไลน์ฟรี",
   "pdf_compressor.hero.description": "ลดขนาดไฟล์ PDF และย่อไฟล์ PDF ในเบราว์เซอร์ของคุณ ไฟล์ไม่ถูกอัปโหลด ปลอดภัย เป็นส่วนตัว และใช้งานฟรี",
-
   "pdf_compressor.settings.quality_lbl": "พรีเซ็ตคุณภาพ",
   "pdf_compressor.settings.quality_balanced": "สมดุล (Ebook)",
   "pdf_compressor.settings.quality_maximum": "สูงสุด (Screen)",
@@ -337,7 +317,6 @@
   "video_converter.seo.description": "แปลงไฟล์วิดีโอออนไลน์ฟรี รองรับหลายรูปแบบ เช่น MP4, MOV, MKV, WebM และ AVI ใช้งานง่าย ปลอดภัย ไม่ต้องติดตั้ง และทำงานในเบราว์เซอร์ของคุณ",
   "video_converter.hero.title": "แปลงไฟล์วิดีโอออนไลน์ฟรี",
   "video_converter.hero.description": "แปลงวิดีโอเป็นหลายรูปแบบได้ง่ายในเบราว์เซอร์ของคุณ รองรับ MP4, MOV, MKV, WebM และ AVI โดยไม่ต้องติดตั้งโปรแกรม",
-
   "video_converter.settings.format_lbl": "รูปแบบเป้าหมาย",
   "video_converter.btn.convert": "แปลงวิดีโอ",
   "video_converter.btn.download": "ดาวน์โหลดไฟล์",
@@ -420,7 +399,6 @@
   "compress_mp4.seo.description": "บีบอัดไฟล์ MP4 ออนไลน์ฟรี ลดขนาดไฟล์ MP4 ให้เล็กลงอย่างเป็นส่วนตัวในเบราว์เซอร์ ไม่ต้องอัปโหลด ไม่ต้องสมัครสมาชิก",
   "compress_mp4.hero.title": "เครื่องมือบีบอัดไฟล์ MP4 ออนไลน์ฟรี",
   "compress_mp4.hero.description": "ลดขนาดไฟล์ MP4 ออนไลน์ได้ทันที — ไม่ต้องอัปโหลด ไม่ต้องสมัครสมาชิก ทำงานทั้งหมดในเบราว์เซอร์ของคุณ",
-
   "compress_mp4.settings.auto_optimize": "ปรับให้เหมาะสมอัตโนมัติ",
   "compress_mp4.settings.size_lbl": "ขนาดไฟล์เป้าหมาย",
   "compress_mp4.btn.compress": "บีบอัด MP4",
@@ -504,7 +482,6 @@
   "reduce_video_size.seo.description": "ลดขนาดไฟล์วิดีโอออนไลน์ฟรี ย่อไฟล์วิดีโอให้เล็กลงอย่างเป็นส่วนตัวในเบราว์เซอร์ รองรับ MP4, MOV, AVI, MKV, WebM ไม่ต้องอัปโหลด",
   "reduce_video_size.hero.title": "ลดขนาดไฟล์วิดีโอออนไลน์ฟรี",
   "reduce_video_size.hero.description": "ย่อไฟล์วิดีโอให้เล็กลงได้ทันทีในเบราว์เซอร์ของคุณ — ไม่ต้องอัปโหลด ไม่ต้องสมัครสมาชิก รองรับ MP4, MOV, AVI, MKV และ WebM",
-
   "reduce_video_size.settings.auto_optimize": "ปรับให้เหมาะสมอัตโนมัติ",
   "reduce_video_size.settings.size_lbl": "ขนาดไฟล์เป้าหมาย",
   "reduce_video_size.btn.compress": "ลดขนาด",
@@ -1040,6 +1017,100 @@
     {
       "q": "ทำไมควรแปลงวิดีโอเป็น MP4?",
       "a": "MP4 เป็นรูปแบบวิดีโอที่รองรับกว้าง เปิดได้ง่ายบนมือถือ คอมพิวเตอร์ เบราว์เซอร์ โซเชียลมีเดีย และแพลตฟอร์มออนไลน์ จึงเหมาะสำหรับการเล่น แชร์ และอัปโหลดวิดีโอ"
+    }
+  ],
+  "_comment_barcode_generator": "================ Barcode Generator ================",
+  "tool.barcode_generator.title": "เครื่องสร้างบาร์โค้ด",
+  "tool.barcode_generator.description": "สร้างรูปภาพบาร์โค้ดได้ฟรีบนเบราว์เซอร์ของคุณโดยตรง รองรับ EAN/JAN, Code 128, QR Code, Data Matrix และอื่น ๆ",
+  "tool.barcode_generator.short_description": "สร้างบาร์โค้ดในเบราว์เซอร์ของคุณ",
+  "barcode_generator.content_lbl": "เนื้อหาบาร์โค้ด",
+  "barcode_generator.content_placeholder": "ป้อนเนื้อหาบาร์โค้ด หนึ่งรายการต่อหนึ่งบรรทัด...",
+  "barcode_generator.type_lbl": "ประเภทบาร์โค้ด",
+  "barcode_generator.scale_lbl": "ขนาด (สเกล)",
+  "barcode_generator.label_lbl": "แสดงป้ายกำกับ",
+  "barcode_generator.format_lbl": "รูปแบบผลลัพธ์",
+  "barcode_generator.btn_generate": "สร้างบาร์โค้ด",
+  "barcode_generator.results_title": "บาร์โค้ดที่สร้างแล้ว",
+  "barcode_generator.btn_download": "ดาวน์โหลด",
+  "barcode_generator.yes": "ใช่",
+  "barcode_generator.no": "ไม่ใช่",
+  "barcode_generator.why_use.title": "เหตุผลที่ควรใช้เครื่องสร้างบาร์โค้ดของ UploadLess",
+  "barcode_generator.how_to_use.title": "วิธีสร้างบาร์โค้ดออนไลน์",
+  "barcode_generator.faq.title": "คำถามที่พบบ่อยเกี่ยวกับเครื่องสร้างบาร์โค้ด",
+  "barcode_generator.btn_downloadbtn_gen_new": "สร้างบาร์โค้ดใหม่",
+  "barcode_generator.seo.title": "สร้างบาร์โค้ดฟรีออนไลน์ สำหรับสินค้าและฉลาก",
+  "barcode_generator.seo.description": "สร้างบาร์โค้ดออนไลน์ฟรีสำหรับสินค้า ฉลาก สต๊อก และคลังสินค้า รองรับ EAN-13, Code 128, Code 39 สร้างทีละรายการหรือหลายอัน แล้วดาวน์โหลด PNG, SVG หรือ PDF ได้ทันที",
+  "barcode_generator.hero.title": "สร้างบาร์โค้ดออนไลน์ฟรี",
+  "barcode_generator.hero.description": "สร้างบาร์โค้ดสำหรับสินค้า ฉลาก สต๊อก SKU และเลขซีเรียลได้ทันที รองรับการสร้างหลายรายการจาก CSV หรือ Excel และดาวน์โหลดเป็น PNG, SVG, PDF หรือไฟล์พร้อมพิมพ์",
+  "barcode_generator.how_to_use.steps": [
+    "เลือกประเภทบาร์โค้ดที่ต้องการ เช่น EAN-13, Code 128, Code 39 หรือ UPC",
+    "กรอกข้อมูลบาร์โค้ดลงในช่องข้อความ หากต้องการสร้างหลายบาร์โค้ด ให้ใส่ 1 รายการต่อ 1 บรรทัด",
+    "ปรับขนาดบาร์โค้ด การแสดงข้อความใต้บาร์โค้ด และรูปแบบไฟล์ที่ต้องการดาวน์โหลด เช่น PNG, SVG หรือ PDF",
+    "คลิกปุ่มสร้างบาร์โค้ด เพื่อสร้างบาร์โค้ดออนไลน์ทันทีในเบราว์เซอร์",
+    "ดาวน์โหลดบาร์โค้ดแต่ละรายการ หรือนำไฟล์ไปใช้กับฉลากสินค้า สต๊อก คลังสินค้า บรรจุภัณฑ์ หรือระบบจัดการสินค้า"
+  ],
+  "barcode_generator.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "สร้างบาร์โค้ดแบบเป็นส่วนตัว",
+      "description": "สร้างบาร์โค้ดได้โดยตรงในเบราว์เซอร์ ข้อมูลบาร์โค้ดของคุณจะไม่ถูกอัปโหลด จัดเก็บ หรือส่งไปยังเซิร์ฟเวอร์"
+    },
+    {
+      "icon": "bolt",
+      "title": "สร้างบาร์โค้ดออนไลน์ได้รวดเร็ว",
+      "description": "สร้างบาร์โค้ดทีละรายการหรือหลายรายการได้ทันที ไม่ต้องติดตั้งโปรแกรม ไม่ต้องสมัครสมาชิก และใช้งานได้ฟรี"
+    },
+    {
+      "icon": "device-desktop",
+      "title": "ดาวน์โหลดไฟล์คุณภาพสูง",
+      "description": "ดาวน์โหลดบาร์โค้ดที่สร้างแล้วเป็นไฟล์ PNG, SVG หรือ PDF เหมาะสำหรับฉลากสินค้า บรรจุภัณฑ์ เอกสาร และงานพิมพ์"
+    },
+    {
+      "icon": "list",
+      "title": "รองรับการสร้างบาร์โค้ดหลายรายการ",
+      "description": "สร้างหลายบาร์โค้ดพร้อมกันได้โดยใส่ 1 ค่า ต่อ 1 บรรทัด เหมาะสำหรับรหัสสินค้า สต๊อก คลังสินค้า SKU และฉลากแบบเป็นชุด"
+    }
+  ],
+  "barcode_generator.faq.items": [
+    {
+      "q": "เครื่องมือนี้สร้างบาร์โค้ดประเภทใดได้บ้าง?",
+      "a": "คุณสามารถสร้างบาร์โค้ดยอดนิยมได้หลายประเภท เช่น Code 128, EAN-13, EAN-8, Code 39, UPC-A และ ITF-14 สำหรับสินค้า ฉลาก สต๊อก คลังสินค้า และบรรจุภัณฑ์"
+    },
+    {
+      "q": "สร้างบาร์โค้ดออนไลน์ฟรีได้จริงไหม?",
+      "a": "ได้ คุณสามารถสร้างบาร์โค้ดออนไลน์ฟรีได้ทันทีผ่านเบราว์เซอร์ ไม่ต้องติดตั้งโปรแกรม ไม่ต้องสมัครสมาชิก และสามารถดาวน์โหลดไฟล์บาร์โค้ดไปใช้งานได้"
+    },
+    {
+      "q": "จะสร้างบาร์โค้ดสินค้าได้อย่างไร?",
+      "a": "เลือกประเภทบาร์โค้ดที่ต้องการ เช่น EAN-13, Code 128 หรือ UPC จากนั้นกรอกรหัสสินค้า SKU หรือเลขที่ต้องการ แล้วกดสร้างบาร์โค้ดเพื่อดาวน์โหลดไปใช้กับฉลากสินค้าและบรรจุภัณฑ์"
+    },
+    {
+      "q": "EAN-13 เหมาะกับการใช้งานแบบไหน?",
+      "a": "EAN-13 เหมาะสำหรับบาร์โค้ดสินค้าขายปลีกที่ใช้ตัวเลข 13 หลัก หากต้องการสร้างบาร์โค้ด EAN-13 ควรตรวจสอบให้แน่ใจว่ารหัสสินค้ามีจำนวนหลักถูกต้องก่อนนำไปพิมพ์บนฉลาก"
+    },
+    {
+      "q": "Code 128 ใช้ทำบาร์โค้ดอะไรได้บ้าง?",
+      "a": "Code 128 เหมาะสำหรับสร้างบาร์โค้ดที่มีทั้งตัวเลข ตัวอักษร รหัสสินค้า SKU เลขซีเรียล เลขพัสดุ และข้อมูลสต๊อก จึงนิยมใช้กับคลังสินค้า ระบบจัดการสินค้า และฉลากภายในองค์กร"
+    },
+    {
+      "q": "สามารถสร้างบาร์โค้ดหลายอันพร้อมกันได้ไหม?",
+      "a": "ได้ คุณสามารถสร้างบาร์โค้ดหลายรายการพร้อมกันโดยใส่ข้อมูล 1 ค่า ต่อ 1 บรรทัด เหมาะสำหรับการทำบาร์โค้ดจำนวนมาก รหัสสินค้าแบบชุด สต๊อกสินค้า และฉลากหลายรายการ"
+    },
+    {
+      "q": "สร้างบาร์โค้ดจาก Excel หรือ CSV ได้ไหม?",
+      "a": "หากมีข้อมูลจาก Excel หรือ CSV คุณสามารถคัดลอกรหัสสินค้า SKU หรือเลขซีเรียลมาวางในช่องสร้างบาร์โค้ด โดยใส่ 1 รายการต่อ 1 บรรทัด เพื่อสร้างบาร์โค้ดหลายอันได้รวดเร็ว"
+    },
+    {
+      "q": "ดาวน์โหลดบาร์โค้ดเป็นไฟล์อะไรได้บ้าง?",
+      "a": "หลังจากสร้างบาร์โค้ดแล้ว คุณสามารถดาวน์โหลดเป็นไฟล์ภาพ PNG หรือ SVG เพื่อนำไปใช้กับฉลากสินค้า เอกสาร บรรจุภัณฑ์ งานพิมพ์ หรือระบบจัดการคลังสินค้า"
+    },
+    {
+      "q": "ข้อมูลบาร์โค้ดของฉันปลอดภัยไหม?",
+      "a": "ปลอดภัย เพราะการสร้างบาร์โค้ดทำงานในเบราว์เซอร์ของคุณ ข้อมูลที่ใช้สร้างบาร์โค้ดจะไม่ถูกอัปโหลด จัดเก็บ หรือส่งไปยังเซิร์ฟเวอร์"
+    },
+    {
+      "q": "ทำไมสแกนบาร์โค้ดแล้วอ่านไม่ได้?",
+      "a": "ควรตรวจสอบว่าประเภทบาร์โค้ดตรงกับรูปแบบข้อมูล เช่น EAN-13 ต้องใช้ตัวเลข 13 หลัก และควรใช้ไฟล์คุณภาพสูง พิมพ์ให้คมชัด มีขนาดเหมาะสม และเว้นพื้นที่ว่างรอบบาร์โค้ดให้เพียงพอ"
     }
   ]
 }

@@ -2,7 +2,13 @@
     import { page } from '$app/stores';
     import { SUPPORTED_LANGUAGES, langUrl } from '$lib/i18n/config';
 
-    let { title, description, noHreflang = false, noIndex = false } = $props();
+    let { title, description, noHreflang = false, noIndex = false, allowedMarkets } = $props<{
+        title: string;
+        description?: string;
+        noHreflang?: boolean;
+        noIndex?: boolean;
+        allowedMarkets?: string[];
+    }>();
 
     let currentLang = $derived(($page.data.lang || 'en').toLowerCase());
     let origin = $derived($page.url.origin);
@@ -48,12 +54,16 @@
 
     {#if !noHreflang}
         {#each SUPPORTED_LANGUAGES as lang}
-            {@const targetPath = langUrl(lang.code, basePath)}
-            {@const finalPath = targetPath.endsWith('/') && targetPath.length > 1 ? targetPath.slice(0, -1) : targetPath}
-            <link rel="alternate" hreflang={lang.code === 'zh-TW' ? 'zh-TW' : lang.code} href="{origin}{finalPath}" />
+            {#if !allowedMarkets || allowedMarkets.includes(lang.code)}
+                {@const targetPath = langUrl(lang.code, basePath)}
+                {@const finalPath = targetPath.endsWith('/') && targetPath.length > 1 ? targetPath.slice(0, -1) : targetPath}
+                <link rel="alternate" hreflang={lang.code} href="{origin}{finalPath}" />
+            {/if}
         {/each}
-        {@const defaultPath = langUrl('en', basePath)}
-        {@const finalDefaultPath = defaultPath.endsWith('/') && defaultPath.length > 1 ? defaultPath.slice(0, -1) : defaultPath}
-        <link rel="alternate" hreflang="x-default" href="{origin}{finalDefaultPath}" />
+        {#if !allowedMarkets || allowedMarkets.includes('en')}
+            {@const defaultPath = langUrl('en', basePath)}
+            {@const finalDefaultPath = defaultPath.endsWith('/') && defaultPath.length > 1 ? defaultPath.slice(0, -1) : defaultPath}
+            <link rel="alternate" hreflang="x-default" href="{origin}{finalDefaultPath}" />
+        {/if}
     {/if}
 </svelte:head>

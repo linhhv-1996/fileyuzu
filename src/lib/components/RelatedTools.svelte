@@ -7,12 +7,13 @@
 
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
+    let filteredTools = $derived(tools.filter(t => !t.markets || t.markets.includes(lang)));
 </script>
 
 <div class="card" style={mobile ? "margin-top:14px" : ""}>
     <h2 class="sb-title">{title}</h2>
     <div class="rel-list" style={mobile ? "display:grid;grid-template-columns:1fr 1fr" : ""}>
-        {#each tools as tool, i}
+        {#each filteredTools as tool, i}
             <a href={langUrl(lang, `/${tool.slug}`)} class="rel-item" style={mobile && i % 2 === 0 ? "border-right:1px solid var(--bd-lt)" : ""}>
                 <i class="ti ti-{tool.icon}" aria-hidden="true"></i>
                 <div>
