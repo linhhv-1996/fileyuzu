@@ -6,6 +6,19 @@
 
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
+
+    let searchQuery = $state('');
+
+    let filteredTools = $derived(
+        tools.filter(tool => {
+            if (!searchQuery) return true;
+            const query = searchQuery.toLowerCase();
+            const title = String(t(tool.titleKey, dict) || '').toLowerCase();
+            const desc = String(t(tool.descriptionKey, dict) || '').toLowerCase();
+            const tags = (tool.tags || []).join(' ').toLowerCase();
+            return title.includes(query) || desc.includes(query) || tags.includes(query);
+        })
+    );
 </script>
 
 <Seo title={t('home.seo.title', dict)} description={t('home.seo.description', dict)} />
@@ -33,20 +46,33 @@
 
 <!-- Tools grid -->
 <section class="tools-section">
+    <div class="search-container">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input 
+            type="text" 
+            bind:value={searchQuery} 
+            placeholder={t('home.search.placeholder', dict) !== 'home.search.placeholder' ? t('home.search.placeholder', dict) : 'Search tools...'} 
+            class="search-input"
+        />
+    </div>
+
     <div class="tools-grid">
-        {#each tools as tool}
+        {#each filteredTools as tool}
             <a href={langUrl(lang, `/${tool.slug}`)} class="tool-card">
                 <div class="tool-card-main">
                     <span class="tool-card-title">{t(tool.titleKey, dict)}</span>
                     <span class="tool-card-desc">{t(tool.descriptionKey, dict)}</span>
+                    {#if tool.tags && tool.tags.length > 0}
+                        <div class="tool-card-tags">
+                            {#each tool.tags as tag}
+                                <span class="fmt-tag">{tag}</span>
+                            {/each}
+                        </div>
+                    {/if}
                 </div>
-                {#if tool.tags && tool.tags.length > 0}
-                    <div class="tool-card-tags">
-                        {#each tool.tags as tag}
-                            <span class="fmt-tag">{tag}</span>
-                        {/each}
-                    </div>
-                {/if}
                 <i class="ti ti-chevron-right card-arrow" aria-hidden="true"></i>
             </a>
         {/each}
@@ -146,17 +172,55 @@
         margin-bottom: 30px;
     }
 
+    .search-container {
+        position: relative;
+        margin-bottom: 24px;
+        max-width: 260px;
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--tx-sub);
+        pointer-events: none;
+    }
+
+    .search-input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 16px 10px 38px;
+        font-size: 14px;
+        color: var(--tx);
+        background: var(--bg);
+        border: 1px solid var(--bd);
+        border-radius: 99px;
+        outline: none;
+        transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    .search-input:focus {
+        border-color: var(--ac);
+        box-shadow: 0 0 0 3px var(--ac-soft);
+    }
+    
+    .search-input::placeholder {
+        color: var(--tx-mt);
+    }
+
     .tools-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 12px;
-        align-items: start;
+        column-count: 2;
+        column-gap: 12px;
     }
 
     @media (max-width: 768px) {
         .tools-grid {
-            grid-template-columns: minmax(0, 1fr);
-            gap: 6px;
+            column-count: 1;
+            column-gap: 6px;
+        }
+        .tool-card {
+            margin-bottom: 6px !important;
         }
     }
 
@@ -164,21 +228,24 @@
     .tool-card {
         display: flex;
         align-items: center;
-        gap: 10px;
-        padding: 16px;
+        gap: 16px;
+        padding: 24px;
         text-decoration: none;
         color: inherit;
         border: 1px solid var(--bd);
         border-radius: var(--r);
         background: var(--bg);
-        transition: background 0.12s, border-color 0.12s;
+        transition: background 0.12s, border-color 0.12s, box-shadow 0.12s;
         position: relative;
         min-width: 0;
+        break-inside: avoid;
+        margin-bottom: 12px;
     }
 
     .tool-card:hover {
         background: var(--bg-sub);
         text-decoration: none;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     }
 
     .tool-card-main {
@@ -190,30 +257,27 @@
     }
 
     .tool-card-title {
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 650;
         color: var(--tx);
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
         transition: color 0.15s ease;
+        margin-bottom: 4px;
     }
 
     .tool-card-desc {
-        font-size: 13.5px;
+        font-size: 14.5px;
         color: var(--tx-sub);
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        line-height: 1.5;
     }
 
     /* Format tags */
     .tool-card-tags {
         display: flex;
-        gap: 4px;
+        gap: 6px;
         flex-wrap: wrap;
-        justify-content: flex-end;
+        justify-content: flex-start;
         flex-shrink: 0;
+        margin-top: 8px;
     }
 
     .fmt-tag {

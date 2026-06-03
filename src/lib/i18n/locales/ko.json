@@ -1,5 +1,8 @@
 {
       "common.try_now": "이 도구를 무료로 사용하기",
+      "home.search.placeholder": "도구 검색",
+
+      
 
   "compress_video.upload.title": "압축할 동영상 파일을 여기에 드롭하세요",
 "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM 등 · 최대 500 MB",
