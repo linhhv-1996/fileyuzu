@@ -23,8 +23,6 @@
                         <time class="article-date">
                             {new Date(data.date).toLocaleDateString(lang, { year: 'numeric', month: 'long', day: 'numeric' })}
                         </time>
-                        <span class="meta-sep">·</span>
-                        <span class="article-author">UploadLess Team</span>
                     </div>
                     <h1 class="article-title">{data.title}</h1>
                     {#if data.description}
@@ -38,6 +36,17 @@
                 <!-- Content -->
                 <div class="article-content">
                     {@html data.content}
+                </div>
+
+                <!-- Author Box -->
+                <div class="author-box">
+                    <div class="author-avatar">
+                        <img src="/favicon.svg" alt="J.Julian" />
+                    </div>
+                    <div class="author-info">
+                        <h3 class="author-name">J.Julian</h3>
+                        <p class="author-bio">{dict['blog.author_bio']}</p>
+                    </div>
                 </div>
 
             </article>
@@ -89,7 +98,7 @@
     .article-grid {
         display: grid;
         grid-template-columns: 1fr 320px;
-        gap: 15px;
+        gap: 32px;
         align-items: start;
     }
 
@@ -114,17 +123,6 @@
         color: var(--ac);
     }
 
-    .meta-sep {
-        color: var(--tx-sub);
-        font-weight: 400;
-    }
-
-    .article-author {
-        color: var(--tx-sub);
-        font-weight: 500;
-        text-transform: none;
-        letter-spacing: 0;
-    }
 
     .article-title {
         font-size: 2.5rem;
@@ -136,66 +134,66 @@
     }
 
     .article-description {
-        font-size: 1.1rem;
+        font-size: 1.125rem;
         color: var(--tx-sub);
         margin: 0;
-        line-height: 1.6;
+        line-height: 1.5;
     }
 
     /* ── Divider ── */
     .article-divider {
         border: none;
-        border-top: 2px solid var(--bd);
-        margin: 1.5rem 0;
+        border-top: 1px solid var(--bd);
+        margin: 2rem 0;
     }
 
     /* ── Article Content ── */
     .article-content {
         color: var(--tx);
-        font-size: 15px;
-        line-height: 1.6;
+        font-size: 1.125rem;
+        line-height: 1.5;
     }
 
     :global(.article-content h2) {
-        font-size: 22px;
+        font-size: 1.75rem;
         font-weight: 700;
         color: var(--tx);
-        margin: 24px 0 8px 0;
+        margin: 2rem 0 1rem 0;
         letter-spacing: -0.02em;
         line-height: 1.3;
     }
 
     :global(.article-content h3) {
-        font-size: 18px;
+        font-size: 1.375rem;
         font-weight: 700;
         color: var(--tx);
-        margin: 10px 0 8px 0;
+        margin: 1.5rem 0 0.75rem 0;
         letter-spacing: -0.01em;
         line-height: 1.4;
     }
 
     :global(.article-content h4) {
-        font-size: 16px;
+        font-size: 1.125rem;
         font-weight: 700;
         color: var(--tx);
-        margin: 16px 0 8px 0;
+        margin: 1.25rem 0 0.5rem 0;
         line-height: 1.5;
     }
 
     :global(.article-content p) {
-        margin: 0 0 14px 0;
+        margin: 0 0 1.25rem 0;
         color: var(--tx);
     }
 
     :global(.article-content ul),
     :global(.article-content ol) {
-        margin: 0 0 14px 0;
-        padding-left: 24px;
+        margin: 0 0 1.25rem 0;
+        padding-left: 1.5rem;
     }
 
     :global(.article-content li) {
-        margin-bottom: 8px;
-        line-height: 1.6;
+        margin-bottom: 0.5rem;
+        line-height: 1.5;
     }
 
     :global(.article-content a) {
@@ -212,9 +210,9 @@
 
     :global(.article-content code) {
         font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
-        font-size: 13px;
+        font-size: 0.9em;
         background: var(--surface, rgba(0,0,0,0.06));
-        padding: 3px 6px;
+        padding: 0.2em 0.4em;
         border-radius: 4px;
         color: var(--tx);
     }
@@ -223,11 +221,11 @@
         background: var(--surface, rgba(0,0,0,0.06));
         border: 1px solid var(--bd);
         border-radius: 12px;
-        padding: 20px;
+        padding: 1.25rem;
         overflow-x: auto;
-        margin: 0 0 14px 0;
-        font-size: 13px;
-        line-height: 1.6;
+        margin: 1.5rem 0;
+        font-size: 0.9em;
+        line-height: 1.5;
     }
 
     :global(.article-content pre code) {
@@ -238,8 +236,8 @@
 
     :global(.article-content blockquote) {
         border-left: 4px solid var(--ac);
-        margin: 20px 0;
-        padding: 12px 0 12px 20px;
+        margin: 1.5rem 0;
+        padding: 1rem 0 1rem 1.5rem;
         color: var(--tx-sub);
         font-style: italic;
         background: linear-gradient(to right, var(--bg), transparent);
@@ -249,14 +247,14 @@
     :global(.article-content hr) {
         border: none;
         border-top: 1px solid var(--bd);
-        margin: 24px 0;
+        margin: 2rem 0;
     }
 
     :global(.article-content img) {
         max-width: 100%;
         height: auto;
         border-radius: 12px;
-        margin: 20px 0;
+        margin: 1.5rem 0;
         border: 1px solid var(--bd);
     }
 
@@ -264,8 +262,8 @@
     :global(.article-content table) {
         width: 100%;
         border-collapse: collapse;
-        margin: 24px 0;
-        font-size: 15px;
+        margin: 1.5rem 0;
+        font-size: 1rem;
         text-align: left;
         display: block;
         overflow-x: auto;
@@ -286,6 +284,56 @@
 
     :global(.article-content tbody tr:nth-of-type(even)) {
         background: var(--surface, rgba(0,0,0,0.015));
+    }
+
+    /* ── Author Box ── */
+    .author-box {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 16px;
+        margin-top: 3rem;
+        background: var(--bg);
+        border: 1px solid var(--bd);
+        border-radius: var(--r);
+    }
+
+    .author-avatar {
+        flex-shrink: 0;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: var(--surface, rgba(0,0,0,0.02));
+        border: 1px solid var(--bd);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+    }
+
+    .author-avatar img {
+        width: 130%;
+        height: 130%;
+        object-fit: contain;
+    }
+
+    .author-info {
+        flex-grow: 1;
+    }
+
+    .author-name {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--tx);
+        margin: 0 0 0.5rem 0;
+    }
+
+    .author-bio {
+        font-size: 1rem;
+        color: var(--tx-sub);
+        margin: 0;
+        line-height: 1.5;
     }
 
     /* ── Sidebar & Author Card ── */
@@ -431,7 +479,7 @@
     @media (max-width: 900px) {
         .article-grid {
             grid-template-columns: 1fr;
-            gap: 15px;
+            gap: 24px;
         }
 
         .article-sidebar {
@@ -463,6 +511,11 @@
     }
 
     @media (max-width: 640px) {
+        .author-box {
+            flex-direction: column;
+            text-align: center;
+            padding: 16px;
+        }
 
         .article-title {
             font-size: 2rem;

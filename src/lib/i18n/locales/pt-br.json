@@ -1,8 +1,8 @@
 {
         "common.try_now": "Use esta ferramenta gratuitamente",
         "home.search.placeholder": "Pesquisar ferramentas",
+ "blog.author_bio": "J.Julian é o criador e desenvolvedor líder do UploadLess. Com uma sólida experiência em engenharia de software e arquitetura web, ele se dedica a criar soluções de compartilhamento de arquivos seguras, de alto desempenho e fáceis de usar para a web moderna.",
 
-        
 
   "compress_video.upload.title": "Solte um arquivo de vídeo aqui para comprimir",
 "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · até 500 MB",

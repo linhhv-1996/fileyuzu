@@ -229,7 +229,7 @@
         display: flex;
         align-items: center;
         gap: 16px;
-        padding: 24px;
+        padding: 16px;
         text-decoration: none;
         color: inherit;
         border: 1px solid var(--bd);
@@ -262,6 +262,12 @@
         color: var(--tx);
         transition: color 0.15s ease;
         margin-bottom: 4px;
+    }
+
+    .tool-card:hover .tool-card-title {
+        color: var(--ac);
+        text-decoration: underline;
+        text-underline-offset: 2px;
     }
 
     .tool-card-desc {

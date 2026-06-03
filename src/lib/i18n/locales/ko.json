@@ -1,8 +1,8 @@
 {
       "common.try_now": "이 도구를 무료로 사용하기",
       "home.search.placeholder": "도구 검색",
+ "blog.author_bio": "J.Julian은 UploadLess의 창립자이자 리드 개발자입니다. 소프트웨어 엔지니어링과 웹 아키텍처에 대한 탄탄한 배경을 바탕으로, 현대 웹을 위한 안전하고 고성능이며 사용자 친화적인 파일 공유 솔루션을 구축하는 데 전념하고 있습니다.",
 
-      
 
   "compress_video.upload.title": "압축할 동영상 파일을 여기에 드롭하세요",
 "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM 등 · 최대 500 MB",

@@ -1,11 +1,6 @@
 <script lang="ts">
-    import Seo from '$lib/components/Seo.svelte';
-    import { page } from '$app/stores';
-
     let { data } = $props();
 </script>
-
-<Seo title="{data.title} - UploadLess" noIndex={true} />
 
 <main class="article-page">
     <div class="article-container">
@@ -26,8 +21,8 @@
 <style>
     .article-container {
         max-width: 800px;
-        margin: 0 auto;
-        padding: 2rem 1rem;
+        /* margin: 0 auto;
+        padding: 2rem 1rem; */
     }
 
     .article-header {

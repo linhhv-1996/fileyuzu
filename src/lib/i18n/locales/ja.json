@@ -1,6 +1,7 @@
 {
     "common.try_now": "このツールを無料で使う",
   "home.search.placeholder": "ツールを検索",
+  "blog.author_bio": "J.JulianはUploadLessのクリエイター兼リード開発者です。ソフトウェアエンジニアリングとWebアーキテクチャにおける豊富な経験を活かし、現代のWeb向けに安全で高性能、かつ使いやすいファイル共有ソリューションの構築に取り組んでいます。",
 
  "compress_video.upload.title": "圧縮する動画ファイルをここにドロップ",
 "compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM など · 最大500 MB",
