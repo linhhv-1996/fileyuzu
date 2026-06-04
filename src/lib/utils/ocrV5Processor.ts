@@ -1,4 +1,9 @@
+import * as ort from "onnxruntime-web";
 import { PaddleOcrService } from "ppu-paddle-ocr/web";
+
+// Configure ONNX Runtime to load WASM files from CDN instead of local assets.
+// This bypasses Cloudflare Pages 25MB limit while allowing WebGPU (jsep) support!
+ort.env.wasm.wasmPaths = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0/dist/";
 
 const MODEL_BASE_URL =
     "https://media.githubusercontent.com/media/PT-Perkasa-Pilar-Utama/ppu-paddle-ocr-models/main";
