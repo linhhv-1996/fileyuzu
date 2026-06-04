@@ -558,7 +558,7 @@ a:hover {
 .btn-dl {
     width: 100%;
     padding: 9px 16px;
-    background: linear-gradient(135deg, #34a06e, #2b8a5e);
+    background: linear-gradient(135deg, #4a90d9, #3a7bc4);
     color: #ffffff;
     border: 1px solid transparent;
     border-radius: var(--r);
@@ -570,13 +570,13 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    box-shadow: 0 2px 8px rgba(52, 160, 110, 0.22);
+    box-shadow: 0 2px 8px rgba(74, 144, 217, 0.22);
     transition: all 0.15s ease;
 }
 
 .btn-dl:hover {
-    background: linear-gradient(135deg, #2b8a5e, #227a50);
-    box-shadow: 0 4px 14px rgba(52, 160, 110, 0.28);
+    background: linear-gradient(135deg, #3a7bc4, #2e68ab);
+    box-shadow: 0 4px 14px rgba(74, 144, 217, 0.28);
     transform: translateY(-1px);
 }
 
