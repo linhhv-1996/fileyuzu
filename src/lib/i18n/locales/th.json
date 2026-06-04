@@ -1113,5 +1113,15 @@
       "q": "ทำไมสแกนบาร์โค้ดแล้วอ่านไม่ได้?",
       "a": "ควรตรวจสอบว่าประเภทบาร์โค้ดตรงกับรูปแบบข้อมูล เช่น EAN-13 ต้องใช้ตัวเลข 13 หลัก และควรใช้ไฟล์คุณภาพสูง พิมพ์ให้คมชัด มีขนาดเหมาะสม และเว้นพื้นที่ว่างรอบบาร์โค้ดให้เพียงพอ"
     }
-  ]
+  ],
+  "image_to_text.lang.auto": "อัตโนมัติ",
+  "image_to_text.lang.zh": "ภาษาจีน",
+  "image_to_text.lang.ja": "ภาษาญี่ปุ่น",
+  "image_to_text.lang.ko": "ภาษาเกาหลี",
+  "image_to_text.lang.th": "ภาษาไทย",
+  "handwriting_ocr.lang.auto": "อัตโนมัติ",
+  "handwriting_ocr.lang.zh": "ภาษาจีน",
+  "handwriting_ocr.lang.ja": "ภาษาญี่ปุ่น",
+  "handwriting_ocr.lang.ko": "ภาษาเกาหลี",
+  "handwriting_ocr.lang.th": "ภาษาไทย"
 }

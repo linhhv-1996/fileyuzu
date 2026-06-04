@@ -1071,5 +1071,214 @@
       "q": "Do I need to install any barcode maker software?",
       "a": "No. This barcode maker works online in your browser, so you can create barcode images quickly without downloading desktop software."
     }
-  ]
+  ],
+  "_comment_image_to_text": "================ Image to Text (OCR) ================",
+  "image_to_text.seo.title": "Image to Text Converter Online Free | UploadLess",
+  "image_to_text.seo.description": "Convert images to text online for free with UploadLess. Extract, copy, and edit text from JPG, PNG, photos, screenshots, and pictures using private OCR.",
+  "image_to_text.hero.title": "Image to Text Converter",
+  "image_to_text.hero.description": "Extract text from images, photos, screenshots, JPG, and PNG files instantly. Fast, free, private OCR that runs in your browser.",
+  "image_to_text.btn.copy": "Copy Text",
+  "image_to_text.btn.copy_all": "Copy All",
+  "image_to_text.btn.clean": "Clean format",
+  "image_to_text.btn.join": "Join lines",
+  "image_to_text.lang.auto": "Auto",
+  "image_to_text.lang.zh": "Chinese",
+  "image_to_text.lang.ja": "Japanese",
+  "image_to_text.lang.ko": "Korean",
+  "image_to_text.lang.th": "Thai",
+  "image_to_text.upload.title": "Drop images here or click to upload",
+  "image_to_text.upload.subtitle": "You can also paste images from clipboard.",
+  "image_to_text.upload.btn_select": "Select Images",
+  "image_to_text.upload.btn_sample": "Load sample",
+  "image_to_text.upload.hint": "Process multiple images instantly",
+  "image_to_text.ready.info": "Use Auto for Latin-based languages; select a specific model for Chinese, Japanese, Korean, or Thai.",
+  "image_to_text.btn.start": "Start Recognition",
+  "image_to_text.status.waiting": "Waiting...",
+  "image_to_text.status.pending": "Pending...",
+  "image_to_text.status.processing": "Processing...",
+  "image_to_text.status.done": "Done",
+  "image_to_text.text.try_samples": "Try it with a sample image",
+  "image_to_text.how_to_use.title": "How to Extract Text from Images",
+  "image_to_text.how_to_use.steps": [
+    "Upload one or more images from your device, drag and drop them, or paste an image directly from your clipboard.",
+    "Choose the language that best matches your images, including Latin, Korean, Japanese, Chinese Simplified, Chinese Traditional, or Thai.",
+    "UploadLess will process your images in bulk and extract the text one by one in your browser.",
+    "Once processing is complete, copy the extracted text or adjust the output with the available formatting tools."
+  ],
+  "image_to_text.why_use.title": "Why Use UploadLess OCR",
+  "image_to_text.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "Private Image OCR",
+      "description": "Convert images to text directly in your browser. Your photos, screenshots, and documents are never uploaded to a server."
+    },
+    {
+      "icon": "bolt",
+      "title": "Fast and Free",
+      "description": "Extract text from images online for free without creating an account, installing software, or paying hidden fees."
+    },
+    {
+      "icon": "layers-linked",
+      "title": "Bulk Image to Text",
+      "description": "Upload or paste multiple images at once and process them sequentially to save time on large OCR tasks."
+    },
+    {
+      "icon": "languages",
+      "title": "Multiple OCR Languages",
+      "description": "Choose the best OCR language for your image, including Latin, Korean, Japanese, Chinese Simplified, Chinese Traditional, and Thai."
+    }
+  ],
+  "image_to_text.faq.title": "Image to Text FAQ",
+  "image_to_text.faq.items": [
+    {
+      "q": "How do I convert an image to text online?",
+      "a": "Upload, drag and drop, or paste an image into UploadLess, choose the correct OCR language, and the tool will extract the text directly in your browser."
+    },
+    {
+      "q": "Can I extract text from photos and pictures?",
+      "a": "Yes. UploadLess works as a photo to text and picture to text converter, helping you extract editable text from photos, scanned images, screenshots, and other image files."
+    },
+    {
+      "q": "Can I copy text from an image?",
+      "a": "Yes. After OCR processing is complete, you can copy the extracted text to your clipboard and use it in documents, notes, emails, or other apps."
+    },
+    {
+      "q": "Does this image to text converter support JPG and PNG files?",
+      "a": "Yes. You can convert JPG, JPEG, and PNG images to text. For best OCR results, use a clear image with readable text and good contrast."
+    },
+    {
+      "q": "Can I convert screenshots to text?",
+      "a": "Yes. You can paste or upload a screenshot and extract text from it. This is useful for copying text from apps, websites, receipts, messages, or documents."
+    },
+    {
+      "q": "Can I process multiple images at once?",
+      "a": "Yes. UploadLess supports bulk image to text processing, so you can upload or paste multiple images and extract text from them sequentially."
+    },
+    {
+      "q": "Are my images uploaded to a server?",
+      "a": "No. OCR processing runs locally in your browser. Your images stay on your device and are not uploaded to a server."
+    },
+    {
+      "q": "Which OCR languages are supported?",
+      "a": "UploadLess supports Latin text, Korean, Japanese, Chinese Simplified, Chinese Traditional, and Thai. Choose the language that best matches your image for better accuracy."
+    },
+    {
+      "q": "How can I improve image OCR accuracy?",
+      "a": "Use a high-quality image with sharp text, good lighting, minimal blur, and strong contrast. Choosing the correct OCR language also helps the model recognize text more accurately."
+    },
+    {
+      "q": "Is this image OCR tool free to use?",
+      "a": "Yes. UploadLess lets you extract text from images online for free, with no sign-up, no software installation, and private browser-based OCR processing."
+    }
+  ],
+  "tool.image_to_text.title": "Image to Text",
+  "tool.image_to_text.description": "Extract text from images locally in your browser. Fast, private, and supports bulk processing.",
+  "tool.image_to_text.short_description": "Extract text from images privately.",
+  
+  "handwriting_ocr.seo.title": "Handwriting OCR Online Free | UploadLess",
+  "handwriting_ocr.seo.description": "Convert handwriting to text online for free with UploadLess. Extract editable text from handwritten notes and images using private browser-based OCR.",
+  "handwriting_ocr.hero.title": "Handwriting OCR",
+  "handwriting_ocr.hero.description": "Convert handwritten notes and images to editable text. Choose the right language and extract handwriting privately in your browser.",
+
+  "handwriting_ocr.btn.copy": "Copy Text",
+  "handwriting_ocr.btn.copy_all": "Copy All",
+  "handwriting_ocr.btn.clean": "Clean format",
+  "handwriting_ocr.btn.join": "Join lines",
+  "handwriting_ocr.lang.auto": "Auto",
+  "handwriting_ocr.lang.zh": "Chinese",
+  "handwriting_ocr.lang.ja": "Japanese",
+  "handwriting_ocr.lang.ko": "Korean",
+  "handwriting_ocr.lang.th": "Thai",
+  "handwriting_ocr.upload.title": "Drop images here or click to upload",
+  "handwriting_ocr.upload.subtitle": "You can also paste images from clipboard.",
+  "handwriting_ocr.upload.btn_select": "Select Images",
+  "handwriting_ocr.upload.btn_sample": "Load sample",
+  "handwriting_ocr.upload.hint": "Process multiple images instantly",
+  "handwriting_ocr.ready.info": "Use Auto for Latin-based languages; select a specific model for Chinese, Japanese, Korean, or Thai.",
+  "handwriting_ocr.btn.start": "Start Recognition",
+  "handwriting_ocr.status.waiting": "Waiting...",
+  "handwriting_ocr.status.pending": "Pending...",
+  "handwriting_ocr.status.processing": "Processing...",
+  "handwriting_ocr.status.done": "Done",
+
+
+  "handwriting_ocr.how_to_use.title": "How to Convert Handwriting to Text",
+  "handwriting_ocr.how_to_use.steps": [
+    "Upload one or more images of handwritten text, drag and drop them, or paste an image directly from your clipboard.",
+    "Choose the language that best matches the handwriting, including Latin, Korean, Japanese, Chinese Simplified, Chinese Traditional, or Thai.",
+    "UploadLess will process your handwritten images in bulk and extract the text one by one in your browser.",
+    "Once processing is complete, copy the extracted handwriting text or adjust the output with the available formatting tools."
+  ],
+
+  "handwriting_ocr.why_use.title": "Why Use UploadLess OCR",
+  "handwriting_ocr.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "Private Handwriting OCR",
+      "description": "Convert handwriting to text directly in your browser. Your handwritten notes, photos, and documents are never uploaded to a server."
+    },
+    {
+      "icon": "bolt",
+      "title": "Fast and Free",
+      "description": "Extract text from handwritten images online for free without creating an account, installing software, or paying hidden fees."
+    },
+    {
+      "icon": "layers-linked",
+      "title": "Bulk Handwriting to Text",
+      "description": "Upload or paste multiple handwritten notes at once and process them sequentially to save time on large OCR tasks."
+    },
+    {
+      "icon": "languages",
+      "title": "Multiple OCR Languages",
+      "description": "Choose the best OCR language for your handwriting, including Latin, Korean, Japanese, Chinese Simplified, Chinese Traditional, and Thai."
+    }
+  ],
+  "handwriting_ocr.faq.title": "Handwriting OCR FAQ",
+  "handwriting_ocr.faq.items": [
+    {
+      "q": "What is handwriting OCR?",
+      "a": "Handwriting OCR is a tool that recognizes handwritten text in images and converts it into editable digital text that you can copy, clean, and reuse."
+    },
+    {
+      "q": "How do I convert handwriting to text online?",
+      "a": "Upload, drag and drop, or paste an image of handwritten text into UploadLess, choose the correct OCR language, and the tool will extract the text in your browser."
+    },
+    {
+      "q": "Can I convert handwritten notes to text?",
+      "a": "Yes. UploadLess can convert handwritten notes to text from photos, scanned pages, notebooks, study notes, forms, and other handwritten images."
+    },
+    {
+      "q": "Does handwriting OCR work with cursive handwriting?",
+      "a": "It may work with clear cursive handwriting, but accuracy depends on how readable the writing is. Printed or neatly written handwriting usually gives better OCR results."
+    },
+    {
+      "q": "How accurate is handwriting to text conversion?",
+      "a": "Accuracy depends on handwriting clarity, image quality, lighting, contrast, and language selection. Clear, well-lit images with readable handwriting produce the best results."
+    },
+    {
+      "q": "Which handwriting OCR languages are supported?",
+      "a": "UploadLess supports Latin text, Korean, Japanese, Chinese Simplified, Chinese Traditional, and Thai. Choose the language that best matches the handwriting for more accurate recognition."
+    },
+    {
+      "q": "Can I process multiple handwritten images at once?",
+      "a": "Yes. UploadLess supports bulk handwriting OCR, so you can upload or paste multiple handwritten images and extract text from them sequentially."
+    },
+    {
+      "q": "Are my handwritten notes uploaded to a server?",
+      "a": "No. OCR processing runs locally in your browser. Your handwritten notes, photos, and documents stay on your device and are not uploaded to a server."
+    },
+    {
+      "q": "How can I improve handwriting OCR results?",
+      "a": "Use a sharp, high-resolution image with good lighting, strong contrast, minimal blur, and handwriting that is as clear as possible. Selecting the correct language also improves recognition."
+    },
+    {
+      "q": "Is this handwriting OCR tool free to use?",
+      "a": "Yes. UploadLess lets you convert handwriting to text online for free, with no sign-up, no software installation, and private browser-based OCR processing."
+    }
+  ],
+
+
+  "tool.handwriting_ocr.title": "Handwriting OCR",
+  "tool.handwriting_ocr.description": "Extract text from handwriting locally in your browser. Fast, private, and supports bulk processing.",
+  "tool.handwriting_ocr.short_description": "Extract handwritten notes to text privately."
 }

@@ -1114,5 +1114,15 @@
       "q": "線上條碼產生器會上傳或儲存我的資料嗎？",
       "a": "條碼會直接在瀏覽器中產生，你輸入的商品編號、庫存資料、SKU 或序號不會上傳、儲存或傳送到伺服器，適合處理內部代碼與商品資料。"
     }
-  ]
+  ],
+  "image_to_text.lang.auto": "自動",
+  "image_to_text.lang.zh": "中文",
+  "image_to_text.lang.ja": "日文",
+  "image_to_text.lang.ko": "韓文",
+  "image_to_text.lang.th": "泰文",
+  "handwriting_ocr.lang.auto": "自動",
+  "handwriting_ocr.lang.zh": "中文",
+  "handwriting_ocr.lang.ja": "日文",
+  "handwriting_ocr.lang.ko": "韓文",
+  "handwriting_ocr.lang.th": "泰文"
 }

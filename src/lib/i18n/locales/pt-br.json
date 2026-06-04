@@ -1114,5 +1114,15 @@
       "q": "Preciso instalar um programa para fazer código de barras?",
       "a": "Não. Você pode fazer código de barras online usando uma ferramenta no navegador, sem baixar software, sem instalar extensões e sem configurar programas complexos."
     }
-  ]
+  ],
+  "image_to_text.lang.auto": "Auto",
+  "image_to_text.lang.zh": "Chinês",
+  "image_to_text.lang.ja": "Japonês",
+  "image_to_text.lang.ko": "Coreano",
+  "image_to_text.lang.th": "Tailandês",
+  "handwriting_ocr.lang.auto": "Auto",
+  "handwriting_ocr.lang.zh": "Chinês",
+  "handwriting_ocr.lang.ja": "Japonês",
+  "handwriting_ocr.lang.ko": "Coreano",
+  "handwriting_ocr.lang.th": "Tailandês"
 }

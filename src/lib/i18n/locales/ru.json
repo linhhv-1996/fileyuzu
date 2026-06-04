@@ -1018,5 +1018,15 @@
       "q": "Можно ли конвертировать большие видеофайлы в MP4?",
       "a": "Да, но скорость обработки зависит от размера файла, длительности видео и мощности вашего устройства. Так как конвертация выполняется локально в браузере, большие файлы могут обрабатываться дольше."
     }
-  ]
+  ],
+  "image_to_text.lang.auto": "Авто",
+  "image_to_text.lang.zh": "Китайский",
+  "image_to_text.lang.ja": "Японский",
+  "image_to_text.lang.ko": "Корейский",
+  "image_to_text.lang.th": "Тайский",
+  "handwriting_ocr.lang.auto": "Авто",
+  "handwriting_ocr.lang.zh": "Китайский",
+  "handwriting_ocr.lang.ja": "Японский",
+  "handwriting_ocr.lang.ko": "Корейский",
+  "handwriting_ocr.lang.th": "Тайский"
 }

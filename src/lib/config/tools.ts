@@ -234,6 +234,38 @@ export const tools: ToolConfig[] = [
         tags: ['JAN', 'EAN-13'],
         markets: ['ja'],
     },
+    {
+        slug: 'image-to-text',
+        titleKey: 'tool.image_to_text.title',
+        descriptionKey: 'tool.image_to_text.description',
+        shortDescriptionKey: 'tool.image_to_text.short_description',
+        icon: 'text-recognition',
+        related_tools: [
+            'handwriting-ocr',
+            'barcode-generator',
+            'compress-pdf',
+            'compress-video',
+        ],
+        category: 'pdf',
+        tags: ['OCR', 'Image to Text'],
+        markets: ['en', 'ja', 'ko'],
+    },
+    {
+        slug: 'handwriting-ocr',
+        titleKey: 'tool.handwriting_ocr.title',
+        descriptionKey: 'tool.handwriting_ocr.description',
+        shortDescriptionKey: 'tool.handwriting_ocr.short_description',
+        icon: 'text-recognition',
+        related_tools: [
+            'image-to-text',
+            'barcode-generator',
+            'compress-pdf',
+            'compress-video',
+        ],
+        category: 'pdf',
+        tags: ['OCR', 'Handwriting to Text'],
+        markets: ['en', 'ja', 'ko'],
+    },
 ];
 
 export function getRelatedTools(currentSlug: string): ToolConfig[] {
