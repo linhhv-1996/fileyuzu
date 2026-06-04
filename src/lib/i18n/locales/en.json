@@ -174,6 +174,14 @@
     {
       "q": "Why should I use a browser-based video compressor?",
       "a": "A browser-based video compressor is faster and more private for everyday files because the video does not need to be uploaded first. It is useful when you want to reduce video file size for email, chat apps, or sharing online."
+    },
+    {
+      "q": "Can I compress a video without installing software?",
+      "a": "Yes. UploadLess is an online video compressor that works directly in your browser, so you do not need to install an app or extension. Just add your video, choose your compression mode, and download the compressed video file."
+    },
+    {
+      "q": "Can I compress videos for Discord, email, WhatsApp, or other apps?",
+      "a": "Yes. You can use UploadLess to compress videos for Discord, email, WhatsApp, Slack, LINE, and other apps. Auto optimize works well for general sharing, or you can turn it off and choose a target file size when you need the video to fit a specific upload limit."
     }
   ],
   "_comment_pdf_compressor": "================ PDF Compressor ================",
@@ -452,6 +460,14 @@
     {
       "q": "What is the maximum MP4 file size?",
       "a": "You can compress MP4 videos up to 500 MB. For larger files, consider trimming the video first or using a desktop video compressor."
+    },
+    {
+      "q": "Will the compressed video stay in MP4 format?",
+      "a": "Yes. UploadLess is designed to compress MP4 videos and save the compressed result as an MP4 file. This helps keep the video compatible with most phones, computers, browsers, chat apps, and social platforms."
+    },
+    {
+      "q": "Does this MP4 compressor work on Mac, Windows, iPhone, and Android?",
+      "a": "Yes. UploadLess works in modern browsers on Mac, Windows, iPhone, Android, and other devices. Since MP4 compression runs in your browser, you can compress an MP4 online without installing desktop software."
     }
   ],
   "_comment_reduce_video_size": "================ Reduce Video Size ================",
@@ -527,6 +543,14 @@
     {
       "q": "What is the difference between reducing video size and compressing a video?",
       "a": "They are closely related. Compressing a video is the process, while reducing video size is the result. This page focuses on helping you make video files smaller for sharing, email, and storage."
+    },
+    {
+      "q": "How do I make a video file smaller without changing the format?",
+      "a": "Use UploadLess to reduce the video file size in your browser. The tool makes the video smaller by adjusting compression settings, and the reduced file is saved as MP4 for broad compatibility across devices and apps."
+    },
+    {
+      "q": "Why is my video file still large after reducing its size?",
+      "a": "Some videos stay large because they are very long, high resolution, high frame rate, or already heavily compressed. To make the video smaller, try using Target file size mode, choosing a lower target size, or trimming the video before reducing its file size."
     }
   ],
   "pdf_compressor.pages": "pages",
