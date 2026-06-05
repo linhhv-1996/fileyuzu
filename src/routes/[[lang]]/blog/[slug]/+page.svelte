@@ -97,8 +97,8 @@
     /* ── Article Grid ── */
     .article-grid {
         display: grid;
-        grid-template-columns: 1fr 320px;
-        gap: 32px;
+        grid-template-columns: 1fr 300px;
+        gap: 24px;
         align-items: start;
     }
 

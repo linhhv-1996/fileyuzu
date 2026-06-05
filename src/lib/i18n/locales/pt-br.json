@@ -58,10 +58,13 @@
   "pdf_compressor.upload.btn_sample": "Testar PDF de exemplo",
   "pdf_compressor.upload.hint": "Selecione um PDF para comprimir e deixar menor",
   "_comment_home": "================ Home ================",
-  "home.seo.title": "Ferramentas de arquivos online grátis — Privadas e baseadas no navegador",
-  "home.seo.description": "Use ferramentas online grátis para compactar, converter e editar arquivos diretamente no navegador. Sem uploads, sem cadastro, e seus arquivos permanecem privados.",
-  "home.hero.title": "Ferramentas online gratuitas",
-  "home.hero.description": "Ferramentas privadas, rápidas e fáceis de usar que rodam diretamente no seu navegador. Seus arquivos nunca saem do seu dispositivo.",
+  
+"home.seo.title": "Ferramentas Online Gratuitas — Baseadas no Navegador, Sem Uploads",
+"home.seo.description": "Use ferramentas online gratuitas para arquivos, imagens, PDFs, vídeos, texto, códigos de barras e muito mais — tudo diretamente no seu navegador. Sem uploads, sem cadastro, e seus dados permanecem privados.",
+"home.hero.title": "Ferramentas Online Gratuitas",
+"home.hero.description": "Ferramentas rápidas e privadas para tarefas do dia a dia, executadas diretamente no seu navegador. Sem necessidade de uploads — seus arquivos nunca saem do seu dispositivo.",
+  
+
   "home.pill.private": "Os arquivos nunca saem do seu dispositivo",
   "home.pill.instant": "Instantâneo, sem filas",
   "home.pill.free": "100% grátis",

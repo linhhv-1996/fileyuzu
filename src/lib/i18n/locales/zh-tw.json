@@ -58,10 +58,12 @@
   "pdf_compressor.upload.btn_sample": "試用範例 PDF",
   "pdf_compressor.upload.hint": "請選擇一個要壓縮並縮小的 PDF 檔案",
   "_comment_home": "================ Home ================",
-  "home.seo.title": "免費線上檔案工具 — 私密、瀏覽器內處理",
-  "home.seo.description": "使用免費線上工具，直接在瀏覽器中壓縮、轉換和編輯檔案。無需上傳、無需註冊，您的檔案保持私密。",
-  "home.hero.title": "免費線上工具",
-  "home.hero.description": "隱私、安全、快速又好用的工具，直接在瀏覽器中執行。你的檔案永遠不會離開裝置。",
+  
+"home.seo.title": "免費線上工具 — 瀏覽器內使用，無需上傳",
+"home.seo.description": "使用免費線上工具處理檔案、圖片、PDF、影片、文字、條碼等，全部直接在瀏覽器中完成。無需上傳、無需註冊，您的資料保持私密。",
+"home.hero.title": "免費線上工具",
+"home.hero.description": "快速且注重隱私的日常工具，直接在瀏覽器中執行。無需上傳 — 您的檔案永遠不會離開您的裝置。",
+  
   "home.pill.private": "檔案永遠不會離開你的裝置",
   "home.pill.instant": "立即處理，無需排隊",
   "home.pill.free": "100% 免費",
