@@ -1115,14 +1115,107 @@
       "a": "條碼會直接在瀏覽器中產生，你輸入的商品編號、庫存資料、SKU 或序號不會上傳、儲存或傳送到伺服器，適合處理內部代碼與商品資料。"
     }
   ],
+  "_comment_image_to_text": "================ Image to Text (OCR) ================",
+  "image_to_text.seo.title": "圖片轉文字｜免費線上 OCR，從圖片、照片、截圖擷取文字 | UploadLess",
+  "image_to_text.seo.description": "圖片轉文字線上工具，快速從圖片、照片、截圖、JPG、PNG 擷取並複製文字。免費使用、免安裝、免註冊，支援繁體中文 OCR。",
+  "image_to_text.hero.title": "圖片轉文字",
+  "image_to_text.hero.description": "免費線上 OCR 工具，快速從圖片、照片、截圖、JPG、PNG 擷取文字，轉成可複製內容。",
+
+  "image_to_text.btn.copy": "複製文字",
+  "image_to_text.btn.copy_all": "全部複製",
+  "image_to_text.btn.clean": "清理格式",
+  "image_to_text.btn.join": "合併行",
   "image_to_text.lang.auto": "自動",
   "image_to_text.lang.zh": "中文",
   "image_to_text.lang.ja": "日文",
   "image_to_text.lang.ko": "韓文",
   "image_to_text.lang.th": "泰文",
-  "handwriting_ocr.lang.auto": "自動",
-  "handwriting_ocr.lang.zh": "中文",
-  "handwriting_ocr.lang.ja": "日文",
-  "handwriting_ocr.lang.ko": "韓文",
-  "handwriting_ocr.lang.th": "泰文"
+  "image_to_text.upload.title": "將圖片拖放到這裡，或點擊上傳",
+  "image_to_text.upload.subtitle": "你也可以從剪貼簿貼上圖片。",
+  "image_to_text.upload.btn_select": "選擇圖片",
+  "image_to_text.upload.btn_sample": "載入範例",
+  "image_to_text.upload.hint": "即時處理多張圖片",
+  "image_to_text.ready.info": "拉丁字母系語言請使用「自動」；中文、日文、韓文或泰文請選擇特定模型。",
+  "image_to_text.btn.start": "開始辨識",
+  "image_to_text.status.waiting": "等待中...",
+  "image_to_text.status.pending": "待處理...",
+  "image_to_text.status.processing": "處理中...",
+  "image_to_text.status.done": "完成",
+  "image_to_text.text.try_samples": "使用範例圖片試試看",
+  "image_to_text.how_to_use.title": "如何將圖片轉文字",
+  "image_to_text.how_to_use.steps": [
+    "從裝置上傳一張或多張圖片，或直接拖放圖片，也可以從剪貼簿貼上圖片。",
+    "選擇最符合圖片內容的語言，包括拉丁文字、韓文、日文、簡體中文、繁體中文或泰文。",
+    "UploadLess 會在瀏覽器中批次處理圖片，並逐一擷取圖片中的文字。",
+    "處理完成後，你可以複製擷取出的文字，或使用格式化工具調整輸出內容。"
+  ],
+  "image_to_text.why_use.title": "為什麼選擇 UploadLess 圖片轉文字工具",
+  "image_to_text.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "私密的圖片 OCR",
+      "description": "直接在瀏覽器中將圖片轉文字。你的照片、截圖和文件不會上傳到伺服器，適合處理需要保護隱私的圖片文字辨識任務。"
+    },
+    {
+      "icon": "bolt",
+      "title": "免費快速轉換",
+      "description": "免費線上從圖片擷取文字，無需註冊帳號、安裝軟體或付費。適合快速處理圖片轉文字、照片轉文字和截圖轉文字。"
+    },
+    {
+      "icon": "layers-linked",
+      "title": "批次圖片轉文字",
+      "description": "一次上傳或貼上多張圖片，依序批次進行 OCR 辨識，幫你節省處理大量 JPG、PNG、照片和截圖的時間。"
+    },
+    {
+      "icon": "languages",
+      "title": "支援多種 OCR 語言",
+      "description": "可依圖片內容選擇最適合的 OCR 語言，包括拉丁文字、韓文、日文、簡體中文、繁體中文和泰文，提升圖片文字擷取準確度。"
+    }
+  ],
+  "image_to_text.faq.title": "圖片轉文字常見問題",
+  "image_to_text.faq.items": [
+    {
+      "q": "如何在線上將圖片轉文字？",
+      "a": "你可以將圖片上傳、拖放到 UploadLess，或直接從剪貼簿貼上圖片，選擇正確的 OCR 語言後，工具會在瀏覽器中自動擷取圖片中的文字。"
+    },
+    {
+      "q": "圖片轉文字是免費的嗎？",
+      "a": "是的，UploadLess 圖片轉文字工具可免費使用。你不需要註冊帳號、安裝軟體或付費，就能在線上從圖片擷取文字。"
+    },
+    {
+      "q": "可以把照片轉文字嗎？",
+      "a": "可以。你可以上傳手機拍攝的照片，UploadLess 會辨識照片中的文字，並將內容轉成可複製、可編輯的文字。"
+    },
+    {
+      "q": "支援截圖轉文字嗎？",
+      "a": "支援。你可以上傳螢幕截圖或直接貼上截圖，工具會進行截圖文字辨識，幫你快速擷取截圖中的文字內容。"
+    },
+    {
+      "q": "可以從 JPG、JPEG 或 PNG 圖片擷取文字嗎？",
+      "a": "可以。UploadLess 支援常見圖片格式，包括 JPG、JPEG 和 PNG，適合用來進行 JPG 轉文字、PNG OCR 和圖片文字擷取。"
+    },
+    {
+      "q": "圖片 OCR 支援繁體中文嗎？",
+      "a": "支援。你可以選擇繁體中文 OCR 來辨識台灣常用的繁體中文內容，也可以依圖片內容選擇其他語言以提升辨識準確度。"
+    },
+    {
+      "q": "UploadLess 會上傳我的圖片到伺服器嗎？",
+      "a": "不會。UploadLess 會直接在你的瀏覽器中進行圖片 OCR 處理，你的照片、截圖和文件不會被上傳到伺服器。"
+    },
+    {
+      "q": "可以一次處理多張圖片嗎？",
+      "a": "可以。你可以一次上傳或貼上多張圖片，UploadLess 會批次處理圖片，並逐一擷取每張圖片中的文字。"
+    },
+    {
+      "q": "如何提高圖片文字辨識的準確度？",
+      "a": "建議使用清晰、光線充足、文字不要歪斜的圖片，並選擇正確的 OCR 語言。圖片解析度越清楚，文字辨識結果通常會越準確。"
+    },
+    {
+      "q": "圖片轉文字後可以複製結果嗎？",
+      "a": "可以。OCR 處理完成後，你可以直接複製擷取出的文字，也可以使用格式化工具整理輸出內容，再貼到文件、筆記或其他應用程式中。"
+    }
+  ],
+  "tool.image_to_text.title": "圖片轉文字",
+  "tool.image_to_text.description": "免費在線上將圖片、照片或截圖轉成文字。支援 JPG、PNG 與批次 OCR，直接在瀏覽器中處理，快速又私密。",
+  "tool.image_to_text.short_description": "免費將圖片轉成文字。"
 }

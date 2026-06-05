@@ -186,21 +186,6 @@ export const tools: ToolConfig[] = [
         category: 'video',
         tags: ['Video', 'MP4'],
     },
-    // {
-    //     slug: 'jp-only-test',
-    //     titleKey: 'tool.jp_only.title',
-    //     descriptionKey: 'tool.jp_only.description',
-    //     shortDescriptionKey: 'tool.jp_only.short_description',
-    //     icon: 'star',
-    //     related_tools: [
-    //         'compress-pdf',
-    //         'compress-video',
-    //         'video-converter',
-    //         'mp4-converter',
-    //     ],
-    //     category: 'video',
-    //     markets: ['ja'],
-    // },
     {
         slug: 'barcode-generator',
         titleKey: 'tool.barcode_generator.title',
@@ -242,13 +227,14 @@ export const tools: ToolConfig[] = [
         icon: 'text-recognition',
         related_tools: [
             'handwriting-ocr',
+            'video-converter',
             'barcode-generator',
             'compress-pdf',
             'compress-video',
         ],
         category: 'pdf',
         tags: ['OCR', 'Image to Text'],
-        markets: ['en', 'ja', 'ko'],
+        markets: ['en', 'ja', 'ko', 'zh-tw'],
     },
     {
         slug: 'handwriting-ocr',

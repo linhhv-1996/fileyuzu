@@ -5,7 +5,7 @@ export const load: PageLoad = async ({ parent }) => {
     const { lang } = await parent();
     
     // lang from parent is already canonical (e.g. 'ja', 'ko', 'en')
-    enforceMarket(lang, ['en', 'ja', 'ko']);
+    enforceMarket(lang, ['en', 'ja', 'ko', 'zh-tw']);
     
     return {};
 };
