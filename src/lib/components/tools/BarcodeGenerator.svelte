@@ -25,6 +25,7 @@
 
     let status = $state<"idle" | "proc" | "done">("idle");
     let content = $state("");
+    // svelte-ignore state_referenced_locally
     let selectedType = $state(initialType || barcodeTypes[0].value);
     let scale = $state(3);
     let includeText = $state(true);
@@ -46,6 +47,7 @@
         isTypeDropdownOpen = false;
     }
 
+    // svelte-ignore non_reactive_update
     let typeDropdownRef: HTMLDivElement | null = null;
     onMount(() => {
         function handleClickOutside(e: MouseEvent) {

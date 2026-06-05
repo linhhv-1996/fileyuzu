@@ -20,8 +20,10 @@
     let showImageModal = $state(false);
     let selectedLang = $state('auto');
     let showLangDropdown = $state(false);
+    // svelte-ignore non_reactive_update
     let langSelectRef: HTMLDivElement;
     let showReadyLangDropdown = $state(false);
+    // svelte-ignore non_reactive_update
     let readyLangSelectRef: HTMLDivElement;
     
     let langOptions = $derived([
@@ -979,7 +981,7 @@
         text-align: left;
     }
 
-    .lang-select-group label {
+    /* .lang-select-group label {
         font-size: 13px;
         color: var(--tx-lt);
         font-weight: 500;
@@ -998,7 +1000,7 @@
 
     .native-select:focus {
         border-color: var(--ac);
-    }
+    } */
 
     .start-btn {
         margin-top: 0px;
