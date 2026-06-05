@@ -1123,5 +1123,8 @@
   "handwriting_ocr.lang.zh": "ภาษาจีน",
   "handwriting_ocr.lang.ja": "ภาษาญี่ปุ่น",
   "handwriting_ocr.lang.ko": "ภาษาเกาหลี",
-  "handwriting_ocr.lang.th": "ภาษาไทย"
+  "handwriting_ocr.lang.th": "ภาษาไทย",
+  "donate.title": "สนับสนุนผู้สร้าง",
+  "donate.description": "ช่วยฉันบำรุงรักษาเซิร์ฟเวอร์และให้เครื่องมือนี้ไม่มีโฆษณา",
+  "donate.button": "สนับสนุนบน Ko-fi"
 }

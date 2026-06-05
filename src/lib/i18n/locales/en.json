@@ -1174,12 +1174,10 @@
   "tool.image_to_text.title": "Image to Text",
   "tool.image_to_text.description": "Extract text from images locally in your browser. Fast, private, and supports bulk processing.",
   "tool.image_to_text.short_description": "Extract text from images privately.",
-  
   "handwriting_ocr.seo.title": "Handwriting OCR Online Free | UploadLess",
   "handwriting_ocr.seo.description": "Convert handwriting to text online for free with UploadLess. Extract editable text from handwritten notes and images using private browser-based OCR.",
   "handwriting_ocr.hero.title": "Handwriting OCR",
   "handwriting_ocr.hero.description": "Convert handwritten notes and images to editable text. Choose the right language and extract handwriting privately in your browser.",
-
   "handwriting_ocr.btn.copy": "Copy Text",
   "handwriting_ocr.btn.copy_all": "Copy All",
   "handwriting_ocr.btn.clean": "Clean format",
@@ -1200,8 +1198,6 @@
   "handwriting_ocr.status.pending": "Pending...",
   "handwriting_ocr.status.processing": "Processing...",
   "handwriting_ocr.status.done": "Done",
-
-
   "handwriting_ocr.how_to_use.title": "How to Convert Handwriting to Text",
   "handwriting_ocr.how_to_use.steps": [
     "Upload one or more images of handwritten text, drag and drop them, or paste an image directly from your clipboard.",
@@ -1209,7 +1205,6 @@
     "UploadLess will process your handwritten images in bulk and extract the text one by one in your browser.",
     "Once processing is complete, copy the extracted handwriting text or adjust the output with the available formatting tools."
   ],
-
   "handwriting_ocr.why_use.title": "Why Use UploadLess OCR",
   "handwriting_ocr.why_use.benefits": [
     {
@@ -1276,9 +1271,10 @@
       "a": "Yes. UploadLess lets you convert handwriting to text online for free, with no sign-up, no software installation, and private browser-based OCR processing."
     }
   ],
-
-
   "tool.handwriting_ocr.title": "Handwriting OCR",
   "tool.handwriting_ocr.description": "Extract text from handwriting locally in your browser. Fast, private, and supports bulk processing.",
-  "tool.handwriting_ocr.short_description": "Extract handwritten notes to text privately."
+  "tool.handwriting_ocr.short_description": "Extract handwritten notes to text privately.",
+  "donate.title": "Support the Creator",
+  "donate.description": "Help me maintain the server and keep this tool free.",
+  "donate.button": "Support on Ko-fi"
 }

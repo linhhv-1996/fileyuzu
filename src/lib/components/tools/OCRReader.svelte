@@ -430,9 +430,9 @@
                                         <i class="ti ti-photo" style="font-size: 18px; color: var(--ac);"></i>
                                     </button>
                                     <div class="divider"></div>
-                                    <button class="tool-btn" class:active={activeItem.isCleaned} onclick={() => toggleClean(expandedItemIndex)} title={texts.btnClean || "Clean format"}>
+                                    <!-- <button class="tool-btn" class:active={activeItem.isCleaned} onclick={() => toggleClean(expandedItemIndex)} title={texts.btnClean || "Clean format"}>
                                         <i class="ti ti-wand" style="font-size: 16px;"></i>
-                                    </button>
+                                    </button> -->
                                     <button class="tool-btn" class:active={activeItem.isJoined} onclick={() => toggleJoin(expandedItemIndex)} title={texts.btnJoin || "Join lines"}>
                                         <i class="ti ti-align-justified" style="font-size: 16px;"></i>
                                     </button>

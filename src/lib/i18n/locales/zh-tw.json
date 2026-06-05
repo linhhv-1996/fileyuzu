@@ -1120,7 +1120,6 @@
   "image_to_text.seo.description": "圖片轉文字線上工具，快速從圖片、照片、截圖、JPG、PNG 擷取並複製文字。免費使用、免安裝、免註冊，支援繁體中文 OCR。",
   "image_to_text.hero.title": "圖片轉文字",
   "image_to_text.hero.description": "免費線上 OCR 工具，快速從圖片、照片、截圖、JPG、PNG 擷取文字，轉成可複製內容。",
-
   "image_to_text.btn.copy": "複製文字",
   "image_to_text.btn.copy_all": "全部複製",
   "image_to_text.btn.clean": "清理格式",
@@ -1217,5 +1216,8 @@
   ],
   "tool.image_to_text.title": "圖片轉文字",
   "tool.image_to_text.description": "免費在線上將圖片、照片或截圖轉成文字。支援 JPG、PNG 與批次 OCR，直接在瀏覽器中處理，快速又私密。",
-  "tool.image_to_text.short_description": "免費將圖片轉成文字。"
+  "tool.image_to_text.short_description": "免費將圖片轉成文字。",
+  "donate.title": "支持創作者",
+  "donate.description": "幫助我維護伺服器並讓此工具保持無廣告。",
+  "donate.button": "在 Ko-fi 上支持"
 }

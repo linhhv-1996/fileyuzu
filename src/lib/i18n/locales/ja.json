@@ -1211,15 +1211,11 @@
       "a": "JANコードの桁数、チェックデジット、バーコードのサイズ、余白、印刷時の解像度を確認してください。小さすぎる画像や余白が不足している場合、スキャナーで読み取れないことがあります。"
     }
   ],
-
-
   "_comment_image_to_text": "================ Image to Text (OCR) ================",
-
   "image_to_text.seo.title": "画像から文字を抽出 - 無料で画像をテキスト化 | UploadLess",
   "image_to_text.seo.description": "画像・写真・スクリーンショットから文字を無料で抽出。JPG・PNG対応のオンラインOCRで、アップロード不要・登録不要ですぐにテキスト化できます。",
   "image_to_text.hero.title": "画像から文字を抽出してテキスト化",
   "image_to_text.hero.description": "画像・写真・スクリーンショット内の文字をすぐに読み取り。JPG・PNG対応、無料で使えるブラウザベースのOCRツールです。",
-
   "image_to_text.btn.copy": "テキストをコピー",
   "image_to_text.btn.copy_all": "すべてコピー",
   "image_to_text.btn.clean": "形式を整える",
@@ -1241,7 +1237,6 @@
   "image_to_text.status.processing": "処理中...",
   "image_to_text.status.done": "完了",
   "image_to_text.text.try_samples": "サンプル画像で試す",
-
   "image_to_text.how_to_use.title": "画像から文字を抽出する方法",
   "image_to_text.how_to_use.steps": [
     "画像をデバイスから選択するか、ドラッグ＆ドロップ、またはクリップボードから直接貼り付けます。",
@@ -1249,7 +1244,6 @@
     "UploadLessが画像をブラウザ内で一括処理し、1枚ずつ文字を抽出します。",
     "処理が完了したら、抽出されたテキストをコピーするか、利用可能な整形ツールで出力を調整できます。"
   ],
-
   "image_to_text.why_use.title": "UploadLessの画像OCRを使う理由",
   "image_to_text.why_use.benefits": [
     {
@@ -1273,7 +1267,6 @@
       "description": "画像に合わせてOCR言語を選択できます。ラテン文字、韓国語、日本語、中国語（簡体字・繁体字）、タイ語に対応しています。"
     }
   ],
-
   "image_to_text.faq.title": "画像文字起こしのよくある質問",
   "image_to_text.faq.items": [
     {
@@ -1317,18 +1310,13 @@
       "a": "いいえ。UploadLessは画像をブラウザ内で処理します。写真、スクリーンショット、書類画像をサーバーにアップロードせずに、プライベートにテキストを抽出できます。"
     }
   ],
-
-
   "tool.image_to_text.title": "画像からテキスト",
   "tool.image_to_text.description": "画像から文字をブラウザ内で抽出。高速・プライベートで、複数画像の一括OCRにも対応しています。",
   "tool.image_to_text.short_description": "画像から文字を安全に抽出。",
-
   "handwriting_ocr.seo.title": "手書きOCR - 手書き文字・メモをテキスト化 | UploadLess",
   "handwriting_ocr.seo.description": "手書き文字や手書きメモを無料でテキスト化。画像をアップロードせず、ブラウザ内で安全にOCR処理できます。日本語の手書き文字にも対応。",
   "handwriting_ocr.hero.title": "手書き文字をOCRでテキスト化",
   "handwriting_ocr.hero.description": "手書きメモやノートの画像から文字を読み取り、編集しやすいテキストに変換。無料で使えるブラウザベースの手書きOCRツールです。",
-
-
   "handwriting_ocr.btn.copy": "テキストをコピー",
   "handwriting_ocr.btn.copy_all": "すべてコピー",
   "handwriting_ocr.btn.clean": "形式を整える",
@@ -1349,7 +1337,6 @@
   "handwriting_ocr.status.pending": "保留中...",
   "handwriting_ocr.status.processing": "処理中...",
   "handwriting_ocr.status.done": "完了",
-
   "handwriting_ocr.how_to_use.title": "手書き文字をテキスト化する方法",
   "handwriting_ocr.how_to_use.steps": [
     "手書き文字が写った画像をデバイスから選択するか、ドラッグ＆ドロップ、またはクリップボードから直接貼り付けます。",
@@ -1357,7 +1344,6 @@
     "UploadLessが手書き画像をブラウザ内で一括処理し、1枚ずつ文字を抽出します。",
     "処理が完了したら、抽出された手書き文字のテキストをコピーするか、利用可能な整形ツールで出力を調整できます。"
   ],
-
   "handwriting_ocr.why_use.title": "UploadLessの手書きOCRを使う理由",
   "handwriting_ocr.why_use.benefits": [
     {
@@ -1381,7 +1367,6 @@
       "description": "手書き文字に合わせてOCR言語を選択できます。ラテン文字、韓国語、日本語、中国語（簡体字・繁体字）、タイ語に対応しています。"
     }
   ],
-
   "handwriting_ocr.faq.title": "手書きOCRのよくある質問",
   "handwriting_ocr.faq.items": [
     {
@@ -1425,9 +1410,10 @@
       "a": "画像OCRは印刷された文字やスクリーンショット内の文字を読み取る用途が中心です。手書きOCRは、手書きメモやノート画像など、人が書いた文字をテキスト化する用途に向いています。"
     }
   ],
-
   "tool.handwriting_ocr.title": "手書きOCR",
   "tool.handwriting_ocr.description": "手書き文字をブラウザ内でテキスト化。高速・プライベートで、複数の手書き画像の一括OCRにも対応しています。",
-  "tool.handwriting_ocr.short_description": "手書きメモを安全にテキスト化。"
-
+  "tool.handwriting_ocr.short_description": "手書きメモを安全にテキスト化。",
+  "donate.title": "クリエイターを支援する",
+  "donate.description": "サーバーの維持と、このツールを広告なしで提供し続けるためにご支援ください。",
+  "donate.button": "Ko-fiで支援する"
 }
