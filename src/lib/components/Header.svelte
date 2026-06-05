@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { page } from '$app/stores';
+    import { page, navigating } from '$app/stores';
     import { t, langUrl, SUPPORTED_LANGUAGES } from '$lib/i18n/config';
     import { tools } from '$lib/config/tools';
 
@@ -90,4 +90,26 @@
             <i class="ti {mobileMenuOpen ? 'ti-x' : 'ti-menu-2'}" aria-hidden="true"></i>
         </button>
     </div>
+
+    {#if $navigating}
+        <div class="hdr-loading-bar"></div>
+    {/if}
 </header>
+
+<style>
+    .hdr-loading-bar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3px;
+        background-color: var(--ac); /* Theme blue color */
+        z-index: 101;
+        animation: hdr-loading-anim 1.2s infinite ease-in-out;
+    }
+
+    @keyframes hdr-loading-anim {
+        0% { left: -30%; width: 30%; }
+        50% { left: 20%; width: 50%; }
+        100% { left: 100%; width: 30%; }
+    }
+</style>

@@ -1,14 +1,28 @@
-import * as ort from "onnxruntime-web";
-import { PaddleOcrService } from "ppu-paddle-ocr/web";
+import type { PaddleOcrService } from "ppu-paddle-ocr/web";
 
-// Configure ONNX Runtime to load WASM files from CDN instead of local assets.
-// This bypasses Cloudflare Pages 25MB limit while allowing WebGPU (jsep) support!
-ort.env.wasm.wasmPaths = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0/dist/";
+let ortLoaded = false;
+let PaddleOcrServiceConstructor: typeof PaddleOcrService | null = null;
+
+async function loadDependencies() {
+    if (!ortLoaded) {
+        const ort = await import("onnxruntime-web");
+        // Configure ONNX Runtime to load WASM files from CDN instead of local assets.
+        // This bypasses Cloudflare Pages 25MB limit while allowing WebGPU (jsep) support!
+        ort.env.wasm.wasmPaths = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0/dist/";
+        ortLoaded = true;
+    }
+    if (!PaddleOcrServiceConstructor) {
+        const mod = await import("ppu-paddle-ocr/web");
+        PaddleOcrServiceConstructor = mod.PaddleOcrService;
+    }
+}
 
 const MODEL_BASE_URL =
     "https://media.githubusercontent.com/media/PT-Perkasa-Pilar-Utama/ppu-paddle-ocr-models/main";
 const DICT_BASE_URL =
     "https://raw.githubusercontent.com/PT-Perkasa-Pilar-Utama/ppu-paddle-ocr-models/main";
+
+const DETECTION_MODEL_URL = `${MODEL_BASE_URL}/detection/PP-OCRv5_mobile_det_infer.ort`;
 
 const LATIN_MODEL = {
     recognition: `${MODEL_BASE_URL}/recognition/multi/latin/v5/latin_PP-OCRv5_mobile_rec_infer.onnx`,
@@ -98,15 +112,23 @@ async function destroyEngine(): Promise<void> {
 async function _doInit(targetLang: string): Promise<PaddleOcrService> {
     await destroyEngine();
 
+    await loadDependencies();
+
     const config = MODELS[targetLang] ?? LATIN_MODEL;
 
-    const [recModel, dictModel] = await Promise.all([
+    const [detModel, recModel, dictModel] = await Promise.all([
+        fetchCachedBuffer(DETECTION_MODEL_URL),
         fetchCachedBuffer(config.recognition),
         fetchCachedBuffer(config.charactersDictionary),
     ]);
 
-    const engine = new PaddleOcrService({
+    if (!PaddleOcrServiceConstructor) {
+        throw new Error("[OCR] Failed to load PaddleOcrService constructor");
+    }
+
+    const engine = new PaddleOcrServiceConstructor({
         model: {
+            detection: detModel,
             recognition: recModel,
             charactersDictionary: dictModel,
         },
