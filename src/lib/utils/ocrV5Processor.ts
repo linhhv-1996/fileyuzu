@@ -6,9 +6,20 @@ let PaddleOcrServiceConstructor: typeof PaddleOcrService | null = null;
 async function loadDependencies() {
     if (!ortLoaded) {
         const ort = await import("onnxruntime-web");
+        
         // Configure ONNX Runtime to load WASM files from CDN instead of local assets.
         // This bypasses Cloudflare Pages 25MB limit while allowing WebGPU (jsep) support!
-        ort.env.wasm.wasmPaths = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0/dist/";
+        const CDN_PREFIX = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0/dist/";
+        ort.env.wasm.wasmPaths = CDN_PREFIX;
+        
+        try {
+            // Pre-fetch and cache the WASM binary manually to avoid redownloading
+            const wasmBuffer = await fetchCachedBuffer(`${CDN_PREFIX}ort-wasm-simd-threaded.jsep.wasm`);
+            ort.env.wasm.wasmBinary = new Uint8Array(wasmBuffer);
+        } catch (e) {
+            console.warn("[OCR] Failed to pre-fetch wasm binary, falling back to default", e);
+        }
+        
         ortLoaded = true;
     }
     if (!PaddleOcrServiceConstructor) {
