@@ -1445,6 +1445,30 @@
     "ブラウザ内で2つのリストを比較し、リストAのみ、リストBのみ、両方にある項目を自動で抽出します。",
     "結果を確認し、差分、共通項目、重複項目、ユニーク値をコピーまたはエクスポートします。"
   ],
+
+  "compare_two_lists.why_use.title": "このリスト比較ツールを使うメリット",
+  "compare_two_lists.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "ブラウザ内で安全に比較",
+      "description": "2つのリスト、CSVデータ、Excel列をブラウザ内で比較できます。入力したテキストやファイルの内容はサーバーにアップロードされません。"
+    },
+    {
+      "icon": "bolt",
+      "title": "無料で素早くリスト比較",
+      "description": "アカウント登録やソフトのインストールは不要です。リスト比較、CSV比較、Excelの列比較をオンラインで手軽に実行できます。"
+    },
+    {
+      "icon": "file-text",
+      "title": "テキスト・CSV・Excelに対応",
+      "description": "貼り付けたテキスト、CSVデータ、Excel列を使って、行、値、ID、名前、メールアドレス、SKU、キーワードなどを比較できます。"
+    },
+    {
+      "icon": "list-check",
+      "title": "差分・共通項目・重複を抽出",
+      "description": "リストAのみ、リストBのみ、両方にある項目、重複値、欠けている項目、ユニーク値をまとめて確認できます。"
+    }
+  ],
   "compare_two_lists.faq.title": "リスト比較に関するよくある質問",
   "compare_two_lists.faq.items": [
     {
