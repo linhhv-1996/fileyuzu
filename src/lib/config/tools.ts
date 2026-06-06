@@ -252,6 +252,22 @@ export const tools: ToolConfig[] = [
         tags: ['OCR', 'Handwriting to Text'],
         markets: ['en', 'ja', 'ko'],
     },
+    {
+        slug: 'compare-two-lists',
+        titleKey: 'tool.compare_two_lists.title',
+        descriptionKey: 'tool.compare_two_lists.description',
+        shortDescriptionKey: 'tool.compare_two_lists.short_description',
+        icon: 'list-check',
+        related_tools: [
+            'image-to-text',
+            'barcode-generator',
+            'compress-pdf',
+            'video-converter',
+        ],
+        category: 'text',
+        tags: ['List', 'Compare', 'Text'],
+        markets: ['en'],
+    },
 ];
 
 export function getRelatedTools(currentSlug: string): ToolConfig[] {
