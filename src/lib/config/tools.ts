@@ -266,7 +266,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'text',
         tags: ['List', 'Compare', 'Text'],
-        markets: ['en'],
+        markets: ['en', 'ja'],
     },
 ];
 

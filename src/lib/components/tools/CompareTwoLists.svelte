@@ -1,5 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
+    import * as XLSX from "xlsx";
 
     interface Props {
         texts?: any;
@@ -19,6 +20,57 @@
     let allUnique = $state<string[]>([]);
     let duplicatesA = $state<string[]>([]);
     let duplicatesB = $state<string[]>([]);
+
+    // Excel / CSV column selection state
+    let uploadedFileA = $state<{ data: any[][], columns: string[], hasHeaders: boolean } | null>(null);
+    let selectedColumnA = $state<string>("all");
+
+    let uploadedFileB = $state<{ data: any[][], columns: string[], hasHeaders: boolean } | null>(null);
+    let selectedColumnB = $state<string>("all");
+
+    function updateListFromExcel(isListA: boolean) {
+        const fileState = isListA ? uploadedFileA : uploadedFileB;
+        const selectedCol = isListA ? selectedColumnA : selectedColumnB;
+        
+        if (!fileState) return;
+
+        const actualRows = fileState.hasHeaders ? fileState.data.slice(1) : fileState.data;
+        
+        let items: string[] = [];
+        
+        if (selectedCol === "all") {
+            for (const row of actualRows) {
+                const colCount = fileState.columns.length;
+                const rowCells = [];
+                for (let i = 0; i < colCount; i++) {
+                    const cell = row[i];
+                    let cellStr = cell !== undefined && cell !== null ? String(cell).trim() : '';
+                    if (cellStr.includes(',')) {
+                        cellStr = `"${cellStr}"`;
+                    }
+                    rowCells.push(cellStr);
+                }
+                if (rowCells.some(c => c !== '')) {
+                    items.push(rowCells.join(','));
+                }
+            }
+        } else {
+            const colIdx = parseInt(selectedCol);
+            for (const row of actualRows) {
+                const cell = row[colIdx];
+                if (cell !== undefined && cell !== null) {
+                    const str = String(cell).trim();
+                    if (str !== '') items.push(str);
+                }
+            }
+        }
+        
+        if (isListA) {
+            listA = items.join('\n');
+        } else {
+            listB = items.join('\n');
+        }
+    }
 
     function compare() {
         const arrA = listA.split('\n').map(l => l.trim().normalize('NFC')).filter(l => l.length > 0);
@@ -56,6 +108,8 @@
         status = "idle";
         listA = "";
         listB = "";
+        uploadedFileA = null;
+        uploadedFileB = null;
     }
 
     function copyToClipboard(textArray: string[]) {
@@ -69,23 +123,66 @@
         if (!input.files || input.files.length === 0) return;
         
         const file = input.files[0];
-        const reader = new FileReader();
-        reader.onload = (event) => {
-            if (event.target && typeof event.target.result === "string") {
-                if (isListA) {
-                    listA = event.target.result;
-                } else {
-                    listB = event.target.result;
+        const fileExt = file.name.split('.').pop()?.toLowerCase();
+
+        if (fileExt === 'txt') {
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                if (event.target && typeof event.target.result === "string") {
+                    if (isListA) {
+                        listA = event.target.result;
+                        uploadedFileA = null;
+                    } else {
+                        listB = event.target.result;
+                        uploadedFileB = null;
+                    }
                 }
-            }
-        };
-        reader.readAsText(file);
+            };
+            reader.readAsText(file);
+        } else if (fileExt === 'csv' || fileExt === 'xls' || fileExt === 'xlsx') {
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                if (event.target && event.target.result) {
+                    const data = new Uint8Array(event.target.result as ArrayBuffer);
+                    const workbook = XLSX.read(data, { type: 'array' });
+                    const firstSheetName = workbook.SheetNames[0];
+                    const worksheet = workbook.Sheets[firstSheetName];
+                    const jsonData: any[][] = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
+                    
+                    if (jsonData.length > 0) {
+                        let maxCols = 0;
+                        for (const row of jsonData) {
+                            if (row.length > maxCols) maxCols = row.length;
+                        }
+                        
+                        const headers = jsonData[0] || [];
+                        const columns = [];
+                        for (let i = 0; i < maxCols; i++) {
+                            const h = headers[i];
+                            columns.push(h !== undefined && h !== null && h !== '' ? String(h) : `Column ${i + 1}`);
+                        }
+                        
+                        if (isListA) {
+                            uploadedFileA = { data: jsonData, columns, hasHeaders: true };
+                            selectedColumnA = "all";
+                            updateListFromExcel(true);
+                        } else {
+                            uploadedFileB = { data: jsonData, columns, hasHeaders: true };
+                            selectedColumnB = "all";
+                            updateListFromExcel(false);
+                        }
+                    }
+                }
+            };
+            reader.readAsArrayBuffer(file);
+        }
         
         status = 'idle';
         
         // Reset input so the same file can be selected again
         input.value = "";
     }
+
 </script>
 
 <div class="card">
@@ -97,11 +194,25 @@
                             {texts.listA || "List A"}
                             <span class="count-badge">{listA.split('\n').filter(l => l.trim().length > 0).length}</span>
                         </div>
-                        <label class="btn-icon" title="Load from text/csv">
+                        <label class="btn-icon" title="Load from txt/csv/excel">
                             <i class="ti ti-upload"></i>
-                            <input type="file" accept=".txt,.csv" style="display: none;" onchange={(e) => handleFileUpload(e, true)}>
+                            <input type="file" accept=".txt,.csv,.xls,.xlsx" style="display: none;" onchange={(e) => handleFileUpload(e, true)}>
                         </label>
                     </div>
+                    {#if uploadedFileA}
+                        <div class="file-options">
+                            <label class="header-checkbox">
+                                <input type="checkbox" bind:checked={uploadedFileA.hasHeaders} onchange={() => updateListFromExcel(true)}>
+                                {texts.firstRowIsHeader || "First row is header"}
+                            </label>
+                            <select bind:value={selectedColumnA} onchange={() => updateListFromExcel(true)} class="column-select-inline">
+                                <option value="all">{texts.allColumns || "All Columns"}</option>
+                                {#each uploadedFileA.columns as col, i}
+                                    <option value={String(i)}>{col}</option>
+                                {/each}
+                            </select>
+                        </div>
+                    {/if}
                     <textarea
                         bind:value={listA}
                         oninput={() => status = 'idle'}
@@ -116,11 +227,25 @@
                             {texts.listB || "List B"}
                             <span class="count-badge">{listB.split('\n').filter(l => l.trim().length > 0).length}</span>
                         </div>
-                        <label class="btn-icon" title="Load from text/csv">
+                        <label class="btn-icon" title="Load from txt/csv/excel">
                             <i class="ti ti-upload"></i>
-                            <input type="file" accept=".txt,.csv" style="display: none;" onchange={(e) => handleFileUpload(e, false)}>
+                            <input type="file" accept=".txt,.csv,.xls,.xlsx" style="display: none;" onchange={(e) => handleFileUpload(e, false)}>
                         </label>
                     </div>
+                    {#if uploadedFileB}
+                        <div class="file-options">
+                            <label class="header-checkbox">
+                                <input type="checkbox" bind:checked={uploadedFileB.hasHeaders} onchange={() => updateListFromExcel(false)}>
+                                {texts.firstRowIsHeader || "First row is header"}
+                            </label>
+                            <select bind:value={selectedColumnB} onchange={() => updateListFromExcel(false)} class="column-select-inline">
+                                <option value="all">{texts.allColumns || "All Columns"}</option>
+                                {#each uploadedFileB.columns as col, i}
+                                    <option value={String(i)}>{col}</option>
+                                {/each}
+                            </select>
+                        </div>
+                    {/if}
                     <textarea
                         bind:value={listB}
                         oninput={() => status = 'idle'}
@@ -175,6 +300,8 @@
         {/if}
     </div>
 </div>
+
+
 
 <style>
     .lists-container {
@@ -357,5 +484,41 @@
         .content-textarea {
             min-height: 150px;
         }
+    }
+
+    .file-options {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 8px;
+        padding: 8px;
+        background: var(--bg-alt, #f8fafc);
+        border: 1px solid var(--bd, #e2e8f0);
+        border-radius: 6px;
+    }
+
+    .column-select-inline {
+        width: 100%;
+        padding: 6px 8px;
+        border-radius: 4px;
+        border: 1px solid var(--bd);
+        background: var(--bg);
+        color: var(--tx);
+        font-size: 13px;
+        outline: none;
+    }
+
+    .column-select-inline:focus {
+        border-color: var(--ac);
+    }
+
+    .header-checkbox {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 13px;
+        color: var(--tx-light, #6b7280);
+        cursor: pointer;
+        white-space: nowrap;
     }
 </style>

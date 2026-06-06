@@ -27,6 +27,8 @@
         duplicatesA: t('compare_two_lists.duplicates_a', dict) || 'Duplicates A',
         duplicatesB: t('compare_two_lists.duplicates_b', dict) || 'Duplicates B',
         btnCopy: t('compare_two_lists.btn_copy', dict) || 'Copy to Clipboard',
+        firstRowIsHeader: t('compare_two_lists.first_row_is_header', dict) || 'First row is header',
+        allColumns: t('compare_two_lists.all_columns', dict) || 'All Columns',
     });
 
     let relatedTools = $derived(getRelatedTools('compare-two-lists'));
@@ -35,8 +37,7 @@
 <Seo 
     title={t('tool.compare_two_lists.seo.title', dict) || ''} 
     description={t('tool.compare_two_lists.seo.description', dict) || ''} 
-    allowedMarkets={["en"]}
-    noHreflang = {true}
+    allowedMarkets={["en", "ja"]}
 />
 
 <div class="hero">

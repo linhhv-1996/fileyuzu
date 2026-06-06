@@ -58,14 +58,10 @@
   "pdf_compressor.upload.btn_sample": "Try sample PDF",
   "pdf_compressor.upload.hint": "Select one PDF file to compress and make it smaller",
   "_comment_home": "================ Home ================",
-  
-
-"home.seo.title": "Free Online Tools — Browser-Based, No Uploads",
-"home.seo.description": "Use free online tools for files, images, PDFs, videos, text, barcodes, and more — all directly in your browser. No uploads, no sign-up, and your data stays private.",
-"home.hero.title": "Free Online Tools",
-"home.hero.description": "Fast, private tools for everyday tasks, running directly in your browser. No uploads needed — your files never leave your device.",
-
-  
+  "home.seo.title": "Free Online Tools — Browser-Based, No Uploads",
+  "home.seo.description": "Use free online tools for files, images, PDFs, videos, text, barcodes, and more — all directly in your browser. No uploads, no sign-up, and your data stays private.",
+  "home.hero.title": "Free Online Tools",
+  "home.hero.description": "Fast, private tools for everyday tasks, running directly in your browser. No uploads needed — your files never leave your device.",
   "home.pill.private": "Files never leave your device",
   "home.pill.instant": "Instant, no queues",
   "home.pill.free": "100% free",
@@ -1281,12 +1277,15 @@
   "donate.title": "Support the Creator",
   "donate.description": "Help me maintain the server and keep this tool free.",
   "donate.button": "Support on Ko-fi",
-
-  "tool.compare_two_lists.seo.title": "Compare Lists Online – Find Differences Between Two Lists",
-  "tool.compare_two_lists.seo.description": "Compare two lists online to find differences, matches, duplicates, and unique items. Paste your lists and compare instantly for free.",
+  "tool.compare_two_lists.title": "Compare Two Lists",
+  "tool.compare_two_lists.description": "Paste text or upload TXT, CSV and Excel files to find differences, matches, duplicates, and unique values between two lists.",
+  "tool.compare_two_lists.short_description": "Find differences, matches, and duplicates between two lists.",
+  "tool.compare_two_lists.seo.title": "Compare Lists Online – CSV, Excel & Text List Diff Tool",
+  "tool.compare_two_lists.seo.description": "Compare two lists online from pasted text, CSV, or Excel files. Find differences, matches, duplicates, missing items, and unique values instantly for free.",
   "tool.compare_two_lists.hero.title": "Compare Two Lists Online",
-  "tool.compare_two_lists.hero.description": "Paste two lists to instantly find items only in each list, matching items, duplicates, and unique values.",
-
+  "tool.compare_two_lists.hero.description": "Paste text or upload CSV and Excel files to compare two lists instantly. Find items only in each list, matches, duplicates, and unique values.",
+  "compare_two_lists.first_row_is_header": "First row is header",
+  "compare_two_lists.all_columns": "All Columns",
   "compare_two_lists.list_a": "List A",
   "compare_two_lists.placeholder_a": "Paste items for List A here, one per line...",
   "compare_two_lists.list_b": "List B",
@@ -1300,84 +1299,77 @@
   "compare_two_lists.duplicates_a": "Duplicates A",
   "compare_two_lists.duplicates_b": "Duplicates B",
   "compare_two_lists.btn_copy": "Copy to Clipboard",
-
   "compare_two_lists.how_to_use.title": "How to Compare Two Lists",
   "compare_two_lists.how_to_use.steps": [
-    "Paste your text into the two list boxes, or upload TXT or CSV files from your device.",
-    "Choose how to compare your lists, such as ignoring case, trimming spaces, removing blank lines, or detecting duplicates.",
+    "Paste your text into the two list boxes, or upload TXT, CSV, or Excel files from your device.",
+    "Choose how to compare your lists, such as ignoring case, trimming spaces, removing blank lines, selecting columns from CSV or Excel files, or detecting duplicates.",
     "UploadLess will compare both lists in your browser and show items only in List A, only in List B, and found in both lists.",
     "Review the results, then copy or export the differences, matches, duplicates, or unique values."
   ],
-
   "compare_two_lists.why_use.title": "Why Use UploadLess Compare Lists",
   "compare_two_lists.why_use.benefits": [
     {
       "icon": "shield-lock",
       "title": "Private List Comparison",
-      "description": "Compare two lists directly in your browser. Your text, CSV data, and uploaded files are not sent to a server."
+      "description": "Compare two lists directly in your browser. Your text, CSV data, Excel spreadsheets, and uploaded files are not sent to a server."
     },
     {
       "icon": "bolt",
-      "title": "Fast and Free",
+      "title": "Fast and Free Online Tool",
       "description": "Compare lists online for free without creating an account, installing software, or paying hidden fees."
     },
     {
       "icon": "file-text",
-      "title": "Paste Text or Upload Files",
-      "description": "Paste your lists manually or upload TXT and CSV files to quickly compare rows, values, IDs, names, emails, or keywords."
+      "title": "Paste Text or Upload CSV and Excel Files",
+      "description": "Paste your lists manually or upload TXT, CSV, and Excel files to compare rows, columns, values, IDs, names, emails, SKUs, or keywords."
     },
     {
       "icon": "list-check",
       "title": "Find Differences, Matches, and Duplicates",
-      "description": "Instantly find items only in List A, only in List B, items found in both lists, duplicate values, and unique items."
+      "description": "Instantly find items only in List A, only in List B, items found in both lists, duplicate values, missing items, and unique values."
     }
   ],
-
   "compare_two_lists.faq.title": "Compare Lists FAQ",
   "compare_two_lists.faq.items": [
     {
       "q": "How do I compare two lists online?",
-      "a": "Paste your two lists into the input boxes or upload TXT or CSV files. UploadLess will compare the lists in your browser and show differences, matches, duplicates, and unique items instantly."
+      "a": "Paste your two lists into the input boxes, or upload TXT, CSV, or Excel files. UploadLess compares both lists in your browser and shows differences, matches, duplicates, missing items, and unique values instantly."
     },
     {
-      "q": "What is the best way to compare lists?",
-      "a": "The easiest way to compare lists is to paste both lists into a list comparison tool and check which items appear only in List A, only in List B, or in both lists."
-    },
-    {
-      "q": "Can I compare two Excel columns with this tool?",
-      "a": "Yes. Copy two columns from Excel or Google Sheets and paste them into the list boxes, or save your data as a CSV file and upload it to compare the values."
+      "q": "Can I compare Excel files or Excel columns?",
+      "a": "Yes. You can upload Excel files or paste columns copied from Excel or Google Sheets. The tool helps you compare spreadsheet values, rows, IDs, emails, SKUs, keywords, and other list data without formulas."
     },
     {
       "q": "Can I compare CSV files online?",
-      "a": "Yes. UploadLess supports TXT and CSV files, so you can compare CSV lists online and find missing rows, matching values, duplicate entries, and unique items."
+      "a": "Yes. UploadLess supports CSV uploads, so you can compare CSV lists online and find missing rows, matching values, duplicate entries, and unique items directly in your browser."
+    },
+    {
+      "q": "What is the best way to compare two lists?",
+      "a": "The easiest way to compare two lists is to use an online list comparison tool. Paste your lists or upload TXT, CSV, or Excel files, then check which items appear only in List A, only in List B, or in both lists."
     },
     {
       "q": "How do I find differences between two lists?",
-      "a": "After you compare two lists, UploadLess shows items only in the first list, items only in the second list, and items found in both lists, making it easy to find differences."
+      "a": "Upload or paste both lists, then run the comparison. UploadLess shows items only in the first list, items only in the second list, and items found in both lists so you can quickly spot missing or different values."
     },
     {
-      "q": "Can I find common values in two lists?",
-      "a": "Yes. The tool identifies matching items that appear in both lists, which is useful for comparing IDs, emails, keywords, product SKUs, URLs, or customer records."
+      "q": "Can I find matches or common values in two lists?",
+      "a": "Yes. The tool identifies matching items that appear in both lists, making it useful for comparing customer lists, email lists, product SKUs, URLs, IDs, keywords, inventory data, or spreadsheet columns."
     },
     {
-      "q": "Can I find duplicate values between two lists?",
-      "a": "Yes. UploadLess can help detect duplicate values and repeated items so you can clean up your lists before copying or exporting the results."
+      "q": "Can I find duplicate values in a list?",
+      "a": "Yes. UploadLess can detect duplicate values and repeated items, helping you clean up pasted text, CSV files, Excel spreadsheets, email lists, keyword lists, and other data before copying or exporting the results."
     },
     {
-      "q": "Can I cross reference two lists?",
-      "a": "Yes. You can cross reference two lists to see what is missing, what matches, and what is unique to each list without using formulas or spreadsheet software."
+      "q": "Can I cross-reference two lists?",
+      "a": "Yes. You can cross-reference two lists to see what is missing, what matches, and what is unique to each list. It is useful for checking records, emails, IDs, SKUs, keywords, URLs, and spreadsheet data."
     },
     {
-      "q": "Can I compare email lists online?",
-      "a": "Yes. You can paste or upload email lists to find addresses that are missing, duplicated, shared between both lists, or unique to one list."
+      "q": "Can I compare email lists, keyword lists, or SKU lists?",
+      "a": "Yes. You can paste or upload email lists, keyword lists, SKU lists, URL lists, ID lists, and other text, CSV, or Excel data to find differences, matches, duplicates, missing items, and unique values."
     },
     {
       "q": "Is my list data uploaded to a server?",
-      "a": "No. UploadLess compares your lists directly in your browser, so your text, CSV data, and uploaded files do not need to be sent to a server."
+      "a": "No. UploadLess compares your lists directly in your browser. Your pasted text, CSV data, Excel files, and uploaded documents do not need to be sent to a server, which helps keep your list comparison private."
     }
-  ],
-
-  "tool.compare_two_lists.title": "Compare Two Lists",
-  "tool.compare_two_lists.description": "Paste text or upload TXT and CSV files to find differences, matches, duplicates, and unique values between two lists.",
-  "tool.compare_two_lists.short_description": "Find differences, matches, and duplicates between two lists."
+  ]
 }

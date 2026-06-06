@@ -58,13 +58,10 @@
   "pdf_compressor.upload.btn_sample": "Testar PDF de exemplo",
   "pdf_compressor.upload.hint": "Selecione um PDF para comprimir e deixar menor",
   "_comment_home": "================ Home ================",
-  
-"home.seo.title": "Ferramentas Online Gratuitas — Baseadas no Navegador, Sem Uploads",
-"home.seo.description": "Use ferramentas online gratuitas para arquivos, imagens, PDFs, vídeos, texto, códigos de barras e muito mais — tudo diretamente no seu navegador. Sem uploads, sem cadastro, e seus dados permanecem privados.",
-"home.hero.title": "Ferramentas Online Gratuitas",
-"home.hero.description": "Ferramentas rápidas e privadas para tarefas do dia a dia, executadas diretamente no seu navegador. Sem necessidade de uploads — seus arquivos nunca saem do seu dispositivo.",
-  
-
+  "home.seo.title": "Ferramentas Online Gratuitas — Baseadas no Navegador, Sem Uploads",
+  "home.seo.description": "Use ferramentas online gratuitas para arquivos, imagens, PDFs, vídeos, texto, códigos de barras e muito mais — tudo diretamente no seu navegador. Sem uploads, sem cadastro, e seus dados permanecem privados.",
+  "home.hero.title": "Ferramentas Online Gratuitas",
+  "home.hero.description": "Ferramentas rápidas e privadas para tarefas do dia a dia, executadas diretamente no seu navegador. Sem necessidade de uploads — seus arquivos nunca saem do seu dispositivo.",
   "home.pill.private": "Os arquivos nunca saem do seu dispositivo",
   "home.pill.instant": "Instantâneo, sem filas",
   "home.pill.free": "100% grátis",
@@ -1130,5 +1127,7 @@
   "handwriting_ocr.lang.th": "Tailandês",
   "donate.title": "Apoie o Criador",
   "donate.description": "Ajude-me a manter o servidor e manter esta ferramenta sem anúncios.",
-  "donate.button": "Apoiar no Ko-fi"
+  "donate.button": "Apoiar no Ko-fi",
+  "compare_two_lists.first_row_is_header": "First row is header",
+  "compare_two_lists.all_columns": "All Columns"
 }
