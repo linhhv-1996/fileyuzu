@@ -1,2 +1,4 @@
 # allow crawling everything by default
 User-agent: *
+
+Sitemap: https://uploadless.app/sitemap.xml
