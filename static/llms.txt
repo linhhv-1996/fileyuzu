@@ -35,6 +35,14 @@ The site supports 7 languages: English (en), Japanese (ja), Traditional Chinese 
 - JAN Code Generator: https://uploadless.app/ja/jan-code-generator
   *(Supported in Japanese ONLY - Note the /ja/ in the URL)*
 
+**Text & Image Tools**
+- Image to Text: https://uploadless.app/image-to-text
+  *(Supported in 4 languages: en, ja, ko, zh-tw)*
+- Handwriting OCR: https://uploadless.app/handwriting-ocr
+  *(Supported in 3 languages: en, ja, ko)*
+- Compare Two Lists: https://uploadless.app/compare-two-lists
+  *(Supported in 2 languages: en, ja)*
+
 ## Important Links
 - [Home](https://uploadless.app/)
 
