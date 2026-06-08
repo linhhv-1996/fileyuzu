@@ -144,7 +144,7 @@
     .article-divider {
         border: none;
         border-top: 1px solid var(--bd);
-        margin: 2rem 0;
+        margin: 1rem 0;
     }
 
     /* ── Article Content ── */
@@ -183,6 +183,10 @@
     :global(.article-content p) {
         margin: 0 0 1.25rem 0;
         color: var(--tx);
+    }
+
+    :global(.article-content > blockquote > p) {
+margin-bottom: 0;
     }
 
     :global(.article-content ul),
@@ -247,14 +251,14 @@
     :global(.article-content hr) {
         border: none;
         border-top: 1px solid var(--bd);
-        margin: 2rem 0;
+        margin: 1rem 0;
     }
 
     :global(.article-content img) {
         max-width: 100%;
         height: auto;
         border-radius: 12px;
-        margin: 1.5rem 0;
+        margin: 1rem 0;
         border: 1px solid var(--bd);
     }
 
