@@ -29,7 +29,7 @@
     let status = $state<"idle" | "proc" | "done">("idle");
     let content = $state("");
     let inputMode = $state<"manual" | "file" | "sequence">("manual");
-    let seqStart = $state("10001");
+    let seqStart = $state("SKU-001");
     let seqQuantity = $state(100);
     let seqStep = $state(1);
     let fileObj = $state<File | null>(null);
@@ -308,7 +308,7 @@
         inputMode = mode;
         content = "";
         fileObj = null;
-        seqStart = "10001";
+        seqStart = "SKU-001";
         seqQuantity = 100;
         seqStep = 1;
         hasError = false;
@@ -360,7 +360,7 @@
             <div class="input-frame sequence-inputs" style="margin-bottom: 10px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
                 <div class="setting-row" style="flex-direction: column; align-items: flex-start; border: none; padding: 0;">
                     <label for="inp-1" class="setting-lbl" style="margin-bottom: 0px;">{texts.seqStart || "Start Number"}</label>
-                    <input id="inp-1" type="text" class="content-textarea" bind:value={seqStart} placeholder="10001" style="padding: 6px;" />
+                    <input id="inp-1" type="text" class="content-textarea" bind:value={seqStart} placeholder="SKU-001" style="padding: 6px;" />
                 </div>
                 <div class="setting-row" style="flex-direction: column; align-items: flex-start; border: none; padding: 0;">
                     <label for="inp-2" class="setting-lbl" style="margin-bottom: 0px;">{texts.seqQty || "Quantity"}</label>
