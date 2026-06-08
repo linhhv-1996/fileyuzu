@@ -26,7 +26,17 @@
         btnDownloadZip: t('barcode_generator.btn_download_zip', dict),
         btnGenNew: t('barcode_generator.btn_downloadbtn_gen_new', dict),
         yes: t('barcode_generator.yes', dict),
-        no: t('barcode_generator.no', dict)
+        no: t('barcode_generator.no', dict),
+        tabManual: t('barcode_generator.tab_manual', dict),
+        tabFile: t('barcode_generator.tab_file', dict),
+        tabSequence: t('barcode_generator.tab_sequence', dict),
+        tipManual: t('barcode_generator.tip_manual', dict),
+        uploadHint: t('barcode_generator.upload_hint', dict),
+        uploadSubhint: t('barcode_generator.upload_subhint', dict),
+        seqStart: t('barcode_generator.seq_start', dict),
+        seqQty: t('barcode_generator.seq_qty', dict),
+        seqStep: t('barcode_generator.seq_step', dict),
+        generating: t('barcode_generator.generating', dict),
     });
 
     let relatedTools = $derived(getRelatedTools('barcode-generator'));

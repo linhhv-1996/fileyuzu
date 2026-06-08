@@ -1039,6 +1039,18 @@
   "barcode_generator.how_to_use.title": "วิธีสร้างบาร์โค้ดออนไลน์",
   "barcode_generator.faq.title": "คำถามที่พบบ่อยเกี่ยวกับเครื่องสร้างบาร์โค้ด",
   "barcode_generator.btn_downloadbtn_gen_new": "สร้างบาร์โค้ดใหม่",
+
+  "barcode_generator.tab_manual": "ป้อนด้วยตนเอง",
+  "barcode_generator.tab_file": "อัปโหลดไฟล์",
+  "barcode_generator.tab_sequence": "เลขลำดับ",
+  "barcode_generator.tip_manual": "เคล็ดลับ: หากต้องการใส่ป้ายกำกับแบบกำหนดเอง ให้กรอกแต่ละบรรทัดในรูปแบบ \"บาร์โค้ด, ชื่อสินค้า\"",
+  "barcode_generator.upload_hint": "คลิกเพื่ออัปโหลดไฟล์ CSV หรือ Excel",
+  "barcode_generator.upload_subhint": "คอลัมน์ A: บาร์โค้ด | คอลัมน์ B: ป้ายกำกับ",
+  "barcode_generator.seq_start": "หมายเลขเริ่มต้น",
+  "barcode_generator.seq_qty": "จำนวน",
+  "barcode_generator.seq_step": "ช่วงห่าง",
+  "barcode_generator.generating": "กำลังสร้าง",
+
   "barcode_generator.seo.title": "สร้างบาร์โค้ดฟรีออนไลน์ สำหรับสินค้าและฉลาก",
   "barcode_generator.seo.description": "สร้างบาร์โค้ดออนไลน์ฟรีสำหรับสินค้า ฉลาก สต๊อก และคลังสินค้า รองรับ EAN-13, Code 128, Code 39 สร้างทีละรายการหรือหลายอัน แล้วดาวน์โหลด PNG, SVG หรือ PDF ได้ทันที",
   "barcode_generator.hero.title": "สร้างบาร์โค้ดออนไลน์ฟรี",

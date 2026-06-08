@@ -1039,6 +1039,19 @@
   "barcode_generator.how_to_use.title": "온라인에서 바코드를 생성하는 방법",
   "barcode_generator.faq.title": "바코드 생성기 FAQ",
   "barcode_generator.btn_downloadbtn_gen_new": "새 바코드 생성",
+
+  "barcode_generator.tab_manual": "수동",
+  "barcode_generator.tab_file": "파일 업로드",
+  "barcode_generator.tab_sequence": "순차 번호",
+  "barcode_generator.tip_manual": "팁: 사용자 지정 라벨을 포함하려면 각 줄에 \"바코드, 상품명\" 형식으로 입력하세요.",
+  "barcode_generator.upload_hint": "CSV 또는 Excel 파일을 클릭하여 업로드",
+  "barcode_generator.upload_subhint": "A열: 바코드 | B열: 라벨",
+  "barcode_generator.seq_start": "시작 번호",
+  "barcode_generator.seq_qty": "수량",
+  "barcode_generator.seq_step": "간격",
+  "barcode_generator.generating": "생성 중",
+
+
   "barcode_generator.seo.title": "무료 바코드 생성기 - 온라인으로 바코드 만들기",
   "barcode_generator.seo.description": "무료 온라인 바코드 생성기로 상품, 라벨, 재고용 바코드를 빠르게 만들고 PNG, SVG, PDF로 다운로드하거나 인쇄하세요.",
   "barcode_generator.hero.title": "무료 온라인 바코드 생성기",

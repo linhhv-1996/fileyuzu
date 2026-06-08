@@ -997,81 +997,99 @@
   "barcode_generator.how_to_use.title": "How to Generate Barcodes Online",
   "barcode_generator.faq.title": "Barcode Generator FAQ",
   "barcode_generator.btn_downloadbtn_gen_new": "Generate new barcodes",
+  
+  "barcode_generator.tab_manual": "Manual",
+  "barcode_generator.tab_file": "Upload File",
+  "barcode_generator.tab_sequence": "Sequential",
+  "barcode_generator.tip_manual": "Tip: Format as \"Barcode, Product Name\" on each line to include custom labels.",
+  "barcode_generator.upload_hint": "Click to upload CSV or Excel file",
+  "barcode_generator.upload_subhint": "Column A: Barcode | Column B: Label",
+  "barcode_generator.seq_start": "Start Number",
+  "barcode_generator.seq_qty": "Quantity",
+  "barcode_generator.seq_step": "Step",
+  "barcode_generator.generating": "Generating",
+  
   "barcode_generator.seo.title": "Free Barcode Generator Online - Create & Print Barcodes",
   "barcode_generator.seo.description": "Create barcodes online for free. Generate printable barcode labels, product codes, PNG images, SVG files, PDFs, or bulk barcodes in seconds.",
   "barcode_generator.hero.title": "Free Online Barcode Generator",
   "barcode_generator.hero.description": "Create barcodes instantly for products, labels, inventory, and packaging. Generate single or bulk barcodes, then download as PNG, SVG, PDF, or print-ready files.",
+  
   "barcode_generator.how_to_use.steps": [
-    "Choose the barcode type you need, such as Code 128, EAN-13, UPC, or QR Code.",
-    "Enter your barcode data in the text area. To create multiple barcodes, add one value per line.",
-    "Customize the barcode size, label display, and download format, such as PNG or SVG.",
-    "Click Generate Barcodes to create your barcodes instantly in your browser.",
-    "Download each barcode individually or use the generated files for labels, products, inventory, or packaging."
-  ],
+    "Select your preferred mode (Manual, Bulk Upload, or Sequential) and choose the barcode type you need, such as Code 128, EAN-13, UPC, or JAN Code.",
+    "For Manual Mode: Enter your barcode data directly into the input area. To create multiple barcodes at once, add one value per line.",
+    "For Bulk Upload Mode: Upload your CSV or Excel file containing the list of product data. Ensure each code is in a separate row.",
+    "For Sequential Mode: Set your starting value, total count, and step increment to automatically generate a continuous sequence of barcodes.",
+    "Customize your barcode settings, including label design, dimensions, and download formats like PNG, SVG, or printable PDF.",
+    "Click 'Generate Barcodes' to process instantly in your browser, then download them individually or as a single bulk ZIP/PDF file for your inventory, products, or packaging."
+],
+
   "barcode_generator.why_use.benefits": [
     {
       "icon": "shield-lock",
-      "title": "Private Barcode Generator",
-      "description": "Create barcodes directly in your browser. Your barcode data is not uploaded, stored, or sent to any server."
+      "title": "100% Private & Secure Generator",
+      "description": "Generate barcodes safely with total privacy. All processing happens 100% client-side in your browser, meaning your sensitive product data is never uploaded, stored, or sent to any server."
     },
     {
       "icon": "bolt",
-      "title": "Fast Online Barcode Creation",
-      "description": "Generate single or multiple barcodes instantly without installing software or creating an account."
-    },
-    {
-      "icon": "device-desktop",
-      "title": "High-Quality Export Formats",
-      "description": "Download your generated barcodes as crisp PNG images or scalable SVG files for labels, products, and packaging."
+      "title": "Free & Instant Online Barcode Maker",
+      "description": "The ultimate free barcode generator tool to create accurate codes instantly. No account registration, no subscriptions, and no software installation required to start creating."
     },
     {
       "icon": "list",
-      "title": "Bulk Barcode Generator",
-      "description": "Create multiple barcodes at once by entering one barcode value per line, ideal for inventory, product codes, and batch labels."
+      "title": "Flexible Bulk & Sequential Modes",
+      "description": "An advanced bulk barcode generator designed for efficiency. Easily input data line-by-line, upload CSV/Excel files, or generate sequential numbers automatically for seamless batch processing."
+    },
+    {
+      "icon": "device-desktop",
+      "title": "High-Quality Printable Formats",
+      "description": "Export your designs as high-resolution PNG images, crisp PDF sheets, or scalable vector files using our barcode svg maker—perfectly optimized for a professional barcode label maker."
     }
   ],
+
   "barcode_generator.faq.items": [
     {
-      "q": "What types of barcodes can I generate?",
-      "a": "You can generate popular barcode types such as Code 128, EAN-13, EAN-8, UPC-A, QR Code, Data Matrix, ITF-14, and JAN codes for products, labels, inventory, and packaging."
+      "q": "How do I use the bulk barcode generator with a CSV or Excel file?",
+      "a": "To generate barcodes in bulk, switch to the 'Upload CSV/Excel' mode. Upload your spreadsheet containing your product codes (one per row), and our online tool will instantly process all codes locally in your browser. You can then download them all at once as a single ZIP file."
     },
     {
-      "q": "Is this barcode generator free to use?",
-      "a": "Yes. This free barcode generator lets you create barcodes online without installing software or creating an account."
+      "q": "Can I automatically create a sequence of numbers using this barcode maker?",
+      "a": "Yes. Our sequential barcode maker mode allows you to generate a continuous series of barcodes automatically. Simply input your starting numeric value, define the total count needed, and set the step increment. The tool will instantly render the entire serial sequence without any manual typing."
     },
     {
-      "q": "Can I create barcodes online without uploading my data?",
-      "a": "Yes. Barcodes are generated directly in your browser, so your barcode values are not uploaded or stored on a server."
+      "q": "How does the automatic check digit calculator work for JAN codes?",
+      "a": "When creating a JAN-13 or JAN-8 barcode, our built-in jan code check digit calculator automatically computes the final verification digit using the standard GS1 modulo-10 algorithm. Even if you only input the first 12 digits, the tool ensures your final barcode image is valid and scannable."
     },
     {
-      "q": "Can I generate multiple barcodes at once?",
-      "a": "Yes. The bulk barcode generator lets you create multiple barcodes by entering one barcode value per line, making it useful for inventory lists, product codes, and batch labels."
+      "q": "What is the standard barcode type used for retail products in the US?",
+      "a": "For retail products sold in the United States, UPC-A is the standard 12-digit barcode format used at point-of-sale (POS) systems. If you are importing or exporting products globally, you can also use our product barcode generator to create 13-digit EAN-13 or JAN codes."
     },
     {
-      "q": "Can I use this as a barcode label maker?",
-      "a": "Yes. You can create printable barcode labels for products, packaging, inventory, shelves, and shipping workflows, then download the generated barcode images."
+      "q": "Can I export scalable vector formats using this barcode creator?",
+      "a": "Yes. Beyond standard raster images, you can use our built-in barcode svg maker to export high-quality vector graphics. This is ideal for professional graphic designers who need to scale barcode graphics infinitely for product packaging layouts without losing crispness."
     },
     {
-      "q": "Can I make product barcodes with this tool?",
-      "a": "Yes. You can use the product barcode generator to create barcodes for product codes, SKU numbers, retail labels, and packaging. For official retail UPC or EAN codes, make sure your numbers are properly registered."
+      "q": "Is a printable barcode maker layout supported for label sheets?",
+      "a": "Yes. Our printable barcode maker functionality allows you to customize label dimensions, font sizes, and layouts. You can export your generated codes directly into a print-ready PDF format that aligns perfectly with standard commercial sticky label sheets like Avery."
     },
     {
-      "q": "What file formats can I download?",
-      "a": "You can download generated barcodes as high-quality PNG images or scalable SVG files, depending on the format options available in the tool."
+      "q": "Can I create barcodes online securely without commercial risk?",
+      "a": "Absolutely. Unlike traditional server-based platforms, this barcode generator online tool uses advanced client-side scripts. Your inventory lists, pricing data, and proprietary product codes never leave your device, making it completely safe from data leaks or corporate espionage."
     },
     {
-      "q": "Can I create printable barcodes?",
-      "a": "Yes. You can generate printable barcodes for labels, documents, packaging, and product tags. For best results, use a clear size and test the barcode with a scanner before printing in bulk."
+      "q": "Do I need dedicated desktop barcode maker software to generate high volumes?",
+      "a": "No, you do not need to install any heavy desktop software. This browser-based tool matches the performance of native applications, handling thousands of rows of data via CSV uploads or sequential generation instantly using your local browser engine."
     },
     {
-      "q": "Can I generate JAN codes?",
-      "a": "Yes. You can create JAN-style barcodes such as EAN-13/JAN codes. If you need a valid JAN code, make sure the code value and check digit follow the correct standard."
+      "q": "Why does my printed barcode fail to scan correctly?",
+      "a": "Common issues include low print contrast, blurry lines caused by low-resolution scaling, or an invalid check digit. We recommend downloading your codes in vector format (.SVG) or high-res .PNG, ensuring the check digit matches GS1 standards, and performing a quick test scan on screen before mass printing."
     },
     {
-      "q": "Do I need to install any barcode maker software?",
-      "a": "No. This barcode maker works online in your browser, so you can create barcode images quickly without downloading desktop software."
+      "q": "Are the generated product codes officially registered with GS1?",
+      "a": "Our tool functions as a high-performance barcode image creator that converts text or numbers into scannable graphic bars. It does not issue or register barcode numbers. To get an official, globally unique barcode prefix for commercial retail, you must register your numbers directly with GS1."
     }
   ],
+
+
   "_comment_image_to_text": "================ Image to Text (OCR) ================",
   "image_to_text.seo.title": "Image to Text Converter Online Free | UploadLess",
   "image_to_text.seo.description": "Convert images to text online for free with UploadLess. Extract, copy, and edit text from JPG, PNG, photos, screenshots, and pictures using private OCR.",

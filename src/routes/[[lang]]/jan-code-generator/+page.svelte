@@ -26,7 +26,16 @@
         btnDownloadZip: t('barcode_generator.btn_download_zip', dict),
         btnGenNew: t('jan_code_generator.btn_downloadbtn_gen_new', dict),
         yes: t('jan_code_generator.yes', dict),
-        no: t('jan_code_generator.no', dict)
+        no: t('jan_code_generator.no', dict),
+        tabManual: t('barcode_generator.tab_manual', dict),
+        tabFile: t('barcode_generator.tab_file', dict),
+        tabSequence: t('barcode_generator.tab_sequence', dict),
+        tipManual: t('barcode_generator.tip_manual', dict),
+        uploadHint: t('barcode_generator.upload_hint', dict),
+        uploadSubhint: t('barcode_generator.upload_subhint', dict),
+        seqStart: t('barcode_generator.seq_start', dict),
+        seqQty: t('barcode_generator.seq_qty', dict),
+        seqStep: t('barcode_generator.seq_step', dict)
     });
 
     let relatedTools = $derived(getRelatedTools('jan-code-generator'));
@@ -42,7 +51,7 @@
 <div class="grid">
     <main>
         <!-- Use BarcodeGenerator but pass initialType="ean13" to default to JAN -->
-        <BarcodeGenerator texts={generatorTexts} initialType="ean13" />
+        <BarcodeGenerator texts={generatorTexts} initialType="ean13" hideSequentialTab={true} />
         
         <HowToUse title={t('jan_code_generator.how_to_use.title', dict)} steps={Array.isArray(t('jan_code_generator.how_to_use.steps', dict)) ? t('jan_code_generator.how_to_use.steps', dict) : []} />
         <WhyUse title={t('jan_code_generator.why_use.title', dict)} benefits={Array.isArray(t('jan_code_generator.why_use.benefits', dict)) ? t('jan_code_generator.why_use.benefits', dict) : []} />

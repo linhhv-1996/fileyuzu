@@ -1040,6 +1040,19 @@
   "barcode_generator.how_to_use.title": "如何在線上產生條碼",
   "barcode_generator.faq.title": "條碼產生器常見問題",
   "barcode_generator.btn_downloadbtn_gen_new": "產生新的條碼",
+
+  "barcode_generator.tab_manual": "手動",
+  "barcode_generator.tab_file": "上傳檔案",
+  "barcode_generator.tab_sequence": "連續編號",
+  "barcode_generator.tip_manual": "提示：若要加入自訂標籤，請在每一行使用「條碼, 商品名稱」格式。",
+  "barcode_generator.upload_hint": "點擊以上傳 CSV 或 Excel 檔案",
+  "barcode_generator.upload_subhint": "A 欄：條碼 | B 欄：標籤",
+  "barcode_generator.seq_start": "起始編號",
+  "barcode_generator.seq_qty": "數量",
+  "barcode_generator.seq_step": "間隔",
+  "barcode_generator.generating": "正在產生",
+
+
   "barcode_generator.seo.title": "免費條碼產生器｜線上製作 EAN-13、Code 128 條碼",
   "barcode_generator.seo.description": "免費線上產生條碼，支援 EAN-13、UPC、Code 128、Code 39 與一維條碼。可製作商品、庫存、SKU、序號與批次條碼，下載 PNG、SVG、PDF 或直接列印。",
   "barcode_generator.hero.title": "免費線上條碼產生器",

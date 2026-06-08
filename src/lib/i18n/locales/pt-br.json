@@ -1040,6 +1040,18 @@
   "barcode_generator.how_to_use.title": "Como Gerar Códigos de Barras Online",
   "barcode_generator.faq.title": "FAQ do Gerador de Código de Barras",
   "barcode_generator.btn_downloadbtn_gen_new": "Gerar novos códigos de barras",
+  "barcode_generator.generating": "Gerando",
+
+  "barcode_generator.tab_manual": "Manual",
+  "barcode_generator.tab_file": "Enviar arquivo",
+  "barcode_generator.tab_sequence": "Sequencial",
+  "barcode_generator.tip_manual": "Dica: para incluir rótulos personalizados, use o formato \"Código de barras, Nome do produto\" em cada linha.",
+  "barcode_generator.upload_hint": "Clique para enviar um arquivo CSV ou Excel",
+  "barcode_generator.upload_subhint": "Coluna A: Código de barras | Coluna B: Rótulo",
+  "barcode_generator.seq_start": "Número inicial",
+  "barcode_generator.seq_qty": "Quantidade",
+  "barcode_generator.seq_step": "Intervalo",
+
   "barcode_generator.seo.title": "Gerador de Código de Barras Grátis - Criar Barcode",
   "barcode_generator.seo.description": "Crie códigos de barras online grátis para produtos, etiquetas, estoque e embalagens. Gere barcodes em PNG, SVG ou PDF, individualmente ou em lote.",
   "barcode_generator.hero.title": "Gerador de Código de Barras Online Grátis",

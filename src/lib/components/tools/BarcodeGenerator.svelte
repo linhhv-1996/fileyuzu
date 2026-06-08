@@ -1,13 +1,15 @@
 <script lang="ts">
-    import { onMount } from "svelte";
+    import { onMount, tick } from "svelte";
     import JsBarcode from "jsbarcode";
     import QRCode from "qrcode";
     import JSZip from "jszip";
+    import { read, utils } from "xlsx";
 
     interface Props {
         texts?: any;
         barcodeTypes?: { value: string; label: string }[];
         initialType?: string;
+        hideSequentialTab?: boolean;
     }
 
     let {
@@ -21,10 +23,17 @@
             { value: "itf14", label: "ITF-14" },
         ],
         initialType,
+        hideSequentialTab = false,
     }: Props = $props();
 
     let status = $state<"idle" | "proc" | "done">("idle");
     let content = $state("");
+    let inputMode = $state<"manual" | "file" | "sequence">("manual");
+    let seqStart = $state("10001");
+    let seqQuantity = $state(100);
+    let seqStep = $state(1);
+    let fileObj = $state<File | null>(null);
+    let resultsRef = $state<HTMLDivElement | null>(null);
     // svelte-ignore state_referenced_locally
     let selectedType = $state(initialType || barcodeTypes[0].value);
     let scale = $state(3);
@@ -37,6 +46,14 @@
         [],
     );
     let progress = $state(0);
+
+    let lastGeneratedSignature = $state("");
+    let isDirty = $derived(
+        JSON.stringify({
+            content, inputMode, seqStart, seqQuantity, seqStep, fileObj: fileObj?.name,
+            selectedType, scale, includeText, outputFormat
+        }) !== lastGeneratedSignature
+    );
 
     let isTypeDropdownOpen = $state(false);
     function toggleTypeDropdown() {
@@ -61,22 +78,70 @@
         };
     });
 
+    async function prepareItems(): Promise<{code: string, label?: string}[]> {
+        let items: {code: string, label?: string}[] = [];
+        if (inputMode === "manual") {
+            const lines = content.split("\n").map(l => l.trim()).filter(l => l.length > 0);
+            items = lines.map(line => {
+                const parts = line.split(",");
+                if (parts.length > 1) {
+                    return { code: parts[0].trim(), label: parts.slice(1).join(",").trim() };
+                }
+                return { code: line };
+            });
+        } else if (inputMode === "sequence") {
+            let current = parseInt(seqStart) || 0;
+            const step = parseInt(seqStep.toString()) || 1;
+            const qty = parseInt(seqQuantity.toString()) || 100;
+            const padLength = seqStart.length;
+            const hasPadding = seqStart.startsWith("0");
+            
+            for (let i = 0; i < qty; i++) {
+                let codeStr = current.toString();
+                if (hasPadding && codeStr.length < padLength) {
+                    codeStr = codeStr.padStart(padLength, "0");
+                }
+                items.push({ code: codeStr });
+                current += step;
+            }
+        } else if (inputMode === "file" && fileObj) {
+            try {
+                const buffer = await fileObj.arrayBuffer();
+                const wb = read(buffer);
+                const ws = wb.Sheets[wb.SheetNames[0]];
+                const data = utils.sheet_to_json<string[]>(ws, { header: 1 });
+                for (let i = 0; i < data.length; i++) {
+                    const row = data[i];
+                    if (row && row.length > 0 && row[0]) {
+                        const code = row[0].toString().trim();
+                        if (code) {
+                            const label = row.length > 1 && row[1] ? row[1].toString().trim() : undefined;
+                            items.push({ code, label });
+                        }
+                    }
+                }
+            } catch(e) {
+                console.error("Failed to parse file", e);
+            }
+        }
+        return items;
+    }
+
     async function generateBarcodes() {
-        if (!content.trim()) return;
+        const items = await prepareItems();
+        if (items.length === 0) return;
+        
         hasError = false;
         errorLines = [];
         status = "proc";
         progress = 0;
 
-        const lines = content
-            .split("\n")
-            .map((l) => l.trim())
-            .filter((l) => l.length > 0);
         const newResults = [];
         const failedLines: string[] = [];
 
-        for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
+        for (let i = 0; i < items.length; i++) {
+            const item = items[i];
+            const line = item.code;
             try {
                 if (selectedType === "qrcode") {
                     const qrOpts = {
@@ -109,7 +174,7 @@
                     let format = selectedType.toUpperCase();
                     if (format === "UPCA") format = "UPC";
                     
-                    const jsBarcodeOpts = {
+                    const jsBarcodeOpts: any = {
                         format: format,
                         displayValue: includeText,
                         background: "#FFFFFF",
@@ -120,6 +185,10 @@
                         textMargin: 6,
                         fontOptions: "bold"
                     };
+
+                    if (includeText && item.label) {
+                        jsBarcodeOpts.text = item.label;
+                    }
 
                     if (outputFormat === "svg") {
                         const svgNode = document.createElementNS("http://www.w3.org/2000/svg", "svg");
@@ -147,8 +216,12 @@
                 failedLines.push(line);
             }
 
-            progress = Math.round(((i + 1) / lines.length) * 100);
-            if (lines.length > 10) await new Promise((r) => setTimeout(r, 10));
+            progress = Math.round(((i + 1) / items.length) * 100);
+            if (items.length > 10) {
+                await new Promise((r) => setTimeout(r, 10));
+            } else {
+                await tick();
+            }
         }
 
         // If ALL lines failed → show error, stay on idle
@@ -161,6 +234,13 @@
 
         results = newResults;
         status = "done";
+        lastGeneratedSignature = JSON.stringify({
+            content, inputMode, seqStart, seqQuantity, seqStep, fileObj: fileObj?.name,
+            selectedType, scale, includeText, outputFormat
+        });
+
+        await tick();
+        if (resultsRef) resultsRef.scrollIntoView({ behavior: "smooth" });
     }
 
     function getFilename(item: { text: string; isSvg: boolean }) {
@@ -206,11 +286,32 @@
         status = "idle";
         results = [];
     }
+
+    function switchTab(mode: "manual" | "file" | "sequence") {
+        if (inputMode === mode) return;
+        inputMode = mode;
+        content = "";
+        fileObj = null;
+        seqStart = "10001";
+        seqQuantity = 100;
+        seqStep = 1;
+        hasError = false;
+        errorLines = [];
+        reset();
+    }
 </script>
 
 <div class="card">
     <div class="tool-body">
-        {#if status === "idle"}
+        <div class="input-tabs">
+            <button class="tab-btn" class:active={inputMode === "manual"} onclick={() => switchTab("manual")}>{texts.tabManual || "Manual"}</button>
+            <button class="tab-btn" class:active={inputMode === "file"} onclick={() => switchTab("file")}>{texts.tabFile || "Upload File"}</button>
+            {#if !hideSequentialTab}
+                <button class="tab-btn" class:active={inputMode === "sequence"} onclick={() => switchTab("sequence")}>{texts.tabSequence || "Sequential"}</button>
+            {/if}
+        </div>
+
+        {#if inputMode === "manual"}
             <div class="input-frame" style="margin-bottom: 24px;">
                 <textarea
                     bind:value={content}
@@ -224,7 +325,37 @@
                         errorLines = [];
                     }}
                 ></textarea>
+                <div style="font-size: 12px; color: var(--tx-muted); margin-top: 8px;">{texts.tipManual || 'Tip: Format as "Barcode, Product Name" on each line to include custom labels.'}</div>
             </div>
+        {:else if inputMode === "file"}
+            <div class="input-frame file-drop" style="margin-bottom: 24px; text-align: center; padding: 40px; border: 2px dashed var(--bd); border-radius: 8px;">
+                <input type="file" accept=".csv, .xlsx, .xls" onchange={(e) => fileObj = e.currentTarget.files?.[0] || null} style="display:none" id="file-upload" />
+                <label for="file-upload" style="cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 12px;">
+                    <i class="ti ti-upload" style="font-size: 32px; color: var(--ac);"></i>
+                    {#if fileObj}
+                        <span style="color: var(--tx); font-weight: 500;">{fileObj.name}</span>
+                    {:else}
+                        <span style="color: var(--tx-muted);">{texts.uploadHint || "Click to upload CSV or Excel file"}</span>
+                        <span style="font-size: 12px; color: var(--tx-muted);">{texts.uploadSubhint || "Column A: Barcode | Column B: Label"}</span>
+                    {/if}
+                </label>
+            </div>
+        {:else if inputMode === "sequence"}
+            <div class="input-frame sequence-inputs" style="margin-bottom: 10px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                <div class="setting-row" style="flex-direction: column; align-items: flex-start; border: none; padding: 0;">
+                    <label for="inp-1" class="setting-lbl" style="margin-bottom: 0px;">{texts.seqStart || "Start Number"}</label>
+                    <input id="inp-1" type="text" class="content-textarea" bind:value={seqStart} placeholder="10001" style="padding: 6px;" />
+                </div>
+                <div class="setting-row" style="flex-direction: column; align-items: flex-start; border: none; padding: 0;">
+                    <label for="inp-2" class="setting-lbl" style="margin-bottom: 0px;">{texts.seqQty || "Quantity"}</label>
+                    <input id="inp-2" type="number" class="content-textarea" bind:value={seqQuantity} min="1" max="10000" style="padding: 6px;" />
+                </div>
+                <div class="setting-row" style="flex-direction: column; align-items: flex-start; border: none; padding: 0;">
+                    <label for="inp-3" class="setting-lbl" style="margin-bottom: 0px;">{texts.seqStep || "Step"}</label>
+                    <input id="inp-3" type="number" class="content-textarea" bind:value={seqStep} style="padding: 6px;" />
+                </div>
+            </div>
+        {/if}
 
             <div class="settings">
                 <div class="setting-row format-row" class:single-option={false}>
@@ -346,54 +477,39 @@
                 </div>
 
                 <hr class="settings-divider" />
-                <button
-                    class="btn-cta"
-                    onclick={generateBarcodes}
-                    disabled={!content.trim()}
-                >
-                    <i class="ti ti-barcode" aria-hidden="true"></i>
-                    <span class="cta-desktop"
-                        >{texts.btnGenerate || "Generate Barcodes"}</span
+                {#if status === "proc"}
+                    <button
+                        class="btn-cta"
+                        disabled
+                        style="background: linear-gradient(to right, var(--ac) {progress}%, #bccfe0 {progress}%); color: #fff; border-color: transparent;"
                     >
-                    <span class="cta-mobile" style="display:none"
-                        >{texts.btnGenerate || "Generate Barcodes"}</span
+                        <span class="spin" aria-hidden="true"
+                            ><i class="ti ti-loader-2"></i></span
+                        >
+                        <span class="cta-desktop">{progress}% — {texts.generating}...</span>
+                        <span class="cta-mobile" style="display:none"
+                            >{progress}% — {texts.generating}...</span
+                        >
+                    </button>
+                {:else}
+                    <button
+                        class="btn-cta"
+                        onclick={generateBarcodes}
+                        disabled={(inputMode === 'manual' && !content.trim()) || (inputMode === 'file' && !fileObj) || (inputMode === 'sequence' && !seqStart) || (status === 'done' && !isDirty)}
                     >
-                </button>
+                        <i class="ti ti-barcode" aria-hidden="true"></i>
+                        <span class="cta-desktop"
+                            >{texts.btnGenerate || "Generate Barcodes"}</span
+                        >
+                        <span class="cta-mobile" style="display:none"
+                            >{texts.btnGenerate || "Generate Barcodes"}</span
+                        >
+                    </button>
+                {/if}
             </div>
-        {/if}
 
-        {#if status === "proc"}
-            <div
-                class="preview-frame"
-                style="padding: 40px; display: flex; align-items: center; justify-content: center;"
-            >
-                <span
-                    class="spin"
-                    aria-hidden="true"
-                    style="font-size: 32px; color: rgba(255,255,255,0.5);"
-                    ><i class="ti ti-loader-2"></i></span
-                >
-            </div>
-
-            <div class="settings">
-                <hr class="settings-divider" />
-                <button
-                    class="btn-cta"
-                    disabled
-                    style="background: linear-gradient(to right, var(--ac) {progress}%, #bccfe0 {progress}%); color: #fff; border-color: transparent;"
-                >
-                    <span class="spin" aria-hidden="true"
-                        ><i class="ti ti-loader-2"></i></span
-                    >
-                    <span class="cta-desktop">{progress}% — Generating...</span>
-                    <span class="cta-mobile" style="display:none"
-                        >{progress}% — Generating...</span
-                    >
-                </button>
-            </div>
-        {/if}
-
-        {#if status === "done"}
+        {#if status === "done" && !isDirty}
+            <div bind:this={resultsRef} style="scroll-margin-top: 100px;"></div>
             <!-- Barcode grid (scrollable, min-height) -->
             <div class="results-scroll-wrap">
                 <div class="results-grid" class:single={results.length === 1}>
@@ -428,21 +544,38 @@
                         {texts.btnDownload || "Download"}
                     </button>
                 {/if}
-                <button
-                    class="btn-default"
-                    style="width:100%;justify-content:center;margin-top:8px;"
-                    onclick={reset}
-                >
-                    <i class="ti ti-refresh" aria-hidden="true"></i>
-                     {texts.btnGenNew || "Generate new barcodes"}
-                    
-                </button>
             </div>
         {/if}
     </div>
 </div>
 
 <style>
+    .input-tabs {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 16px;
+        border-bottom: 1px solid var(--bd);
+        padding-bottom: 8px;
+    }
+    .tab-btn {
+        background: transparent;
+        border: none;
+        padding: 6px 12px;
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--tx-muted);
+        cursor: pointer;
+        border-radius: 6px;
+        transition: all 0.2s;
+    }
+    .tab-btn:hover {
+        background: var(--bg-hover, rgba(0,0,0,0.05));
+        color: var(--tx);
+    }
+    .tab-btn.active {
+        background: rgba(74, 144, 217, 0.1);
+        color: var(--ac);
+    }
     .content-textarea {
         width: 100%;
         padding: 16px;
@@ -526,10 +659,9 @@
 
     /* ── Scroll wrapper ── */
     .results-scroll-wrap {
-        max-height: 320px;
-        min-height: 320px;
         overflow-y: auto;
         overflow-x: hidden;
+        max-height: 400px;
         scrollbar-width: thin;
         scrollbar-color: var(--bd) transparent;
         padding: 4px 2px 4px 0;
@@ -547,6 +679,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 12px;
+        margin-top: 12px;
     }
 
     /* Single barcode: center it, no size constraints */
@@ -592,6 +725,14 @@
     .results-grid.single .barcode-img {
         max-height: none;
         max-width: 100%;
+    }
+
+    .tool-body{
+        padding-top: 8px;
+    }
+
+    .settings-divider{
+        margin-top: 0;
     }
 
     @media (max-width: 768px) {
