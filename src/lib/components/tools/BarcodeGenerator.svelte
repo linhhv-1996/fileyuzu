@@ -90,19 +90,35 @@
                 return { code: line };
             });
         } else if (inputMode === "sequence") {
-            let current = parseInt(seqStart) || 0;
             const step = parseInt(seqStep.toString()) || 1;
             const qty = parseInt(seqQuantity.toString()) || 100;
-            const padLength = seqStart.length;
-            const hasPadding = seqStart.startsWith("0");
             
+            const match = seqStart.match(/^(.*?)(\d+)([^\d]*)$/);
+            
+            let prefix = "";
+            let currentNum = 0;
+            let padLength = 0;
+            let suffix = "";
+
+            if (match) {
+                prefix = match[1];
+                currentNum = parseInt(match[2], 10);
+                padLength = match[2].length;
+                suffix = match[3];
+            } else {
+                prefix = seqStart;
+                currentNum = 1;
+                padLength = 1;
+                suffix = "";
+            }
+
             for (let i = 0; i < qty; i++) {
-                let codeStr = current.toString();
-                if (hasPadding && codeStr.length < padLength) {
-                    codeStr = codeStr.padStart(padLength, "0");
+                let numStr = currentNum.toString();
+                if (numStr.length < padLength) {
+                    numStr = numStr.padStart(padLength, "0");
                 }
-                items.push({ code: codeStr });
-                current += step;
+                items.push({ code: prefix + numStr + suffix });
+                currentNum += step;
             }
         } else if (inputMode === "file" && fileObj) {
             try {
