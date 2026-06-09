@@ -54,7 +54,7 @@
         font-size: 22px;
         font-weight: 700;
         color: var(--tx);
-        margin: 2rem 0 1rem 0;
+        margin: 1rem 0 1rem 0;
         letter-spacing: -0.02em;
         line-height: 1.3;
     }

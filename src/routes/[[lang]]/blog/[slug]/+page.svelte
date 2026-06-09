@@ -150,7 +150,7 @@
     /* ── Article Content ── */
     .article-content {
         color: var(--tx);
-        font-size: 1.125rem;
+        font-size: 15.5px;
         line-height: 1.5;
     }
 
@@ -158,7 +158,7 @@
         font-size: 22px;
         font-weight: 700;
         color: var(--tx);
-        margin: 2rem 0 1rem 0;
+        margin: 1rem 0 1rem 0;
         letter-spacing: -0.02em;
         line-height: 1.3;
     }
