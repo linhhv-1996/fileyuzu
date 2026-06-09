@@ -36,7 +36,7 @@
     let resultsRef = $state<HTMLDivElement | null>(null);
     // svelte-ignore state_referenced_locally
     let selectedType = $state(initialType || barcodeTypes[0].value);
-    let scale = $state(3);
+    let scale = $state(4);
     let includeText = $state(true);
     let outputFormat = $state<"png" | "svg">("png");
     let hasError = $state(false);
@@ -344,7 +344,7 @@
                 <div style="font-size: 12px; color: var(--tx-muted); margin-top: 8px;">{texts.tipManual || 'Tip: Format as "Barcode, Product Name" on each line to include custom labels.'}</div>
             </div>
         {:else if inputMode === "file"}
-            <div class="input-frame file-drop" style="margin-bottom: 24px; text-align: center; padding: 40px; border: 2px dashed var(--bd); border-radius: 8px;">
+            <div class="input-frame file-drop" style="margin-bottom: 24px; text-align: center; padding: 28px; border: 2px dashed var(--bd); border-radius: 8px;">
                 <input type="file" accept=".csv, .xlsx, .xls" onchange={(e) => fileObj = e.currentTarget.files?.[0] || null} style="display:none" id="file-upload" />
                 <label for="file-upload" style="cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 12px;">
                     <i class="ti ti-upload" style="font-size: 32px; color: var(--ac);"></i>
@@ -411,7 +411,7 @@
                     </div>
                 </div>
 
-                <div class="setting-row">
+                <!-- <div class="setting-row">
                     <div class="setting-lbl">
                         {texts.scaleLbl || "Size (Scale)"}
                     </div>
@@ -430,7 +430,7 @@
                             </span>
                         {/each}
                     </div>
-                </div>
+                </div> -->
 
                 <div class="setting-row">
                     <div class="setting-lbl">
