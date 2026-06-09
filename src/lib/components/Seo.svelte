@@ -6,9 +6,11 @@
     let {
         title,
         description,
+        noHreflang = false,
     } = $props<{
         title: string;
         description?: string;
+        noHreflang?: boolean;
     }>();
 
     let currentLang = $derived(($page.data.lang || 'en').toLowerCase());
@@ -54,7 +56,7 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="{origin}{canonicalPathname}" />
 
-    {#if !allowedMarkets || allowedMarkets.length > 1}
+    {#if !noHreflang && (!allowedMarkets || allowedMarkets.length > 1)}
         {#each SUPPORTED_LANGUAGES as lang}
             {#if !allowedMarkets || allowedMarkets.includes(lang.code)}
                 {@const targetPath = langUrl(lang.code, basePath)}
