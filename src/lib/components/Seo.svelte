@@ -1,13 +1,14 @@
 <script lang="ts">
-    import { page } from '$app/stores';
-    import { SUPPORTED_LANGUAGES, langUrl } from '$lib/i18n/config';
+    import { page } from "$app/stores";
+    import { SUPPORTED_LANGUAGES, langUrl } from "$lib/i18n/config";
+    import { tools } from "$lib/config/tools";
 
-    let { title, description, noHreflang = false, noIndex = false, allowedMarkets } = $props<{
+    let {
+        title,
+        description,
+    } = $props<{
         title: string;
         description?: string;
-        noHreflang?: boolean;
-        noIndex?: boolean;
-        allowedMarkets?: string[];
     }>();
 
     let currentLang = $derived(($page.data.lang || 'en').toLowerCase());
@@ -25,6 +26,10 @@
         return pathname;
     });
 
+    let slug = $derived(basePath === "/" ? "" : basePath.replace(/^\//, ""));
+    let toolConfig = $derived(tools.find((t) => t.slug === slug));
+    let allowedMarkets = $derived(toolConfig?.markets);
+
     let ogImageUrl = $derived(`${origin}/og/${currentLang}.png`);
 </script>
 
@@ -34,9 +39,6 @@
         <meta name="description" content={description} />
         <meta property="og:description" content={description} />
         <meta name="twitter:description" content={description} />
-    {/if}
-    {#if noIndex}
-        <meta name="robots" content="noindex" />
     {/if}
     
     <!-- Open Graph / Social -->
@@ -52,7 +54,7 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="{origin}{canonicalPathname}" />
 
-    {#if !noHreflang}
+    {#if !allowedMarkets || allowedMarkets.length > 1}
         {#each SUPPORTED_LANGUAGES as lang}
             {#if !allowedMarkets || allowedMarkets.includes(lang.code)}
                 {@const targetPath = langUrl(lang.code, basePath)}

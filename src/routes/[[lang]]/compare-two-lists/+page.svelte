@@ -36,8 +36,7 @@
 
 <Seo 
     title={t('tool.compare_two_lists.seo.title', dict) || ''} 
-    description={t('tool.compare_two_lists.seo.description', dict) || ''} 
-    allowedMarkets={["en", "ja"]}
+    description={t('tool.compare_two_lists.seo.description', dict) || ''}
 />
 
 <div class="hero">

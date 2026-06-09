@@ -34,7 +34,7 @@
     let relatedTools = $derived(getRelatedTools('handwriting-ocr'));
 </script>
 
-<Seo title={t('handwriting_ocr.seo.title', dict)} description={t('handwriting_ocr.seo.description', dict)} allowedMarkets={["en", "ja", "ko"]}/>
+<Seo title={t('handwriting_ocr.seo.title', dict)} description={t('handwriting_ocr.seo.description', dict)} />
 
 <div class="hero">
     <h1>{t('handwriting_ocr.hero.title', dict)}</h1>

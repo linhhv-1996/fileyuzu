@@ -42,7 +42,7 @@
     let relatedTools = $derived(getRelatedTools('barcode-generator'));
 </script>
 
-<Seo title={t('barcode_generator.seo.title', dict)} description={t('barcode_generator.seo.description', dict)} allowedMarkets={["en", "ja", "ko", "zh-tw", "pt-br", "th"]}/>
+<Seo title={t('barcode_generator.seo.title', dict)} description={t('barcode_generator.seo.description', dict)} />
 
 <div class="hero">
     <h1>{t('barcode_generator.hero.title', dict)}</h1>

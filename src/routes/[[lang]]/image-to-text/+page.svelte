@@ -34,7 +34,7 @@
     let relatedTools = $derived(getRelatedTools('image-to-text'));
 </script>
 
-<Seo title={t('image_to_text.seo.title', dict)} description={t('image_to_text.seo.description', dict)} allowedMarkets={["en", "ja", "ko", "zh-tw"]}/>
+<Seo title={t('image_to_text.seo.title', dict)} description={t('image_to_text.seo.description', dict)} />
 
 <div class="hero">
     <h1>{t('image_to_text.hero.title', dict)}</h1>

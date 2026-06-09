@@ -41,7 +41,7 @@
     let relatedTools = $derived(getRelatedTools('jan-code-generator'));
 </script>
 
-<Seo title={t('jan_code_generator.seo.title', dict)} description={t('jan_code_generator.seo.description', dict)} noHreflang={true} allowedMarkets={["ja"]}/>
+<Seo title={t('jan_code_generator.seo.title', dict)} description={t('jan_code_generator.seo.description', dict)} />
 
 <div class="hero">
     <h1>{t('jan_code_generator.hero.title', dict)}</h1>
