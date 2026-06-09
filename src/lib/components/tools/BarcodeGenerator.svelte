@@ -317,7 +317,7 @@
     }
 </script>
 
-<div class="card">
+<div class="card" style="overflow: visible;">
     <div class="tool-body">
         <div class="input-tabs">
             <button class="tab-btn" class:active={inputMode === "manual"} onclick={() => switchTab("manual")}>{texts.tabManual || "Manual"}</button>
