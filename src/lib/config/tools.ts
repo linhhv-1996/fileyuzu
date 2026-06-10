@@ -283,7 +283,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'audio',
         tags: ['Audio', 'MP3', 'WAV', 'FLAC', 'M4A', 'OGG'],
-        markets: ['en', 'ja'],
+        markets: ['en', 'ja', 'ko'],
     },
     {
         slug: 'convert-to-mp3',
@@ -299,7 +299,24 @@ export const tools: ToolConfig[] = [
         ],
         category: 'audio',
         tags: ['Audio to MP3', 'MP3'],
-        markets: ['en', 'ja'],
+        markets: ['en', 'ja', 'ko'],
+    },
+    {
+        slug: 'convert-to-wav',
+        titleKey: 'tool.convert_to_wav.title',
+        descriptionKey: 'tool.convert_to_wav.description',
+        shortDescriptionKey: 'tool.convert_to_wav.short_description',
+        icon: 'music',
+        related_tools: [
+            'audio-converter',
+            'convert-to-mp3',
+            'video-converter',
+            'video-to-mp3',
+            'mp4-converter',
+        ],
+        category: 'audio',
+        tags: ['Audio to WAV', 'WAV'],
+        markets: ['ko'],
     },
 ];
 
