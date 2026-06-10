@@ -997,7 +997,6 @@
   "barcode_generator.how_to_use.title": "How to Generate Barcodes Online",
   "barcode_generator.faq.title": "Barcode Generator FAQ",
   "barcode_generator.btn_downloadbtn_gen_new": "Generate new barcodes",
-  
   "barcode_generator.tab_manual": "Manual",
   "barcode_generator.tab_file": "Upload File",
   "barcode_generator.tab_sequence": "Sequential",
@@ -1008,12 +1007,10 @@
   "barcode_generator.seq_qty": "Quantity",
   "barcode_generator.seq_step": "Step",
   "barcode_generator.generating": "Generating",
-  
   "barcode_generator.seo.title": "Free Barcode Generator Online - Create & Print Barcodes",
   "barcode_generator.seo.description": "Create barcodes online for free. Generate printable barcode labels, product codes, PNG images, SVG files, PDFs, or bulk barcodes in seconds.",
   "barcode_generator.hero.title": "Free Online Barcode Generator",
   "barcode_generator.hero.description": "Create barcodes instantly for products, labels, inventory, and packaging. Generate single or bulk barcodes, then download as PNG, SVG, PDF, or print-ready files.",
-  
   "barcode_generator.how_to_use.steps": [
     "Select your preferred mode (Manual, Bulk Upload, or Sequential) and choose the barcode type you need, such as Code 128, EAN-13, UPC, or JAN Code.",
     "For Manual Mode: Enter your barcode data directly into the input area. To create multiple barcodes at once, add one value per line.",
@@ -1021,8 +1018,7 @@
     "For Sequential Mode: Set your starting value, total count, and step increment to automatically generate a continuous sequence of barcodes.",
     "Customize your barcode settings, including label design, dimensions, and download formats like PNG, SVG, or printable PDF.",
     "Click 'Generate Barcodes' to process instantly in your browser, then download them individually or as a single bulk ZIP/PDF file for your inventory, products, or packaging."
-],
-
+  ],
   "barcode_generator.why_use.benefits": [
     {
       "icon": "shield-lock",
@@ -1045,7 +1041,6 @@
       "description": "Export your designs as high-resolution PNG images, crisp PDF sheets, or scalable vector files using our barcode svg maker—perfectly optimized for a professional barcode label maker."
     }
   ],
-
   "barcode_generator.faq.items": [
     {
       "q": "How do I use the bulk barcode generator with a CSV or Excel file?",
@@ -1088,8 +1083,6 @@
       "a": "Our tool functions as a high-performance barcode image creator that converts text or numbers into scannable graphic bars. It does not issue or register barcode numbers. To get an official, globally unique barcode prefix for commercial retail, you must register your numbers directly with GS1."
     }
   ],
-
-
   "_comment_image_to_text": "================ Image to Text (OCR) ================",
   "image_to_text.seo.title": "Image to Text Converter Online Free | UploadLess",
   "image_to_text.seo.description": "Convert images to text online for free with UploadLess. Extract, copy, and edit text from JPG, PNG, photos, screenshots, and pictures using private OCR.",
@@ -1389,5 +1382,206 @@
       "q": "Is my list data uploaded to a server?",
       "a": "No. UploadLess compares your lists directly in your browser. Your pasted text, CSV data, Excel files, and uploaded documents do not need to be sent to a server, which helps keep your list comparison private."
     }
-  ]
+  ],
+
+  "tool.audio_converter.title": "Audio Converter",
+  "tool.audio_converter.description": "Convert audio files to different formats for free. Everything runs in your browser without uploading files to a server.",
+  "tool.audio_converter.short_description": "Convert audio directly in your browser.",
+  "tool.convert_to_mp3.title": "Convert to MP3",
+  "tool.convert_to_mp3.description": "Convert your audio files to MP3 format for free. Fast, private, browser-based conversion.",
+  "tool.convert_to_mp3.short_description": "Convert any audio to MP3 format.",
+
+  "_comment_audio_converter": "================ Audio Converter ================",
+  
+  "audio_converter.seo.title": "Free Online Audio Converter (WAV, MP3, FLAC) | UploadLess",
+  "audio_converter.seo.description": "Convert audio files online for free with UploadLess. High-quality batch conversion between MP3, WAV, FLAC, M4A, OGG safely in your browser with no uploads.",
+  "audio_converter.hero.title": "Free Online Audio Converter",
+  "audio_converter.hero.description": "Convert audio files in bulk between MP3, WAV, M4A, FLAC, OGG, and more. Fast, 100% private browser-based conversion with bitrate and sample rate controls.",
+  
+  
+  "audio_converter.upload.title": "Drop audio files here to convert",
+  "audio_converter.upload.subtitle": "MP3, WAV, FLAC, M4A, OGG & more · browser-based conversion",
+  "audio_converter.upload.btn_select": "Select audio files",
+  "audio_converter.upload.btn_sample": "Try sample audio",
+  "audio_converter.upload.hint": "Select audio files to convert to another format",
+  "audio_converter.settings.format_lbl": "Target format",
+  "audio_converter.btn.convert": "Convert all",
+  "audio_converter.btn.download": "Download file",
+  "audio_converter.btn.convert_new": "Convert new files",
+  "audio_converter.btn.add_more": "Add more files",
+  "audio_converter.proc.converting": "Converting audio",
+
+  
+  "audio_converter.how_to_use.title": "How to Convert Audio Online",
+  "audio_converter.how_to_use.steps": [
+    "Select or drag & drop your audio files into the converter area (supports batch processing).",
+    "Choose your desired output format from the available options (e.g., WAV, MP3, FLAC, OGG).",
+    "Click 'Convert All' to process your files instantly and privately right in your browser.",
+    "Download your high-quality converted audio files directly to your device with zero quality loss."
+  ],
+  "audio_converter.why_use.title": "Why Use UploadLess Audio Converter",
+  "audio_converter.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "100% Private Conversion",
+      "description": "Your audio conversion runs entirely in your browser. Your files never touch an external server and never leave your device."
+    },
+    {
+      "icon": "bolt",
+      "title": "No Sign-Up, No Limits",
+      "description": "Start converting immediately with no account required. Enjoy free, unrestricted access with no watermarks and no file size limits."
+    },
+    {
+      "icon": "files",
+      "title": "Fast Batch Processing",
+      "description": "Convert multiple audio files at the same time. Experience blazing-fast local processing with zero upload or download waiting times."
+    },
+    {
+      "icon": "music",
+      "title": "High-Quality Audio",
+      "description": "Convert seamlessly between WAV, MP3, FLAC, OGG, and more while preserving the original, crystal-clear sound quality."
+    }
+  ],
+  "audio_converter.faq.title": "Audio Converter FAQ",
+  "audio_converter.faq.items": [
+    {
+      "q": "What audio formats does this online audio converter support?",
+      "a": "UploadLess supports converting between popular formats including MP3, WAV, FLAC, M4A, OGG, AAC, AIFF, and more. You can input almost any standard audio file."
+    },
+    {
+      "q": "Is my audio uploaded to a server during conversion?",
+      "a": "No, all conversions happen entirely inside your web browser. Your audio files are processed locally and never leave your device, ensuring 100% privacy."
+    },
+    {
+      "q": "Can I convert multiple audio files at once?",
+      "a": "Yes! The built-in batch audio converter feature allows you to select, drop, and convert multiple audio files simultaneously with zero upload waiting time."
+    },
+    {
+      "q": "Will converting files lower my audio quality?",
+      "a": "This high quality audio converter preserves original sound fidelity. Converting to lossless formats like WAV or FLAC guarantees zero quality loss."
+    },
+    {
+      "q": "Are there any file size limits or usage restrictions?",
+      "a": "No. This is a completely free audio converter with no file size limits, no daily usage caps, and no registration or sign-up required."
+    },
+    {
+      "q": "How do I convert audio files like MP3 or M4A to WAV?",
+      "a": "Simply drag and drop your MP3 or M4A files, choose WAV as the target format, and click 'Convert All' to get uncompressed, studio-grade WAV files instantly."
+    },
+    {
+      "q": "Does the tool support converting audio to OGG or AAC?",
+      "a": "Yes, converting audio to OGG (ideal for gaming and web development) or AAC is fully supported. Just select your preferred output format from the dropdown."
+    },
+    {
+      "q": "Can I use this as an audio converter for ringtones?",
+      "a": "Absolutely. You can convert your favorite audio tracks into mobile-compatible formats like MP3 or M4A to easily create custom ringtones for your device."
+    },
+    {
+      "q": "Can I compress and convert audio online with this tool?",
+      "a": "Yes. While converting, switching from large uncompressed formats (like WAV) to optimized compressed formats (like MP3 or M4A) will automatically reduce file size while maintaining excellent quality."
+    },
+    {
+      "q": "Do I need to install anything to use this browser audio converter?",
+      "a": "No installation, apps, or browser extensions are required. This audio converter runs directly in any modern web browser across desktop and mobile devices."
+    }
+  ],
+
+  "_comment_convert_to_mp3": "================ Convert to MP3 ================",
+  
+
+  "convert_to_mp3.seo.title": "Free Audio to MP3 Converter (M4A, WAV, FLAC) | UploadLess",
+"convert_to_mp3.seo.description": "Convert M4A, WAV, FLAC, OGG, and other audio formats to MP3 online for free. Fast batch conversion right in your browser with 100% privacy and no uploads.",
+"convert_to_mp3.hero.title": "Free Online Audio to MP3 Converter",
+"convert_to_mp3.hero.description": "Convert M4A, WAV, FLAC, OGG, and more to MP3 instantly. Experience fast, 100% private batch conversion right inside your browser with no file uploads.",
+
+  
+  "convert_to_mp3.upload.title": "Drop audio files here to convert to MP3",
+  "convert_to_mp3.upload.subtitle": "WAV, M4A, FLAC, OGG & more · browser-based conversion",
+  "convert_to_mp3.upload.btn_select": "Select audio files",
+  "convert_to_mp3.upload.btn_sample": "Try sample audio",
+  "convert_to_mp3.upload.hint": "Select audio files to convert to MP3",
+  "convert_to_mp3.settings.format_lbl": "Target format",
+  "convert_to_mp3.btn.convert": "Convert to MP3",
+  "convert_to_mp3.btn.download": "Download MP3",
+  "convert_to_mp3.btn.convert_new": "Convert new files",
+  "convert_to_mp3.btn.add_more": "Add more files",
+  "convert_to_mp3.proc.converting": "Converting to MP3",
+  "convert_to_mp3.how_to_use.title": "How to Convert Audio to MP3",
+  
+  
+  "convert_to_mp3.how_to_use.steps": [
+  "Select or drag & drop your audio files (such as M4A, WAV, FLAC, OGG) into the converter area.",
+  "Click 'Convert to MP3' to process all your files instantly and privately right inside your browser.",
+  "Download your high-quality converted MP3 files directly to your device with zero upload waiting time."
+],
+  
+  
+  "convert_to_mp3.why_use.title": "Why Convert to MP3 with UploadLess",
+  "convert_to_mp3.why_use.benefits": [
+  {
+    "icon": "shield-lock",
+    "title": "100% Private MP3 Conversion",
+    "description": "Your files never leave your device. The entire conversion to MP3 runs locally inside your web browser, keeping your private voice memos and audio tracks 100% secure."
+  },
+  {
+    "icon": "bolt",
+    "title": "No Sign-Up, No Size Limits",
+    "description": "Convert heavy WAV or long M4A files to MP3 immediately. Enjoy free, unrestricted access with no account required, no watermarks, and no usage caps."
+  },
+  {
+    "icon": "files",
+    "title": "Batch MP3 Processing",
+    "description": "Convert an entire folder of audio tracks to MP3 simultaneously. Experience rapid browser-based processing with zero server upload or download lag."
+  },
+  {
+    "icon": "music",
+    "title": "High-Quality MP3 Output",
+    "description": "Transform audio formats like WAV, FLAC, M4A, and OGG into crisp, high-quality MP3 files while preserving the maximum original sound fidelity."
+  }
+],
+  
+  
+  "convert_to_mp3.faq.title": "MP3 Converter FAQ",
+  "convert_to_mp3.faq.items": [
+  {
+    "q": "Which audio formats can be converted to MP3?",
+    "a": "UploadLess supports converting a wide range of audio formats to MP3, including M4A, WAV, FLAC, OGG, AAC, WMA, AIFF, AMR, OPUS, and WebM. Almost any standard audio file can be converted instantly."
+  },
+  {
+    "q": "Is my audio uploaded to a server to convert to MP3?",
+    "a": "No, the entire conversion process runs 100% locally inside the web browser. Files are never uploaded to any external server and never leave the device, ensuring absolute data privacy for private recordings."
+  },
+  {
+    "q": "Can multiple files be converted using the bulk MP3 converter online?",
+    "a": "Yes. The built-in bulk MP3 converter feature allows for selecting and converting multiple audio files to MP3 simultaneously, leveraging local browser power to save time."
+  },
+  {
+    "q": "How does the M4A to MP3 converter handle iPhone voice memos?",
+    "a": "Simply drop M4A voice memos or audio tracks into the converter. The tool converts M4A to MP3 right inside the browser, making the files instantly compatible with any media player, operating system, or device."
+  },
+  {
+    "q": "Will converting WAV to MP3 significantly reduce the file size?",
+    "a": "Yes, converting heavy, uncompressed WAV files to MP3 drastically compresses and reduces file size. This makes the audio much easier to store or share via Email, Discord, Slack, and WhatsApp while maintaining great sound quality."
+  },
+  {
+    "q": "Does this tool support converting FLAC or OGG to MP3?",
+    "a": "Absolutely. Converting FLAC to MP3 or OGG to MP3 is fully supported. The tool reads the high-fidelity source files directly in the browser and outputs a standardized, highly compatible MP3 file."
+  },
+  {
+    "q": "Is there a file size limit for this free audio to MP3 converter?",
+    "a": "No. Because all processing happens locally within the web browser rather than on a remote server, there are no file size limits, no daily usage caps, and no registration required."
+  },
+  {
+    "q": "Does this browser-based tool output a high-quality MP3 file?",
+    "a": "Yes, the local conversion engine is highly optimized to preserve maximum sound fidelity, ensuring the resulting MP3 files remain crisp, clear, and high-quality."
+  },
+  {
+    "q": "Why is this MP3 converter faster than traditional online converters?",
+    "a": "Traditional online tools require waiting for heavy audio files to upload to a server, convert, and then download. UploadLess processes everything locally on the device, completely eliminating upload and download lag."
+  },
+  {
+    "q": "Are legacy or video formats like WMA, AIFF, or WebM supported for MP3 conversion?",
+    "a": "Yes. The tool features broad format compatibility, meaning niche or specific conversions like WMA to MP3, AIFF to MP3, and WebM to MP3 work seamlessly right out of the box."
+  }
+]
 }

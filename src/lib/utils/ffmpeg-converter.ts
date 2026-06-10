@@ -48,6 +48,16 @@ export async function convertWithFFmpeg(
   // }
   if (ext === 'mp3') {
     args.push('-vn', '-c:a', 'libmp3lame', '-q:a', '0');
+  } else if (ext === 'm4a') {
+    args.push('-vn', '-c:a', 'aac', '-b:a', '256k');
+  } else if (ext === 'flac') {
+    args.push('-vn', '-c:a', 'flac');
+  } else if (ext === 'wav') {
+    args.push('-vn', '-c:a', 'pcm_s16le');
+  } else if (ext === 'ogg') {
+    args.push('-vn', '-c:a', 'libvorbis', '-q:a', '4');
+  } else if (ext === 'wma') {
+    args.push('-vn', '-c:a', 'wmav2', '-b:a', '192k');
   } else if (ext === 'webm') {
     args.push(
       '-c:v', 'libvpx-vp9',
@@ -97,6 +107,11 @@ export async function convertWithFFmpeg(
   if (ext === 'mkv') mimeType = 'video/x-matroska';
   if (ext === 'mov') mimeType = 'video/quicktime';
   if (ext === 'mp3') mimeType = 'audio/mpeg';
+  if (ext === 'm4a') mimeType = 'audio/mp4';
+  if (ext === 'flac') mimeType = 'audio/flac';
+  if (ext === 'wav') mimeType = 'audio/wav';
+  if (ext === 'ogg') mimeType = 'audio/ogg';
+  if (ext === 'wma') mimeType = 'audio/x-ms-wma';
 
   return new File([data as any], outName, { type: mimeType });
 }
