@@ -1097,12 +1097,13 @@
   "image_to_text.lang.ja": "Japanese",
   "image_to_text.lang.ko": "Korean",
   "image_to_text.lang.th": "Thai",
+  "image_to_text.lang.cyrillic": "Cyrillic",
   "image_to_text.upload.title": "Drop images here or click to upload",
   "image_to_text.upload.subtitle": "You can also paste images from clipboard.",
   "image_to_text.upload.btn_select": "Select Images",
   "image_to_text.upload.btn_sample": "Load sample",
   "image_to_text.upload.hint": "Process multiple images instantly",
-  "image_to_text.ready.info": "Use Auto for Latin-based languages; select a specific model for Chinese, Japanese, Korean, or Thai.",
+  "image_to_text.ready.info": "Use Auto for Latin-based languages; select a specific model for Chinese, Japanese, Korean, Thai, or Cyrillic.",
   "image_to_text.btn.start": "Start Recognition",
   "image_to_text.status.waiting": "Waiting...",
   "image_to_text.status.pending": "Pending...",
@@ -1112,7 +1113,7 @@
   "image_to_text.how_to_use.title": "How to Extract Text from Images",
   "image_to_text.how_to_use.steps": [
     "Upload one or more images from your device, drag and drop them, or paste an image directly from your clipboard.",
-    "Choose the language that best matches your images, including Latin, Korean, Japanese, Chinese Simplified, Chinese Traditional, or Thai.",
+    "Choose the language that best matches your images, including Latin, Korean, Japanese, Chinese Simplified, Chinese Traditional, Thai, or Cyrillic.",
     "UploadLess will process your images in bulk and extract the text one by one in your browser.",
     "Once processing is complete, copy the extracted text or adjust the output with the available formatting tools."
   ],
@@ -1203,7 +1204,7 @@
   "handwriting_ocr.upload.btn_select": "Select Images",
   "handwriting_ocr.upload.btn_sample": "Load sample",
   "handwriting_ocr.upload.hint": "Process multiple images instantly",
-  "handwriting_ocr.ready.info": "Use Auto for Latin-based languages; select a specific model for Chinese, Japanese, Korean, or Thai.",
+  "handwriting_ocr.ready.info": "Use Auto for Latin-based languages; select a specific model for Chinese, Japanese, Korean, Thai, or Cyrillic.",
   "handwriting_ocr.btn.start": "Start Recognition",
   "handwriting_ocr.status.waiting": "Waiting...",
   "handwriting_ocr.status.pending": "Pending...",
@@ -1212,7 +1213,7 @@
   "handwriting_ocr.how_to_use.title": "How to Convert Handwriting to Text",
   "handwriting_ocr.how_to_use.steps": [
     "Upload one or more images of handwritten text, drag and drop them, or paste an image directly from your clipboard.",
-    "Choose the language that best matches the handwriting, including Latin, Korean, Japanese, Chinese Simplified, Chinese Traditional, or Thai.",
+    "Choose the language that best matches the handwriting, including Latin, Korean, Japanese, Chinese Simplified, Chinese Traditional, Thai, or Cyrillic.",
     "UploadLess will process your handwritten images in bulk and extract the text one by one in your browser.",
     "Once processing is complete, copy the extracted handwriting text or adjust the output with the available formatting tools."
   ],

@@ -57,6 +57,10 @@ const MODELS: Record<string, { recognition: string; charactersDictionary: string
         recognition: `${MODEL_BASE_URL}/recognition/multi/th/v5/th_PP-OCRv5_mobile_rec_infer.onnx`,
         charactersDictionary: `${DICT_BASE_URL}/recognition/multi/th/v5/ppocrv5_th_dict.txt`,
     },
+    cyrillic: {
+        recognition: `${MODEL_BASE_URL}/recognition/multi/cyrillic/v5/cyrillic_PP-OCRv5_mobile_rec_infer.onnx`,
+        charactersDictionary: `${DICT_BASE_URL}/recognition/multi/cyrillic/v5/ppocrv5_cyrillic_dict.txt`,
+    },
 };
 
 // ─── State ────────────────────────────────────────────────────────────────────

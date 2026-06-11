@@ -1243,6 +1243,7 @@
   "image_to_text.lang.ja": "日本語",
   "image_to_text.lang.ko": "韓国語",
   "image_to_text.lang.th": "タイ語",
+  "image_to_text.lang.cyrillic": "キリル文字",
   "image_to_text.upload.title": "ここに画像をドロップするか、クリックしてアップロード",
   "image_to_text.upload.subtitle": "クリップボードから画像を貼り付けることもできます。",
   "image_to_text.upload.btn_select": "画像を選択",

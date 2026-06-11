@@ -1141,6 +1141,7 @@
   "image_to_text.lang.ja": "일본어",
   "image_to_text.lang.ko": "한국어",
   "image_to_text.lang.th": "태국어",
+  "image_to_text.lang.cyrillic": "키릴 문자",
   "image_to_text.upload.title": "여기에 이미지를 놓거나 클릭하여 업로드",
   "image_to_text.upload.subtitle": "클립보드에서 이미지를 붙여넣을 수도 있습니다.",
   "image_to_text.upload.btn_select": "이미지 선택",

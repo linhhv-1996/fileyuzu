@@ -31,7 +31,8 @@
         { value: 'zh', label: t('image_to_text.lang.zh', dict) || 'Chinese' },
         { value: 'ja', label: t('image_to_text.lang.ja', dict) || 'Japanese' },
         { value: 'ko', label: t('image_to_text.lang.ko', dict) || 'Korean' },
-        { value: 'th', label: t('image_to_text.lang.th', dict) || 'Thai' }
+        { value: 'th', label: t('image_to_text.lang.th', dict) || 'Thai' },
+        { value: 'cyrillic', label: t('image_to_text.lang.cyrillic', dict) || 'Cyrillic' }
     ]);
 
     async function onLangChange() {
@@ -487,7 +488,7 @@
 <style>
     .card.ocr-card {
         padding: 0;
-        overflow: hidden;
+        overflow: visible;
         border-radius: 8px; /* low radius as requested */
         border: 1px solid var(--bd);
         background: var(--bg);
@@ -573,6 +574,7 @@
         display: flex;
         min-height: 400px;
         max-height: 400px;
+        border-radius: inherit;
     }
 
     .ocr-sidebar {
@@ -582,6 +584,8 @@
         overflow-y: auto;
         padding: 12px;
         flex-shrink: 0;
+        border-top-left-radius: inherit;
+        border-bottom-left-radius: inherit;
     }
 
     .sidebar-list {
@@ -662,13 +666,15 @@
         background: var(--bg);
         display: flex;
         flex-direction: column;
-        overflow: hidden;
+        overflow: visible;
+        border-top-right-radius: inherit;
+        border-bottom-right-radius: inherit;
     }
 
     .main-content {
         display: flex;
         flex: 1;
-        overflow: hidden;
+        overflow: visible;
     }
 
     .processing-view {
@@ -678,7 +684,7 @@
         align-items: center;
         justify-content: center;
         background: #fafafa;
-        overflow: hidden;
+        overflow: visible;
         height: 400px;
         position: relative;
     }

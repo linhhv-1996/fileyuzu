@@ -1149,6 +1149,7 @@
   "image_to_text.lang.ja": "日文",
   "image_to_text.lang.ko": "韓文",
   "image_to_text.lang.th": "泰文",
+  "image_to_text.lang.cyrillic": "西里爾文",
   "image_to_text.upload.title": "將圖片拖放到這裡，或點擊上傳",
   "image_to_text.upload.subtitle": "你也可以從剪貼簿貼上圖片。",
   "image_to_text.upload.btn_select": "選擇圖片",
