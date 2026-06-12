@@ -8,6 +8,58 @@
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
     let ctaToolConfig = $derived(data.ctaTool ? tools.find(t => t.slug === data.ctaTool) : null);
+
+    let activeTocId: string = $state('');
+
+    $effect(() => {
+        // Re-run this block whenever the user navigates to a new blog post
+        const _trigger = data.content;
+
+        const headings = document.querySelectorAll('.article-content h2, .article-content h3');
+        const headingsArray = Array.from(headings);
+        let ticking = false;
+
+        const handleScroll = () => {
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    let currentId = '';
+                    // Iterate in reverse to find the first heading that has scrolled past the top offset
+                    for (let i = headingsArray.length - 1; i >= 0; i--) {
+                        const heading = headingsArray[i];
+                        const rect = heading.getBoundingClientRect();
+                        // 150px offset to account for any sticky headers and provide a good reading margin
+                        if (rect.top <= 150) {
+                            currentId = heading.id;
+                            break;
+                        }
+                    }
+
+                    // If at the very top, default to the first heading
+                    if (!currentId && headingsArray.length > 0) {
+                        currentId = headingsArray[0].id;
+                    }
+
+                    if (currentId && currentId !== activeTocId) {
+                        activeTocId = currentId;
+                        const activeEl = document.querySelector(`.toc-item a[href="#${activeTocId}"]`) as HTMLElement;
+                        const container = document.querySelector('.toc-list') as HTMLElement;
+                        if (activeEl && container) {
+                            const scrollPos = activeEl.offsetTop - container.offsetTop - (container.clientHeight / 2) + (activeEl.clientHeight / 2);
+                            container.scrollTo({ top: scrollPos, behavior: 'smooth' });
+                        }
+                    }
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        // Initial check
+        setTimeout(handleScroll, 100);
+        
+        return () => window.removeEventListener('scroll', handleScroll);
+    });
 </script>
 
 <Seo title="{data.title} - UploadLess" description={data.description} noHreflang={true} />
@@ -38,6 +90,16 @@
                     {@html data.content}
                 </div>
 
+                {#if ctaToolConfig}
+                <div class="article-text-cta">
+                    <strong>{dict[ctaToolConfig.titleKey] || ctaToolConfig.slug}:</strong> 
+                    {dict[ctaToolConfig.shortDescriptionKey]} 
+                    <a href={langUrl(lang, `/${ctaToolConfig.slug}`)} class="cta-link">
+                        {dict['common.try_now'] || 'Try Now'} &rarr;
+                    </a>
+                </div>
+                {/if}
+
                 <!-- Author Box -->
                 <div class="author-box">
                     <div class="author-avatar">
@@ -53,19 +115,17 @@
 
             <!-- Right Column: Sidebar -->
             <aside class="article-sidebar">
-                {#if ctaToolConfig}
-                <a href={langUrl(lang, `/${ctaToolConfig.slug}`)} class="tool-cta-card">
-                    <div class="cta-icon">
-                        <i class="ti ti-{ctaToolConfig.icon}"></i>
-                    </div>
-                    <div class="cta-content">
-                        <h3 class="cta-title">{dict[ctaToolConfig.titleKey] || ctaToolConfig.slug}</h3>
-                        <p class="cta-desc">{dict[ctaToolConfig.shortDescriptionKey]}</p>
-                    </div>
-                    <div class="cta-button">
-                        {dict['common.try_now'] || ''}
-                    </div>
-                </a>
+                {#if data.toc && data.toc.length > 0}
+                <div class="toc-container">
+                    <h3 class="toc-title">{dict['blog.toc'] || 'Table of Contents'}</h3>
+                    <ul class="toc-list">
+                        {#each data.toc as item}
+                            <li class="toc-item toc-level-{item.level}">
+                                <a href="#{item.id}" class:active={activeTocId === item.id}>{item.text}</a>
+                            </li>
+                        {/each}
+                    </ul>
+                </div>
                 {/if}
 
                 {#if data.relatedPosts && data.relatedPosts.length > 0}
@@ -346,89 +406,108 @@ margin-bottom: 0;
         top: 6rem;
     }
 
-    .tool-cta-card {
-        background: linear-gradient(135deg, var(--bg) 0%, rgba(36, 101, 203, 0.05) 100%);
+    /* ── Text Link CTA ── */
+    .article-text-cta {
+        margin: 3rem 0;
+        padding: 1.25rem 1.5rem;
+        background: var(--surface, rgba(0,0,0,0.03));
+        border-left: 4px solid var(--ac);
+        border-radius: 0 var(--r) var(--r) 0;
+        font-size: 1.05rem;
+        line-height: 1.5;
+        color: var(--tx);
+    }
+    
+    .cta-link {
+        color: var(--ac);
+        font-weight: 600;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        transition: color 0.2s;
+        margin-left: 0.5rem;
+        white-space: nowrap;
+    }
+    
+    .cta-link:hover {
+        color: #1d52a8;
+    }
+
+    /* ── TOC ── */
+    .toc-container {
+        background: var(--bg);
         border: 1px solid var(--bd);
         border-radius: var(--r);
         padding: 16px;
-        text-align: center;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.03);
-        position: relative;
-        overflow: hidden;
+        margin-bottom: 15px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+        max-height: calc(100vh - 20rem);
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-decoration: none;
-        color: inherit;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
-
-    .tool-cta-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 8px 30px rgba(36, 101, 203, 0.1);
-    }
-
-    .tool-cta-card::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 4px;
-        background: linear-gradient(90deg, var(--ac), #4facfe);
-    }
-
-    .cta-icon {
-        width: 56px;
-        height: 56px;
-        border-radius: 16px;
-        background: rgba(36, 101, 203, 0.1);
-        color: var(--ac);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 2rem;
-        margin: 0 0 1.25rem 0;
-    }
-
-    .cta-content {
-        margin-bottom: 1.5rem;
-    }
-
-    .cta-title {
-        font-size: 1.25rem;
-        font-weight: 700;
-        color: var(--tx);
-        margin: 0 0 0.5rem 0;
-        letter-spacing: -0.01em;
-    }
-
-    .cta-desc {
-        font-size: 0.95rem;
-        color: var(--tx-sub);
-        line-height: 1.5;
-        margin: 0;
-    }
-
-    .cta-button {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0.75rem 1.5rem;
-        background: var(--ac);
-        color: #fff;
+    
+    .toc-title {
+        flex-shrink: 0;
+        font-size: 14px;
         font-weight: 600;
-        font-size: 0.95rem;
-        text-decoration: none;
-        border-radius: 8px;
-        transition: all 0.2s ease;
-        width: 100%;
+        color: var(--tx);
+        margin: 0 0 1rem 0;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--bd);
+    }
+    
+    .toc-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        overflow-y: auto;
+        padding-right: 4px;
+        scrollbar-width: thin;
+        scrollbar-color: var(--bd) transparent;
     }
 
-    .cta-button:hover {
-        background: #1d52a8;
-        transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(36, 101, 203, 0.2);
+    .toc-list::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .toc-list::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .toc-list::-webkit-scrollbar-thumb {
+        background-color: var(--bd);
+        border-radius: 4px;
+    }
+    
+    .toc-item {
+        line-height: 1.4;
+    }
+    
+    .toc-level-2 {
+        padding-left: 0;
+    }
+    
+    .toc-level-3 {
+        padding-left: 1rem;
+        font-size: 0.9em;
+    }
+    
+    .toc-item a {
+        color: var(--tx-sub);
+        text-decoration: none;
+        transition: color 0.2s ease;
+        display: inline-block;
+    }
+    
+    .toc-item a:hover {
+        color: var(--ac);
+    }
+    
+    .toc-item a.active {
+        color: var(--ac);
+        font-weight: 600;
     }
 
     /* ── Related Posts ── */
@@ -490,27 +569,8 @@ margin-bottom: 0;
             position: static;
         }
 
-        .tool-cta-card {
-            flex-direction: row;
-            text-align: left;
-            padding: 1.5rem;
-            gap: 1.5rem;
-        }
-
-        .cta-icon {
-            margin: 0;
-            flex-shrink: 0;
-        }
-
-        .cta-content {
-            margin-bottom: 0;
-            flex-grow: 1;
-        }
-        
-        .cta-button {
-            width: auto;
-            flex-shrink: 0;
-            white-space: nowrap;
+        .toc-container {
+            display: none;
         }
     }
 
@@ -523,18 +583,6 @@ margin-bottom: 0;
 
         .article-title {
             font-size: 2rem;
-        }
-        
-        .tool-cta-card {
-            flex-direction: column;
-            text-align: left;
-            align-items: flex-start;
-            padding: 2rem 1.5rem;
-            gap: 1.25rem;
-        }
-        
-        .cta-button {
-            width: 100%;
         }
     }
 </style>
