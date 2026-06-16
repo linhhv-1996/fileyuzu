@@ -376,12 +376,12 @@
 
         {#if status === 'file' || status === 'proc'}
             <div style="height: auto; padding-bottom: 6px; display: flex; flex-direction: column; gap: 8px;">
-                <div class="preview-main" style="flex: none; height: {isVideoUnsupported ? 'auto' : '300px'}; overflow: hidden; position: relative; border-radius: 8px; background: {isVideoUnsupported ? 'var(--bg-color)' : '#000'}; border: {isVideoUnsupported ? '1px dashed var(--border-color)' : 'none'}; padding: {isVideoUnsupported ? '40px 20px' : '0'}; display: flex; align-items: center; justify-content: center; text-align: center;">
+                <div class="preview-main" style="flex: none; height: {isVideoUnsupported ? 'auto' : '350px'}; overflow: hidden; position: relative; border-radius: 8px; background: {isVideoUnsupported ? 'var(--bg-color)' : '#000'}; border: {isVideoUnsupported ? '1px dashed var(--border-color)' : 'none'}; padding: {isVideoUnsupported ? '40px 20px' : '0'}; display: flex; align-items: center; justify-content: center; text-align: center;">
                     {#if isVideoUnsupported}
                         <div style="color: var(--text-color, #64748b);">
                             <i class="ti ti-video-off" style="font-size: 32px; margin-bottom: 12px; display: block; opacity: 0.6;" aria-hidden="true"></i>
-                            <p style="margin: 0 0 8px 0; font-weight: 500;">Preview Not Available</p>
-                            <p style="margin: 0; font-size: 14px; opacity: 0.8;">The browser doesn't support previewing this format ({selectedFile?.name}).<br/>You can still use Interval or Evenly modes to extract frames.</p>
+                            <p style="margin: 0 0 8px 0; font-weight: 500;">{texts?.preview?.not_available || 'Preview Not Available'}</p>
+                            <p style="margin: 0; font-size: 14px; opacity: 0.8;">{texts?.preview?.unsupported_format ? texts.preview.unsupported_format.replace('{filename}', selectedFile?.name) : `The browser doesn't support previewing this format (${selectedFile?.name})`}.<br/>{texts?.preview?.fallback_hint || 'You can still use Interval or Evenly modes to extract frames.'}</p>
                         </div>
                     {:else if videoUrl}
                         <!-- svelte-ignore a11y_media_has_caption -->
