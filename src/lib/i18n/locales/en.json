@@ -1585,5 +1585,125 @@
     "q": "Are legacy or video formats like WMA, AIFF, or WebM supported for MP3 conversion?",
     "a": "Yes. The tool features broad format compatibility, meaning niche or specific conversions like WMA to MP3, AIFF to MP3, and WebM to MP3 work seamlessly right out of the box."
   }
+],
+
+  "_comment_extract_frames": "================ Extract Frames from Video ================",
+  "tool.extract_frames.title": "Extract Frames",
+  "tool.extract_frames.description": "Extract frames from a video and save them as images. Save the current frame, extract by interval, or extract N frames evenly.",
+  "tool.extract_frames.short_description": "Extract frames from a video privately.",
+
+
+"extract_frames.seo.title": "Extract Frames from Video Online for Free | UploadLess",
+"extract_frames.seo.description": "Extract frames from a video online for free. Save a single frame as JPG or PNG, capture video screenshots, or export multiple frames in a ZIP file.",
+"extract_frames.hero.title": "Extract Frames from Video",
+"extract_frames.hero.description": "Save the current video frame as an image, capture screenshots, or extract multiple frames by interval or count.",
+  
+  "extract_frames.upload.title": "Drop a video file here",
+  "extract_frames.upload.subtitle": "MP4, WebM, MOV, and more · Private extraction",
+  "extract_frames.upload.btn_select": "Select video file",
+  "extract_frames.upload.btn_sample": "Try sample video",
+  "extract_frames.upload.hint": "Select a video to extract frames from",
+  "extract_frames.mode.title": "Extraction Mode",
+  "extract_frames.mode.current": "Save current frame",
+  "extract_frames.mode.interval": "Extract by interval",
+  "extract_frames.mode.evenly": "Extract N frames evenly",
+  "extract_frames.settings.format": "Output format",
+  "extract_frames.settings.interval": "Interval (seconds)",
+  "extract_frames.settings.interval_custom": "Custom (seconds)",
+  "extract_frames.settings.frames": "Number of frames",
+  "extract_frames.settings.frames_custom": "Custom number",
+  "extract_frames.btn.save_current": "Save Current Frame",
+  "extract_frames.btn.extract_zip": "Extract & Download ZIP",
+  "extract_frames.btn.new": "Extract new video",
+  "extract_frames.btn.download_all": "Download All",
+  "extract_frames.btn.clear_all": "Clear All",
+  "extract_frames.btn.extract": "Extract",
+  "extract_frames.results.extracted_frames": "Extracted Frames",
+  "extract_frames.preview.not_available": "Preview Not Available",
+  "extract_frames.preview.unsupported_format": "The browser doesn't support previewing this format ({filename})",
+  "extract_frames.preview.fallback_hint": "You can still use Interval or Evenly modes to extract frames.",
+  "extract_frames.proc.extracting": "Extracting frames",
+  "extract_frames.how_to_use.title": "How to Extract Frames",
+
+
+"extract_frames.how_to_use.steps": [
+  "Upload an MP4, MOV, WebM, or another video file from your device.",
+  "Choose how you want to extract frames: save the current frame, extract frames at regular intervals, or extract a set number of frames evenly across the video.",
+  "Click the extract button, then download a single JPG image or a ZIP file with all extracted frames."
+],
+
+  "extract_frames.why_use.title": "Why Use UploadLess Frame Extractor",
+  "extract_frames.why_use.benefits": [
+  {
+    "icon": "shield-lock",
+    "title": "Extract frames privately",
+    "description": "Your video is processed directly in your browser, so it is not uploaded to a server."
+  },
+  {
+    "icon": "bolt",
+    "title": "Free video frame extractor",
+    "description": "Extract frames from a video online without signing up, installing software, or adding a watermark."
+  },
+  {
+    "icon": "layout-grid",
+    "title": "Single frame or multiple frames",
+    "description": "Save the current video frame, extract frames at regular intervals, or capture a set number of frames evenly."
+  },
+  {
+    "icon": "file-zip",
+    "title": "Download frames as ZIP",
+    "description": "When you extract multiple video frames, all JPG images are packaged into one ZIP file for easy download."
+  }
+],
+  "extract_frames.faq.title": "Extract Frames FAQ",
+  "extract_frames.faq.items": [
+  {
+    "q": "How do I extract frames from a video?",
+    "a": "Upload your video, choose an extraction mode, then click the extract button. You can save the current frame, extract frames at regular intervals, or capture a set number of frames evenly across the video."
+  },
+  {
+    "q": "How do I extract a single frame from a video?",
+    "a": "Use the Save Current Frame mode, move the video preview to the exact moment you want, then save that frame as a JPG image."
+  },
+  {
+    "q": "Can I extract multiple frames from a video automatically?",
+    "a": "Yes. You can extract video frames by interval, such as every 1, 2, 5, or 10 seconds, or choose a fixed number of frames to capture evenly across the video."
+  },
+  {
+    "q": "Can I turn a video into JPG images?",
+    "a": "Yes. This tool extracts frames from your video and saves them as JPG images. If you extract multiple frames, they are bundled into a ZIP file."
+  },
+  {
+    "q": "Can I take a screenshot from a video?",
+    "a": "Yes. Use the Save Current Frame mode to capture the current video frame as a JPG screenshot."
+  },
+  {
+    "q": "What video formats are supported?",
+    "a": "The tool works with common video formats such as MP4, MOV, WebM, AVI, and MKV. Support may depend on your browser and the video codec used in the file."
+  },
+  {
+    "q": "Can I extract frames from an MP4 video?",
+    "a": "Yes. You can use this as an MP4 frame extractor to save one frame, capture screenshots, or export multiple JPG frames from an MP4 file."
+  },
+  {
+    "q": "Can I extract frames every second?",
+    "a": "Yes. Choose the interval mode and set the interval to 1 second. You can also use longer intervals if you only need a few frames from the video."
+  },
+  {
+    "q": "Can I extract a specific number of frames?",
+    "a": "Yes. Choose the count mode and enter how many frames you want. The tool will capture that number of frames evenly across the full video duration."
+  },
+  {
+    "q": "Will the extracted frames keep the original video quality?",
+    "a": "The extracted JPG frames are based on the original video frame resolution. The final image quality can depend on the video quality, resolution, and compression of the source file."
+  },
+  {
+    "q": "Are my videos uploaded to a server?",
+    "a": "No. Frame extraction runs locally in your browser, so your video stays on your device and is not uploaded to our server."
+  },
+  {
+    "q": "Do I need to install software to extract video frames?",
+    "a": "No. You can extract frames from video online in your browser without installing an app, creating an account, or adding a watermark."
+  }
 ]
 }

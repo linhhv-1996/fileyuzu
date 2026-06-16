@@ -318,6 +318,22 @@ export const tools: ToolConfig[] = [
         tags: ['Audio to WAV', 'WAV'],
         markets: ['ko'],
     },
+    {
+        slug: 'extract-frames-from-video',
+        titleKey: 'tool.extract_frames.title',
+        descriptionKey: 'tool.extract_frames.description',
+        shortDescriptionKey: 'tool.extract_frames.short_description',
+        icon: 'camera',
+        related_tools: [
+            'video-converter',
+            'compress-video',
+            'mp4-converter',
+            'video-to-mp3',
+        ],
+        category: 'video',
+        tags: ['Video', 'Frame', 'Image', 'JPG', 'PNG'],
+        markets: ['en'],
+    },
 ];
 
 export function getRelatedTools(currentSlug: string): ToolConfig[] {
