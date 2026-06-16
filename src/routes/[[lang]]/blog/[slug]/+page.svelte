@@ -157,7 +157,7 @@
     /* ── Article Grid ── */
     .article-grid {
         display: grid;
-        grid-template-columns: 1fr 300px;
+        grid-template-columns: 1fr 280px;
         gap: 24px;
         align-items: start;
     }
