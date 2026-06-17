@@ -341,7 +341,6 @@ export const tools: ToolConfig[] = [
         shortDescriptionKey: 'tool.audio_to_text.short_description',
         icon: 'microphone',
         related_tools: [
-            'audio-converter',
             'convert-to-mp3',
             'video-converter',
             'video-to-mp3',
