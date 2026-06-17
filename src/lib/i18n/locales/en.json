@@ -1594,10 +1594,11 @@
 
 
 "extract_frames.seo.title": "Extract Frames from Video Online for Free | UploadLess",
-"extract_frames.seo.description": "Extract frames from a video online for free. Save a single frame as JPG or PNG, capture video screenshots, or export multiple frames in a ZIP file.",
+"tool.extract_frames.seo_description": "Extract frames from a video online for free. Save one frame as a JPG, or extract multiple frames by interval or count with a private video frame extractor.",
 "extract_frames.hero.title": "Extract Frames from Video",
-"extract_frames.hero.description": "Save the current video frame as an image, capture screenshots, or extract multiple frames by interval or count.",
-  
+"extract_frames.hero.description": "Save the current video frame as an image, capture a single moment, or extract multiple frames from your video by interval or count.",
+
+
   "extract_frames.upload.title": "Drop a video file here",
   "extract_frames.upload.subtitle": "MP4, WebM, MOV, and more · Private extraction",
   "extract_frames.upload.btn_select": "Select video file",
@@ -1656,54 +1657,56 @@
   }
 ],
   "extract_frames.faq.title": "Extract Frames FAQ",
-  "extract_frames.faq.items": [
+  
+"extract_frames.faq.items": [
   {
-    "q": "How do I extract frames from a video?",
-    "a": "Upload your video, choose an extraction mode, then click the extract button. You can save the current frame, extract frames at regular intervals, or capture a set number of frames evenly across the video."
+    "q": "What is a video frame extractor?",
+    "a": "A video frame extractor is a tool that lets you capture still images from a video. You can save one exact frame, export frames at regular intervals, or turn parts of a video into JPG frame images."
   },
   {
-    "q": "How do I extract a single frame from a video?",
-    "a": "Use the Save Current Frame mode, move the video preview to the exact moment you want, then save that frame as a JPG image."
+    "q": "How do I extract frames from a video online?",
+    "a": "Upload your video, choose how you want to extract frames, then start the process. You can extract the current frame, export frames by time interval, or capture a fixed number of frames evenly across the video."
   },
   {
-    "q": "Can I extract multiple frames from a video automatically?",
-    "a": "Yes. You can extract video frames by interval, such as every 1, 2, 5, or 10 seconds, or choose a fixed number of frames to capture evenly across the video."
+    "q": "How do I extract one frame from a video?",
+    "a": "Use the current frame mode, move the video preview to the exact moment you want, then save that frame as a JPG image. This is useful for thumbnails, previews, screenshots, and saving a specific moment."
   },
   {
-    "q": "Can I turn a video into JPG images?",
-    "a": "Yes. This tool extracts frames from your video and saves them as JPG images. If you extract multiple frames, they are bundled into a ZIP file."
+    "q": "Can I export multiple frames from a video?",
+    "a": "Yes. You can export multiple frames from a video by choosing an interval, such as every 1 second or every 5 seconds. The extracted JPG frames are bundled into a ZIP file for download."
   },
   {
-    "q": "Can I take a screenshot from a video?",
-    "a": "Yes. Use the Save Current Frame mode to capture the current video frame as a JPG screenshot."
+    "q": "Can I turn a video into frames?",
+    "a": "Yes. This tool can turn a video into frames by extracting still JPG images from the video timeline. You can choose interval extraction or capture a set number of frames from the full video."
   },
   {
-    "q": "What video formats are supported?",
-    "a": "The tool works with common video formats such as MP4, MOV, WebM, AVI, and MKV. Support may depend on your browser and the video codec used in the file."
+    "q": "Can I extract images from a video?",
+    "a": "Yes. You can extract images from a video and save them as JPG files. This works well when you need a thumbnail, a preview image, a video screenshot, or several frames from different parts of the video."
+  },
+  {
+    "q": "Can I capture or grab a frame from a video?",
+    "a": "Yes. You can capture, grab, or save a frame from a video by pausing on the exact moment and using the current frame mode. The selected video frame is saved as a JPG image."
   },
   {
     "q": "Can I extract frames from an MP4 video?",
-    "a": "Yes. You can use this as an MP4 frame extractor to save one frame, capture screenshots, or export multiple JPG frames from an MP4 file."
+    "a": "Yes. You can use this tool as an MP4 frame extractor to save a single frame or export multiple JPG frames from an MP4 file. It also supports other common video formats depending on your browser."
   },
   {
-    "q": "Can I extract frames every second?",
-    "a": "Yes. Choose the interval mode and set the interval to 1 second. You can also use longer intervals if you only need a few frames from the video."
+    "q": "Can I extract frames from a video every second?",
+    "a": "Yes. Choose interval mode and set the interval to 1 second. You can also use longer intervals, such as 2, 5, or 10 seconds, if you only need selected frames from the video."
   },
   {
-    "q": "Can I extract a specific number of frames?",
-    "a": "Yes. Choose the count mode and enter how many frames you want. The tool will capture that number of frames evenly across the full video duration."
+    "q": "Can I extract a fixed number of frames from a video?",
+    "a": "Yes. Choose count mode and enter the number of frames you want to capture. The tool will extract that number of frames evenly across the full video duration."
   },
   {
-    "q": "Will the extracted frames keep the original video quality?",
-    "a": "The extracted JPG frames are based on the original video frame resolution. The final image quality can depend on the video quality, resolution, and compression of the source file."
+    "q": "Are the extracted video frames saved as JPG?",
+    "a": "Yes. Extracted frames are saved as JPG images. If you extract multiple video frames, the JPG images are packaged into a ZIP file so you can download them together."
   },
   {
-    "q": "Are my videos uploaded to a server?",
-    "a": "No. Frame extraction runs locally in your browser, so your video stays on your device and is not uploaded to our server."
-  },
-  {
-    "q": "Do I need to install software to extract video frames?",
-    "a": "No. You can extract frames from video online in your browser without installing an app, creating an account, or adding a watermark."
+    "q": "Is this video frame extractor private?",
+    "a": "Yes. The frame extraction runs directly in your browser, so your video stays on your device. You do not need to upload the video to a server, install software, create an account, or add a watermark."
   }
 ]
+
 }
