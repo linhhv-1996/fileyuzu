@@ -1725,6 +1725,128 @@
       "q": "WMAやAIFFなどの古いフォーマットもMP3に変換できますか？",
       "a": "はい、対応しています。幅広いフォーマット互換性を備えているため、「wma mp3 変換」や「aiff mp3 変換」といった特定のニーズにも、追加プラグインやソフトのインストールなしで、ブラウザ上ですぐにシームレスに対応可能です。"
     }
-  ]
+  ],
+
+
+    "_comment_extract_frames": "================ Extract Frames from Video ================",
+  "tool.extract_frames.title": "フレーム抽出",
+  "tool.extract_frames.description": "動画からフレームを抽出して画像として保存できます。現在のフレームを保存したり、間隔ごとに抽出したり、指定した枚数を均等に抽出できます。",
+  "tool.extract_frames.short_description": "動画からフレームをプライベートに抽出します。",
+
+  "extract_frames.upload.title": "ここに動画ファイルをドロップ",
+  "extract_frames.upload.subtitle": "MP4、WebM、MOV など · プライベート抽出",
+  "extract_frames.upload.btn_select": "動画ファイルを選択",
+  "extract_frames.upload.btn_sample": "サンプル動画を試す",
+  "extract_frames.upload.hint": "フレームを抽出する動画を選択してください",
+  "extract_frames.mode.title": "抽出モード",
+  "extract_frames.mode.current": "現在のフレームを保存",
+  "extract_frames.mode.interval": "間隔ごとに抽出",
+  "extract_frames.mode.evenly": "指定枚数を均等に抽出",
+  "extract_frames.settings.format": "出力形式",
+  "extract_frames.settings.interval": "間隔（秒）",
+  "extract_frames.settings.interval_custom": "カスタム（秒）",
+  "extract_frames.settings.frames": "フレーム数",
+  "extract_frames.settings.frames_custom": "カスタム枚数",
+  "extract_frames.btn.save_current": "現在のフレームを保存",
+  "extract_frames.btn.extract_zip": "抽出して ZIP をダウンロード",
+  "extract_frames.btn.new": "新しい動画を抽出",
+  "extract_frames.btn.download_all": "すべてダウンロード",
+  "extract_frames.btn.clear_all": "すべてクリア",
+  "extract_frames.btn.extract": "抽出",
+  "extract_frames.results.extracted_frames": "抽出されたフレーム",
+  "extract_frames.preview.not_available": "プレビューできません",
+  "extract_frames.preview.unsupported_format": "この形式（{filename}）のプレビューはブラウザでサポートされていません",
+  "extract_frames.preview.fallback_hint": "間隔モードまたは均等抽出モードを使って、フレームを抽出することはできます。",
+  "extract_frames.proc.extracting": "フレームを抽出中",
+  
+
+  "extract_frames.seo.title": "動画から静止画を切り出し・フレーム抽出を無料で｜UploadLess",
+"extract_frames.seo.description": "動画から静止画を切り出し、現在のフレームをJPGで保存。一定間隔や枚数指定で複数フレームを抽出し、ZIPでまとめてダウンロードできます。無料・インストール不要。",
+"extract_frames.hero.title": "動画から静止画を切り出し",
+"extract_frames.hero.description": "動画の現在フレームをJPGで保存。一定間隔または枚数指定で複数フレームを抽出し、ZIPでまとめてダウンロードできます。",
+
+"extract_frames.how_to_use.title": "フレームを抽出する方法",
+"extract_frames.how_to_use.steps": [
+  "MP4、MOV、WebMなどの動画ファイルをデバイスからアップロードします。",
+  "抽出方法を選びます。現在のフレームを保存する、一定間隔でフレームを抽出する、または動画全体から指定した枚数を均等に抽出できます。",
+  "抽出ボタンをクリックし、1枚のJPG画像または抽出したフレームをまとめたZIPファイルをダウンロードします。"
+],
+
+"extract_frames.why_use.title": "UploadLessのフレーム抽出ツールを使う理由",
+"extract_frames.why_use.benefits": [
+  {
+    "icon": "shield-lock",
+    "title": "動画をアップロードせずに処理",
+    "description": "動画はブラウザ上で直接処理されるため、サーバーにアップロードされません。プライベートに静止画を切り出せます。"
+  },
+  {
+    "icon": "bolt",
+    "title": "無料で使えるフレーム抽出ツール",
+    "description": "ソフトのインストールや会員登録なしで、動画からフレームや静止画をオンラインで抽出できます。透かしも入りません。"
+  },
+  {
+    "icon": "layout-grid",
+    "title": "1枚でも複数フレームでも抽出",
+    "description": "現在のフレームをJPGで保存したり、一定間隔で抽出したり、動画全体から指定枚数のフレームを均等に切り出せます。"
+  },
+  {
+    "icon": "file-zip",
+    "title": "複数フレームはZIPで保存",
+    "description": "複数の動画フレームを抽出した場合、すべてのJPG画像を1つのZIPファイルにまとめてダウンロードできます。"
+  }
+],
+
+"extract_frames.faq.title": "フレーム抽出に関するFAQ",
+"extract_frames.faq.items": [
+  {
+    "q": "動画から静止画を切り出すにはどうすればいいですか？",
+    "a": "動画ファイルをアップロードし、抽出方法を選んで抽出ボタンをクリックします。現在のフレームを1枚だけ保存したり、一定間隔で複数フレームを抽出したり、指定した枚数を動画全体から均等に切り出すことができます。"
+  },
+  {
+    "q": "動画から1コマだけ切り出して保存できますか？",
+    "a": "はい。現在のフレームを保存するモードを使えば、動画プレビューを好きな場面に合わせて、その1コマをJPG画像として保存できます。"
+  },
+  {
+    "q": "動画のフレームを複数枚まとめて抽出できますか？",
+    "a": "はい。一定間隔でフレームを抽出する方法と、動画全体から指定した枚数を均等に抽出する方法があります。複数のフレームはZIPファイルにまとめてダウンロードできます。"
+  },
+  {
+    "q": "動画から一定間隔で画像を抽出できますか？",
+    "a": "はい。一定間隔モードを選ぶと、たとえば1秒ごと、5秒ごと、10秒ごとなど、指定した間隔で動画から画像を抽出できます。"
+  },
+  {
+    "q": "動画のスクリーンショットを保存できますか？",
+    "a": "はい。動画の好きな場面を表示して現在のフレームを保存すれば、動画のスクリーンショットとしてJPG画像をダウンロードできます。"
+  },
+  {
+    "q": "MP4から画像やフレームを取り出せますか？",
+    "a": "はい。MP4動画から静止画、スクリーンショット、フレーム画像を取り出せます。MOV、WebM、AVIなど、ブラウザで読み込める多くの動画形式にも対応しています。"
+  },
+  {
+    "q": "抽出したフレームはどの画像形式で保存されますか？",
+    "a": "抽出したフレームはJPG画像として保存されます。1枚だけ保存する場合はJPGファイル、複数枚を抽出する場合はJPG画像をまとめたZIPファイルとしてダウンロードできます。"
+  },
+  {
+    "q": "動画を連番画像として抽出できますか？",
+    "a": "はい。複数フレームを抽出すると、各フレーム画像をまとめてZIPで保存できます。動画を1秒ごとに画像化したい場合や、プレビュー用に複数の静止画を作りたい場合に便利です。"
+  },
+  {
+    "q": "動画からサムネイル用の画像を作れますか？",
+    "a": "はい。動画の中から見せたい場面を選んで1枚のJPG画像として保存できるため、動画サムネイル、SNS投稿、ブログ記事のアイキャッチ画像作成にも使えます。"
+  },
+  {
+    "q": "動画はサーバーにアップロードされますか？",
+    "a": "いいえ。動画の処理はブラウザ上で直接行われます。ファイルはサーバーにアップロードされないため、プライベートに動画から静止画を切り出せます。"
+  },
+  {
+    "q": "無料で動画フレームを抽出できますか？",
+    "a": "はい。UploadLessでは、会員登録やソフトのインストールなしで、無料で動画からフレームや静止画を抽出できます。保存した画像に透かしも入りません。"
+  },
+  {
+    "q": "スマホでも動画から静止画を切り出せますか？",
+    "a": "はい。ブラウザで動作するため、スマホやPCから利用できます。端末やブラウザによって処理速度は変わりますが、短い動画であれば手軽にフレームを保存できます。"
+  }
+]
+
 
 }

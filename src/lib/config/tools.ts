@@ -332,7 +332,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'video',
         tags: ['Video', 'Frame', 'Image', 'JPG', 'PNG'],
-        markets: ['en'],
+        markets: ['en', 'ja'],
     },
 ];
 
