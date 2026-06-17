@@ -440,7 +440,7 @@ margin-bottom: 0;
         padding: 16px;
         margin-bottom: 15px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.02);
-        max-height: calc(100vh - 20rem);
+        max-height: 450px;
         display: flex;
         flex-direction: column;
     }
