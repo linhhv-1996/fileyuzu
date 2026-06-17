@@ -1385,22 +1385,17 @@
       "a": "No. UploadLess compares your lists directly in your browser. Your pasted text, CSV data, Excel files, and uploaded documents do not need to be sent to a server, which helps keep your list comparison private."
     }
   ],
-
   "tool.audio_converter.title": "Audio Converter",
   "tool.audio_converter.description": "Convert audio files to different formats for free. Everything runs in your browser without uploading files to a server.",
   "tool.audio_converter.short_description": "Convert audio directly in your browser.",
   "tool.convert_to_mp3.title": "Convert to MP3",
   "tool.convert_to_mp3.description": "Convert your audio files to MP3 format for free. Fast, private, browser-based conversion.",
   "tool.convert_to_mp3.short_description": "Convert any audio to MP3 format.",
-
   "_comment_audio_converter": "================ Audio Converter ================",
-  
   "audio_converter.seo.title": "Free Online Audio Converter (WAV, MP3, FLAC) | UploadLess",
   "audio_converter.seo.description": "Convert audio files online for free with UploadLess. High-quality batch conversion between MP3, WAV, FLAC, M4A, OGG safely in your browser with no uploads.",
   "audio_converter.hero.title": "Free Online Audio Converter",
   "audio_converter.hero.description": "Convert audio files in bulk between MP3, WAV, M4A, FLAC, OGG, and more. Fast, 100% private browser-based conversion with bitrate and sample rate controls.",
-  
-  
   "audio_converter.upload.title": "Drop audio files here to convert",
   "audio_converter.upload.subtitle": "MP3, WAV, FLAC, M4A, OGG & more · browser-based conversion",
   "audio_converter.upload.btn_select": "Select audio files",
@@ -1412,8 +1407,6 @@
   "audio_converter.btn.convert_new": "Convert new files",
   "audio_converter.btn.add_more": "Add more files",
   "audio_converter.proc.converting": "Converting audio",
-
-  
   "audio_converter.how_to_use.title": "How to Convert Audio Online",
   "audio_converter.how_to_use.steps": [
     "Select or drag & drop your audio files into the converter area (supports batch processing).",
@@ -1487,16 +1480,11 @@
       "a": "No installation, apps, or browser extensions are required. This audio converter runs directly in any modern web browser across desktop and mobile devices."
     }
   ],
-
   "_comment_convert_to_mp3": "================ Convert to MP3 ================",
-  
-
   "convert_to_mp3.seo.title": "Free Audio to MP3 Converter (M4A, WAV, FLAC) | UploadLess",
-"convert_to_mp3.seo.description": "Convert M4A, WAV, FLAC, OGG, and other audio formats to MP3 online for free. Fast batch conversion right in your browser with 100% privacy and no uploads.",
-"convert_to_mp3.hero.title": "Free Online Audio to MP3 Converter",
-"convert_to_mp3.hero.description": "Convert M4A, WAV, FLAC, OGG, and more to MP3 instantly. Experience fast, 100% private batch conversion right inside your browser with no file uploads.",
-
-  
+  "convert_to_mp3.seo.description": "Convert M4A, WAV, FLAC, OGG, and other audio formats to MP3 online for free. Fast batch conversion right in your browser with 100% privacy and no uploads.",
+  "convert_to_mp3.hero.title": "Free Online Audio to MP3 Converter",
+  "convert_to_mp3.hero.description": "Convert M4A, WAV, FLAC, OGG, and more to MP3 instantly. Experience fast, 100% private batch conversion right inside your browser with no file uploads.",
   "convert_to_mp3.upload.title": "Drop audio files here to convert to MP3",
   "convert_to_mp3.upload.subtitle": "WAV, M4A, FLAC, OGG & more · browser-based conversion",
   "convert_to_mp3.upload.btn_select": "Select audio files",
@@ -1509,96 +1497,85 @@
   "convert_to_mp3.btn.add_more": "Add more files",
   "convert_to_mp3.proc.converting": "Converting to MP3",
   "convert_to_mp3.how_to_use.title": "How to Convert Audio to MP3",
-  
-  
   "convert_to_mp3.how_to_use.steps": [
-  "Select or drag & drop your audio files (such as M4A, WAV, FLAC, OGG) into the converter area.",
-  "Click 'Convert to MP3' to process all your files instantly and privately right inside your browser.",
-  "Download your high-quality converted MP3 files directly to your device with zero upload waiting time."
-],
-  
-  
+    "Select or drag & drop your audio files (such as M4A, WAV, FLAC, OGG) into the converter area.",
+    "Click 'Convert to MP3' to process all your files instantly and privately right inside your browser.",
+    "Download your high-quality converted MP3 files directly to your device with zero upload waiting time."
+  ],
   "convert_to_mp3.why_use.title": "Why Convert to MP3 with UploadLess",
   "convert_to_mp3.why_use.benefits": [
-  {
-    "icon": "shield-lock",
-    "title": "100% Private MP3 Conversion",
-    "description": "Your files never leave your device. The entire conversion to MP3 runs locally inside your web browser, keeping your private voice memos and audio tracks 100% secure."
-  },
-  {
-    "icon": "bolt",
-    "title": "No Sign-Up, No Size Limits",
-    "description": "Convert heavy WAV or long M4A files to MP3 immediately. Enjoy free, unrestricted access with no account required, no watermarks, and no usage caps."
-  },
-  {
-    "icon": "files",
-    "title": "Batch MP3 Processing",
-    "description": "Convert an entire folder of audio tracks to MP3 simultaneously. Experience rapid browser-based processing with zero server upload or download lag."
-  },
-  {
-    "icon": "music",
-    "title": "High-Quality MP3 Output",
-    "description": "Transform audio formats like WAV, FLAC, M4A, and OGG into crisp, high-quality MP3 files while preserving the maximum original sound fidelity."
-  }
-],
-  
-  
+    {
+      "icon": "shield-lock",
+      "title": "100% Private MP3 Conversion",
+      "description": "Your files never leave your device. The entire conversion to MP3 runs locally inside your web browser, keeping your private voice memos and audio tracks 100% secure."
+    },
+    {
+      "icon": "bolt",
+      "title": "No Sign-Up, No Size Limits",
+      "description": "Convert heavy WAV or long M4A files to MP3 immediately. Enjoy free, unrestricted access with no account required, no watermarks, and no usage caps."
+    },
+    {
+      "icon": "files",
+      "title": "Batch MP3 Processing",
+      "description": "Convert an entire folder of audio tracks to MP3 simultaneously. Experience rapid browser-based processing with zero server upload or download lag."
+    },
+    {
+      "icon": "music",
+      "title": "High-Quality MP3 Output",
+      "description": "Transform audio formats like WAV, FLAC, M4A, and OGG into crisp, high-quality MP3 files while preserving the maximum original sound fidelity."
+    }
+  ],
   "convert_to_mp3.faq.title": "MP3 Converter FAQ",
   "convert_to_mp3.faq.items": [
-  {
-    "q": "Which audio formats can be converted to MP3?",
-    "a": "UploadLess supports converting a wide range of audio formats to MP3, including M4A, WAV, FLAC, OGG, AAC, WMA, AIFF, AMR, OPUS, and WebM. Almost any standard audio file can be converted instantly."
-  },
-  {
-    "q": "Is my audio uploaded to a server to convert to MP3?",
-    "a": "No, the entire conversion process runs 100% locally inside the web browser. Files are never uploaded to any external server and never leave the device, ensuring absolute data privacy for private recordings."
-  },
-  {
-    "q": "Can multiple files be converted using the bulk MP3 converter online?",
-    "a": "Yes. The built-in bulk MP3 converter feature allows for selecting and converting multiple audio files to MP3 simultaneously, leveraging local browser power to save time."
-  },
-  {
-    "q": "How does the M4A to MP3 converter handle iPhone voice memos?",
-    "a": "Simply drop M4A voice memos or audio tracks into the converter. The tool converts M4A to MP3 right inside the browser, making the files instantly compatible with any media player, operating system, or device."
-  },
-  {
-    "q": "Will converting WAV to MP3 significantly reduce the file size?",
-    "a": "Yes, converting heavy, uncompressed WAV files to MP3 drastically compresses and reduces file size. This makes the audio much easier to store or share via Email, Discord, Slack, and WhatsApp while maintaining great sound quality."
-  },
-  {
-    "q": "Does this tool support converting FLAC or OGG to MP3?",
-    "a": "Absolutely. Converting FLAC to MP3 or OGG to MP3 is fully supported. The tool reads the high-fidelity source files directly in the browser and outputs a standardized, highly compatible MP3 file."
-  },
-  {
-    "q": "Is there a file size limit for this free audio to MP3 converter?",
-    "a": "No. Because all processing happens locally within the web browser rather than on a remote server, there are no file size limits, no daily usage caps, and no registration required."
-  },
-  {
-    "q": "Does this browser-based tool output a high-quality MP3 file?",
-    "a": "Yes, the local conversion engine is highly optimized to preserve maximum sound fidelity, ensuring the resulting MP3 files remain crisp, clear, and high-quality."
-  },
-  {
-    "q": "Why is this MP3 converter faster than traditional online converters?",
-    "a": "Traditional online tools require waiting for heavy audio files to upload to a server, convert, and then download. UploadLess processes everything locally on the device, completely eliminating upload and download lag."
-  },
-  {
-    "q": "Are legacy or video formats like WMA, AIFF, or WebM supported for MP3 conversion?",
-    "a": "Yes. The tool features broad format compatibility, meaning niche or specific conversions like WMA to MP3, AIFF to MP3, and WebM to MP3 work seamlessly right out of the box."
-  }
-],
-
+    {
+      "q": "Which audio formats can be converted to MP3?",
+      "a": "UploadLess supports converting a wide range of audio formats to MP3, including M4A, WAV, FLAC, OGG, AAC, WMA, AIFF, AMR, OPUS, and WebM. Almost any standard audio file can be converted instantly."
+    },
+    {
+      "q": "Is my audio uploaded to a server to convert to MP3?",
+      "a": "No, the entire conversion process runs 100% locally inside the web browser. Files are never uploaded to any external server and never leave the device, ensuring absolute data privacy for private recordings."
+    },
+    {
+      "q": "Can multiple files be converted using the bulk MP3 converter online?",
+      "a": "Yes. The built-in bulk MP3 converter feature allows for selecting and converting multiple audio files to MP3 simultaneously, leveraging local browser power to save time."
+    },
+    {
+      "q": "How does the M4A to MP3 converter handle iPhone voice memos?",
+      "a": "Simply drop M4A voice memos or audio tracks into the converter. The tool converts M4A to MP3 right inside the browser, making the files instantly compatible with any media player, operating system, or device."
+    },
+    {
+      "q": "Will converting WAV to MP3 significantly reduce the file size?",
+      "a": "Yes, converting heavy, uncompressed WAV files to MP3 drastically compresses and reduces file size. This makes the audio much easier to store or share via Email, Discord, Slack, and WhatsApp while maintaining great sound quality."
+    },
+    {
+      "q": "Does this tool support converting FLAC or OGG to MP3?",
+      "a": "Absolutely. Converting FLAC to MP3 or OGG to MP3 is fully supported. The tool reads the high-fidelity source files directly in the browser and outputs a standardized, highly compatible MP3 file."
+    },
+    {
+      "q": "Is there a file size limit for this free audio to MP3 converter?",
+      "a": "No. Because all processing happens locally within the web browser rather than on a remote server, there are no file size limits, no daily usage caps, and no registration required."
+    },
+    {
+      "q": "Does this browser-based tool output a high-quality MP3 file?",
+      "a": "Yes, the local conversion engine is highly optimized to preserve maximum sound fidelity, ensuring the resulting MP3 files remain crisp, clear, and high-quality."
+    },
+    {
+      "q": "Why is this MP3 converter faster than traditional online converters?",
+      "a": "Traditional online tools require waiting for heavy audio files to upload to a server, convert, and then download. UploadLess processes everything locally on the device, completely eliminating upload and download lag."
+    },
+    {
+      "q": "Are legacy or video formats like WMA, AIFF, or WebM supported for MP3 conversion?",
+      "a": "Yes. The tool features broad format compatibility, meaning niche or specific conversions like WMA to MP3, AIFF to MP3, and WebM to MP3 work seamlessly right out of the box."
+    }
+  ],
   "_comment_extract_frames": "================ Extract Frames from Video ================",
   "tool.extract_frames.title": "Extract Frames",
   "tool.extract_frames.description": "Extract frames from a video and save them as images. Save the current frame, extract by interval, or extract N frames evenly.",
   "tool.extract_frames.short_description": "Extract frames from a video privately.",
-
-
-"extract_frames.seo.title": "Extract Frames from Video Online for Free | Free Video Frame Extractor",
-"extract_frames.seo.description": "Extract frames from a video online for free. Save the current frame as a JPG, capture video screenshots, or export multiple frames by interval or count privately in your browser.",
-"extract_frames.hero.title": "Extract Frames from Video",
-"extract_frames.hero.description": "Save the current video frame as an image, capture a single moment, or extract multiple frames from your video by interval or count.",
-
-
+  "extract_frames.seo.title": "Extract Frames from Video Online for Free | Free Video Frame Extractor",
+  "extract_frames.seo.description": "Extract frames from a video online for free. Save the current frame as a JPG, capture video screenshots, or export multiple frames by interval or count privately in your browser.",
+  "extract_frames.hero.title": "Extract Frames from Video",
+  "extract_frames.hero.description": "Save the current video frame as an image, capture a single moment, or extract multiple frames from your video by interval or count.",
   "extract_frames.upload.title": "Drop a video file here",
   "extract_frames.upload.subtitle": "MP4, WebM, MOV, and more · Private extraction",
   "extract_frames.upload.btn_select": "Select video file",
@@ -1625,89 +1602,289 @@
   "extract_frames.preview.fallback_hint": "You can still use Interval or Evenly modes to extract frames.",
   "extract_frames.proc.extracting": "Extracting frames",
   "extract_frames.how_to_use.title": "How to Extract Frames",
-
-
-"extract_frames.how_to_use.steps": [
-  "Upload an MP4, MOV, WebM, or another video file from your device.",
-  "Choose how you want to extract frames: save the current frame, extract frames at regular intervals, or extract a set number of frames evenly across the video.",
-  "Click the extract button, then download a single JPG image or a ZIP file with all extracted frames."
-],
-
+  "extract_frames.how_to_use.steps": [
+    "Upload an MP4, MOV, WebM, or another video file from your device.",
+    "Choose how you want to extract frames: save the current frame, extract frames at regular intervals, or extract a set number of frames evenly across the video.",
+    "Click the extract button, then download a single JPG image or a ZIP file with all extracted frames."
+  ],
   "extract_frames.why_use.title": "Why Use UploadLess Frame Extractor",
   "extract_frames.why_use.benefits": [
-  {
-    "icon": "shield-lock",
-    "title": "Extract frames privately",
-    "description": "Your video is processed directly in your browser, so it is not uploaded to a server."
-  },
-  {
-    "icon": "bolt",
-    "title": "Free video frame extractor",
-    "description": "Extract frames from a video online without signing up, installing software, or adding a watermark."
-  },
-  {
-    "icon": "layout-grid",
-    "title": "Single frame or multiple frames",
-    "description": "Save the current video frame, extract frames at regular intervals, or capture a set number of frames evenly."
-  },
-  {
-    "icon": "file-zip",
-    "title": "Download frames as ZIP",
-    "description": "When you extract multiple video frames, all JPG images are packaged into one ZIP file for easy download."
-  }
-],
+    {
+      "icon": "shield-lock",
+      "title": "Extract frames privately",
+      "description": "Your video is processed directly in your browser, so it is not uploaded to a server."
+    },
+    {
+      "icon": "bolt",
+      "title": "Free video frame extractor",
+      "description": "Extract frames from a video online without signing up, installing software, or adding a watermark."
+    },
+    {
+      "icon": "layout-grid",
+      "title": "Single frame or multiple frames",
+      "description": "Save the current video frame, extract frames at regular intervals, or capture a set number of frames evenly."
+    },
+    {
+      "icon": "file-zip",
+      "title": "Download frames as ZIP",
+      "description": "When you extract multiple video frames, all JPG images are packaged into one ZIP file for easy download."
+    }
+  ],
   "extract_frames.faq.title": "Extract Frames FAQ",
-
-"extract_frames.faq.items": [
-  {
-    "q": "What is a video frame extractor?",
-    "a": "A video frame extractor is a tool that saves still images from a video. Instead of taking a screen capture, it reads the video frame directly and lets you save it as an image."
-  },
-  {
-    "q": "How do I extract frames from a video online?",
-    "a": "Upload your video, choose an extraction mode, and start the process. You can save the current frame, extract frames at a time interval, or capture a fixed number of frames from the video."
-  },
-  {
-    "q": "How do I save one exact frame from a video?",
-    "a": "Use the current frame mode, move the preview to the moment you want, then save that frame as a JPG image. This is useful when you need one precise image from a video."
-  },
-  {
-    "q": "Can I take a clean screenshot from a video?",
-    "a": "Yes. You can save the video frame itself as a JPG image, without browser controls, player buttons, or other screen elements appearing in the screenshot."
-  },
-  {
-    "q": "How do I extract frames every few seconds?",
-    "a": "Choose interval mode and enter the number of seconds between frames. For example, you can extract one frame every 1, 2, 5, or 10 seconds."
-  },
-  {
-    "q": "How do I extract a fixed number of frames from a video?",
-    "a": "Choose count mode and enter how many frames you want. The tool will capture that number of frames evenly across the full video duration."
-  },
-  {
-    "q": "Should I extract every frame from a video?",
-    "a": "Usually, extracting every frame is not necessary because it can create hundreds or thousands of images. For previews, thumbnails, or quick review, interval extraction or fixed-count extraction is often better."
-  },
-  {
-    "q": "Can I extract frames from an MP4 video?",
-    "a": "Yes. You can use this tool as an MP4 frame extractor to save one frame or export multiple frames from an MP4 file. Other common video formats may also work depending on your browser."
-  },
-  {
-    "q": "What format are the extracted video frames saved in?",
-    "a": "Extracted frames are saved as JPG images. JPG works well for video screenshots, thumbnails, preview images, and sharing frames online."
-  },
-  {
-    "q": "How do I download multiple video frames?",
-    "a": "When you extract multiple frames, the JPG images are packaged into a ZIP file. This makes it easier to download all extracted frames together."
-  },
-  {
-    "q": "Is my video uploaded to a server?",
-    "a": "No. The frame extraction runs directly in your browser, so your video stays on your device. You do not need to upload it, install software, or create an account."
-  },
-  {
-    "q": "What can I use extracted video frames for?",
-    "a": "You can use extracted frames for thumbnails, video previews, tutorials, social media posts, documentation, image references, or saving a specific moment from a video."
-  }
-]
-
-
+  "extract_frames.faq.items": [
+    {
+      "q": "What is a video frame extractor?",
+      "a": "A video frame extractor is a tool that saves still images from a video. Instead of taking a screen capture, it reads the video frame directly and lets you save it as an image."
+    },
+    {
+      "q": "How do I extract frames from a video online?",
+      "a": "Upload your video, choose an extraction mode, and start the process. You can save the current frame, extract frames at a time interval, or capture a fixed number of frames from the video."
+    },
+    {
+      "q": "How do I save one exact frame from a video?",
+      "a": "Use the current frame mode, move the preview to the moment you want, then save that frame as a JPG image. This is useful when you need one precise image from a video."
+    },
+    {
+      "q": "Can I take a clean screenshot from a video?",
+      "a": "Yes. You can save the video frame itself as a JPG image, without browser controls, player buttons, or other screen elements appearing in the screenshot."
+    },
+    {
+      "q": "How do I extract frames every few seconds?",
+      "a": "Choose interval mode and enter the number of seconds between frames. For example, you can extract one frame every 1, 2, 5, or 10 seconds."
+    },
+    {
+      "q": "How do I extract a fixed number of frames from a video?",
+      "a": "Choose count mode and enter how many frames you want. The tool will capture that number of frames evenly across the full video duration."
+    },
+    {
+      "q": "Should I extract every frame from a video?",
+      "a": "Usually, extracting every frame is not necessary because it can create hundreds or thousands of images. For previews, thumbnails, or quick review, interval extraction or fixed-count extraction is often better."
+    },
+    {
+      "q": "Can I extract frames from an MP4 video?",
+      "a": "Yes. You can use this tool as an MP4 frame extractor to save one frame or export multiple frames from an MP4 file. Other common video formats may also work depending on your browser."
+    },
+    {
+      "q": "What format are the extracted video frames saved in?",
+      "a": "Extracted frames are saved as JPG images. JPG works well for video screenshots, thumbnails, preview images, and sharing frames online."
+    },
+    {
+      "q": "How do I download multiple video frames?",
+      "a": "When you extract multiple frames, the JPG images are packaged into a ZIP file. This makes it easier to download all extracted frames together."
+    },
+    {
+      "q": "Is my video uploaded to a server?",
+      "a": "No. The frame extraction runs directly in your browser, so your video stays on your device. You do not need to upload it, install software, or create an account."
+    },
+    {
+      "q": "What can I use extracted video frames for?",
+      "a": "You can use extracted frames for thumbnails, video previews, tutorials, social media posts, documentation, image references, or saving a specific moment from a video."
+    }
+  ],
+  "_comment_audio_to_text": "================ Audio to Text ================",
+  "tool.audio_to_text.title": "Audio to Text",
+  "tool.audio_to_text.description": "Convert audio and video speech to text directly in your browser. Fully private and powered by AI.",
+  "tool.audio_to_text.short_description": "Transcribe audio to text privately.",
+  "audio_to_text.seo.title": "Audio to Text Converter Free Online",
+  "audio_to_text.seo.description": "Convert audio files to text online for free. Upload MP3, WAV, M4A, FLAC, or other audio files and transcribe speech privately in your browser.",
+  "audio_to_text.hero.title": "Audio to Text Converter",
+  "audio_to_text.hero.description": "Upload an audio file and transcribe speech to text privately in your browser using Whisper AI.",
+  "audio_to_text.upload.title": "Upload an Audio File",
+  "audio_to_text.upload.subtitle": "Convert MP3, WAV, M4A, FLAC, OGG, and other audio files to text.",
+  "audio_to_text.upload.hint": "Drop a file here or browse from your device.",
+  "audio_to_text.upload.btn_select": "Select File",
+  "audio_to_text.settings.model": "AI Model",
+  "audio_to_text.settings.multilingual": "Multilingual",
+  "audio_to_text.settings.language": "Language",
+  "audio_to_text.btn.transcribe": "Transcribe to Text",
+  "audio_to_text.btn.download": "Download Text",
+  "audio_to_text.btn.start_over": "Start Over",
+  "audio_to_text.proc.loading_model": "Loading AI Model...",
+  "audio_to_text.proc.transcribing": "Transcribing audio...",
+  "audio_to_text.results.transcription": "Transcription Result",
+  "audio_to_text.results.no_speech": "No speech detected.",
+  "audio_to_text.how_to_use.title": "How to Transcribe Audio",
+  "audio_to_text.how_to_use.steps": [
+    "Upload an audio file from your device, such as MP3, WAV, M4A, FLAC, or OGG.",
+    "Choose the Whisper AI model size based on whether you prefer faster transcription or better accuracy.",
+    "Select the spoken language used in your audio file, or keep auto-detect if you are not sure.",
+    "Click the transcribe button, then copy the transcript or download it as a .txt file."
+  ],
+  "audio_to_text.why_use.title": "Why use our Audio to Text tool?",
+  "audio_to_text.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "Private Audio to Text",
+      "description": "Your audio file is transcribed directly in your browser, so it is not uploaded to a server."
+    },
+    {
+      "icon": "brain",
+      "title": "Turn Speech into Text",
+      "description": "Convert podcasts, meetings, interviews, lectures, voice notes, and other recordings into readable text."
+    },
+    {
+      "icon": "settings",
+      "title": "Easy Transcription Settings",
+      "description": "Choose the spoken language and transcription mode before you start, without complicated setup or editing software."
+    },
+    {
+      "icon": "language",
+      "title": "Transcribe Many Languages",
+      "description": "Convert spoken audio to text in many languages, including English, Japanese, Korean, Chinese, Spanish, French, German, and more."
+    }
+  ],
+  "audio_to_text.faq.title": "Frequently Asked Questions",
+  "audio_to_text.faq.items": [
+    {
+      "q": "How do I convert audio to text online?",
+      "a": "Upload an audio file from your device, choose the spoken language, and start transcription. The tool will turn the speech in your audio into text that you can copy or download as a .txt file."
+    },
+    {
+      "q": "Can I transcribe an audio file without installing software?",
+      "a": "Yes. This audio to text converter runs in your browser, so you do not need to install a desktop app or use complicated editing software."
+    },
+    {
+      "q": "Can I convert MP3 to text?",
+      "a": "Yes. You can upload an MP3 file and convert the spoken audio into text. This is useful for voice recordings, podcasts, interviews, lectures, and meeting audio saved as MP3."
+    },
+    {
+      "q": "What audio file formats are supported?",
+      "a": "The tool supports common audio formats such as MP3, WAV, M4A, FLAC, OGG, and other audio files that your browser can read."
+    },
+    {
+      "q": "Is my audio uploaded to a server?",
+      "a": "No. Your audio file is processed directly in your browser, so it does not need to be uploaded to a server for transcription."
+    },
+    {
+      "q": "Why does the tool say Loading AI Model?",
+      "a": "The first time you use the tool, your browser needs to load the transcription model. After it is loaded, you can upload your audio file and start converting speech to text."
+    },
+    {
+      "q": "Does audio transcription work offline?",
+      "a": "You need an internet connection to open the page and load the transcription model. After the model is loaded in your browser, the audio transcription itself is processed locally on your device."
+    },
+    {
+      "q": "Which languages can I transcribe from audio?",
+      "a": "You can transcribe audio in many languages, including English, Japanese, Korean, Chinese, Spanish, French, German, and more. For better results, choose the language spoken in the audio before starting."
+    },
+    {
+      "q": "How accurate is the audio to text transcription?",
+      "a": "Accuracy depends on the audio quality, background noise, speaker clarity, language, and model size you choose. Clear speech with low background noise usually gives better transcription results."
+    },
+    {
+      "q": "Can I transcribe long audio recordings?",
+      "a": "Yes, but long audio files may take more time to process because transcription runs in your browser. For very large recordings, performance depends on your device, browser, and available memory."
+    },
+    {
+      "q": "Can I copy or download the transcript?",
+      "a": "Yes. After transcription is complete, you can copy the text or download the transcript as a .txt file for notes, editing, subtitles, summaries, or documentation."
+    },
+    {
+      "q": "Can this tool remove background noise or edit my audio?",
+      "a": "No. This tool is designed to convert speech from audio to text. For the best result, use a clear audio file with minimal background noise before uploading it for transcription."
+    }
+  ],
+  "_comment_video_to_text": "================ Video to Text ================",
+  "tool.video_to_text.title": "Video to Text",
+  "tool.video_to_text.description": "Convert video speech to text directly in your browser. Fully private and powered by AI.",
+  "tool.video_to_text.short_description": "Transcribe video to text privately.",
+  "video_to_text.seo.title": "Video to Text Converter Free Online – Transcribe Video",
+  "video_to_text.seo.description": "Convert video files to text online for free. Upload MP4, MOV, WebM, or other videos and transcribe speech privately in your browser, with no server upload.",
+  "video_to_text.hero.title": "Video to Text Converter",
+  "video_to_text.hero.description": "Upload a video file and transcribe speech to text privately in your browser.",
+  "video_to_text.upload.title": "Upload Your Video File",
+  "video_to_text.upload.subtitle": "Transcribe MP4, MOV, WebM, MKV, AVI ...",
+  "video_to_text.upload.hint": "Drop a file here or browse from your device.",
+  "video_to_text.upload.btn_select": "Select File",
+  "video_to_text.settings.model": "AI Model",
+  "video_to_text.settings.multilingual": "Multilingual",
+  "video_to_text.settings.language": "Language",
+  "video_to_text.btn.transcribe": "Transcribe to Text",
+  "video_to_text.btn.download": "Download Text",
+  "video_to_text.btn.start_over": "Start Over",
+  "video_to_text.proc.loading_model": "Loading AI Model...",
+  "video_to_text.proc.transcribing": "Transcribing video...",
+  "video_to_text.results.transcription": "Transcription Result",
+  "video_to_text.results.no_speech": "No speech detected.",
+  "video_to_text.how_to_use.title": "How to Transcribe Video",
+  "video_to_text.how_to_use.steps": [
+    "Upload a video file from your device, such as MP4, MOV, WebM, or MKV.",
+    "Choose the Whisper AI model size based on speed and accuracy.",
+    "Select the spoken language used in your video file.",
+    "Click the transcribe button, then copy the transcript or download it as a .txt file."
+  ],
+  "video_to_text.why_use.title": "Why use our Video to Text tool?",
+  "video_to_text.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "Private Video to Text",
+      "description": "Your video file is transcribed directly in your browser, so it is not uploaded to a server."
+    },
+    {
+      "icon": "brain",
+      "title": "Turn Video Speech into Text",
+      "description": "Convert meetings, interviews, lectures, presentations, webinars, and screen recordings into readable text."
+    },
+    {
+      "icon": "settings",
+      "title": "Works with Common Video Files",
+      "description": "Upload MP4, MOV, WebM, and other video files, then convert the spoken audio into text without extra software."
+    },
+    {
+      "icon": "language",
+      "title": "Transcribe Many Languages",
+      "description": "Convert spoken video to text in many languages, including English, Japanese, Korean, Chinese, Spanish, French, German, and more."
+    }
+  ],
+  "video_to_text.faq.title": "Frequently Asked Questions",
+  "video_to_text.faq.items": [
+    {
+      "q": "How do I convert a video to text online?",
+      "a": "Upload a video file from your device, choose the spoken language, and start transcription. The tool extracts the speech from your video and converts it into text that you can copy or download."
+    },
+    {
+      "q": "Can I transcribe video to text for free?",
+      "a": "Yes. You can use this video to text converter for free to transcribe speech from video files such as meetings, interviews, lectures, webinars, presentations, and screen recordings."
+    },
+    {
+      "q": "Can I convert MP4 to text?",
+      "a": "Yes. You can upload an MP4 video and convert the spoken audio into text. This is useful for recorded meetings, online classes, tutorials, interviews, and social media videos saved as MP4."
+    },
+    {
+      "q": "What video file formats are supported?",
+      "a": "The tool supports common video formats such as MP4, MOV, WebM, MKV, AVI, and other video files that your browser can read."
+    },
+    {
+      "q": "Is my video uploaded to a server?",
+      "a": "No. Your video file is processed directly in your browser, so it does not need to be uploaded to a server for transcription."
+    },
+    {
+      "q": "Why does the tool say Loading AI Model?",
+      "a": "The first time you use the tool, your browser needs to load the transcription model. After it is ready, you can upload your video file and start converting speech to text."
+    },
+    {
+      "q": "Does video transcription work offline?",
+      "a": "You need an internet connection to open the page and load the transcription model. After the model is loaded in your browser, the video transcription is processed locally on your device."
+    },
+    {
+      "q": "Which languages can I transcribe from video?",
+      "a": "You can transcribe video speech in many languages, including English, Japanese, Korean, Chinese, Spanish, French, German, and more. For better results, choose the language spoken in the video before starting."
+    },
+    {
+      "q": "How accurate is video to text transcription?",
+      "a": "Accuracy depends on the video audio quality, background noise, speaker clarity, language, and transcription settings. Videos with clear speech and low background noise usually produce better text."
+    },
+    {
+      "q": "Can I transcribe long video files?",
+      "a": "Yes, but long video files may take more time to process because transcription runs in your browser. Performance depends on your device, browser, video length, and available memory."
+    },
+    {
+      "q": "Can I copy or download the video transcript?",
+      "a": "Yes. After transcription is complete, you can copy the text or download the transcript as a .txt file for notes, summaries, subtitles, captions, documentation, or editing."
+    },
+    {
+      "q": "Can this tool create subtitles from a video?",
+      "a": "This tool converts spoken video audio into text. You can use the transcript as a starting point for subtitles or captions, but it does not currently export subtitle files such as SRT or VTT."
+    }
+  ]
 }

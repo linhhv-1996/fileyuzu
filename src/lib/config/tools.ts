@@ -334,6 +334,39 @@ export const tools: ToolConfig[] = [
         tags: ['Video', 'Frame', 'Image', 'JPG', 'PNG'],
         markets: ['en', 'ja'],
     },
+    {
+        slug: 'audio-to-text',
+        titleKey: 'tool.audio_to_text.title',
+        descriptionKey: 'tool.audio_to_text.description',
+        shortDescriptionKey: 'tool.audio_to_text.short_description',
+        icon: 'microphone',
+        related_tools: [
+            'audio-converter',
+            'convert-to-mp3',
+            'video-converter',
+            'video-to-mp3',
+            'video-to-text',
+        ],
+        category: 'audio',
+        tags: ['Audio', 'Text', 'Transcribe', 'AI'],
+        markets: ['en'],
+    },
+    {
+        slug: 'video-to-text',
+        titleKey: 'tool.video_to_text.title',
+        descriptionKey: 'tool.video_to_text.description',
+        shortDescriptionKey: 'tool.video_to_text.short_description',
+        icon: 'microphone',
+        related_tools: [
+            'audio-to-text',
+            'video-converter',
+            'video-to-mp3',
+            'extract-frames-from-video',
+        ],
+        category: 'video',
+        tags: ['Video', 'Text', 'Transcribe', 'AI'],
+        markets: ['en'],
+    },
 ];
 
 export function getRelatedTools(currentSlug: string): ToolConfig[] {

@@ -27,6 +27,7 @@
 		"@ffmpeg/ffmpeg": "^0.12.15",
 		"@ffmpeg/util": "^0.12.2",
 		"@gutenye/ocr-browser": "^1.4.8",
+		"@huggingface/transformers": "^4.2.0",
 		"@mediabunny/mp3-encoder": "^1.45.4",
 		"gray-matter": "^4.0.3",
 		"jsbarcode": "^3.12.3",
