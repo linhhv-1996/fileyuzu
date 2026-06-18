@@ -14,7 +14,8 @@ The site supports 7 languages: English (en), Japanese (ja), Traditional Chinese 
 
 ## Tools Available
 
-**Video & Audio Tools** (Available in all 7 languages)
+**Video & Audio Tools**
+*(Unless specified otherwise, tools are available in all 7 languages)*
 - Compress Video: https://uploadless.app/compress-video
 - Compress MP4: https://uploadless.app/compress-mp4
 - Reduce Video Size: https://uploadless.app/reduce-video-size
@@ -25,6 +26,18 @@ The site supports 7 languages: English (en), Japanese (ja), Traditional Chinese 
 - WebM to MP4: https://uploadless.app/webm-to-mp4
 - Video to MP3: https://uploadless.app/video-to-mp3
 - MP4 Converter: https://uploadless.app/mp4-converter
+- Audio Converter: https://uploadless.app/audio-converter
+  *(Supported in 3 languages: en, ja, ko)*
+- Convert to MP3: https://uploadless.app/convert-to-mp3
+  *(Supported in 3 languages: en, ja, ko)*
+- Convert to WAV: https://uploadless.app/ko/convert-to-wav
+  *(Supported in Korean ONLY - Note the /ko/ in the URL)*
+- Extract Frames from Video: https://uploadless.app/extract-frames-from-video
+  *(Supported in 2 languages: en, ja)*
+- Audio to Text: https://uploadless.app/audio-to-text
+  *(Supported in 4 languages: en, ja, zh-tw, ko)*
+- Video to Text: https://uploadless.app/video-to-text
+  *(Supported in 4 languages: en, ja, zh-tw, ko)*
 
 **Document Tools** (Available in all 7 languages)
 - Compress PDF: https://uploadless.app/compress-pdf
