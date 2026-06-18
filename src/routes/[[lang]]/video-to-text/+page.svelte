@@ -51,7 +51,7 @@
 
 <div class="grid">
     <main>
-        <Audio2Text texts={videoTexts} sampleAudioPath="/file_sample_build_in_public.mp4" />
+        <Audio2Text texts={videoTexts} sampleAudioPath="/Wintershall-DEA_Media_360p.mp4" />
         
         <HowToUse 
             title={t('video_to_text.how_to_use.title', dict) || 'How to Transcribe Video'} 
