@@ -534,16 +534,6 @@
 />
 
 <style>
-    .extracted-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 16px;
-    }
-    .header-actions {
-        display: flex;
-        gap: 8px;
-    }
     .extracted-frames-container {
         margin-top: 24px;
         padding-top: 24px;
@@ -579,15 +569,6 @@
         50% {
             opacity: 0;
         }
-    }
-    .btn-sm {
-        padding: 6px 14px !important;
-        font-size: 13px !important;
-        border-radius: 6px !important;
-        min-height: 0 !important;
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
     }
     .error-banner {
         display: flex;
