@@ -348,7 +348,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'audio',
         tags: ['Audio', 'Text', 'Transcribe', 'AI'],
-        markets: ['en', 'ja'],
+        markets: ['en', 'ja', 'zh-tw'],
     },
     {
         slug: 'video-to-text',
@@ -364,7 +364,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'video',
         tags: ['Video', 'Text', 'Transcribe', 'AI'],
-        markets: ['en', 'ja'],
+        markets: ['en', 'ja', 'zh-tw'],
     },
 ];
 
