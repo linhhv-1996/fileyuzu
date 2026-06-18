@@ -1040,7 +1040,6 @@
   "barcode_generator.how_to_use.title": "온라인에서 바코드를 생성하는 방법",
   "barcode_generator.faq.title": "바코드 생성기 FAQ",
   "barcode_generator.btn_downloadbtn_gen_new": "새 바코드 생성",
-
   "barcode_generator.tab_manual": "수동",
   "barcode_generator.tab_file": "파일 업로드",
   "barcode_generator.tab_sequence": "순차 번호",
@@ -1051,8 +1050,6 @@
   "barcode_generator.seq_qty": "수량",
   "barcode_generator.seq_step": "간격",
   "barcode_generator.generating": "생성 중",
-
-
   "barcode_generator.seo.title": "무료 바코드 생성기 - 온라인으로 바코드 만들기",
   "barcode_generator.seo.description": "무료 온라인 바코드 생성기로 상품, 라벨, 재고용 바코드를 빠르게 만들고 PNG, SVG, PDF로 다운로드하거나 인쇄하세요.",
   "barcode_generator.hero.title": "무료 온라인 바코드 생성기",
@@ -1336,44 +1333,37 @@
   "donate.button": "Ko-fi에서 후원하기",
   "compare_two_lists.first_row_is_header": "First row is header",
   "compare_two_lists.all_columns": "All Columns",
-  
-  
-  
   "_comment_convert_to_wav": "================ Convert to WAV ================",
-
   "tool.audio_converter.title": "오디오 변환기",
-"tool.audio_converter.description": "오디오 파일을 다양한 형식으로 무료로 변환하세요. 모든 작업은 서버에 파일을 업로드하지 않고 브라우저에서 실행됩니다.",
-"tool.audio_converter.short_description": "브라우저에서 바로 오디오를 변환하세요.",
-"tool.convert_to_mp3.title": "MP3로 변환",
-"tool.convert_to_mp3.description": "오디오 파일을 MP3 형식으로 무료로 변환하세요. 빠르고 비공개이며 브라우저 기반으로 작동합니다.",
-"tool.convert_to_mp3.short_description": "모든 오디오를 MP3 형식으로 변환하세요.",
-
-"audio_converter.upload.title": "변환할 오디오 파일을 여기에 드롭하세요",
-"audio_converter.upload.subtitle": "MP3, WAV, FLAC, M4A, OGG 등 지원 · 브라우저 기반 변환",
-"audio_converter.upload.btn_select": "오디오 파일 선택",
-"audio_converter.upload.btn_sample": "샘플 오디오 사용해보기",
-"audio_converter.upload.hint": "다른 형식으로 변환할 오디오 파일을 선택하세요",
-"audio_converter.settings.format_lbl": "대상 형식",
-"audio_converter.btn.convert": "모두 변환",
-"audio_converter.btn.download": "파일 다운로드",
-"audio_converter.btn.convert_new": "새 파일 변환",
-"audio_converter.btn.add_more": "파일 더 추가",
-"audio_converter.proc.converting": "오디오 변환 중",
-
-"convert_to_mp3.upload.title": "MP3로 변환할 오디오 파일을 여기에 드롭하세요",
-"convert_to_mp3.upload.subtitle": "WAV, M4A, FLAC, OGG 등 지원 · 브라우저 기반 변환",
-"convert_to_mp3.upload.btn_select": "오디오 파일 선택",
-"convert_to_mp3.upload.btn_sample": "샘플 오디오 사용해보기",
-"convert_to_mp3.upload.hint": "MP3로 변환할 오디오 파일을 선택하세요",
-"convert_to_mp3.settings.format_lbl": "대상 형식",
-"convert_to_mp3.btn.convert": "MP3로 변환",
-"convert_to_mp3.btn.download": "MP3 다운로드",
-"convert_to_mp3.btn.convert_new": "새 파일 변환",
-"convert_to_mp3.btn.add_more": "파일 더 추가",
-"convert_to_mp3.proc.converting": "MP3로 변환 중",
-"convert_to_mp3.how_to_use.title": "오디오를 MP3로 변환하는 방법",
-
-"convert_to_wav.upload.title": "WAV로 변환할 오디오 파일을 여기에 놓으세요",
+  "tool.audio_converter.description": "오디오 파일을 다양한 형식으로 무료로 변환하세요. 모든 작업은 서버에 파일을 업로드하지 않고 브라우저에서 실행됩니다.",
+  "tool.audio_converter.short_description": "브라우저에서 바로 오디오를 변환하세요.",
+  "tool.convert_to_mp3.title": "MP3로 변환",
+  "tool.convert_to_mp3.description": "오디오 파일을 MP3 형식으로 무료로 변환하세요. 빠르고 비공개이며 브라우저 기반으로 작동합니다.",
+  "tool.convert_to_mp3.short_description": "모든 오디오를 MP3 형식으로 변환하세요.",
+  "audio_converter.upload.title": "변환할 오디오 파일을 여기에 드롭하세요",
+  "audio_converter.upload.subtitle": "MP3, WAV, FLAC, M4A, OGG 등 지원 · 브라우저 기반 변환",
+  "audio_converter.upload.btn_select": "오디오 파일 선택",
+  "audio_converter.upload.btn_sample": "샘플 오디오 사용해보기",
+  "audio_converter.upload.hint": "다른 형식으로 변환할 오디오 파일을 선택하세요",
+  "audio_converter.settings.format_lbl": "대상 형식",
+  "audio_converter.btn.convert": "모두 변환",
+  "audio_converter.btn.download": "파일 다운로드",
+  "audio_converter.btn.convert_new": "새 파일 변환",
+  "audio_converter.btn.add_more": "파일 더 추가",
+  "audio_converter.proc.converting": "오디오 변환 중",
+  "convert_to_mp3.upload.title": "MP3로 변환할 오디오 파일을 여기에 드롭하세요",
+  "convert_to_mp3.upload.subtitle": "WAV, M4A, FLAC, OGG 등 지원 · 브라우저 기반 변환",
+  "convert_to_mp3.upload.btn_select": "오디오 파일 선택",
+  "convert_to_mp3.upload.btn_sample": "샘플 오디오 사용해보기",
+  "convert_to_mp3.upload.hint": "MP3로 변환할 오디오 파일을 선택하세요",
+  "convert_to_mp3.settings.format_lbl": "대상 형식",
+  "convert_to_mp3.btn.convert": "MP3로 변환",
+  "convert_to_mp3.btn.download": "MP3 다운로드",
+  "convert_to_mp3.btn.convert_new": "새 파일 변환",
+  "convert_to_mp3.btn.add_more": "파일 더 추가",
+  "convert_to_mp3.proc.converting": "MP3로 변환 중",
+  "convert_to_mp3.how_to_use.title": "오디오를 MP3로 변환하는 방법",
+  "convert_to_wav.upload.title": "WAV로 변환할 오디오 파일을 여기에 놓으세요",
   "convert_to_wav.upload.subtitle": "MP3, M4A, FLAC, OGG 등 · 브라우저 기반 변환",
   "convert_to_wav.upload.btn_select": "오디오 파일 선택",
   "convert_to_wav.upload.btn_sample": "샘플 오디오 시도",
@@ -1384,20 +1374,13 @@
   "convert_to_wav.btn.convert_new": "새 파일 변환",
   "convert_to_wav.btn.add_more": "파일 더 추가",
   "convert_to_wav.proc.converting": "WAV로 변환 중",
-
-
   "tool.convert_to_wav.title": "WAV로 변환",
   "tool.convert_to_wav.description": "오디오 파일을 WAV 형식으로 무료로 변환하세요. 빠르고 프라이빗한 브라우저 기반 변환입니다.",
   "tool.convert_to_wav.short_description": "모든 오디오를 WAV 형식으로 변환하세요.",
-  
-
-
   "audio_converter.seo.title": "온라인 오디오 변환기 (무료 MP3, WAV, FLAC 변환) | UploadLess",
   "audio_converter.seo.description": "무료 온라인 오디오 변환기로 MP3, WAV, FLAC, M4A 포맷 변환을 안전하게 진행하세요. UploadLess는 파일 업로드 없이 브라우저에서 고음질 일괄 변환 및 오디오 파일 용량 줄이기를 지원합니다.",
   "audio_converter.hero.title": "무료 온라인 오디오 변환기",
   "audio_converter.hero.description": "MP3, WAV, M4A, FLAC, OGG 등 다양한 오디오 파일을 파일 업로드 없이 100% 안전하게 일괄 변환하세요. 브라우저 기반의 빠른 변환과 함께 비트레이트 및 샘플레이트 맞춤 설정 기능을 제공합니다.",
-
-
   "audio_converter.how_to_use.title": "온라인 오디오 변환기 사용 방법",
   "audio_converter.how_to_use.steps": [
     "변환할 오디오 파일을 선택하거나 마우스로 끌어서(드래그 앤 드롭) 놓아주세요. (여러 파일 일괄 변환 지원)",
@@ -1405,7 +1388,6 @@
     "'모두 변환' 버튼을 클릭하면 파일 업로드 없이 브라우저에서 즉시 안전하게 오디오 포맷 변환이 진행됩니다.",
     "음질 손실 없는 고음질 오디오 파일을 내 기기에 바로 다운로드하세요."
   ],
-
   "audio_converter.why_use.title": "온라인 오디오 변환기, 왜 UploadLess일까요?",
   "audio_converter.why_use.benefits": [
     {
@@ -1429,7 +1411,6 @@
       "description": "WAV, MP3, FLAC, OGG 등 다양한 포맷 간 변환 시에도 원본 음질을 그대로 유지합니다. 음질 저하 없이 깨끗하고 선명한 사운드를 보존하세요."
     }
   ],
-
   "audio_converter.faq.title": "온라인 오디오 변환기 자주 묻는 질문 (FAQ)",
   "audio_converter.faq.items": [
     {
@@ -1473,18 +1454,15 @@
       "a": "아니요, 별도의 프로그램 설치, 앱 다운로드, 브라우저 확장 프로그램이 전혀 필요 없는 무설치 오디오 변환기입니다. PC와 모바일의 모든 최신 웹 브라우저에서 바로 실행됩니다."
     }
   ],
-
   "convert_to_mp3.seo.title": "m4a mp3 변환 및 wav flac 무료 MP3 변환기 | UploadLess",
   "convert_to_mp3.seo.description": "m4a, wav, flac, ogg 포맷을 MP3로 변환하는 무료 온라인 변환기입니다. UploadLess는 파일 업로드 없이 브라우저에서 초고속 일괄 변환을 수행하며 100%안전한 개인정보 보호를 보장합니다.",
   "convert_to_mp3.hero.title": "무료 온라인 MP3 변환기",
   "convert_to_mp3.hero.description": "m4a, wav, flac, ogg 등 다양한 음원 파일을 MP3로 즉시 변환하세요. 파일 업로드 없이 브라우저 내에서 100% 안전하고 빠른 오디오 일괄 변환을 경험할 수 있습니다.",
-
   "convert_to_mp3.how_to_use.steps": [
     "MP3로 변환할 오디오 파일(M4A, WAV, FLAC, OGG 등)을 선택하거나 변환 영역에 드래그 앤 드롭합니다.",
     "'MP3 변환' 버튼을 클릭하면 파일 업로드 없이 브라우저에서 모든 파일이 즉시 안전하게 처리됩니다.",
     "음질 손실 없는 고음질 MP3 파일을 업로드 대기 시간 없이 내 기기에 바로 다운로드하세요."
   ],
-
   "convert_to_mp3.why_use.title": "MP3 변환기, 왜 UploadLess일까요?",
   "convert_to_mp3.why_use.benefits": [
     {
@@ -1508,7 +1486,6 @@
       "description": "wav, flac, m4a, ogg 등 다양한 포맷의 음원을 원본 음질 저하 없이 깨끗하고 선명한 고음질 MP3 파일로 완벽하게 변환하여 사운드의 깊이를 그대로 보존합니다."
     }
   ],
-
   "convert_to_mp3.faq.title": "MP3 변환기 자주 묻는 질문 (FAQ)",
   "convert_to_mp3.faq.items": [
     {
@@ -1552,20 +1529,16 @@
       "a": "네, 광범위한 오디오 포맷 호환성을 제공하므로 wma mp3 변환, aiff mp3 변환은 물론 AAC, AMR, OPUS 포맷까지 오류 없이 깔끔하게 변환 작업을 수행합니다."
     }
   ],
-
   "convert_to_wav.seo.title": "mp3 wav 변환 및 m4a 고음질 무료 WAV 변환기 | UploadLess",
   "convert_to_wav.seo.description": "mp3 wav 변환 및 m4a wav 변환을 위한 무료 온라인 포맷 변환기입니다. UploadLess는 파일 업로드 없이 브라우저에서 flac, ogg 음원의 초고속 오디오 일괄 변환을 보장합니다.",
   "convert_to_wav.hero.title": "무료 온라인 WAV 변환기",
   "convert_to_wav.hero.description": "mp3, m4a, flac, ogg 등 다양한 음원 파일을 WAV로 즉시 변환하세요. 파일 업로드 없이 브라우저 내에서 100% 안전하고 빠른 오디오 일괄 변환을 제공합니다.",
-
   "convert_to_wav.how_to_use.title": "온라인 오디오 WAV 변환 방법",
   "convert_to_wav.how_to_use.steps": [
     "WAV로 변환할 오디오 파일(MP3, M4A, FLAC 등)을 선택하거나 변환 영역에 드래그 앤 드롭합니다. (여러 파일 일괄 변환 지원)",
     "'WAV 변환' 버튼을 클릭하면 파일 업로드 없이 브라우저에서 모든 파일이 즉시 안전하게 처리됩니다.",
     "음질 손실 없는 스튜디오급 고음질 WAV 파일을 대기 시간 없이 내 기기에 바로 다운로드하세요."
   ],
-
-
   "convert_to_wav.why_use.title": "WAV 변환기, 왜 UploadLess일까요?",
   "convert_to_wav.why_use.benefits": [
     {
@@ -1589,7 +1562,6 @@
       "description": "WAV는 압축되지 않은 무손실 오디오 포맷을 제공하여 최상의 사운드 품질을 유지합니다. 포맷 변환 시 음질 저하 없이 원본 음원의 디테일을 그대로 보존합니다."
     }
   ],
-  
   "convert_to_wav.faq.title": "WAV 변환기 자주 묻는 질문 (FAQ)",
   "convert_to_wav.faq.items": [
     {
@@ -1632,6 +1604,213 @@
       "q": "wma wav 변환처럼 오래된 윈도우 미디어 오디오 포맷도 오류 없이 변환이 되나요?",
       "a": "네, 가능합니다. 광범위한 레거시 코덱 호환성을 갖추고 있어 wma wav 변환은 물론, AIFF, AMR, OPUS 등 사운드 편집이나 구형 기기 재생에 필요한 특수 음원 포맷도 문제없이 완벽하게 변환해 줍니다."
     }
+  ],
+  "_comment_audio_to_text": "================ Audio to Text ================",
+  "audio_to_text.btn.load_sample": "샘플 오디오 사용해 보기",
+  "video_to_text.btn.load_sample": "샘플 비디오 사용해 보기",
+  "tool.audio_to_text.title": "오디오를 텍스트로 변환",
+  "tool.audio_to_text.description": "브라우저에서 바로 오디오와 비디오 음성을 텍스트로 변환하세요. 완전히 비공개로 처리되며 AI를 사용합니다.",
+  "tool.audio_to_text.short_description": "오디오를 비공개로 텍스트로 변환하세요.",
+  "audio_to_text.upload.title": "오디오 파일 업로드",
+  "audio_to_text.upload.subtitle": "MP3, WAV, M4A, FLAC, OGG 등 다양한 오디오 파일을 텍스트로 변환하세요.",
+  "audio_to_text.upload.hint": "여기에 파일을 드롭하거나 기기에서 선택하세요.",
+  "audio_to_text.upload.btn_select": "파일 선택",
+  "audio_to_text.settings.model": "AI 모델",
+  "audio_to_text.settings.multilingual": "다국어",
+  "audio_to_text.settings.language": "언어",
+  "audio_to_text.btn.transcribe": "텍스트로 변환",
+  "audio_to_text.btn.download": "텍스트 다운로드",
+  "audio_to_text.btn.start_over": "처음부터 다시 시작",
+  "audio_to_text.proc.loading_model": "AI 모델 불러오는 중...",
+  "audio_to_text.proc.transcribing": "오디오를 텍스트로 변환하는 중...",
+  "audio_to_text.results.transcription": "변환 결과",
+  "audio_to_text.results.no_speech": "감지된 음성이 없습니다.",
+  "video_to_text.upload.title": "비디오 파일 업로드",
+  "video_to_text.upload.subtitle": "MP4, MOV, WebM, MKV, AVI 등을 텍스트로 변환하세요.",
+  "video_to_text.upload.hint": "여기에 파일을 드롭하거나 기기에서 선택하세요.",
+  "video_to_text.upload.btn_select": "파일 선택",
+  "video_to_text.settings.model": "AI 모델",
+  "video_to_text.settings.multilingual": "다국어",
+  "video_to_text.settings.language": "언어",
+  "video_to_text.btn.transcribe": "텍스트로 변환",
+  "video_to_text.btn.download": "텍스트 다운로드",
+  "video_to_text.btn.start_over": "처음부터 다시 시작",
+  "video_to_text.proc.loading_model": "AI 모델 불러오는 중...",
+  "video_to_text.proc.transcribing": "비디오를 텍스트로 변환하는 중...",
+  "video_to_text.results.transcription": "변환 결과",
+  "video_to_text.results.no_speech": "감지된 음성이 없습니다.",
+  "tool.video_to_text.title": "비디오를 텍스트로 변환",
+  "tool.video_to_text.description": "브라우저에서 바로 비디오 음성을 텍스트로 변환하세요. 완전히 비공개로 처리되며 AI를 사용합니다.",
+  "tool.video_to_text.short_description": "비디오를 비공개로 텍스트로 변환하세요.",
+  "audio_to_text.seo.title": "음성 텍스트 변환 무료 온라인 | 오디오 파일을 텍스트로",
+  "audio_to_text.seo.description": "음성, 녹음, 오디오 파일을 텍스트로 변환하세요. MP3, WAV, M4A, FLAC 파일을 업로드하고 브라우저에서 비공개로 받아쓰기를 시작할 수 있습니다.",
+  "audio_to_text.hero.title": "음성 텍스트 변환",
+  "audio_to_text.hero.description": "오디오 파일, 녹음 파일, 음성 파일을 업로드하고 브라우저에서 비공개로 텍스트로 변환하세요.",
+  "audio_to_text.how_to_use.title": "오디오를 텍스트로 변환하는 방법",
+  "audio_to_text.how_to_use.steps": [
+    "MP3, WAV, M4A, FLAC, OGG 등 기기에 저장된 오디오 파일을 업로드하세요.",
+    "오디오 파일에서 사용된 음성 언어를 선택하세요.",
+    "변환 버튼을 클릭하면 브라우저에서 음성이 텍스트로 변환됩니다.",
+    "완성된 텍스트를 복사하거나 .txt 파일로 다운로드하세요."
+  ],
+  "audio_to_text.why_use.title": "Audio to Text 도구를 사용하는 이유",
+  "audio_to_text.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "비공개 음성 텍스트 변환",
+      "description": "오디오 파일은 브라우저에서 직접 처리되므로 서버에 업로드되지 않습니다."
+    },
+    {
+      "icon": "brain",
+      "title": "음성을 읽기 쉬운 텍스트로 변환",
+      "description": "회의 녹음, 강의, 인터뷰, 팟캐스트, 음성 메모 같은 녹음 파일을 텍스트로 변환할 수 있습니다."
+    },
+    {
+      "icon": "settings",
+      "title": "간단한 오디오 변환 설정",
+      "description": "사용된 언어를 선택하고 변환을 시작하면 복잡한 프로그램 없이 오디오를 텍스트로 만들 수 있습니다."
+    },
+    {
+      "icon": "language",
+      "title": "여러 언어의 음성 지원",
+      "description": "한국어, 영어, 일본어, 중국어, 스페인어, 프랑스어, 독일어 등 다양한 언어의 음성을 텍스트로 변환할 수 있습니다."
+    }
+  ],
+  "audio_to_text.faq.title": "자주 묻는 질문",
+  "audio_to_text.faq.items": [
+    {
+      "q": "음성 파일을 텍스트로 변환하려면 어떻게 하나요?",
+      "a": "기기에 저장된 음성 파일을 업로드하고 파일에서 사용된 언어를 선택한 뒤 변환을 시작하세요. 변환이 끝나면 결과 텍스트를 복사하거나 .txt 파일로 다운로드할 수 있습니다."
+    },
+    {
+      "q": "녹음 파일도 텍스트로 변환할 수 있나요?",
+      "a": "네. 회의 녹음, 강의 녹음, 인터뷰 녹음, 음성 메모처럼 말소리가 포함된 녹음 파일을 텍스트로 변환할 수 있습니다."
+    },
+    {
+      "q": "MP3 파일을 텍스트로 변환할 수 있나요?",
+      "a": "네. MP3 파일을 업로드하면 파일 안의 음성을 인식해 텍스트로 변환할 수 있습니다. 팟캐스트, 녹음본, 강의 오디오를 텍스트로 정리할 때 사용할 수 있습니다."
+    },
+    {
+      "q": "WAV, M4A, FLAC, OGG 오디오 파일도 지원하나요?",
+      "a": "네. MP3뿐 아니라 WAV, M4A, FLAC, OGG 등 일반적인 오디오 파일 형식을 지원합니다. 브라우저에서 읽을 수 있는 오디오 파일이면 변환할 수 있습니다."
+    },
+    {
+      "q": "무료 음성 텍스트 변환 사이트인가요?",
+      "a": "네. 오디오 파일을 업로드해 무료로 음성을 텍스트로 변환할 수 있습니다. 별도 프로그램 설치 없이 브라우저에서 바로 사용할 수 있습니다."
+    },
+    {
+      "q": "오디오 파일이 서버에 업로드되나요?",
+      "a": "아니요. 오디오 파일은 브라우저에서 직접 처리되며 서버에 업로드되지 않습니다. 민감한 녹음 파일이나 개인 음성 파일을 변환할 때 더 안전하게 사용할 수 있습니다."
+    },
+    {
+      "q": "음성 텍스트 변환 AI는 어떤 경우에 유용한가요?",
+      "a": "회의록 작성, 강의 노트 정리, 인터뷰 기록, 팟캐스트 원고 작성, 음성 메모 정리에 유용합니다. 긴 오디오를 직접 받아쓰기하지 않고 빠르게 텍스트 초안으로 만들 수 있습니다."
+    },
+    {
+      "q": "한국어 음성도 텍스트로 변환할 수 있나요?",
+      "a": "네. 한국어 음성을 텍스트로 변환할 수 있습니다. 더 정확한 결과를 위해 변환을 시작하기 전에 오디오에서 말하는 언어를 한국어로 선택하세요."
+    },
+    {
+      "q": "영어, 일본어 같은 다른 언어의 음성도 지원하나요?",
+      "a": "네. 한국어뿐 아니라 영어, 일본어, 중국어, 스페인어, 프랑스어, 독일어 등 여러 언어의 음성을 텍스트로 변환할 수 있습니다."
+    },
+    {
+      "q": "음성파일 텍스트 변환 결과는 바로 편집할 수 있나요?",
+      "a": "변환된 텍스트는 화면에서 확인한 뒤 복사해 문서, 메모 앱, 이메일 등에 붙여 넣어 편집할 수 있습니다. 필요하면 .txt 파일로 저장할 수도 있습니다."
+    },
+    {
+      "q": "녹음파일 텍스트 변환 정확도를 높이려면 어떻게 해야 하나요?",
+      "a": "잡음이 적고 말소리가 또렷한 오디오 파일을 사용하는 것이 좋습니다. 여러 사람이 동시에 말하거나 배경 소음이 큰 녹음은 변환 정확도가 낮아질 수 있습니다."
+    },
+    {
+      "q": "설치 없이 오디오를 텍스트로 변환할 수 있나요?",
+      "a": "네. 별도의 앱이나 편집 프로그램을 설치하지 않아도 됩니다. 브라우저에서 오디오 파일을 선택하고 바로 음성 텍스트 변환을 시작할 수 있습니다."
+    }
+  ],
+  "_comment_video_to_text": "================ Video to Text ================",
+  "video_to_text.seo.title": "동영상 텍스트 변환 무료 온라인 | 영상 자막 추출 및 받아쓰기",
+  "video_to_text.seo.description": "MP4, MOV, WebM 같은 동영상 파일을 업로드해 음성을 텍스트로 변환하고 영상 자막을 추출하세요. 강의, 회의, 인터뷰 영상을 브라우저에서 비공개로 받아쓰기할 수 있습니다.",
+  "video_to_text.hero.title": "동영상 텍스트 변환",
+  "video_to_text.hero.description": "MP4, MOV, WebM 같은 동영상 파일을 업로드하고 영상 속 음성을 텍스트로 변환하세요. 강의 영상, 회의 녹화, 인터뷰 영상, 프레젠테이션을 브라우저에서 비공개로 받아쓰기할 수 있습니다.",
+  "video_to_text.how_to_use.title": "동영상을 텍스트로 변환하는 방법",
+  "video_to_text.how_to_use.steps": [
+    "MP4, MOV, WebM, MKV 등 기기에 저장된 동영상 파일을 업로드하세요.",
+    "동영상에서 사용된 음성 언어를 선택하세요.",
+    "변환 버튼을 클릭하면 영상 속 음성이 브라우저에서 텍스트로 변환됩니다.",
+    "완성된 transcript를 복사하거나 .txt 파일로 다운로드하세요."
+  ],
+  "video_to_text.why_use.title": "Video to Text 도구를 사용하는 이유",
+  "video_to_text.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "비공개 동영상 텍스트 변환",
+      "description": "동영상 파일은 브라우저에서 직접 처리되므로 서버에 업로드되지 않습니다."
+    },
+    {
+      "icon": "brain",
+      "title": "영상 속 음성을 텍스트로 변환",
+      "description": "강의 영상, 회의 녹화, 인터뷰, 프레젠테이션, 웨비나의 음성을 읽기 쉬운 텍스트로 변환할 수 있습니다."
+    },
+    {
+      "icon": "settings",
+      "title": "일반적인 동영상 파일 지원",
+      "description": "MP4, MOV, WebM, MKV 같은 동영상 파일을 업로드하고 별도 프로그램 없이 영상 자막 추출용 텍스트를 만들 수 있습니다."
+    },
+    {
+      "icon": "language",
+      "title": "여러 언어의 영상 받아쓰기",
+      "description": "한국어, 영어, 일본어, 중국어, 스페인어, 프랑스어, 독일어 등 다양한 언어의 동영상 음성을 텍스트로 변환할 수 있습니다."
+    }
+  ],
+  "video_to_text.faq.title": "자주 묻는 질문",
+  "video_to_text.faq.items": [
+    {
+      "q": "동영상을 텍스트로 변환하려면 어떻게 하나요?",
+      "a": "기기에 저장된 동영상 파일을 업로드하고 영상에서 사용된 언어를 선택한 뒤 변환을 시작하세요. 도구가 동영상 속 음성을 인식해 복사하거나 .txt 파일로 저장할 수 있는 텍스트로 변환합니다."
+    },
+    {
+      "q": "영상 자막 추출용으로 사용할 수 있나요?",
+      "a": "네. 동영상 속 말소리를 텍스트로 변환한 뒤 자막 초안으로 활용할 수 있습니다. 변환된 텍스트를 복사해 자막 편집기나 영상 편집 프로그램에 붙여 넣어 사용할 수 있습니다."
+    },
+    {
+      "q": "동영상 자막 추출과 동영상 텍스트 변환은 무엇이 다른가요?",
+      "a": "동영상 텍스트 변환은 영상 속 음성을 일반 텍스트로 만드는 작업입니다. 동영상 자막 추출은 그 텍스트를 자막 제작이나 영상 내용 정리에 활용하는 목적에 더 가깝습니다."
+    },
+    {
+      "q": "MP4 파일을 텍스트로 변환할 수 있나요?",
+      "a": "네. MP4 동영상 파일을 업로드하면 영상 속 음성을 텍스트로 변환할 수 있습니다. 강의 영상, 회의 녹화, 인터뷰 영상, 프레젠테이션 녹화 파일을 텍스트로 정리할 때 유용합니다."
+    },
+    {
+      "q": "MOV, WebM, MKV 같은 동영상 파일도 지원하나요?",
+      "a": "네. MP4뿐 아니라 MOV, WebM, MKV 등 브라우저에서 읽을 수 있는 일반적인 동영상 파일을 지원합니다. 파일 형식에 따라 브라우저 지원 여부가 달라질 수 있습니다."
+    },
+    {
+      "q": "YouTube 영상 URL을 바로 텍스트로 변환할 수 있나요?",
+      "a": "아니요. 이 도구는 YouTube URL을 직접 변환하지 않고, 기기에 저장된 동영상 파일을 업로드해 텍스트로 변환합니다. YouTube 영상은 먼저 파일로 저장한 뒤 사용할 수 있습니다."
+    },
+    {
+      "q": "강의 영상을 텍스트로 변환할 수 있나요?",
+      "a": "네. 온라인 강의, 수업 녹화, 교육 영상의 음성을 텍스트로 변환할 수 있습니다. 변환된 텍스트는 복습 노트, 요약문, 자막 초안으로 활용하기 좋습니다."
+    },
+    {
+      "q": "회의 녹화 영상을 텍스트로 변환할 수 있나요?",
+      "a": "네. 회의 녹화 파일을 업로드하면 영상 속 대화를 텍스트로 변환할 수 있습니다. 회의록 초안, 논의 내용 정리, 후속 작업 메모를 만들 때 사용할 수 있습니다."
+    },
+    {
+      "q": "인터뷰 영상을 텍스트로 변환할 수 있나요?",
+      "a": "네. 인터뷰 영상의 질문과 답변을 텍스트로 변환할 수 있습니다. 기사 작성, 리서치 정리, 콘텐츠 편집 전에 대화 내용을 빠르게 확인할 때 유용합니다."
+    },
+    {
+      "q": "동영상 파일이 서버에 업로드되나요?",
+      "a": "아니요. 동영상 파일은 브라우저에서 직접 처리되며 서버에 업로드되지 않습니다. 개인 영상, 회의 녹화, 인터뷰 파일처럼 민감한 자료를 다룰 때 더 안전하게 사용할 수 있습니다."
+    },
+    {
+      "q": "동영상 텍스트 변환 정확도를 높이려면 어떻게 해야 하나요?",
+      "a": "말소리가 또렷하고 배경 소음이 적은 동영상일수록 더 좋은 결과를 얻을 수 있습니다. 여러 사람이 동시에 말하거나 음악, 잡음, 에코가 큰 영상은 텍스트 변환 정확도가 낮아질 수 있습니다."
+    },
+    {
+      "q": "변환된 영상 텍스트는 어디에 사용할 수 있나요?",
+      "a": "변환된 텍스트는 자막 제작, 영상 요약, 블로그 글 작성, 회의록 정리, 강의 노트 작성, 검색 가능한 영상 기록 만들기에 사용할 수 있습니다."
+    }
   ]
-
 }
