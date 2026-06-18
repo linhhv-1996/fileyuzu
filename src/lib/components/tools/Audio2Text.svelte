@@ -380,15 +380,11 @@
                             disabled={status !== "file" && status !== "done"}
                             style="width: 100%;"
                         >
-                            <option value="onnx-community/whisper-tiny"
-                                >Whisper Tiny (Fastest)</option
-                            >
-                            <option value="onnx-community/whisper-base"
-                                >Whisper Base</option
-                            >
-                            <option value="onnx-community/whisper-small"
-                                >Whisper Small (Best)</option
-                            >
+                            <option value="onnx-community/whisper-tiny">Whisper Tiny (Fastest)</option>
+                            <option value="onnx-community/whisper-base">Whisper Base</option>
+                            <option value="onnx-community/whisper-small">Whisper Small (Good)</option>
+                            <option value="onnx-community/whisper-medium">Whisper Medium (Better)</option>
+                            <option value="onnx-community/whisper-large-v3-turbo">Whisper Large v3 Turbo (Best)</option>
                         </select>
                     </div>
                 </div>
@@ -405,20 +401,25 @@
                             style="width: 100%;"
                         >
                             <option value="english">English</option>
-                            <option value="vietnamese">Vietnamese</option>
+                            <option value="arabic">Arabic</option>
+                            <option value="chinese">Chinese</option>
+                            <option value="dutch">Dutch</option>
                             <option value="french">French</option>
-                            <option value="spanish">Spanish</option>
+                            <option value="german">German</option>
+                            <option value="hindi">Hindi</option>
+                            <option value="indonesian">Indonesian</option>
+                            <option value="italian">Italian</option>
                             <option value="japanese">Japanese</option>
                             <option value="korean">Korean</option>
-                            <option value="chinese">Chinese</option>
-                            <option value="german">German</option>
-                            <option value="italian">Italian</option>
+                            <option value="malay">Malay</option>
+                            <option value="polish">Polish</option>
                             <option value="portuguese">Portuguese</option>
                             <option value="russian">Russian</option>
+                            <option value="spanish">Spanish</option>
+                            <option value="swedish">Swedish</option>
                             <option value="thai">Thai</option>
-                            <option value="arabic">Arabic</option>
-                            <option value="hindi">Hindi</option>
                             <option value="turkish">Turkish</option>
+                            <option value="vietnamese">Vietnamese</option>
                         </select>
                     </div>
                 </div>
