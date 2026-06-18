@@ -1886,5 +1886,8 @@
       "q": "Can this tool create subtitles from a video?",
       "a": "This tool converts spoken video audio into text. You can use the transcript as a starting point for subtitles or captions, but it does not currently export subtitle files such as SRT or VTT."
     }
-  ]
+  ],
+
+  "audio_to_text.btn.load_sample": "Try Sample Audio",
+  "video_to_text.btn.load_sample": "Try Sample Video"
 }

@@ -18,6 +18,7 @@
         uploadSubtitle: t('video_to_text.upload.subtitle', dict) || 'MP4, MOV, WebM, MKV, AVI, etc.',
         btnSelect: t('video_to_text.upload.btn_select', dict) || 'Select File',
         hint: t('video_to_text.upload.hint', dict) || '',
+        btnSample: t('video_to_text.btn.load_sample', dict) || '',
         
         settings: {
             model: t('video_to_text.settings.model', dict) || 'AI Model',

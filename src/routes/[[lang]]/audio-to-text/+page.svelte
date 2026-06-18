@@ -18,6 +18,7 @@
         uploadSubtitle: t('audio_to_text.upload.subtitle', dict) || 'MP3, WAV, MP4, etc.',
         btnSelect: t('audio_to_text.upload.btn_select', dict) || 'Select File',
         hint: t('audio_to_text.upload.hint', dict) || '',
+        btnSample: t('audio_to_text.btn.load_sample', dict) || '',
         
         settings: {
             model: t('audio_to_text.settings.model', dict) || 'AI Model',

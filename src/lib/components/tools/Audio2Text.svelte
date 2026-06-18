@@ -297,9 +297,9 @@
                             });
                     }}>
                         {#if isLoadingSample}
-                            <span class="spin" aria-hidden="true"><i class="ti ti-loader-2"></i></span> {texts.btnSample || 'Try Sample'}
+                            <span class="spin" aria-hidden="true"><i class="ti ti-loader-2"></i></span> {texts.btnSample || ''}
                         {:else}
-                            <i class="ti ti-music" aria-hidden="true"></i> {texts.btnSample || 'Try Sample'}
+                            <i class="ti ti-music" aria-hidden="true"></i> {texts.btnSample || ''}
                         {/if}
                     </button>
                 </div>
