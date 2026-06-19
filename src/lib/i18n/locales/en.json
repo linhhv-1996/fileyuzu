@@ -1,5 +1,9 @@
 {
   "blog.toc": "Table of Contents",
+
+"blog.subtitle": "Useful guides, practical tips, and occasional updates from UploadLess.",
+"blog.read_article": "Read article",
+
   "common.try_now": "Use this tool for free",
   "home.search.placeholder": "Search tools",
   "blog.author_bio": "J.Julian is the creator and lead developer of UploadLess. With a strong background in software engineering and web architecture, he is dedicated to building secure, high-performance, and user-friendly file-sharing solutions for the modern web.",
@@ -74,32 +78,54 @@
   "home.why.device.desc": "Fully responsive. No app install required.",
   "home.faq.title": "Frequently Asked Questions",
   "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
+  
+  
   "home.faq.items": [
-    {
-      "q": "Are all the tools on UploadLess free to use?",
-      "a": "Yes, every tool on UploadLess is completely free with no hidden fees, no subscriptions, and no limits. You can compress videos, compress PDFs, and convert video formats as many times as you like at no cost."
-    },
-    {
-      "q": "Do my files get uploaded to a server?",
-      "a": "No. All processing happens directly in your browser using WebAssembly technology. Your files never leave your device and are never sent to any server, so your data stays completely private."
-    },
-    {
-      "q": "Do I need to create an account to use these tools?",
-      "a": "No account or sign-up is required. Just open the tool you need and start immediately — no registration, no email, no password."
-    },
-    {
-      "q": "What tools are available on UploadLess?",
-      "a": "UploadLess currently offers a free online video compressor, a PDF compressor, and a video converter supporting formats like MP4, WebM, MOV, MKV, and MP3. More tools are being added regularly."
-    },
-    {
-      "q": "Is there a file size limit?",
-      "a": "There is no hard server-side limit since all processing happens in your browser. In practice, most tools handle files up to 500 MB. Performance depends on your device's memory and processing power."
-    },
-    {
-      "q": "Can I use UploadLess on my phone or tablet?",
-      "a": "Yes! UploadLess is fully responsive and works on smartphones, tablets, and desktop computers. No app installation is needed — just open the site in your mobile browser and use any tool."
-    }
-  ],
+{
+"q": "Are all tools on UploadLess free to use?",
+"a": "Yes. All tools on UploadLess are free to use. You do not need to pay, subscribe, or create an account to compress files, convert formats, extract text, generate barcodes, or use other browser-based utilities."
+},
+{
+"q": "Do I need to upload my files to a server?",
+"a": "No. UploadLess is designed to process files directly in your browser whenever possible. Your files stay on your device instead of being uploaded to a remote server, which makes the tools faster and more private for everyday use."
+},
+{
+"q": "How does UploadLess process files in the browser?",
+"a": "Many tools use modern browser technologies such as WebAssembly to run file processing locally on your device. This allows tasks like video compression, PDF compression, OCR, audio conversion, and format conversion to work without traditional server-side uploads."
+},
+{
+"q": "Do I need to create an account?",
+"a": "No. UploadLess does not require registration. You can open the tool you need, choose your file, process it in the browser, and download the result without signing up or entering an email address."
+},
+{
+"q": "What kind of tools are available on UploadLess?",
+"a": "UploadLess includes free tools for video compression, audio and video conversion, PDF compression, image compression, OCR, audio or video transcription, barcode generation, extracting frames from video, text utilities, and more practical file tools."
+},
+{
+"q": "Is UploadLess safe for private files?",
+"a": "UploadLess is built with privacy in mind. Since processing happens locally in your browser for supported tools, your files are not sent to UploadLess servers. This is useful for personal documents, work files, recordings, screenshots, and other sensitive files."
+},
+{
+"q": "Is there a file size limit?",
+"a": "There is no typical upload limit because files are processed on your own device, not uploaded to a server. However, very large files may still be limited by your browser, memory, storage, or device performance. A newer or more powerful device will usually handle bigger files better."
+},
+{
+"q": "Why does the first run take longer for some tools?",
+"a": "Some tools need to load browser-based processing libraries or AI models the first time you use them. After the first load, your browser may cache these files, so later uses are usually faster."
+},
+{
+"q": "Can I use UploadLess on mobile?",
+"a": "Yes. UploadLess works in modern mobile browsers on phones and tablets. Smaller files usually work well on mobile, while larger videos, PDFs, or AI-based tasks may run better on a desktop or laptop with more memory and processing power."
+},
+{
+"q": "When should I use UploadLess instead of an online file converter?",
+"a": "Use UploadLess when you want quick, free file tools without uploading your files to a third-party server. It is especially useful for simple tasks like compressing a video, reducing a PDF size, converting audio, extracting text from an image, or getting a transcript from a file directly in your browser."
+}
+],
+
+
+
+
   "_comment_categories": "================ Tool Categories ================",
   "home.category.video": "Video",
   "home.category.pdf": "PDF",

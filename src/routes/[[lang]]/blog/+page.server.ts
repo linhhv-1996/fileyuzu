@@ -1,12 +1,8 @@
 import { getCanonicalLang } from '$lib/i18n/config';
-import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import { parseFrontmatter as matter } from '$lib/utils/markdown';
 
-export const load: PageServerLoad = async ({ params, setHeaders }) => {
-    setHeaders({
-        'X-Robots-Tag': 'noindex, nofollow'
-    });
+export const load: PageServerLoad = async ({ params }) => {
     const lang = getCanonicalLang(params.lang);
     const urlLang = lang.toLowerCase();
     
@@ -27,6 +23,8 @@ export const load: PageServerLoad = async ({ params, setHeaders }) => {
             
             posts.push({
                 slug,
+                title: parsed.data.title || '',
+                description: parsed.data.description || '',
                 date: parsed.data.date || ''
             });
         }
@@ -35,11 +33,8 @@ export const load: PageServerLoad = async ({ params, setHeaders }) => {
     // Sort by date descending
     posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     
-    if (posts.length > 0) {
-        const latestSlug = posts[0].slug;
-        const redirectUrl = urlLang === 'en' ? `/blog/${latestSlug}` : `/${urlLang}/blog/${latestSlug}`;
-        throw redirect(302, redirectUrl);
-    }
-    
-    throw redirect(302, urlLang === 'en' ? '/' : `/${urlLang}`);
+    return {
+        posts,
+        lang: urlLang
+    };
 };
