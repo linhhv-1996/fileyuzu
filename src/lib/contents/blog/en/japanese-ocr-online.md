@@ -1,341 +1,202 @@
 ---
-title: "Japanese OCR Online: Extract Japanese Text from Images"
+title: "Japanese OCR Online: Extract Japanese Text from Images Free"
 date: "2026-06-16"
-description: "Learn how to extract Japanese text from images, screenshots, manga panels, signs, menus, and documents using free browser-based OCR."
+description: "Extract Japanese text from images, screenshots, manga panels, menus, and documents using free browser-based Japanese OCR. No upload, no install needed."
 ctaTool: "image-to-text"
 ---
 
-Japanese text can be difficult to retype from an image. A single screenshot may contain kanji, hiragana, katakana, numbers, English words, and symbols all mixed together.
+Reading Japanese text trapped inside an image is frustrating. You can see the kanji clearly on screen, but you cannot select it, copy it, search it, or paste it anywhere. Every character has to be retyped from scratch — or you need OCR.
 
-The easiest way to copy Japanese text from an image is to use a [free image to text converter](/image-to-text). Upload your image, choose Japanese OCR if needed, run recognition, then copy the extracted text.
+The fastest solution is a free [image to text converter](/image-to-text) that supports Japanese. Upload your image, select Japanese as the recognition language, run OCR, and copy the extracted text directly into your translation app, notes, dictionary, or document editor.
+
+This guide explains how Japanese OCR works, when it is most useful, what affects accuracy, and how to get better results from the images you already have.
 
 ---
 
 ## What Is Japanese OCR?
 
-**Japanese OCR** is Optical Character Recognition for Japanese text. It reads Japanese characters inside an image and converts them into editable digital text.
+**Japanese OCR** (Optical Character Recognition) is software that scans an image and converts visible Japanese characters — kanji, hiragana, katakana, and romaji — into selectable, editable text.
 
-A normal image file only stores pixels. Even if you can clearly see Japanese words inside the image, you cannot select or copy them like normal text. OCR solves this by detecting the characters and reconstructing them as text.
+A regular image file stores pixels, not characters. Even if the image shows perfectly legible Japanese text, the computer sees a grid of colored dots. There is no text layer to copy. OCR analyzes those pixel patterns and reconstructs them as actual text output.
 
-Japanese OCR can be useful for images that contain:
+What makes Japanese OCR different from standard OCR is the character set. Japanese writing combines three separate scripts that can appear in the same sentence:
 
-* kanji
-* hiragana
-* katakana
-* romaji
-* numbers
-* punctuation
-* mixed Japanese and English text
+- **Kanji** — Chinese-derived characters, each with multiple strokes and distinct meanings
+- **Hiragana** — 46 syllabic characters for native Japanese words and grammar
+- **Katakana** — 46 syllabic characters used for foreign words, emphasis, and technical terms
+- **Romaji** — Latin alphabet letters that appear in brand names, codes, and mixed content
 
-For example, you may have a screenshot of a Japanese app, a menu photo, a product label, a manga panel, or a document image. OCR can help extract the visible Japanese text so you can copy, translate, search, save, or edit it.
+A trained Japanese OCR model has to recognize all four simultaneously and sort out which character belongs to which script. That is significantly more complex than English-only recognition.
 
 ---
 
-## When You Need Japanese OCR
+## When Do You Need Japanese OCR?
 
-Japanese OCR is useful whenever Japanese text is trapped inside an image.
+Japanese OCR is useful any time you need to work with Japanese text that exists only as an image. The most common situations:
 
-### 1. Copy Japanese Text from Screenshots
+### Copying Text from Japanese Screenshots
 
-Screenshots are one of the most common Japanese OCR use cases. You may need to copy text from a Japanese website, app screen, game interface, video subtitle, social post, or PDF screenshot.
+Screenshots are the single most common Japanese OCR use case. Your phone, tablet, or computer can capture a Japanese app screen, website, game menu, subtitle, error message, or social post as an image file — but the text inside is no longer selectable.
 
-Instead of retyping the characters manually, you can upload the screenshot to a [Japanese OCR tool](/image-to-text) and copy the result.
+Rather than switching to a Japanese input method and retyping each character by hand, upload the screenshot to a [Japanese OCR tool](/image-to-text) and copy the result in seconds. Screen captures work especially well because screen text is rendered at 1:1 pixel precision, which gives OCR the clearest possible input.
 
-### 2. Extract Japanese Text for Translation
+### Extracting Text Before Translation
 
-If you do not know how to type Japanese characters, OCR is often the first step. Extract the Japanese text from the image first, then paste it into a translation tool, dictionary, notes app, or language learning app.
+If you do not read Japanese, OCR is usually the first step in a two-step workflow: extract text, then translate. Copy the recognized Japanese from the OCR output, paste it into Google Translate, DeepL, or any translation app, and get a readable result without needing to type a single character.
 
-This is useful for learners, travelers, researchers, and anyone working with Japanese content.
+This is useful for language learners working through study materials, travelers deciphering menus and signs, and anyone processing Japanese-language content they did not originally create.
 
-### 3. Copy Text from Japanese Menus, Signs, and Labels
+### Reading Japanese Menus, Signs, and Product Labels
 
-Japanese menus, signs, product labels, packages, receipts, and notices often contain useful text. If you have a photo, OCR can help you convert the visible text into a digital format.
+A photo of a Japanese restaurant menu, a street sign, a product package, a receipt, or a warning label often contains information you need. OCR can convert the visible text in the photo into a digital string you can copy, translate, or search.
 
-For best results, use a clear photo with good lighting and avoid extreme angles.
+For best results here, use a well-lit photo taken from directly in front of the surface. Angle distortion and shadow are the two factors that hurt accuracy most with real-world photos.
 
-### 4. Extract Text from Manga or Image Panels
+### Digitizing Study Materials
 
-Japanese OCR can sometimes help extract text from manga panels, speech bubbles, captions, and image-based pages. However, manga text can be difficult because fonts may be stylized, curved, small, vertical, or placed over detailed artwork.
+Students of Japanese can extract text from textbook page photos, class handout scans, vocabulary list images, grammar worksheet captures, and flashcard photos. Once the text is in digital form, it can be searched, imported into Anki, pasted into a dictionary lookup, or reorganized into personal study notes.
 
-OCR can still be useful as a starting point, but expect to proofread the result.
+### Working with Manga Panels
 
-### 5. Digitize Japanese Study Materials
+Manga OCR is one of the more popular but less reliable use cases. Speech bubble text in standard manga fonts can extract reasonably well. However, sound effects (onomatopoeia), stylized title lettering, heavily outlined dialogue, curved text inside speech bubbles, and vertical text panels all reduce accuracy significantly.
 
-Students can use OCR to extract Japanese text from textbook photos, worksheets, vocabulary lists, grammar examples, flashcards, and class handouts.
-
-Once extracted, the text can be copied into a notes app, searched, translated, or used for review.
+Use manga OCR as a starting draft. Expect to correct several characters per panel and verify anything you plan to use in translation or publishing contexts.
 
 ---
 
 ## How to Extract Japanese Text from an Image Online
 
-You do not need to install desktop OCR software to copy Japanese text from an image. A browser-based OCR workflow is enough for many everyday images.
+You do not need software, an account, or an API subscription. A browser-based OCR workflow covers most everyday image types.
 
-### Step 1: Open the OCR Tool
+### Step 1: Open the Tool
 
-Go to the free [Image to Text Converter](/image-to-text). The tool can extract text from images, screenshots, photos, and document captures.
+Go to the free [Image to Text Converter](/image-to-text). It supports Japanese alongside other languages and runs directly in your browser.
 
 ### Step 2: Upload Your Image
 
-Upload a JPG, PNG, JPEG, screenshot, or image file that contains Japanese text. You can use photos, screenshots, scanned pages, product labels, or image-based documents.
+Drag and drop your file or click to browse. Supported formats include JPG, JPEG, PNG, and WebP. This covers nearly every screenshot, photo, and exported image format you are likely to encounter.
 
-If your browser supports clipboard images, you may also paste an image directly into the tool.
+If your browser supports it, you can also paste a screenshot directly from your clipboard rather than saving it as a file first. This saves a step for frequent screenshot-to-text workflows.
 
-### Step 3: Select Japanese OCR
+### Step 3: Select Japanese as the OCR Language
 
-If the tool lets you choose a recognition language, select Japanese for better results. Japanese text has different character patterns from Latin text, so choosing the right OCR language can improve accuracy.
+For Japanese images, explicitly choosing Japanese OCR makes a meaningful difference in accuracy. The model is optimized for Japanese character patterns, stroke count, and script mixing. Using auto-detect or a Latin-only model on Japanese text will produce garbled output.
 
-### Step 4: Run OCR
+### Step 4: Run Recognition
 
-The OCR engine scans the image and tries to recognize the Japanese text. Clear printed text usually works better than handwriting, decorative fonts, or very small characters.
+The OCR engine processes the image and outputs the recognized text. Processing time depends on image size and complexity. Clear screenshots typically complete in a few seconds.
 
-### Step 5: Copy and Review the Result
+### Step 5: Review and Copy
 
-Copy the extracted text and review it. Japanese OCR can make mistakes, especially with similar kanji, small kana, names, numbers, and stylized text.
-
----
-
-## Why Japanese OCR Is Harder Than English OCR
-
-Japanese OCR is more complex than basic English OCR because Japanese writing uses multiple scripts and many detailed characters.
-
-### Kanji Characters Are Complex
-
-Kanji can contain many strokes. Small, blurry, or compressed images may lose important details, which can cause OCR mistakes.
-
-### Japanese Often Mixes Multiple Scripts
-
-A single sentence may contain kanji, hiragana, katakana, numbers, romaji, and punctuation. OCR needs to recognize all of them correctly.
-
-### Small Characters Matter
-
-Japanese text often includes small kana such as `ゃ`, `ゅ`, `ょ`, `っ`, or small furigana above kanji. If the image resolution is low, these details may be hard to read.
-
-### Vertical Text Can Be Difficult
-
-Japanese can be written horizontally or vertically. Some OCR tools handle vertical Japanese better than others. If vertical text is not recognized well, try cropping the image or rotating it if appropriate.
-
-### Stylized Fonts Reduce Accuracy
-
-Manga text, decorative signs, posters, game UI, and social graphics may use stylized fonts. These can be harder for OCR than clean printed text.
+Copy the extracted text and review it before using it. Even accurate Japanese OCR can produce errors on similar-looking kanji, small kana, furigana, and stylized characters. For anything important, scan the output against the original image.
 
 ---
 
-## What Images Work Best for Japanese OCR?
+## Why Japanese OCR Is More Difficult Than English OCR
 
-OCR accuracy depends heavily on the quality of the image.
+Understanding why Japanese OCR errors happen helps you set realistic expectations and improve your results.
 
-### Good Images for Japanese OCR
+### Kanji Complexity and Stroke Count
 
-Japanese OCR usually works better with:
+Many kanji share structural similarities. Characters like 己/已/巳 or 土/士 or 大/太 differ by a single stroke or stroke placement. At small sizes or in low-resolution images, these distinctions collapse. An OCR model trained on general text may substitute one for another without flagging the error.
 
-* clear screenshots
-* app screens with readable text
-* website screenshots
-* printed documents
-* textbook pages
-* menus with sharp text
-* product labels
-* receipts
-* simple manga speech bubbles
-* high-resolution document photos
+### Multi-Script Mixing
 
-### Difficult Images for Japanese OCR
+Within a single sentence, Japanese text might contain kanji, hiragana, katakana, numbers, and Latin characters. The OCR engine must switch between recognition modes character by character. Any ambiguity in character boundary detection — especially where small hiragana appear adjacent to kanji — can propagate errors through a word or phrase.
 
-Japanese OCR may struggle with:
+### Furigana and Small Kana
 
-* blurry photos
-* very small kanji
-* tiny furigana
-* handwriting
-* vertical text with complex layout
-* manga sound effects
-* decorative fonts
-* text over detailed artwork
-* low-contrast signs
-* curved or angled pages
+Furigana (phonetic readings above kanji) and contracted kana like ゃ, ゅ, ょ, っ are printed much smaller than the main text. In compressed images or low-resolution scans, these small characters often blur together or disappear entirely. OCR may skip them, merge them with adjacent characters, or output them incorrectly.
 
-If the text is difficult for a human to read, OCR will usually struggle too.
+### Vertical Text Layouts
+
+Japanese text can be written horizontally (left to right) or vertically (top to bottom, right to left). Most OCR models are better trained on horizontal text. Vertical text — common in novels, newspapers, manga, and formal documents — can produce reading-order errors or scrambled output. If a vertical-text image is giving you trouble, try rotating the image 90 degrees and running OCR again.
+
+### Decorative and Stylized Fonts
+
+Printed books, menus, game UI, posters, and manga all use a wide range of fonts. OCR models are most accurate on clean sans-serif or mincho-style print text. Calligraphic, brush-style, heavily decorated, or compressed fonts can cause significant accuracy drops.
+
+---
+
+## Image Quality and What It Affects
+
+| Factor | Effect on Accuracy |
+| :--- | :--- |
+| High resolution (150 DPI+) | Strong. Kanji stroke details are preserved |
+| Sharp screenshot | Excellent. Screen text is pixel-perfect |
+| Compressed JPEG photo | Moderate. Compression artifacts blur character edges |
+| Small text (under 10px) | Poor. Characters are too small to resolve clearly |
+| Handwriting | Poor to moderate. Depends on writing style and clarity |
+| Vertical layout | Moderate. May need manual reading-order correction |
+| Decorative/stylized font | Poor. Model may not recognize the character style |
+| Low contrast | Poor. Characters and background become indistinguishable |
+| Skewed or angled page | Poor to moderate. Perspective distortion reduces accuracy |
 
 ---
 
 ## Tips for Better Japanese OCR Results
 
-Small changes to the image can improve the result.
+A few simple changes to how you prepare or capture an image can noticeably improve output quality.
 
-### Use a Clear, High-Resolution Image
+**Use the highest resolution version of the image you have.** If you have access to the original screenshot or uncompressed photo, use that instead of a copy that has been shared through a messaging app or resized by a website.
 
-Kanji details matter. If the image is too small or blurry, OCR may confuse similar characters. Use the clearest source image available.
+**Crop the image around the text you need.** Remove sidebars, navigation menus, decorative borders, and unrelated visual content before running OCR. A tighter crop means less background noise for the model to ignore.
 
-### Crop Around the Japanese Text
+**Zoom in before screenshotting.** If the text you want to capture is small on screen, zoom your browser or app to 150% or 200% before taking the screenshot. The larger character size gives OCR more detail to work with.
 
-Remove unnecessary background, images, menus, and unrelated text. Cropping helps OCR focus on the characters you need.
+**Avoid heavy JPEG compression.** Screenshots saved as PNG retain their pixel accuracy. Photos or images shared through LINE, WhatsApp, or social platforms are often recompressed on upload. If you notice visible JPEG artifacts around character edges, try to obtain the original file.
 
-### Avoid Heavy Compression
+**Select Japanese explicitly.** Do not rely on auto-detection if the tool gives you a language choice. Choosing Japanese directly routes your image to the correct recognition model.
 
-Screenshots or photos sent through messaging apps may be compressed. If possible, use the original image instead of a compressed copy.
-
-### Choose Japanese as the OCR Language
-
-If the tool supports language selection, choose Japanese instead of automatic Latin OCR. This helps the OCR engine expect Japanese characters.
-
-### Watch Out for Names and Numbers
-
-OCR can misread proper names, dates, product codes, prices, addresses, and phone numbers. Always proofread important information manually.
-
-### Process Complex Layouts in Sections
-
-If the image has multiple columns, speech bubbles, side notes, or vertical text, crop one section at a time. This can make the reading order cleaner.
+**Process complex layouts in sections.** If the image has multiple columns, alternating vertical and horizontal text blocks, or mixed-language sections, crop each section individually. This prevents the OCR engine from confusing the reading order across layout regions.
 
 ---
 
-## Japanese OCR for Screenshots
+## Format Comparison: JPG, PNG, and Screenshots for Japanese OCR
 
-Screenshots are often good inputs for Japanese OCR because the text is usually sharp. This includes:
+| Format | Common Source | Japanese OCR Notes |
+| :--- | :--- | :--- |
+| PNG | Screenshots, app screens, exported UI | Best for OCR. Screen-rendered text is sharp with no compression |
+| JPG/JPEG | Photos, scanned pages, menus | Works well if the image is not over-compressed or taken at an angle |
+| WebP | Web images, browser-saved graphics | Usually fine if the tool supports the format |
+| Scanned PDF (image layer) | Physical documents, books, textbooks | Depends on scanner DPI; 200 DPI minimum recommended |
 
-* Japanese app screens
-* browser screenshots
-* game menus
-* subtitles
-* software dialogs
-* website sections
-* PDF screenshots
-* online course slides
-
-If your main use case is screen captures, read the related guide on [how to copy text from a screenshot](/blog/screenshot-to-text).
-
-For better screenshot OCR, zoom in before taking the screenshot and capture only the part that contains the Japanese text.
+For PNG screenshots, read the full [PNG to Text Converter guide](/blog/png-to-text-converter). For JPG photos and scans, see the [JPG to Text Converter guide](/blog/jpg-to-text-converter).
 
 ---
 
-## Japanese OCR for JPG and PNG Images
+## Privacy and Browser-Based Japanese OCR
 
-Japanese text may be saved in different image formats.
+Images containing Japanese text may also contain private information — chat messages, work documents, personal receipts, account screenshots, medical forms, or internal business materials.
 
-| Format   | Common Source                                          | OCR Notes                                               |
-| :------- | :----------------------------------------------------- | :------------------------------------------------------ |
-| JPG/JPEG | Photos, scanned pages, menus, signs, receipt photos    | Works well if the image is sharp and not too compressed |
-| PNG      | Screenshots, app screens, exported images, UI captures | Often good for OCR because screen text stays sharp      |
-| WebP     | Web images and browser exports                         | Can work if supported by the browser and tool           |
+Traditional OCR services require you to upload images to a remote server for processing. This means your image travels across the internet and sits temporarily (or permanently) in server storage. For private or sensitive content, this is a meaningful consideration.
 
-If your image is a JPG photo, read the [JPG to Text Converter guide](/blog/jpg-to-text-converter). If your image is a PNG screenshot or app screen, read the [PNG to Text Converter guide](/blog/png-to-text-converter).
+A browser-based [image to text converter](/image-to-text) that processes images locally keeps the image data on your device. Nothing leaves your browser. You do not need to log in, create an account, or agree to data retention policies to use the tool.
+
+This does not mean browser-based OCR is always the most powerful option — server-side models trained on larger datasets can sometimes be more accurate. But for everyday Japanese screenshots, study materials, and personal photos, local processing is faster, private, and free.
 
 ---
 
-## Japanese OCR vs General Image to Text
+## Japanese OCR vs. Related OCR Use Cases
 
-Japanese OCR is a language-specific use case inside the broader image to text workflow.
-
-| Task               | Best For                                                    | Recommended Page                                     |
-| :----------------- | :---------------------------------------------------------- | :--------------------------------------------------- |
-| Japanese OCR       | Japanese screenshots, menus, signs, manga panels, documents | This guide                                           |
-| Image to text      | General OCR for photos, screenshots, and document images    | [Image to Text Converter](/image-to-text)            |
-| Screenshot to text | App screens, websites, PDF screenshots, video frames        | [Screenshot to Text](/blog/screenshot-to-text)       |
-| JPG to text        | Photos and scanned image files                              | [JPG to Text Converter](/blog/jpg-to-text-converter) |
-| Handwriting OCR    | Handwritten notes and notebook photos                       | [Handwriting OCR](/handwriting-ocr)                  |
-
-If you need to extract text from a mixed image, start with the general [Image to Text Converter](/image-to-text) and choose the best language option for your image.
+| Use Case | What It Is | Best Starting Point |
+| :--- | :--- | :--- |
+| Japanese OCR | Extract kanji, kana, and mixed text from images | This guide + [Image to Text](/image-to-text) |
+| General image to text | Extract any language from any image | [Image to Text Converter](/image-to-text) |
+| Screenshot to text | Copy text from any screen capture | [Screenshot to Text](/blog/screenshot-to-text) |
+| JPG to text | Extract text from photo files | [JPG to Text Converter](/blog/jpg-to-text-converter) |
+| Handwriting OCR | Read handwritten Japanese notes | [Handwriting OCR](/handwriting-ocr) |
+| Korean OCR | Extract Korean hangul from images | [Image to Text Converter](/image-to-text) |
 
 ---
 
-## Why Browser-Based Japanese OCR Is Useful for Privacy
+## Can Japanese OCR Read Handwritten Text?
 
-Images with Japanese text may still contain private information. A screenshot or photo may include:
+Handwritten Japanese is a separate, harder problem. Printed characters follow consistent stroke patterns that OCR models can match against training data. Handwriting varies dramatically by person, pen type, writing speed, spacing, and style.
 
-* private messages
-* study notes
-* work documents
-* receipts
-* travel information
-* customer details
-* product labels
-* internal screenshots
-* personal documents
-* account-related text
+OCR can sometimes handle neat, block-style Japanese handwriting with careful pen strokes. It will struggle with cursive-style sōsho script, fast notes, crowded characters, non-standard stroke order, or text written on lined or grid paper that adds visual noise.
 
-Many OCR websites require you to upload images to a remote server. That may not be ideal when the image contains private or work-related information.
-
-A browser-based [Japanese OCR workflow](/image-to-text) is useful because recognition can run locally inside your browser. This helps keep the process more private and simple.
-
-You do not need to install an app, create an account, or upload every image to a cloud dashboard just to copy text.
-
----
-
-## Can OCR Read Handwritten Japanese?
-
-Handwritten Japanese is much harder than printed Japanese. Kanji stroke shape, writing style, spacing, pen pressure, and photo quality can all affect accuracy.
-
-OCR may work with clear block-style handwriting, but it may struggle with messy writing, cursive-style notes, small characters, or fast handwriting.
-
-For handwritten notes in general, use the dedicated [Handwriting OCR](/handwriting-ocr) tool and always proofread the result carefully.
-
----
-
-## Common Problems With Japanese OCR
-
-### The OCR Misreads Similar Kanji
-
-Some kanji look similar, especially in small or blurry images. Always review important text manually.
-
-### Furigana Is Too Small
-
-Furigana can be very small. OCR may skip it or confuse it with nearby text if the image resolution is low.
-
-### The Text Order Is Wrong
-
-Manga panels, vertical text, side notes, and multi-column layouts can cause reading order problems. Crop one area at a time if needed.
-
-### Manga Text Is Not Accurate
-
-Manga text may use stylized fonts, curved speech bubbles, sound effects, and dramatic lettering. OCR may extract part of the text but still require manual cleanup.
-
-### Translation Looks Wrong After OCR
-
-If the extracted Japanese text contains OCR mistakes, translation tools may produce strange results. Fix the OCR output first before translating.
-
----
-
-## Best Use Cases for Japanese OCR
-
-### Language Learners
-
-Learners can extract Japanese text from study materials, screenshots, vocabulary lists, grammar examples, and online lessons.
-
-### Travelers
-
-Travelers can copy Japanese text from menus, signs, notices, receipts, tickets, and product labels before translating it.
-
-### Researchers
-
-Researchers can extract Japanese text from archives, scanned pages, documents, screenshots, and image-based sources.
-
-### Manga and Media Fans
-
-Fans can copy text from manga panels, subtitles, game UI, posters, and screenshots for study, translation, or note-taking.
-
-### Office Workers
-
-Office workers can extract Japanese text from business screenshots, PDF captures, scanned documents, invoices, and internal materials.
-
----
-
-## When Not to Rely on Japanese OCR Alone
-
-Japanese OCR is useful, but it is not perfect.
-
-If the image contains legal text, financial information, product codes, addresses, names, or technical instructions, always verify the extracted text manually. OCR can save time, but it should not be treated as a final verified transcript for important documents.
-
-For difficult images, use OCR as a first draft, then proofread carefully.
-
----
-
-## Final Thoughts
-
-Japanese OCR makes it much easier to copy Japanese text from images, screenshots, menus, signs, manga panels, documents, and photos.
-
-Use the free [Image to Text Converter](/image-to-text) to extract Japanese text directly in your browser. Upload the image, choose Japanese OCR if needed, run recognition, copy the result, and clean up any mistakes.
-
-Instead of manually retyping kanji, kana, and mixed Japanese text, OCR gives you a faster starting point.
+If handwritten Japanese is your primary use case, use the dedicated [Handwriting OCR](/handwriting-ocr) tool and treat every output as a draft that needs careful proofreading.
 
 ---
 
@@ -343,48 +204,48 @@ Instead of manually retyping kanji, kana, and mixed Japanese text, OCR gives you
 
 ### What is Japanese OCR?
 
-Japanese OCR is Optical Character Recognition for Japanese text. It extracts Japanese characters from images and converts them into editable text.
+Japanese OCR is software that reads Japanese characters — kanji, hiragana, katakana, and romaji — from image files and converts them into selectable, editable text.
 
 ### How do I extract Japanese text from an image?
 
-Open the [Image to Text Converter](/image-to-text), upload your image, choose Japanese OCR if available, run recognition, and copy the extracted text.
+Open the [Image to Text Converter](/image-to-text), upload your JPG or PNG, select Japanese as the recognition language, run OCR, and copy the result.
 
 ### Can OCR read Japanese screenshots?
 
-Yes. OCR can read Japanese screenshots if the text is clear and large enough. Screenshots often work well because screen text is usually sharp.
+Yes. Screenshots are one of the best inputs for Japanese OCR because screen-rendered text is pixel-sharp with no compression. Accuracy is typically higher with screenshots than with photos.
 
-### Can OCR read kanji?
+### Can OCR recognize kanji?
 
-Yes. Japanese OCR can recognize kanji, but accuracy depends on image quality, text size, font clarity, and compression.
+Yes, though accuracy depends on image resolution, character size, and font type. Clear printed kanji in high-resolution images extracts well. Small, blurry, or stylized kanji is harder.
 
 ### Can OCR read hiragana and katakana?
 
-Yes. Japanese OCR can extract hiragana and katakana along with kanji, numbers, punctuation, and sometimes romaji.
+Yes. A Japanese OCR model handles hiragana and katakana alongside kanji. Small contracted kana (ゃ, っ, ゅ) can be harder to detect at low resolutions.
 
-### Can OCR read vertical Japanese text?
+### Can Japanese OCR read vertical text?
 
-Some OCR tools can read vertical Japanese text, but accuracy depends on the tool and layout. If the result is messy, try cropping the image into smaller sections.
+Some tools can, but accuracy varies. If a vertically written image is not reading correctly, try rotating the image 90 degrees before running OCR, or crop vertical and horizontal text sections separately.
 
 ### Can OCR read manga text?
 
-OCR can sometimes extract manga text, especially clear speech bubbles. It may struggle with stylized fonts, sound effects, curved text, vertical text, and detailed backgrounds.
+OCR can extract standard manga speech bubble text reasonably well. Sound effects, stylized lettering, curved bubbles, and dense artwork backgrounds significantly reduce accuracy.
 
-### Can I use Japanese OCR before translation?
+### Is Japanese OCR the same as Korean OCR?
 
-Yes. OCR is often the first step. Extract the Japanese text from the image, proofread it, then paste it into a translation tool.
+No. Japanese and Korean use different character sets. Japanese OCR is trained on kanji, hiragana, and katakana. Korean OCR is trained on hangul. Most multi-language tools support both, but you should select the correct language for the image you are processing.
 
-### Is Japanese OCR accurate?
+### How accurate is Japanese OCR?
 
-It can be accurate with clear printed text, sharp screenshots, and high-resolution images. Blurry photos, tiny kanji, handwriting, and stylized fonts reduce accuracy.
+Accuracy is high for clear screenshots and printed documents in standard fonts. It drops noticeably with handwriting, decorative fonts, small furigana, vertical text, and compressed or blurry photos.
 
-### Does UploadLess upload my Japanese image to a server?
+### Does UploadLess upload my image to a server?
 
-UploadLess is designed around browser-based processing. Your image can be processed locally in your browser, which is useful for private screenshots, notes, receipts, and documents.
+UploadLess is built around browser-based processing. Your image is processed locally in your browser, so the file does not need to be sent to a remote server.
 
 ### Is Japanese OCR free?
 
-Yes. You can use the [Image to Text Converter](/image-to-text) for free to extract Japanese text from images online.
+Yes. The [Image to Text Converter](/image-to-text) on UploadLess is free to use. No account or subscription is required.
 
-### What image formats work with Japanese OCR?
+### What image formats does Japanese OCR support?
 
-Common formats such as JPG, JPEG, PNG, and screenshots can work. The result depends more on image clarity than the file extension.
+JPG, JPEG, PNG, and WebP are supported. PNG screenshots tend to give the best results because screen text renders without compression artifacts.
