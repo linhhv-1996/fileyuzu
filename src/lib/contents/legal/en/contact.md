@@ -1,15 +1,20 @@
 ---
 title: Contact Us
 ---
-# Contact & About Us
+# Hi, I'm J.Julian 👋
 
-## About UploadLess
-UploadLess is a collection of fast, free, and easy-to-use online utilities designed to make your daily tasks simpler.
+Thanks for dropping by UploadLess! 
 
-## Privacy & Data
-We believe in your privacy. We do not collect or store your personal information. Our site uses Google Analytics 4 (GA4) for aggregated traffic analysis and we may display ads in the future.
+I built UploadLess with a simple goal in mind: to provide a collection of fast, free, and genuinely helpful online utilities to make your daily tasks a little bit easier. It's a passion project, and I'm always looking for ways to improve it.
 
-## Contact Information
-If you have any questions, suggestions, or feedback, feel free to reach out to us:
+## Your Privacy Matters
+As a developer and a user myself, I strongly believe in privacy. UploadLess is designed so that we do not collect or store your personal data. We do use Google Analytics 4 (GA4) to understand general traffic trends so I can keep improving the site, and we might show some ads in the future to help keep the servers running.
+
+## Let's Connect
+Whether you have a feature suggestion, found a bug, or just want to say hi, I'd love to hear from you. Your feedback is what helps UploadLess grow!
+
+Feel free to reach out to me directly at:
 
 **Email:** hvlinh.tptn@gmail.com
+
+Looking forward to connecting!
