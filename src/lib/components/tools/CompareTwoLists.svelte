@@ -357,7 +357,7 @@
         min-height: 280px;
         width: 100%;
         padding: 16px;
-        border-radius: 6px;
+        border-radius: 3px;
         border: 1px solid var(--bd);
         background: var(--bg);
         color: var(--tx);
@@ -384,7 +384,7 @@
     .result-block {
         background: var(--bg);
         border: 1px solid var(--bd);
-        border-radius: 8px;
+        border-radius: 3px;
         overflow: hidden;
     }
 
@@ -494,7 +494,7 @@
         padding: 8px;
         background: var(--bg-alt, #f8fafc);
         border: 1px solid var(--bd, #e2e8f0);
-        border-radius: 6px;
+        border-radius: 3px;
     }
 
     .column-select-inline {

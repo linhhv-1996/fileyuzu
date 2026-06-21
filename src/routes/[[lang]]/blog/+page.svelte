@@ -128,8 +128,8 @@
         display: inline-flex;
         align-items: center;
         gap: 6px;
-        font-size: 13px;
-        font-weight: 600;
+        font-size: 12px;
+        font-weight: 500;
         color: var(--ac);
         text-transform: uppercase;
         letter-spacing: 0.05em;

@@ -413,7 +413,7 @@
         padding: 6px 12px;
         background: rgba(0, 0, 0, 0.03);
         border: 1px solid rgba(0, 0, 0, 0.05);
-        border-radius: 12px;
+        border-radius: 3px;
         gap: 16px;
     }
     :global(body.dark) .file-item {
@@ -519,7 +519,7 @@
         width: 100%;
         padding: 12px;
         border: 2px dashed rgba(0, 0, 0, 0.1);
-        border-radius: 12px;
+        border-radius: 3px;
         background: transparent;
         color: var(--text-muted);
         font-weight: 500;
