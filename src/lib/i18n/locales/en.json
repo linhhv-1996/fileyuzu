@@ -1,9 +1,7 @@
 {
   "blog.toc": "Table of Contents",
-
-"blog.subtitle": "Useful guides, practical tips, and occasional updates from UploadLess.",
-"blog.read_article": "Read article",
-
+  "blog.subtitle": "Useful guides, practical tips, and occasional updates from UploadLess.",
+  "blog.read_article": "Read article",
   "common.try_now": "Use this tool for free",
   "home.search.placeholder": "Search tools",
   "blog.author_bio": "J.Julian is the creator and lead developer of UploadLess. With a strong background in software engineering and web architecture, he is dedicated to building secure, high-performance, and user-friendly file-sharing solutions for the modern web.",
@@ -78,54 +76,48 @@
   "home.why.device.desc": "Fully responsive. No app install required.",
   "home.faq.title": "Frequently Asked Questions",
   "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
-  
-  
   "home.faq.items": [
-{
-"q": "Are all tools on UploadLess free to use?",
-"a": "Yes. All tools on UploadLess are free to use. You do not need to pay, subscribe, or create an account to compress files, convert formats, extract text, generate barcodes, or use other browser-based utilities."
-},
-{
-"q": "Do I need to upload my files to a server?",
-"a": "No. UploadLess is designed to process files directly in your browser whenever possible. Your files stay on your device instead of being uploaded to a remote server, which makes the tools faster and more private for everyday use."
-},
-{
-"q": "How does UploadLess process files in the browser?",
-"a": "Many tools use modern browser technologies such as WebAssembly to run file processing locally on your device. This allows tasks like video compression, PDF compression, OCR, audio conversion, and format conversion to work without traditional server-side uploads."
-},
-{
-"q": "Do I need to create an account?",
-"a": "No. UploadLess does not require registration. You can open the tool you need, choose your file, process it in the browser, and download the result without signing up or entering an email address."
-},
-{
-"q": "What kind of tools are available on UploadLess?",
-"a": "UploadLess includes free tools for video compression, audio and video conversion, PDF compression, image compression, OCR, audio or video transcription, barcode generation, extracting frames from video, text utilities, and more practical file tools."
-},
-{
-"q": "Is UploadLess safe for private files?",
-"a": "UploadLess is built with privacy in mind. Since processing happens locally in your browser for supported tools, your files are not sent to UploadLess servers. This is useful for personal documents, work files, recordings, screenshots, and other sensitive files."
-},
-{
-"q": "Is there a file size limit?",
-"a": "There is no typical upload limit because files are processed on your own device, not uploaded to a server. However, very large files may still be limited by your browser, memory, storage, or device performance. A newer or more powerful device will usually handle bigger files better."
-},
-{
-"q": "Why does the first run take longer for some tools?",
-"a": "Some tools need to load browser-based processing libraries or AI models the first time you use them. After the first load, your browser may cache these files, so later uses are usually faster."
-},
-{
-"q": "Can I use UploadLess on mobile?",
-"a": "Yes. UploadLess works in modern mobile browsers on phones and tablets. Smaller files usually work well on mobile, while larger videos, PDFs, or AI-based tasks may run better on a desktop or laptop with more memory and processing power."
-},
-{
-"q": "When should I use UploadLess instead of an online file converter?",
-"a": "Use UploadLess when you want quick, free file tools without uploading your files to a third-party server. It is especially useful for simple tasks like compressing a video, reducing a PDF size, converting audio, extracting text from an image, or getting a transcript from a file directly in your browser."
-}
-],
-
-
-
-
+    {
+      "q": "Are all tools on UploadLess free to use?",
+      "a": "Yes. All tools on UploadLess are free to use. You do not need to pay, subscribe, or create an account to compress files, convert formats, extract text, generate barcodes, or use other browser-based utilities."
+    },
+    {
+      "q": "Do I need to upload my files to a server?",
+      "a": "No. UploadLess is designed to process files directly in your browser whenever possible. Your files stay on your device instead of being uploaded to a remote server, which makes the tools faster and more private for everyday use."
+    },
+    {
+      "q": "How does UploadLess process files in the browser?",
+      "a": "Many tools use modern browser technologies such as WebAssembly to run file processing locally on your device. This allows tasks like video compression, PDF compression, OCR, audio conversion, and format conversion to work without traditional server-side uploads."
+    },
+    {
+      "q": "Do I need to create an account?",
+      "a": "No. UploadLess does not require registration. You can open the tool you need, choose your file, process it in the browser, and download the result without signing up or entering an email address."
+    },
+    {
+      "q": "What kind of tools are available on UploadLess?",
+      "a": "UploadLess includes free tools for video compression, audio and video conversion, PDF compression, image compression, OCR, audio or video transcription, barcode generation, extracting frames from video, text utilities, and more practical file tools."
+    },
+    {
+      "q": "Is UploadLess safe for private files?",
+      "a": "UploadLess is built with privacy in mind. Since processing happens locally in your browser for supported tools, your files are not sent to UploadLess servers. This is useful for personal documents, work files, recordings, screenshots, and other sensitive files."
+    },
+    {
+      "q": "Is there a file size limit?",
+      "a": "There is no typical upload limit because files are processed on your own device, not uploaded to a server. However, very large files may still be limited by your browser, memory, storage, or device performance. A newer or more powerful device will usually handle bigger files better."
+    },
+    {
+      "q": "Why does the first run take longer for some tools?",
+      "a": "Some tools need to load browser-based processing libraries or AI models the first time you use them. After the first load, your browser may cache these files, so later uses are usually faster."
+    },
+    {
+      "q": "Can I use UploadLess on mobile?",
+      "a": "Yes. UploadLess works in modern mobile browsers on phones and tablets. Smaller files usually work well on mobile, while larger videos, PDFs, or AI-based tasks may run better on a desktop or laptop with more memory and processing power."
+    },
+    {
+      "q": "When should I use UploadLess instead of an online file converter?",
+      "a": "Use UploadLess when you want quick, free file tools without uploading your files to a third-party server. It is especially useful for simple tasks like compressing a video, reducing a PDF size, converting audio, extracting text from an image, or getting a transcript from a file directly in your browser."
+    }
+  ],
   "_comment_categories": "================ Tool Categories ================",
   "home.category.video": "Video",
   "home.category.pdf": "PDF",
@@ -1914,7 +1906,212 @@
       "a": "This tool converts spoken video audio into text. You can use the transcript as a starting point for subtitles or captions, but it does not currently export subtitle files such as SRT or VTT."
     }
   ],
-
   "audio_to_text.btn.load_sample": "Try Sample Audio",
-  "video_to_text.btn.load_sample": "Try Sample Video"
+  "video_to_text.btn.load_sample": "Try Sample Video",
+  "_comment_png_to_pdf": "================ PNG to PDF ================",
+  "tool.png_to_pdf.title": "PNG to PDF",
+  "tool.png_to_pdf.description": "Convert multiple images to a single PDF document easily. Private, fast, and works directly in your browser.",
+  "tool.png_to_pdf.short_description": "Convert images to PDF privately.",
+  "png_to_pdf.seo.title": "PNG to PDF Converter – Free & Online",
+  "png_to_pdf.seo.description": "Convert PNG images to PDF right in your browser. Free, no sign-up, supports multiple files with custom page order. Nothing is uploaded to a server.",
+  "png_to_pdf.hero.title": "PNG to PDF Converter",
+  "png_to_pdf.hero.description": "Upload one or more PNG images, arrange the order you want, and convert them to a PDF — all in your browser, with no sign-up and nothing sent to a server.",
+  "png_to_pdf.selected_images": "Selected Images",
+  "png_to_pdf.pages": "pages",
+  "png_to_pdf.upload.title": "Drop your images here to convert them to PDF",
+  "png_to_pdf.upload.subtitle": "Supports PNG, JPG, WebP and other common image formats",
+  "png_to_pdf.upload.btn_select": "Select Images",
+  "png_to_pdf.btn.convert": "Convert to PDF",
+  "png_to_pdf.btn.add_more": "Add more",
+  "png_to_pdf.btn.processing": "Processing...",
+  "png_to_pdf.btn.combine": "Convert to PDF",
+  "png_to_pdf.btn.download_short": "Download",
+  "png_to_pdf.btn.load_sample": "Load sample",
+  "png_to_pdf.btn.download": "Download PDF",
+  "png_to_pdf.btn.clear": "Clear All",
+  "png_to_pdf.preview_title": "PDF Preview",
+  "png_to_pdf.how_to_use.title": "How to Convert Images to PDF",
+  "png_to_pdf.how_to_use.steps": [
+    "Click the upload area or drag and drop your PNG images into the tool.",
+    "If you added multiple PNG files, drag them to set the page order before converting.",
+    "Click the Convert button. Your PDF will be generated directly in your browser.",
+    "Download the finished PDF file to your device."
+  ],
+  "png_to_pdf.why_use.title": "Why Use UploadLess Image to PDF",
+  "png_to_pdf.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "Stays on your device",
+      "description": "Your PNG files are processed locally in your browser. Nothing is sent to a server, so your images stay private."
+    },
+    {
+      "icon": "files",
+      "title": "Multiple PNG files",
+      "description": "Add several PNG images at once and combine them into a single PDF instead of converting one file at a time."
+    },
+    {
+      "icon": "arrows-sort",
+      "title": "Set your own page order",
+      "description": "Drag and drop files to arrange the order before converting — useful when combining screenshots or multi-page documents."
+    },
+    {
+      "icon": "infinity",
+      "title": "Free with no limits",
+      "description": "No account required and no usage cap. Convert as many PNG images as you need, completely free."
+    }
+  ],
+  "png_to_pdf.faq.title": "Frequently Asked Questions",
+  "png_to_pdf.faq.items": [
+    {
+      "q": "How do I convert a PNG to PDF online?",
+      "a": "Upload your PNG file using the tool above, then click Convert. The PDF is generated in your browser and ready to download in seconds — no account or installation needed."
+    },
+    {
+      "q": "Is this PNG to PDF converter free?",
+      "a": "Yes. The tool is free to use with no sign-up required and no conversion limits. You can convert as many PNG files as you need."
+    },
+    {
+      "q": "Can I convert multiple PNG files into one PDF?",
+      "a": "Yes. Upload multiple PNG images at once and they will be combined into a single PDF. You can also drag the files to set the page order before converting."
+    },
+    {
+      "q": "Are my PNG files uploaded to a server?",
+      "a": "No. All processing happens locally in your browser. Your files are never sent to any server, so your images stay on your device throughout the process."
+    },
+    {
+      "q": "Can I convert a PNG screenshot to PDF?",
+      "a": "Yes. Screenshots saved as PNG work the same as any other PNG image. Upload the file, convert, and download the PDF."
+    },
+    {
+      "q": "How do I set the page order when combining PNG files into a PDF?",
+      "a": "After uploading multiple PNG files, drag them into the order you want before clicking Convert. The pages in the final PDF will follow that order."
+    },
+    {
+      "q": "Will the image quality change after converting to PDF?",
+      "a": "The tool embeds your PNG images into the PDF as-is. It does not re-compress or alter the image data, so the visual quality in the PDF matches your original file."
+    },
+    {
+      "q": "Does this tool work on mobile?",
+      "a": "Yes. The tool runs in the browser and works on both phones and tablets without requiring any app download."
+    },
+    {
+      "q": "Is there a file size or page limit?",
+      "a": "There is no enforced conversion limit. Very large PNG files may take longer to process depending on your device, since all work is done locally in your browser."
+    },
+    {
+      "q": "What if I want to convert a JPG or JPEG image to PDF instead?",
+      "a": "This tool supports PNG files only. For JPG or JPEG images, use the JPG to PDF converter at [/jpg-to-pdf](/jpg-to-pdf)."
+    },
+    {
+      "q": "Do I need to install anything to use this tool?",
+      "a": "No installation is needed. The converter runs entirely in your web browser on any modern desktop or mobile browser."
+    },
+    {
+      "q": "Can I convert a design export or PNG from Figma or Photoshop to PDF?",
+      "a": "Yes. PNG files exported from design tools like Figma, Photoshop, or Illustrator work fine. Upload the exported PNG and download the resulting PDF."
+    }
+  ],
+  "_comment_jpg_to_pdf": "================ JPG to PDF ================",
+  "tool.jpg_to_pdf.title": "JPG to PDF",
+  "tool.jpg_to_pdf.description": "Convert JPG/JPEG images to a single PDF document easily. Private, fast, and works directly in your browser.",
+  "tool.jpg_to_pdf.short_description": "Convert JPGs to PDF privately.",
+  "jpg_to_pdf.seo.title": "JPG to PDF Converter – Free & Online",
+  "jpg_to_pdf.seo.description": "Convert JPG or JPEG images to PDF in your browser. Free, no sign-up, no upload. Combine multiple files and download your PDF instantly.",
+  "jpg_to_pdf.hero.title": "JPG to PDF Converter",
+  "jpg_to_pdf.hero.description": "Turn your JPG or JPEG images into a PDF file — free, directly in your browser. Add multiple photos, arrange the order, and download in seconds.",
+  "jpg_to_pdf.selected_images": "Selected Images",
+  "jpg_to_pdf.pages": "pages",
+  "jpg_to_pdf.upload.title": "Drop your JPG images here to convert them to PDF",
+  "jpg_to_pdf.upload.subtitle": "Supports JPG, JPEG, PNG, WebP and other common image formats",
+  "jpg_to_pdf.upload.btn_select": "Select Images",
+  "jpg_to_pdf.btn.convert": "Convert to PDF",
+  "jpg_to_pdf.btn.add_more": "Add more",
+  "jpg_to_pdf.btn.processing": "Processing...",
+  "jpg_to_pdf.btn.combine": "Convert to PDF",
+  "jpg_to_pdf.btn.download_short": "Download",
+  "jpg_to_pdf.btn.load_sample": "Load sample",
+  "jpg_to_pdf.btn.download": "Download PDF",
+  "jpg_to_pdf.btn.clear": "Clear All",
+  "jpg_to_pdf.preview_title": "PDF Preview",
+  "jpg_to_pdf.how_to_use.title": "How to Convert JPG to PDF",
+  "jpg_to_pdf.how_to_use.steps": [
+    "Click the upload area or drag and drop your JPG or JPEG files onto the page.",
+    "Add as many JPG images as you need, then drag to rearrange their order before converting.",
+    "Click Convert to generate your PDF. Everything runs in your browser — nothing is sent to a server.",
+    "Download your PDF file once it is ready."
+  ],
+  "jpg_to_pdf.why_use.title": "Why Use UploadLess JPG to PDF",
+  "jpg_to_pdf.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "Files stay on your device",
+      "description": "Your JPG images are processed entirely in your browser. They are never uploaded to any server."
+    },
+    {
+      "icon": "files",
+      "title": "Convert multiple JPGs at once",
+      "description": "Add as many JPG or JPEG files as you need and combine them into a single PDF in one go."
+    },
+    {
+      "icon": "arrows-sort",
+      "title": "Control the page order",
+      "description": "Drag to reorder your images before converting so the pages appear exactly as you want them."
+    },
+    {
+      "icon": "infinity",
+      "title": "Free with no limits",
+      "description": "No sign-up, no usage caps, and no fees. Convert as many JPG files to PDF as you need."
+    }
+  ],
+  "jpg_to_pdf.faq.title": "Frequently Asked Questions",
+  "jpg_to_pdf.faq.items": [
+    {
+      "q": "How do I convert JPG to PDF online?",
+      "a": "Upload your JPG or JPEG files, arrange them in the order you want, then click Convert. Your PDF will be generated in the browser and ready to download right away."
+    },
+    {
+      "q": "Is this JPG to PDF converter free?",
+      "a": "Yes. The tool is completely free to use. There is no sign-up, no subscription, and no hidden fee."
+    },
+    {
+      "q": "Can I convert multiple JPG files into one PDF?",
+      "a": "Yes. You can upload as many JPG or JPEG images as you need and combine them all into a single PDF document."
+    },
+    {
+      "q": "Can I change the order of the images before converting?",
+      "a": "Yes. After uploading, you can drag and reorder the images so the pages appear in the correct sequence in your final PDF."
+    },
+    {
+      "q": "Are my JPG files uploaded to a server?",
+      "a": "No. All conversion happens locally in your browser. Your images are never sent to any server, so your files stay private."
+    },
+    {
+      "q": "Does converting JPG to PDF reduce image quality?",
+      "a": "The tool embeds your JPG images into the PDF as-is without re-compressing them. The quality in the PDF reflects the quality of your original files."
+    },
+    {
+      "q": "Can I convert JPEG files too, or only JPG?",
+      "a": "Both work. JPG and JPEG refer to the same image format, so you can upload files with either extension and the result will be the same."
+    },
+    {
+      "q": "Can I use this tool on my phone?",
+      "a": "Yes. The converter works in mobile browsers. You can upload photos from your camera roll and convert them to PDF directly on your phone."
+    },
+    {
+      "q": "Can I convert a scanned document saved as JPG to PDF?",
+      "a": "Yes. If your scanner saves pages as JPG files, you can upload those scanned images and convert them into a single PDF. The tool does not perform OCR."
+    },
+    {
+      "q": "Is there a limit to how many JPG files I can convert?",
+      "a": "There is no enforced usage limit. You can convert as many files as you need without creating an account or paying anything."
+    },
+    {
+      "q": "What should I do if the PDF does not download?",
+      "a": "Make sure your browser is not blocking pop-ups or automatic downloads. Try clicking the download button again, or refresh the page and repeat the conversion."
+    },
+    {
+      "q": "Can I convert PNG files on this page?",
+      "a": "This page supports JPG and JPEG files only. To convert PNG images to PDF, use the PNG to PDF tool at [uploadless.app/png-to-pdf](/png-to-pdf)."
+    }
+  ]
 }

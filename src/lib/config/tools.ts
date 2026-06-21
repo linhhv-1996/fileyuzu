@@ -366,6 +366,38 @@ export const tools: ToolConfig[] = [
         tags: ['Video', 'Text', 'Transcribe', 'AI'],
         markets: ['en', 'ja', 'zh-tw', 'ko'],
     },
+    {
+        slug: 'png-to-pdf',
+        titleKey: 'tool.png_to_pdf.title',
+        descriptionKey: 'tool.png_to_pdf.description',
+        shortDescriptionKey: 'tool.png_to_pdf.short_description',
+        icon: 'file-type-pdf',
+        related_tools: [
+            'jpg-to-pdf',
+            'image-to-text',
+            'handwriting-ocr',
+            'barcode-generator',
+        ],
+        category: 'pdf',
+        tags: ['PNG', 'JPG', 'PDF'],
+        markets: ['en', 'ja'],
+    },
+    {
+        slug: 'jpg-to-pdf',
+        titleKey: 'tool.jpg_to_pdf.title',
+        descriptionKey: 'tool.jpg_to_pdf.description',
+        shortDescriptionKey: 'tool.jpg_to_pdf.short_description',
+        icon: 'file-type-pdf',
+        related_tools: [
+            'png-to-pdf',
+            'image-to-text',
+            'handwriting-ocr',
+            'barcode-generator',
+        ],
+        category: 'pdf',
+        tags: ['JPG', 'JPEG', 'PDF'],
+        markets: ['en', 'ja'],
+    },
 ];
 
 export function getRelatedTools(currentSlug: string): ToolConfig[] {
