@@ -19,6 +19,7 @@ export const categories: CategoryConfig[] = [
     { id: 'video', labelKey: 'home.category.video' },
     { id: 'pdf',   labelKey: 'home.category.pdf'   },
     { id: 'audio', labelKey: 'home.category.audio' },
+    { id: 'text',  labelKey: 'home.category.text'  },
 ];
 
 export const tools: ToolConfig[] = [

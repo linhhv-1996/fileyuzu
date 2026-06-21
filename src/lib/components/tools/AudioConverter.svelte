@@ -500,10 +500,6 @@
         color: var(--red);
     }
 
-    .btn-download-all{
-        padding: 8px 16px;
-    }
-
     .settings{
         padding-top: 10px;
     }

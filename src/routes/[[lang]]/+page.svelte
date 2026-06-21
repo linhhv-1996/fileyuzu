@@ -9,11 +9,28 @@
     let lang = $derived($page.data.lang || 'en');
 
     let searchQuery = $state('');
+    let activeCategory = $state('all');
+
+    const categoryMeta: Record<string, { label: string; icon: string }> = {
+        video: { label: 'Video', icon: 'movie' },
+        pdf:   { label: 'PDF & Image', icon: 'file-type-pdf' },
+        audio: { label: 'Audio', icon: 'music' },
+        text:  { label: 'Text', icon: 'list-check' },
+    };
+
+    let availableCategories = $derived(
+        ['video', 'pdf', 'audio', 'text'].filter(cat =>
+            tools.some(tool =>
+                tool.category === cat &&
+                (!tool.markets || tool.markets.includes(lang))
+            )
+        )
+    );
 
     let filteredTools = $derived(
         tools.filter(tool => {
             if (tool.markets && !tool.markets.includes(lang)) return false;
-            
+            if (activeCategory !== 'all' && tool.category !== activeCategory) return false;
             if (!searchQuery) return true;
             const query = searchQuery.toLowerCase();
             const title = String(t(tool.titleKey, dict) || '').toLowerCase();
@@ -29,372 +46,350 @@
 <!-- Hero -->
 <section class="hero">
     <h1>{t('home.hero.title', dict)}</h1>
-    <p>{t('home.hero.description', dict)}</p>
+    <p class="hero-desc">{t('home.hero.description', dict)}</p>
+</section>
 
-    <div class="trust-pills">
-        <span class="pill">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            {t('home.pill.private', dict)}
-        </span>
-        <span class="pill">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            {t('home.pill.instant', dict)}
-        </span>
-        <span class="pill">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="20 6 9 17 4 12"/></svg>
-            {t('home.pill.free', dict)}
-        </span>
+<!-- Toolbar: search + category tabs -->
+<div class="toolbar">
+    <div class="search-wrap">
+        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input
+            type="text"
+            bind:value={searchQuery}
+            placeholder={String(t('home.search.placeholder', dict)) !== 'home.search.placeholder' ? String(t('home.search.placeholder', dict)) : 'Search tools...'}
+            class="search-input"
+        />
+    </div>
+    <div class="cat-tabs" role="tablist">
+        <button
+            class="cat-tab"
+            class:active={activeCategory === 'all'}
+            onclick={() => activeCategory = 'all'}
+            role="tab"
+        >{t('home.category.all', dict) || 'All'}</button>
+        {#each availableCategories as catId}
+            <button
+                class="cat-tab"
+                class:active={activeCategory === catId}
+                onclick={() => activeCategory = catId}
+                role="tab"
+            >
+                <i class="ti ti-{categoryMeta[catId]?.icon || 'tool'}" aria-hidden="true"></i>
+                {t(`home.category.${catId}`, dict) || categoryMeta[catId]?.label || catId}
+            </button>
+        {/each}
+    </div>
+</div>
+
+<!-- Tools Grid -->
+<section class="tools-section">
+    {#if filteredTools.length === 0}
+        <div class="empty-state">
+            <i class="ti ti-search-off" aria-hidden="true"></i>
+            <p>No tools found</p>
+        </div>
+    {:else}
+        <div class="tools-grid">
+            {#each filteredTools as tool}
+                <a href={langUrl(lang, `/${tool.slug}`)} class="tool-card">
+                    <div class="tool-header">
+                        <i class="ti ti-{tool.icon}" aria-hidden="true"></i>
+                        <span class="tool-title">{t(tool.titleKey, dict)}</span>
+                    </div>
+                    <div class="tool-info">
+                        <span class="tool-desc">{t(tool.descriptionKey, dict)}</span>
+                    </div>
+                    {#if tool.tags?.length}
+                        <div class="tool-tags">
+                            {#each tool.tags.slice(0, 3) as tag}
+                                <span class="tool-tag">{tag}</span>
+                            {/each}
+                        </div>
+                    {/if}
+                </a>
+            {/each}
+        </div>
+    {/if}
+</section>
+
+<!-- Trust Strip -->
+<div class="trust-strip">
+    <div class="trust-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <span>{t('home.pill.private', dict)}</span>
+    </div>
+    <span class="trust-dot"></span>
+    <div class="trust-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        <span>{t('home.pill.instant', dict)}</span>
+    </div>
+    <span class="trust-dot"></span>
+    <div class="trust-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="20 6 9 17 4 12"/></svg>
+        <span>{t('home.pill.free', dict)}</span>
+    </div>
+</div>
+
+<!-- FAQ -->
+<section class="faq-section">
+    <h2>{t('home.faq.title', dict)}</h2>
+    <div class="faq-list">
+        {#each Array.isArray(t('home.faq.items', dict)) ? t('home.faq.items', dict) : [] as item}
+            <div class="faq-item">
+                <h3>{item.q}</h3>
+                <p>{item.a}</p>
+            </div>
+        {/each}
     </div>
 </section>
 
-<div class="home-layout">
-    <div class="home-main">
-        <div class="search-container">
-            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="11" cy="11" r="8"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-            <input 
-                type="text" 
-                bind:value={searchQuery} 
-                placeholder={t('home.search.placeholder', dict) !== 'home.search.placeholder' ? t('home.search.placeholder', dict) : 'Search tools...'} 
-                class="search-input"
-            />
-        </div>
-
-        <!-- Tools grid -->
-        <section class="tools-section">
-            <div class="tools-grid">
-                {#each filteredTools as tool}
-                    <a href={langUrl(lang, `/${tool.slug}`)} class="tool-card">
-                        <div class="tool-card-main">
-                            <span class="tool-card-title">{t(tool.titleKey, dict)}</span>
-                            <span class="tool-card-desc">{t(tool.descriptionKey, dict)}</span>
-                        </div>
-                        <i class="ti ti-chevron-right card-arrow" aria-hidden="true"></i>
-                    </a>
-                {/each}
-            </div>
-        </section>
-
-        <!-- FAQ -->
-        <section class="faq-section">
-            <h2>{t('home.faq.title', dict)}</h2>
-            <div class="faq-list">
-                {#each Array.isArray(t('home.faq.items', dict)) ? t('home.faq.items', dict) : [] as item}
-                    <div class="faq-item">
-                        <h3>{item.q}</h3>
-                        <p>{item.a}</p>
-                    </div>
-                {/each}
-            </div>
-        </section>
-    </div>
-
-    <aside class="home-sidebar">
-        <div class="sidebar-widget">
-            <Donate {dict} />
-        </div>
-
-        <section class="sidebar-why">
-            <div class="why-card">
-                <div class="why-icon">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                </div>
-                <strong>{t('home.why.private.title', dict)}</strong>
-                <p>{t('home.why.private.desc', dict)}</p>
-            </div>
-            <div class="why-card">
-                <div class="why-icon">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-                </div>
-                <strong>{t('home.why.instant.title', dict)}</strong>
-                <p>{t('home.why.instant.desc', dict)}</p>
-            </div>
-            <div class="why-card">
-                <div class="why-icon">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-                </div>
-                <strong>{t('home.why.device.title', dict)}</strong>
-                <p>{t('home.why.device.desc', dict)}</p>
-            </div>
-        </section>
-    </aside>
-</div>
+<!-- Donate -->
+<!-- <div class="home-donate">
+    <Donate {dict} />
+</div> -->
 
 <style>
-    /* ── Layout ── */
-    .home-layout {
-        display: flex;
-        gap: 16px;
-        align-items: flex-start;
-    }
-
-    .home-main {
-        flex: 1;
-        min-width: 0;
-    }
-
-    .home-sidebar {
-        width: 250px;
-        flex-shrink: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        position: sticky;
-        top: 60px;
-        height: fit-content;
-    }
-
-    .sidebar-widget {
-        width: 100%;
-    }
-
-    @media (max-width: 900px) {
-        .home-layout {
-            flex-direction: column;
-        }
-        .home-sidebar {
-            width: 100%;
-        }
-    }
-
     /* ── Hero ── */
     .hero {
-        padding: 0px 0 24px;
+        padding: 0 0 20px;
         text-align: left;
     }
 
     .hero h1 {
-        font-size: clamp(28px, 5vw, 42px);
-        font-weight: 700;
+        font-size: clamp(26px, 4.5vw, 38px);
+        font-weight: 750;
         color: var(--tx);
-        margin-bottom: 12px;
+        margin-bottom: 8px;
         line-height: 1.15;
-        letter-spacing: -0.02em;
+        letter-spacing: -0.025em;
     }
 
-    .hero p {
-        font-size: 16.5px;
+    .hero-desc {
+        font-size: 16px;
         color: var(--tx-sub);
-        max-width: 520px;
-        margin: 0 0 24px;
+        max-width: 500px;
         line-height: 1.6;
+        margin: 0;
     }
 
-    .trust-pills {
+    /* ── Toolbar ── */
+    .toolbar {
         display: flex;
-        align-items: center;
-        gap: 8px;
-        flex-wrap: wrap;
-    }
-
-    .pill {
-        display: inline-flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 13.5px;
-        color: var(--tx-sub);
-        background: var(--bg-sub);
-        border: 1px solid var(--bd-lt);
-        border-radius: 999px;
-        padding: 4px 12px;
-    }
-
-    .pill svg {
-        color: var(--green);
-        flex-shrink: 0;
-    }
-
-    /* ── Tools grid ── */
-    .tools-section {
+        flex-direction: column;
+        gap: 12px;
         margin-bottom: 20px;
     }
 
-    .search-container {
+    .search-wrap {
         position: relative;
-        width: 100%;
-        margin-bottom: 16px;
     }
 
     .search-icon {
         position: absolute;
-        left: 14px;
+        left: 12px;
         top: 50%;
         transform: translateY(-50%);
-        color: var(--tx-sub);
+        color: var(--tx-mt);
         pointer-events: none;
     }
 
     .search-input {
         width: 100%;
         box-sizing: border-box;
-        padding: 8px 16px 8px 38px;
+        padding: 9px 14px 9px 36px;
         font-size: 14px;
         color: var(--tx);
         background: var(--bg);
         border: 1px solid var(--bd);
-        border-radius: 99px;
+        border-radius: var(--r);
         outline: none;
         transition: border-color 0.15s, box-shadow 0.15s;
     }
 
     .search-input:focus {
         border-color: var(--ac);
-        box-shadow: 0 0 0 3px var(--ac-soft);
+        box-shadow: var(--shadow-glow);
     }
-    
+
     .search-input::placeholder {
         color: var(--tx-mt);
     }
 
+    /* ── Category Tabs ── */
+    .cat-tabs {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+
+    .cat-tab {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 5px 14px;
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--tx-sub);
+        background: var(--bg);
+        border: 1px solid var(--bd);
+        border-radius: 999px;
+        cursor: pointer;
+        font-family: var(--font);
+        transition: all 0.12s;
+        white-space: nowrap;
+    }
+
+    .cat-tab:hover {
+        border-color: var(--ac);
+        color: var(--ac);
+        background: var(--ac-soft);
+    }
+
+    .cat-tab.active {
+        background: var(--ac);
+        color: #fff;
+        border-color: var(--ac);
+    }
+
+    .cat-tab i {
+        font-size: 14px;
+    }
+
+    /* ── Tools Grid ── */
+    .tools-section {
+        margin-bottom: 24px;
+    }
+
     .tools-grid {
-        column-count: 2;
-        column-gap: 8px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
     }
 
-    @media (max-width: 768px) {
-        .tools-grid {
-            column-count: 1;
-            column-gap: 6px;
-        }
-        .tool-card {
-            margin-bottom: 6px !important;
-        }
-    }
-
-    /* Tool card */
+    /* ── Tool Card ── */
     .tool-card {
         display: flex;
-        align-items: center;
-        gap: 12px;
+        flex-direction: column;
+        gap: 6px;
         padding: 12px;
         text-decoration: none;
         color: inherit;
-        border: 1px solid var(--bd);
+        border: 1px solid var(--bd-lt);
         border-radius: var(--r);
         background: var(--bg);
-        transition: background 0.12s, border-color 0.12s, box-shadow 0.12s;
-        position: relative;
-        min-width: 0;
-        break-inside: avoid;
-        margin-bottom: 8px;
+        transition: border-color 0.1s, background 0.1s;
     }
 
     .tool-card:hover {
+        border-color: var(--bd);
         background: var(--bg-sub);
         text-decoration: none;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     }
 
-    .tool-card-main {
-        flex: 1;
-        min-width: 0;
+    .tool-header {
         display: flex;
-        flex-direction: column;
-        gap: 4px;
-    }
-
-    .tool-card-title {
-        font-size: 17px;
-        font-weight: 650;
+        align-items: center;
+        gap: 8px;
         color: var(--tx);
-        transition: color 0.15s ease;
-        margin-bottom: 4px;
     }
 
-    .tool-card:hover .tool-card-title {
-        color: var(--ac);
-        text-decoration: underline;
-        text-underline-offset: 2px;
-    }
-
-    .tool-card-desc {
-        font-size: 14.5px;
+    .tool-header i {
+        font-size: 18px;
         color: var(--tx-sub);
-        line-height: 1.5;
     }
 
-    .card-arrow {
-        font-size: 14px;
-        color: var(--tx-mt);
-        flex-shrink: 0;
-        transition: transform 0.12s, color 0.12s;
-    }
-
-    .tool-card:hover .card-arrow {
-        color: var(--ac);
-        transform: translateX(2px);
-    }
-
-    /* ── Why (Sidebar) ── */
-    .sidebar-why {
+    .tool-info {
         display: flex;
         flex-direction: column;
-        gap: 0;
-        background: var(--bg);
-        border: 1px solid var(--bd);
-        border-radius: var(--r);
+        gap: 2px;
+        min-width: 0;
+    }
+
+    .tool-title {
+        font-size: 14.5px;
+        font-weight: 600;
+        color: var(--tx);
+    }
+
+    .tool-desc {
+        font-size: 13px;
+        color: var(--tx-sub);
+        line-height: 1.45;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
         overflow: hidden;
     }
 
-    .why-card {
-        padding: 16px;
+    .tool-tags {
         display: flex;
-        flex-direction: column;
-        gap: 8px;
-        border-bottom: 1px solid var(--bd-lt);
+        gap: 4px;
+        margin-top: 2px;
     }
 
-    .why-card:last-child {
-        border-bottom: none;
+    .tool-tag {
+        font-size: 10.5px;
+        font-weight: 500;
+        padding: 2px 6px;
+        border-radius: 2px;
+        background: var(--bd-lt);
+        color: var(--tx-sub);
     }
 
-    .why-icon {
-        width: 34px;
-        height: 34px;
-        border-radius: 8px;
-        background: var(--ac-soft);
+    /* ── Trust Strip ── */
+    .trust-strip {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-shrink: 0;
-        color: var(--ac);
+        gap: 16px;
+        padding: 12px 0;
         margin-bottom: 4px;
-    }
-
-    .why-card strong {
-        display: block;
-        font-size: 15px;
-        font-weight: 650;
-        color: var(--tx);
-    }
-
-    .why-card p {
-        margin: 0;
-        font-size: 14px;
-        color: var(--tx-sub);
-        line-height: 1.55;
-    }
-
-    /* ── FAQ — full-width, 1 per row ── */
-    .faq-section {
         border-top: 1px solid var(--bd-lt);
-        padding: 24px 0 16px;
+        border-bottom: 1px solid var(--bd-lt);
+    }
+
+    .trust-item {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 12.5px;
+        color: var(--tx-sub);
+        font-weight: 500;
+    }
+
+    .trust-item svg {
+        color: var(--tx-sub);
+        flex-shrink: 0;
+    }
+
+    .trust-dot {
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background: var(--tx-mt);
+        flex-shrink: 0;
+    }
+
+    /* ── FAQ ── */
+    .faq-section {
+        padding: 20px 0 16px;
     }
 
     .faq-section h2 {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 650;
         color: var(--tx);
-        margin: 0 0 16px;
+        margin: 0 0 12px;
     }
 
     .faq-list {
         display: flex;
         flex-direction: column;
         gap: 0;
-        border: 1px solid var(--bd);
+        border: 1px solid var(--bd-lt);
         border-radius: var(--r);
         overflow: hidden;
     }
@@ -409,17 +404,76 @@
     }
 
     .faq-item h3 {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
         color: var(--tx);
-        margin: 0 0 5px;
+        margin: 0 0 4px;
         line-height: 1.4;
     }
 
     .faq-item p {
         margin: 0;
-        font-size: 14px;
+        font-size: 13.5px;
         color: var(--tx-sub);
-        line-height: 1.6;
+        line-height: 1.55;
+    }
+
+    /* ── Donate ── */
+    .home-donate {
+        max-width: 420px;
+        margin: 0 auto;
+        padding: 8px 0 0;
+    }
+
+    /* ── Empty State ── */
+    .empty-state {
+        text-align: center;
+        padding: 48px 16px;
+        color: var(--tx-mt);
+    }
+
+    .empty-state i {
+        font-size: 32px;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    .empty-state p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+        .tools-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 540px) {
+        .tools-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .trust-strip {
+            gap: 12px;
+        }
+
+        .trust-dot {
+            display: none;
+        }
+
+        .cat-tab {
+            padding: 5px 11px;
+            font-size: 12.5px;
+        }
+
+        .hero h1 {
+            font-size: 24px;
+        }
+
+        .hero-desc {
+            font-size: 14.5px;
+        }
     }
 </style>

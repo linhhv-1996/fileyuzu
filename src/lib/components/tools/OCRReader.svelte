@@ -489,7 +489,7 @@
     .card.ocr-card {
         padding: 0;
         overflow: visible;
-        border-radius: 8px; /* low radius as requested */
+        /* border-radius: 8px; */
         border: 1px solid var(--bd);
         background: var(--bg);
         transition: border-color 0.2s;

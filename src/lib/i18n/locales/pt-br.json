@@ -1,8 +1,8 @@
 {
   "blog.toc": "Sumário",
-  "blog.subtitle": "Guias úteis, dicas práticas e algumas novidades do UploadLess.", 
+  "blog.subtitle": "Guias úteis, dicas práticas e algumas novidades do UploadLess.",
   "blog.read_article": "Ler artigo",
-"common.try_now": "Usar ferramenta grátis",
+  "common.try_now": "Usar ferramenta grátis",
   "home.search.placeholder": "Pesquisar ferramentas",
   "blog.author_bio": "J.Julian é o criador e desenvolvedor líder do UploadLess. Com uma sólida experiência em engenharia de software e arquitetura web, ele se dedica a criar soluções de compartilhamento de arquivos seguras, de alto desempenho e fáceis de usar para a web moderna.",
   "compress_video.upload.title": "Solte um arquivo de vídeo aqui para comprimir",
@@ -76,53 +76,48 @@
   "home.why.device.desc": "Totalmente responsivo. Não é necessário instalar aplicativo.",
   "home.faq.title": "Perguntas frequentes",
   "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
-  
-  
   "home.faq.items": [
-  {
-    "q": "Todas as ferramentas do UploadLess são gratuitas?",
-    "a": "Sim. Todas as ferramentas do UploadLess são gratuitas. Você não precisa pagar, assinar um plano ou criar uma conta para compactar arquivos, converter formatos, extrair texto, gerar códigos de barras ou usar outros utilitários baseados no navegador."
-  },
-  {
-    "q": "Preciso enviar meus arquivos para um servidor?",
-    "a": "Não. O UploadLess foi criado para processar arquivos diretamente no seu navegador sempre que possível. Seus arquivos ficam no seu dispositivo em vez de serem enviados para um servidor remoto, tornando as ferramentas mais rápidas e mais privadas para o uso diário."
-  },
-  {
-    "q": "Como o UploadLess processa arquivos no navegador?",
-    "a": "Muitas ferramentas usam tecnologias modernas do navegador, como WebAssembly, para executar o processamento de arquivos localmente no seu dispositivo. Isso permite que tarefas como compressão de vídeo, compressão de PDF, OCR, conversão de áudio e conversão de formatos funcionem sem uploads tradicionais para servidores."
-  },
-  {
-    "q": "Preciso criar uma conta?",
-    "a": "Não. O UploadLess não exige cadastro. Você pode abrir a ferramenta de que precisa, escolher seu arquivo, processá-lo no navegador e baixar o resultado sem se cadastrar ou inserir um endereço de e-mail."
-  },
-  {
-    "q": "Que tipo de ferramentas estão disponíveis no UploadLess?",
-    "a": "O UploadLess inclui ferramentas gratuitas para compressão de vídeo, conversão de áudio e vídeo, compressão de PDF, compressão de imagem, OCR, transcrição de áudio ou vídeo, geração de códigos de barras, extração de frames de vídeo, utilitários de texto e outras ferramentas práticas para arquivos."
-  },
-  {
-    "q": "O UploadLess é seguro para arquivos privados?",
-    "a": "O UploadLess foi desenvolvido com foco em privacidade. Como o processamento acontece localmente no seu navegador nas ferramentas compatíveis, seus arquivos não são enviados para os servidores do UploadLess. Isso é útil para documentos pessoais, arquivos de trabalho, gravações, capturas de tela e outros arquivos sensíveis."
-  },
-  {
-    "q": "Existe limite de tamanho de arquivo?",
-    "a": "Não há um limite típico de upload porque os arquivos são processados no seu próprio dispositivo, e não enviados para um servidor. No entanto, arquivos muito grandes ainda podem ser limitados pelo navegador, memória, armazenamento ou desempenho do dispositivo. Um dispositivo mais novo ou mais potente geralmente lida melhor com arquivos maiores."
-  },
-  {
-    "q": "Por que a primeira execução demora mais em algumas ferramentas?",
-    "a": "Algumas ferramentas precisam carregar bibliotecas de processamento baseadas no navegador ou modelos de IA na primeira vez que são usadas. Depois do primeiro carregamento, o navegador pode armazenar esses arquivos em cache, então os usos seguintes costumam ser mais rápidos."
-  },
-  {
-    "q": "Posso usar o UploadLess no celular?",
-    "a": "Sim. O UploadLess funciona em navegadores móveis modernos em celulares e tablets. Arquivos menores geralmente funcionam bem no celular, enquanto vídeos grandes, PDFs ou tarefas baseadas em IA podem rodar melhor em um desktop ou notebook com mais memória e poder de processamento."
-  },
-  {
-    "q": "Quando devo usar o UploadLess em vez de um conversor de arquivos online?",
-    "a": "Use o UploadLess quando quiser ferramentas rápidas e gratuitas sem enviar seus arquivos para um servidor de terceiros. Ele é especialmente útil para tarefas simples, como compactar um vídeo, reduzir o tamanho de um PDF, converter áudio, extrair texto de uma imagem ou obter uma transcrição de um arquivo diretamente no navegador."
-  }
-],
-  
-  
-  
+    {
+      "q": "Todas as ferramentas do UploadLess são gratuitas?",
+      "a": "Sim. Todas as ferramentas do UploadLess são gratuitas. Você não precisa pagar, assinar um plano ou criar uma conta para compactar arquivos, converter formatos, extrair texto, gerar códigos de barras ou usar outros utilitários baseados no navegador."
+    },
+    {
+      "q": "Preciso enviar meus arquivos para um servidor?",
+      "a": "Não. O UploadLess foi criado para processar arquivos diretamente no seu navegador sempre que possível. Seus arquivos ficam no seu dispositivo em vez de serem enviados para um servidor remoto, tornando as ferramentas mais rápidas e mais privadas para o uso diário."
+    },
+    {
+      "q": "Como o UploadLess processa arquivos no navegador?",
+      "a": "Muitas ferramentas usam tecnologias modernas do navegador, como WebAssembly, para executar o processamento de arquivos localmente no seu dispositivo. Isso permite que tarefas como compressão de vídeo, compressão de PDF, OCR, conversão de áudio e conversão de formatos funcionem sem uploads tradicionais para servidores."
+    },
+    {
+      "q": "Preciso criar uma conta?",
+      "a": "Não. O UploadLess não exige cadastro. Você pode abrir a ferramenta de que precisa, escolher seu arquivo, processá-lo no navegador e baixar o resultado sem se cadastrar ou inserir um endereço de e-mail."
+    },
+    {
+      "q": "Que tipo de ferramentas estão disponíveis no UploadLess?",
+      "a": "O UploadLess inclui ferramentas gratuitas para compressão de vídeo, conversão de áudio e vídeo, compressão de PDF, compressão de imagem, OCR, transcrição de áudio ou vídeo, geração de códigos de barras, extração de frames de vídeo, utilitários de texto e outras ferramentas práticas para arquivos."
+    },
+    {
+      "q": "O UploadLess é seguro para arquivos privados?",
+      "a": "O UploadLess foi desenvolvido com foco em privacidade. Como o processamento acontece localmente no seu navegador nas ferramentas compatíveis, seus arquivos não são enviados para os servidores do UploadLess. Isso é útil para documentos pessoais, arquivos de trabalho, gravações, capturas de tela e outros arquivos sensíveis."
+    },
+    {
+      "q": "Existe limite de tamanho de arquivo?",
+      "a": "Não há um limite típico de upload porque os arquivos são processados no seu próprio dispositivo, e não enviados para um servidor. No entanto, arquivos muito grandes ainda podem ser limitados pelo navegador, memória, armazenamento ou desempenho do dispositivo. Um dispositivo mais novo ou mais potente geralmente lida melhor com arquivos maiores."
+    },
+    {
+      "q": "Por que a primeira execução demora mais em algumas ferramentas?",
+      "a": "Algumas ferramentas precisam carregar bibliotecas de processamento baseadas no navegador ou modelos de IA na primeira vez que são usadas. Depois do primeiro carregamento, o navegador pode armazenar esses arquivos em cache, então os usos seguintes costumam ser mais rápidos."
+    },
+    {
+      "q": "Posso usar o UploadLess no celular?",
+      "a": "Sim. O UploadLess funciona em navegadores móveis modernos em celulares e tablets. Arquivos menores geralmente funcionam bem no celular, enquanto vídeos grandes, PDFs ou tarefas baseadas em IA podem rodar melhor em um desktop ou notebook com mais memória e poder de processamento."
+    },
+    {
+      "q": "Quando devo usar o UploadLess em vez de um conversor de arquivos online?",
+      "a": "Use o UploadLess quando quiser ferramentas rápidas e gratuitas sem enviar seus arquivos para um servidor de terceiros. Ele é especialmente útil para tarefas simples, como compactar um vídeo, reduzir o tamanho de um PDF, converter áudio, extrair texto de uma imagem ou obter uma transcrição de um arquivo diretamente no navegador."
+    }
+  ],
   "_comment_categories": "================ Tool Categories ================",
   "home.category.video": "Vídeo",
   "home.category.pdf": "PDF",
@@ -1066,7 +1061,6 @@
   "barcode_generator.faq.title": "FAQ do Gerador de Código de Barras",
   "barcode_generator.btn_downloadbtn_gen_new": "Gerar novos códigos de barras",
   "barcode_generator.generating": "Gerando",
-
   "barcode_generator.tab_manual": "Manual",
   "barcode_generator.tab_file": "Enviar arquivo",
   "barcode_generator.tab_sequence": "Sequencial",
@@ -1076,7 +1070,6 @@
   "barcode_generator.seq_start": "Número inicial",
   "barcode_generator.seq_qty": "Quantidade",
   "barcode_generator.seq_step": "Intervalo",
-
   "barcode_generator.seo.title": "Gerador de Código de Barras Grátis - Criar Barcode",
   "barcode_generator.seo.description": "Crie códigos de barras online grátis para produtos, etiquetas, estoque e embalagens. Gere barcodes em PNG, SVG ou PDF, individualmente ou em lote.",
   "barcode_generator.hero.title": "Gerador de Código de Barras Online Grátis",
@@ -1166,6 +1159,10 @@
   "donate.title": "Apoie o Criador",
   "donate.description": "Ajude-me a manter o servidor e manter esta ferramenta sem anúncios.",
   "donate.button": "Apoiar no Ko-fi",
+  
   "compare_two_lists.first_row_is_header": "First row is header",
-  "compare_two_lists.all_columns": "All Columns"
+  "compare_two_lists.all_columns": "All Columns",
+"home.category.all": "Todos",
+"home.category.audio": "Áudio",
+"home.category.text": "Texto"
 }

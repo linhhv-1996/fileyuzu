@@ -8,26 +8,25 @@
 
 :root {
     --bg: #ffffff;
-    --bg-sub: #f6f9fc;
-    --bd: #d2dce6;
-    --bd-lt: #e8eef4;
-    /* --tx: #1e2d3d; */
-     --tx: #405062;
-    --tx-sub: #526475;
-    --tx-mt: #8d9baa;
+    --bg-sub: #f3f4f6;
+    --bd: #d1d5db;
+    --bd-lt: #e5e7eb;
+    --tx: #1f2937;
+    --tx-sub: #475569;
+    --tx-mt: #7c838e;
     --ac: #4a90d9;
-    --ac-hv: #3a7bc4;
-    --ac-soft: #f0f5fb;
-    --green: #34a06e;
-    --r: 6px;
-    --border: #d2dce6;
+    --ac-hv: #3b7bc4;
+    --ac-soft: #eef5fc;
+    --green: #059669;
+    --r: 3px;
+    --border: #d1d5db;
 
-    --shadow-sm: 0 1px 2px rgba(74, 144, 217, 0.05);
-    --shadow: 0 4px 12px rgba(74, 144, 217, 0.08);
-    --shadow-lg: 0 8px 24px rgba(74, 144, 217, 0.1);
-    --shadow-glow: 0 0 0 3px rgba(74, 144, 217, 0.15);
+    --shadow-sm: none;
+    --shadow: none;
+    --shadow-lg: none;
+    --shadow-glow: 0 0 0 2px rgba(0, 91, 197, 0.2);
 
-    --size: 980px;
+    --size: 960px;
 
     --font-latin: "-apple-system", BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
 
@@ -115,17 +114,18 @@ a:hover {
 .logo {
     display: flex;
     align-items: center;
-    gap: 0px;
-    font-weight: 650;
-    font-size: 22px;
-    font-family: 'Outfit', sans-serif;
+    gap: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: var(--font);
     color: var(--tx);
     text-decoration: none;
     flex-shrink: 0;
+    letter-spacing: -0.5px;
 }
 
 .logo svg {
-    color: var(--ac);
+    color: var(--tx);
 }
 
 .mobile-toggle {
@@ -187,7 +187,7 @@ a:hover {
 .lang-trigger:hover,
 .lang-dd.open .lang-trigger {
     border-color: var(--ac);
-    box-shadow: 0 0 0 3px rgba(74, 144, 217, .10);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, .10);
 }
 
 .nav-trigger i,
@@ -300,7 +300,7 @@ a:hover {
 .page {
     max-width: var(--size);
     margin: 0 auto;
-    padding: 24px 16px 40px;
+    padding: 16px 16px 32px;
 }
 
 .grid {
@@ -322,7 +322,7 @@ a:hover {
 
 .hero h1 {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 680;
     color: var(--tx);
     margin-bottom: 8px;
     line-height: 1.25;
@@ -405,36 +405,33 @@ a:hover {
 
 /* ── UPLOAD BOX ── */
 .upload-box {
-    border: 1px dashed var(--bd);
-    border-radius: 8px;
-    /* height: 220px; */
-    min-height: 280px;
+    border: 2px dashed var(--bd);
+    border-radius: var(--r);
+    min-height: 220px;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 12px;
-    background: linear-gradient(135deg, #f6f9fc 0%, #f0f5fb 50%, #f5f8fc 100%);
+    gap: 8px;
+    background: var(--bg-sub);
     cursor: pointer;
     text-align: center;
-    padding: 16px;
-    transition: all 0.2s ease;
+    padding: 20px 16px;
+    transition: border-color 0.15s, background 0.15s;
 }
 
 .upload-box:hover,
 .upload-box.drag-over {
-    border-color: var(--ac);
-    background: linear-gradient(135deg, #e4eef8 0%, #e8f1fa 100%);
-    box-shadow: 0 0 0 4px rgba(74, 144, 217, 0.06);
+    border-color: var(--tx-sub);
+    background: #e5e7eb;
 }
 
 .upload-box .ico {
-    /* font-size: 32px; */
-    font-size: 55px;
+    font-size: 44px;
     color: var(--ac);
     margin-bottom: 0;
-    opacity: 0.7;
+    opacity: 0.55;
     transition: all 0.2s ease;
 }
 
@@ -442,12 +439,12 @@ a:hover {
 .upload-box.drag-over .ico {
     color: var(--ac);
     opacity: 1;
-    transform: scale(1.1) translateY(-3px);
+    transform: translateY(-2px);
 }
 
 .upload-box .ttl {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 600;
     color: var(--tx);
 }
 
@@ -457,7 +454,7 @@ a:hover {
 }
 
 .upload-box .hint {
-    font-size: 13px;
+    font-size: 12.5px;
     color: var(--tx-mt);
 }
 
@@ -481,21 +478,20 @@ a:hover {
     gap: 6px;
     background: var(--ac);
     color: #ffffff;
-    border: 1px solid transparent;
+    border: 1px solid var(--ac);
     border-radius: var(--r);
-    padding: 5px 16px;
+    padding: 4px 12px;
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
     font-family: var(--font);
-    box-shadow: 0 1px 3px rgba(74, 144, 217, 0.25);
-    transition: all 0.15s ease;
+    box-shadow: none;
+    transition: all 0.1s ease;
 }
 
 .btn-primary:hover {
     background: var(--ac-hv);
-    box-shadow: 0 2px 8px rgba(74, 144, 217, 0.28);
-    transform: translateY(-1px);
+    border-color: var(--ac-hv);
 }
 
 .btn-default {
@@ -523,44 +519,10 @@ a:hover {
 
 .btn-cta {
     width: 100%;
-    padding: 9px 16px;
-    background: linear-gradient(135deg, #4a90d9, #3a7bc4);
+    padding: 8px 16px;
+    background: var(--ac);
     color: #ffffff;
-    border: 1px solid transparent;
-    border-radius: var(--r);
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    font-family: var(--font);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    box-shadow: 0 2px 8px rgba(74, 144, 217, 0.22);
-    transition: all 0.15s ease;
-}
-
-.btn-cta:hover {
-    background: linear-gradient(135deg, #3a7bc4, #2e68ab);
-    box-shadow: 0 4px 14px rgba(74, 144, 217, 0.28);
-    transform: translateY(-1px);
-}
-
-.btn-cta:disabled {
-    background: #bccfe0;
-    color: rgba(255, 255, 255, 0.85);
-    border-color: transparent;
-    cursor: not-allowed;
-    box-shadow: none;
-    transform: none;
-}
-
-.btn-dl {
-    width: 100%;
-    padding: 9px 16px;
-    background: linear-gradient(135deg, #4a90d9, #3a7bc4);
-    color: #ffffff;
-    border: 1px solid transparent;
+    border: 1px solid var(--ac-hv);
     border-radius: var(--r);
     font-size: 14px;
     font-weight: 600;
@@ -570,14 +532,40 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    box-shadow: 0 2px 8px rgba(74, 144, 217, 0.22);
-    transition: all 0.15s ease;
+    transition: background 0.1s;
+}
+
+.btn-cta:hover {
+    background: var(--ac-hv);
+}
+
+.btn-cta:disabled {
+    background: var(--bd);
+    color: var(--tx-mt);
+    border-color: var(--bd);
+    cursor: not-allowed;
+}
+
+.btn-dl {
+    width: 100%;
+    padding: 8px 16px;
+    background: var(--ac);
+    color: #ffffff;
+    border: 1px solid var(--ac-hv);
+    border-radius: var(--r);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: var(--font);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background 0.1s;
 }
 
 .btn-dl:hover {
-    background: linear-gradient(135deg, #3a7bc4, #2e68ab);
-    box-shadow: 0 4px 14px rgba(74, 144, 217, 0.28);
-    transform: translateY(-1px);
+    background: var(--ac-hv);
 }
 
 /* ── SETTINGS ── */
@@ -659,9 +647,9 @@ a:hover {
 }
 
 .preset-btn.on {
-    background: var(--ac);
-    color: #fff;
-    font-weight: 500;
+    background: var(--bd);
+    color: var(--tx);
+    font-weight: 600;
 }
 
 .preset-btn:hover:not(.on) {
@@ -707,7 +695,7 @@ a:hover {
 
 .size-input:focus {
     border-color: var(--ac);
-    box-shadow: 0 0 0 3px rgba(74, 144, 217, .12);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, .12);
 }
 
 .unit {
@@ -769,7 +757,7 @@ a:hover {
     background: var(--ac);
     color: #fff;
     border-color: var(--ac);
-    box-shadow: 0 2px 6px rgba(74, 144, 217, 0.22);
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.22);
     font-weight: 600;
 }
 
@@ -811,7 +799,7 @@ a:hover {
 }
 
 .toggle.on {
-    background: linear-gradient(135deg, #4a90d9, #5da0e2);
+    background: var(--ac);
 }
 
 .toggle.on::after {
@@ -953,7 +941,7 @@ a:hover {
     height: 100%;
     width: 62%;
     border-radius: 2px;
-    background: linear-gradient(90deg, #4a90d9, #6baae5);
+    background: var(--ac);
     transition: width 0.2s ease;
 }
 
@@ -997,8 +985,8 @@ a:hover {
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #4a90d9, #5da0e2);
-    color: #fff;
+    background: var(--ac);
+    color: #ffffff;
     font-size: 12px;
     font-weight: 500;
     display: flex;
@@ -1299,7 +1287,7 @@ RESPONSIVE
         border: 1px solid var(--bd-lt);
         border-radius: 12px;
         background: var(--bg);
-        box-shadow: 0 4px 12px rgba(74, 144, 217, 0.05);
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.05);
         padding: 12px 14px;
         gap: 14px;
         align-items: center;
@@ -1308,7 +1296,7 @@ RESPONSIVE
     
     .nav-dd .dd-item:hover {
         transform: translateY(-2px);
-        box-shadow: 0 8px 24px rgba(74, 144, 217, 0.1);
+        box-shadow: 0 8px 24px rgba(37, 99, 235, 0.1);
         border-color: var(--bd);
         background: var(--bg);
     }

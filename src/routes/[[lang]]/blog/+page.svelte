@@ -60,9 +60,6 @@
                     {#if post.description}
                         <p class="post-desc">{post.description}</p>
                     {/if}
-                    <div class="post-footer">
-                        <span class="read-more">{t("blog.read_article", dict) || "Read article"} &rarr;</span>
-                    </div>
                 </div>
             </a>
         {/each}
@@ -99,39 +96,32 @@
     }
 
     .posts-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 12px;
+        column-count: 3;
+        column-gap: 24px;
+        width: 100%;
     }
 
     .post-card {
         display: flex;
         flex-direction: column;
         text-decoration: none;
-        background: var(--bg);
-        border: 1px solid var(--bd);
-        border-radius: 8px;
-        transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+        background: transparent;
+        border: none;
         position: relative;
         overflow: hidden;
-    }
-
-    .post-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
-        border-color: var(--bd-lt);
+        break-inside: avoid;
+        margin-bottom: 32px;
     }
 
     .post-card-inner {
-        padding: 24px;
+        padding: 0;
         display: flex;
         flex-direction: column;
-        height: 100%;
         box-sizing: border-box;
     }
 
     .post-meta {
-        margin-bottom: 16px;
+        margin-bottom: 8px;
     }
 
     .post-date {
@@ -173,33 +163,15 @@
         overflow: hidden;
     }
 
-    .post-footer {
-        display: flex;
-        align-items: center;
-        margin-top: auto;
-        padding-top: 16px;
-        border-top: 1px solid var(--bd-lt);
-        color: var(--tx-sub);
-        font-size: 14px;
-        font-weight: 500;
-    }
-
-    .read-more {
-        color: var(--ac);
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        font-weight: 600;
-        transition: gap 0.2s;
-    }
-
-    .post-card:hover .read-more {
-        gap: 10px;
+    @media (max-width: 900px) {
+        .posts-grid {
+            column-count: 2;
+        }
     }
 
     @media (max-width: 640px) {
         .posts-grid {
-            grid-template-columns: 1fr;
+            column-count: 1;
         }
     }
 </style>

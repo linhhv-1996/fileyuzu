@@ -2113,5 +2113,8 @@
       "q": "Can I convert PNG files on this page?",
       "a": "This page supports JPG and JPEG files only. To convert PNG images to PDF, use the PNG to PDF tool at [uploadless.app/png-to-pdf](/png-to-pdf)."
     }
-  ]
+  ],
+  "home.category.all": "All",
+  "home.category.audio": "Audio",
+  "home.category.text": "Text"
 }

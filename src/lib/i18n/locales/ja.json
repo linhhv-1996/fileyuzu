@@ -2251,5 +2251,9 @@
       "q": "PNG画像もこのページで変換できますか？",
       "a": "このページはJPGとJPEG専用です。PNG画像の変換は[PNG→PDF変換](/ja/png-to-pdf)ページをご利用ください。"
     }
-  ]
+  ],
+  
+"home.category.all": "すべて",
+"home.category.audio": "音声",
+"home.category.text": "テキスト"
 }

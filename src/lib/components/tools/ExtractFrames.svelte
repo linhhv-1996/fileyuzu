@@ -376,7 +376,7 @@
 
         {#if status === 'file' || status === 'proc'}
             <div style="height: auto; padding-bottom: 6px; display: flex; flex-direction: column; gap: 8px;">
-                <div class="preview-main" style="flex: none; height: {isVideoUnsupported ? 'auto' : '350px'}; overflow: hidden; position: relative; border-radius: 8px; background: {isVideoUnsupported ? 'var(--bg-color)' : '#000'}; border: {isVideoUnsupported ? '1px dashed var(--border-color)' : 'none'}; padding: {isVideoUnsupported ? '40px 20px' : '0'}; display: flex; align-items: center; justify-content: center; text-align: center;">
+                <div class="preview-main" style="flex: none; height: {isVideoUnsupported ? 'auto' : '350px'}; overflow: hidden; position: relative; border-radius: 3px; background: {isVideoUnsupported ? 'var(--bg-color)' : '#000'}; border: {isVideoUnsupported ? '1px dashed var(--border-color)' : 'none'}; padding: {isVideoUnsupported ? '40px 20px' : '0'}; display: flex; align-items: center; justify-content: center; text-align: center;">
                     {#if isVideoUnsupported}
                         <div style="color: var(--text-color, #64748b);">
                             <i class="ti ti-video-off" style="font-size: 32px; margin-bottom: 12px; display: block; opacity: 0.6;" aria-hidden="true"></i>
@@ -403,7 +403,7 @@
                 <!-- Thumbnail Timeline Strip -->
                 {#if thumbnails.length > 0 || isGeneratingThumbs}
                 <div class="timeline-wrapper" style="position: relative; width: 100%;">
-                    <div class="thumb-strip-container" style="position: relative; width: 100%; height: 50px; background: #111827; border-radius: 6px; overflow: hidden; display: flex;">
+                    <div class="thumb-strip-container" style="position: relative; width: 100%; height: 50px; background: #111827; border-radius: 3px; overflow: hidden; display: flex;">
                         {#if isGeneratingThumbs && thumbnails.length === 0}
                             <div class="thumb-skeleton" aria-hidden="true"></div>
                         {:else}
