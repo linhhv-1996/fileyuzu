@@ -381,7 +381,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'pdf',
         tags: ['PNG', 'JPG', 'PDF'],
-        markets: ['en', 'ja'],
+        markets: ['en', 'ja', 'ko'],
     },
     {
         slug: 'jpg-to-pdf',
@@ -397,7 +397,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'pdf',
         tags: ['JPG', 'JPEG', 'PDF'],
-        markets: ['en', 'ja'],
+        markets: ['en', 'ja', 'ko'],
     },
 ];
 

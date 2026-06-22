@@ -1908,6 +1908,7 @@
   ],
   "audio_to_text.btn.load_sample": "Try Sample Audio",
   "video_to_text.btn.load_sample": "Try Sample Video",
+  
   "_comment_png_to_pdf": "================ PNG to PDF ================",
   "tool.png_to_pdf.title": "PNG to PDF",
   "tool.png_to_pdf.description": "Convert multiple images to a single PDF document easily. Private, fast, and works directly in your browser.",
