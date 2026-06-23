@@ -1,9 +1,6 @@
 <script lang="ts">
     import { onMount, tick } from "svelte";
-    import JsBarcode from "jsbarcode";
-    import QRCode from "qrcode";
-    import JSZip from "jszip";
-    import { read, utils } from "xlsx";
+
 
     interface Props {
         texts?: any;
@@ -122,6 +119,7 @@
             }
         } else if (inputMode === "file" && fileObj) {
             try {
+                const { read, utils } = await import("xlsx");
                 const buffer = await fileObj.arrayBuffer();
                 const wb = read(buffer);
                 const ws = wb.Sheets[wb.SheetNames[0]];
@@ -160,6 +158,8 @@
             const line = item.code;
             try {
                 if (selectedType === "qrcode") {
+                    const qrcodeModule = await import("qrcode");
+                    const QRCode = qrcodeModule.default || qrcodeModule;
                     const qrOpts = {
                         margin: 2,
                         scale: scale * 2 + 2,
@@ -187,6 +187,8 @@
                         });
                     }
                 } else {
+                    const jsBarcodeModule = await import("jsbarcode");
+                    const JsBarcode = jsBarcodeModule.default || jsBarcodeModule;
                     let format = selectedType.toUpperCase();
                     if (format === "UPCA") format = "UPC";
                     
@@ -280,6 +282,8 @@
     async function downloadZip() {
         if (results.length === 0) return;
 
+        const jszipModule = await import("jszip");
+        const JSZip = jszipModule.default || jszipModule;
         const zip = new JSZip();
 
         for (const item of results) {

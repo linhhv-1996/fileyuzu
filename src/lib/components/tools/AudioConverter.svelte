@@ -3,7 +3,6 @@
     import { convertAudioFile } from '$lib/utils/audio-converter';
     import { slide, fade } from 'svelte/transition';
     import { flip } from 'svelte/animate';
-    import JSZip from 'jszip';
     
     interface Props {
         texts?: any;
@@ -155,6 +154,8 @@
     }
     
     async function downloadAllAsZip() {
+        const jszipModule = await import("jszip");
+        const JSZip = jszipModule.default || jszipModule;
         const zip = new JSZip();
         const doneItems = items.filter(i => i.status === 'done' && i.convertedFile);
         if (doneItems.length === 0) return;

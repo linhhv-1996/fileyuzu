@@ -1,5 +1,4 @@
-import { FFmpeg } from '@ffmpeg/ffmpeg';
-import { fetchFile, toBlobURL } from '@ffmpeg/util';
+import type { FFmpeg } from '@ffmpeg/ffmpeg';
 
 let ffmpeg: FFmpeg | null = null;
 
@@ -9,6 +8,9 @@ export async function convertWithFFmpeg(
   onProgress: (progress: number) => void
 ): Promise<File> {
   if (!ffmpeg) {
+    const { FFmpeg } = await import('@ffmpeg/ffmpeg');
+    const { toBlobURL } = await import('@ffmpeg/util');
+
     ffmpeg = new FFmpeg();
     const baseURL = 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/esm';
     
@@ -31,6 +33,7 @@ export async function convertWithFFmpeg(
   const ext = targetFormat.toLowerCase();
   const outName = `converted_${safeName}.${ext}`;
 
+  const { fetchFile } = await import('@ffmpeg/util');
   await ffmpeg.writeFile(safeName, await fetchFile(file));
 
   // Determine ffmpeg arguments based on target format

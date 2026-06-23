@@ -1,6 +1,5 @@
 <script lang="ts">
     import { tick } from 'svelte';
-    import JSZip from 'jszip';
     import { formatSize } from '$lib/utils';
     import { getVideoInfo, extractSingleFrame, extractFramesBulk } from '$lib/utils/ffmpeg-frames';
     
@@ -299,6 +298,8 @@
     }
 
     async function downloadAll() {
+        const jszipModule = await import("jszip");
+        const JSZip = jszipModule.default || jszipModule;
         const zip = new JSZip();
         const basename = selectedFile?.name?.split('.').slice(0, -1).join('.') || 'video';
         for (const frame of extractedFrames) {

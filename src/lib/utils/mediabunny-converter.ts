@@ -13,7 +13,6 @@ import {
 	OutputFormat,
 	canEncodeAudio
 } from 'mediabunny';
-import { registerMp3Encoder } from '@mediabunny/mp3-encoder';
 
 function getOutputFormat(format: string): OutputFormat {
 	switch (format.toLowerCase()) {
@@ -32,6 +31,7 @@ export async function convertWithMediaBunny(
 	onProgress: (progress: number) => void
 ): Promise<File> {
 	if (targetFormat.toLowerCase() === 'mp3' && !(await canEncodeAudio('mp3'))) {
+		const { registerMp3Encoder } = await import('@mediabunny/mp3-encoder');
 		registerMp3Encoder();
 	}
 

@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import * as XLSX from "xlsx";
+
 
     interface Props {
         texts?: any;
@@ -141,8 +141,9 @@
             reader.readAsText(file);
         } else if (fileExt === 'csv' || fileExt === 'xls' || fileExt === 'xlsx') {
             const reader = new FileReader();
-            reader.onload = (event) => {
+            reader.onload = async (event) => {
                 if (event.target && event.target.result) {
+                    const XLSX = await import("xlsx");
                     const data = new Uint8Array(event.target.result as ArrayBuffer);
                     const workbook = XLSX.read(data, { type: 'array' });
                     const firstSheetName = workbook.SheetNames[0];

@@ -1,7 +1,6 @@
 <script lang="ts">
     import { onMount, onDestroy, tick } from "svelte";
-    import jsPDF from "jspdf";
-    import Sortable from "sortablejs";
+
 
     interface Props {
         texts?: any;
@@ -80,24 +79,29 @@
     }
 
     function sortableAction(node: HTMLElement) {
-        let sortable = new Sortable(node, {
-            animation: 150,
-            ghostClass: 'sortable-ghost',
-            onEnd: (evt) => {
-                const { oldIndex, newIndex } = evt;
-                if (oldIndex !== undefined && newIndex !== undefined && oldIndex !== newIndex) {
-                    const newImages = [...images];
-                    const [movedItem] = newImages.splice(oldIndex, 1);
-                    newImages.splice(newIndex, 0, movedItem);
-                    images = newImages;
-                    pdfBlobUrl = null;
+        let sortable: any;
+        
+        import("sortablejs").then(module => {
+            const Sortable = module.default || module;
+            sortable = new Sortable(node, {
+                animation: 150,
+                ghostClass: 'sortable-ghost',
+                onEnd: (evt: any) => {
+                    const { oldIndex, newIndex } = evt;
+                    if (oldIndex !== undefined && newIndex !== undefined && oldIndex !== newIndex) {
+                        const newImages = [...images];
+                        const [movedItem] = newImages.splice(oldIndex, 1);
+                        newImages.splice(newIndex, 0, movedItem);
+                        images = newImages;
+                        pdfBlobUrl = null;
+                    }
                 }
-            }
+            });
         });
 
         return {
             destroy() {
-                sortable.destroy();
+                if (sortable) sortable.destroy();
             }
         };
     }
@@ -119,7 +123,9 @@
         isGenerating = true;
         
         try {
-            const pdf = new jsPDF('p', 'pt', 'a4');
+            const jspdfModule = await import("jspdf");
+            const jsPDF = jspdfModule.default || jspdfModule.jsPDF || jspdfModule;
+            const pdf = new (jsPDF as any)('p', 'pt', 'a4');
             const pdfWidth = pdf.internal.pageSize.getWidth();
             const pdfHeight = pdf.internal.pageSize.getHeight();
 

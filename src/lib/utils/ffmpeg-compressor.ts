@@ -1,5 +1,4 @@
-import { FFmpeg } from '@ffmpeg/ffmpeg';
-import { fetchFile, toBlobURL } from '@ffmpeg/util';
+import type { FFmpeg } from '@ffmpeg/ffmpeg';
 
 let ffmpeg: FFmpeg | null = null;
 
@@ -9,6 +8,9 @@ export async function compressWithFFmpeg(
   onProgress: (progress: number) => void
 ): Promise<File> {
   if (!ffmpeg) {
+    const { FFmpeg } = await import('@ffmpeg/ffmpeg');
+    const { fetchFile, toBlobURL } = await import('@ffmpeg/util');
+
     ffmpeg = new FFmpeg();
     const baseURL = 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/esm';
     
@@ -27,6 +29,7 @@ export async function compressWithFFmpeg(
   const safeName = name.replace(/[^a-zA-Z0-9.]/g, '_');
   const outName = `compressed_${safeName}.mp4`;
 
+  const { fetchFile } = await import('@ffmpeg/util');
   await ffmpeg.writeFile(safeName, await fetchFile(file));
 
   // Determine bitrate based on target size

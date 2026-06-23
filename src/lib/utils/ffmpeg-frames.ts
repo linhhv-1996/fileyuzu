@@ -1,5 +1,4 @@
-import { FFmpeg } from '@ffmpeg/ffmpeg';
-import { fetchFile } from '@ffmpeg/util';
+import type { FFmpeg } from '@ffmpeg/ffmpeg';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Formats the browser can decode natively (no FFmpeg needed)
@@ -60,6 +59,7 @@ async function fetchWithCache(filename: string, mimeType: string): Promise<strin
 
 async function getFFmpeg(): Promise<FFmpeg> {
     if (!ffmpeg) {
+        const { FFmpeg } = await import('@ffmpeg/ffmpeg');
         ffmpeg = new FFmpeg();
         ffmpeg.on('log', ({ message }) => console.log('[ffmpeg-frames]', message));
         const coreURL = await fetchWithCache('ffmpeg-core.js', 'text/javascript');
@@ -156,6 +156,7 @@ export async function getVideoInfo(file: File): Promise<{ duration: number }> {
     killFFmpeg();
     const ff = await getFFmpeg();
     const safeName = safeInputName(file, 'probe_in');
+    const { fetchFile } = await import('@ffmpeg/util');
     await ff.writeFile(safeName, await fetchFile(file));
 
     let duration = 0;
@@ -199,6 +200,7 @@ export async function extractSingleFrame(
     killFFmpeg();
     const ff = await getFFmpeg();
     const safeName = safeInputName(file, 'single_in');
+    const { fetchFile } = await import('@ffmpeg/util');
     await ff.writeFile(safeName, await fetchFile(file));
 
     const ext = outputFormat === 'image/jpeg' ? 'jpg' : 'png';
@@ -349,6 +351,7 @@ async function extractViaFFmpeg(
     const safeName = safeInputName(file, 'bulk_in');
 
     onProgress(5);
+    const { fetchFile } = await import('@ffmpeg/util');
     await ff.writeFile(safeName, await fetchFile(file));
     onProgress(10);
 
