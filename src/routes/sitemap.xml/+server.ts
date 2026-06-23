@@ -44,7 +44,7 @@ export const GET: RequestHandler = async ({ url }) => {
     }
 
     // 2. Blog pages
-    const modules = import.meta.glob('/src/lib/contents/blog/**/*.md', { query: '?raw', import: 'default' });
+    const modules = import.meta.glob('/src/lib/contents/blog/**/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
     
     for (const path of Object.keys(modules)) {
         const match = path.match(/\/blog\/([^/]+)\/([^/]+)\.md$/);
@@ -52,9 +52,15 @@ export const GET: RequestHandler = async ({ url }) => {
             const [, postLang, slug] = match;
             const blogPath = langUrl(postLang, `/blog/${slug}`);
             const blogUrl = getFinalUrl(blogPath);
+            const content = modules[path];
+            const dateMatch = content.match(/^date:\s*["']?([^"'\r\n]+)["']?/m);
+            const lastmod = dateMatch ? dateMatch[1] : null;
             
             xml += `  <url>\n`;
             xml += `    <loc>${blogUrl}</loc>\n`;
+            if (lastmod) {
+                xml += `    <lastmod>${lastmod}</lastmod>\n`;
+            }
             xml += `  </url>\n`;
         }
     }
