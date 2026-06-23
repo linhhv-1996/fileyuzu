@@ -1,7 +1,8 @@
 ---
 title: Contact Us
+desc: Contact UploadLess! Share your feedback, suggest features, or report bugs directly to J.Julian. Let's connect and make online utilities better.
 ---
-# Hi, I'm J.Julian 👋
+## Hi, I'm J.Julian 👋
 
 Thanks for dropping by UploadLess! 
 

@@ -21,6 +21,7 @@ export const load: PageServerLoad = async ({ params }) => {
     
     return {
         title: parsed.data.title || 'About Us',
+        desc: parsed.data.desc || '',
         content: htmlContent
     };
 };

@@ -21,6 +21,7 @@ export const load: PageServerLoad = async ({ params }) => {
     
     return {
         title: parsed.data.title || 'Privacy Policy',
+        desc: parsed.data.desc || '',
         content: htmlContent
     };
 };

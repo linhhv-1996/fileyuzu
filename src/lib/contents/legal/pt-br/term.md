@@ -1,5 +1,6 @@
 ---
 title: Termos de Serviço
+desc: Termos de Serviço do UploadLess. Leia nossas regras, diretrizes e acordos de usuário para o uso de nossas ferramentas utilitárias online gratuitas, rápidas e seguras.
 ---
 
 ## 1. Aceitação dos Termos

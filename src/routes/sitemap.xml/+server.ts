@@ -37,6 +37,12 @@ export const GET: RequestHandler = async ({ url }) => {
         xml += addLocalizedUrls(`/${tool.slug}`, tool.markets);
     }
 
+    // 3. Legal/Static pages
+    const staticPages = ['/about', '/privacy', '/term', '/contact'];
+    for (const staticPage of staticPages) {
+        xml += addLocalizedUrls(staticPage);
+    }
+
     // 2. Blog pages
     const modules = import.meta.glob('/src/lib/contents/blog/**/*.md', { query: '?raw', import: 'default' });
     

@@ -1,7 +1,8 @@
 ---
 title: About Us
+desc: Meet J.Julian, the software engineer behind UploadLess—a collection of fast, free, and privacy-focused online tools designed to simplify your daily digital tasks.
 ---
-# Hi, I'm J.Julian 👋
+## Hi, I'm J.Julian 👋
 
 Welcome to UploadLess! I'm thrilled you're here.
 

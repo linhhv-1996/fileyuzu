@@ -1,5 +1,6 @@
 ---
 title: Política de Privacidade
+desc: Política de Privacidade do UploadLess. Saiba como protegemos seus dados, como usamos o GA4 para tendências de tráfego e como mantemos nossas utilidades online rápidas, seguras e protegidas.
 ---
 
 Na UploadLess, respeitamos sua privacidade e estamos comprometidos em manter sua experiência simples, segura e transparente.

@@ -1,7 +1,7 @@
 ---
 title: Sobre nós
 ---
-# Oi, eu sou J.Julian 👋
+## Oi, eu sou J.Julian 👋
 
 Bem-vindo ao UploadLess! Fico muito feliz por você estar aqui.
 

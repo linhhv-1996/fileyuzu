@@ -1,5 +1,6 @@
 ---
 title: Terms of Service
+desc: Terms of Service for UploadLess. Read our rules, guidelines, and user agreements for using our free, fast, and secure online utility tools.
 ---
 
 ## 1. Acceptance of Terms

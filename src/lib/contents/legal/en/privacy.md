@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+desc: Privacy Policy for UploadLess. Learn how we protect your data, use GA4 for traffic trends, and keep our fast online utilities safe and secure.
 ---
 
 At UploadLess, we respect your privacy and are committed to keeping your experience simple, safe, and transparent.

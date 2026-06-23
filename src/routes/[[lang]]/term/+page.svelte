@@ -1,6 +1,10 @@
 <script lang="ts">
+    import Seo from '$lib/components/Seo.svelte';
+
     let { data } = $props();
 </script>
+
+<Seo title="{data.title} - UploadLess" description={data.desc} />
 
 <main class="article-page">
     <div class="article-container">
