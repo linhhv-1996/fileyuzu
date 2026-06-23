@@ -39,8 +39,13 @@ The site supports 7 languages: English (en), Japanese (ja), Traditional Chinese 
 - Video to Text: https://uploadless.app/video-to-text
   *(Supported in 4 languages: en, ja, zh-tw, ko)*
 
-**Document Tools** (Available in all 7 languages)
+**Document Tools**
 - Compress PDF: https://uploadless.app/compress-pdf
+  *(Supported in all 7 languages)*
+- PNG to PDF: https://uploadless.app/png-to-pdf
+  *(Supported in 3 languages: en, ja, ko)*
+- JPG to PDF: https://uploadless.app/jpg-to-pdf
+  *(Supported in 3 languages: en, ja, ko)*
 
 **Generators**
 - Barcode Generator: https://uploadless.app/barcode-generator
