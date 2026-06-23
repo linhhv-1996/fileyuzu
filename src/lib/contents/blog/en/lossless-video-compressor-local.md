@@ -5,8 +5,6 @@ description: "Learn how browser-based video compression works, why local process
 ctaTool: "compress-video"
 ---
 
-# How to Compress Videos Locally Without Uploading Them
-
 Most online video compressors follow the same pattern: you select a file, it uploads to a remote server, the server processes it, and you download the result. For large files, that upload step alone can take several minutes. And more importantly, your file passes through infrastructure you have no visibility into.
 
 For private videos, sensitive screen recordings, or internal work content, this is a real concern. You are handing your file to a third party, and you have no way to know how long it is retained or who has access to it.

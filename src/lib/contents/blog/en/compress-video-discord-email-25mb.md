@@ -5,8 +5,6 @@ description: "Hit the 25MB file limit on Discord and Gmail without guessing. Lea
 ctaTool: "compress-video"
 ---
 
-# How to Compress Video Under 25MB for Discord and Email
-
 You finished a clip, trimmed it, and went to attach it—only to see the error: *File too large. Maximum size is 25MB.*
 
 Discord free accounts, Gmail, Outlook, and most other email clients all cap file attachments at 25MB. If your video is 30MB or 300MB, you are blocked from attaching it directly. Most people resort to uploading to Google Drive or YouTube and pasting a link, which kills the experience of having the video play inline in a message thread.
