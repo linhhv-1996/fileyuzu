@@ -1470,9 +1470,9 @@
 
 "_comment_extract_frames": "================ Extract Frames from Video ================",
   
-"tool.extract_frames.title": "Extract Frames",
-  "tool.extract_frames.description": "Extract frames from a video and save them as images. Save the current frame, extract by interval, or extract N frames evenly.",
-  "tool.extract_frames.short_description": "Extract frames from a video privately.",
+"tool.extract_frames.title": "影片影格擷取",
+  "tool.extract_frames.description": "從影片中擷取影格並儲存為圖片。支援儲存當前畫面、固定時間間隔擷取，或在整部影片中平均擷取指定張數。",
+  "tool.extract_frames.short_description": "安全具隱私地從影片中擷取畫面。",
   
 "extract_frames.seo.title": "影片截圖工具｜線上免費擷取影片畫面，轉存 JPG/PNG 圖片",
 "extract_frames.seo.description": "免費線上影片截圖工具，支援擷取單張畫面或批次逐格截圖，影片轉圖片轉 JPG/PNG。全程在瀏覽器處理，不上傳伺服器，安全隱私。",
