@@ -333,7 +333,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'video',
         tags: ['Video', 'Frame', 'Image', 'JPG', 'PNG'],
-        markets: ['en', 'ja'],
+        markets: ['en', 'ja', 'zh-tw'],
     },
     {
         slug: 'audio-to-text',

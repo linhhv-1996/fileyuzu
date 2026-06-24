@@ -1466,6 +1466,125 @@
 
   "home.category.all": "全部",
 "home.category.audio": "音訊",
-"home.category.text": "文字"
+"home.category.text": "文字",
+
+"_comment_extract_frames": "================ Extract Frames from Video ================",
+  
+"tool.extract_frames.title": "Extract Frames",
+  "tool.extract_frames.description": "Extract frames from a video and save them as images. Save the current frame, extract by interval, or extract N frames evenly.",
+  "tool.extract_frames.short_description": "Extract frames from a video privately.",
+  
+"extract_frames.seo.title": "影片截圖工具｜線上免費擷取影片畫面，轉存 JPG/PNG 圖片",
+"extract_frames.seo.description": "免費線上影片截圖工具，支援擷取單張畫面或批次逐格截圖，影片轉圖片轉 JPG/PNG。全程在瀏覽器處理，不上傳伺服器，安全隱私。",
+"extract_frames.hero.title": "影片截圖 · 影格擷取工具",
+"extract_frames.hero.description": "擷取影片的當前畫面、單格截圖，或依時間間隔與數量批次轉存影片圖片，直接在瀏覽器中免費使用。",
+  
+  "extract_frames.upload.title": "將影片檔案拖曳至此",
+  "extract_frames.upload.subtitle": "支援 MP4、WebM、MOV 等格式 · 本地私密擷取",
+  "extract_frames.upload.btn_select": "選擇影片檔案",
+  "extract_frames.upload.btn_sample": "試用範例影片",
+  "extract_frames.upload.hint": "選擇要擷取畫面（影格）的影片",
+  "extract_frames.mode.title": "擷取模式",
+  "extract_frames.mode.current": "儲存當前畫面",
+  "extract_frames.mode.interval": "固定時間間隔擷取",
+  "extract_frames.mode.evenly": "平均擷取 N 張畫面",
+  "extract_frames.settings.format": "輸出格式",
+  "extract_frames.settings.interval": "時間間隔 (秒)",
+  "extract_frames.settings.interval_custom": "自訂 (秒)",
+  "extract_frames.settings.frames": "畫面張數",
+  "extract_frames.settings.frames_custom": "自訂張數",
+  "extract_frames.btn.save_current": "儲存當前畫面",
+  "extract_frames.btn.extract_zip": "擷取並下載 ZIP 檔",
+  "extract_frames.btn.new": "擷取新影片",
+  "extract_frames.btn.download_all": "全部下載",
+  "extract_frames.btn.clear_all": "全部清除",
+  "extract_frames.btn.extract": "開始擷取",
+  "extract_frames.results.extracted_frames": "已擷取的畫面",
+  "extract_frames.preview.not_available": "無法預覽",
+  "extract_frames.preview.unsupported_format": "瀏覽器不支援預覽此格式 ({filename})",
+  "extract_frames.preview.fallback_hint": "您仍可使用「固定時間間隔」或「平均擷取」模式來擷取畫面。",
+  "extract_frames.proc.extracting": "正在擷取畫面...",
+  "extract_frames.how_to_use.title": "如何擷取影片畫面",
+  "extract_frames.how_to_use.steps": [
+    "從您的裝置上傳 MP4、MOV、WebM 或其他格式的影片檔案。",
+    "選擇您想要的擷取方式：儲存當前畫面、每隔固定時間擷取一次，或是將整部影片平均擷取指定張數的畫面。",
+    "點擊擷取按鈕，即可下載單張 JPG 圖片或包含所有擷取畫面的 ZIP 壓縮檔。"
+  ],
+
+
+  "extract_frames.why_use.title": "為什麼選擇 UploadLess 影片截圖工具",
+  "extract_frames.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "具備隱私保護的畫面擷取",
+      "description": "您的影片會直接在瀏覽器中進行處理，絕不會被上傳到伺服器。"
+    },
+    {
+      "icon": "bolt",
+      "title": "完全免費的影片影格擷取工具",
+      "description": "線上擷取影片畫面，無需註冊、無需安裝軟體，更不會添加任何浮水印。"
+    },
+    {
+      "icon": "layout-grid",
+      "title": "支援單張或多張畫面擷取",
+      "description": "可儲存當前影片畫面、每隔固定時間自動擷取，或是在整部影片中平均擷取指定張數。"
+    },
+    {
+      "icon": "file-zip",
+      "title": "支援打包下載為 ZIP 檔",
+      "description": "當您擷取多張影片畫面時，系統會自動將所有 JPG 圖片打包成一個 ZIP 壓縮檔，方便您一鍵下載。"
+    }
+  ],
+  "extract_frames.faq.title": "影片擷取常見問題 (FAQ)",
+  "extract_frames.faq.items": [
+    {
+      "q": "什麼是影片影格擷取工具？",
+      "a": "影片影格擷取工具是一款可以從影片中儲存靜態圖片的工具。它不是單純的螢幕截圖，而是直接讀取影片內部的影格數據，並讓您將其儲存為高畫質圖片。"
+    },
+    {
+      "q": "如何線上擷取影片的畫面？",
+      "a": "上傳您的影片，選擇一種擷取模式，然後啟動程式即可。您可以儲存當前的單個畫面、設定時間間隔擷取，或是從整部影片中擷取固定數量的畫面。"
+    },
+    {
+      "q": "如何精準儲存影片中的某一個特定畫面？",
+      "a": "使用「儲存當前畫面」模式，將播放進度條拉到您想要的瞬間，然後將該畫面儲存為 JPG 圖片。這在您需要影片中某個精確畫面時非常實用。"
+    },
+    {
+      "q": "我可以擷取到乾淨、沒有雜物的影片截圖嗎？",
+      "a": "可以。您可以直接將影片影格本身儲存為 JPG 圖片，截圖中不會包含瀏覽器控制項、播放器按鈕或其他任何螢幕雜訊。"
+    },
+    {
+      "q": "如何每隔幾秒鐘就擷取一次畫面？",
+      "a": "選擇「固定時間間隔」模式，並輸入您想要的秒數。例如，您可以設定每隔 1 秒、2 秒、5 秒或 10 秒自動擷取一張畫面。"
+    },
+    {
+      "q": "如何從影片中擷取固定張數的畫面？",
+      "a": "選擇「平均擷取」模式並輸入您需要的張數。工具會在整部影片的總長度中，自動平均計算並擷取該數量的畫面。"
+    },
+    {
+      "q": "我應該擷取影片中的每一個影格嗎？",
+      "a": "通常不需要擷取每一個影格，因為這會產生數百甚至數千張圖片。若只是為了製作預覽圖、縮圖或進行快速審查，使用「時間間隔擷取」或「平均擷取」會是更好的選擇。"
+    },
+    {
+      "q": "我可以擷取 MP4 影片的畫面嗎？",
+      "a": "可以。您可以將本工具當作 MP4 影格擷取器，用來儲存單張畫面或匯出 MP4 檔案中的多個影格。根據您使用的瀏覽器，其他常見的影片格式也同樣支援。"
+    },
+    {
+      "q": "擷取出來的影片畫面會儲存為什麼格式？",
+      "a": "擷取出來的畫面會儲存為 JPG 圖片。JPG 格式非常適合用於影片截圖、縮圖、預覽圖以及在網路上分享。"
+    },
+    {
+      "q": "如何下載多張影片畫面？",
+      "a": "當您擷取多張畫面時，這些 JPG 圖片會被打包成一個 ZIP 壓縮檔，方便您一次下載所有擷取出來的畫面。"
+    },
+    {
+      "q": "我的影片會被上傳到伺服器嗎？",
+      "a": "不會。畫面擷取程式完全在您的瀏覽器中本地執行，因此影片會安全地留在您的裝置上。您不需要上傳影片、不需要安裝任何軟體，也不需要註冊帳號。"
+    },
+    {
+      "q": "擷取出來的影片畫面可以用在哪些地方？",
+      "a": "您可以將擷取出的畫面用於製作影片縮圖、影片預覽、教學指南、社群媒體貼文、說明文件、圖片參考，或是單純留存影片中的珍貴瞬間。"
+    }
+  ]
 
 }
