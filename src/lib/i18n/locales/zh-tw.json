@@ -334,7 +334,7 @@
   "tool.reduce_video_size.short_description": "私密地縮小影片檔案。",
   "_comment_video_converter": "================ Video Converter ================",
   "video_converter.seo.title": "影片轉檔工具｜免費線上轉換 MP4、MOV、MKV、WebM、AVI｜UploadLess",
-  "video_converter.seo.description": "免費線上影片轉檔工具，支援 MP4、MOV、MKV、WebM、AVI 等常見格式。直接在瀏覽器完成轉換，免安裝、不用上傳，安全又快速。",
+  "video_converter.seo.description": "免費線上影片轉檔工具，支援多種主流影片格式，無需安裝任何軟體，不需上傳至伺服器，全程在瀏覽器本地完成轉換處理，安全保護您的隱私，轉換速度快，操作簡單方便，立即免費使用。",
   "video_converter.hero.title": "免費線上影片轉檔工具",
   "video_converter.hero.description": "在瀏覽器中轉換影片格式，支援 MP4、MOV、MKV、WebM、AVI。免安裝、不用上傳檔案，快速、安全又方便。",
   "video_converter.settings.format_lbl": "目標格式",

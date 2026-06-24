@@ -122,7 +122,7 @@
   "home.category.video": "動画",
   "home.category.pdf": "PDF",
   "compress_video.seo.title": "無料オンライン動画圧縮ツール - UploadLess",
-  "compress_video.seo.description": "動画を無料でオンライン圧縮。MP4・MOV・AVI・MKV・WebMなどの動画ファイルサイズを、アップロード不要・登録不要でブラウザ内だけで安全に削減できます。",
+  "compress_video.seo.description": "動画圧縮を無料オンラインで。MP4・MOV・AVI・MKVなど主要形式の動画を軽くするツール。mp4圧縮もブラウザ内で完結し、アップロード不要・登録不要。ファイルは外部送信されず安全に動画ファイル圧縮できます。",
   "compress_video.hero.title": "無料オンライン動画圧縮ツール",
   "compress_video.hero.description": "動画をオンラインで簡単に圧縮。アップロード不要・登録不要で、すべてブラウザ内で処理されます。MP4、MOV、AVI、MKV、WebMなどに対応しています。",
   "compress_video.settings.auto_optimize": "自動最適化",
@@ -816,7 +816,7 @@
   "webm_to_mp4.seo.title": "WebM MP4 変換｜WebMをMP4に無料変換 | UploadLess",
   "webm_to_mp4.seo.description": "WebM動画ファイルをMP4にオンライン変換。インストール不要で、ブラウザ内で安全にWebMをMP4形式へ無料変換できます。",
   "webm_to_mp4.hero.title": "WebMをMP4に変換",
-  "webm_to_mp4.hero.description": "WebM動画ファイルをブラウザ内で簡単にMP4形式へ変換できます。インストール不要で、安全に使える無料のWebM MP4変換ツールです。",
+  "webm_to_mp4.hero.description": "WebMをMP4に変換できる無料オンラインツール。インストール不要、アップロード不要でブラウザ上で安全に変換できます。webm mp4 変換・mp4 webm 変換・webm変換に完全対応。スマホやPCからすぐ使えます。",
   "webm_to_mp4.how_to_use.title": "WebMをMP4にオンライン変換する方法",
   "webm_to_mp4.how_to_use.steps": [
     "お使いの端末からWebMファイルを選択するか、アップロードエリアにドラッグ＆ドロップします。",
