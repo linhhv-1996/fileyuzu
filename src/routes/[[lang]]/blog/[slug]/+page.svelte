@@ -103,7 +103,7 @@
                 <!-- Author Box -->
                 <div class="author-box">
                     <div class="author-avatar">
-                        <img src="/favicon.svg" alt="J.Julian" />
+                        <img src="/favicon.png" alt="J.Julian" />
                     </div>
                     <div class="author-info">
                         <h3 class="author-name">J.Julian</h3>
