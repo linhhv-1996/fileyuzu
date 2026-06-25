@@ -27,6 +27,13 @@
         )
     );
 
+    let popularSlugs = ['audio-to-text', 'image-to-text', 'compress-video', 'avi-to-mp4'];
+    let popularTools = $derived(
+        popularSlugs
+            .map(slug => tools.find(tool => tool.slug === slug))
+            .filter(tool => tool && (!tool.markets || tool.markets.includes(lang)))
+    );
+
     let filteredTools = $derived(
         tools.filter(tool => {
             if (tool.markets && !tool.markets.includes(lang)) return false;
@@ -86,6 +93,33 @@
 
 <!-- Tools Grid -->
 <section class="tools-section">
+    {#if searchQuery === '' && activeCategory === 'all' && popularTools.length > 0}
+        <div class="popular-section">
+            <h2 class="section-title">{t('home.popular_tools', dict) || 'Popular Tools'}</h2>
+            <div class="tools-grid">
+                {#each popularTools as tool}
+                    <a href={langUrl(lang, `/${tool.slug}`)} class="tool-card popular">
+                        <div class="tool-header">
+                            <i class="ti ti-{tool.icon}" aria-hidden="true"></i>
+                            <span class="tool-title">{t(tool.titleKey, dict)}</span>
+                        </div>
+                        <div class="tool-info">
+                            <span class="tool-desc">{t(tool.descriptionKey, dict)}</span>
+                        </div>
+                        {#if tool.tags?.length}
+                            <div class="tool-tags">
+                                {#each tool.tags.slice(0, 3) as tag}
+                                    <span class="tool-tag">{tag}</span>
+                                {/each}
+                            </div>
+                        {/if}
+                    </a>
+                {/each}
+            </div>
+            <h2 class="section-title mt-4">{t('home.category.all', dict) || 'All Tools'}</h2>
+        </div>
+    {/if}
+
     {#if filteredTools.length === 0}
         <div class="empty-state">
             <i class="ti ti-search-off" aria-hidden="true"></i>
@@ -260,6 +294,21 @@
 
     /* ── Tools Grid ── */
     .tools-section {
+        margin-bottom: 24px;
+    }
+
+    .section-title {
+        font-size: 18px;
+        font-weight: 650;
+        color: var(--tx);
+        margin: 0 0 16px;
+    }
+
+    .section-title.mt-4 {
+        margin-top: 24px;
+    }
+
+    .popular-section {
         margin-bottom: 24px;
     }
 
