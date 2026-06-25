@@ -1,7 +1,7 @@
 ---
-title: "截圖轉文字怎麼做？手機與電腦螢幕截圖 OCR 完整教學"
-date: "2026-06-07"
-description: "想從截圖中複製文字？這篇整理螢幕截圖轉文字的常見方法，包括 iPhone、Android、Windows、Mac 的處理方式，以及提高截圖 OCR 辨識準確率的技巧。"
+title: "截圖轉文字：5秒複製螢幕上任何文字"
+date: "2026-06-25"
+description: "截圖裡的文字沒辦法複製？不管是 iPhone、Android 還是電腦截圖，這篇教你最快的方法直接擷取文字，不需安裝任何軟體。"
 ctaTool: "image-to-text"
 ---
 
