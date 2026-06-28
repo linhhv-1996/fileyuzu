@@ -96,9 +96,11 @@
     }
 
     .posts-grid {
-        column-count: 3;
-        column-gap: 24px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
         width: 100%;
+        align-items: start;
     }
 
     .post-card {
@@ -109,8 +111,6 @@
         border: none;
         position: relative;
         overflow: hidden;
-        break-inside: avoid;
-        margin-bottom: 32px;
     }
 
     .post-card-inner {
@@ -165,13 +165,13 @@
 
     @media (max-width: 900px) {
         .posts-grid {
-            column-count: 2;
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 
     @media (max-width: 640px) {
         .posts-grid {
-            column-count: 1;
+            grid-template-columns: 1fr;
         }
     }
 </style>

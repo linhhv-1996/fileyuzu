@@ -2,7 +2,7 @@
     import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t, langUrl } from '$lib/i18n/config';
-    import { tools } from '$lib/config/tools';
+    import { tools, type ToolConfig } from '$lib/config/tools';
     import Donate from '$lib/components/Donate.svelte';
 
     let dict = $derived($page.data.dict);
@@ -44,6 +44,13 @@
             const desc = String(t(tool.descriptionKey, dict) || '').toLowerCase();
             const tags = (tool.tags || []).join(' ').toLowerCase();
             return title.includes(query) || desc.includes(query) || tags.includes(query);
+        }).sort((a, b) => {
+            const aIndex = popularSlugs.indexOf(a.slug);
+            const bIndex = popularSlugs.indexOf(b.slug);
+            if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;
+            if (aIndex !== -1) return -1;
+            if (bIndex !== -1) return 1;
+            return 0;
         })
     );
 </script>
@@ -93,58 +100,71 @@
 
 <!-- Tools Grid -->
 <section class="tools-section">
-    {#if searchQuery === '' && activeCategory === 'all' && popularTools.length > 0}
-        <div class="popular-section">
-            <h2 class="section-title">{t('home.popular_tools', dict) || 'Popular Tools'}</h2>
-            <div class="tools-grid">
-                {#each popularTools as tool}
-                    <a href={langUrl(lang, `/${tool.slug}`)} class="tool-card popular">
-                        <div class="tool-header">
-                            <i class="ti ti-{tool.icon}" aria-hidden="true"></i>
-                            <span class="tool-title">{t(tool.titleKey, dict)}</span>
-                        </div>
-                        <div class="tool-info">
-                            <span class="tool-desc">{t(tool.descriptionKey, dict)}</span>
-                        </div>
-                        {#if tool.tags?.length}
-                            <div class="tool-tags">
-                                {#each tool.tags.slice(0, 3) as tag}
-                                    <span class="tool-tag">{tag}</span>
-                                {/each}
-                            </div>
-                        {/if}
-                    </a>
-                {/each}
-            </div>
-            <h2 class="section-title mt-4">{t('home.category.all', dict) || 'All Tools'}</h2>
-        </div>
-    {/if}
-
     {#if filteredTools.length === 0}
         <div class="empty-state">
             <i class="ti ti-search-off" aria-hidden="true"></i>
             <p>No tools found</p>
         </div>
     {:else}
-        <div class="tools-grid">
-            {#each filteredTools as tool}
-                <a href={langUrl(lang, `/${tool.slug}`)} class="tool-card">
-                    <div class="tool-header">
-                        <i class="ti ti-{tool.icon}" aria-hidden="true"></i>
-                        <span class="tool-title">{t(tool.titleKey, dict)}</span>
-                    </div>
-                    <div class="tool-info">
-                        <span class="tool-desc">{t(tool.descriptionKey, dict)}</span>
-                    </div>
-                    {#if tool.tags?.length}
-                        <div class="tool-tags">
-                            {#each tool.tags.slice(0, 3) as tag}
-                                <span class="tool-tag">{tag}</span>
-                            {/each}
-                        </div>
+        {#snippet ToolCard(tool: ToolConfig)}
+            <a href={langUrl(lang, `/${tool.slug}`)} class="tool-card" class:popular={popularSlugs.includes(tool.slug)}>
+                <div class="tool-header">
+                    <i class="ti ti-{tool.icon}" aria-hidden="true"></i>
+                    <span class="tool-title">{t(tool.titleKey, dict)}</span>
+                    {#if popularSlugs.includes(tool.slug)}
+                        <span class="popular-label" aria-label="Popular Tool">{t('home.popular', dict) || 'Popular'}</span>
                     {/if}
-                </a>
-            {/each}
+                </div>
+                <div class="tool-info">
+                    <span class="tool-desc">{t(tool.descriptionKey, dict)}</span>
+                </div>
+                {#if tool.tags?.length}
+                    <div class="tool-tags">
+                        {#each tool.tags.slice(0, 3) as tag}
+                            <span class="tool-tag">{tag}</span>
+                        {/each}
+                    </div>
+                {/if}
+            </a>
+        {/snippet}
+
+        <div class="tools-grid-masonry cols-3">
+            <div class="masonry-col">
+                {#each filteredTools.filter((_, i) => i % 3 === 0) as tool}
+                    {@render ToolCard(tool)}
+                {/each}
+            </div>
+            <div class="masonry-col">
+                {#each filteredTools.filter((_, i) => i % 3 === 1) as tool}
+                    {@render ToolCard(tool)}
+                {/each}
+            </div>
+            <div class="masonry-col">
+                {#each filteredTools.filter((_, i) => i % 3 === 2) as tool}
+                    {@render ToolCard(tool)}
+                {/each}
+            </div>
+        </div>
+
+        <div class="tools-grid-masonry cols-2">
+            <div class="masonry-col">
+                {#each filteredTools.filter((_, i) => i % 2 === 0) as tool}
+                    {@render ToolCard(tool)}
+                {/each}
+            </div>
+            <div class="masonry-col">
+                {#each filteredTools.filter((_, i) => i % 2 === 1) as tool}
+                    {@render ToolCard(tool)}
+                {/each}
+            </div>
+        </div>
+
+        <div class="tools-grid-masonry cols-1">
+            <div class="masonry-col">
+                {#each filteredTools as tool}
+                    {@render ToolCard(tool)}
+                {/each}
+            </div>
         </div>
     {/if}
 </section>
@@ -212,13 +232,19 @@
     /* ── Toolbar ── */
     .toolbar {
         display: flex;
-        flex-direction: column;
-        gap: 12px;
-        margin-bottom: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 24px;
+        flex-wrap: wrap;
     }
 
     .search-wrap {
         position: relative;
+        flex: 1;
+        min-width: 220px;
+        max-width: 280px;
     }
 
     .search-icon {
@@ -228,19 +254,21 @@
         transform: translateY(-50%);
         color: var(--tx-mt);
         pointer-events: none;
+        width: 14px;
+        height: 14px;
     }
 
     .search-input {
         width: 100%;
         box-sizing: border-box;
-        padding: 9px 14px 9px 36px;
-        font-size: 14px;
+        padding: 8px 14px 8px 34px;
+        font-size: 13.5px;
         color: var(--tx);
         background: var(--bg);
         border: 1px solid var(--bd);
         border-radius: var(--r);
         outline: none;
-        transition: border-color 0.15s, box-shadow 0.15s;
+        transition: all 0.15s ease;
     }
 
     .search-input:focus {
@@ -312,11 +340,23 @@
         margin-bottom: 24px;
     }
 
-    .tools-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
+    .tools-grid-masonry {
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
     }
+
+    .masonry-col {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .tools-grid-masonry.cols-3 { display: flex; }
+    .tools-grid-masonry.cols-2 { display: none; }
+    .tools-grid-masonry.cols-1 { display: none; }
 
     /* ── Tool Card ── */
     .tool-card {
@@ -329,7 +369,30 @@
         border: 1px solid var(--bd-lt);
         border-radius: var(--r);
         background: var(--bg);
-        transition: border-color 0.1s, background 0.1s;
+        transition: all 0.15s ease-in-out;
+    }
+
+    .tool-card.popular {
+        background: linear-gradient(135deg, var(--ac-soft) 0%, var(--bg) 100%);
+        border-color: var(--ac);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .tool-card.popular:hover {
+        background: linear-gradient(135deg, var(--ac-soft) 0%, var(--bg-sub) 100%);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        transform: translateY(-1px);
+    }
+
+    .tool-card.popular .tool-title {
+        font-size: 17px;
+        font-weight: 800;
+        color: var(--ac);
+    }
+
+    .tool-card.popular .tool-header i {
+        color: var(--ac);
+        font-size: 22px;
     }
 
     .tool-card:hover {
@@ -343,6 +406,22 @@
         align-items: center;
         gap: 8px;
         color: var(--tx);
+    }
+
+    .popular-label {
+        margin-left: auto;
+        font-size: 9px;
+        font-weight: 650;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+        padding: 2px 5px;
+        border-radius: 3px;
+        background: var(--ac-soft);
+        color: var(--ac);
+        border: 1px solid var(--ac);
+        user-select: none;
+        white-space: nowrap;
+        opacity: 0.95;
     }
 
     .tool-header i {
@@ -364,13 +443,9 @@
     }
 
     .tool-desc {
-        font-size: 13px;
+        font-size: 14px;
         color: var(--tx-sub);
         line-height: 1.45;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
     }
 
     .tool-tags {
@@ -494,15 +569,23 @@
 
     /* ── Responsive ── */
     @media (max-width: 900px) {
-        .tools-grid {
-            grid-template-columns: repeat(2, 1fr);
-        }
+        .tools-grid-masonry.cols-3 { display: none; }
+        .tools-grid-masonry.cols-2 { display: flex; }
     }
 
     @media (max-width: 540px) {
-        .tools-grid {
-            grid-template-columns: 1fr;
+        .toolbar {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 12px;
         }
+
+        .search-wrap {
+            max-width: none;
+        }
+
+        .tools-grid-masonry.cols-2 { display: none; }
+        .tools-grid-masonry.cols-1 { display: flex; }
 
         .trust-strip {
             gap: 12px;
