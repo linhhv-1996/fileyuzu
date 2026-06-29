@@ -235,7 +235,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        gap: 16px;
+        gap: 24px;
         margin-bottom: 24px;
         flex-wrap: wrap;
     }
@@ -243,8 +243,8 @@
     .search-wrap {
         position: relative;
         flex: 1;
-        min-width: 220px;
-        max-width: 280px;
+        /* min-width: 220px;
+        max-width: 280px; */
     }
 
     .search-icon {
