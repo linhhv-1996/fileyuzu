@@ -1,7 +1,6 @@
 <script lang="ts">
     import { onMount, onDestroy, tick } from "svelte";
 
-
     interface Props {
         texts?: any;
         samples?: string[];
@@ -9,10 +8,11 @@
 
     let { texts = {}, samples = [] }: Props = $props();
 
-    let images = $state<{ url: string; file: File; id: string }[]>([]);
+    let items = $state<{ url: string; file: File; id: string; type: 'image' | 'pdf' }[]>([]);
     let isDragging = $state(false);
 
     let pdfBlobUrl = $state<string | null>(null);
+    let totalPdfPages = $state(0);
     let isGenerating = $state(false);
 
     function generateId() {
@@ -20,15 +20,19 @@
     }
 
     function handleFiles(files: FileList | File[]) {
-        const newImages = Array.from(files)
-            .filter(f => f.type.startsWith('image/'))
-            .map(f => ({
-                url: URL.createObjectURL(f),
-                file: f,
-                id: generateId()
-            }));
-        images = [...images, ...newImages];
-        // Clear preview if images change
+        const newItems = Array.from(files)
+            .filter(f => f.type.startsWith('image/') || f.type === 'application/pdf')
+            .map(f => {
+                let url = URL.createObjectURL(f);
+                let type: 'image' | 'pdf' = f.type === 'application/pdf' ? 'pdf' : 'image';
+                return {
+                    url,
+                    file: f,
+                    id: generateId(),
+                    type
+                };
+            });
+        items = [...items, ...newItems];
         pdfBlobUrl = null;
     }
 
@@ -50,12 +54,12 @@
             for (const url of samples) {
                 const response = await fetch(url);
                 const blob = await response.blob();
-                const filename = url.split('/').pop() || 'sample.png';
+                const filename = url.split('/').pop() || 'sample.jpg';
                 files.push(new File([blob], filename, { type: blob.type }));
             }
             handleFiles(files);
         } catch (e) {
-            console.error("Failed to load sample images", e);
+            console.error("Failed to load samples", e);
         } finally {
             isSamplesLoading = false;
         }
@@ -89,10 +93,10 @@
                 onEnd: (evt: any) => {
                     const { oldIndex, newIndex } = evt;
                     if (oldIndex !== undefined && newIndex !== undefined && oldIndex !== newIndex) {
-                        const newImages = [...images];
-                        const [movedItem] = newImages.splice(oldIndex, 1);
-                        newImages.splice(newIndex, 0, movedItem);
-                        images = newImages;
+                        const newItems = [...items];
+                        const [movedItem] = newItems.splice(oldIndex, 1);
+                        newItems.splice(newIndex, 0, movedItem);
+                        items = newItems;
                         pdfBlobUrl = null;
                     }
                 }
@@ -106,66 +110,81 @@
         };
     }
 
-    function removeImage(index: number) {
-        URL.revokeObjectURL(images[index].url);
-        images = images.filter((_, i) => i !== index);
+    function removeItem(index: number) {
+        URL.revokeObjectURL(items[index].url);
+        items = items.filter((_, i) => i !== index);
         pdfBlobUrl = null;
     }
 
     function clearAll() {
-        images.forEach(img => URL.revokeObjectURL(img.url));
-        images = [];
+        items.forEach(item => URL.revokeObjectURL(item.url));
+        items = [];
         pdfBlobUrl = null;
     }
 
+    async function getImageJpegArrayBuffer(file: File): Promise<ArrayBuffer> {
+        return new Promise((resolve, reject) => {
+            const url = URL.createObjectURL(file);
+            const img = new Image();
+            img.onload = () => {
+                const canvas = document.createElement('canvas');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                const ctx = canvas.getContext('2d');
+                if (ctx) {
+                    ctx.drawImage(img, 0, 0);
+                    canvas.toBlob(blob => {
+                        if (blob) {
+                            blob.arrayBuffer().then(resolve).catch(reject);
+                        } else {
+                            reject(new Error("Canvas to Blob failed"));
+                        }
+                    }, 'image/jpeg', 0.95);
+                } else {
+                    reject(new Error("Canvas 2D context not available"));
+                }
+                URL.revokeObjectURL(url);
+            };
+            img.onerror = () => {
+                URL.revokeObjectURL(url);
+                reject(new Error("Image load failed"));
+            };
+            img.src = url;
+        });
+    }
+
     async function generatePdf() {
-        if (images.length === 0) return;
+        if (items.length === 0) return;
         isGenerating = true;
         
         try {
-            const jspdfModule = await import("jspdf");
-            const jsPDF = jspdfModule.default || jspdfModule.jsPDF || jspdfModule;
-            const pdf = new (jsPDF as any)('p', 'pt', 'a4');
-            const pdfWidth = pdf.internal.pageSize.getWidth();
-            const pdfHeight = pdf.internal.pageSize.getHeight();
+            const { PDFDocument } = await import("pdf-lib");
+            const mergedPdf = await PDFDocument.create();
 
-            for (let i = 0; i < images.length; i++) {
-                if (i > 0) {
-                    pdf.addPage();
+            for (const item of items) {
+                if (item.type === 'pdf') {
+                    const arrayBuffer = await item.file.arrayBuffer();
+                    const srcDoc = await PDFDocument.load(arrayBuffer);
+                    const copiedPages = await mergedPdf.copyPages(srcDoc, srcDoc.getPageIndices());
+                    copiedPages.forEach((page) => mergedPdf.addPage(page));
+                } else if (item.type === 'image') {
+                    const jpegBuffer = await getImageJpegArrayBuffer(item.file);
+                    const image = await mergedPdf.embedJpg(jpegBuffer);
+                    const page = mergedPdf.addPage([image.width, image.height]);
+                    page.drawImage(image, {
+                        x: 0,
+                        y: 0,
+                        width: image.width,
+                        height: image.height,
+                    });
                 }
-
-                const imgData = images[i].url;
-                
-                // Get original dimensions to maintain aspect ratio
-                const img = new Image();
-                img.src = imgData;
-                await new Promise((resolve, reject) => {
-                    img.onload = resolve;
-                    img.onerror = reject;
-                });
-
-                const imgRatio = img.width / img.height;
-                const pdfRatio = pdfWidth / pdfHeight;
-
-                let finalWidth, finalHeight;
-
-                if (imgRatio > pdfRatio) {
-                    // Image is wider relative to the page
-                    finalWidth = pdfWidth;
-                    finalHeight = pdfWidth / imgRatio;
-                } else {
-                    // Image is taller
-                    finalHeight = pdfHeight;
-                    finalWidth = pdfHeight * imgRatio;
-                }
-
-                const x = (pdfWidth - finalWidth) / 2;
-                const y = (pdfHeight - finalHeight) / 2;
-
-                pdf.addImage(img, 'JPEG', x, y, finalWidth, finalHeight);
             }
 
-            const blob = pdf.output('blob');
+            totalPdfPages = mergedPdf.getPageCount();
+
+            const pdfBytes = await mergedPdf.save();
+            const blob = new Blob([pdfBytes as any], { type: 'application/pdf' });
+
             if (pdfBlobUrl) {
                 URL.revokeObjectURL(pdfBlobUrl);
             }
@@ -181,7 +200,7 @@
     }
 
     onDestroy(() => {
-        images.forEach(img => URL.revokeObjectURL(img.url));
+        items.forEach(item => URL.revokeObjectURL(item.url));
         if (pdfBlobUrl) {
             URL.revokeObjectURL(pdfBlobUrl);
         }
@@ -192,14 +211,14 @@
 <div class="card">
     <div class="tool-body">
         
-        {#if images.length === 0}
+        {#if items.length === 0}
             <!-- Upload Zone -->
-            <div class="upload-box" class:drag-over={isDragging} onclick={() => document.getElementById('img-upload-input')?.click()} role="button" tabindex="0" aria-label={texts.uploadTitle} onkeydown={(e) => e.key === 'Enter' && document.getElementById('img-upload-input')?.click()} ondragover={onDragOver} ondragleave={onDragLeave} ondrop={onDrop}>
+            <div class="upload-box" class:drag-over={isDragging} onclick={() => document.getElementById('merge-upload-input')?.click()} role="button" tabindex="0" aria-label={texts.uploadTitle} onkeydown={(e) => e.key === 'Enter' && document.getElementById('merge-upload-input')?.click()} ondragover={onDragOver} ondragleave={onDragLeave} ondrop={onDrop}>
                 <i class="ti ti-file-upload ico" aria-hidden="true"></i>
                 <p class="ttl">{texts.uploadTitle || ""}</p>
                 <p class="sub">{texts.uploadSubtitle || ""}</p>
                 <div class="btn-row">
-                    <button class="btn-primary" onclick={(e) => { e.stopPropagation(); document.getElementById('img-upload-input')?.click(); }}>
+                    <button class="btn-primary" onclick={(e) => { e.stopPropagation(); document.getElementById('merge-upload-input')?.click(); }}>
                         <i class="ti ti-upload" aria-hidden="true"></i> {texts.btnSelect || ""}
                     </button>
                     {#if samples && samples.length > 0}
@@ -216,13 +235,13 @@
             </div>
         {/if}
 
-        <input id="img-upload-input" type="file" multiple accept="image/*" class="hidden-el" style="display: none;" onchange={onFileSelect}>
+        <input id="merge-upload-input" type="file" multiple accept="image/*,application/pdf" class="hidden-el" style="display: none;" onchange={onFileSelect}>
 
-        {#if images.length > 0}
+        {#if items.length > 0}
             <!-- svelte-ignore a11y_no_static_element_interactions -->
             <div class="images-container" class:drag-over={isDragging} ondragover={onDragOver} ondragleave={onDragLeave} ondrop={onDrop}>
                 <div class="images-header">
-                    <button class="btn-primary btn-sm" onclick={() => document.getElementById('img-upload-input')?.click()}>
+                    <button class="btn-primary btn-sm" onclick={() => document.getElementById('merge-upload-input')?.click()}>
                         <i class="ti ti-plus" aria-hidden="true"></i> <span class="hide-mobile">{texts.btnAddMore || ""}</span>
                     </button>
                     <button class="btn-text" onclick={clearAll}>
@@ -231,13 +250,20 @@
                 </div>
                 
                 <div class="images-grid" use:sortableAction>
-                    {#each images as img, i (img.id)}
-                        <div class="image-item">
-                            <img src={img.url} alt="Uploaded" />
+                    {#each items as item, i (item.id)}
+                        <div class="image-item" class:is-pdf={item.type === 'pdf'}>
+                            {#if item.type === 'image'}
+                                <img src={item.url} alt="Uploaded" />
+                            {:else}
+                                <div class="pdf-icon">
+                                    <i class="ti ti-file-type-pdf"></i>
+                                    <div class="pdf-name">{item.file.name}</div>
+                                </div>
+                            {/if}
                             <div class="image-actions">
                                 <span class="badge">{i + 1}</span>
                                 <!-- svelte-ignore a11y_consider_explicit_label -->
-                                <button class="btn-remove" onclick={() => removeImage(i)}>
+                                <button class="btn-remove" onclick={() => removeItem(i)}>
                                     <i class="ti ti-x"></i>
                                 </button>
                             </div>
@@ -260,7 +286,7 @@
                         <i class="ti ti-layers-linked" aria-hidden="true"></i>
                         <span class="cta-desktop">{texts.btnCombine || ""}</span>
                         <span class="cta-mobile hidden-el">{texts.btnCombine || ""}</span>
-                        <span class="btn-badge">{images.length}</span>
+                        <span class="btn-badge">{items.length}</span>
                     {/if}
                 </button>
             </div>
@@ -271,14 +297,14 @@
                 <div class="preview-main pdf-preview">
                     <iframe src={pdfBlobUrl + '#toolbar=0'} class="pdf-iframe" title="PDF Preview"></iframe>
                     <div class="pdf-page-count">
-                        {images.length} {texts.pages || ''}
+                        {totalPdfPages} {texts.pages || 'pages'}
                     </div>
                 </div>
             </div>
             
             <hr class="settings-divider mt-4">
             <div class="done-cta">
-                <a href={pdfBlobUrl} download="uploadless_png2pdf.pdf" class="btn-dl w-full justify-center" style="text-decoration: none;">
+                <a href={pdfBlobUrl} download="uploadless_merged.pdf" class="btn-dl w-full justify-center" style="text-decoration: none;">
                     <i class="ti ti-download" aria-hidden="true"></i>
                     <span class="cta-desktop">{texts.btnDownload || ""}</span>
                     <span class="cta-mobile hidden-el">{texts.btnDownloadShort || ""}</span>
@@ -290,6 +316,10 @@
 </div>
 
 <style>
+
+.upload-box {
+    min-height: 260px;
+}
 
 .settings {
     border-top: none;
@@ -339,7 +369,7 @@
     .btn-text {
         background: none;
         border: 1px solid var(--bd);
-        border-radius: 6px;
+        border-radius: 3px;
         color: var(--danger, #ef4444);
         cursor: pointer;
         font-size: 14px;
@@ -358,8 +388,8 @@
 
     .images-grid {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 12px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
         max-height: 420px;
         overflow-y: auto;
         padding-right: 4px;
@@ -368,11 +398,14 @@
     .image-item {
         position: relative;
         aspect-ratio: 1;
-        border-radius: 8px;
+        border-radius: 3px;
         overflow: hidden;
         border: 1px solid var(--bd);
         background: var(--bg-alt);
         cursor: grab;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .image-item:active {
@@ -389,6 +422,32 @@
         height: 100%;
         object-fit: cover;
         display: block;
+    }
+
+    .pdf-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: var(--tc-sub);
+        padding: 12px;
+        text-align: center;
+    }
+
+    .pdf-icon i {
+        font-size: 32px;
+        color: #ef4444;
+        margin-bottom: 8px;
+    }
+
+    .pdf-name {
+        font-size: 11px;
+        word-break: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 
     .image-actions {

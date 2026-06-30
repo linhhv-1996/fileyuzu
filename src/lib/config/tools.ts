@@ -399,6 +399,22 @@ export const tools: ToolConfig[] = [
         tags: ['JPG', 'JPEG', 'PDF'],
         markets: ['en', 'ja', 'ko'],
     },
+    {
+        slug: 'merge-pdf',
+        titleKey: 'tool.merge_pdf.title',
+        descriptionKey: 'tool.merge_pdf.description',
+        shortDescriptionKey: 'tool.merge_pdf.short_description',
+        icon: 'layers-linked',
+        related_tools: [
+            'jpg-to-pdf',
+            'png-to-pdf',
+            'image-to-text',
+            'compress-pdf',
+        ],
+        category: 'pdf',
+        tags: ['Merge', 'PDF', 'Images'],
+        markets: ['en', 'ja'],
+    },
 ];
 
 export function getRelatedTools(currentSlug: string): ToolConfig[] {
