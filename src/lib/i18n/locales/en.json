@@ -123,6 +123,8 @@
   "_comment_categories": "================ Tool Categories ================",
   "home.category.video": "Video",
   "home.category.pdf": "PDF",
+
+
   "compress_video.seo.title": "Free Online Video Compressor — Compress Video | UploadLess",
   "compress_video.seo.description": "Compress videos online for free with UploadLess. Reduce file size in your browser — no upload, no sign-up. Supports MP4, MOV, AVI, MKV, WebM.",
   "compress_video.hero.title": "Free Online Video Compressor",
@@ -165,46 +167,61 @@
   "compress_video.faq.title": "Video Compressor FAQ",
   "compress_video.faq.items": [
     {
-      "q": "How can I compress a video online?",
-      "a": "Add your video file, keep Auto optimize turned on, and click Compress. UploadLess will automatically reduce the video file size in your browser without uploading it to a server."
+      "q": "How do I compress a video to under 100MB?",
+      "a": "Turn off Auto optimize, switch to Target file size mode, and enter 100MB (or use the closest quick tag). UploadLess will compress your video to fit that size limit in your browser."
     },
     {
-      "q": "Is this video compressor free?",
-      "a": "Yes. UploadLess is a free online video compressor. You can compress video files directly in your browser without creating an account."
+      "q": "How do I compress a video for Discord?",
+      "a": "Use Target file size mode and pick the Discord quick tag. This matches your video to Discord's upload limit so it doesn't get rejected."
     },
     {
-      "q": "Is my video uploaded to a server?",
-      "a": "No. Video compression runs locally in your browser using WebAssembly technology. Your video file stays on your device and is never uploaded to our server."
+      "q": "What size should I compress a video to before emailing it?",
+      "a": "Use Target file size mode and select the Gmail quick tag. Most email providers reject attachments over 25MB, so compressing to that size or smaller avoids bounced emails."
     },
     {
-      "q": "What video formats are supported?",
-      "a": "UploadLess supports most video formats that can be processed in your browser, including MP4, MOV, AVI, MKV, WebM, M4V, 3GP, FLV, and more. The compressed output is saved as MP4 for better compatibility across devices and platforms."
+      "q": "How do I compress a video for my website?",
+      "a": "Compress with Auto optimize to shrink the file for faster page loading, or set a specific Target file size if your host has an upload limit. The output is saved as MP4, which plays reliably across browsers and devices."
     },
     {
-      "q": "What is Auto optimize?",
-      "a": "Auto optimize is the default compression mode. It automatically chooses balanced video compression settings to reduce file size while keeping the video quality suitable for everyday use."
+      "q": "Can I compress an iPhone video (MOV) in the browser?",
+      "a": "Yes. Add your MOV file directly, and UploadLess will compress it and convert it to MP4 in your browser, no need to change the format on your iPhone first."
     },
     {
-      "q": "Can I choose a target video file size?",
-      "a": "Yes. Turn off Auto optimize to use Target file size mode. You can enter a custom size or use quick tags for platforms like Discord, LINE, Gmail, WhatsApp, and Slack."
+      "q": "What's the best way to compress a video without losing noticeable quality?",
+      "a": "Start with Auto optimize, which balances file size and visual quality automatically. If the result looks too compressed, try setting a slightly larger target file size instead of using the smallest possible size."
     },
     {
-      "q": "Will compressing a video reduce its quality?",
-      "a": "Usually, yes, but the goal is to make the video file smaller while keeping it watchable. Auto optimize is designed to balance file size and quality for most videos."
+      "q": "Is there a limit on how many videos I can compress for free?",
+      "a": "No sign-up or payment is required, so you can compress as many videos as you need. Very large files may take longer depending on your device's memory and processing power, since everything runs locally in your browser."
     },
     {
-      "q": "Why should I use a browser-based video compressor?",
-      "a": "A browser-based video compressor is faster and more private for everyday files because the video does not need to be uploaded first. It is useful when you want to reduce video file size for email, chat apps, or sharing online."
+      "q": "How much smaller will my video get after compression?",
+      "a": "It depends on your original video's bitrate, resolution, and format. Auto optimize aims to reduce the file size as much as possible while keeping the video watchable, so results vary from file to file."
     },
     {
-      "q": "Can I compress a video without installing software?",
-      "a": "Yes. UploadLess is an online video compressor that works directly in your browser, so you do not need to install an app or extension. Just add your video, choose your compression mode, and download the compressed video file."
+      "q": "How is this different from using HandBrake?",
+      "a": "HandBrake is a desktop app you have to download and configure. UploadLess runs entirely in your browser with no installation, so you can compress a video in a few clicks from any device."
     },
     {
-      "q": "Can I compress videos for Discord, email, WhatsApp, or other apps?",
-      "a": "Yes. You can use UploadLess to compress videos for Discord, email, WhatsApp, Slack, LINE, and other apps. Auto optimize works well for general sharing, or you can turn it off and choose a target file size when you need the video to fit a specific upload limit."
+      "q": "Does compressing a video also convert its format?",
+      "a": "Yes. Whatever format you upload, MOV, AVI, MKV, WebM, and more, the compressed output is always saved as MP4."
+    },
+    {
+      "q": "How long does it take to compress a video online?",
+      "a": "Since the video never leaves your device, there's no upload or download wait. Compression speed depends mainly on your video's length and your device's performance, not your internet connection."
+    },
+    {
+      "q": "What happens to my video file after I close the browser tab?",
+      "a": "Nothing is stored on our end. Your video is processed entirely in your browser's memory, so once you close the tab without downloading, no copy of it remains anywhere but your own device."
+    },
+    {
+      "q": "Can I also compress PDF files on this site?",
+      "a": "Yes. UploadLess includes a separate [PDF Compressor](/compress-pdf) and [PDF Merger](/merge-pdf) that run in your browser the same way, with no file uploaded to a server."
     }
   ],
+
+
+
   "_comment_pdf_compressor": "================ PDF Compressor ================",
   "pdf_compressor.seo.title": "Free Online PDF Compressor — Compress PDF Files | UploadLess",
   "pdf_compressor.seo.description": "Compress PDF files online for free with UploadLess. Reduce PDF file size privately in your browser with no upload, no sign-up, and fast results.",

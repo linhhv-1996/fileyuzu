@@ -192,6 +192,7 @@
             <div class={status === 'done' ? "done-frame" : "preview-frame"}>
                 <div class="preview-main" style="overflow: hidden; position: relative;">
                     {#if videoUrl}
+                        <!-- svelte-ignore a11y_media_has_caption -->
                         <video src={videoUrl} style="width:100%;height:100%;object-fit:contain;position:absolute;top:0;left:0;border-radius:inherit;background:#000;" controls></video>
                     {:else}
                         <div class="preview-ph" style={status === 'done' ? "opacity:.25;color:#fff" : ""}><i class="ti ti-player-play" aria-hidden="true"></i><span>{status === 'done' ? '' : selectedFile?.name}</span></div>
@@ -318,6 +319,9 @@
 <input type="file" bind:this={fileInput} accept="video/*" style="display:none" onchange={handleFileChange}>
 
 <style>
+    .upload-box {
+        min-height: 240px;
+    }
     /* CSS is handled globally in app.css */
     @media (max-width: 768px) {
         .setting-row.inline-row {
