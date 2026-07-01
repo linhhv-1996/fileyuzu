@@ -397,7 +397,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'pdf',
         tags: ['JPG', 'JPEG', 'PDF'],
-        markets: ['en', 'ja', 'ko'],
+        markets: ['en', 'ja', 'ko', 'zh-tw'],
     },
     {
         slug: 'merge-pdf',
@@ -413,7 +413,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'pdf',
         tags: ['Merge', 'PDF', 'Images'],
-        markets: ['en', 'ja'],
+        markets: ['en', 'ja', 'zh-tw'],
     },
 ];
 

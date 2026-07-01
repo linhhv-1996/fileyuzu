@@ -124,7 +124,7 @@
   "home.category.video": "影片",
   "home.category.pdf": "PDF",
   "compress_video.seo.title": "影片壓縮不用上傳｜免費線上壓縮 MP4、MOV、MKV - UploadLess",
-  "compress_video.seo.description": "不用上傳、不用安裝，直接在瀏覽器壓縮影片。支援 MP4、MOV、AVI、MKV、WebM 等格式，完全免費，沒有檔案大小限制，影片全程留在你的裝置上。",
+  "compress_video.seo.description": "不用上傳、不用安裝，瀏覽器直接壓縮影片，完全免費。支援 MP4、MOV、AVI、MKV、WebM 等格式，可自訂壓縮率與畫質，沒有檔案大小限制，影片全程留在你的裝置上處理，安全又快速，適合上傳社群平台、傳送 Email、Discord 或存放雲端空間前使用的線上影片壓縮工具，手機平板電腦都能操作。",
   "compress_video.hero.title": "免費線上影片壓縮工具",
   "compress_video.hero.description": "線上壓縮影片並縮小影片檔案大小——無需上傳、無需註冊。全程在瀏覽器中私密執行，支援 MP4、MOV、AVI、MKV、WebM 等幾乎所有常見影片格式。",
   "compress_video.settings.auto_optimize": "自動最佳化",
@@ -966,7 +966,7 @@
   ],
   "_comment_mp4_converter": "================ MP4 Converter ================",
   "mp4_converter.seo.title": "影片轉 MP4 不用上傳｜免費線上轉檔 MOV、AVI、MKV - UploadLess",
-  "mp4_converter.seo.description": "不用上傳、不用安裝，直接在瀏覽器把影片轉成 MP4。支援 MOV、AVI、MKV、WebM，完全免費，沒有檔案大小限制，影片全程留在你的裝置上。",
+  "mp4_converter.seo.description": "不用上傳、不用安裝，瀏覽器直接把 MOV、AVI、MKV、WebM 轉成 MP4，完全免費。也支援 WMV轉MP4、FLV轉MP4、MPEG轉MP4，沒有檔案大小限制、無浮水印，影片全程留在你的裝置上處理，安全又快速，手機、平板、電腦瀏覽器都能直接使用，適合日常剪片、社群平台上傳前的格式轉換需求。",
   "mp4_converter.hero.title": "免費線上影片轉 MP4",
   "mp4_converter.hero.description": "在瀏覽器中將 MOV、AVI、MKV、WebM 等影片快速轉成 MP4。檔案不會上傳到伺服器，免安裝、免註冊，安全又方便。",
   "mp4_converter.how_to_use.title": "如何線上將影片轉換為 MP4",
@@ -1587,6 +1587,225 @@
       "q": "擷取出來的影片畫面可以用在哪些地方？",
       "a": "您可以將擷取出的畫面用於製作影片縮圖、影片預覽、教學指南、社群媒體貼文、說明文件、圖片參考，或是單純留存影片中的珍貴瞬間。"
     }
-  ]
+  ],
+
+  "_comment_jpg_to_pdf": "================ JPG to PDF ================",
+  "tool.jpg_to_pdf.title": "JPG 轉 PDF",
+  "tool.jpg_to_pdf.description": "輕鬆將 JPG/JPEG 圖片轉換成單一 PDF 檔案。隱私安全、快速，直接在瀏覽器中完成。",
+  "tool.jpg_to_pdf.short_description": "私密轉換 JPG 為 PDF。",
+  "jpg_to_pdf.seo.title": "JPG 轉 PDF 轉換器 – 免費線上工具",
+  "jpg_to_pdf.seo.description": "在瀏覽器中將 JPG 或 JPEG 圖片轉換成 PDF。免費、免註冊、免上傳。合併多個檔案並立即下載 PDF。",
+  "jpg_to_pdf.hero.title": "JPG 轉 PDF 轉換器",
+  "jpg_to_pdf.hero.description": "將你的 JPG 或 JPEG 圖片轉換成 PDF 檔案—免費、直接在瀏覽器中完成。新增多張照片、調整順序，幾秒內即可下載。",
+  "jpg_to_pdf.selected_images": "已選擇的圖片",
+  "jpg_to_pdf.pages": "頁",
+  "jpg_to_pdf.upload.title": "將你的 JPG 圖片拖曳至此處以轉換成 PDF",
+  "jpg_to_pdf.upload.subtitle": "支援 JPG、JPEG、PNG、WebP 及其他常見圖片格式",
+  "jpg_to_pdf.upload.btn_select": "選擇圖片",
+  "jpg_to_pdf.btn.convert": "轉換成 PDF",
+  "jpg_to_pdf.btn.add_more": "新增更多",
+  "jpg_to_pdf.btn.processing": "處理中...",
+  "jpg_to_pdf.btn.combine": "轉換成 PDF",
+  "jpg_to_pdf.btn.download_short": "下載",
+  "jpg_to_pdf.btn.load_sample": "載入範例",
+  "jpg_to_pdf.btn.download": "下載 PDF",
+  "jpg_to_pdf.btn.clear": "全部清除",
+  "jpg_to_pdf.preview_title": "PDF 預覽",
+  "jpg_to_pdf.how_to_use.title": "如何將 JPG 轉換成 PDF",
+  "jpg_to_pdf.how_to_use.steps": [
+    "點擊上傳區域，或將你的 JPG 或 JPEG 檔案拖放到頁面上。",
+    "新增所需數量的 JPG 圖片，然後拖曳調整順序後再進行轉換。",
+    "點擊轉換以產生你的 PDF。所有處理都在瀏覽器中完成——不會傳送到任何伺服器。",
+    "PDF 檔案準備好後即可下載。"
+  ],
+  "jpg_to_pdf.why_use.title": "為什麼選擇 UploadLess JPG 轉 PDF",
+  "jpg_to_pdf.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "檔案留在你的裝置上",
+      "description": "你的 JPG 圖片完全在瀏覽器中處理，不會上傳到任何伺服器。"
+    },
+    {
+      "icon": "files",
+      "title": "一次轉換多張 JPG",
+      "description": "新增所需數量的 JPG 或 JPEG 檔案，一次合併成單一 PDF。"
+    },
+    {
+      "icon": "arrows-sort",
+      "title": "自由控制頁面順序",
+      "description": "轉換前可拖曳調整圖片順序，讓頁面完全依照你想要的方式呈現。"
+    },
+    {
+      "icon": "infinity",
+      "title": "免費且無使用限制",
+      "description": "免註冊、無使用上限、無任何費用。想轉換多少 JPG 檔案都可以。"
+    }
+  ],
+  "jpg_to_pdf.faq.title": "常見問題",
+  "jpg_to_pdf.faq.items": [
+    {
+      "q": "如何線上將 JPG 轉換成 PDF？",
+      "a": "上傳你的 JPG 或 JPEG 檔案，依照你想要的順序排列，然後點擊轉換。PDF 會在瀏覽器中產生，馬上就能下載。"
+    },
+    {
+      "q": "這個 JPG 轉 PDF 工具是免費的嗎？",
+      "a": "是的，此工具完全免費使用，不需註冊、不需訂閱，也沒有任何隱藏費用。"
+    },
+    {
+      "q": "我可以將多個 JPG 檔案合併成一個 PDF 嗎？",
+      "a": "可以。你可以上傳任意數量的 JPG 或 JPEG 圖片，並將它們全部合併成單一 PDF 文件。"
+    },
+    {
+      "q": "轉換前可以調整圖片順序嗎？",
+      "a": "可以。上傳後，你可以拖曳重新排列圖片，讓最終 PDF 的頁面順序符合你的需求。"
+    },
+    {
+      "q": "我的 JPG 檔案會被上傳到伺服器嗎？",
+      "a": "不會。所有轉換都在你的瀏覽器本機完成，圖片不會傳送到任何伺服器，確保檔案隱私。"
+    },
+    {
+      "q": "將 JPG 轉換成 PDF 會降低圖片畫質嗎？",
+      "a": "此工具會將你的 JPG 圖片原封不動地嵌入 PDF，不會重新壓縮。PDF 中的畫質會與你的原始檔案相同。"
+    },
+    {
+      "q": "可以轉換 JPEG 檔案嗎？還是只能轉 JPG？",
+      "a": "兩者皆可。JPG 和 JPEG 是同一種圖片格式，因此無論副檔名是哪一種都能上傳，轉換結果也會相同。"
+    },
+    {
+      "q": "可以在手機上使用這個工具嗎？",
+      "a": "可以。此轉換器支援手機瀏覽器，你可以直接從相簿上傳照片並在手機上轉換成 PDF。"
+    },
+    {
+      "q": "可以將掃描成 JPG 的文件轉換成 PDF 嗎？",
+      "a": "可以。如果你的掃描器將頁面儲存為 JPG 檔案，你可以上傳這些掃描圖片並將它們轉換成單一 PDF。此工具不提供 OCR 文字辨識功能。"
+    },
+    {
+      "q": "可以轉換的 JPG 檔案數量有限制嗎？",
+      "a": "沒有強制的使用限制，你不需要建立帳號或付費即可轉換所需數量的檔案。"
+    },
+    {
+      "q": "如果 PDF 沒有自動下載該怎麼辦？",
+      "a": "請確認你的瀏覽器沒有封鎖彈出視窗或自動下載功能。可以再次點擊下載按鈕，或重新整理頁面後再試一次。"
+    },
+    {
+      "q": "這個頁面可以轉換 PNG 檔案嗎？",
+      "a": "此頁面僅支援 JPG 和 JPEG 檔案。若要將 PNG 圖片轉換成 PDF，請使用 PNG to PDF 工具：[uploadless.app/png-to-pdf](/png-to-pdf)。"
+    }
+  ],
+
+  "_comment_merge_pdf": "================ Merge PDF ================",
+  "tool.merge_pdf.title": "合併 PDF",
+"tool.merge_pdf.description": "在瀏覽器中安全私密地合併多個 PDF 和圖片為單一 PDF 文件。",
+"tool.merge_pdf.short_description": "立即合併 PDF 與圖片。",
+
+"merge_pdf.seo.title": "免費PDF合併工具｜線上合併PDF檔案，不用下載安裝、不用上傳雲端，安全快速",
+"merge_pdf.seo.description": "免費線上合併PDF檔案工具，完全在瀏覽器中處理，不用下載安裝、不用上傳雲端、不需註冊會員，保護您的隱私與檔案安全。支援多個PDF檔案合併成一個、自由調整合併順序，也可壓縮檔案大小，操作簡單、合併速度快，新手也能快速上手，手機、平板、電腦都能直接使用，完全免費，立即線上試用，輕鬆完成PDF合併！",
+"merge_pdf.hero.title": "免費線上合併PDF檔案",
+"merge_pdf.hero.description": "不用下載安裝、不用上傳雲端，所有處理都在您的瀏覽器中完成，保護隱私又安全快速，立即免費體驗。",
+
+  "merge_pdf.selected_files": "已選檔案",
+  "merge_pdf.pages": "頁",
+  "merge_pdf.upload.title": "將 PDF 和圖片拖曳至此進行合併",
+  "merge_pdf.upload.subtitle": "PDF、JPG、PNG、WebP 等格式・無檔案大小限制",
+  "merge_pdf.upload.btn_select": "選擇檔案",
+  "merge_pdf.btn.convert": "合併檔案",
+  "merge_pdf.btn.add_more": "新增更多",
+  "merge_pdf.btn.processing": "處理中...",
+  "merge_pdf.btn.combine": "合併檔案",
+  "merge_pdf.btn.download_short": "下載",
+  "merge_pdf.btn.load_sample": "載入範例",
+  "merge_pdf.btn.download": "下載 PDF",
+  "merge_pdf.btn.clear": "清除全部",
+  "merge_pdf.preview_title": "PDF 預覽",
+
+
+"merge_pdf.how_to_use.title": "如何線上合併 PDF 與圖片",
+"merge_pdf.how_to_use.steps": [
+  "拖曳您的 PDF 檔案與圖片到頁面中，或點擊「選擇檔案」從電腦、手機挑選要合併的檔案，支援一次選取多個檔案。",
+  "上傳完成後可直接拖曳調整檔案順序，並透過縮圖預覽每一頁的內容，確認排列方式與最終合併結果相符。",
+  "確認順序後點擊「合併檔案」，所有處理都在您的瀏覽器中即時完成，不會上傳到任何伺服器，速度快也不用等待。",
+  "合併完成即可免費下載檔案，不需註冊帳號、不限檔案大小，也不會加上浮水印，合併後可直接使用或分享。"
+],
+
+  "merge_pdf.why_use.title": "為什麼選擇 Uploadless 合併 PDF",
+"merge_pdf.why_use.benefits": [
+  {
+    "icon": "shield-lock",
+    "title": "私密又安全",
+    "description": "所有合併過程都在您的瀏覽器中完成，PDF 與圖片不會上傳到任何伺服器，個人資料、合約、報告都能安心處理。"
+  },
+  {
+    "icon": "bolt",
+    "title": "完全免費、不用註冊",
+    "description": "不需建立帳號、不用付費訂閱，也不用安裝任何軟體，打開網頁就能立即使用，沒有隱藏限制。"
+  },
+  {
+    "icon": "stack",
+    "title": "PDF、圖片一起合併",
+    "description": "支援同時合併多個 PDF 檔案與 JPG、PNG 圖片，並可自由拖曳調整順序，輕鬆整理成單一文件。"
+  },
+  {
+    "icon": "devices",
+    "title": "跨裝置隨開即用",
+    "description": "無論 Windows、Mac、手機或平板都能直接使用，不用下載安裝，換裝置也不需要重新設定。"
+  }
+],
+
+
+  "merge_pdf.faq.title": "常見問題",
+"merge_pdf.faq.items": [
+  {
+    "q": "手機也可以合併PDF嗎？",
+    "a": "可以。本工具完全在瀏覽器中運作，不需安裝任何App，無論是iPhone、Android手機或平板，只要打開瀏覽器就能直接合併PDF，操作方式與電腦版完全相同。"
+  },
+  {
+    "q": "合併PDF需要安裝軟體或App嗎？",
+    "a": "不需要。這是一個線上工具，不用下載安裝任何軟體或App，也不佔用裝置儲存空間，開啟瀏覽器輸入網址即可使用，用完即可直接關閉分頁。"
+  },
+  {
+    "q": "可以一次合併多個PDF檔案嗎？",
+    "a": "可以，本工具不限制上傳的檔案數量，您可以一次選取多個PDF檔案，系統會依照您設定的順序，將所有檔案合併成單一PDF文件。"
+  },
+  {
+    "q": "合併後可以自訂頁面順序嗎？",
+    "a": "可以。上傳檔案後，您能透過拖曳方式自由調整每個檔案的排列順序，合併前也能即時預覽，確保最終文件的頁面順序符合您的需求。"
+  },
+  {
+    "q": "合併PDF後畫質會變差或失真嗎？",
+    "a": "不會。合併過程只是將檔案的頁面重新組合，並不會重新編碼或壓縮內容，因此文字、圖片與排版都會維持原始檔案的解析度與品質。"
+  },
+  {
+    "q": "合併PDF需要註冊帳號嗎？",
+    "a": "不需要。您不用建立帳號、輸入Email或設定密碼，打開網頁選擇檔案即可立即開始合併，也沒有使用次數或天數的限制。"
+  },
+  {
+    "q": "合併PDF一定要用Adobe Acrobat嗎？",
+    "a": "不需要。許多人以為合併PDF一定要用Adobe Acrobat等付費軟體，但本工具完全免費，也不需要安裝任何Adobe相關程式，透過瀏覽器就能完成相同的合併功能。"
+  },
+  {
+    "q": "PDF合併安全嗎？會不會外洩檔案內容？",
+    "a": "安全。所有合併作業都在您本機的瀏覽器中執行，檔案不會傳送到任何伺服器或第三方，處理完成後也不會保留您的檔案，能有效保護個人與商業機密文件。"
+  },
+  {
+    "q": "合併後的PDF檔案大小會有限制嗎？",
+    "a": "沒有嚴格限制。因為合併過程是在您的裝置上進行，能處理的檔案大小主要取決於您瀏覽器與裝置的效能，一般日常使用的合約、報告或掃描文件都能順利合併。"
+  },
+  {
+    "q": "可以將PDF與圖片一起合併嗎？",
+    "a": "可以。除了PDF檔案，本工具也支援上傳JPG、PNG等圖片格式，系統會自動將圖片轉換為PDF頁面，讓您能把不同格式的文件整合成同一份PDF。"
+  },
+  {
+    "q": "合併PDF的操作會很複雜嗎？",
+    "a": "完全不會。整個流程只需三個步驟：上傳檔案、調整順序、點擊合併，介面設計簡單直覺，即使是第一次處理PDF的使用者，也能在幾秒鐘內完成合併。"
+  },
+  {
+    "q": "支援中文檔名或內容的PDF合併嗎？",
+    "a": "支援。無論檔案內容或檔名是中文、英文或其他語言，合併過程都不會影響文字編碼，合併後的PDF依然能正常顯示與搜尋原本的中文內容。"
+  },
+  {
+    "q": "合併PDF後檔案變大，可以順便壓縮嗎？",
+    "a": "目前合併功能本身不包含壓縮，若合併後的檔案較大，建議另外使用本站的PDF壓縮工具，將合併好的PDF進一步縮小檔案大小，方便傳送與分享。"
+  }
+]
 
 }
