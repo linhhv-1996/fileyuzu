@@ -600,10 +600,13 @@
   ],
   "pdf_compressor.pages": "ページ",
   "_comment_mov_to_mp4": "================ MOV to MP4 ================",
-  "mov_to_mp4.seo.title": "MOV MP4 変換｜MOVをMP4に無料変換 | UploadLess",
-  "mov_to_mp4.seo.description": "MOVをMP4に無料でオンライン変換。インストール不要・登録不要で、ブラウザ内だけで安全にMOV動画をMP4形式へ変換できます。",
-  "mov_to_mp4.hero.title": "MOVをMP4に変換",
-  "mov_to_mp4.hero.description": "MOV動画ファイルをブラウザ内で簡単にMP4形式へ変換できます。インストール不要で、安全に使える無料のMOV MP4変換ツールです。",
+
+"mov_to_mp4.seo.title": "MOV MP4 変換 無料｜インストール不要・大容量対応 | UploadLess",
+"mov_to_mp4.seo.description": "MOVをMP4に無料でオンライン変換。インストール不要・アップロード不要で、大容量ファイルもOK。ブラウザ内で完結するため安全、登録なしですぐ使えます。",
+"mov_to_mp4.hero.title": "MOVをMP4に変換",
+"mov_to_mp4.hero.description": "MOV動画をブラウザ内でそのままMP4に変換。インストール不要・アップロード不要なので、大容量ファイルも安全に処理できます。",
+  
+  
   "mov_to_mp4.how_to_use.title": "MOVをMP4にオンライン変換する方法",
   "mov_to_mp4.how_to_use.steps": [
     "お使いの端末からMOVファイルを選択するか、アップロードエリアにドラッグ＆ドロップします。",
@@ -677,10 +680,12 @@
     }
   ],
   "_comment_avi_to_mp4": "================ AVI to MP4 ================",
-  "avi_to_mp4.seo.title": "AVI MP4 変換｜AVIをMP4に無料変換 | UploadLess",
-  "avi_to_mp4.seo.description": "AVIをMP4に無料でオンライン変換。インストール不要・登録不要で、ブラウザ内だけで安全にAVI動画をMP4形式へ変換できます。",
-  "avi_to_mp4.hero.title": "AVIをMP4に変換",
-  "avi_to_mp4.hero.description": "AVI動画ファイルをブラウザ内で簡単にMP4形式へ変換できます。インストール不要で、安全に使える無料のAVI MP4変換ツールです。",
+
+"avi_to_mp4.seo.title": "AVI MP4 変換 無料｜インストール不要・大容量対応 | UploadLess",
+"avi_to_mp4.seo.description": "AVIをMP4に無料でオンライン変換。インストール不要・アップロード不要で、大容量ファイルもOK。ブラウザ内で完結するため安全、登録なしですぐ使えます。",
+"avi_to_mp4.hero.title": "AVIをMP4に変換",
+"avi_to_mp4.hero.description": "AVI動画をブラウザ内でそのままMP4に変換。インストール不要・アップロード不要なので、大容量ファイルも安全に処理できます。",
+  
   "avi_to_mp4.how_to_use.title": "AVIをMP4にオンライン変換する方法",
   "avi_to_mp4.how_to_use.steps": [
     "お使いの端末からAVIファイルを選択するか、アップロードエリアにドラッグ＆ドロップします。",
@@ -831,10 +836,12 @@
     }
   ],
   "_comment_webm_to_mp4": "================ WebM to MP4 ================",
-  "webm_to_mp4.seo.title": "WebM MP4 変換｜WebMをMP4に無料変換 | UploadLess",
-  "webm_to_mp4.seo.description": "WebM動画ファイルをMP4にオンライン変換。インストール不要で、ブラウザ内で安全にWebMをMP4形式へ無料変換できます。",
-  "webm_to_mp4.hero.title": "WebMをMP4に変換",
-  "webm_to_mp4.hero.description": "WebMをMP4に変換できる無料オンラインツール。インストール不要、アップロード不要でブラウザ上で安全に変換できます。webm mp4 変換・mp4 webm 変換・webm変換に完全対応。スマホやPCからすぐ使えます。",
+
+"webm_to_mp4.seo.title": "WebM MP4 変換 無料｜インストール不要・高画質 | UploadLess",
+"webm_to_mp4.seo.description": "WebMをMP4に無料でオンライン変換。インストール不要・アップロード不要で、ブラウザ内で完結するため安全。高画質のままMP4に変換でき、登録なしですぐ使えます。",
+"webm_to_mp4.hero.title": "WebMをMP4に変換",
+"webm_to_mp4.hero.description": "WebM動画をブラウザ内でそのままMP4に変換。インストール不要・アップロード不要なので、スマホからでもPCからでも安全にすぐ使えます。",
+
   "webm_to_mp4.how_to_use.title": "WebMをMP4にオンライン変換する方法",
   "webm_to_mp4.how_to_use.steps": [
     "お使いの端末からWebMファイルを選択するか、アップロードエリアにドラッグ＆ドロップします。",
