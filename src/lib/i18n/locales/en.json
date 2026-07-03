@@ -123,8 +123,6 @@
   "_comment_categories": "================ Tool Categories ================",
   "home.category.video": "Video",
   "home.category.pdf": "PDF",
-
-
   "compress_video.seo.title": "Free Online Video Compressor — Compress Video | UploadLess",
   "compress_video.seo.description": "Compress videos online for free with UploadLess. Reduce file size in your browser — no upload, no sign-up. Supports MP4, MOV, AVI, MKV, WebM.",
   "compress_video.hero.title": "Free Online Video Compressor",
@@ -219,9 +217,6 @@
       "a": "Yes. UploadLess includes a separate [PDF Compressor](/compress-pdf) and [PDF Merger](/merge-pdf) that run in your browser the same way, with no file uploaded to a server."
     }
   ],
-
-
-
   "_comment_pdf_compressor": "================ PDF Compressor ================",
   "pdf_compressor.seo.title": "Free Online PDF Compressor — Compress PDF Files | UploadLess",
   "pdf_compressor.seo.description": "Compress PDF files online for free with UploadLess. Reduce PDF file size privately in your browser with no upload, no sign-up, and fast results.",
@@ -1328,6 +1323,7 @@
   "donate.title": "Support the Creator",
   "donate.description": "Help me maintain the server and keep this tool free.",
   "donate.button": "Support on Ko-fi",
+
   "tool.compare_two_lists.title": "Compare Two Lists",
   "tool.compare_two_lists.description": "Paste text or upload TXT, CSV and Excel files to find differences, matches, duplicates, and unique values between two lists.",
   "tool.compare_two_lists.short_description": "Find differences, matches, and duplicates between two lists.",
@@ -1423,6 +1419,7 @@
       "a": "No. UploadLess compares your lists directly in your browser. Your pasted text, CSV data, Excel files, and uploaded documents do not need to be sent to a server, which helps keep your list comparison private."
     }
   ],
+  
   "tool.audio_converter.title": "Audio Converter",
   "tool.audio_converter.description": "Convert audio files to different formats for free. Everything runs in your browser without uploading files to a server.",
   "tool.audio_converter.short_description": "Convert audio directly in your browser.",
@@ -2136,18 +2133,14 @@
   "home.category.all": "All",
   "home.category.audio": "Audio",
   "home.category.text": "Text",
-
-
   "_comment_merge_pdf": "================ Merge PDF ================",
   "tool.merge_pdf.title": "Merge PDF",
   "tool.merge_pdf.description": "Combine multiple PDFs and images into a single PDF document securely and privately in your browser.",
   "tool.merge_pdf.short_description": "Merge PDFs and images instantly.",
-  
-"merge_pdf.seo.title": "Merge PDF Files Online Free – Combine PDF & Images Without Upload",
-"merge_pdf.seo.description": "Merge PDF files and images online free, no upload, no signup, no limit. Fast, secure PDF merger that works fully in your browser for total privacy.",
-"merge_pdf.hero.title": "Merge PDF & Images",
-"merge_pdf.hero.description": "Combine multiple PDF files and images into a single PDF document securely in your browser.",
-
+  "merge_pdf.seo.title": "Merge PDF Files Online Free – Combine PDF & Images Without Upload",
+  "merge_pdf.seo.description": "Merge PDF files and images online free, no upload, no signup, no limit. Fast, secure PDF merger that works fully in your browser for total privacy.",
+  "merge_pdf.hero.title": "Merge PDF & Images",
+  "merge_pdf.hero.description": "Combine multiple PDF files and images into a single PDF document securely in your browser.",
   "merge_pdf.selected_files": "Selected Files",
   "merge_pdf.pages": "pages",
   "merge_pdf.upload.title": "Drop your PDFs and images here to merge",
@@ -2162,90 +2155,249 @@
   "merge_pdf.btn.download": "Download PDF",
   "merge_pdf.btn.clear": "Clear All",
   "merge_pdf.preview_title": "PDF Preview",
-
-
-"merge_pdf.how_to_use.title": "How to Merge PDF Files and Images Online",
-"merge_pdf.how_to_use.steps": [
-  "Add your PDF files and images by dragging and dropping them, or click 'Select Files' to choose from your device.",
-  "Drag and drop to reorder the files exactly the way you want them to appear in the final PDF.",
-  "Click 'Merge Files' to combine your PDFs and images into a single document instantly in your browser.",
-  "Download your merged PDF for free — no upload, no sign-up, and no file size limit."
-],
-
+  "merge_pdf.how_to_use.title": "How to Merge PDF Files and Images Online",
+  "merge_pdf.how_to_use.steps": [
+    "Add your PDF files and images by dragging and dropping them, or click 'Select Files' to choose from your device.",
+    "Drag and drop to reorder the files exactly the way you want them to appear in the final PDF.",
+    "Click 'Merge Files' to combine your PDFs and images into a single document instantly in your browser.",
+    "Download your merged PDF for free — no upload, no sign-up, and no file size limit."
+  ],
   "merge_pdf.why_use.title": "Why Use UploadLess Merge PDF",
-"merge_pdf.why_use.benefits": [
-  {
-    "icon": "shield-lock",
-    "title": "Private and secure",
-    "description": "Merge your PDFs and images locally in your browser. Your files stay on your device and are never uploaded to a server."
-  },
-  {
-    "icon": "bolt",
-    "title": "Fast, free, no sign-up",
-    "description": "Combine unlimited PDF files instantly without creating an account, installing software, or paying any fees."
-  },
-  {
-    "icon": "stack",
-    "title": "Combine PDFs and images",
-    "description": "Mix and match PDF documents with JPG and PNG images, then drag to reorder pages exactly how you want them."
-  },
-  {
-    "icon": "devices",
-    "title": "Works on any device",
-    "description": "Merge PDFs on Mac, Windows, iPhone, or Android — no app to download, just open your browser and go."
-  }
-],
-
-
+  "merge_pdf.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "Private and secure",
+      "description": "Merge your PDFs and images locally in your browser. Your files stay on your device and are never uploaded to a server."
+    },
+    {
+      "icon": "bolt",
+      "title": "Fast, free, no sign-up",
+      "description": "Combine unlimited PDF files instantly without creating an account, installing software, or paying any fees."
+    },
+    {
+      "icon": "stack",
+      "title": "Combine PDFs and images",
+      "description": "Mix and match PDF documents with JPG and PNG images, then drag to reorder pages exactly how you want them."
+    },
+    {
+      "icon": "devices",
+      "title": "Works on any device",
+      "description": "Merge PDFs on Mac, Windows, iPhone, or Android — no app to download, just open your browser and go."
+    }
+  ],
   "merge_pdf.faq.title": "Frequently Asked Questions",
-"merge_pdf.faq.items": [
-  {
-    "q": "Are my files uploaded to a server?",
-    "a": "No. The merging process happens entirely within your browser on your device, so your files never leave your computer or get transmitted to any server. This makes the tool a safe choice for merging sensitive documents like contracts, ID scans, or financial statements."
-  },
-  {
-    "q": "Can I rearrange the files before merging?",
-    "a": "Yes. You can drag and drop the uploaded files to change their order before generating the final PDF. This lets you control exactly how the pages from each file appear in the combined document, without needing a separate page-reordering tool afterward."
-  },
-  {
-    "q": "Is there a limit on the number of files I can merge?",
-    "a": "There is no strict limit. However, your device's memory may restrict merging a very large number of files or extremely large PDFs, since everything is processed locally rather than on a remote server."
-  },
-  {
-    "q": "Is this PDF merger really free to use?",
-    "a": "Yes, merging PDF files and images is completely free, with no hidden fees, subscriptions, or watermarks added to your output. There's also no daily limit on how many times you can merge files, unlike many online tools that cap free usage."
-  },
-  {
-    "q": "Do I need to create an account or enter my email to merge PDFs?",
-    "a": "No account, email address, or sign-up is required. Just open the tool in your browser, add your files, and download the merged PDF right away — the entire process is anonymous."
-  },
-  {
-    "q": "Can I merge PDF files together with images like JPG or PNG?",
-    "a": "Yes. You can mix PDF documents with JPG and PNG images in the same merge, and each image is automatically converted into a page within the final PDF. This is useful for combining scanned receipts, photos, or screenshots with existing PDF documents."
-  },
-  {
-    "q": "Will merging my PDFs reduce their quality or add a watermark?",
-    "a": "No. Merging only combines the pages from your original files into a new document without re-compressing, re-encoding, or altering their content, so quality is fully preserved. The tool also never adds a watermark or branding to your merged PDF."
-  },
-  {
-    "q": "Can I merge PDF files on Mac, Windows, iPhone, or Android?",
-    "a": "Yes. Since the tool runs entirely in your web browser, it works on Mac, Windows, Linux, and Chromebook computers, as well as iPhone and Android devices, with no software or app to install."
-  },
-  {
-    "q": "How do I merge two or more PDF files into one document?",
-    "a": "Add your PDF files by dragging them into the tool or selecting them from your device, then arrange them in the order you want and click 'Merge Files'. You can combine just two PDFs or dozens of files at once, and the result is a single downloadable PDF."
-  },
-  {
-    "q": "Can I merge large PDF files or scanned documents?",
-    "a": "Yes, you can merge large PDFs and scanned documents, though processing speed depends on your device's available memory since merging happens locally rather than on a server. For very large files, using an up-to-date desktop browser will generally give the smoothest experience."
-  },
-  {
-    "q": "How is my data kept private and secure when merging online?",
-    "a": "Your data stays private because the files are processed using your browser's built-in capabilities and never get sent over the internet. There's no server-side storage, so there's nothing to be hacked, leaked, or retained after you close the tab."
-  },
-  {
-    "q": "How is this different from other free PDF merge tools?",
-    "a": "Most online PDF mergers require uploading your files to a remote server, which means your documents pass through someone else's infrastructure before you get them back. This tool processes everything locally in your browser instead, so it combines the convenience of a free PDF merge tool with the privacy of offline software."
-  }
-]
+  "merge_pdf.faq.items": [
+    {
+      "q": "Are my files uploaded to a server?",
+      "a": "No. The merging process happens entirely within your browser on your device, so your files never leave your computer or get transmitted to any server. This makes the tool a safe choice for merging sensitive documents like contracts, ID scans, or financial statements."
+    },
+    {
+      "q": "Can I rearrange the files before merging?",
+      "a": "Yes. You can drag and drop the uploaded files to change their order before generating the final PDF. This lets you control exactly how the pages from each file appear in the combined document, without needing a separate page-reordering tool afterward."
+    },
+    {
+      "q": "Is there a limit on the number of files I can merge?",
+      "a": "There is no strict limit. However, your device's memory may restrict merging a very large number of files or extremely large PDFs, since everything is processed locally rather than on a remote server."
+    },
+    {
+      "q": "Is this PDF merger really free to use?",
+      "a": "Yes, merging PDF files and images is completely free, with no hidden fees, subscriptions, or watermarks added to your output. There's also no daily limit on how many times you can merge files, unlike many online tools that cap free usage."
+    },
+    {
+      "q": "Do I need to create an account or enter my email to merge PDFs?",
+      "a": "No account, email address, or sign-up is required. Just open the tool in your browser, add your files, and download the merged PDF right away — the entire process is anonymous."
+    },
+    {
+      "q": "Can I merge PDF files together with images like JPG or PNG?",
+      "a": "Yes. You can mix PDF documents with JPG and PNG images in the same merge, and each image is automatically converted into a page within the final PDF. This is useful for combining scanned receipts, photos, or screenshots with existing PDF documents."
+    },
+    {
+      "q": "Will merging my PDFs reduce their quality or add a watermark?",
+      "a": "No. Merging only combines the pages from your original files into a new document without re-compressing, re-encoding, or altering their content, so quality is fully preserved. The tool also never adds a watermark or branding to your merged PDF."
+    },
+    {
+      "q": "Can I merge PDF files on Mac, Windows, iPhone, or Android?",
+      "a": "Yes. Since the tool runs entirely in your web browser, it works on Mac, Windows, Linux, and Chromebook computers, as well as iPhone and Android devices, with no software or app to install."
+    },
+    {
+      "q": "How do I merge two or more PDF files into one document?",
+      "a": "Add your PDF files by dragging them into the tool or selecting them from your device, then arrange them in the order you want and click 'Merge Files'. You can combine just two PDFs or dozens of files at once, and the result is a single downloadable PDF."
+    },
+    {
+      "q": "Can I merge large PDF files or scanned documents?",
+      "a": "Yes, you can merge large PDFs and scanned documents, though processing speed depends on your device's available memory since merging happens locally rather than on a server. For very large files, using an up-to-date desktop browser will generally give the smoothest experience."
+    },
+    {
+      "q": "How is my data kept private and secure when merging online?",
+      "a": "Your data stays private because the files are processed using your browser's built-in capabilities and never get sent over the internet. There's no server-side storage, so there's nothing to be hacked, leaked, or retained after you close the tab."
+    },
+    {
+      "q": "How is this different from other free PDF merge tools?",
+      "a": "Most online PDF mergers require uploading your files to a remote server, which means your documents pass through someone else's infrastructure before you get them back. This tool processes everything locally in your browser instead, so it combines the convenience of a free PDF merge tool with the privacy of offline software."
+    }
+  ],
+
+
+  "tool.bulk_file_renamer.title": "Bulk File Renamer",
+  "tool.bulk_file_renamer.description": "Rename multiple files at once using powerful rules. Replace text, add prefixes, suffixes, numbering, change extensions, and more. 100% free and works in your browser.",
+  "tool.bulk_file_renamer.short_description": "Rename multiple files at once",
+  
+"tool.bulk_file_renamer.seo.title": "Bulk File Renamer Online – Batch Rename Files for Free",
+  "tool.bulk_file_renamer.seo.description": "Batch rename files online without uploading. Add prefixes, replace text, and number files in bulk right in your browser — fast, free, private, no sign-up.",
+  "tool.bulk_file_renamer.hero.title": "Rename Files in Bulk",
+  "tool.bulk_file_renamer.hero.description": "Add prefixes, find & replace, or number files in sequence. No upload, no sign-up — your files never leave your device.",
+
+
+  
+  "bulk_file_renamer.upload.title": "Upload Files to Rename",
+  "bulk_file_renamer.upload.subtitle": "Drag & drop multiple files or folders here to begin.",
+  "bulk_file_renamer.upload.btn_select": "Select Files",
+  "bulk_file_renamer.upload.btn_sample": "Try Sample",
+  "bulk_file_renamer.upload.hint": "Supports all file types. Rename up to thousands of files instantly.",
+  "bulk_file_renamer.rules": "Renaming Rules",
+  "bulk_file_renamer.add_rule": "Add Rule",
+  "bulk_file_renamer.remove_rule": "Remove Rule",
+  "bulk_file_renamer.rule_replace": "Find & Replace",
+  "bulk_file_renamer.rule_add": "Add Text",
+  "bulk_file_renamer.rule_remove": "Remove Text",
+  "bulk_file_renamer.rule_format": "Change Case/Format",
+  "bulk_file_renamer.rule_numbering": "Add Numbering",
+  "bulk_file_renamer.rule_extension": "Change Extension",
+  "bulk_file_renamer.find_text": "Find",
+  "bulk_file_renamer.replace_with": "Replace with",
+  "bulk_file_renamer.case_sensitive": "Case sensitive",
+  "bulk_file_renamer.use_regex": "Use Regex",
+  "bulk_file_renamer.text_to_add": "Text to add",
+  "bulk_file_renamer.add_at": "Add at",
+  "bulk_file_renamer.prefix": "Prefix",
+  "bulk_file_renamer.suffix": "Suffix",
+  "bulk_file_renamer.custom_index": "Custom index",
+  "bulk_file_renamer.index": "Index",
+  "bulk_file_renamer.remove_type": "Remove",
+  "bulk_file_renamer.remove_first_n": "First N characters",
+  "bulk_file_renamer.remove_last_n": "Last N characters",
+  "bulk_file_renamer.remove_range": "From index to index",
+  "bulk_file_renamer.chars_count": "Number of characters",
+  "bulk_file_renamer.start_index": "Start index",
+  "bulk_file_renamer.end_index": "End index",
+  "bulk_file_renamer.format_type": "Format",
+  "bulk_file_renamer.lowercase": "lowercase",
+  "bulk_file_renamer.uppercase": "UPPERCASE",
+  "bulk_file_renamer.title_case": "Title Case",
+  "bulk_file_renamer.camel_case": "camelCase",
+  "bulk_file_renamer.start_at": "Start at",
+  "bulk_file_renamer.increment_by": "Increment by",
+  "bulk_file_renamer.padding": "Padding (zeros)",
+  "bulk_file_renamer.separator": "Separator",
+  "bulk_file_renamer.position": "Position",
+  "bulk_file_renamer.before_name": "Before name",
+  "bulk_file_renamer.after_name": "After name",
+  "bulk_file_renamer.new_extension": "New Extension",
+  "bulk_file_renamer.extension_mode": "Mode",
+  "bulk_file_renamer.ext_replace": "Replace",
+  "bulk_file_renamer.ext_lower": "Lowercase",
+  "bulk_file_renamer.ext_upper": "Uppercase",
+  "bulk_file_renamer.ext_remove": "Remove",
+  "bulk_file_renamer.original_name": "Original Name",
+  "bulk_file_renamer.new_name": "New Name",
+  "bulk_file_renamer.status": "Status",
+  "bulk_file_renamer.status_changed": "Changed",
+  "bulk_file_renamer.status_unchanged": "Unchanged",
+  "bulk_file_renamer.download_zip": "Download ZIP",
+  "bulk_file_renamer.clear_all": "Clear All",
+  "bulk_file_renamer.no_files": "No files uploaded. Drop files here or click to browse.",
+  "bulk_file_renamer.preview": "Preview",
+  "bulk_file_renamer.files": "files",
+  "bulk_file_renamer.add_files": "Add Files",
+
+
+  "bulk_file_renamer.how_to_use.title": "How to use the Bulk File Renamer",
+"bulk_file_renamer.how_to_use.steps": [
+    "Drag and drop the files you want to rename, or click to select them. They stay in your browser — nothing is uploaded to any server.",
+    "Add renaming rules from the 'Add Rule' menu: Find & Replace, Prefix, Suffix, or Numbering to batch rename files your way.",
+    "Configure each rule and stack multiple rules together — they're applied in order, so you can rename multiple files at once with complex patterns.",
+    "Check the preview table to see every new filename before committing. File extensions are kept intact automatically.",
+    "Click 'Download ZIP' to save all renamed files to your computer instantly."
+  ],
+
+
+  "bulk_file_renamer.why_use.title": "Why use this tool?",
+"bulk_file_renamer.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "Private and secure",
+      "description": "Rename files locally in your browser. Your files stay on your device and are never uploaded to a server — no one sees them but you."
+    },
+    {
+      "icon": "layers-linked",
+      "title": "Bulk rename in one go",
+      "description": "Rename hundreds of files at once with stackable rules: prefix, suffix, find & replace, and sequential numbering."
+    },
+    {
+      "icon": "bolt",
+      "title": "Instant, no waiting",
+      "description": "No upload means no waiting for transfers. Renaming happens instantly on your device, even with large video or image files."
+    },
+    {
+      "icon": "free-rights",
+      "title": "Free, no sign-up",
+      "description": "Completely free file renamer with no account, no installation, and no limits. Open the page and start renaming."
+    }
+  ],
+
+  "bulk_file_renamer.faq.title": "Frequently Asked Questions",
+  "bulk_file_renamer.faq.items": [
+    {
+      "q": "Are my files uploaded to a server?",
+      "a": "No. All renaming happens locally in your browser — your files never leave your device. That makes it a truly private file renamer with no server, no storage, and no tracking of your file contents."
+    },
+    {
+      "q": "Is this bulk file renamer free to use?",
+      "a": "Yes, it's completely free with no sign-up, no registration, and no hidden limits. You can batch rename as many files as you want, as often as you want."
+    },
+    {
+      "q": "How do I rename multiple files at once?",
+      "a": "Drop your files into the tool, add one or more renaming rules — prefix, suffix, find & replace, or numbering — then check the preview and download everything as a ZIP. Hundreds of files can be renamed in one go."
+    },
+    {
+      "q": "Can I rename files without installing software?",
+      "a": "Yes. This tool runs entirely in your web browser, so there's nothing to download or install. It works as a full replacement for desktop batch rename utilities on any operating system."
+    },
+    {
+      "q": "Will renaming change my file format or extension?",
+      "a": "No. Your files are never converted or modified — only the filename changes, and the original extension is kept automatically. A renamed MP4 is still the exact same MP4, byte for byte."
+    },
+    {
+      "q": "Can I change a file's extension with this tool?",
+      "a": "No, and that's intentional. The extension is locked to prevent broken files — renaming '.mp4' to '.mp3' wouldn't convert anything, just create a file that won't open properly. If you need a different format, use a real converter tool instead."
+    },
+    {
+      "q": "Can I add a prefix or remove text from filenames in bulk?",
+      "a": "Yes. Use the Prefix or Suffix rule to add text to every filename, or Find & Replace with an empty replacement to strip unwanted text — like removing 'Copy of' or camera prefixes from hundreds of files at once."
+    },
+    {
+      "q": "Can I rename image files like JPG and PNG online?",
+      "a": "Yes. You can bulk rename JPG, PNG, WebP, HEIC, and any other image format. It's handy for organizing photo dumps — for example, numbering an entire camera roll in sequence."
+    },
+    {
+      "q": "Can I rename video files like MP4 online?",
+      "a": "Yes, and because nothing is uploaded, even multi-gigabyte MP4, MOV, or MKV files rename instantly. There's no waiting for a huge video to transfer to a server and back."
+    },
+    {
+      "q": "Can I rename PDF and Word documents online?",
+      "a": "Yes. PDF, DOCX, XLSX, and other documents can all be renamed in bulk. The content, formatting, and metadata inside the document stay untouched — only the filename changes."
+    },
+    {
+      "q": "Can I rename MP3 and other audio files?",
+      "a": "Yes. Bulk rename MP3, WAV, FLAC, or any audio format — useful for cleaning up music libraries or numbering podcast episodes. Note that this changes filenames, not ID3 tags."
+    },
+    {
+      "q": "How do I make my filenames SEO-friendly?",
+      "a": "Use lowercase descriptive words separated by hyphens, like 'blue-running-shoes.jpg' instead of 'IMG_4032.jpg'. With Find & Replace you can swap spaces and underscores for hyphens across all your image files before uploading them to your site."
+    },
+    {
+      "q": "Does it work on Windows, Mac, and mobile?",
+      "a": "Yes. Since it runs in the browser, it works on any device with a modern browser — Windows, macOS, Linux, ChromeOS, Android, and iOS. No app needed."
+    }
+  ]
 }

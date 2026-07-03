@@ -2392,6 +2392,170 @@
     "q": "結合したPDFファイルはどこに保存されますか？",
     "a": "結合が完了すると、お使いの端末に直接ダウンロードされます。処理中もファイルはどこにも保存されず、ブラウザを閉じれば作業データはすべて自動的に消去されるため、ファイルの管理や削除を気にする必要がありません。"
   }
-]
+],
+
+
+
+"tool.bulk_file_renamer.title": "一括ファイル名変更ツール",
+"tool.bulk_file_renamer.description": "高度なルールを使用して、複数のファイル名を一度に変更できます。テキストの置換、接頭辞・接尾辞の追加、連番の付与、拡張子の変更などが可能です。完全無料でブラウザ上で動作します。",
+"tool.bulk_file_renamer.short_description": "複数のファイル名を一度に変更",
+
+
+"tool.bulk_file_renamer.seo.title": "一括ファイル名変更(リネーム)｜無料オンライン・アップロード不要",
+  "tool.bulk_file_renamer.seo.description": "複数ファイルの名前をまとめて一括変更できる無料オンラインツール。連番・プレフィックス追加・文字削除/置換に対応。処理はブラウザ内で完結、アップロード不要だから安全。インストール・登録不要、スマホでも使えます。",
+"tool.bulk_file_renamer.hero.title": "ファイル名を一括変更",
+  "tool.bulk_file_renamer.hero.description": "複数ファイルの名前をブラウザだけでまとめてリネーム。アップロード不要、無料・登録不要。",
+
+  "bulk_file_renamer.upload.title": "変更するファイルをアップロード",
+  "bulk_file_renamer.upload.subtitle": "ここに複数のファイルまたはフォルダをドラッグ＆ドロップして開始",
+  "bulk_file_renamer.upload.btn_select": "ファイルを選択",
+  "bulk_file_renamer.upload.btn_sample": "サンプルを試す",
+  "bulk_file_renamer.upload.hint": "すべてのファイル形式に対応。何千ものファイルを一瞬で一括変更できます。",
+  "bulk_file_renamer.rules": "名前変更ルール",
+  "bulk_file_renamer.add_rule": "ルールを追加",
+  "bulk_file_renamer.remove_rule": "ルールを削除",
+  "bulk_file_renamer.rule_replace": "検索と置換",
+  "bulk_file_renamer.rule_add": "テキストを追加",
+  "bulk_file_renamer.rule_remove": "テキストを削除",
+  "bulk_file_renamer.rule_format": "大文字・小文字/書式の変更",
+  "bulk_file_renamer.rule_numbering": "連番を追加",
+  "bulk_file_renamer.rule_extension": "拡張子を変更",
+  "bulk_file_renamer.find_text": "検索文字",
+  "bulk_file_renamer.replace_with": "置換文字",
+  "bulk_file_renamer.case_sensitive": "大文字・小文字を区別",
+  "bulk_file_renamer.use_regex": "正規表現を使用",
+  "bulk_file_renamer.text_to_add": "追加するテキスト",
+  "bulk_file_renamer.add_at": "追加位置",
+  "bulk_file_renamer.prefix": "接頭辞 (先頭)",
+  "bulk_file_renamer.suffix": "接尾辞 (末尾)",
+  "bulk_file_renamer.custom_index": "カスタム位置",
+  "bulk_file_renamer.index": "インデックス (位置)",
+  "bulk_file_renamer.remove_type": "削除方法",
+  "bulk_file_renamer.remove_first_n": "先頭からN文字",
+  "bulk_file_renamer.remove_last_n": "末尾からN文字",
+  "bulk_file_renamer.remove_range": "位置を指定して削除",
+  "bulk_file_renamer.chars_count": "文字数",
+  "bulk_file_renamer.start_index": "開始位置",
+  "bulk_file_renamer.end_index": "終了位置",
+  "bulk_file_renamer.format_type": "書式",
+  "bulk_file_renamer.lowercase": "小文字 (lowercase)",
+  "bulk_file_renamer.uppercase": "大文字 (UPPERCASE)",
+  "bulk_file_renamer.title_case": "タイトルケース (Title Case)",
+  "bulk_file_renamer.camel_case": "キャメルケース (camelCase)",
+  "bulk_file_renamer.start_at": "開始番号",
+  "bulk_file_renamer.increment_by": "増分値",
+  "bulk_file_renamer.padding": "ゼロ埋め (桁数)",
+  "bulk_file_renamer.separator": "区切り文字",
+  "bulk_file_renamer.position": "挿入位置",
+  "bulk_file_renamer.before_name": "名前の前",
+  "bulk_file_renamer.after_name": "名前の後",
+  "bulk_file_renamer.new_extension": "新しい拡張子",
+  "bulk_file_renamer.extension_mode": "モード",
+  "bulk_file_renamer.ext_replace": "置換",
+  "bulk_file_renamer.ext_lower": "小文字に変換",
+  "bulk_file_renamer.ext_upper": "大文字に変換",
+  "bulk_file_renamer.ext_remove": "削除",
+  "bulk_file_renamer.original_name": "変更前の名前",
+  "bulk_file_renamer.new_name": "変更後の名前",
+  "bulk_file_renamer.status": "ステータス",
+  "bulk_file_renamer.status_changed": "変更あり",
+  "bulk_file_renamer.status_unchanged": "変更なし",
+  "bulk_file_renamer.download_zip": "ZIPでダウンロード",
+  "bulk_file_renamer.clear_all": "すべてクリア",
+  "bulk_file_renamer.no_files": "アップロードされたファイルはありません。ここにファイルをドロップするか、クリックして選択してください。",
+  "bulk_file_renamer.preview": "プレビュー",
+  "bulk_file_renamer.files": "個のファイル",
+  "bulk_file_renamer.add_files": "ファイルを追加",
+
+
+"bulk_file_renamer.how_to_use.title": "一括ファイル名変更ツールの使い方",
+"bulk_file_renamer.how_to_use.steps": [
+    "リネームしたい複数ファイルをドラッグ&ドロップ、またはクリックして選択します。ファイルはサーバーにアップロードされず、すべてブラウザ内で処理されます。",
+    "「ルールを追加」メニューから、検索と置換・連番・プレフィックス追加など、ファイル名変更のルールを選びます。",
+    "各ルールを設定します。ルールは上から順に適用されるので、複数組み合わせて一括リネームできます。",
+    "プレビュー表で変更後のファイル名を確認します。拡張子はそのまま保持されるので安心です。",
+    "「ZIPをダウンロード」をクリックすると、名前を一括変更したファイルをすぐに保存できます。"
+  ],
+
+
+"bulk_file_renamer.why_use.title": "このツールが選ばれる理由",
+"bulk_file_renamer.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "アップロード不要で安全",
+      "description": "ファイル名の変更はすべてブラウザ内で完結します。ファイルがサーバーに送信されることは一切ないため、仕事の書類や個人的な写真も安心してリネームできます。"
+    },
+    {
+      "icon": "bolt",
+      "title": "数百ファイルも一括変更",
+      "description": "連番・プレフィックス追加・検索と置換などのルールを組み合わせて、複数ファイルをまとめてリネーム。1つずつ手作業で変更する必要はもうありません。"
+    },
+    {
+      "icon": "gift",
+      "title": "無料・インストール不要",
+      "description": "会員登録もソフトのインストールも不要。ブラウザを開くだけで、無料のファイルリネームツールとしてすぐに使えます。回数制限もありません。"
+    },
+    {
+      "icon": "device-mobile",
+      "title": "スマホでもPCでも",
+      "description": "PC不要、スマホやタブレットのブラウザからでもファイル名を一括変更できます。拡張子はそのまま保持されるので、変更後もファイルは正常に開けます。"
+    }
+  ],
+
+"bulk_file_renamer.faq.title": "よくある質問",
+"bulk_file_renamer.faq.items": [
+    {
+      "q": "ファイルはサーバーにアップロードされますか？",
+      "a": "いいえ。ファイル名の変更処理はすべてお使いのブラウザ内（ローカル）で完結します。ファイルがサーバーに送信されることは一切ないため、機密書類や個人的な写真も安全にリネームできます。"
+    },
+    {
+      "q": "無料で使えますか？回数制限はありますか？",
+      "a": "はい、完全無料です。ファイル数や利用回数の制限はなく、有料プランへの誘導もありません。ブラウザ内で処理するためサーバーコストがかからず、無料で提供できています。"
+    },
+    {
+      "q": "一度に何個のファイルを一括リネームできますか？",
+      "a": "数百ファイルまで一括変更できます。処理は端末内で行われるため、実際の上限はお使いのデバイスのメモリに依存します。数千ファイルある場合は、数百ずつに分けての処理をおすすめします。"
+    },
+    {
+      "q": "スマホからでもファイル名を変更できますか？",
+      "a": "はい。iPhone・Androidのブラウザ（Safari、Chromeなど）からそのまま使えます。PC不要で、スマホで撮った写真のファイル名を一括変更してZIPでダウンロードできます。"
+    },
+    {
+      "q": "ソフトのインストールは必要ですか？",
+      "a": "不要です。専用ソフトをダウンロード・インストールすることなく、ブラウザを開くだけでファイル名変更ツールとして使えます。会社のPCなどソフトを入れられない環境でも利用できます。"
+    },
+    {
+      "q": "会員登録やログインは必要ですか？",
+      "a": "不要です。メールアドレスの入力もサインアップも一切なく、ページを開いてすぐにファイルリネームを開始できます。"
+    },
+    {
+      "q": "リネーム後も拡張子はそのまま保持されますか？",
+      "a": "はい、拡張子はデフォルトでそのまま保持されるため、変更後もファイルは正常に開けます。なお、拡張子を書き換えてもファイル形式自体は変換されない点にご注意ください（例：.jpgを.pngに変えても中身はJPGのままです）。"
+    },
+    {
+      "q": "どんな種類のファイルに対応していますか？",
+      "a": "画像（JPG・PNG）、PDF、動画（MP4）、音声（MP3）、ドキュメントなど、あらゆる形式のファイル名を変更できます。ファイルの中身は読み込まず名前だけを変更するため、形式を問わず動作します。"
+    },
+    {
+      "q": "ファイル名に連番を付けられますか？",
+      "a": "はい。「連番」ルールを追加すると、001・002・003のような通し番号を自動で付与できます。開始番号や桁数も設定できるので、写真整理や納品ファイルの命名に便利です。"
+    },
+    {
+      "q": "ファイル名の一部だけを削除・置換できますか？",
+      "a": "はい。「検索と置換」ルールで特定の文字列を削除・置換できるほか、「プレフィックス追加」で先頭に日付やプロジェクト名を付けることもできます。複数のルールは上から順に適用されます。"
+    },
+    {
+      "q": "SEOに強い画像ファイル名に一括変更できますか？",
+      "a": "はい。「IMG_1234.jpg」のようなファイル名を「blue-summer-dress-01.jpg」のようなSEOフレンドリーな名前に一括変更できます。検索エンジンは画像ファイル名も評価するため、ECサイトやブログの画像SEO対策に効果的です。"
+    },
+    {
+      "q": "変更したファイルはどうやって保存しますか？",
+      "a": "「ZIPをダウンロード」をクリックすると、リネーム済みのファイルがまとめてZIP形式で即ダウンロードされます。待ち時間やメール送信などの手順は不要です。"
+    },
+    {
+      "q": "元のファイルは変更・削除されますか？",
+      "a": "いいえ。お使いの端末にある元のファイルには一切手を加えません。ダウンロードされるのは名前を変更したコピーなので、失敗してもやり直せます。"
+    }
+  ]
 
 }

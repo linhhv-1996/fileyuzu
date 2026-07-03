@@ -24,6 +24,22 @@ export const categories: CategoryConfig[] = [
 
 export const tools: ToolConfig[] = [
     {
+        slug: 'bulk-file-renamer',
+        titleKey: 'tool.bulk_file_renamer.title',
+        descriptionKey: 'tool.bulk_file_renamer.description',
+        shortDescriptionKey: 'tool.bulk_file_renamer.short_description',
+        icon: 'file-text',
+        related_tools: [
+            'compare-two-lists',
+            'compress-pdf',
+            'video-converter',
+            'image-to-text',
+        ],
+        category: 'text',
+        tags: ['Rename', 'Bulk'],
+        markets: ['en', 'ja', 'zh-tw'],
+    },
+    {
         slug: 'compress-video',
         titleKey: 'tool.compress_video.title',
         descriptionKey: 'tool.compress_video.description',
@@ -268,7 +284,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'text',
         tags: ['List', 'Compare', 'Text'],
-        markets: ['en', 'ja'],
+        markets: ['en', 'ja', 'zh-tw'],
     },
     {
         slug: 'audio-converter',

@@ -1806,6 +1806,267 @@
     "q": "合併PDF後檔案變大，可以順便壓縮嗎？",
     "a": "目前合併功能本身不包含壓縮，若合併後的檔案較大，建議另外使用本站的PDF壓縮工具，將合併好的PDF進一步縮小檔案大小，方便傳送與分享。"
   }
-]
+],
+
+"tool.bulk_file_renamer.title": "批次檔案重新命名工具",
+  "tool.bulk_file_renamer.description": "一次重新命名多個檔案，透過強大的規則進行批次處理。可替換文字、加上前綴、後綴、編號、變更副檔名等等。完全免費，直接在瀏覽器中執行。",
+  "tool.bulk_file_renamer.short_description": "一次重新命名多個檔案",
+
+"tool.bulk_file_renamer.seo.title": "批次檔案重新命名工具 - 免費線上批次修改檔名",
+  "tool.bulk_file_renamer.seo.description": "免上傳，直接在瀏覽器中批次重新命名檔案。支援加前綴、後綴、文字取代、依序編號，快速又免費，完整保護隱私，不需註冊帳號即可使用。",
+  "tool.bulk_file_renamer.hero.title": "批次重新命名檔案",
+  "tool.bulk_file_renamer.hero.description": "加上前綴、尋找取代文字，或依序編號檔案。不上傳、不需註冊 - 檔案完全不會離開您的裝置。",
+
+
+
+  "bulk_file_renamer.upload.title": "上傳要重新命名的檔案",
+  "bulk_file_renamer.upload.subtitle": "將多個檔案或資料夾拖曳到此處即可開始。",
+  "bulk_file_renamer.upload.btn_select": "選擇檔案",
+  "bulk_file_renamer.upload.btn_sample": "試用範例",
+  "bulk_file_renamer.upload.hint": "支援所有檔案格式，可一次重新命名數千個檔案。",
+  "bulk_file_renamer.rules": "重新命名規則",
+  "bulk_file_renamer.add_rule": "新增規則",
+  "bulk_file_renamer.remove_rule": "移除規則",
+  "bulk_file_renamer.rule_replace": "尋找與取代",
+  "bulk_file_renamer.rule_add": "新增文字",
+  "bulk_file_renamer.rule_remove": "移除文字",
+  "bulk_file_renamer.rule_format": "變更大小寫／格式",
+  "bulk_file_renamer.rule_numbering": "加上編號",
+  "bulk_file_renamer.rule_extension": "變更副檔名",
+  "bulk_file_renamer.find_text": "尋找",
+  "bulk_file_renamer.replace_with": "取代為",
+  "bulk_file_renamer.case_sensitive": "區分大小寫",
+  "bulk_file_renamer.use_regex": "使用正規表示式",
+  "bulk_file_renamer.text_to_add": "要新增的文字",
+  "bulk_file_renamer.add_at": "新增位置",
+  "bulk_file_renamer.prefix": "前綴",
+  "bulk_file_renamer.suffix": "後綴",
+  "bulk_file_renamer.custom_index": "自訂索引",
+  "bulk_file_renamer.index": "索引",
+  "bulk_file_renamer.remove_type": "移除方式",
+  "bulk_file_renamer.remove_first_n": "前 N 個字元",
+  "bulk_file_renamer.remove_last_n": "後 N 個字元",
+  "bulk_file_renamer.remove_range": "從指定索引到指定索引",
+  "bulk_file_renamer.chars_count": "字元數量",
+  "bulk_file_renamer.start_index": "起始索引",
+  "bulk_file_renamer.end_index": "結束索引",
+  "bulk_file_renamer.format_type": "格式",
+  "bulk_file_renamer.lowercase": "小寫",
+  "bulk_file_renamer.uppercase": "大寫",
+  "bulk_file_renamer.title_case": "首字母大寫",
+  "bulk_file_renamer.camel_case": "駝峰式命名",
+  "bulk_file_renamer.start_at": "起始編號",
+  "bulk_file_renamer.increment_by": "遞增值",
+  "bulk_file_renamer.padding": "補零位數",
+  "bulk_file_renamer.separator": "分隔符號",
+  "bulk_file_renamer.position": "位置",
+  "bulk_file_renamer.before_name": "檔名前",
+  "bulk_file_renamer.after_name": "檔名後",
+  "bulk_file_renamer.new_extension": "新的副檔名",
+  "bulk_file_renamer.extension_mode": "模式",
+  "bulk_file_renamer.ext_replace": "取代",
+  "bulk_file_renamer.ext_lower": "轉小寫",
+  "bulk_file_renamer.ext_upper": "轉大寫",
+  "bulk_file_renamer.ext_remove": "移除",
+  "bulk_file_renamer.original_name": "原始檔名",
+  "bulk_file_renamer.new_name": "新檔名",
+  "bulk_file_renamer.status": "狀態",
+  "bulk_file_renamer.status_changed": "已變更",
+  "bulk_file_renamer.status_unchanged": "未變更",
+  "bulk_file_renamer.download_zip": "下載 ZIP 檔",
+  "bulk_file_renamer.clear_all": "全部清除",
+  "bulk_file_renamer.no_files": "尚未上傳檔案，請將檔案拖曳至此或點擊瀏覽。",
+  "bulk_file_renamer.preview": "預覽",
+  "bulk_file_renamer.files": "個檔案",
+  "bulk_file_renamer.add_files": "新增檔案",
+
+
+  "bulk_file_renamer.how_to_use.title": "如何使用批次檔案重新命名工具",
+"bulk_file_renamer.how_to_use.steps": [
+    "拖曳您想重新命名的檔案，或點擊選取。檔案只會留在您的瀏覽器中 - 完全不會上傳到任何伺服器。",
+    "從「新增規則」選單加入重新命名規則：尋找與取代、前綴、後綴或編號，用您想要的方式批次重新命名檔案。",
+    "設定每項規則並可疊加多項規則 - 系統會依序套用，讓您能以複雜的模式一次重新命名大量檔案。",
+    "在預覽表格中確認每個新檔名，確定無誤再套用。副檔名會自動保留，不會變動。",
+    "點擊「下載 ZIP 檔」，立即將所有重新命名後的檔案儲存到您的電腦。"
+  ],
+
+
+  "bulk_file_renamer.why_use.title": "為什麼要用這個工具？",
+"bulk_file_renamer.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "隱私安全",
+      "description": "所有重新命名作業都在瀏覽器本機進行。檔案不會離開您的裝置、不會上傳到伺服器 - 除了您沒有人看得到。"
+    },
+    {
+      "icon": "layers-linked",
+      "title": "一次批次重新命名",
+      "description": "透過可疊加的規則 - 前綴、後綴、尋找與取代、依序編號 - 一次重新命名數百個檔案。"
+    },
+    {
+      "icon": "bolt",
+      "title": "即時完成，無需等待",
+      "description": "不用上傳就不用等傳輸。重新命名在您的裝置上瞬間完成，即使是大型影片或圖片檔案也一樣。"
+    },
+    {
+      "icon": "free-rights",
+      "title": "完全免費，免註冊",
+      "description": "完全免費的檔案重新命名工具，不需帳號、不用安裝，也沒有使用次數限制。打開網頁就能立刻開始重新命名。"
+    }
+  ],
+
+  "bulk_file_renamer.faq.title": "常見問題",
+  "bulk_file_renamer.faq.items": [
+    {
+      "q": "我的檔案會被上傳到伺服器嗎？",
+      "a": "不會。所有重新命名作業都在您的瀏覽器本機進行 - 檔案完全不會離開您的裝置。這是一個真正尊重隱私的檔案重新命名工具，沒有伺服器、沒有儲存，也不會追蹤您的檔案內容。"
+    },
+    {
+      "q": "這個批次檔案重新命名工具是免費的嗎？",
+      "a": "是的，完全免費，不需註冊、不用登入，也沒有隱藏限制。您可以隨時批次重新命名任意數量的檔案。"
+    },
+    {
+      "q": "要怎麼一次重新命名多個檔案？",
+      "a": "把檔案拖曳進工具中，加入一項或多項重新命名規則 - 前綴、後綴、尋找與取代或編號 - 接著確認預覽並下載成 ZIP 檔即可。數百個檔案可以一次完成重新命名。"
+    },
+    {
+      "q": "不安裝軟體也能重新命名檔案嗎？",
+      "a": "可以。這個工具完全在瀏覽器中執行，不需下載或安裝任何東西，可以在任何作業系統上完整取代桌面版的批次重新命名工具。"
+    },
+    {
+      "q": "重新命名會改變我的檔案格式或副檔名嗎？",
+      "a": "不會。您的檔案不會被轉換或修改，只有檔名會變更，原始副檔名會自動保留。重新命名後的 MP4 依然是完全相同、位元不變的 MP4。"
+    },
+    {
+      "q": "可以用這個工具變更檔案的副檔名嗎？",
+      "a": "不行，這是刻意的設計。副檔名會被鎖定，避免產生損壞的檔案 - 把「.mp4」改成「.mp3」並不會真的轉換內容，只會產生一個打不開的檔案。如果需要轉換格式，請使用真正的轉檔工具。"
+    },
+    {
+      "q": "可以批次加上前綴或移除檔名中的文字嗎？",
+      "a": "可以。使用前綴或後綴規則可為每個檔名加上文字；使用尋找與取代並將取代欄位留空，就能移除不需要的文字 - 例如一次從數百個檔案中移除「Copy of」或相機自動產生的前綴。"
+    },
+    {
+      "q": "可以線上批次重新命名 JPG、PNG 等圖片檔嗎？",
+      "a": "可以。您可以批次重新命名 JPG、PNG、WebP、HEIC 及其他任何圖片格式，很適合整理大量照片 - 例如將整份相機膠卷依序編號。"
+    },
+    {
+      "q": "可以線上批次重新命名 MP4 等影片檔嗎？",
+      "a": "可以，而且因為完全不用上傳，即使是好幾 GB 的 MP4、MOV 或 MKV 檔案也能瞬間完成重新命名，不必等待大檔案來回傳輸伺服器。"
+    },
+    {
+      "q": "可以批次重新命名 PDF 和 Word 文件嗎？",
+      "a": "可以。PDF、DOCX、XLSX 等文件都能批次重新命名，文件內的內容、格式與中繼資料完全不受影響，只會變更檔名。"
+    },
+    {
+      "q": "可以重新命名 MP3 等音訊檔嗎？",
+      "a": "可以。批次重新命名 MP3、WAV、FLAC 或任何音訊格式，很適合整理音樂庫或為 Podcast 節目編號。請注意，這只會變更檔名，不會變更 ID3 標籤。"
+    },
+    {
+      "q": "要怎麼讓檔名對 SEO 更友善？",
+      "a": "使用小寫、具描述性且以連字號分隔的文字，例如用「blue-running-shoes.jpg」取代「IMG_4032.jpg」。透過尋找與取代功能，您可以在上傳到網站前，將所有圖片檔名中的空格與底線一次替換成連字號。"
+    },
+    {
+      "q": "這個工具支援 Windows、Mac 和手機嗎？",
+      "a": "支援。由於是在瀏覽器中執行，任何有現代瀏覽器的裝置都能使用 - Windows、macOS、Linux、ChromeOS、Android、iOS 通通沒問題，不需要額外安裝 App。"
+    }
+  ],
+
+
+
+  "tool.compare_two_lists.title": "比較兩份清單",
+  "tool.compare_two_lists.description": "貼上文字或上傳 TXT、CSV、Excel 檔案，找出兩份清單之間的差異、相符項目、重複項目和唯一值。",
+  "tool.compare_two_lists.short_description": "找出兩份清單間的差異、相符項目與重複項目",
+  "tool.compare_two_lists.seo.title": "線上比較清單工具 - CSV、Excel 與文字清單比對",
+  "tool.compare_two_lists.seo.description": "線上比較兩份清單，支援貼上文字或上傳 CSV、Excel 檔案。立即找出差異、相符項目、重複項目、缺漏項目與唯一值，完全免費。",
+  "tool.compare_two_lists.hero.title": "線上比較兩份清單",
+  "tool.compare_two_lists.hero.description": "貼上文字或上傳 CSV、Excel 檔案，立即比較兩份清單。找出僅存在於其中一份清單的項目、相符項目、重複項目與唯一值。",
+  "compare_two_lists.first_row_is_header": "第一列為標題列",
+  "compare_two_lists.all_columns": "所有欄位",
+  "compare_two_lists.list_a": "清單 A",
+  "compare_two_lists.placeholder_a": "在此貼上清單 A 的項目，一行一項…",
+  "compare_two_lists.list_b": "清單 B",
+  "compare_two_lists.placeholder_b": "在此貼上清單 B 的項目，一行一項…",
+  "compare_two_lists.btn_compare": "比較清單",
+  "compare_two_lists.btn_compare_new": "比較新的清單",
+  "compare_two_lists.only_a": "僅在 A 中",
+  "compare_two_lists.only_b": "僅在 B 中",
+  "compare_two_lists.in_both": "兩者皆有",
+  "compare_two_lists.all_unique": "全部唯一值",
+  "compare_two_lists.duplicates_a": "A 的重複項目",
+  "compare_two_lists.duplicates_b": "B 的重複項目",
+  "compare_two_lists.btn_copy": "複製到剪貼簿",
+  "compare_two_lists.how_to_use.title": "如何比較兩份清單",
+  "compare_two_lists.how_to_use.steps": [
+    "將文字貼到兩個清單欄位中，或從您的裝置上傳 TXT、CSV 或 Excel 檔案。",
+    "選擇比較方式，例如忽略大小寫、去除多餘空格、移除空白行、選取 CSV 或 Excel 中的特定欄位，或偵測重複項目。",
+    "UploadLess 會在您的瀏覽器中比較兩份清單，並顯示僅存在於清單 A、僅存在於清單 B，以及同時存在於兩份清單中的項目。",
+    "確認結果後，即可複製或匯出差異、相符項目、重複項目或唯一值。"
+  ],
+  "compare_two_lists.why_use.title": "為什麼要用 UploadLess 比較清單工具",
+  "compare_two_lists.why_use.benefits": [
+    {
+      "icon": "shield-lock",
+      "title": "私密的清單比對",
+      "description": "直接在瀏覽器中比較兩份清單。您的文字、CSV 資料、Excel 試算表和上傳的檔案都不會傳送到伺服器。"
+    },
+    {
+      "icon": "bolt",
+      "title": "快速又免費的線上工具",
+      "description": "免費線上比較清單，不需建立帳號、不用安裝軟體，也沒有隱藏費用。"
+    },
+    {
+      "icon": "file-text",
+      "title": "貼上文字或上傳 CSV、Excel 檔案",
+      "description": "可手動貼上清單，或上傳 TXT、CSV、Excel 檔案，比較欄列資料、數值、ID、姓名、電子郵件、SKU 或關鍵字。"
+    },
+    {
+      "icon": "list-check",
+      "title": "找出差異、相符項目與重複項目",
+      "description": "立即找出僅存在於清單 A、僅存在於清單 B、同時存在於兩份清單中的項目，以及重複值、缺漏項目和唯一值。"
+    }
+  ],
+  "compare_two_lists.faq.title": "比較清單常見問題",
+  "compare_two_lists.faq.items": [
+    {
+      "q": "要怎麼線上比較兩份清單？",
+      "a": "將兩份清單貼到輸入欄位中，或上傳 TXT、CSV 或 Excel 檔案。UploadLess 會在您的瀏覽器中比較兩份清單，並立即顯示差異、相符項目、重複項目、缺漏項目與唯一值。"
+    },
+    {
+      "q": "可以比較 Excel 檔案或 Excel 欄位嗎？",
+      "a": "可以。您可以上傳 Excel 檔案，或直接貼上從 Excel、Google 試算表複製的欄位。這個工具能協助您比較試算表數值、欄列、ID、電子郵件、SKU、關鍵字等清單資料，完全不需要寫公式。"
+    },
+    {
+      "q": "可以線上比較 CSV 檔案嗎？",
+      "a": "可以。UploadLess 支援上傳 CSV 檔案，讓您能線上比較 CSV 清單，直接在瀏覽器中找出缺漏的資料列、相符的數值、重複的項目與唯一項目。"
+    },
+    {
+      "q": "比較兩份清單最好的方法是什麼？",
+      "a": "最簡單的方法就是使用線上清單比較工具。貼上您的清單或上傳 TXT、CSV、Excel 檔案，接著就能查看哪些項目只出現在清單 A、只出現在清單 B，或同時出現在兩份清單中。"
+    },
+    {
+      "q": "要怎麼找出兩份清單之間的差異？",
+      "a": "上傳或貼上兩份清單後執行比較，UploadLess 會顯示僅出現在第一份清單、僅出現在第二份清單，以及同時出現在兩份清單中的項目，讓您快速找出缺漏或不一致的資料。"
+    },
+    {
+      "q": "可以找出兩份清單中的相符項目或共同值嗎？",
+      "a": "可以。這個工具會找出同時存在於兩份清單中的相符項目，很適合用來比較客戶名單、電子郵件清單、產品 SKU、URL、ID、關鍵字或庫存資料等試算表欄位。"
+    },
+    {
+      "q": "可以找出清單中的重複值嗎？",
+      "a": "可以。UploadLess 能偵測重複值與重複項目，協助您在複製或匯出結果前，先清理貼上的文字、CSV 檔案、Excel 試算表、電子郵件清單、關鍵字清單等資料。"
+    },
+    {
+      "q": "可以交叉比對兩份清單嗎？",
+      "a": "可以。您可以交叉比對兩份清單，查看有哪些項目缺漏、哪些項目相符，以及各自獨有的項目，很適合用來核對紀錄、電子郵件、ID、SKU、關鍵字、URL 或試算表資料。"
+    },
+    {
+      "q": "可以比較電子郵件清單、關鍵字清單或 SKU 清單嗎？",
+      "a": "可以。您可以貼上或上傳電子郵件清單、關鍵字清單、SKU 清單、URL 清單、ID 清單，以及其他文字、CSV 或 Excel 資料，找出差異、相符項目、重複項目、缺漏項目與唯一值。"
+    },
+    {
+      "q": "我的清單資料會被上傳到伺服器嗎？",
+      "a": "不會。UploadLess 直接在您的瀏覽器中比較清單，貼上的文字、CSV 資料、Excel 檔案和上傳的文件都不需要傳送到伺服器，確保您的清單比對過程完全私密。"
+    }
+  ]
 
 }
