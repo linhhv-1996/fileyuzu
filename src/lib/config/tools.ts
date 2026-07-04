@@ -37,7 +37,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'text',
         tags: ['Rename', 'Bulk'],
-        markets: ['en', 'ja', 'zh-tw'],
+        markets: ['en', 'ja', 'zh-tw', 'ko'],
     },
     {
         slug: 'compress-video',
@@ -429,7 +429,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'pdf',
         tags: ['Merge', 'PDF', 'Images'],
-        markets: ['en', 'ja', 'zh-tw'],
+        markets: ['en', 'ja', 'zh-tw', 'ko'],
     },
 ];
 

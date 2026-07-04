@@ -1419,7 +1419,7 @@
       "a": "No. UploadLess compares your lists directly in your browser. Your pasted text, CSV data, Excel files, and uploaded documents do not need to be sent to a server, which helps keep your list comparison private."
     }
   ],
-  
+
   "tool.audio_converter.title": "Audio Converter",
   "tool.audio_converter.description": "Convert audio files to different formats for free. Everything runs in your browser without uploading files to a server.",
   "tool.audio_converter.short_description": "Convert audio directly in your browser.",
@@ -2133,6 +2133,8 @@
   "home.category.all": "All",
   "home.category.audio": "Audio",
   "home.category.text": "Text",
+
+
   "_comment_merge_pdf": "================ Merge PDF ================",
   "tool.merge_pdf.title": "Merge PDF",
   "tool.merge_pdf.description": "Combine multiple PDFs and images into a single PDF document securely and privately in your browser.",
@@ -2236,6 +2238,7 @@
       "a": "Most online PDF mergers require uploading your files to a remote server, which means your documents pass through someone else's infrastructure before you get them back. This tool processes everything locally in your browser instead, so it combines the convenience of a free PDF merge tool with the privacy of offline software."
     }
   ],
+
 
 
   "tool.bulk_file_renamer.title": "Bulk File Renamer",
