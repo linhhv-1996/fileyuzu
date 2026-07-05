@@ -620,6 +620,16 @@
       "icon": "droplet-off",
       "title": "No watermark added",
       "description": "Convert your MOV video to MP4 without adding a watermark or branding to the downloaded file."
+    },
+    {
+      "icon": "device-mobile",
+      "title": "Fixes iPhone playback issues",
+      "description": "MOV files recorded on iPhone or iPad sometimes fail to open on Windows PCs or older Android phones. Converting to MP4 solves this compatibility gap instantly."
+    },
+    {
+      "icon": "cpu",
+      "title": "Handles HEVC and ProRes sources",
+      "description": "Whether your MOV file uses H.264, HEVC, or ProRes, UploadLess converts it into a standard MP4 that plays reliably everywhere."
     }
   ],
   "mov_to_mp4.faq.title": "MOV to MP4 FAQ",
@@ -655,6 +665,18 @@
     {
       "q": "Will the converted MP4 file have a watermark?",
       "a": "No. UploadLess converts MOV videos to MP4 without adding a watermark. The downloaded MP4 file will not include UploadLess branding on your video."
+    },
+    {
+      "q": "What codec do MOV files usually use, and does that affect conversion?",
+      "a": "Most MOV files from iPhone or Mac use the H.264 or HEVC (H.265) codec. HEVC MOV files are smaller but are not supported by every app, so converting to MP4 with H.264 usually gives you the best balance of file size and compatibility."
+    },
+    {
+      "q": "Why won't my MOV file play on Windows or Android?",
+      "a": "MOV is Apple's native container format, fully supported by macOS and iOS but only partially supported on Windows and Android. Some MOV files, especially those recorded in HEVC or ProRes, may not play at all without extra codecs. Converting to MP4 avoids this issue."
+    },
+    {
+      "q": "Can I convert ProRes MOV files exported from Final Cut Pro?",
+      "a": "Yes, but ProRes MOV files are meant for editing, not distribution, so they are very large. Converting a ProRes MOV to MP4 makes the file dramatically smaller and easier to upload, email, or share while keeping it watchable on virtually any device."
     }
   ],
   "_comment_avi_to_mp4": "================ AVI to MP4 ================",
@@ -689,6 +711,16 @@
       "icon": "droplet-off",
       "title": "No watermark added",
       "description": "Convert your AVI video to MP4 without adding a watermark or branding to the downloaded file."
+    },
+    {
+      "icon": "clock",
+      "title": "Preserve old recordings",
+      "description": "AVI is common in footage from older camcorders and security cameras. Convert it to MP4 so it stays playable on modern devices for years to come."
+    },
+    {
+      "icon": "server-off",
+      "title": "No dependency on old codecs",
+      "description": "AVI files often need separately installed codec packs, like Xvid or DivX, to play. The MP4 output uses widely supported codecs, so no extra codec installs are needed."
     }
   ],
   "avi_to_mp4.faq.title": "AVI to MP4 FAQ",
@@ -724,6 +756,18 @@
     {
       "q": "Can I play the converted MP4 on phones and browsers?",
       "a": "Yes. MP4 is widely supported by modern phones, tablets, browsers, video players, and social media platforms, so converting AVI to MP4 can make your video easier to open and share."
+    },
+    {
+      "q": "Why are AVI files often much larger than MP4?",
+      "a": "AVI is a 1992-era Microsoft container that was not designed with modern, efficient compression in mind. Many AVI files use older codecs like Xvid or DivX, or store video with little compression, which is why the same video in AVI can be several times larger than in MP4."
+    },
+    {
+      "q": "Does AVI support hardware playback on phones and smart TVs?",
+      "a": "Rarely. Most phones, smart TVs, and streaming devices are built to decode MP4 (H.264/HEVC) in hardware but have no native decoder for AVI. Converting AVI to MP4 lets these devices play the video smoothly instead of failing to open it."
+    },
+    {
+      "q": "Can I convert old AVI recordings from a camcorder or webcam?",
+      "a": "Yes. Older camcorders, security cameras, and webcams often save footage as AVI. Converting these recordings to MP4 makes them easier to store, edit in modern software, and play back years later."
     }
   ],
   "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
@@ -758,6 +802,16 @@
       "icon": "droplet-off",
       "title": "No watermark added",
       "description": "Convert your MKV video to MP4 without adding a watermark or branding to the downloaded file."
+    },
+    {
+      "icon": "language",
+      "title": "Best for multi-track sources",
+      "description": "MKV is built to hold multiple audio languages and subtitle tracks. Converting to MP4 gives you a simpler, universally playable file for everyday viewing."
+    },
+    {
+      "icon": "device-tv",
+      "title": "Plays on smart TVs and consoles",
+      "description": "Many smart TVs, game consoles, and streaming boxes do not support MKV. MP4 output plays reliably on nearly every screen."
     }
   ],
   "mkv_to_mp4.faq.title": "MKV to MP4 FAQ",
@@ -793,6 +847,18 @@
     {
       "q": "Will the converted MP4 file have a watermark?",
       "a": "No. UploadLess converts MKV videos to MP4 without adding a watermark. The downloaded MP4 file will not include UploadLess branding on your video."
+    },
+    {
+      "q": "Will my MKV subtitles or extra audio tracks survive the conversion?",
+      "a": "MKV files can bundle several audio tracks and subtitle files together, which MP4 does not always support in the same way. Depending on your browser and the tracks in the source file, some subtitle or secondary audio tracks may not carry over, so check the converted MP4 before deleting the original MKV."
+    },
+    {
+      "q": "Why do MKV files come from movie or show rip sources?",
+      "a": "MKV (Matroska) is an open container designed to hold high-quality video with multiple language tracks and subtitles, which is why it is a common format for Blu-ray rips and many downloaded shows. MP4 is more limited but far more widely supported for everyday playback."
+    },
+    {
+      "q": "Can I convert MKV files encoded with HEVC or AV1?",
+      "a": "Yes, as long as your browser can decode the source codec. MKV files are often encoded with HEVC or AV1 for high compression, and UploadLess converts them into a standard MP4 that is easier to open on phones, tablets, and older software."
     }
   ],
   "_comment_webm_to_mp4": "================ WebM to MP4 ================",
@@ -827,6 +893,16 @@
       "icon": "droplet-off",
       "title": "No watermark added",
       "description": "Convert your WebM video to MP4 without adding a watermark or branding to the downloaded file."
+    },
+    {
+      "icon": "browser",
+      "title": "Built for browser-based sources",
+      "description": "WebM is common from screen recordings and web tools. UploadLess turns these clips into MP4 files that work outside the browser too."
+    },
+    {
+      "icon": "movie-off",
+      "title": "Fixes editor compatibility",
+      "description": "Many video editors do not fully support WebM. Converting to MP4 first avoids import errors in programs like Premiere Pro or Final Cut."
     }
   ],
   "webm_to_mp4.faq.title": "WebM to MP4 FAQ",
@@ -862,6 +938,18 @@
     {
       "q": "Will the converted MP4 file have a watermark?",
       "a": "No. UploadLess converts WebM videos to MP4 without adding a watermark. The downloaded MP4 file will not include UploadLess branding on your video."
+    },
+    {
+      "q": "Why do videos from screen recorders or browser tools save as WebM?",
+      "a": "WebM is an open, royalty-free format created for the web, so many browser-based screen recorders, video call recordings, and web tools save video in WebM by default using the VP8 or VP9 codec. Converting to MP4 makes these recordings easier to edit or share outside the browser."
+    },
+    {
+      "q": "Does WebM work with video editing software like Premiere or Final Cut?",
+      "a": "Not always. Many desktop editing programs have limited or no native support for WebM, especially on older versions. Converting WebM to MP4 first avoids import errors and lets you edit the footage without extra plugins."
+    },
+    {
+      "q": "Can I convert a WebM video downloaded from a website?",
+      "a": "Yes. If a website or browser extension saved a video as a .webm file, you can upload it here and convert it to MP4 so it opens correctly in standard media players, phones, and editing apps."
     }
   ],
   "_comment_video_to_mp3": "================ Video to MP3 ================",
@@ -974,6 +1062,16 @@
       "icon": "rocket",
       "title": "Fast browser-based converter",
       "description": "Change video files to MP4 quickly with optimized in-browser processing and download your converted file when ready."
+    },
+    {
+      "icon": "target-arrow",
+      "title": "One-click MP4 output",
+      "description": "No need to pick a format from a list. Upload your video and get an MP4 file every time, ideal when you already know MP4 is what you need."
+    },
+    {
+      "icon": "upload",
+      "title": "Matches platform requirements",
+      "description": "Many websites, ad platforms, and apps only accept MP4 uploads. This tool skips the extra format-selection step for that exact use case."
     }
   ],
   "mp4_converter.faq.title": "MP4 Converter FAQ",
@@ -1009,6 +1107,18 @@
     {
       "q": "Will the converted MP4 have a watermark?",
       "a": "No. UploadLess converts videos to MP4 without adding a watermark. The downloaded MP4 file will not include UploadLess branding on your video."
+    },
+    {
+      "q": "Why use MP4 Converter instead of the general Video Converter?",
+      "a": "MP4 Converter is a simplified, focused version of our [Video Converter](/video-converter) tool. It skips the format selection step and always outputs MP4, which is convenient when you already know you specifically need an MP4 file, such as for uploading to a website, app, or platform that only accepts MP4."
+    },
+    {
+      "q": "Why is MP4 the best default choice for uploading videos?",
+      "a": "MP4, using the H.264 codec, is the most universally supported video format across browsers, phones, editing software, and social media platforms. When you are unsure what format a platform requires, MP4 is usually the safest choice."
+    },
+    {
+      "q": "Should I use Video Converter instead if I need a different output format?",
+      "a": "Yes. If you need to convert to WebM, or extract audio as MP3, use the [Video Converter](/video-converter) tool, which lets you choose any target format. MP4 Converter is specifically for when MP4 is the only output you need."
     }
   ],
   "_comment_barcode_generator": "================ Barcode Generator ================",
@@ -1323,7 +1433,6 @@
   "donate.title": "Support the Creator",
   "donate.description": "Help me maintain the server and keep this tool free.",
   "donate.button": "Support on Ko-fi",
-
   "tool.compare_two_lists.title": "Compare Two Lists",
   "tool.compare_two_lists.description": "Paste text or upload TXT, CSV and Excel files to find differences, matches, duplicates, and unique values between two lists.",
   "tool.compare_two_lists.short_description": "Find differences, matches, and duplicates between two lists.",
@@ -1419,7 +1528,6 @@
       "a": "No. UploadLess compares your lists directly in your browser. Your pasted text, CSV data, Excel files, and uploaded documents do not need to be sent to a server, which helps keep your list comparison private."
     }
   ],
-
   "tool.audio_converter.title": "Audio Converter",
   "tool.audio_converter.description": "Convert audio files to different formats for free. Everything runs in your browser without uploading files to a server.",
   "tool.audio_converter.short_description": "Convert audio directly in your browser.",
@@ -1766,6 +1874,16 @@
       "icon": "language",
       "title": "Transcribe Many Languages",
       "description": "Convert spoken audio to text in many languages, including English, Japanese, Korean, Chinese, Spanish, French, German, and more."
+    },
+    {
+      "icon": "microphone-2",
+      "title": "Made for voice recordings",
+      "description": "Optimized for podcasts, voice memos, and phone or call recordings where the file is audio-only."
+    },
+    {
+      "icon": "bolt",
+      "title": "Faster for audio-only files",
+      "description": "Skipping video processing means audio files typically transcribe faster than the same recording exported as video."
     }
   ],
   "audio_to_text.faq.title": "Frequently Asked Questions",
@@ -1817,6 +1935,18 @@
     {
       "q": "Can this tool remove background noise or edit my audio?",
       "a": "No. This tool is designed to convert speech from audio to text. For the best result, use a clear audio file with minimal background noise before uploading it for transcription."
+    },
+    {
+      "q": "What kinds of audio work best with this transcriber?",
+      "a": "This tool is built for audio-only recordings such as podcasts, voice memos, phone call recordings, interviews, and lecture audio. If your recording has background music or overlapping speakers, transcription accuracy may be lower."
+    },
+    {
+      "q": "Can I transcribe a voice memo recorded on my phone?",
+      "a": "Yes. Voice memos saved as M4A or similar formats are one of the most common uses for this tool, letting you turn quick spoken notes into searchable, editable text."
+    },
+    {
+      "q": "How is this different from transcribing a video file?",
+      "a": "If your recording is audio-only, like a podcast or phone call, uploading the audio file directly is faster since there is no video track to process. Use the [Video to Text](/video-to-text) tool instead if your speech is inside a video file."
     }
   ],
   "_comment_video_to_text": "================ Video to Text ================",
@@ -1869,6 +1999,16 @@
       "icon": "language",
       "title": "Transcribe Many Languages",
       "description": "Convert spoken video to text in many languages, including English, Japanese, Korean, Chinese, Spanish, French, German, and more."
+    },
+    {
+      "icon": "presentation",
+      "title": "Works with screen recordings",
+      "description": "Transcribe webinars, recorded presentations, and tutorials without needing to separate the audio track first."
+    },
+    {
+      "icon": "video",
+      "title": "No audio extraction needed",
+      "description": "Upload the video file as-is. UploadLess reads the audio track directly and skips the extra step of exporting audio separately."
     }
   ],
   "video_to_text.faq.title": "Frequently Asked Questions",
@@ -1920,6 +2060,18 @@
     {
       "q": "Can this tool create subtitles from a video?",
       "a": "This tool converts spoken video audio into text. You can use the transcript as a starting point for subtitles or captions, but it does not currently export subtitle files such as SRT or VTT."
+    },
+    {
+      "q": "Do I need to extract the audio from my video first?",
+      "a": "No. Upload the video file directly and UploadLess extracts and transcribes the spoken audio automatically. You do not need to convert it to an audio file first."
+    },
+    {
+      "q": "Can I transcribe a screen recording or webinar with a presentation on screen?",
+      "a": "Yes. Screen recordings, webinars, and recorded presentations often mix narration with on-screen visuals. This tool ignores the visuals and transcribes only the spoken audio track into text."
+    },
+    {
+      "q": "Is this useful for transcribing recorded meetings from Zoom or Google Meet?",
+      "a": "Yes. Meeting recordings exported as MP4 or WebM can be uploaded directly to generate a text transcript, which is useful for notes, summaries, or searching what was discussed."
     }
   ],
   "audio_to_text.btn.load_sample": "Try Sample Audio",
@@ -1974,6 +2126,16 @@
       "icon": "infinity",
       "title": "Free with no limits",
       "description": "No account required and no usage cap. Convert as many PNG images as you need, completely free."
+    },
+    {
+      "icon": "device-desktop",
+      "title": "Best for screenshots & scans",
+      "description": "PNG's lossless compression keeps text and fine lines crisp, making it ideal for screenshots, scanned pages, and diagrams converted to PDF."
+    },
+    {
+      "icon": "layout",
+      "title": "Predictable on transparent PNGs",
+      "description": "PNG supports transparent backgrounds. Since PDF pages are white by default, transparent areas will appear white on the page, so images with light backgrounds convert cleanly."
     }
   ],
   "png_to_pdf.faq.title": "Frequently Asked Questions",
@@ -2025,6 +2187,18 @@
     {
       "q": "Can I convert a design export or PNG from Figma or Photoshop to PDF?",
       "a": "Yes. PNG files exported from design tools like Figma, Photoshop, or Illustrator work fine. Upload the exported PNG and download the resulting PDF."
+    },
+    {
+      "q": "Why do PNG files look sharper than JPG for screenshots and text?",
+      "a": "PNG uses lossless compression, so every pixel is preserved exactly as captured. This makes PNG the better choice for screenshots, scanned documents, and graphics with text or sharp lines, compared to JPG's lossy compression."
+    },
+    {
+      "q": "Can I convert a PNG with a transparent background to PDF?",
+      "a": "Yes. A PDF page itself is white by default, so any transparent areas in your PNG will typically show up as white once placed on the page, similar to viewing the image on a plain white sheet. The original PNG data is preserved as-is; it is not re-compressed."
+    },
+    {
+      "q": "Are PNG files always larger than JPG for the same image?",
+      "a": "For photos, yes, usually. But for screenshots, diagrams, and images with flat colors or text, PNG can be similar in size or even smaller than JPG, while keeping every detail crisp."
     }
   ],
   "_comment_jpg_to_pdf": "================ JPG to PDF ================",
@@ -2077,6 +2251,16 @@
       "icon": "infinity",
       "title": "Free with no limits",
       "description": "No sign-up, no usage caps, and no fees. Convert as many JPG files to PDF as you need."
+    },
+    {
+      "icon": "camera",
+      "title": "Built for camera photos",
+      "description": "JPG is the default format for phone and camera photos. Turn a batch of photographed pages or receipts into one clean PDF."
+    },
+    {
+      "icon": "photo",
+      "title": "Keeps file size manageable",
+      "description": "JPG's compression keeps multi-page photo PDFs from becoming too large to email or upload, even with many images."
     }
   ],
   "jpg_to_pdf.faq.title": "Frequently Asked Questions",
@@ -2128,13 +2312,23 @@
     {
       "q": "Can I convert PNG files on this page?",
       "a": "This page supports JPG and JPEG files only. To convert PNG images to PDF, use the PNG to PDF tool at [uploadless.app/png-to-pdf](/png-to-pdf)."
+    },
+    {
+      "q": "Is JPG a good format for the images I'm converting to PDF?",
+      "a": "JPG uses lossy compression, which is ideal for photos and camera images because it keeps file sizes small while photos still look sharp. If your images are screenshots, scanned text, or graphics with sharp edges, PNG usually preserves detail better before converting to PDF."
+    },
+    {
+      "q": "Will small text in my JPG photos stay readable in the PDF?",
+      "a": "It depends on the original photo quality. Because JPG compression can soften fine details, very small text captured in a photo, like a receipt or sign, may look slightly less sharp in the PDF than a PNG screenshot of the same content."
+    },
+    {
+      "q": "Can I combine JPG photos from my phone camera into one PDF report?",
+      "a": "Yes. This is one of the most common uses: photographing multiple pages of a paper document with your phone camera as JPG files and combining them into a single PDF for submission or sharing."
     }
   ],
   "home.category.all": "All",
   "home.category.audio": "Audio",
   "home.category.text": "Text",
-
-
   "_comment_merge_pdf": "================ Merge PDF ================",
   "tool.merge_pdf.title": "Merge PDF",
   "tool.merge_pdf.description": "Combine multiple PDFs and images into a single PDF document securely and privately in your browser.",
@@ -2238,20 +2432,13 @@
       "a": "Most online PDF mergers require uploading your files to a remote server, which means your documents pass through someone else's infrastructure before you get them back. This tool processes everything locally in your browser instead, so it combines the convenience of a free PDF merge tool with the privacy of offline software."
     }
   ],
-
-
-
   "tool.bulk_file_renamer.title": "Bulk File Renamer",
   "tool.bulk_file_renamer.description": "Rename multiple files at once using powerful rules. Replace text, add prefixes, suffixes, numbering, change extensions, and more. 100% free and works in your browser.",
   "tool.bulk_file_renamer.short_description": "Rename multiple files at once",
-  
-"tool.bulk_file_renamer.seo.title": "Bulk File Renamer Online – Batch Rename Files for Free",
+  "tool.bulk_file_renamer.seo.title": "Bulk File Renamer Online – Batch Rename Files for Free",
   "tool.bulk_file_renamer.seo.description": "Batch rename files online without uploading. Add prefixes, replace text, and number files in bulk right in your browser — fast, free, private, no sign-up.",
   "tool.bulk_file_renamer.hero.title": "Rename Files in Bulk",
   "tool.bulk_file_renamer.hero.description": "Add prefixes, find & replace, or number files in sequence. No upload, no sign-up — your files never leave your device.",
-
-
-  
   "bulk_file_renamer.upload.title": "Upload Files to Rename",
   "bulk_file_renamer.upload.subtitle": "Drag & drop multiple files or folders here to begin.",
   "bulk_file_renamer.upload.btn_select": "Select Files",
@@ -2312,20 +2499,16 @@
   "bulk_file_renamer.preview": "Preview",
   "bulk_file_renamer.files": "files",
   "bulk_file_renamer.add_files": "Add Files",
-
-
   "bulk_file_renamer.how_to_use.title": "How to use the Bulk File Renamer",
-"bulk_file_renamer.how_to_use.steps": [
+  "bulk_file_renamer.how_to_use.steps": [
     "Drag and drop the files you want to rename, or click to select them. They stay in your browser — nothing is uploaded to any server.",
     "Add renaming rules from the 'Add Rule' menu: Find & Replace, Prefix, Suffix, or Numbering to batch rename files your way.",
     "Configure each rule and stack multiple rules together — they're applied in order, so you can rename multiple files at once with complex patterns.",
     "Check the preview table to see every new filename before committing. File extensions are kept intact automatically.",
     "Click 'Download ZIP' to save all renamed files to your computer instantly."
   ],
-
-
   "bulk_file_renamer.why_use.title": "Why use this tool?",
-"bulk_file_renamer.why_use.benefits": [
+  "bulk_file_renamer.why_use.benefits": [
     {
       "icon": "shield-lock",
       "title": "Private and secure",
@@ -2347,7 +2530,6 @@
       "description": "Completely free file renamer with no account, no installation, and no limits. Open the page and start renaming."
     }
   ],
-
   "bulk_file_renamer.faq.title": "Frequently Asked Questions",
   "bulk_file_renamer.faq.items": [
     {
