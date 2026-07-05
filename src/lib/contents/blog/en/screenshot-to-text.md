@@ -74,7 +74,7 @@ Many payment confirmations, order summaries, travel bookings, and receipts are s
 
 Students and researchers often screenshot slides, PDFs, web pages, or online courses. OCR helps turn those screenshots into editable notes.
 
-If your screenshot is actually a photo or JPG image, you can also read the related guide on [JPG to text conversion](/blog/jpg-to-text-converter).
+If your screenshot is actually a photo or JPG image, you can extract text from it the same way with the [Image to Text tool](/image-to-text).
 
 ---
 
@@ -197,7 +197,7 @@ Screenshot to text is a specific type of image to text conversion.
 | JPG to text        | JPG/JPEG photos or scans                            | Extract text from image files                |
 | Handwriting OCR    | Handwritten notes or notebook photos                | Convert handwritten words into editable text |
 
-If your source is a photo or scanned JPG, read the guide on [JPG to text conversion](/blog/jpg-to-text-converter). If the source is handwritten notes, read the [handwriting OCR guide](/blog/handwriting-ocr).
+If your source is a photo, scanned JPG, or handwritten notes, the [Image to Text tool](/image-to-text) handles those too.
 
 ---
 

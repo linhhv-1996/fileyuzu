@@ -161,7 +161,7 @@ A few simple changes to how you prepare or capture an image can noticeably impro
 | WebP | Web images, browser-saved graphics | Usually fine if the tool supports the format |
 | Scanned PDF (image layer) | Physical documents, books, textbooks | Depends on scanner DPI; 200 DPI minimum recommended |
 
-For PNG screenshots, read the full [PNG to Text Converter guide](/blog/png-to-text-converter). For JPG photos and scans, see the [JPG to Text Converter guide](/blog/jpg-to-text-converter).
+PNG screenshots, JPG photos, and scans all work the same way in the [Image to Text tool](/image-to-text).
 
 ---
 
@@ -184,8 +184,8 @@ This does not mean browser-based OCR is always the most powerful option — serv
 | Japanese OCR | Extract kanji, kana, and mixed text from images | This guide + [Image to Text](/image-to-text) |
 | General image to text | Extract any language from any image | [Image to Text Converter](/image-to-text) |
 | Screenshot to text | Copy text from any screen capture | [Screenshot to Text](/blog/screenshot-to-text) |
-| JPG to text | Extract text from photo files | [JPG to Text Converter](/blog/jpg-to-text-converter) |
-| Handwriting OCR | Read handwritten Japanese notes | [Handwriting OCR](/handwriting-ocr) |
+| JPG to text | Extract text from photo files | [Image to Text](/image-to-text) |
+| Handwriting OCR | Read handwritten Japanese notes | [Image to Text](/image-to-text) |
 | Korean OCR | Extract Korean hangul from images | [Image to Text Converter](/image-to-text) |
 
 ---
@@ -196,7 +196,7 @@ Handwritten Japanese is a separate, harder problem. Printed characters follow co
 
 OCR can sometimes handle neat, block-style Japanese handwriting with careful pen strokes. It will struggle with cursive-style sōsho script, fast notes, crowded characters, non-standard stroke order, or text written on lined or grid paper that adds visual noise.
 
-If handwritten Japanese is your primary use case, use the dedicated [Handwriting OCR](/handwriting-ocr) tool and treat every output as a draft that needs careful proofreading.
+If handwritten Japanese is your primary use case, run it through [Image to Text](/image-to-text) and treat every output as a draft that needs careful proofreading.
 
 ---
 

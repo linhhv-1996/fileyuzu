@@ -107,5 +107,5 @@ Excelのフォントやコントロールを使ったバーコード作成は、
 
 ## 関連ガイド
 
-* バーコード画像の形式（PNG・SVG）の選び方：[無料オンラインバーコード作成ツール](/ja/blog/free-online-barcode-generator-svg-png)
-* JANコード（EAN-13）の作成・発行手順：[JANコードの作り方と発行手順](/ja/blog/complete-guide-to-jan-code-generation)
+* バーコード画像の形式（PNG・SVG）の選び方：[バーコード作成ツール](/ja/barcode-generator)
+* JANコード（EAN-13）の作成：[JANコード生成ツール](/ja/jan-code-generator)

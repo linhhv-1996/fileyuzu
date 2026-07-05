@@ -27,7 +27,7 @@
         )
     );
 
-    let popularSlugs = ['audio-to-text', 'image-to-text', 'compress-video', 'avi-to-mp4'];
+    let popularSlugs = ['audio-to-text', 'image-to-text', 'compress-video', 'video-converter'];
     let popularTools = $derived(
         popularSlugs
             .map(slug => tools.find(tool => tool.slug === slug))

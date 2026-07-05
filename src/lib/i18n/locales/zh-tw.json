@@ -1,2072 +1,1443 @@
 {
-  "blog.toc": "目錄",
-  "blog.subtitle": "來自 UploadLess 的實用指南、技巧分享，以及偶爾的更新消息。",
-  "blog.read_article": "閱讀文章",
-  "common.try_now": "免費使用這個工具",
-  "home.search.placeholder": "搜尋工具",
-  "blog.author_bio": "J.Julian 是 UploadLess 的創作者兼首席開發者。他擁有深厚的軟體工程與 Web 架構背景，致力於為現代 Web 打造安全、高效能且使用者友善的檔案分享解決方案。",
-  "compress_video.upload.title": "將要壓縮的影片檔案拖放到這裡",
-  "compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM 等 · 最大 500 MB",
-  "compress_video.upload.btn_select": "選擇影片檔案",
-  "compress_video.upload.btn_sample": "試用範例影片",
-  "compress_video.upload.hint": "請選擇一個要壓縮並縮小檔案大小的影片",
-  "compress_mp4.upload.title": "將要壓縮的 MP4 檔案拖放到這裡",
-  "compress_mp4.upload.subtitle": "MP4 · 最大 500 MB · 保持畫質並縮小檔案",
-  "compress_mp4.upload.btn_select": "選擇 MP4 檔案",
-  "compress_mp4.upload.btn_sample": "試用範例 MP4",
-  "compress_mp4.upload.hint": "請選擇一個要壓縮並縮小的 MP4 檔案",
-  "reduce_video_size.upload.title": "將要縮小尺寸的影片檔案拖放到這裡",
-  "reduce_video_size.upload.subtitle": "MP4、MOV、AVI、MKV、WebM 等 · 最大 500 MB",
-  "reduce_video_size.upload.btn_select": "瀏覽影片檔案",
-  "reduce_video_size.upload.btn_sample": "使用範例影片",
-  "reduce_video_size.upload.hint": "請上傳一個要快速縮小檔案大小的影片",
-  "video_converter.upload.title": "將要轉換的影片檔案拖放到這裡",
-  "video_converter.upload.subtitle": "MP4、MOV、AVI、MKV、WebM 等 · 在瀏覽器中轉換",
-  "video_converter.upload.btn_select": "選擇影片檔案",
-  "video_converter.upload.btn_sample": "試用範例影片",
-  "video_converter.upload.hint": "請選擇一個要轉換成其他格式的影片檔案",
-  "mov_to_mp4.upload.title": "將要轉換為 MP4 的 MOV 檔案拖放到這裡",
-  "mov_to_mp4.upload.subtitle": "MOV · 轉換為 MP4，播放更方便",
-  "mov_to_mp4.upload.btn_select": "選擇 MOV 檔案",
-  "mov_to_mp4.upload.btn_sample": "試用範例 MOV",
-  "mov_to_mp4.upload.hint": "請選擇一個要轉換為 MP4 的 MOV 影片檔案",
-  "avi_to_mp4.upload.title": "將要轉換為 MP4 的 AVI 檔案拖放到這裡",
-  "avi_to_mp4.upload.subtitle": "AVI · 轉換為 MP4，提升相容性",
-  "avi_to_mp4.upload.btn_select": "選擇 AVI 檔案",
-  "avi_to_mp4.upload.btn_sample": "試用範例 AVI",
-  "avi_to_mp4.upload.hint": "請選擇一個要轉換為 MP4 的 AVI 影片檔案",
-  "mkv_to_mp4.upload.title": "將要轉換為 MP4 的 MKV 檔案拖放到這裡",
-  "mkv_to_mp4.upload.subtitle": "MKV · 轉換為 MP4，播放更方便",
-  "mkv_to_mp4.upload.btn_select": "選擇 MKV 檔案",
-  "mkv_to_mp4.upload.btn_sample": "試用範例 MKV",
-  "mkv_to_mp4.upload.hint": "請選擇一個要轉換為 MP4 的 MKV 影片檔案",
-  "webm_to_mp4.upload.title": "將要轉換為 MP4 的 WebM 檔案拖放到這裡",
-  "webm_to_mp4.upload.subtitle": "WebM · 轉換為 MP4，支援更多裝置",
-  "webm_to_mp4.upload.btn_select": "選擇 WebM 檔案",
-  "webm_to_mp4.upload.btn_sample": "試用範例 WebM",
-  "webm_to_mp4.upload.hint": "請選擇一個要轉換為 MP4 的 WebM 影片檔案",
-  "mp4_converter.upload.title": "將要轉換為 MP4 的影片檔案拖放到這裡",
-  "mp4_converter.upload.subtitle": "多種影片格式 · 轉換為 MP4",
-  "mp4_converter.upload.btn_select": "選擇影片檔案",
-  "mp4_converter.upload.btn_sample": "試用範例影片",
-  "mp4_converter.upload.hint": "請選擇一個要轉換為 MP4 的影片檔案",
-  "video_2_mp3.upload.title": "將要轉換為 MP3 的影片檔案拖放到這裡",
-  "video_2_mp3.upload.subtitle": "多種影片格式 · 擷取音訊為 MP3",
-  "video_2_mp3.upload.btn_select": "選擇影片檔案",
-  "video_2_mp3.upload.btn_sample": "試用範例影片",
-  "video_2_mp3.upload.hint": "請選擇一個要將音訊轉換為 MP3 的影片檔案",
-  "pdf_compressor.upload.title": "將要壓縮的 PDF 檔案拖放到這裡",
-  "pdf_compressor.upload.subtitle": "PDF · 最大 100 MB · 縮小檔案大小",
-  "pdf_compressor.upload.btn_select": "選擇 PDF 檔案",
-  "pdf_compressor.upload.btn_sample": "試用範例 PDF",
-  "pdf_compressor.upload.hint": "請選擇一個要壓縮並縮小的 PDF 檔案",
-  "_comment_home": "================ Home ================",
-  "home.seo.title": "免費線上工具 — 瀏覽器內使用，無需上傳",
-  "home.seo.description": "使用免費線上工具處理檔案、圖片、PDF、影片、文字、條碼等，全部直接在瀏覽器中完成。無需上傳、無需註冊，您的資料保持私密。",
-  "home.hero.title": "免費線上工具",
-  "home.popular_tools": "熱門工具",
-  "home.popular": "熱門",
-  "home.hero.description": "快速且注重隱私的日常工具，直接在瀏覽器中執行。無需上傳 — 您的檔案永遠不會離開您的裝置。",
-  "home.pill.private": "檔案永遠不會離開你的裝置",
-  "home.pill.instant": "立即處理，無需排隊",
-  "home.pill.free": "100% 免費",
-  "home.why.private.title": "100% 隱私保護",
-  "home.why.private.desc": "壓縮透過 WebAssembly 在瀏覽器中執行。你的檔案永遠不會離開裝置。",
-  "home.why.instant.title": "無需註冊",
-  "home.why.instant.desc": "打開頁面即可開始。無需帳號、無浮水印、無時間限制。",
-  "home.why.device.title": "適用於任何裝置",
-  "home.why.device.desc": "完全響應式設計。無需安裝 App。",
-  "home.faq.title": "常見問題",
-  "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
-  "home.faq.items": [
-    {
-      "q": "UploadLess 的所有工具都可以免費使用嗎？",
-      "a": "可以。UploadLess 的所有工具都可以免費使用。你不需要付費、訂閱或建立帳號，就能壓縮檔案、轉換格式、擷取文字、產生條碼，或使用其他瀏覽器工具。"
-    },
-    {
-      "q": "我需要把檔案上傳到伺服器嗎？",
-      "a": "不需要。UploadLess 的設計是在可行的情況下，直接在你的瀏覽器中處理檔案。你的檔案會保留在自己的裝置上，而不是上傳到遠端伺服器，讓日常使用更快速，也更具隱私性。"
-    },
-    {
-      "q": "UploadLess 如何在瀏覽器中處理檔案？",
-      "a": "許多工具會使用 WebAssembly 等現代瀏覽器技術，在你的裝置上本機執行檔案處理。這讓影片壓縮、PDF 壓縮、OCR、音訊轉換、格式轉換等工作，不需要傳統的伺服器端上傳也能完成。"
-    },
-    {
-      "q": "我需要建立帳號嗎？",
-      "a": "不需要。UploadLess 不需要註冊。你只要開啟需要的工具、選擇檔案、在瀏覽器中處理，然後下載結果即可，不需要註冊或輸入電子郵件地址。"
-    },
-    {
-      "q": "UploadLess 有哪些工具？",
-      "a": "UploadLess 提供多種免費工具，包括影片壓縮、音訊與影片轉換、PDF 壓縮、圖片壓縮、OCR、音訊或影片轉文字、條碼產生、從影片擷取影格、文字工具，以及更多實用的檔案工具。"
-    },
-    {
-      "q": "UploadLess 對私人檔案安全嗎？",
-      "a": "UploadLess 以隱私為核心設計。對於支援的工具，處理會在你的瀏覽器中本機完成，因此檔案不會被傳送到 UploadLess 伺服器。這很適合處理個人文件、工作檔案、錄音、截圖和其他敏感檔案。"
-    },
-    {
-      "q": "有檔案大小限制嗎？",
-      "a": "因為檔案是在你的裝置上處理，而不是上傳到伺服器，所以沒有一般常見的上傳限制。不過，非常大的檔案仍可能受到瀏覽器、記憶體、儲存空間或裝置效能影響。較新或效能較好的裝置通常可以更順利地處理較大的檔案。"
-    },
-    {
-      "q": "為什麼有些工具第一次使用時會比較久？",
-      "a": "有些工具在第一次使用時，需要載入瀏覽器端的處理函式庫或 AI 模型。第一次載入後，瀏覽器可能會快取這些檔案，因此之後使用通常會更快。"
-    },
-    {
-      "q": "UploadLess 可以在手機上使用嗎？",
-      "a": "可以。UploadLess 可在手機和平板的現代行動瀏覽器中使用。較小的檔案通常在手機上也能順利處理，但大型影片、PDF 或 AI 相關任務，可能在記憶體和處理效能更好的桌機或筆電上表現更好。"
-    },
-    {
-      "q": "什麼時候應該使用 UploadLess，而不是一般線上檔案轉換器？",
-      "a": "當你想要快速、免費地處理檔案，而且不想把檔案上傳到第三方伺服器時，就適合使用 UploadLess。它特別適合在瀏覽器中直接完成簡單任務，例如壓縮影片、減少 PDF 大小、轉換音訊、從圖片擷取文字，或從檔案取得逐字稿。"
-    }
-  ],
-  "_comment_categories": "================ Tool Categories ================",
-  "home.category.video": "影片",
-  "home.category.pdf": "PDF",
-  "compress_video.seo.title": "影片壓縮不用上傳｜免費線上壓縮 MP4、MOV、MKV - UploadLess",
-  "compress_video.seo.description": "不用上傳、不用安裝，瀏覽器直接壓縮影片，完全免費。支援 MP4、MOV、AVI、MKV、WebM 等格式，可自訂壓縮率與畫質，沒有檔案大小限制，影片全程留在你的裝置上處理，安全又快速，適合上傳社群平台、傳送 Email、Discord 或存放雲端空間前使用的線上影片壓縮工具，手機平板電腦都能操作。",
-  "compress_video.hero.title": "免費線上影片壓縮工具",
-  "compress_video.hero.description": "線上壓縮影片並縮小影片檔案大小——無需上傳、無需註冊。全程在瀏覽器中私密執行，支援 MP4、MOV、AVI、MKV、WebM 等幾乎所有常見影片格式。",
-  "compress_video.settings.auto_optimize": "自動最佳化",
-  "compress_video.settings.size_lbl": "目標檔案大小",
-  "compress_video.btn.compress": "壓縮影片",
-  "compress_video.btn.download": "下載影片",
-  "compress_video.btn.compress_new": "壓縮新檔案",
-  "compress_video.proc.compressing": "正在壓縮影片",
-  "compress_video.how_to_use.title": "如何線上壓縮影片",
-  "compress_video.how_to_use.steps": [
-    "從你的裝置選擇影片檔案，或直接將檔案拖放到上傳區域。",
-    "選擇「自動最佳化」讓工具自動在畫質與檔案大小之間取得平衡，或使用「目標檔案大小」輸入想要壓縮到的 MB 大小。也可以直接選擇 LINE、Discord、Slack、Gmail 等常見平台的快速標籤。",
-    "點擊「壓縮」並稍候片刻。所有處理都會在你的瀏覽器本機執行，你的影片不會被上傳到伺服器。完成後即可下載壓縮後的影片。"
-  ],
-  "compress_video.why_use.title": "為什麼選擇 UploadLess",
-  "compress_video.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "100% 隱私保護",
-      "description": "影片壓縮會直接在你的瀏覽器中執行。檔案不會被上傳到伺服器，也不會離開你的裝置。"
-    },
-    {
-      "icon": "bolt",
-      "title": "免費且無需註冊",
-      "description": "打開頁面即可開始壓縮影片。無需建立帳號、無浮水印，也不需要安裝任何軟體。"
-    },
-    {
-      "icon": "player-play",
-      "title": "支援多種影片格式",
-      "description": "可壓縮 MP4、MOV、AVI、MKV、WebM 等幾乎所有常見影片格式，適合日常分享與上傳前縮小檔案。"
-    },
-    {
-      "icon": "adjustments",
-      "title": "彈性的壓縮方式",
-      "description": "可選擇自動最佳化，也可以設定目標檔案大小，將影片壓縮到指定 MB。並提供 LINE、Discord、Slack、Gmail 等常見平台快速標籤。"
-    }
-  ],
-  "compress_video.faq.title": "影片壓縮工具常見問題",
-  "compress_video.faq.items": [
-    {
-      "q": "這個影片壓縮工具是免費的嗎？",
-      "a": "是的。你可以免費線上壓縮影片，無需註冊帳號，也不需要安裝軟體。打開頁面後即可直接選擇影片並開始壓縮。"
-    },
-    {
-      "q": "支援哪些影片格式？",
-      "a": "支援 MP4、MOV、AVI、MKV、WebM 等幾乎所有常見影片格式。無論你想壓縮手機影片、螢幕錄影、相機影片或下載的影片檔，都可以直接在瀏覽器中處理。"
-    },
-    {
-      "q": "可以線上壓縮影片檔案嗎？",
-      "a": "可以。你可以直接使用瀏覽器線上壓縮影片檔案，不需要上傳到雲端，也不需要下載桌面軟體。影片會在你的裝置本機完成壓縮。"
-    },
-    {
-      "q": "如何縮小影片大小？",
-      "a": "上傳影片後，你可以選擇「自動最佳化」，讓工具自動在畫質與檔案大小之間取得平衡；也可以使用「目標檔案大小」輸入想要壓縮到的 MB 大小。"
-    },
-    {
-      "q": "可以把影片壓縮到指定 MB 嗎？",
-      "a": "可以。選擇「目標檔案大小」後，輸入想要的 MB 數值，工具會嘗試將影片壓縮到接近指定大小。這很適合需要符合上傳、傳送或附件限制的情境。"
-    },
-    {
-      "q": "可以壓縮影片給 LINE、Discord、Slack 或 Gmail 使用嗎？",
-      "a": "可以。工具提供 LINE、Discord、Slack、Gmail 等常見平台的快速標籤，你可以直接選擇平台建議大小，快速把影片壓縮到更適合分享或傳送的檔案大小。"
-    },
-    {
-      "q": "壓縮影片後畫質會變差嗎？",
-      "a": "影片壓縮通常會在檔案大小與畫質之間取捨。若想保留較好的畫質，建議使用「自動最佳化」；若檔案大小限制比較重要，可以改用「目標檔案大小」設定指定 MB。"
-    },
-    {
-      "q": "可以壓縮高畫質、HD 或 4K 影片嗎？",
-      "a": "可以處理 HD、4K 等高解析度影片，但實際速度與可壓縮程度會取決於影片長度、原始檔案大小、編碼格式，以及你的裝置效能。較大的影片可能需要更久時間。"
-    },
-    {
-      "q": "我的影片會被上傳到伺服器嗎？",
-      "a": "不會。影片壓縮會直接在你的瀏覽器本機執行，檔案不會被上傳到伺服器，也不會離開你的裝置。這很適合處理私人影片、工作影片或不想上傳的檔案。"
-    },
-    {
-      "q": "壓縮後的影片可以在哪些裝置播放？",
-      "a": "壓縮後的影片會盡量保持常見裝置與平台的相容性，適合在手機、電腦、平板，以及 LINE、Discord、Slack、Gmail 等常見分享場景中使用。"
-    }
-  ],
-  "_comment_pdf_compressor": "================ PDF Compressor ================",
-  "pdf_compressor.seo.title": "PDF 壓縮工具｜免費線上縮小 PDF 檔案大小 - UploadLess",
-  "pdf_compressor.seo.description": "免費線上壓縮 PDF，快速縮小 PDF 檔案大小與容量。免安裝、免註冊，檔案在瀏覽器中處理，不需上傳，兼顧速度、畫質與隱私。",
-  "pdf_compressor.hero.title": "免費線上 PDF 壓縮工具",
-  "pdf_compressor.hero.description": "直接在瀏覽器中壓縮 PDF，快速縮小檔案大小與容量。無需上傳、免安裝、免註冊，適合報告、履歷、合約與掃描 PDF。",
-  "pdf_compressor.settings.quality_lbl": "畫質預設",
-  "pdf_compressor.settings.quality_balanced": "平衡（電子書）",
-  "pdf_compressor.settings.quality_maximum": "最大壓縮（螢幕）",
-  "pdf_compressor.settings.password_lbl": "解鎖密碼（選填）",
-  "pdf_compressor.settings.password_placeholder": "密碼（若已加密）",
-  "pdf_compressor.btn.compress": "壓縮 PDF",
-  "pdf_compressor.btn.download": "下載 PDF",
-  "pdf_compressor.btn.compress_new": "壓縮新檔案",
-  "pdf_compressor.proc.compressing": "正在壓縮 PDF",
-  "pdf_compressor.how_to_use.title": "如何線上壓縮 PDF",
-  "pdf_compressor.how_to_use.steps": [
-    "上傳 PDF 檔案，或將檔案直接拖放到壓縮區域。",
-    "選擇壓縮模式，例如平衡畫質或最大壓縮；若 PDF 有密碼保護，也可以先輸入密碼。",
-    "點擊「壓縮 PDF」，系統會在瀏覽器中縮小檔案大小。完成後即可下載壓縮後的 PDF。"
-  ],
-  "pdf_compressor.why_use.title": "為什麼使用 UploadLess PDF 壓縮工具",
-  "pdf_compressor.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "檔案不需上傳",
-      "description": "PDF 壓縮會直接在瀏覽器中執行，檔案不會離開你的裝置，更適合處理合約、報告與私人文件。"
-    },
-    {
-      "icon": "bolt",
-      "title": "免費免註冊",
-      "description": "打開頁面即可壓縮 PDF，不需要建立帳號、不加浮水印，也不需要安裝任何軟體。"
-    },
-    {
-      "icon": "player-play",
-      "title": "操作簡單快速",
-      "description": "上傳 PDF、選擇壓縮模式、下載檔案，幾個步驟就能縮小 PDF 檔案大小。"
-    },
-    {
-      "icon": "adjustments",
-      "title": "可選壓縮品質",
-      "description": "依照需求選擇平衡壓縮或最大壓縮，在檔案大小與 PDF 清晰度之間取得合適平衡。"
-    }
-  ],
-  "pdf_compressor.faq.title": "PDF 壓縮工具常見問題",
-  "pdf_compressor.faq.items": [
-    {
-      "q": "我的 PDF 會被上傳到伺服器嗎？",
-      "a": "不會。所有 PDF 壓縮都會直接在你的瀏覽器中完成，檔案不會離開裝置，適合處理合約、報告、履歷與其他私人文件。"
-    },
-    {
-      "q": "這個 PDF 壓縮工具是免費的嗎？",
-      "a": "是的，這個線上 PDF 壓縮工具可以免費使用。你不需要註冊帳號，也不需要安裝軟體，就能縮小 PDF 檔案大小。"
-    },
-    {
-      "q": "最大可以壓縮多大的 PDF 檔案？",
-      "a": "目前支援最高 100 MB 的 PDF 檔案。實際處理速度會依照檔案大小、頁數、圖片數量與你的裝置效能而有所不同。"
-    },
-    {
-      "q": "壓縮 PDF 會影響畫質嗎？",
-      "a": "可能會。PDF 壓縮通常會透過降低圖片大小與最佳化檔案結構來縮小容量。你可以選擇較平衡的壓縮模式，在檔案大小與清晰度之間取得合適效果。"
-    },
-    {
-      "q": "如何把 PDF 檔案大小壓縮到更小？",
-      "a": "如果想進一步縮小 PDF 檔案大小，可以選擇最大壓縮模式。這通常能減少更多容量，但圖片清晰度可能會比平衡模式低一些。"
-    },
-    {
-      "q": "可以壓縮有密碼保護的 PDF 嗎？",
-      "a": "可以。如果 PDF 有密碼保護，請先輸入正確密碼，工具才能在瀏覽器中讀取並壓縮 PDF 檔案。"
-    },
-    {
-      "q": "壓縮後的 PDF 會有浮水印嗎？",
-      "a": "不會。使用這個免費線上 PDF 壓縮工具產生的檔案不會被加入浮水印，下載後可以直接使用或分享。"
-    },
-    {
-      "q": "手機也可以線上壓縮 PDF 嗎？",
-      "a": "可以。只要使用支援的瀏覽器，就能在手機、平板或電腦上壓縮 PDF。由於處理會在本機執行，較大的 PDF 在手機上可能需要更多時間。"
-    },
-    {
-      "q": "為什麼我的 PDF 壓縮後容量沒有變小很多？",
-      "a": "如果 PDF 本身已經壓縮過，或主要內容是文字而不是高解析圖片，檔案大小可能不會明顯下降。含有大量圖片或掃描頁面的 PDF 通常壓縮效果會更明顯。"
-    },
-    {
-      "q": "壓縮 PDF 後可以保留原本的內容與排版嗎？",
-      "a": "通常可以。工具會盡量保留 PDF 的文字、頁面順序與版面配置，同時縮小檔案大小。不過若選擇高壓縮模式，圖片細節可能會略有下降。"
-    }
-  ],
-  "related_tools.title": "相關工具",
-  "common.tools": "工具",
-  "common.blog": "部落格",
-  "blog.also_read": "另請閱讀",
-  "common.language": "語言",
-  "common.footer.copyright": "© 2025 UploadLess",
-  "common.footer.about": "關於",
-  "common.footer.privacy": "隱私權",
-  "common.footer.terms": "條款",
-  "common.footer.contact": "聯絡我們",
-  "tool.compress_video.title": "影片壓縮工具",
-  "tool.compress_video.description": "在瀏覽器中免費壓縮影片。你的檔案會保持私密，絕不會上傳到我們的伺服器。",
-  "tool.compress_video.short_description": "在瀏覽器中私密壓縮影片。",
-  "tool.pdf_compressor.title": "PDF 壓縮工具",
-  "tool.pdf_compressor.description": "直接在瀏覽器中免費縮小 PDF 檔案大小。無需上傳，因此你的文件能保持私密。",
-  "tool.pdf_compressor.short_description": "無需上傳檔案即可縮小 PDF 大小。",
-  "tool.video_converter.title": "影片轉換工具",
-  "tool.video_converter.description": "免費將影片檔案轉換為不同格式。所有流程都在瀏覽器中執行，無需將檔案上傳到伺服器。",
-  "tool.video_converter.short_description": "直接在瀏覽器中轉換影片。",
-  "tool.mov_to_mp4.title": "MOV 轉 MP4",
-  "tool.mov_to_mp4.description": "在瀏覽器中免費將 MOV 影片轉換為 MP4。快速、私密，且無需上傳到伺服器。",
-  "tool.mov_to_mp4.short_description": "私密地將 MOV 影片轉換為 MP4。",
-  "tool.avi_to_mp4.title": "AVI 轉 MP4",
-  "tool.avi_to_mp4.description": "直接在你的裝置上免費將 AVI 檔案轉換為 MP4。你的影片不會上傳到我們的伺服器。",
-  "tool.avi_to_mp4.short_description": "在你的裝置上將 AVI 檔案轉換為 MP4。",
-  "tool.mkv_to_mp4.title": "MKV 轉 MP4",
-  "tool.mkv_to_mp4.description": "在瀏覽器中免費將 MKV 影片轉換為 MP4。私密處理，無需上傳檔案。",
-  "tool.mkv_to_mp4.short_description": "私密地將 MKV 影片轉換為 MP4。",
-  "tool.webm_to_mp4.title": "WebM 轉 MP4",
-  "tool.webm_to_mp4.description": "直接在瀏覽器中免費將 WebM 影片轉換為 MP4。你的檔案會留在裝置上。",
-  "tool.webm_to_mp4.short_description": "在瀏覽器中將 WebM 影片轉換為 MP4。",
-  "tool.video_to_mp3.title": "影片轉 MP3",
-  "tool.video_to_mp3.description": "免費從影片中擷取 MP3 音訊。以瀏覽器為基礎的私密轉換，無需上傳到伺服器。",
-  "tool.video_to_mp3.short_description": "私密地從影片中擷取 MP3 音訊。",
-  "tool.mp4_converter.title": "MP4 轉換工具",
-  "tool.mp4_converter.description": "在瀏覽器中免費將影片轉換為 MP4。安全、私密，且不會上傳任何檔案。",
-  "tool.mp4_converter.short_description": "安全地將影片轉換為 MP4。",
-  "tool.compress_mp4.title": "壓縮 MP4",
-  "tool.compress_mp4.description": "直接在瀏覽器中免費縮小 MP4 檔案大小。你的影片會私密地留在裝置上。",
-  "tool.compress_mp4.short_description": "在你的裝置上壓縮 MP4 檔案。",
-  "tool.reduce_video_size.title": "縮小影片大小",
-  "tool.reduce_video_size.description": "無需上傳即可免費縮小影片檔案。壓縮會在你的瀏覽器中私密執行。",
-  "tool.reduce_video_size.short_description": "私密地縮小影片檔案。",
-  "_comment_video_converter": "================ Video Converter ================",
-  "video_converter.seo.title": "影片轉檔工具｜免費線上轉換 MP4、MOV、MKV、WebM、AVI｜UploadLess",
-  "video_converter.seo.description": "免費線上影片轉檔工具，支援多種主流影片格式，無需安裝任何軟體，不需上傳至伺服器，全程在瀏覽器本地完成轉換處理，安全保護您的隱私，轉換速度快，操作簡單方便，立即免費使用。",
-  "video_converter.hero.title": "免費線上影片轉檔工具",
-  "video_converter.hero.description": "在瀏覽器中轉換影片格式，支援 MP4、MOV、MKV、WebM、AVI。免安裝、不用上傳檔案，快速、安全又方便。",
-  "video_converter.settings.format_lbl": "目標格式",
-  "video_converter.btn.convert": "轉換影片",
-  "video_converter.btn.download": "下載檔案",
-  "video_converter.btn.convert_new": "轉換新檔案",
-  "video_converter.proc.converting": "正在轉換影片",
-  "video_converter.how_to_use.title": "如何線上轉換影片",
-  "video_converter.how_to_use.steps": [
-    "選擇要轉換的影片檔案，或直接將檔案拖放到上傳區域。",
-    "選擇想要的輸出格式，例如 MP4、MOV、MKV、WebM、AVI 或 MP3。",
-    "點擊「轉換」開始影片轉檔。整個流程會在你的瀏覽器本機執行，檔案不會上傳到伺服器；完成後即可下載轉換後的檔案。"
-  ],
-  "video_converter.why_use.title": "為什麼使用 UploadLess 轉換工具",
-  "video_converter.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "保護你的檔案隱私",
-      "description": "影片轉檔會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置。"
-    },
-    {
-      "icon": "bolt",
-      "title": "免安裝、免註冊",
-      "description": "不用下載軟體，也不需要建立帳號。開啟網頁後即可立即開始轉換影片格式。"
-    },
-    {
-      "icon": "player-play",
-      "title": "支援多種影片格式",
-      "description": "支援 MP4、MOV、MKV、WebM、AVI 等常見影片格式，也可將影片音訊擷取為 MP3。"
-    },
-    {
-      "icon": "rocket",
-      "title": "快速完成影片轉檔",
-      "description": "轉換流程針對瀏覽器處理最佳化，無需排隊等待伺服器，即可快速取得轉換後的檔案。"
-    }
-  ],
-  "video_converter.faq.title": "影片轉換工具常見問題",
-  "video_converter.faq.items": [
-    {
-      "q": "這個線上影片轉檔工具是免費的嗎？",
-      "a": "是的，你可以免費使用這個線上影片轉檔工具轉換影片格式。開啟網頁後即可直接使用，不需要安裝軟體或建立帳號。"
-    },
-    {
-      "q": "我的影片檔案會被上傳到伺服器嗎？",
-      "a": "不會。影片轉檔會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置，因此更能保護檔案隱私。"
-    },
-    {
-      "q": "支援哪些影片格式轉換？",
-      "a": "此工具支援常見影片格式轉換，包括 MP4、MOV、MKV、WebM、AVI 等格式。你也可以將影片轉換為 MP3，擷取影片中的音訊。"
-    },
-    {
-      "q": "可以把影片轉成 MP4 嗎？",
-      "a": "可以。你可以將 MOV、MKV、WebM、AVI 等常見影片格式轉成 MP4。MP4 相容性高，適合在手機、電腦、社群平台或播放器上使用。"
-    },
-    {
-      "q": "可以將影片轉成 MP3 音訊檔嗎？",
-      "a": "可以。選擇 MP3 作為輸出格式後，工具會從影片中擷取音訊並轉換成 MP3，適合用來保存錄音、課程、訪談或影片配樂。"
-    },
-    {
-      "q": "需要安裝影片轉檔軟體嗎？",
-      "a": "不需要。這是一個線上影片轉檔工具，可直接在瀏覽器中使用。你不必下載軟體，也不用安裝外掛，就能完成影片格式轉換。"
-    },
-    {
-      "q": "手機上也可以轉換影片格式嗎？",
-      "a": "可以。只要你的手機瀏覽器支援檔案選取與本機處理，就可以在手機上進行影片轉檔。不過大型影片可能會受到裝置效能與瀏覽器限制影響。"
-    },
-    {
-      "q": "影片轉檔需要多久？",
-      "a": "轉換時間取決於影片大小、長度、輸出格式與你的裝置效能。由於轉檔是在瀏覽器本機執行，通常不需要等待伺服器排隊。"
-    },
-    {
-      "q": "為什麼要轉換影片格式？",
-      "a": "轉換影片格式可以提升相容性、減少播放問題，或讓影片更適合上傳到不同平台。例如將 MOV、MKV、WebM 或 AVI 轉成 MP4，通常更方便分享與播放。"
-    },
-    {
-      "q": "線上影片轉檔會影響影片品質嗎？",
-      "a": "影片品質可能會因輸出格式、編碼方式與壓縮設定而改變。一般來說，轉換成相容性較高的格式時，工具會盡量在檔案大小與影片品質之間取得平衡。"
-    }
-  ],
-  "_comment_compress_mp4": "================ Compress MP4 ================",
-  "compress_mp4.seo.title": "MP4壓縮工具｜免費線上壓縮MP4 - UploadLess",
-  "compress_mp4.seo.description": "使用 UploadLess 免費線上壓縮 MP4 影片，快速縮小 MP4 檔案大小。直接在瀏覽器中私密處理，無需上傳、無需註冊，也不需要安裝軟體。",
-  "compress_mp4.hero.title": "免費線上 MP4 壓縮工具",
-  "compress_mp4.hero.description": "線上縮小 MP4 檔案大小——無需上傳、無需註冊。全程在瀏覽器本機執行，適合分享、上傳或傳送前壓縮 MP4 影片。",
-  "compress_mp4.settings.auto_optimize": "自動最佳化",
-  "compress_mp4.settings.size_lbl": "目標檔案大小",
-  "compress_mp4.btn.compress": "壓縮 MP4",
-  "compress_mp4.btn.download": "下載 MP4",
-  "compress_mp4.btn.compress_new": "壓縮新檔案",
-  "compress_mp4.proc.compressing": "正在壓縮 MP4",
-  "compress_mp4.how_to_use.title": "如何線上壓縮 MP4",
-  "compress_mp4.how_to_use.steps": [
-    "從你的裝置選擇 MP4 檔案，或直接將檔案拖放到上傳區域。",
-    "選擇「自動最佳化」讓工具自動平衡畫質與檔案大小，或使用「目標檔案大小」輸入想要壓縮到的 MB 大小。也可以選擇 LINE、Discord、Slack、Gmail 等常見平台的快速標籤。",
-    "點擊「壓縮」並稍候片刻。所有 MP4 壓縮處理都會在你的瀏覽器本機執行，檔案不會被上傳到伺服器。完成後即可下載壓縮後的 MP4 影片。"
-  ],
-  "compress_mp4.why_use.title": "為什麼使用 UploadLess MP4 壓縮工具",
-  "compress_mp4.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "100% 隱私保護",
-      "description": "MP4 壓縮會直接在你的瀏覽器中執行。檔案不會被上傳到伺服器，也不會離開你的裝置。"
-    },
-    {
-      "icon": "bolt",
-      "title": "免費且無需註冊",
-      "description": "打開頁面即可開始壓縮 MP4。無需建立帳號、無浮水印，也不需要安裝任何軟體。"
-    },
-    {
-      "icon": "player-play",
-      "title": "專為 MP4 影片設計",
-      "description": "針對 MP4 影片壓縮流程最佳化，適合縮小手機影片、螢幕錄影、社群短片或上傳前的 MP4 檔案大小。"
-    },
-    {
-      "icon": "adjustments",
-      "title": "彈性的目標大小",
-      "description": "可選擇自動最佳化，也可以設定目標檔案大小，將 MP4 壓縮到指定 MB。並提供 LINE、Discord、Slack、Gmail 等常見平台快速標籤。"
-    }
-  ],
-  "compress_mp4.faq.title": "MP4 壓縮工具常見問題",
-  "compress_mp4.faq.items": [
-    {
-      "q": "這個 MP4 壓縮工具是免費的嗎？",
-      "a": "是的。你可以免費線上壓縮 MP4 影片，無需註冊帳號，也不需要安裝軟體。打開頁面後即可直接選擇 MP4 檔案並開始壓縮。"
-    },
-    {
-      "q": "如何線上壓縮 MP4 檔案？",
-      "a": "選擇或拖放你的 MP4 檔案後，可以使用「自動最佳化」快速縮小檔案大小，或使用「目標檔案大小」輸入想要壓縮到的 MB 數值。接著點擊「壓縮」，完成後即可下載壓縮後的 MP4。"
-    },
-    {
-      "q": "可以縮小 MP4 檔案大小嗎？",
-      "a": "可以。這個工具可以幫你縮小 MP4 檔案大小，適合在上傳、分享、寄信或傳送到 LINE、Discord、Slack、Gmail 等平台前使用。"
-    },
-    {
-      "q": "可以把 MP4 壓縮到指定 MB 嗎？",
-      "a": "可以。選擇「目標檔案大小」後，輸入想要的 MB 大小，工具會嘗試將 MP4 壓縮到接近指定容量。這很適合處理附件大小限制或平台上傳限制。"
-    },
-    {
-      "q": "自動最佳化和目標檔案大小有什麼不同？",
-      "a": "「自動最佳化」會自動在畫質與檔案大小之間取得平衡，適合大多數 MP4 壓縮情境。「目標檔案大小」則適合你需要將 MP4 壓縮到特定 MB，例如 8 MB、25 MB 或 100 MB。"
-    },
-    {
-      "q": "壓縮 MP4 後畫質會變差嗎？",
-      "a": "MP4 壓縮通常會在畫質與檔案大小之間取捨。若想保留較好的畫質，建議使用「自動最佳化」；若檔案大小限制更重要，可以使用「目標檔案大小」指定 MB。"
-    },
-    {
-      "q": "我的 MP4 影片會被上傳到伺服器嗎？",
-      "a": "不會。MP4 壓縮會直接在你的瀏覽器本機執行，檔案不會被上傳到伺服器，也不會離開你的裝置。這很適合處理私人影片、工作影片或不想上傳的 MP4 檔案。"
-    },
-    {
-      "q": "支援多大的 MP4 檔案？",
-      "a": "目前最高支援 500 MB 的 MP4 檔案。由於壓縮會在瀏覽器本機執行，較大的影片可能需要更久時間，實際速度也會受到裝置效能影響。"
-    },
-    {
-      "q": "可以壓縮手機拍攝的 MP4 影片嗎？",
-      "a": "可以。手機拍攝的 MP4 影片通常檔案較大，你可以使用這個工具線上縮小 MP4 檔案大小，方便傳送、備份、上傳到社群平台或分享給朋友。"
-    },
-    {
-      "q": "壓縮後的 MP4 可以在哪些平台使用？",
-      "a": "壓縮後的 MP4 適合用於 LINE、Discord、Slack、Gmail、社群平台、網站上傳或一般裝置播放。你也可以使用平台快速標籤，將 MP4 壓縮到更適合分享的大小。"
-    }
-  ],
-  "_comment_reduce_video_size": "================ Reduce Video Size ================",
-  "reduce_video_size.seo.title": "縮小影片大小｜免費線上降低影片容量 - UploadLess",
-  "reduce_video_size.seo.description": "使用 UploadLess 免費線上縮小影片檔案大小，快速降低影片容量。支援 MP4、MOV、AVI、MKV、WebM 等常見格式，直接在瀏覽器本機處理，無需上傳、無需註冊。",
-  "reduce_video_size.hero.title": "免費線上縮小影片檔案大小",
-  "reduce_video_size.hero.description": "快速降低影片容量，讓影片更適合上傳、分享或傳送。可自動最佳化，也可設定目標 MB；全程在瀏覽器本機執行。",
-  "reduce_video_size.settings.auto_optimize": "自動最佳化",
-  "reduce_video_size.settings.size_lbl": "目標檔案大小",
-  "reduce_video_size.btn.compress": "縮小大小",
-  "reduce_video_size.btn.download": "下載影片",
-  "reduce_video_size.btn.compress_new": "縮小新檔案",
-  "reduce_video_size.proc.compressing": "正在縮小大小",
-  "reduce_video_size.how_to_use.title": "如何線上縮小影片大小",
-  "reduce_video_size.how_to_use.steps": [
-    "從你的裝置選擇影片檔案，或直接將檔案拖放到上傳區域。",
-    "選擇「自動最佳化」快速降低影片容量，或使用「目標檔案大小」輸入想要縮小到的 MB 大小。也可以選擇 LINE、Discord、Slack、Gmail 等常見平台的快速標籤。",
-    "點擊「縮小大小」並稍候片刻。所有處理都會在你的瀏覽器本機執行，影片不會被上傳到伺服器。完成後即可下載縮小後的影片。"
-  ],
-  "reduce_video_size.why_use.title": "為什麼使用 UploadLess 縮小大小",
-  "reduce_video_size.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "安全且私密",
-      "description": "所有影片都會直接在你的瀏覽器本機處理。檔案不會被上傳到伺服器，也不會離開你的裝置。"
-    },
-    {
-      "icon": "bolt",
-      "title": "快速降低影片容量",
-      "description": "影片檔案太大時，可以快速縮小檔案大小，讓影片更適合上傳、分享、寄送或儲存。"
-    },
-    {
-      "icon": "player-play",
-      "title": "專為縮小影片而設計",
-      "description": "流程簡單直覺，聚焦在降低影片容量與縮小影片檔案大小，適合日常手機影片、螢幕錄影或社群短片。"
-    },
-    {
-      "icon": "adjustments",
-      "title": "自訂目標 MB 大小",
-      "description": "可使用自動最佳化，也可以設定目標檔案大小，輕鬆讓影片符合 LINE、Discord、Slack、Gmail 等平台的大小限制。"
-    }
-  ],
-  "reduce_video_size.faq.title": "縮小影片大小常見問題",
-  "reduce_video_size.faq.items": [
-    {
-      "q": "如何縮小影片檔案大小？",
-      "a": "選擇影片後，你可以使用「自動最佳化」快速降低影片容量，或使用「目標檔案大小」輸入想要縮小到的 MB 大小。工具會在瀏覽器本機處理影片，完成後即可下載縮小後的檔案。"
-    },
-    {
-      "q": "縮小影片大小會降低畫質嗎？",
-      "a": "通常會有一些畫質取捨，因為影片檔案變小需要重新壓縮。若想保留較好的清晰度，建議使用「自動最佳化」；若必須符合大小限制，可以使用「目標檔案大小」指定 MB。"
-    },
-    {
-      "q": "可以把影片縮小到指定 MB 嗎？",
-      "a": "可以。選擇「目標檔案大小」後，輸入想要的 MB 數值，工具會嘗試將影片檔案大小降低到接近指定目標。這很適合需要符合附件、上傳或聊天平台限制的情境。"
-    },
-    {
-      "q": "影片檔案太大，適合用這個工具嗎？",
-      "a": "適合。如果你的影片太大、無法寄出、上傳太慢，或超過 LINE、Discord、Slack、Gmail 等平台限制，可以先用這個工具縮小影片檔案大小。"
-    },
-    {
-      "q": "可以降低手機影片的容量嗎？",
-      "a": "可以。手機拍攝的影片通常解析度高、檔案較大。你可以直接在瀏覽器中縮小手機影片大小，方便分享、上傳、備份或傳送給朋友。"
-    },
-    {
-      "q": "這個工具可以免費使用嗎？",
-      "a": "可以。你可以免費線上縮小影片大小，無需註冊帳號、無浮水印，也不需要安裝任何軟體。"
-    },
-    {
-      "q": "我的影片會被上傳到伺服器嗎？",
-      "a": "不會。縮小影片大小的處理會直接在你的瀏覽器本機執行，影片不會被上傳到伺服器，也不會離開你的裝置。"
-    },
-    {
-      "q": "支援哪些影片格式縮小檔案大小？",
-      "a": "支援 MP4、MOV、AVI、MKV、WebM 等幾乎所有常見影片格式。無論是手機影片、螢幕錄影、相機影片或社群短片，都可以用來降低影片容量。"
-    },
-    {
-      "q": "縮小影片後可以用在哪些平台？",
-      "a": "縮小後的影片適合用於 LINE、Discord、Slack、Gmail、社群平台、網站上傳或一般裝置播放。你也可以使用平台快速標籤，快速設定更適合分享的目標大小。"
-    },
-    {
-      "q": "為什麼影片縮小後還是比目標大小大？",
-      "a": "實際結果會受到原始影片長度、解析度、編碼格式與內容複雜度影響。若縮小後仍超過目標大小，可以再設定更小的 MB 目標，或縮短影片長度後重新處理。"
-    }
-  ],
-  "pdf_compressor.pages": "頁",
-  "_comment_mov_to_mp4": "================ MOV to MP4 ================",
-  "mov_to_mp4.seo.title": "MOV轉MP4｜免費線上將 MOV 轉成 MP4｜UploadLess",
-  "mov_to_mp4.seo.description": "免費線上 MOV 轉 MP4 工具，直接在瀏覽器將 MOV 影片轉成 MP4。免安裝、不用上傳檔案，安全快速，適合手機、電腦與社群平台播放。",
-  "mov_to_mp4.hero.title": "免費線上 MOV 轉 MP4",
-  "mov_to_mp4.hero.description": "在瀏覽器中將 MOV 影片快速轉成 MP4。檔案不會上傳到伺服器，免安裝、免註冊，安全又方便。",
-  "mov_to_mp4.how_to_use.title": "如何線上將 MOV 轉換為 MP4",
-  "mov_to_mp4.how_to_use.steps": [
-    "選擇要轉換的 MOV 檔案，或直接將檔案拖放到上傳區域。",
-    "點擊「轉換」開始將 MOV 轉成 MP4。整個流程會在你的瀏覽器本機執行，檔案不會上傳到伺服器；完成後即可下載 MP4 檔案。"
-  ],
-  "mov_to_mp4.why_use.title": "為什麼使用 UploadLess 轉換工具",
-  "mov_to_mp4.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "保護 MOV 檔案隱私",
-      "description": "MOV 轉 MP4 會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置。"
-    },
-    {
-      "icon": "bolt",
-      "title": "免安裝、免註冊",
-      "description": "不用下載影片轉檔軟體，也不需要建立帳號。開啟網頁後即可立即將 MOV 轉成 MP4。"
-    },
-    {
-      "icon": "player-play",
-      "title": "轉成相容性更高的 MP4",
-      "description": "將 MOV 影片轉換為 MP4 後，更容易在 Windows、Android、iPhone、瀏覽器、播放器與社群平台上播放和分享。"
-    },
-    {
-      "icon": "rocket",
-      "title": "快速完成 MOV 轉 MP4",
-      "description": "轉換流程針對瀏覽器處理最佳化，無需等待伺服器排隊，即可快速取得轉換後的 MP4 檔案。"
-    }
-  ],
-  "mov_to_mp4.faq.title": "MOV 轉 MP4 常見問題",
-  "mov_to_mp4.faq.items": [
-    {
-      "q": "這個 MOV 轉 MP4 工具是免費的嗎？",
-      "a": "是的，你可以免費使用這個線上 MOV 轉 MP4 工具。開啟網頁後即可直接將 MOV 影片轉成 MP4，不需要安裝軟體或建立帳號。"
-    },
-    {
-      "q": "我的 MOV 檔案會被上傳到伺服器嗎？",
-      "a": "不會。MOV 轉 MP4 會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置，因此更能保護影片隱私。"
-    },
-    {
-      "q": "為什麼要將 MOV 轉成 MP4？",
-      "a": "MOV 常見於 iPhone、iPad、Mac 或相機錄影，但在部分 Windows 電腦、Android 手機、播放器或網站上可能不方便播放。將 MOV 轉成 MP4 後，相容性通常更高，也更方便分享與上傳。"
-    },
-    {
-      "q": "可以在線上將 MOV 轉 MP4 嗎？",
-      "a": "可以。這是一個線上 MOV 轉 MP4 工具，可直接在瀏覽器中使用。你只要選擇 MOV 檔案並點擊轉換，就能取得 MP4 影片。"
-    },
-    {
-      "q": "需要安裝 MOV 轉 MP4 軟體嗎？",
-      "a": "不需要。你可以直接在瀏覽器中完成 MOV 轉 MP4，不用下載影片轉檔軟體，也不需要安裝外掛。"
-    },
-    {
-      "q": "iPhone 拍的 MOV 可以轉成 MP4 嗎？",
-      "a": "可以。iPhone 或 iPad 拍攝的 MOV 影片可以轉成 MP4，轉換後更容易在不同裝置、瀏覽器、社群平台與播放器上播放。"
-    },
-    {
-      "q": "MOV 轉 MP4 會影響影片品質嗎？",
-      "a": "影片品質可能會受到輸出格式、編碼方式與壓縮設定影響。一般來說，轉成 MP4 時會盡量在檔案大小、相容性與影片品質之間取得平衡。"
-    },
-    {
-      "q": "MOV 轉 MP4 需要多久？",
-      "a": "轉換時間取決於 MOV 檔案大小、影片長度與你的裝置效能。由於轉換是在瀏覽器本機執行，通常不需要等待伺服器排隊。"
-    },
-    {
-      "q": "可以在手機上將 MOV 轉成 MP4 嗎？",
-      "a": "可以。只要手機瀏覽器支援檔案選取與本機處理，就可以使用此工具將 MOV 轉成 MP4。不過大型影片可能會受到手機效能或瀏覽器限制影響。"
-    },
-    {
-      "q": "MOV 和 MP4 有什麼差別？",
-      "a": "MOV 是 Apple 常見的影片容器格式，常用於 iPhone、iPad、Mac 或剪輯軟體；MP4 則相容性更廣，通常更適合在不同裝置、網站與社群平台上播放和分享。"
-    }
-  ],
-  "_comment_avi_to_mp4": "================ AVI to MP4 ================",
-  "avi_to_mp4.seo.title": "AVI轉MP4｜免費線上將 AVI 轉成 MP4｜UploadLess",
-  "avi_to_mp4.seo.description": "免費線上 AVI 轉 MP4 工具，直接在瀏覽器將 AVI 影片轉成 MP4。免安裝、不用上傳檔案，安全快速，讓影片更容易播放與分享。",
-  "avi_to_mp4.hero.title": "免費線上 AVI 轉 MP4",
-  "avi_to_mp4.hero.description": "在瀏覽器中快速將 AVI 影片轉成 MP4。檔案不會上傳到伺服器，免安裝、免註冊，安全又方便。",
-  "avi_to_mp4.how_to_use.title": "如何線上將 AVI 轉換為 MP4",
-  "avi_to_mp4.how_to_use.steps": [
-    "選擇要轉換的 AVI 檔案，或直接將檔案拖放到上傳區域。",
-    "點擊「轉換」開始將 AVI 轉成 MP4。整個流程會在你的瀏覽器本機執行，檔案不會上傳到伺服器；完成後即可下載 MP4 檔案。"
-  ],
-  "avi_to_mp4.why_use.title": "為什麼使用 UploadLess 轉換工具",
-  "avi_to_mp4.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "保護 AVI 檔案隱私",
-      "description": "AVI 轉 MP4 會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置。"
-    },
-    {
-      "icon": "bolt",
-      "title": "免安裝、免註冊",
-      "description": "不用下載影片轉檔軟體，也不需要建立帳號。開啟網頁後即可立即將 AVI 轉成 MP4。"
-    },
-    {
-      "icon": "player-play",
-      "title": "讓 AVI 更容易播放",
-      "description": "將 AVI 影片轉換為 MP4 後，更容易在手機、電腦、瀏覽器、播放器與社群平台上播放和分享。"
-    },
-    {
-      "icon": "rocket",
-      "title": "快速完成 AVI 轉 MP4",
-      "description": "轉換流程針對瀏覽器處理最佳化，無需等待伺服器排隊，即可快速取得轉換後的 MP4 檔案。"
-    }
-  ],
-  "avi_to_mp4.faq.title": "AVI 轉 MP4 常見問題",
-  "avi_to_mp4.faq.items": [
-    {
-      "q": "這個 AVI 轉 MP4 工具是免費的嗎？",
-      "a": "是的，你可以免費使用這個線上 AVI 轉 MP4 工具。開啟網頁後即可直接將 AVI 影片轉成 MP4，不需要安裝軟體或建立帳號。"
-    },
-    {
-      "q": "我的 AVI 檔案會被上傳到伺服器嗎？",
-      "a": "不會。AVI 轉 MP4 會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置，因此更能保護影片隱私。"
-    },
-    {
-      "q": "為什麼要將 AVI 轉成 MP4？",
-      "a": "AVI 是較舊但仍常見的影片格式，在部分手機、瀏覽器、播放器或社群平台上可能不容易播放。將 AVI 轉成 MP4 後，相容性通常更高，也更方便分享與上傳。"
-    },
-    {
-      "q": "可以在線上將 AVI 轉 MP4 嗎？",
-      "a": "可以。這是一個線上 AVI 轉 MP4 工具，可直接在瀏覽器中使用。你只要選擇 AVI 檔案並點擊轉換，就能取得 MP4 影片。"
-    },
-    {
-      "q": "需要安裝 AVI 轉 MP4 軟體嗎？",
-      "a": "不需要。你可以直接在瀏覽器中完成 AVI 轉 MP4，不用下載影片轉檔軟體，也不需要安裝外掛。"
-    },
-    {
-      "q": "AVI 轉 MP4 會讓檔案比較容易播放嗎？",
-      "a": "通常會。MP4 是相容性很高的影片格式，轉換後更容易在 Windows、macOS、Android、iPhone、瀏覽器、播放器與社群平台上播放。"
-    },
-    {
-      "q": "AVI 轉 MP4 會影響影片品質嗎？",
-      "a": "影片品質可能會受到輸出格式、編碼方式與壓縮設定影響。一般來說，轉成 MP4 時會盡量在檔案大小、相容性與影片品質之間取得平衡。"
-    },
-    {
-      "q": "AVI 轉 MP4 需要多久？",
-      "a": "轉換時間取決於 AVI 檔案大小、影片長度與你的裝置效能。由於轉換是在瀏覽器本機執行，通常不需要等待伺服器排隊。"
-    },
-    {
-      "q": "可以在手機上將 AVI 轉成 MP4 嗎？",
-      "a": "可以。只要手機瀏覽器支援檔案選取與本機處理，就可以使用此工具將 AVI 轉成 MP4。不過大型 AVI 影片可能會受到手機效能或瀏覽器限制影響。"
-    },
-    {
-      "q": "AVI 和 MP4 有什麼差別？",
-      "a": "AVI 是較早期的影片容器格式，檔案可能較大，且在某些裝置或平台上相容性較差；MP4 則更常用於現代裝置、網站與社群平台，通常更適合播放、分享與上傳。"
-    }
-  ],
-  "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
-  "mkv_to_mp4.seo.title": "MKV轉MP4｜免費線上將 MKV 轉成 MP4｜UploadLess",
-  "mkv_to_mp4.seo.description": "免費線上 MKV 轉 MP4 工具，直接在瀏覽器將 MKV 影片轉成 MP4。免安裝、不用上傳檔案，安全快速，讓影片更容易播放與分享。",
-  "mkv_to_mp4.hero.title": "免費線上 MKV 轉 MP4",
-  "mkv_to_mp4.hero.description": "在瀏覽器中快速將 MKV 影片轉成 MP4。檔案不會上傳到伺服器，免安裝、免註冊，安全又方便。",
-  "mkv_to_mp4.how_to_use.title": "如何線上將 MKV 轉換為 MP4",
-  "mkv_to_mp4.how_to_use.steps": [
-    "選擇要轉換的 MKV 檔案，或直接將檔案拖放到上傳區域。",
-    "點擊「轉換」開始將 MKV 轉成 MP4。整個流程會在你的瀏覽器本機執行，檔案不會上傳到伺服器；完成後即可下載 MP4 檔案。"
-  ],
-  "mkv_to_mp4.why_use.title": "為什麼使用 UploadLess 轉換工具",
-  "mkv_to_mp4.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "保護 MKV 檔案隱私",
-      "description": "MKV 轉 MP4 會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置。"
-    },
-    {
-      "icon": "bolt",
-      "title": "免安裝、免註冊",
-      "description": "不用下載影片轉檔軟體，也不需要建立帳號。開啟網頁後即可立即將 MKV 轉成 MP4。"
-    },
-    {
-      "icon": "player-play",
-      "title": "讓 MKV 更容易播放",
-      "description": "將 MKV 影片轉換為 MP4 後，更容易在手機、電腦、瀏覽器、播放器與社群平台上播放和分享。"
-    },
-    {
-      "icon": "rocket",
-      "title": "快速完成 MKV 轉 MP4",
-      "description": "轉換流程針對瀏覽器處理最佳化，無需等待伺服器排隊，即可快速取得轉換後的 MP4 檔案。"
-    }
-  ],
-  "mkv_to_mp4.faq.title": "MKV 轉 MP4 常見問題",
-  "mkv_to_mp4.faq.items": [
-    {
-      "q": "這個 MKV 轉 MP4 工具是免費的嗎？",
-      "a": "是的，你可以免費使用這個線上 MKV 轉 MP4 工具。開啟網頁後即可直接將 MKV 影片轉成 MP4，不需要安裝軟體或建立帳號。"
-    },
-    {
-      "q": "我的 MKV 檔案會被上傳到伺服器嗎？",
-      "a": "不會。MKV 轉 MP4 會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置，因此更能保護影片隱私。"
-    },
-    {
-      "q": "為什麼要將 MKV 轉成 MP4？",
-      "a": "MKV 常用於高畫質影片、電影或多音軌檔案，但在部分手機、瀏覽器、播放器或社群平台上可能不容易播放。將 MKV 轉成 MP4 後，相容性通常更高，也更方便分享與上傳。"
-    },
-    {
-      "q": "可以在線上將 MKV 轉 MP4 嗎？",
-      "a": "可以。這是一個線上 MKV 轉 MP4 工具，可直接在瀏覽器中使用。你只要選擇 MKV 檔案並點擊轉換，就能取得 MP4 影片。"
-    },
-    {
-      "q": "需要安裝 MKV 轉 MP4 軟體嗎？",
-      "a": "不需要。你可以直接在瀏覽器中完成 MKV 轉 MP4，不用下載影片轉檔軟體，也不需要安裝外掛。"
-    },
-    {
-      "q": "MKV 轉 MP4 會讓影片更容易播放嗎？",
-      "a": "通常會。MP4 是相容性很高的影片格式，轉換後更容易在 Windows、macOS、Android、iPhone、瀏覽器、播放器與社群平台上播放。"
-    },
-    {
-      "q": "MKV 轉 MP4 會影響影片品質嗎？",
-      "a": "影片品質可能會受到輸出格式、編碼方式與壓縮設定影響。一般來說，轉成 MP4 時會盡量在檔案大小、相容性與影片品質之間取得平衡。"
-    },
-    {
-      "q": "MKV 轉 MP4 需要多久？",
-      "a": "轉換時間取決於 MKV 檔案大小、影片長度與你的裝置效能。由於轉換是在瀏覽器本機執行，通常不需要等待伺服器排隊。"
-    },
-    {
-      "q": "MKV 裡的字幕或音軌會保留嗎？",
-      "a": "MKV 可能包含多個字幕、音軌或章節資訊。轉成 MP4 時，實際保留內容會受到瀏覽器支援、原始檔案結構與輸出設定影響；建議轉換後確認影片、聲音與字幕是否符合需求。"
-    },
-    {
-      "q": "MKV 和 MP4 有什麼差別？",
-      "a": "MKV 是彈性很高的影片容器格式，常見於高畫質影片、多音軌或字幕檔案；MP4 則相容性更廣，通常更適合在手機、電腦、網站與社群平台上播放、分享與上傳。"
-    }
-  ],
-  "_comment_webm_to_mp4": "================ WebM to MP4 ================",
-  "webm_to_mp4.seo.title": "WebM轉MP4｜免費線上將 WebM 轉成 MP4｜UploadLess",
-  "webm_to_mp4.seo.description": "免費線上 WebM 轉 MP4 工具，直接在瀏覽器將 WebM 影片轉成 MP4。免安裝、不用上傳檔案，安全快速，讓影片更容易播放、上傳與分享。",
-  "webm_to_mp4.hero.title": "免費線上 WebM 轉 MP4",
-  "webm_to_mp4.hero.description": "在瀏覽器中快速將 WebM 影片轉成 MP4。檔案不會上傳到伺服器，免安裝、免註冊，安全又方便。",
-  "webm_to_mp4.how_to_use.title": "如何線上將 WebM 轉換為 MP4",
-  "webm_to_mp4.how_to_use.steps": [
-    "選擇要轉換的 WebM 檔案，或直接將檔案拖放到上傳區域。",
-    "點擊「轉換」開始將 WebM 轉成 MP4。整個流程會在你的瀏覽器本機執行，檔案不會上傳到伺服器；完成後即可下載 MP4 檔案。"
-  ],
-  "webm_to_mp4.why_use.title": "為什麼使用 UploadLess 轉換工具",
-  "webm_to_mp4.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "保護 WebM 檔案隱私",
-      "description": "WebM 轉 MP4 會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置。"
-    },
-    {
-      "icon": "bolt",
-      "title": "免安裝、免註冊",
-      "description": "不用下載影片轉檔軟體，也不需要建立帳號。開啟網頁後即可立即將 WebM 轉成 MP4。"
-    },
-    {
-      "icon": "player-play",
-      "title": "讓 WebM 更容易播放與上傳",
-      "description": "將 WebM 影片轉換為 MP4 後，更容易在手機、電腦、瀏覽器、播放器、剪輯工具與社群平台上使用。"
-    },
-    {
-      "icon": "rocket",
-      "title": "快速完成 WebM 轉 MP4",
-      "description": "轉換流程針對瀏覽器處理最佳化，無需等待伺服器排隊，即可快速取得轉換後的 MP4 檔案。"
-    }
-  ],
-  "webm_to_mp4.faq.title": "WebM 轉 MP4 常見問題",
-  "webm_to_mp4.faq.items": [
-    {
-      "q": "這個 WebM 轉 MP4 工具是免費的嗎？",
-      "a": "是的，你可以免費使用這個線上 WebM 轉 MP4 工具。開啟網頁後即可直接將 WebM 影片轉成 MP4，不需要安裝軟體或建立帳號。"
-    },
-    {
-      "q": "我的 WebM 檔案會被上傳到伺服器嗎？",
-      "a": "不會。WebM 轉 MP4 會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置，因此更能保護影片隱私。"
-    },
-    {
-      "q": "為什麼要將 WebM 轉成 MP4？",
-      "a": "WebM 常用於網頁影片、瀏覽器錄影或線上平台下載的影片，但在部分手機、剪輯工具、播放器或社群平台上可能不容易使用。將 WebM 轉成 MP4 後，相容性通常更高，也更方便播放、上傳與分享。"
-    },
-    {
-      "q": "可以在線上將 WebM 轉 MP4 嗎？",
-      "a": "可以。這是一個線上 WebM 轉 MP4 工具，可直接在瀏覽器中使用。你只要選擇 WebM 檔案並點擊轉換，就能取得 MP4 影片。"
-    },
-    {
-      "q": "需要安裝 WebM 轉 MP4 軟體嗎？",
-      "a": "不需要。你可以直接在瀏覽器中完成 WebM 轉 MP4，不用下載影片轉檔軟體，也不需要安裝外掛。"
-    },
-    {
-      "q": "WebM 轉 MP4 後可以上傳到社群平台嗎？",
-      "a": "通常更方便。MP4 是多數社群平台、剪輯工具與播放器都支援的常見影片格式，將 WebM 轉成 MP4 後，通常更容易上傳、分享與播放。"
-    },
-    {
-      "q": "WebM 轉 MP4 會影響影片品質嗎？",
-      "a": "影片品質可能會受到輸出格式、編碼方式與壓縮設定影響。一般來說，轉成 MP4 時會盡量在檔案大小、相容性與影片品質之間取得平衡。"
-    },
-    {
-      "q": "WebM 轉 MP4 需要多久？",
-      "a": "轉換時間取決於 WebM 檔案大小、影片長度與你的裝置效能。由於轉換是在瀏覽器本機執行，通常不需要等待伺服器排隊。"
-    },
-    {
-      "q": "可以在手機上將 WebM 轉成 MP4 嗎？",
-      "a": "可以。只要手機瀏覽器支援檔案選取與本機處理，就可以使用此工具將 WebM 轉成 MP4。不過大型 WebM 影片可能會受到手機效能或瀏覽器限制影響。"
-    },
-    {
-      "q": "WebM 和 MP4 有什麼差別？",
-      "a": "WebM 常用於網頁影片與瀏覽器環境，檔案適合在網頁上播放；MP4 則相容性更廣，通常更適合在手機、電腦、剪輯工具、網站與社群平台上播放、分享與上傳。"
-    }
-  ],
-  "_comment_video_to_mp3": "================ Video to MP3 ================",
-  "video_to_mp3.seo.title": "影片轉MP3線上免費工具｜MP4轉MP3、擷取音訊｜UploadLess",
-  "video_to_mp3.seo.description": "使用 UploadLess 免費線上將影片轉 MP3，支援 MP4、MOV、MKV、WEBM 等格式，直接在瀏覽器擷取音訊，不需安裝軟體。",
-  "video_to_mp3.hero.title": "影片轉 MP3 線上免費工具",
-  "video_to_mp3.hero.description": "將 MP4、MOV、MKV 或 WEBM 影片快速轉成 MP3，直接在瀏覽器擷取音訊並下載，不需安裝軟體。",
-  "video_to_mp3.how_to_use.title": "如何線上將影片轉換為 MP3",
-  "video_to_mp3.how_to_use.steps": [
-    "上傳你想轉成 MP3 的影片檔案，例如 MP4、MOV、MKV 或 WEBM。",
-    "點擊「轉換」開始從影片擷取音訊，流程會直接在瀏覽器中本機執行。",
-    "轉換完成後，下載產生的 MP3 檔案並儲存到你的裝置。"
-  ],
-  "video_to_mp3.why_use.title": "為什麼使用 UploadLess 音訊擷取工具",
-  "video_to_mp3.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "隱私安全，本機轉換",
-      "description": "影片轉 MP3 的流程會直接在你的瀏覽器本機執行，檔案不會上傳到伺服器。"
-    },
-    {
-      "icon": "bolt",
-      "title": "快速擷取影片音訊",
-      "description": "輕鬆從影片中擷取音訊並轉成 MP3，適合處理 MP4、MOV、MKV、WEBM 等常見影片格式。"
-    },
-    {
-      "icon": "user-x",
-      "title": "免費使用，無需註冊",
-      "description": "不用建立帳號、不需安裝軟體，開啟瀏覽器即可開始線上影片轉 MP3。"
-    },
-    {
-      "icon": "download",
-      "title": "轉換完成即可下載",
-      "description": "完成 MP3 轉換後，可立即將音訊檔案下載並儲存到你的裝置。"
-    }
-  ],
-  "video_to_mp3.faq.title": "影片轉 MP3 常見問題",
-  "video_to_mp3.faq.items": [
-    {
-      "q": "什麼是影片轉 MP3？",
-      "a": "影片轉 MP3 是將影片中的音訊擷取出來，並儲存為 MP3 音訊檔案的工具。你可以用它從 MP4、MOV、MKV、WEBM 等影片格式中提取聲音。"
-    },
-    {
-      "q": "這個影片轉 MP3 工具是免費的嗎？",
-      "a": "是的，你可以免費使用這個線上影片轉 MP3 工具，不需要註冊帳號，也不需要安裝任何軟體。"
-    },
-    {
-      "q": "可以將 MP4 轉成 MP3 嗎？",
-      "a": "可以。你可以上傳 MP4 影片檔，工具會從影片中擷取音訊，並將音訊轉換成 MP3 檔案供你下載。"
-    },
-    {
-      "q": "支援哪些影片格式轉 MP3？",
-      "a": "此工具支援常見影片格式，例如 MP4、MOV、MKV、WEBM、AVI 等。只要瀏覽器可以讀取該影片檔，就可以嘗試擷取音訊並轉成 MP3。"
-    },
-    {
-      "q": "我的影片檔案會被上傳到伺服器嗎？",
-      "a": "不會。影片轉 MP3 的流程會直接在你的瀏覽器本機執行，檔案不會上傳到伺服器，因此更能保護你的隱私。"
-    },
-    {
-      "q": "需要安裝軟體才能將影片轉 MP3 嗎？",
-      "a": "不需要。這是線上影片轉 MP3 工具，你只要開啟瀏覽器、上傳影片檔案，就可以直接擷取音訊並下載 MP3。"
-    },
-    {
-      "q": "手機可以使用影片轉 MP3 嗎？",
-      "a": "可以。只要你的手機瀏覽器支援檔案上傳與音訊處理，就可以使用此工具將影片轉成 MP3。建議使用新版 Chrome、Safari 或其他現代瀏覽器。"
-    },
-    {
-      "q": "影片轉 MP3 會影響音質嗎？",
-      "a": "轉換後的音質會受到原始影片音訊品質影響。如果原影片的聲音清楚，轉出的 MP3 通常也能保留良好的音訊品質。"
-    },
-    {
-      "q": "影片檔案太大可以轉成 MP3 嗎？",
-      "a": "可以嘗試轉換，但因為流程會在瀏覽器本機執行，處理速度會依你的裝置效能、影片長度與檔案大小而不同。較大的影片可能需要較長時間。"
-    },
-    {
-      "q": "可以用這個工具轉換 YouTube 影片嗎？",
-      "a": "此工具主要用於轉換你裝置中的影片檔案。請只轉換你擁有權利或被允許使用的影片內容，並遵守相關平台規範與著作權規定。"
-    }
-  ],
-  "_comment_mp4_converter": "================ MP4 Converter ================",
-  "mp4_converter.seo.title": "影片轉 MP4 不用上傳｜免費線上轉檔 MOV、AVI、MKV - UploadLess",
-  "mp4_converter.seo.description": "不用上傳、不用安裝，瀏覽器直接把 MOV、AVI、MKV、WebM 轉成 MP4，完全免費。也支援 WMV轉MP4、FLV轉MP4、MPEG轉MP4，沒有檔案大小限制、無浮水印，影片全程留在你的裝置上處理，安全又快速，手機、平板、電腦瀏覽器都能直接使用，適合日常剪片、社群平台上傳前的格式轉換需求。",
-  "mp4_converter.hero.title": "免費線上影片轉 MP4",
-  "mp4_converter.hero.description": "在瀏覽器中將 MOV、AVI、MKV、WebM 等影片快速轉成 MP4。檔案不會上傳到伺服器，免安裝、免註冊，安全又方便。",
-  "mp4_converter.how_to_use.title": "如何線上將影片轉換為 MP4",
-  "mp4_converter.how_to_use.steps": [
-    "選擇要轉成 MP4 的影片檔案，例如 MOV、AVI、MKV、WebM 等格式。",
-    "確認 MP4 作為目標輸出格式。",
-    "點擊「轉換」開始影片轉 MP4。整個流程會在你的瀏覽器本機執行，檔案不會上傳到伺服器。",
-    "轉換完成後，下載轉換後的 MP4 檔案。"
-  ],
-  "mp4_converter.why_use.title": "為什麼使用 UploadLess MP4 轉換工具",
-  "mp4_converter.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "保護影片檔案隱私",
-      "description": "影片轉 MP4 會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置。"
-    },
-    {
-      "icon": "bolt",
-      "title": "免安裝、免註冊",
-      "description": "不用下載 MP4 轉檔軟體，也不需要建立帳號。開啟網頁後即可立即將影片轉成 MP4。"
-    },
-    {
-      "icon": "player-play",
-      "title": "支援多種影片格式",
-      "description": "可將 MOV、AVI、MKV、WebM 等常見影片格式轉換為標準 MP4 檔案，方便播放、上傳與分享。"
-    },
-    {
-      "icon": "rocket",
-      "title": "快速完成 MP4 轉檔",
-      "description": "轉換流程針對瀏覽器處理最佳化，無需等待伺服器排隊，即可快速取得轉換後的 MP4 檔案。"
-    }
-  ],
-  "mp4_converter.faq.title": "MP4 轉換工具常見問題",
-  "mp4_converter.faq.items": [
-    {
-      "q": "這個 MP4 轉檔工具是免費的嗎？",
-      "a": "是的，你可以免費使用這個線上 MP4 轉檔工具。開啟網頁後即可將影片轉成 MP4，不需要安裝軟體或建立帳號。"
-    },
-    {
-      "q": "我的影片檔案會被上傳到伺服器嗎？",
-      "a": "不會。影片轉 MP4 會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置，因此更能保護影片隱私。"
-    },
-    {
-      "q": "支援哪些影片格式轉成 MP4？",
-      "a": "此工具支援多種常見影片格式轉成 MP4，包括 MOV、AVI、MKV、WebM 等。實際可轉換的格式可能會受到瀏覽器與原始影片編碼影響。"
-    },
-    {
-      "q": "可以在線上將影片轉成 MP4 嗎？",
-      "a": "可以。這是一個線上影片轉 MP4 工具，可直接在瀏覽器中使用。你只要選擇影片檔案並點擊轉換，就能取得 MP4 檔案。"
-    },
-    {
-      "q": "需要安裝 MP4 轉檔軟體嗎？",
-      "a": "不需要。你可以直接在瀏覽器中完成 MP4 轉檔，不用下載影片轉檔軟體，也不需要安裝外掛。"
-    },
-    {
-      "q": "為什麼要將影片轉成 MP4？",
-      "a": "MP4 是相容性很高的影片格式，通常更容易在手機、電腦、瀏覽器、播放器、剪輯工具與社群平台上播放、上傳和分享。"
-    },
-    {
-      "q": "影片轉 MP4 會影響影片品質嗎？",
-      "a": "影片品質可能會受到輸出格式、編碼方式與壓縮設定影響。一般來說，轉成 MP4 時會盡量在檔案大小、相容性與影片品質之間取得平衡。"
-    },
-    {
-      "q": "影片轉 MP4 需要多久？",
-      "a": "轉換時間取決於影片檔案大小、影片長度、原始格式與你的裝置效能。由於轉換是在瀏覽器本機執行，通常不需要等待伺服器排隊。"
-    },
-    {
-      "q": "可以在手機上使用 MP4 轉檔工具嗎？",
-      "a": "可以。只要手機瀏覽器支援檔案選取與本機處理，就可以使用此工具將影片轉成 MP4。不過大型影片可能會受到手機效能或瀏覽器限制影響。"
-    },
-    {
-      "q": "MP4 適合上傳到社群平台嗎？",
-      "a": "通常適合。MP4 是許多社群平台、網站、播放器與剪輯工具常用的影片格式，將影片轉成 MP4 後，通常更方便上傳、播放與分享。"
-    }
-  ],
-  "_comment_barcode_generator": "================ Barcode Generator ================",
-  "tool.barcode_generator.title": "條碼產生器",
-  "tool.barcode_generator.description": "直接在瀏覽器中免費產生條碼圖片。支援 EAN/JAN、Code 128、QR Code、Data Matrix 等格式。",
-  "tool.barcode_generator.short_description": "在瀏覽器中產生條碼。",
-  "barcode_generator.content_lbl": "條碼內容",
-  "barcode_generator.content_placeholder": "請輸入條碼內容，每行一筆...",
-  "barcode_generator.type_lbl": "條碼類型",
-  "barcode_generator.scale_lbl": "大小（比例）",
-  "barcode_generator.label_lbl": "顯示標籤",
-  "barcode_generator.format_lbl": "輸出格式",
-  "barcode_generator.btn_generate": "產生條碼",
-  "barcode_generator.results_title": "已產生的條碼",
-  "barcode_generator.btn_download": "下載",
-  "barcode_generator.btn_download_zip": "下載 ZIP",
-  "barcode_generator.yes": "是",
-  "barcode_generator.no": "否",
-  "barcode_generator.why_use.title": "為什麼使用 UploadLess 條碼產生器",
-  "barcode_generator.how_to_use.title": "如何在線上產生條碼",
-  "barcode_generator.faq.title": "條碼產生器常見問題",
-  "barcode_generator.btn_downloadbtn_gen_new": "產生新的條碼",
-  "barcode_generator.tab_manual": "手動",
-  "barcode_generator.tab_file": "上傳檔案",
-  "barcode_generator.tab_sequence": "連續編號",
-  "barcode_generator.tip_manual": "提示：若要加入自訂標籤，請在每一行使用「條碼, 商品名稱」格式。",
-  "barcode_generator.upload_hint": "點擊以上傳 CSV 或 Excel 檔案",
-  "barcode_generator.upload_subhint": "A 欄：條碼 | B 欄：標籤",
-  "barcode_generator.seq_start": "起始編號",
-  "barcode_generator.seq_qty": "數量",
-  "barcode_generator.seq_step": "間隔",
-  "barcode_generator.generating": "正在產生",
-  "barcode_generator.seo.title": "免費條碼產生器｜線上製作 EAN-13、Code 128 條碼",
-  "barcode_generator.seo.description": "免費線上產生條碼，支援 EAN-13、UPC、Code 128、Code 39 與一維條碼。可製作商品、庫存、SKU、序號與批次條碼，下載 PNG、SVG、PDF 或直接列印。",
-  "barcode_generator.hero.title": "免費線上條碼產生器",
-  "barcode_generator.hero.description": "快速製作商品、庫存、SKU 與序號條碼。支援單一或批次產生 EAN-13、UPC、Code 128、Code 39 條碼，並下載 PNG、SVG、PDF 或列印。",
-  "barcode_generator.how_to_use.steps": [
-    "選擇需要的條碼類型（如 Code 128、EAN-13、QR Code 等）並調整尺寸與外觀設定。",
-    "依據您的需求，選擇以下其中一種資料輸入模式：",
-    "【手動輸入】：在文字欄位中直接輸入資料，若要批次產生，請每行輸入一筆。",
-    "【上傳檔案】：直接上傳 Excel（.xlsx/.xls）或 CSV 檔案，免轉檔快速匯入大量內容。",
-    "【連續編號】：設定起始號碼、結束號碼與跳號規則，系統將自動依序生成流水號。",
-    "點擊「產生條碼」按鈕，系統便會在瀏覽器中立即建立對應的條碼。",
-    "確認無誤後，可選擇單獨下載或批次打包（支援 PNG、SVG、PDF 等格式），應用於商品標籤、庫存與物流管理。"
-  ],
-  "barcode_generator.why_use.benefits": [
-    {
-      "icon": "bolt",
-      "title": "免費線上條碼產生器：免安裝快速條碼生成",
-      "description": "最強大的免費線上條碼產生器！免註冊、免安裝軟體，打開瀏覽器即可一鍵進行條碼製作。無論是單一商品條碼還是複雜的店面管理需求，都能在幾秒鐘內流暢完成條碼生成，大幅提升日常工作與倉儲管理效率。"
-    },
-    {
-      "icon": "list-numbers",
-      "title": "多元輸入模式：手動、上傳檔案與連續編號",
-      "description": "專為高效工作打造的 3 大彈性模式：支援【手動輸入】快速建檔、完美整合【動態上傳檔案】（支援 Excel 與 CSV 檔案直接匯入），以及【連續編號】自動生成流水號。不管是一維條碼還是商品碼，都能隨心所欲輕鬆駕馭。"
-    },
-    {
-      "icon": "copy",
-      "title": "Excel 條碼產生器：免轉檔直接上傳批次生成",
-      "description": "打破傳統逐個輸入與複雜轉檔的限制！本站是專為高效企業打造的 Excel 條碼產生器，支援直接上傳 Excel (.xlsx/.xls) 與 CSV 檔案。一鍵匯入即可完成大量條碼產生，是處理大量 SKU、庫存標籤與序號管理的最佳條碼工具。"
-    },
-    {
-      "icon": "device-desktop",
-      "title": "高品質條碼下載：支援 PNG、SVG 與 PDF 格式",
-      "description": "提供最清晰的條碼圖片產生與向量圖檔下載。您可以將生成的 Code 128、EAN-13、UPC 等規格，匯出為高品質的 PNG 圖片、可任意縮放的 SVG 向量檔，或直接列印的 PDF，確保商品標籤、包裝與物流文件上的條碼 100% 成功掃描。"
-    }
-  ],
-  "barcode_generator.faq.items": [
-    {
-      "q": "什麼是條碼產生器？如何線上製作條碼？",
-      "a": "條碼產生器（或稱條碼生成器）是一個便利的免費線上工具，能將商品編號、SKU、庫存代碼、序號等文字快速進行條碼製作。使用者不需具備專業技術，即可將資料轉換為可掃描的一維條碼或 QR Code，廣泛應用於商品標籤、庫存管理、產品包裝與物流出貨。"
-    },
-    {
-      "q": "這款免費條碼產生器真的不需要下載或註冊嗎？",
-      "a": "是的！這是一台完全免費的線上條碼產生器，免安裝任何軟體、免註冊帳號，打開網頁即可立即使用。無論您是需要臨時生成單一商品條碼，還是需要大量產生條碼，都能在瀏覽器中流暢完成，並支援高畫質條碼下載。"
-    },
-    {
-      "q": "如何從 Excel 或 CSV 檔案批量產生條碼？",
-      "a": "本站支援強大的【動態上傳檔案】功能，是市面上最頂級的 Excel 條碼產生器。您無須再手動一筆筆複製，只需直接上傳含有商品編號、SKU 或序號的 CSV 或 Excel 檔案，系統便會啟動批次條碼產生器機制，一鍵為您快速匯入並建立大量條碼。"
-    },
-    {
-      "q": "如何自動生成連續編號或流水號條碼？",
-      "a": "如果您需要製作序號條碼，可以使用本站專屬的【連續編號】模式。您只需設定起始號碼、結束號碼（例如從 0001 到 1000）以及跳號規則，系統就會自動批量產生條碼。這項功能非常適合用於固定資產標籤、流水號管理與大量產品序號標籤列印。"
-    },
-    {
-      "q": "這款線上條碼產生器支援哪些一維條碼類型與規格？",
-      "a": "我們支援市面上最常用的主流一維條碼產生器規格，包含零售業必備的 EAN-13 條碼、EAN-8、UPC-A、UPC-E，以及物流與工業界愛用的 Code 128 產生器、Code 39 產生器、ITF-14 等，全方位滿足您商品條碼製作與 SKU 庫存標籤的需求。"
-    },
-    {
-      "q": "如何免費製作 EAN-13 商品條碼？",
-      "a": "在條碼類型選單中選擇「EAN-13」，並在輸入框中填入代表國家、製造商及商品的 12 位或 13 位數字。本站的商品條碼產生器會自動為您計算檢查碼並生成標準的 EAN-13 商品條碼，您可以將其下載為高解析度圖檔，直接應用於零售商品外包裝。"
-    },
-    {
-      "q": "Code 128 條碼和 Code 39 條碼有什麼不同？該怎麼選？",
-      "a": "Code 39 條碼結構較簡單、通用性高，但條碼長度較長；Code 128 條碼則具備極高的資料密度，能容納更多高密度的數字、英文字母與特殊符號。如果您要處理複雜的庫存管理、物流出貨單、資產標籤或精細的 SKU 碼，通常強烈建議使用 Code 128 條碼產生器，能節省列印空間並大幅提升掃描成功率。"
-    },
-    {
-      "q": "生成的條碼圖片可以下載成哪些格式？適合列印嗎？",
-      "a": "我們提供完整的條碼下載服務。您可以根據需求將生成的條碼匯出為：通用且方便分享的 PNG 條碼圖片、可任意放大縮小且不失真的 SVG 向量檔，或者是方便直接進行標籤列印與包裝設計的 PDF 文件，保證印刷出來的條碼具備最高清晰度。"
-    },
-    {
-      "q": "有單次大量產生多個條碼的數量限制嗎？",
-      "a": "本站是專為高效率打造的大量條碼產生器。透過【手動輸入】每行一筆、直接【上傳檔案】或自動【連續編號】等 3 大模式，您可以一次性線上產生多個條碼，沒有嚴格的數量限制，徹底解決企業與電商賣家在批次產生條碼、條碼批次製作時的痛點。"
-    },
-    {
-      "q": "線上生成條碼時，我的商品編號與機密資料會外洩嗎？",
-      "a": "絕對不會！本站採用最先進的純前端技術，不論您是手動輸入、上傳 Excel/CSV 檔案還是生成流水號，所有資料皆直接在您的瀏覽器中即時建立條碼。資料完全不會上傳、儲存或傳送到任何伺服器，100% 保障您的內部代碼、庫存資料與機敏資產安全。"
-    }
-  ],
-  "_comment_image_to_text": "================ Image to Text (OCR) ================",
-  "image_to_text.seo.title": "圖片轉文字｜免費線上 OCR，從圖片、照片、截圖擷取文字 | UploadLess",
-  "image_to_text.seo.description": "免費線上【圖片轉文字】工具，支援照片與螢幕截圖轉文字辨識。一鍵精準擷取並複製 JPG、PNG 圖片中的繁體中文，免安裝免註冊，1秒高效完成圖片 OCR 文字辨識與提取！",
-  "image_to_text.hero.title": "圖片轉文字",
-  "image_to_text.hero.description": "免費線上 OCR 工具，快速從圖片、照片、截圖、JPG、PNG 擷取文字，轉成可複製內容。",
-  "image_to_text.btn.copy": "複製文字",
-  "image_to_text.btn.copy_all": "全部複製",
-  "image_to_text.btn.clean": "清理格式",
-  "image_to_text.btn.join": "合併行",
-  "image_to_text.lang.auto": "自動",
-  "image_to_text.lang.zh": "中文",
-  "image_to_text.lang.ja": "日文",
-  "image_to_text.lang.ko": "韓文",
-  "image_to_text.lang.th": "泰文",
-  "image_to_text.lang.cyrillic": "西里爾文",
-  "image_to_text.upload.title": "將圖片拖放到這裡，或點擊上傳",
-  "image_to_text.upload.subtitle": "你也可以從剪貼簿貼上圖片。",
-  "image_to_text.upload.btn_select": "選擇圖片",
-  "image_to_text.upload.btn_sample": "載入範例",
-  "image_to_text.upload.hint": "即時處理多張圖片",
-  "image_to_text.ready.info": "拉丁字母系語言請使用「自動」；中文、日文、韓文或泰文請選擇特定模型。",
-  "image_to_text.btn.start": "開始辨識",
-  "image_to_text.status.waiting": "等待中...",
-  "image_to_text.status.pending": "待處理...",
-  "image_to_text.status.processing": "處理中...",
-  "image_to_text.status.done": "完成",
-  "image_to_text.text.try_samples": "使用範例圖片試試看",
-  "image_to_text.how_to_use.title": "如何將圖片轉文字",
-  "image_to_text.how_to_use.steps": [
-    "從裝置上傳一張或多張圖片，或直接拖放圖片，也可以從剪貼簿貼上圖片。",
-    "選擇最符合圖片內容的語言，包括拉丁文字、韓文、日文、簡體中文、繁體中文或泰文。",
-    "UploadLess 會在瀏覽器中批次處理圖片，並逐一擷取圖片中的文字。",
-    "處理完成後，你可以複製擷取出的文字，或使用格式化工具調整輸出內容。"
-  ],
-  "image_to_text.why_use.title": "為什麼選擇 UploadLess 圖片轉文字工具",
-  "image_to_text.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "私密的圖片 OCR",
-      "description": "直接在瀏覽器中將圖片轉文字。你的照片、截圖和文件不會上傳到伺服器，適合處理需要保護隱私的圖片文字辨識任務。"
-    },
-    {
-      "icon": "bolt",
-      "title": "免費快速轉換",
-      "description": "免費線上從圖片擷取文字，無需註冊帳號、安裝軟體或付費。適合快速處理圖片轉文字、照片轉文字和截圖轉文字。"
-    },
-    {
-      "icon": "layers-linked",
-      "title": "批次圖片轉文字",
-      "description": "一次上傳或貼上多張圖片，依序批次進行 OCR 辨識，幫你節省處理大量 JPG、PNG、照片和截圖的時間。"
-    },
-    {
-      "icon": "languages",
-      "title": "支援多種 OCR 語言",
-      "description": "可依圖片內容選擇最適合的 OCR 語言，包括拉丁文字、韓文、日文、簡體中文、繁體中文和泰文，提升圖片文字擷取準確度。"
-    }
-  ],
-  "image_to_text.faq.title": "圖片轉文字常見問題",
-  "image_to_text.faq.items": [
-    {
-      "q": "如何在線上將圖片轉文字？",
-      "a": "你可以將圖片上傳、拖放到 UploadLess，或直接從剪貼簿貼上圖片，選擇正確的 OCR 語言後，工具會在瀏覽器中自動擷取圖片中的文字。"
-    },
-    {
-      "q": "圖片轉文字是免費的嗎？",
-      "a": "是的，UploadLess 圖片轉文字工具可免費使用。你不需要註冊帳號、安裝軟體或付費，就能在線上從圖片擷取文字。"
-    },
-    {
-      "q": "可以把照片轉文字嗎？",
-      "a": "可以。你可以上傳手機拍攝的照片，UploadLess 會辨識照片中的文字，並將內容轉成可複製、可編輯的文字。"
-    },
-    {
-      "q": "支援截圖轉文字嗎？",
-      "a": "支援。你可以上傳螢幕截圖或直接貼上截圖，工具會進行截圖文字辨識，幫你快速擷取截圖中的文字內容。"
-    },
-    {
-      "q": "可以從 JPG、JPEG 或 PNG 圖片擷取文字嗎？",
-      "a": "可以。UploadLess 支援常見圖片格式，包括 JPG、JPEG 和 PNG，適合用來進行 JPG 轉文字、PNG OCR 和圖片文字擷取。"
-    },
-    {
-      "q": "圖片 OCR 支援繁體中文嗎？",
-      "a": "支援。你可以選擇繁體中文 OCR 來辨識台灣常用的繁體中文內容，也可以依圖片內容選擇其他語言以提升辨識準確度。"
-    },
-    {
-      "q": "UploadLess 會上傳我的圖片到伺服器嗎？",
-      "a": "不會。UploadLess 會直接在你的瀏覽器中進行圖片 OCR 處理，你的照片、截圖和文件不會被上傳到伺服器。"
-    },
-    {
-      "q": "可以一次處理多張圖片嗎？",
-      "a": "可以。你可以一次上傳或貼上多張圖片，UploadLess 會批次處理圖片，並逐一擷取每張圖片中的文字。"
-    },
-    {
-      "q": "如何提高圖片文字辨識的準確度？",
-      "a": "建議使用清晰、光線充足、文字不要歪斜的圖片，並選擇正確的 OCR 語言。圖片解析度越清楚，文字辨識結果通常會越準確。"
-    },
-    {
-      "q": "圖片轉文字後可以複製結果嗎？",
-      "a": "可以。OCR 處理完成後，你可以直接複製擷取出的文字，也可以使用格式化工具整理輸出內容，再貼到文件、筆記或其他應用程式中。"
-    }
-  ],
-  "tool.image_to_text.title": "圖片轉文字",
-  "tool.image_to_text.description": "免費在線上將圖片、照片或截圖轉成文字。支援 JPG、PNG 與批次 OCR，直接在瀏覽器中處理，快速又私密。",
-  "tool.image_to_text.short_description": "免費將圖片轉成文字。",
-  "donate.title": "支持創作者",
-  "donate.description": "幫助我維護伺服器並讓此工具保持無廣告。",
-  "donate.button": "在 Ko-fi 上支持",
-  "compare_two_lists.first_row_is_header": "First row is header",
-  "compare_two_lists.all_columns": "All Columns",
-  "_comment_audio_to_text": "================ Audio to Text ================",
-  "audio_to_text.btn.load_sample": "試用範例音訊",
-  "video_to_text.btn.load_sample": "試用範例影片",
-  "tool.audio_to_text.title": "音訊轉文字",
-  "tool.audio_to_text.description": "直接在瀏覽器中將音訊和影片語音轉換成文字。完全私密，並由 AI 驅動。",
-  "tool.audio_to_text.short_description": "私密地將音訊轉錄成文字。",
-  "audio_to_text.upload.title": "上傳音訊檔案",
-  "audio_to_text.upload.subtitle": "將 MP3、WAV、M4A、FLAC、OGG 和其他音訊檔案轉換成文字。",
-  "audio_to_text.upload.hint": "將檔案拖曳到這裡，或從裝置中選擇檔案。",
-  "audio_to_text.upload.btn_select": "選擇檔案",
-  "audio_to_text.settings.model": "AI 模型",
-  "audio_to_text.settings.multilingual": "多語言",
-  "audio_to_text.settings.language": "語言",
-  "audio_to_text.btn.transcribe": "轉錄成文字",
-  "audio_to_text.btn.download": "下載文字",
-  "audio_to_text.btn.start_over": "重新開始",
-  "audio_to_text.proc.loading_model": "正在載入 AI 模型...",
-  "audio_to_text.proc.transcribing": "正在轉錄音訊...",
-  "audio_to_text.results.transcription": "轉錄結果",
-  "audio_to_text.results.no_speech": "未偵測到語音。",
-  "audio_to_text.seo.title": "語音轉文字工具｜免費音檔、錄音、MP3 轉文字與逐字稿",
-  "audio_to_text.seo.description": "免費將音檔、錄音和語音轉成文字。支援 MP3、WAV、M4A 等常見格式，直接在瀏覽器中產生逐字稿，不需註冊，適合會議、訪談、課程和 Podcast。",
-  "audio_to_text.hero.title": "免費語音轉文字工具",
-  "audio_to_text.hero.description": "上傳 MP3、WAV、M4A 或其他音訊檔案，直接在瀏覽器中將語音轉成文字。適合會議錄音、訪談、課程、Podcast 和一般音檔逐字稿。",
-  "audio_to_text.how_to_use.title": "如何轉錄音訊",
-  "audio_to_text.how_to_use.steps": [
-    "上傳你想轉成文字的音訊檔案，例如 MP3、WAV、M4A、FLAC 或 OGG。",
-    "選擇音檔中的語音語言，讓錄音轉文字和音檔逐字稿更準確。",
-    "點擊轉錄按鈕，工具會直接在瀏覽器中將語音轉成文字。",
-    "轉錄完成後，你可以複製文字內容，或下載 .txt 逐字稿檔案。"
-  ],
-  "audio_to_text.why_use.title": "為什麼使用我們的語音轉文字工具？",
-  "audio_to_text.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "私密的音檔轉文字",
-      "description": "音檔會直接在你的瀏覽器中轉成文字，不會上傳到伺服器，適合處理會議錄音、訪談和私人語音內容。"
-    },
-    {
-      "icon": "brain",
-      "title": "將錄音轉成逐字稿",
-      "description": "把 Podcast、會議、訪談、課程、語音備忘錄和其他錄音內容轉成可閱讀、可複製的文字逐字稿。"
-    },
-    {
-      "icon": "settings",
-      "title": "簡單的轉文字設定",
-      "description": "開始前只要選擇語音語言和轉錄模式，就能將 MP3、WAV、M4A 等常見音訊檔案轉成文字。"
-    },
-    {
-      "icon": "language",
-      "title": "支援多語言語音轉文字",
-      "description": "支援多種語言的音訊轉文字，包括英文、日文、韓文、中文、西班牙文、法文、德文等常見語言。"
-    }
-  ],
-  "audio_to_text.faq.title": "語音轉文字常見問題",
-  "audio_to_text.faq.items": [
-    {
-      "q": "如何在線上將音檔轉文字？",
-      "a": "上傳你的音訊檔案，選擇語音語言，然後開始轉錄。工具會將音檔中的語音轉成文字，你可以複製結果或下載成 .txt 逐字稿。"
-    },
-    {
-      "q": "這個語音轉文字工具是免費的嗎？",
-      "a": "是的，你可以免費使用這個語音轉文字工具，不需要註冊帳號。適合快速將錄音、語音備忘錄、訪談或課程音檔轉成文字。"
-    },
-    {
-      "q": "我的音檔會被上傳到伺服器嗎？",
-      "a": "不會。音檔會直接在你的瀏覽器中處理，轉錄過程不需要將檔案上傳到伺服器，適合處理私人錄音、會議內容或訪談資料。"
-    },
-    {
-      "q": "支援哪些音訊格式轉文字？",
-      "a": "工具支援常見音訊格式，例如 MP3、WAV、M4A、FLAC 和其他瀏覽器可讀取的音訊檔案。你只要上傳檔案，就可以將語音內容轉成文字。"
-    },
-    {
-      "q": "可以將 MP3 轉文字嗎？",
-      "a": "可以。上傳 MP3 檔案後，工具會讀取其中的語音並產生文字逐字稿，適合轉錄錄音檔、Podcast、講座音訊和語音筆記。"
-    },
-    {
-      "q": "可以將 M4A 或手機錄音轉文字嗎？",
-      "a": "可以。許多手機錄音會儲存成 M4A 格式，你可以直接上傳 M4A 檔案，將會議錄音、課堂錄音或訪談錄音轉成文字。"
-    },
-    {
-      "q": "可以將 WAV 音檔轉成文字嗎？",
-      "a": "可以。WAV 檔通常音質較高，適合用來轉錄清楚的人聲內容。上傳 WAV 檔後，工具會將語音轉成可複製的文字逐字稿。"
-    },
-    {
-      "q": "可以把會議錄音轉文字嗎？",
-      "a": "可以。你可以上傳會議錄音檔，將討論內容轉成逐字稿，方便整理重點、搜尋關鍵內容、製作會議紀錄或分享給團隊成員。"
-    },
-    {
-      "q": "可以將 Podcast 轉成逐字稿嗎？",
-      "a": "可以。上傳 Podcast 音訊檔後，工具可以將節目中的語音轉成文字，方便製作節目摘要、文章內容、字幕草稿或 SEO 文字素材。"
-    },
-    {
-      "q": "這個工具支援中文語音轉文字嗎？",
-      "a": "支援。你可以選擇中文語音進行轉錄，也可以轉錄英文、日文、韓文、西班牙文、法文、德文等多種語言的音訊內容。"
-    },
-    {
-      "q": "第一次使用為什麼需要載入 AI 模型？",
-      "a": "因為工具會在瀏覽器中載入語音轉文字模型。第一次使用可能需要等待模型下載，之後再次使用通常會更快，因為瀏覽器可以重複使用已快取的模型。"
-    },
-    {
-      "q": "音訊轉文字的準確度會受什麼影響？",
-      "a": "準確度主要取決於錄音品質、背景噪音、說話速度、多人同時說話和語言選擇。清楚的人聲、較少雜音和正確的語言設定通常能得到更好的逐字稿結果。"
-    }
-  ],
-  "_comment_video_to_text": "================ Video to Text ================",
-  "tool.video_to_text.title": "影片轉文字",
-  "tool.video_to_text.description": "直接在瀏覽器中將影片語音轉換成文字。完全私密，並由 AI 驅動。",
-  "tool.video_to_text.short_description": "私密地將影片轉錄成文字。",
-  "video_to_text.upload.title": "上傳影片檔案",
-  "video_to_text.upload.subtitle": "轉錄 MP4、MOV、WebM、MKV、AVI 等影片檔案。",
-  "video_to_text.upload.hint": "將檔案拖曳到這裡，或從裝置中選擇檔案。",
-  "video_to_text.upload.btn_select": "選擇檔案",
-  "video_to_text.settings.model": "AI 模型",
-  "video_to_text.settings.multilingual": "多語言",
-  "video_to_text.settings.language": "語言",
-  "video_to_text.btn.transcribe": "轉錄成文字",
-  "video_to_text.btn.download": "下載文字",
-  "video_to_text.btn.start_over": "重新開始",
-  "video_to_text.proc.loading_model": "正在載入 AI 模型...",
-  "video_to_text.proc.transcribing": "正在轉錄影片...",
-  "video_to_text.results.transcription": "轉錄結果",
-  "video_to_text.results.no_speech": "未偵測到語音。",
-  "video_to_text.how_to_use.title": "如何將影片轉成文字",
-  "video_to_text.how_to_use.steps": [
-    "從你的裝置上傳影片檔案，例如 MP4、MOV、WebM、MKV 或其他常見影片格式。",
-    "選擇適合的轉錄設定。若想更快取得結果，可以使用較快的模式；若想提高文字準確度，可以選擇較高品質的模式。",
-    "選擇影片中實際使用的語言，讓工具能更準確辨識語音內容。",
-    "點擊轉錄按鈕後，工具會直接在瀏覽器中處理影片語音。完成後，你可以複製逐字稿，或下載成 .txt 文字檔。"
-  ],
-  "video_to_text.seo.title": "影片轉文字工具｜免費影片轉逐字稿與 MP4 轉文字",
-  "video_to_text.seo.description": "免費將影片中的語音轉成文字。上傳 MP4、MOV、WebM 等影片檔案，直接在瀏覽器中產生逐字稿，不需註冊，檔案不會上傳到伺服器。",
-  "video_to_text.hero.title": "免費影片轉文字工具",
-  "video_to_text.hero.description": "上傳 MP4、MOV、WebM 或其他影片檔案，直接在瀏覽器中將影片語音轉成文字，產生可複製或下載的逐字稿。",
-  "video_to_text.why_use.title": "為什麼使用我們的影片轉文字工具？",
-  "video_to_text.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "私密的影片轉文字",
-      "description": "影片檔案會直接在你的瀏覽器中轉成文字，不會上傳到伺服器，適合處理會議影片、課程錄影和私人影片內容。"
-    },
-    {
-      "icon": "brain",
-      "title": "將影片語音轉成逐字稿",
-      "description": "把訪談、講座、簡報、網路研討會、螢幕錄影和課程影片中的語音轉成可閱讀、可複製的文字逐字稿。"
-    },
-    {
-      "icon": "settings",
-      "title": "支援常見影片檔案",
-      "description": "上傳 MP4、MOV、WebM 等常見影片檔案，就能將影片中的語音轉成文字，不需要安裝額外軟體。"
-    },
-    {
-      "icon": "language",
-      "title": "支援多語言影片轉文字",
-      "description": "支援多種語言的影片語音轉文字，包括英文、日文、韓文、中文、西班牙文、法文、德文等常見語言。"
-    }
-  ],
-  "video_to_text.faq.title": "影片轉文字常見問題",
-  "video_to_text.faq.items": [
-    {
-      "q": "如何在線上將影片轉文字？",
-      "a": "上傳你的影片檔案，選擇影片中的語音語言，然後開始轉錄。工具會擷取影片中的聲音並轉成文字，你可以複製結果或下載成 .txt 逐字稿。"
-    },
-    {
-      "q": "這個影片轉文字工具是免費的嗎？",
-      "a": "是的，你可以免費使用這個影片轉文字工具，不需要註冊帳號。適合快速將會議影片、課程錄影、訪談影片或簡報錄影轉成文字。"
-    },
-    {
-      "q": "我的影片會被上傳到伺服器嗎？",
-      "a": "不會。影片會直接在你的瀏覽器中處理，轉錄過程不需要將影片檔案上傳到伺服器，適合處理私人影片、內部會議和未公開內容。"
-    },
-    {
-      "q": "支援哪些影片格式轉文字？",
-      "a": "工具支援常見影片格式，例如 MP4、MOV、WebM 和其他瀏覽器可讀取的影片檔案。你只要上傳影片，就可以將影片中的語音轉成文字。"
-    },
-    {
-      "q": "可以將 MP4 轉文字嗎？",
-      "a": "可以。上傳 MP4 影片後，工具會分析影片中的語音並產生文字逐字稿，適合轉錄手機影片、會議錄影、課程影片和螢幕錄影。"
-    },
-    {
-      "q": "可以把 YouTube 影片轉文字嗎？",
-      "a": "如果你已經有影片檔案，可以上傳該影片並轉成文字。目前工具不支援直接貼上 YouTube 連結，因此不能直接從網址擷取影片逐字稿。"
-    },
-    {
-      "q": "影片轉文字和影片轉字幕一樣嗎？",
-      "a": "不完全一樣。影片轉文字會產生一般文字逐字稿，方便複製、整理和搜尋；字幕通常需要時間軸。如果你需要字幕，可以先用逐字稿作為字幕草稿。"
-    },
-    {
-      "q": "可以將會議影片轉成逐字稿嗎？",
-      "a": "可以。上傳會議影片或線上會議錄影後，工具可以將討論內容轉成逐字稿，方便整理會議紀錄、搜尋重點或分享給團隊成員。"
-    },
-    {
-      "q": "可以將課程影片或講座影片轉文字嗎？",
-      "a": "可以。你可以上傳課程錄影、講座影片或教學影片，將影片語音轉成文字，方便整理筆記、製作摘要或建立可搜尋的學習資料。"
-    },
-    {
-      "q": "影片語音轉文字支援哪些語言？",
-      "a": "工具支援多種語言的影片語音轉文字，包括中文、英文、日文、韓文、西班牙文、法文、德文等常見語言。開始前請選擇影片中實際使用的語言。"
-    },
-    {
-      "q": "第一次使用為什麼需要載入 AI 模型？",
-      "a": "因為工具會在瀏覽器中載入影片轉文字所需的語音模型。第一次使用可能需要等待模型下載，之後再次使用通常會更快，因為瀏覽器可以重複使用快取。"
-    },
-    {
-      "q": "影片轉逐字稿的準確度會受什麼影響？",
-      "a": "準確度主要取決於影片音質、背景噪音、說話速度、多人同時說話和語言設定。人聲清楚、雜音較少、語言選擇正確時，通常能得到更好的影片逐字稿。"
-    }
-  ],
-
-  "home.category.all": "全部",
-"home.category.audio": "音訊",
-"home.category.text": "文字",
-
-"_comment_extract_frames": "================ Extract Frames from Video ================",
-  
-"tool.extract_frames.title": "影片影格擷取",
-  "tool.extract_frames.description": "從影片中擷取影格並儲存為圖片。支援儲存當前畫面、固定時間間隔擷取，或在整部影片中平均擷取指定張數。",
-  "tool.extract_frames.short_description": "安全具隱私地從影片中擷取畫面。",
-  
-"extract_frames.seo.title": "影片截圖工具｜線上免費擷取影片畫面，轉存 JPG/PNG 圖片",
-"extract_frames.seo.description": "免費線上影片截圖工具，支援擷取單張畫面或批次逐格截圖，影片轉圖片轉 JPG/PNG。全程在瀏覽器處理，不上傳伺服器，安全隱私。",
-"extract_frames.hero.title": "影片截圖 · 影格擷取工具",
-"extract_frames.hero.description": "擷取影片的當前畫面、單格截圖，或依時間間隔與數量批次轉存影片圖片，直接在瀏覽器中免費使用。",
-  
-  "extract_frames.upload.title": "將影片檔案拖曳至此",
-  "extract_frames.upload.subtitle": "支援 MP4、WebM、MOV 等格式 · 本地私密擷取",
-  "extract_frames.upload.btn_select": "選擇影片檔案",
-  "extract_frames.upload.btn_sample": "試用範例影片",
-  "extract_frames.upload.hint": "選擇要擷取畫面（影格）的影片",
-  "extract_frames.mode.title": "擷取模式",
-  "extract_frames.mode.current": "儲存當前畫面",
-  "extract_frames.mode.interval": "固定時間間隔擷取",
-  "extract_frames.mode.evenly": "平均擷取 N 張畫面",
-  "extract_frames.settings.format": "輸出格式",
-  "extract_frames.settings.interval": "時間間隔 (秒)",
-  "extract_frames.settings.interval_custom": "自訂 (秒)",
-  "extract_frames.settings.frames": "畫面張數",
-  "extract_frames.settings.frames_custom": "自訂張數",
-  "extract_frames.btn.save_current": "儲存當前畫面",
-  "extract_frames.btn.extract_zip": "擷取並下載 ZIP 檔",
-  "extract_frames.btn.new": "擷取新影片",
-  "extract_frames.btn.download_all": "全部下載",
-  "extract_frames.btn.clear_all": "全部清除",
-  "extract_frames.btn.extract": "開始擷取",
-  "extract_frames.results.extracted_frames": "已擷取的畫面",
-  "extract_frames.preview.not_available": "無法預覽",
-  "extract_frames.preview.unsupported_format": "瀏覽器不支援預覽此格式 ({filename})",
-  "extract_frames.preview.fallback_hint": "您仍可使用「固定時間間隔」或「平均擷取」模式來擷取畫面。",
-  "extract_frames.proc.extracting": "正在擷取畫面...",
-  "extract_frames.how_to_use.title": "如何擷取影片畫面",
-  "extract_frames.how_to_use.steps": [
-    "從您的裝置上傳 MP4、MOV、WebM 或其他格式的影片檔案。",
-    "選擇您想要的擷取方式：儲存當前畫面、每隔固定時間擷取一次，或是將整部影片平均擷取指定張數的畫面。",
-    "點擊擷取按鈕，即可下載單張 JPG 圖片或包含所有擷取畫面的 ZIP 壓縮檔。"
-  ],
-
-
-  "extract_frames.why_use.title": "為什麼選擇 UploadLess 影片截圖工具",
-  "extract_frames.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "具備隱私保護的畫面擷取",
-      "description": "您的影片會直接在瀏覽器中進行處理，絕不會被上傳到伺服器。"
-    },
-    {
-      "icon": "bolt",
-      "title": "完全免費的影片影格擷取工具",
-      "description": "線上擷取影片畫面，無需註冊、無需安裝軟體，更不會添加任何浮水印。"
-    },
-    {
-      "icon": "layout-grid",
-      "title": "支援單張或多張畫面擷取",
-      "description": "可儲存當前影片畫面、每隔固定時間自動擷取，或是在整部影片中平均擷取指定張數。"
-    },
-    {
-      "icon": "file-zip",
-      "title": "支援打包下載為 ZIP 檔",
-      "description": "當您擷取多張影片畫面時，系統會自動將所有 JPG 圖片打包成一個 ZIP 壓縮檔，方便您一鍵下載。"
-    }
-  ],
-  "extract_frames.faq.title": "影片擷取常見問題 (FAQ)",
-  "extract_frames.faq.items": [
-    {
-      "q": "什麼是影片影格擷取工具？",
-      "a": "影片影格擷取工具是一款可以從影片中儲存靜態圖片的工具。它不是單純的螢幕截圖，而是直接讀取影片內部的影格數據，並讓您將其儲存為高畫質圖片。"
-    },
-    {
-      "q": "如何線上擷取影片的畫面？",
-      "a": "上傳您的影片，選擇一種擷取模式，然後啟動程式即可。您可以儲存當前的單個畫面、設定時間間隔擷取，或是從整部影片中擷取固定數量的畫面。"
-    },
-    {
-      "q": "如何精準儲存影片中的某一個特定畫面？",
-      "a": "使用「儲存當前畫面」模式，將播放進度條拉到您想要的瞬間，然後將該畫面儲存為 JPG 圖片。這在您需要影片中某個精確畫面時非常實用。"
-    },
-    {
-      "q": "我可以擷取到乾淨、沒有雜物的影片截圖嗎？",
-      "a": "可以。您可以直接將影片影格本身儲存為 JPG 圖片，截圖中不會包含瀏覽器控制項、播放器按鈕或其他任何螢幕雜訊。"
-    },
-    {
-      "q": "如何每隔幾秒鐘就擷取一次畫面？",
-      "a": "選擇「固定時間間隔」模式，並輸入您想要的秒數。例如，您可以設定每隔 1 秒、2 秒、5 秒或 10 秒自動擷取一張畫面。"
-    },
-    {
-      "q": "如何從影片中擷取固定張數的畫面？",
-      "a": "選擇「平均擷取」模式並輸入您需要的張數。工具會在整部影片的總長度中，自動平均計算並擷取該數量的畫面。"
-    },
-    {
-      "q": "我應該擷取影片中的每一個影格嗎？",
-      "a": "通常不需要擷取每一個影格，因為這會產生數百甚至數千張圖片。若只是為了製作預覽圖、縮圖或進行快速審查，使用「時間間隔擷取」或「平均擷取」會是更好的選擇。"
-    },
-    {
-      "q": "我可以擷取 MP4 影片的畫面嗎？",
-      "a": "可以。您可以將本工具當作 MP4 影格擷取器，用來儲存單張畫面或匯出 MP4 檔案中的多個影格。根據您使用的瀏覽器，其他常見的影片格式也同樣支援。"
-    },
-    {
-      "q": "擷取出來的影片畫面會儲存為什麼格式？",
-      "a": "擷取出來的畫面會儲存為 JPG 圖片。JPG 格式非常適合用於影片截圖、縮圖、預覽圖以及在網路上分享。"
-    },
-    {
-      "q": "如何下載多張影片畫面？",
-      "a": "當您擷取多張畫面時，這些 JPG 圖片會被打包成一個 ZIP 壓縮檔，方便您一次下載所有擷取出來的畫面。"
-    },
-    {
-      "q": "我的影片會被上傳到伺服器嗎？",
-      "a": "不會。畫面擷取程式完全在您的瀏覽器中本地執行，因此影片會安全地留在您的裝置上。您不需要上傳影片、不需要安裝任何軟體，也不需要註冊帳號。"
-    },
-    {
-      "q": "擷取出來的影片畫面可以用在哪些地方？",
-      "a": "您可以將擷取出的畫面用於製作影片縮圖、影片預覽、教學指南、社群媒體貼文、說明文件、圖片參考，或是單純留存影片中的珍貴瞬間。"
-    }
-  ],
-
-  "_comment_jpg_to_pdf": "================ JPG to PDF ================",
-  "tool.jpg_to_pdf.title": "JPG 轉 PDF",
-  "tool.jpg_to_pdf.description": "輕鬆將 JPG/JPEG 圖片轉換成單一 PDF 檔案。隱私安全、快速，直接在瀏覽器中完成。",
-  "tool.jpg_to_pdf.short_description": "私密轉換 JPG 為 PDF。",
-  "jpg_to_pdf.seo.title": "JPG 轉 PDF 轉換器 – 免費線上工具",
-  "jpg_to_pdf.seo.description": "在瀏覽器中將 JPG 或 JPEG 圖片轉換成 PDF。免費、免註冊、免上傳。合併多個檔案並立即下載 PDF。",
-  "jpg_to_pdf.hero.title": "JPG 轉 PDF 轉換器",
-  "jpg_to_pdf.hero.description": "將你的 JPG 或 JPEG 圖片轉換成 PDF 檔案—免費、直接在瀏覽器中完成。新增多張照片、調整順序，幾秒內即可下載。",
-  "jpg_to_pdf.selected_images": "已選擇的圖片",
-  "jpg_to_pdf.pages": "頁",
-  "jpg_to_pdf.upload.title": "將你的 JPG 圖片拖曳至此處以轉換成 PDF",
-  "jpg_to_pdf.upload.subtitle": "支援 JPG、JPEG、PNG、WebP 及其他常見圖片格式",
-  "jpg_to_pdf.upload.btn_select": "選擇圖片",
-  "jpg_to_pdf.btn.convert": "轉換成 PDF",
-  "jpg_to_pdf.btn.add_more": "新增更多",
-  "jpg_to_pdf.btn.processing": "處理中...",
-  "jpg_to_pdf.btn.combine": "轉換成 PDF",
-  "jpg_to_pdf.btn.download_short": "下載",
-  "jpg_to_pdf.btn.load_sample": "載入範例",
-  "jpg_to_pdf.btn.download": "下載 PDF",
-  "jpg_to_pdf.btn.clear": "全部清除",
-  "jpg_to_pdf.preview_title": "PDF 預覽",
-  "jpg_to_pdf.how_to_use.title": "如何將 JPG 轉換成 PDF",
-  "jpg_to_pdf.how_to_use.steps": [
-    "點擊上傳區域，或將你的 JPG 或 JPEG 檔案拖放到頁面上。",
-    "新增所需數量的 JPG 圖片，然後拖曳調整順序後再進行轉換。",
-    "點擊轉換以產生你的 PDF。所有處理都在瀏覽器中完成——不會傳送到任何伺服器。",
-    "PDF 檔案準備好後即可下載。"
-  ],
-  "jpg_to_pdf.why_use.title": "為什麼選擇 UploadLess JPG 轉 PDF",
-  "jpg_to_pdf.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "檔案留在你的裝置上",
-      "description": "你的 JPG 圖片完全在瀏覽器中處理，不會上傳到任何伺服器。"
-    },
-    {
-      "icon": "files",
-      "title": "一次轉換多張 JPG",
-      "description": "新增所需數量的 JPG 或 JPEG 檔案，一次合併成單一 PDF。"
-    },
-    {
-      "icon": "arrows-sort",
-      "title": "自由控制頁面順序",
-      "description": "轉換前可拖曳調整圖片順序，讓頁面完全依照你想要的方式呈現。"
-    },
-    {
-      "icon": "infinity",
-      "title": "免費且無使用限制",
-      "description": "免註冊、無使用上限、無任何費用。想轉換多少 JPG 檔案都可以。"
-    }
-  ],
-  "jpg_to_pdf.faq.title": "常見問題",
-  "jpg_to_pdf.faq.items": [
-    {
-      "q": "如何線上將 JPG 轉換成 PDF？",
-      "a": "上傳你的 JPG 或 JPEG 檔案，依照你想要的順序排列，然後點擊轉換。PDF 會在瀏覽器中產生，馬上就能下載。"
-    },
-    {
-      "q": "這個 JPG 轉 PDF 工具是免費的嗎？",
-      "a": "是的，此工具完全免費使用，不需註冊、不需訂閱，也沒有任何隱藏費用。"
-    },
-    {
-      "q": "我可以將多個 JPG 檔案合併成一個 PDF 嗎？",
-      "a": "可以。你可以上傳任意數量的 JPG 或 JPEG 圖片，並將它們全部合併成單一 PDF 文件。"
-    },
-    {
-      "q": "轉換前可以調整圖片順序嗎？",
-      "a": "可以。上傳後，你可以拖曳重新排列圖片，讓最終 PDF 的頁面順序符合你的需求。"
-    },
-    {
-      "q": "我的 JPG 檔案會被上傳到伺服器嗎？",
-      "a": "不會。所有轉換都在你的瀏覽器本機完成，圖片不會傳送到任何伺服器，確保檔案隱私。"
-    },
-    {
-      "q": "將 JPG 轉換成 PDF 會降低圖片畫質嗎？",
-      "a": "此工具會將你的 JPG 圖片原封不動地嵌入 PDF，不會重新壓縮。PDF 中的畫質會與你的原始檔案相同。"
-    },
-    {
-      "q": "可以轉換 JPEG 檔案嗎？還是只能轉 JPG？",
-      "a": "兩者皆可。JPG 和 JPEG 是同一種圖片格式，因此無論副檔名是哪一種都能上傳，轉換結果也會相同。"
-    },
-    {
-      "q": "可以在手機上使用這個工具嗎？",
-      "a": "可以。此轉換器支援手機瀏覽器，你可以直接從相簿上傳照片並在手機上轉換成 PDF。"
-    },
-    {
-      "q": "可以將掃描成 JPG 的文件轉換成 PDF 嗎？",
-      "a": "可以。如果你的掃描器將頁面儲存為 JPG 檔案，你可以上傳這些掃描圖片並將它們轉換成單一 PDF。此工具不提供 OCR 文字辨識功能。"
-    },
-    {
-      "q": "可以轉換的 JPG 檔案數量有限制嗎？",
-      "a": "沒有強制的使用限制，你不需要建立帳號或付費即可轉換所需數量的檔案。"
-    },
-    {
-      "q": "如果 PDF 沒有自動下載該怎麼辦？",
-      "a": "請確認你的瀏覽器沒有封鎖彈出視窗或自動下載功能。可以再次點擊下載按鈕，或重新整理頁面後再試一次。"
-    },
-    {
-      "q": "這個頁面可以轉換 PNG 檔案嗎？",
-      "a": "此頁面僅支援 JPG 和 JPEG 檔案。若要將 PNG 圖片轉換成 PDF，請使用 PNG to PDF 工具：[uploadless.app/png-to-pdf](/png-to-pdf)。"
-    }
-  ],
-
-  "_comment_merge_pdf": "================ Merge PDF ================",
-  "tool.merge_pdf.title": "合併 PDF",
-"tool.merge_pdf.description": "在瀏覽器中安全私密地合併多個 PDF 和圖片為單一 PDF 文件。",
-"tool.merge_pdf.short_description": "立即合併 PDF 與圖片。",
-
-"merge_pdf.seo.title": "免費PDF合併工具｜線上合併PDF檔案，不用下載安裝、不用上傳雲端，安全快速",
-"merge_pdf.seo.description": "免費線上合併PDF檔案工具，完全在瀏覽器中處理，不用下載安裝、不用上傳雲端、不需註冊會員，保護您的隱私與檔案安全。支援多個PDF檔案合併成一個、自由調整合併順序，也可壓縮檔案大小，操作簡單、合併速度快，新手也能快速上手，手機、平板、電腦都能直接使用，完全免費，立即線上試用，輕鬆完成PDF合併！",
-"merge_pdf.hero.title": "免費線上合併PDF檔案",
-"merge_pdf.hero.description": "不用下載安裝、不用上傳雲端，所有處理都在您的瀏覽器中完成，保護隱私又安全快速，立即免費體驗。",
-
-  "merge_pdf.selected_files": "已選檔案",
-  "merge_pdf.pages": "頁",
-  "merge_pdf.upload.title": "將 PDF 和圖片拖曳至此進行合併",
-  "merge_pdf.upload.subtitle": "PDF、JPG、PNG、WebP 等格式・無檔案大小限制",
-  "merge_pdf.upload.btn_select": "選擇檔案",
-  "merge_pdf.btn.convert": "合併檔案",
-  "merge_pdf.btn.add_more": "新增更多",
-  "merge_pdf.btn.processing": "處理中...",
-  "merge_pdf.btn.combine": "合併檔案",
-  "merge_pdf.btn.download_short": "下載",
-  "merge_pdf.btn.load_sample": "載入範例",
-  "merge_pdf.btn.download": "下載 PDF",
-  "merge_pdf.btn.clear": "清除全部",
-  "merge_pdf.preview_title": "PDF 預覽",
-
-
-"merge_pdf.how_to_use.title": "如何線上合併 PDF 與圖片",
-"merge_pdf.how_to_use.steps": [
-  "拖曳您的 PDF 檔案與圖片到頁面中，或點擊「選擇檔案」從電腦、手機挑選要合併的檔案，支援一次選取多個檔案。",
-  "上傳完成後可直接拖曳調整檔案順序，並透過縮圖預覽每一頁的內容，確認排列方式與最終合併結果相符。",
-  "確認順序後點擊「合併檔案」，所有處理都在您的瀏覽器中即時完成，不會上傳到任何伺服器，速度快也不用等待。",
-  "合併完成即可免費下載檔案，不需註冊帳號、不限檔案大小，也不會加上浮水印，合併後可直接使用或分享。"
-],
-
-  "merge_pdf.why_use.title": "為什麼選擇 Uploadless 合併 PDF",
-"merge_pdf.why_use.benefits": [
-  {
-    "icon": "shield-lock",
-    "title": "私密又安全",
-    "description": "所有合併過程都在您的瀏覽器中完成，PDF 與圖片不會上傳到任何伺服器，個人資料、合約、報告都能安心處理。"
-  },
-  {
-    "icon": "bolt",
-    "title": "完全免費、不用註冊",
-    "description": "不需建立帳號、不用付費訂閱，也不用安裝任何軟體，打開網頁就能立即使用，沒有隱藏限制。"
-  },
-  {
-    "icon": "stack",
-    "title": "PDF、圖片一起合併",
-    "description": "支援同時合併多個 PDF 檔案與 JPG、PNG 圖片，並可自由拖曳調整順序，輕鬆整理成單一文件。"
-  },
-  {
-    "icon": "devices",
-    "title": "跨裝置隨開即用",
-    "description": "無論 Windows、Mac、手機或平板都能直接使用，不用下載安裝，換裝置也不需要重新設定。"
-  }
-],
-
-
-  "merge_pdf.faq.title": "常見問題",
-"merge_pdf.faq.items": [
-  {
-    "q": "手機也可以合併PDF嗎？",
-    "a": "可以。本工具完全在瀏覽器中運作，不需安裝任何App，無論是iPhone、Android手機或平板，只要打開瀏覽器就能直接合併PDF，操作方式與電腦版完全相同。"
-  },
-  {
-    "q": "合併PDF需要安裝軟體或App嗎？",
-    "a": "不需要。這是一個線上工具，不用下載安裝任何軟體或App，也不佔用裝置儲存空間，開啟瀏覽器輸入網址即可使用，用完即可直接關閉分頁。"
-  },
-  {
-    "q": "可以一次合併多個PDF檔案嗎？",
-    "a": "可以，本工具不限制上傳的檔案數量，您可以一次選取多個PDF檔案，系統會依照您設定的順序，將所有檔案合併成單一PDF文件。"
-  },
-  {
-    "q": "合併後可以自訂頁面順序嗎？",
-    "a": "可以。上傳檔案後，您能透過拖曳方式自由調整每個檔案的排列順序，合併前也能即時預覽，確保最終文件的頁面順序符合您的需求。"
-  },
-  {
-    "q": "合併PDF後畫質會變差或失真嗎？",
-    "a": "不會。合併過程只是將檔案的頁面重新組合，並不會重新編碼或壓縮內容，因此文字、圖片與排版都會維持原始檔案的解析度與品質。"
-  },
-  {
-    "q": "合併PDF需要註冊帳號嗎？",
-    "a": "不需要。您不用建立帳號、輸入Email或設定密碼，打開網頁選擇檔案即可立即開始合併，也沒有使用次數或天數的限制。"
-  },
-  {
-    "q": "合併PDF一定要用Adobe Acrobat嗎？",
-    "a": "不需要。許多人以為合併PDF一定要用Adobe Acrobat等付費軟體，但本工具完全免費，也不需要安裝任何Adobe相關程式，透過瀏覽器就能完成相同的合併功能。"
-  },
-  {
-    "q": "PDF合併安全嗎？會不會外洩檔案內容？",
-    "a": "安全。所有合併作業都在您本機的瀏覽器中執行，檔案不會傳送到任何伺服器或第三方，處理完成後也不會保留您的檔案，能有效保護個人與商業機密文件。"
-  },
-  {
-    "q": "合併後的PDF檔案大小會有限制嗎？",
-    "a": "沒有嚴格限制。因為合併過程是在您的裝置上進行，能處理的檔案大小主要取決於您瀏覽器與裝置的效能，一般日常使用的合約、報告或掃描文件都能順利合併。"
-  },
-  {
-    "q": "可以將PDF與圖片一起合併嗎？",
-    "a": "可以。除了PDF檔案，本工具也支援上傳JPG、PNG等圖片格式，系統會自動將圖片轉換為PDF頁面，讓您能把不同格式的文件整合成同一份PDF。"
-  },
-  {
-    "q": "合併PDF的操作會很複雜嗎？",
-    "a": "完全不會。整個流程只需三個步驟：上傳檔案、調整順序、點擊合併，介面設計簡單直覺，即使是第一次處理PDF的使用者，也能在幾秒鐘內完成合併。"
-  },
-  {
-    "q": "支援中文檔名或內容的PDF合併嗎？",
-    "a": "支援。無論檔案內容或檔名是中文、英文或其他語言，合併過程都不會影響文字編碼，合併後的PDF依然能正常顯示與搜尋原本的中文內容。"
-  },
-  {
-    "q": "合併PDF後檔案變大，可以順便壓縮嗎？",
-    "a": "目前合併功能本身不包含壓縮，若合併後的檔案較大，建議另外使用本站的PDF壓縮工具，將合併好的PDF進一步縮小檔案大小，方便傳送與分享。"
-  }
-],
-
-"tool.bulk_file_renamer.title": "批次檔案重新命名工具",
-  "tool.bulk_file_renamer.description": "一次重新命名多個檔案，透過強大的規則進行批次處理。可替換文字、加上前綴、後綴、編號、變更副檔名等等。完全免費，直接在瀏覽器中執行。",
-  "tool.bulk_file_renamer.short_description": "一次重新命名多個檔案",
-
-"tool.bulk_file_renamer.seo.title": "批次檔案重新命名工具 - 免費線上批次修改檔名",
-  "tool.bulk_file_renamer.seo.description": "免上傳，直接在瀏覽器中批次重新命名檔案。支援加前綴、後綴、文字取代、依序編號，快速又免費，完整保護隱私，不需註冊帳號即可使用。",
-  "tool.bulk_file_renamer.hero.title": "批次重新命名檔案",
-  "tool.bulk_file_renamer.hero.description": "加上前綴、尋找取代文字，或依序編號檔案。不上傳、不需註冊 - 檔案完全不會離開您的裝置。",
-
-
-
-  "bulk_file_renamer.upload.title": "上傳要重新命名的檔案",
-  "bulk_file_renamer.upload.subtitle": "將多個檔案或資料夾拖曳到此處即可開始。",
-  "bulk_file_renamer.upload.btn_select": "選擇檔案",
-  "bulk_file_renamer.upload.btn_sample": "試用範例",
-  "bulk_file_renamer.upload.hint": "支援所有檔案格式，可一次重新命名數千個檔案。",
-  "bulk_file_renamer.rules": "重新命名規則",
-  "bulk_file_renamer.add_rule": "新增規則",
-  "bulk_file_renamer.remove_rule": "移除規則",
-  "bulk_file_renamer.rule_replace": "尋找與取代",
-  "bulk_file_renamer.rule_add": "新增文字",
-  "bulk_file_renamer.rule_remove": "移除文字",
-  "bulk_file_renamer.rule_format": "變更大小寫／格式",
-  "bulk_file_renamer.rule_numbering": "加上編號",
-  "bulk_file_renamer.rule_extension": "變更副檔名",
-  "bulk_file_renamer.find_text": "尋找",
-  "bulk_file_renamer.replace_with": "取代為",
-  "bulk_file_renamer.case_sensitive": "區分大小寫",
-  "bulk_file_renamer.use_regex": "使用正規表示式",
-  "bulk_file_renamer.text_to_add": "要新增的文字",
-  "bulk_file_renamer.add_at": "新增位置",
-  "bulk_file_renamer.prefix": "前綴",
-  "bulk_file_renamer.suffix": "後綴",
-  "bulk_file_renamer.custom_index": "自訂索引",
-  "bulk_file_renamer.index": "索引",
-  "bulk_file_renamer.remove_type": "移除方式",
-  "bulk_file_renamer.remove_first_n": "前 N 個字元",
-  "bulk_file_renamer.remove_last_n": "後 N 個字元",
-  "bulk_file_renamer.remove_range": "從指定索引到指定索引",
-  "bulk_file_renamer.chars_count": "字元數量",
-  "bulk_file_renamer.start_index": "起始索引",
-  "bulk_file_renamer.end_index": "結束索引",
-  "bulk_file_renamer.format_type": "格式",
-  "bulk_file_renamer.lowercase": "小寫",
-  "bulk_file_renamer.uppercase": "大寫",
-  "bulk_file_renamer.title_case": "首字母大寫",
-  "bulk_file_renamer.camel_case": "駝峰式命名",
-  "bulk_file_renamer.start_at": "起始編號",
-  "bulk_file_renamer.increment_by": "遞增值",
-  "bulk_file_renamer.padding": "補零位數",
-  "bulk_file_renamer.separator": "分隔符號",
-  "bulk_file_renamer.position": "位置",
-  "bulk_file_renamer.before_name": "檔名前",
-  "bulk_file_renamer.after_name": "檔名後",
-  "bulk_file_renamer.new_extension": "新的副檔名",
-  "bulk_file_renamer.extension_mode": "模式",
-  "bulk_file_renamer.ext_replace": "取代",
-  "bulk_file_renamer.ext_lower": "轉小寫",
-  "bulk_file_renamer.ext_upper": "轉大寫",
-  "bulk_file_renamer.ext_remove": "移除",
-  "bulk_file_renamer.original_name": "原始檔名",
-  "bulk_file_renamer.new_name": "新檔名",
-  "bulk_file_renamer.status": "狀態",
-  "bulk_file_renamer.status_changed": "已變更",
-  "bulk_file_renamer.status_unchanged": "未變更",
-  "bulk_file_renamer.download_zip": "下載 ZIP 檔",
-  "bulk_file_renamer.clear_all": "全部清除",
-  "bulk_file_renamer.no_files": "尚未上傳檔案，請將檔案拖曳至此或點擊瀏覽。",
-  "bulk_file_renamer.preview": "預覽",
-  "bulk_file_renamer.files": "個檔案",
-  "bulk_file_renamer.add_files": "新增檔案",
-
-
-  "bulk_file_renamer.how_to_use.title": "如何使用批次檔案重新命名工具",
-"bulk_file_renamer.how_to_use.steps": [
-    "拖曳您想重新命名的檔案，或點擊選取。檔案只會留在您的瀏覽器中 - 完全不會上傳到任何伺服器。",
-    "從「新增規則」選單加入重新命名規則：尋找與取代、前綴、後綴或編號，用您想要的方式批次重新命名檔案。",
-    "設定每項規則並可疊加多項規則 - 系統會依序套用，讓您能以複雜的模式一次重新命名大量檔案。",
-    "在預覽表格中確認每個新檔名，確定無誤再套用。副檔名會自動保留，不會變動。",
-    "點擊「下載 ZIP 檔」，立即將所有重新命名後的檔案儲存到您的電腦。"
-  ],
-
-
-  "bulk_file_renamer.why_use.title": "為什麼要用這個工具？",
-"bulk_file_renamer.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "隱私安全",
-      "description": "所有重新命名作業都在瀏覽器本機進行。檔案不會離開您的裝置、不會上傳到伺服器 - 除了您沒有人看得到。"
-    },
-    {
-      "icon": "layers-linked",
-      "title": "一次批次重新命名",
-      "description": "透過可疊加的規則 - 前綴、後綴、尋找與取代、依序編號 - 一次重新命名數百個檔案。"
-    },
-    {
-      "icon": "bolt",
-      "title": "即時完成，無需等待",
-      "description": "不用上傳就不用等傳輸。重新命名在您的裝置上瞬間完成，即使是大型影片或圖片檔案也一樣。"
-    },
-    {
-      "icon": "free-rights",
-      "title": "完全免費，免註冊",
-      "description": "完全免費的檔案重新命名工具，不需帳號、不用安裝，也沒有使用次數限制。打開網頁就能立刻開始重新命名。"
-    }
-  ],
-
-  "bulk_file_renamer.faq.title": "常見問題",
-  "bulk_file_renamer.faq.items": [
-    {
-      "q": "我的檔案會被上傳到伺服器嗎？",
-      "a": "不會。所有重新命名作業都在您的瀏覽器本機進行 - 檔案完全不會離開您的裝置。這是一個真正尊重隱私的檔案重新命名工具，沒有伺服器、沒有儲存，也不會追蹤您的檔案內容。"
-    },
-    {
-      "q": "這個批次檔案重新命名工具是免費的嗎？",
-      "a": "是的，完全免費，不需註冊、不用登入，也沒有隱藏限制。您可以隨時批次重新命名任意數量的檔案。"
-    },
-    {
-      "q": "要怎麼一次重新命名多個檔案？",
-      "a": "把檔案拖曳進工具中，加入一項或多項重新命名規則 - 前綴、後綴、尋找與取代或編號 - 接著確認預覽並下載成 ZIP 檔即可。數百個檔案可以一次完成重新命名。"
-    },
-    {
-      "q": "不安裝軟體也能重新命名檔案嗎？",
-      "a": "可以。這個工具完全在瀏覽器中執行，不需下載或安裝任何東西，可以在任何作業系統上完整取代桌面版的批次重新命名工具。"
-    },
-    {
-      "q": "重新命名會改變我的檔案格式或副檔名嗎？",
-      "a": "不會。您的檔案不會被轉換或修改，只有檔名會變更，原始副檔名會自動保留。重新命名後的 MP4 依然是完全相同、位元不變的 MP4。"
-    },
-    {
-      "q": "可以用這個工具變更檔案的副檔名嗎？",
-      "a": "不行，這是刻意的設計。副檔名會被鎖定，避免產生損壞的檔案 - 把「.mp4」改成「.mp3」並不會真的轉換內容，只會產生一個打不開的檔案。如果需要轉換格式，請使用真正的轉檔工具。"
-    },
-    {
-      "q": "可以批次加上前綴或移除檔名中的文字嗎？",
-      "a": "可以。使用前綴或後綴規則可為每個檔名加上文字；使用尋找與取代並將取代欄位留空，就能移除不需要的文字 - 例如一次從數百個檔案中移除「Copy of」或相機自動產生的前綴。"
-    },
-    {
-      "q": "可以線上批次重新命名 JPG、PNG 等圖片檔嗎？",
-      "a": "可以。您可以批次重新命名 JPG、PNG、WebP、HEIC 及其他任何圖片格式，很適合整理大量照片 - 例如將整份相機膠卷依序編號。"
-    },
-    {
-      "q": "可以線上批次重新命名 MP4 等影片檔嗎？",
-      "a": "可以，而且因為完全不用上傳，即使是好幾 GB 的 MP4、MOV 或 MKV 檔案也能瞬間完成重新命名，不必等待大檔案來回傳輸伺服器。"
-    },
-    {
-      "q": "可以批次重新命名 PDF 和 Word 文件嗎？",
-      "a": "可以。PDF、DOCX、XLSX 等文件都能批次重新命名，文件內的內容、格式與中繼資料完全不受影響，只會變更檔名。"
-    },
-    {
-      "q": "可以重新命名 MP3 等音訊檔嗎？",
-      "a": "可以。批次重新命名 MP3、WAV、FLAC 或任何音訊格式，很適合整理音樂庫或為 Podcast 節目編號。請注意，這只會變更檔名，不會變更 ID3 標籤。"
-    },
-    {
-      "q": "要怎麼讓檔名對 SEO 更友善？",
-      "a": "使用小寫、具描述性且以連字號分隔的文字，例如用「blue-running-shoes.jpg」取代「IMG_4032.jpg」。透過尋找與取代功能，您可以在上傳到網站前，將所有圖片檔名中的空格與底線一次替換成連字號。"
-    },
-    {
-      "q": "這個工具支援 Windows、Mac 和手機嗎？",
-      "a": "支援。由於是在瀏覽器中執行，任何有現代瀏覽器的裝置都能使用 - Windows、macOS、Linux、ChromeOS、Android、iOS 通通沒問題，不需要額外安裝 App。"
-    }
-  ],
-
-
-
-  "tool.compare_two_lists.title": "比較兩份清單",
-  "tool.compare_two_lists.description": "貼上文字或上傳 TXT、CSV、Excel 檔案，找出兩份清單之間的差異、相符項目、重複項目和唯一值。",
-  "tool.compare_two_lists.short_description": "找出兩份清單間的差異、相符項目與重複項目",
-  "tool.compare_two_lists.seo.title": "線上比較清單工具 - CSV、Excel 與文字清單比對",
-  "tool.compare_two_lists.seo.description": "線上比較兩份清單，支援貼上文字或上傳 CSV、Excel 檔案。立即找出差異、相符項目、重複項目、缺漏項目與唯一值，完全免費。",
-  "tool.compare_two_lists.hero.title": "線上比較兩份清單",
-  "tool.compare_two_lists.hero.description": "貼上文字或上傳 CSV、Excel 檔案，立即比較兩份清單。找出僅存在於其中一份清單的項目、相符項目、重複項目與唯一值。",
-  "compare_two_lists.first_row_is_header": "第一列為標題列",
-  "compare_two_lists.all_columns": "所有欄位",
-  "compare_two_lists.list_a": "清單 A",
-  "compare_two_lists.placeholder_a": "在此貼上清單 A 的項目，一行一項…",
-  "compare_two_lists.list_b": "清單 B",
-  "compare_two_lists.placeholder_b": "在此貼上清單 B 的項目，一行一項…",
-  "compare_two_lists.btn_compare": "比較清單",
-  "compare_two_lists.btn_compare_new": "比較新的清單",
-  "compare_two_lists.only_a": "僅在 A 中",
-  "compare_two_lists.only_b": "僅在 B 中",
-  "compare_two_lists.in_both": "兩者皆有",
-  "compare_two_lists.all_unique": "全部唯一值",
-  "compare_two_lists.duplicates_a": "A 的重複項目",
-  "compare_two_lists.duplicates_b": "B 的重複項目",
-  "compare_two_lists.btn_copy": "複製到剪貼簿",
-  "compare_two_lists.how_to_use.title": "如何比較兩份清單",
-  "compare_two_lists.how_to_use.steps": [
-    "將文字貼到兩個清單欄位中，或從您的裝置上傳 TXT、CSV 或 Excel 檔案。",
-    "選擇比較方式，例如忽略大小寫、去除多餘空格、移除空白行、選取 CSV 或 Excel 中的特定欄位，或偵測重複項目。",
-    "UploadLess 會在您的瀏覽器中比較兩份清單，並顯示僅存在於清單 A、僅存在於清單 B，以及同時存在於兩份清單中的項目。",
-    "確認結果後，即可複製或匯出差異、相符項目、重複項目或唯一值。"
-  ],
-  "compare_two_lists.why_use.title": "為什麼要用 UploadLess 比較清單工具",
-  "compare_two_lists.why_use.benefits": [
-    {
-      "icon": "shield-lock",
-      "title": "私密的清單比對",
-      "description": "直接在瀏覽器中比較兩份清單。您的文字、CSV 資料、Excel 試算表和上傳的檔案都不會傳送到伺服器。"
-    },
-    {
-      "icon": "bolt",
-      "title": "快速又免費的線上工具",
-      "description": "免費線上比較清單，不需建立帳號、不用安裝軟體，也沒有隱藏費用。"
-    },
-    {
-      "icon": "file-text",
-      "title": "貼上文字或上傳 CSV、Excel 檔案",
-      "description": "可手動貼上清單，或上傳 TXT、CSV、Excel 檔案，比較欄列資料、數值、ID、姓名、電子郵件、SKU 或關鍵字。"
-    },
-    {
-      "icon": "list-check",
-      "title": "找出差異、相符項目與重複項目",
-      "description": "立即找出僅存在於清單 A、僅存在於清單 B、同時存在於兩份清單中的項目，以及重複值、缺漏項目和唯一值。"
-    }
-  ],
-  "compare_two_lists.faq.title": "比較清單常見問題",
-  "compare_two_lists.faq.items": [
-    {
-      "q": "要怎麼線上比較兩份清單？",
-      "a": "將兩份清單貼到輸入欄位中，或上傳 TXT、CSV 或 Excel 檔案。UploadLess 會在您的瀏覽器中比較兩份清單，並立即顯示差異、相符項目、重複項目、缺漏項目與唯一值。"
-    },
-    {
-      "q": "可以比較 Excel 檔案或 Excel 欄位嗎？",
-      "a": "可以。您可以上傳 Excel 檔案，或直接貼上從 Excel、Google 試算表複製的欄位。這個工具能協助您比較試算表數值、欄列、ID、電子郵件、SKU、關鍵字等清單資料，完全不需要寫公式。"
-    },
-    {
-      "q": "可以線上比較 CSV 檔案嗎？",
-      "a": "可以。UploadLess 支援上傳 CSV 檔案，讓您能線上比較 CSV 清單，直接在瀏覽器中找出缺漏的資料列、相符的數值、重複的項目與唯一項目。"
-    },
-    {
-      "q": "比較兩份清單最好的方法是什麼？",
-      "a": "最簡單的方法就是使用線上清單比較工具。貼上您的清單或上傳 TXT、CSV、Excel 檔案，接著就能查看哪些項目只出現在清單 A、只出現在清單 B，或同時出現在兩份清單中。"
-    },
-    {
-      "q": "要怎麼找出兩份清單之間的差異？",
-      "a": "上傳或貼上兩份清單後執行比較，UploadLess 會顯示僅出現在第一份清單、僅出現在第二份清單，以及同時出現在兩份清單中的項目，讓您快速找出缺漏或不一致的資料。"
-    },
-    {
-      "q": "可以找出兩份清單中的相符項目或共同值嗎？",
-      "a": "可以。這個工具會找出同時存在於兩份清單中的相符項目，很適合用來比較客戶名單、電子郵件清單、產品 SKU、URL、ID、關鍵字或庫存資料等試算表欄位。"
-    },
-    {
-      "q": "可以找出清單中的重複值嗎？",
-      "a": "可以。UploadLess 能偵測重複值與重複項目，協助您在複製或匯出結果前，先清理貼上的文字、CSV 檔案、Excel 試算表、電子郵件清單、關鍵字清單等資料。"
-    },
-    {
-      "q": "可以交叉比對兩份清單嗎？",
-      "a": "可以。您可以交叉比對兩份清單，查看有哪些項目缺漏、哪些項目相符，以及各自獨有的項目，很適合用來核對紀錄、電子郵件、ID、SKU、關鍵字、URL 或試算表資料。"
-    },
-    {
-      "q": "可以比較電子郵件清單、關鍵字清單或 SKU 清單嗎？",
-      "a": "可以。您可以貼上或上傳電子郵件清單、關鍵字清單、SKU 清單、URL 清單、ID 清單，以及其他文字、CSV 或 Excel 資料，找出差異、相符項目、重複項目、缺漏項目與唯一值。"
-    },
-    {
-      "q": "我的清單資料會被上傳到伺服器嗎？",
-      "a": "不會。UploadLess 直接在您的瀏覽器中比較清單，貼上的文字、CSV 資料、Excel 檔案和上傳的文件都不需要傳送到伺服器，確保您的清單比對過程完全私密。"
-    }
-  ]
-
+    "blog.toc": "目錄",
+    "blog.subtitle": "來自 UploadLess 的實用指南、技巧分享，以及偶爾的更新消息。",
+    "blog.read_article": "閱讀文章",
+    "common.try_now": "免費使用這個工具",
+    "home.search.placeholder": "搜尋工具",
+    "blog.author_bio": "J.Julian 是 UploadLess 的創作者兼首席開發者。他擁有深厚的軟體工程與 Web 架構背景，致力於為現代 Web 打造安全、高效能且使用者友善的檔案分享解決方案。",
+    "compress_video.upload.title": "將要壓縮的影片檔案拖放到這裡",
+    "compress_video.upload.subtitle": "MP4、MOV、AVI、MKV、WebM 等 · 最大 500 MB",
+    "compress_video.upload.btn_select": "選擇影片檔案",
+    "compress_video.upload.btn_sample": "試用範例影片",
+    "compress_video.upload.hint": "請選擇一個要壓縮並縮小檔案大小的影片",
+    "video_converter.upload.title": "將要轉換的影片檔案拖放到這裡",
+    "video_converter.upload.subtitle": "MP4、MOV、AVI、MKV、WebM 等 · 在瀏覽器中轉換",
+    "video_converter.upload.btn_select": "選擇影片檔案",
+    "video_converter.upload.btn_sample": "試用範例影片",
+    "video_converter.upload.hint": "請選擇一個要轉換成其他格式的影片檔案",
+    "video_2_mp3.upload.title": "將要轉換為 MP3 的影片檔案拖放到這裡",
+    "video_2_mp3.upload.subtitle": "多種影片格式 · 擷取音訊為 MP3",
+    "video_2_mp3.upload.btn_select": "選擇影片檔案",
+    "video_2_mp3.upload.btn_sample": "試用範例影片",
+    "video_2_mp3.upload.hint": "請選擇一個要將音訊轉換為 MP3 的影片檔案",
+    "pdf_compressor.upload.title": "將要壓縮的 PDF 檔案拖放到這裡",
+    "pdf_compressor.upload.subtitle": "PDF · 最大 100 MB · 縮小檔案大小",
+    "pdf_compressor.upload.btn_select": "選擇 PDF 檔案",
+    "pdf_compressor.upload.btn_sample": "試用範例 PDF",
+    "pdf_compressor.upload.hint": "請選擇一個要壓縮並縮小的 PDF 檔案",
+    "_comment_home": "================ Home ================",
+    "home.seo.title": "免費線上工具 — 瀏覽器內使用，無需上傳",
+    "home.seo.description": "使用免費線上工具處理檔案、圖片、PDF、影片、文字、條碼等，全部直接在瀏覽器中完成。無需上傳、無需註冊，您的資料保持私密。",
+    "home.hero.title": "免費線上工具",
+    "home.popular_tools": "熱門工具",
+    "home.popular": "熱門",
+    "home.hero.description": "快速且注重隱私的日常工具，直接在瀏覽器中執行。無需上傳 — 您的檔案永遠不會離開您的裝置。",
+    "home.pill.private": "檔案永遠不會離開你的裝置",
+    "home.pill.instant": "立即處理，無需排隊",
+    "home.pill.free": "100% 免費",
+    "home.why.private.title": "100% 隱私保護",
+    "home.why.private.desc": "壓縮透過 WebAssembly 在瀏覽器中執行。你的檔案永遠不會離開裝置。",
+    "home.why.instant.title": "無需註冊",
+    "home.why.instant.desc": "打開頁面即可開始。無需帳號、無浮水印、無時間限制。",
+    "home.why.device.title": "適用於任何裝置",
+    "home.why.device.desc": "完全響應式設計。無需安裝 App。",
+    "home.faq.title": "常見問題",
+    "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
+    "home.faq.items": [
+        {
+            "q": "UploadLess 的所有工具都可以免費使用嗎？",
+            "a": "可以。UploadLess 的所有工具都可以免費使用。你不需要付費、訂閱或建立帳號，就能壓縮檔案、轉換格式、擷取文字、產生條碼，或使用其他瀏覽器工具。"
+        },
+        {
+            "q": "我需要把檔案上傳到伺服器嗎？",
+            "a": "不需要。UploadLess 的設計是在可行的情況下，直接在你的瀏覽器中處理檔案。你的檔案會保留在自己的裝置上，而不是上傳到遠端伺服器，讓日常使用更快速，也更具隱私性。"
+        },
+        {
+            "q": "UploadLess 如何在瀏覽器中處理檔案？",
+            "a": "許多工具會使用 WebAssembly 等現代瀏覽器技術，在你的裝置上本機執行檔案處理。這讓影片壓縮、PDF 壓縮、OCR、音訊轉換、格式轉換等工作，不需要傳統的伺服器端上傳也能完成。"
+        },
+        {
+            "q": "我需要建立帳號嗎？",
+            "a": "不需要。UploadLess 不需要註冊。你只要開啟需要的工具、選擇檔案、在瀏覽器中處理，然後下載結果即可，不需要註冊或輸入電子郵件地址。"
+        },
+        {
+            "q": "UploadLess 有哪些工具？",
+            "a": "UploadLess 提供多種免費工具，包括影片壓縮、音訊與影片轉換、PDF 壓縮、圖片壓縮、OCR、音訊或影片轉文字、條碼產生、從影片擷取影格、文字工具，以及更多實用的檔案工具。"
+        },
+        {
+            "q": "UploadLess 對私人檔案安全嗎？",
+            "a": "UploadLess 以隱私為核心設計。對於支援的工具，處理會在你的瀏覽器中本機完成，因此檔案不會被傳送到 UploadLess 伺服器。這很適合處理個人文件、工作檔案、錄音、截圖和其他敏感檔案。"
+        },
+        {
+            "q": "有檔案大小限制嗎？",
+            "a": "因為檔案是在你的裝置上處理，而不是上傳到伺服器，所以沒有一般常見的上傳限制。不過，非常大的檔案仍可能受到瀏覽器、記憶體、儲存空間或裝置效能影響。較新或效能較好的裝置通常可以更順利地處理較大的檔案。"
+        },
+        {
+            "q": "為什麼有些工具第一次使用時會比較久？",
+            "a": "有些工具在第一次使用時，需要載入瀏覽器端的處理函式庫或 AI 模型。第一次載入後，瀏覽器可能會快取這些檔案，因此之後使用通常會更快。"
+        },
+        {
+            "q": "UploadLess 可以在手機上使用嗎？",
+            "a": "可以。UploadLess 可在手機和平板的現代行動瀏覽器中使用。較小的檔案通常在手機上也能順利處理，但大型影片、PDF 或 AI 相關任務，可能在記憶體和處理效能更好的桌機或筆電上表現更好。"
+        },
+        {
+            "q": "什麼時候應該使用 UploadLess，而不是一般線上檔案轉換器？",
+            "a": "當你想要快速、免費地處理檔案，而且不想把檔案上傳到第三方伺服器時，就適合使用 UploadLess。它特別適合在瀏覽器中直接完成簡單任務，例如壓縮影片、減少 PDF 大小、轉換音訊、從圖片擷取文字，或從檔案取得逐字稿。"
+        }
+    ],
+    "_comment_categories": "================ Tool Categories ================",
+    "home.category.video": "影片",
+    "home.category.pdf": "PDF",
+    "compress_video.seo.title": "影片壓縮不用上傳｜免費線上壓縮 MP4、MOV、MKV - UploadLess",
+    "compress_video.seo.description": "不用上傳、不用安裝，瀏覽器直接壓縮影片，完全免費。支援 MP4、MOV、AVI、MKV、WebM 等格式，可自訂壓縮率與畫質，沒有檔案大小限制，影片全程留在你的裝置上處理，安全又快速，適合上傳社群平台、傳送 Email、Discord 或存放雲端空間前使用的線上影片壓縮工具，手機平板電腦都能操作。",
+    "compress_video.hero.title": "免費線上影片壓縮工具",
+    "compress_video.hero.description": "線上壓縮影片並縮小影片檔案大小——無需上傳、無需註冊。全程在瀏覽器中私密執行，支援 MP4、MOV、AVI、MKV、WebM 等幾乎所有常見影片格式。",
+    "compress_video.settings.auto_optimize": "自動最佳化",
+    "compress_video.settings.size_lbl": "目標檔案大小",
+    "compress_video.btn.compress": "壓縮影片",
+    "compress_video.btn.download": "下載影片",
+    "compress_video.btn.compress_new": "壓縮新檔案",
+    "compress_video.proc.compressing": "正在壓縮影片",
+    "compress_video.how_to_use.title": "如何線上壓縮影片",
+    "compress_video.how_to_use.steps": [
+        "從你的裝置選擇影片檔案，或直接將檔案拖放到上傳區域。",
+        "選擇「自動最佳化」讓工具自動在畫質與檔案大小之間取得平衡，或使用「目標檔案大小」輸入想要壓縮到的 MB 大小。也可以直接選擇 LINE、Discord、Slack、Gmail 等常見平台的快速標籤。",
+        "點擊「壓縮」並稍候片刻。所有處理都會在你的瀏覽器本機執行，你的影片不會被上傳到伺服器。完成後即可下載壓縮後的影片。"
+    ],
+    "compress_video.why_use.title": "為什麼選擇 UploadLess",
+    "compress_video.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "100% 隱私保護",
+            "description": "影片壓縮會直接在你的瀏覽器中執行。檔案不會被上傳到伺服器，也不會離開你的裝置。"
+        },
+        {
+            "icon": "bolt",
+            "title": "免費且無需註冊",
+            "description": "打開頁面即可開始壓縮影片。無需建立帳號、無浮水印，也不需要安裝任何軟體。"
+        },
+        {
+            "icon": "player-play",
+            "title": "支援多種影片格式",
+            "description": "可壓縮 MP4、MOV、AVI、MKV、WebM 等幾乎所有常見影片格式，適合日常分享與上傳前縮小檔案。"
+        },
+        {
+            "icon": "adjustments",
+            "title": "彈性的壓縮方式",
+            "description": "可選擇自動最佳化，也可以設定目標檔案大小，將影片壓縮到指定 MB。並提供 LINE、Discord、Slack、Gmail 等常見平台快速標籤。"
+        }
+    ],
+    "compress_video.faq.title": "影片壓縮工具常見問題",
+    "compress_video.faq.items": [
+        {
+            "q": "這個影片壓縮工具是免費的嗎？",
+            "a": "是的。你可以免費線上壓縮影片，無需註冊帳號，也不需要安裝軟體。打開頁面後即可直接選擇影片並開始壓縮。"
+        },
+        {
+            "q": "支援哪些影片格式？",
+            "a": "支援 MP4、MOV、AVI、MKV、WebM 等幾乎所有常見影片格式。無論你想壓縮手機影片、螢幕錄影、相機影片或下載的影片檔，都可以直接在瀏覽器中處理。"
+        },
+        {
+            "q": "可以線上壓縮影片檔案嗎？",
+            "a": "可以。你可以直接使用瀏覽器線上壓縮影片檔案，不需要上傳到雲端，也不需要下載桌面軟體。影片會在你的裝置本機完成壓縮。"
+        },
+        {
+            "q": "如何縮小影片大小？",
+            "a": "上傳影片後，你可以選擇「自動最佳化」，讓工具自動在畫質與檔案大小之間取得平衡；也可以使用「目標檔案大小」輸入想要壓縮到的 MB 大小。"
+        },
+        {
+            "q": "可以把影片壓縮到指定 MB 嗎？",
+            "a": "可以。選擇「目標檔案大小」後，輸入想要的 MB 數值，工具會嘗試將影片壓縮到接近指定大小。這很適合需要符合上傳、傳送或附件限制的情境。"
+        },
+        {
+            "q": "可以壓縮影片給 LINE、Discord、Slack 或 Gmail 使用嗎？",
+            "a": "可以。工具提供 LINE、Discord、Slack、Gmail 等常見平台的快速標籤，你可以直接選擇平台建議大小，快速把影片壓縮到更適合分享或傳送的檔案大小。"
+        },
+        {
+            "q": "壓縮影片後畫質會變差嗎？",
+            "a": "影片壓縮通常會在檔案大小與畫質之間取捨。若想保留較好的畫質，建議使用「自動最佳化」；若檔案大小限制比較重要，可以改用「目標檔案大小」設定指定 MB。"
+        },
+        {
+            "q": "可以壓縮高畫質、HD 或 4K 影片嗎？",
+            "a": "可以處理 HD、4K 等高解析度影片，但實際速度與可壓縮程度會取決於影片長度、原始檔案大小、編碼格式，以及你的裝置效能。較大的影片可能需要更久時間。"
+        },
+        {
+            "q": "我的影片會被上傳到伺服器嗎？",
+            "a": "不會。影片壓縮會直接在你的瀏覽器本機執行，檔案不會被上傳到伺服器，也不會離開你的裝置。這很適合處理私人影片、工作影片或不想上傳的檔案。"
+        },
+        {
+            "q": "壓縮後的影片可以在哪些裝置播放？",
+            "a": "壓縮後的影片會盡量保持常見裝置與平台的相容性，適合在手機、電腦、平板，以及 LINE、Discord、Slack、Gmail 等常見分享場景中使用。"
+        }
+    ],
+    "_comment_pdf_compressor": "================ PDF Compressor ================",
+    "pdf_compressor.seo.title": "PDF 壓縮工具｜免費線上縮小 PDF 檔案大小 - UploadLess",
+    "pdf_compressor.seo.description": "免費線上壓縮 PDF，快速縮小 PDF 檔案大小與容量。免安裝、免註冊，檔案在瀏覽器中處理，不需上傳，兼顧速度、畫質與隱私。",
+    "pdf_compressor.hero.title": "免費線上 PDF 壓縮工具",
+    "pdf_compressor.hero.description": "直接在瀏覽器中壓縮 PDF，快速縮小檔案大小與容量。無需上傳、免安裝、免註冊，適合報告、履歷、合約與掃描 PDF。",
+    "pdf_compressor.settings.quality_lbl": "畫質預設",
+    "pdf_compressor.settings.quality_balanced": "平衡（電子書）",
+    "pdf_compressor.settings.quality_maximum": "最大壓縮（螢幕）",
+    "pdf_compressor.settings.password_lbl": "解鎖密碼（選填）",
+    "pdf_compressor.settings.password_placeholder": "密碼（若已加密）",
+    "pdf_compressor.btn.compress": "壓縮 PDF",
+    "pdf_compressor.btn.download": "下載 PDF",
+    "pdf_compressor.btn.compress_new": "壓縮新檔案",
+    "pdf_compressor.proc.compressing": "正在壓縮 PDF",
+    "pdf_compressor.how_to_use.title": "如何線上壓縮 PDF",
+    "pdf_compressor.how_to_use.steps": [
+        "上傳 PDF 檔案，或將檔案直接拖放到壓縮區域。",
+        "選擇壓縮模式，例如平衡畫質或最大壓縮；若 PDF 有密碼保護，也可以先輸入密碼。",
+        "點擊「壓縮 PDF」，系統會在瀏覽器中縮小檔案大小。完成後即可下載壓縮後的 PDF。"
+    ],
+    "pdf_compressor.why_use.title": "為什麼使用 UploadLess PDF 壓縮工具",
+    "pdf_compressor.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "檔案不需上傳",
+            "description": "PDF 壓縮會直接在瀏覽器中執行，檔案不會離開你的裝置，更適合處理合約、報告與私人文件。"
+        },
+        {
+            "icon": "bolt",
+            "title": "免費免註冊",
+            "description": "打開頁面即可壓縮 PDF，不需要建立帳號、不加浮水印，也不需要安裝任何軟體。"
+        },
+        {
+            "icon": "player-play",
+            "title": "操作簡單快速",
+            "description": "上傳 PDF、選擇壓縮模式、下載檔案，幾個步驟就能縮小 PDF 檔案大小。"
+        },
+        {
+            "icon": "adjustments",
+            "title": "可選壓縮品質",
+            "description": "依照需求選擇平衡壓縮或最大壓縮，在檔案大小與 PDF 清晰度之間取得合適平衡。"
+        }
+    ],
+    "pdf_compressor.faq.title": "PDF 壓縮工具常見問題",
+    "pdf_compressor.faq.items": [
+        {
+            "q": "我的 PDF 會被上傳到伺服器嗎？",
+            "a": "不會。所有 PDF 壓縮都會直接在你的瀏覽器中完成，檔案不會離開裝置，適合處理合約、報告、履歷與其他私人文件。"
+        },
+        {
+            "q": "這個 PDF 壓縮工具是免費的嗎？",
+            "a": "是的，這個線上 PDF 壓縮工具可以免費使用。你不需要註冊帳號，也不需要安裝軟體，就能縮小 PDF 檔案大小。"
+        },
+        {
+            "q": "最大可以壓縮多大的 PDF 檔案？",
+            "a": "目前支援最高 100 MB 的 PDF 檔案。實際處理速度會依照檔案大小、頁數、圖片數量與你的裝置效能而有所不同。"
+        },
+        {
+            "q": "壓縮 PDF 會影響畫質嗎？",
+            "a": "可能會。PDF 壓縮通常會透過降低圖片大小與最佳化檔案結構來縮小容量。你可以選擇較平衡的壓縮模式，在檔案大小與清晰度之間取得合適效果。"
+        },
+        {
+            "q": "如何把 PDF 檔案大小壓縮到更小？",
+            "a": "如果想進一步縮小 PDF 檔案大小，可以選擇最大壓縮模式。這通常能減少更多容量，但圖片清晰度可能會比平衡模式低一些。"
+        },
+        {
+            "q": "可以壓縮有密碼保護的 PDF 嗎？",
+            "a": "可以。如果 PDF 有密碼保護，請先輸入正確密碼，工具才能在瀏覽器中讀取並壓縮 PDF 檔案。"
+        },
+        {
+            "q": "壓縮後的 PDF 會有浮水印嗎？",
+            "a": "不會。使用這個免費線上 PDF 壓縮工具產生的檔案不會被加入浮水印，下載後可以直接使用或分享。"
+        },
+        {
+            "q": "手機也可以線上壓縮 PDF 嗎？",
+            "a": "可以。只要使用支援的瀏覽器，就能在手機、平板或電腦上壓縮 PDF。由於處理會在本機執行，較大的 PDF 在手機上可能需要更多時間。"
+        },
+        {
+            "q": "為什麼我的 PDF 壓縮後容量沒有變小很多？",
+            "a": "如果 PDF 本身已經壓縮過，或主要內容是文字而不是高解析圖片，檔案大小可能不會明顯下降。含有大量圖片或掃描頁面的 PDF 通常壓縮效果會更明顯。"
+        },
+        {
+            "q": "壓縮 PDF 後可以保留原本的內容與排版嗎？",
+            "a": "通常可以。工具會盡量保留 PDF 的文字、頁面順序與版面配置，同時縮小檔案大小。不過若選擇高壓縮模式，圖片細節可能會略有下降。"
+        }
+    ],
+    "related_tools.title": "相關工具",
+    "common.tools": "工具",
+    "common.blog": "部落格",
+    "blog.also_read": "另請閱讀",
+    "common.language": "語言",
+    "common.footer.copyright": "© 2025 UploadLess",
+    "common.footer.about": "關於",
+    "common.footer.privacy": "隱私權",
+    "common.footer.terms": "條款",
+    "common.footer.contact": "聯絡我們",
+    "tool.compress_video.title": "影片壓縮工具",
+    "tool.compress_video.description": "在瀏覽器中免費壓縮影片。你的檔案會保持私密，絕不會上傳到我們的伺服器。",
+    "tool.compress_video.short_description": "在瀏覽器中私密壓縮影片。",
+    "tool.pdf_compressor.title": "PDF 壓縮工具",
+    "tool.pdf_compressor.description": "直接在瀏覽器中免費縮小 PDF 檔案大小。無需上傳，因此你的文件能保持私密。",
+    "tool.pdf_compressor.short_description": "無需上傳檔案即可縮小 PDF 大小。",
+    "tool.video_converter.title": "影片轉換工具",
+    "tool.video_converter.description": "免費將影片檔案轉換為不同格式。所有流程都在瀏覽器中執行，無需將檔案上傳到伺服器。",
+    "tool.video_converter.short_description": "直接在瀏覽器中轉換影片。",
+    "tool.video_to_mp3.title": "影片轉 MP3",
+    "tool.video_to_mp3.description": "免費從影片中擷取 MP3 音訊。以瀏覽器為基礎的私密轉換，無需上傳到伺服器。",
+    "tool.video_to_mp3.short_description": "私密地從影片中擷取 MP3 音訊。",
+    "_comment_video_converter": "================ Video Converter ================",
+    "video_converter.seo.title": "影片轉檔工具｜免費線上轉換 MP4、MOV、MKV、WebM、AVI｜UploadLess",
+    "video_converter.seo.description": "免費線上影片轉檔工具，支援多種主流影片格式，無需安裝任何軟體，不需上傳至伺服器，全程在瀏覽器本地完成轉換處理，安全保護您的隱私，轉換速度快，操作簡單方便，立即免費使用。",
+    "video_converter.hero.title": "免費線上影片轉檔工具",
+    "video_converter.hero.description": "在瀏覽器中轉換影片格式，支援 MP4、MOV、MKV、WebM、AVI。免安裝、不用上傳檔案，快速、安全又方便。",
+    "video_converter.settings.format_lbl": "目標格式",
+    "video_converter.btn.convert": "轉換影片",
+    "video_converter.btn.download": "下載檔案",
+    "video_converter.btn.convert_new": "轉換新檔案",
+    "video_converter.proc.converting": "正在轉換影片",
+    "video_converter.how_to_use.title": "如何線上轉換影片",
+    "video_converter.how_to_use.steps": [
+        "選擇要轉換的影片檔案，或直接將檔案拖放到上傳區域。",
+        "選擇想要的輸出格式，例如 MP4、MOV、MKV、WebM、AVI 或 MP3。",
+        "點擊「轉換」開始影片轉檔。整個流程會在你的瀏覽器本機執行，檔案不會上傳到伺服器；完成後即可下載轉換後的檔案。"
+    ],
+    "video_converter.why_use.title": "為什麼使用 UploadLess 轉換工具",
+    "video_converter.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "保護你的檔案隱私",
+            "description": "影片轉檔會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置。"
+        },
+        {
+            "icon": "bolt",
+            "title": "免安裝、免註冊",
+            "description": "不用下載軟體，也不需要建立帳號。開啟網頁後即可立即開始轉換影片格式。"
+        },
+        {
+            "icon": "player-play",
+            "title": "支援多種影片格式",
+            "description": "支援 MP4、MOV、MKV、WebM、AVI 等常見影片格式，也可將影片音訊擷取為 MP3。"
+        },
+        {
+            "icon": "rocket",
+            "title": "快速完成影片轉檔",
+            "description": "轉換流程針對瀏覽器處理最佳化，無需排隊等待伺服器，即可快速取得轉換後的檔案。"
+        }
+    ],
+    "video_converter.faq.title": "影片轉換工具常見問題",
+    "video_converter.faq.items": [
+        {
+            "q": "這個線上影片轉檔工具是免費的嗎？",
+            "a": "是的，你可以免費使用這個線上影片轉檔工具轉換影片格式。開啟網頁後即可直接使用，不需要安裝軟體或建立帳號。"
+        },
+        {
+            "q": "我的影片檔案會被上傳到伺服器嗎？",
+            "a": "不會。影片轉檔會在你的瀏覽器本機執行，檔案不會上傳到伺服器，也不會離開你的裝置，因此更能保護檔案隱私。"
+        },
+        {
+            "q": "支援哪些影片格式轉換？",
+            "a": "此工具支援常見影片格式轉換，包括 MP4、MOV、MKV、WebM、AVI 等格式。你也可以將影片轉換為 MP3，擷取影片中的音訊。"
+        },
+        {
+            "q": "可以把影片轉成 MP4 嗎？",
+            "a": "可以。你可以將 MOV、MKV、WebM、AVI 等常見影片格式轉成 MP4。MP4 相容性高，適合在手機、電腦、社群平台或播放器上使用。"
+        },
+        {
+            "q": "可以將影片轉成 MP3 音訊檔嗎？",
+            "a": "可以。選擇 MP3 作為輸出格式後，工具會從影片中擷取音訊並轉換成 MP3，適合用來保存錄音、課程、訪談或影片配樂。"
+        },
+        {
+            "q": "需要安裝影片轉檔軟體嗎？",
+            "a": "不需要。這是一個線上影片轉檔工具，可直接在瀏覽器中使用。你不必下載軟體，也不用安裝外掛，就能完成影片格式轉換。"
+        },
+        {
+            "q": "手機上也可以轉換影片格式嗎？",
+            "a": "可以。只要你的手機瀏覽器支援檔案選取與本機處理，就可以在手機上進行影片轉檔。不過大型影片可能會受到裝置效能與瀏覽器限制影響。"
+        },
+        {
+            "q": "影片轉檔需要多久？",
+            "a": "轉換時間取決於影片大小、長度、輸出格式與你的裝置效能。由於轉檔是在瀏覽器本機執行，通常不需要等待伺服器排隊。"
+        },
+        {
+            "q": "為什麼要轉換影片格式？",
+            "a": "轉換影片格式可以提升相容性、減少播放問題，或讓影片更適合上傳到不同平台。例如將 MOV、MKV、WebM 或 AVI 轉成 MP4，通常更方便分享與播放。"
+        },
+        {
+            "q": "線上影片轉檔會影響影片品質嗎？",
+            "a": "影片品質可能會因輸出格式、編碼方式與壓縮設定而改變。一般來說，轉換成相容性較高的格式時，工具會盡量在檔案大小與影片品質之間取得平衡。"
+        }
+    ],
+    "_comment_compress_mp4": "================ Compress MP4 ================",
+    "_comment_reduce_video_size": "================ Reduce Video Size ================",
+    "pdf_compressor.pages": "頁",
+    "_comment_mov_to_mp4": "================ MOV to MP4 ================",
+    "_comment_avi_to_mp4": "================ AVI to MP4 ================",
+    "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
+    "_comment_webm_to_mp4": "================ WebM to MP4 ================",
+    "_comment_video_to_mp3": "================ Video to MP3 ================",
+    "video_to_mp3.seo.title": "影片轉MP3線上免費工具｜MP4轉MP3、擷取音訊｜UploadLess",
+    "video_to_mp3.seo.description": "使用 UploadLess 免費線上將影片轉 MP3，支援 MP4、MOV、MKV、WEBM 等格式，直接在瀏覽器擷取音訊，不需安裝軟體。",
+    "video_to_mp3.hero.title": "影片轉 MP3 線上免費工具",
+    "video_to_mp3.hero.description": "將 MP4、MOV、MKV 或 WEBM 影片快速轉成 MP3，直接在瀏覽器擷取音訊並下載，不需安裝軟體。",
+    "video_to_mp3.how_to_use.title": "如何線上將影片轉換為 MP3",
+    "video_to_mp3.how_to_use.steps": [
+        "上傳你想轉成 MP3 的影片檔案，例如 MP4、MOV、MKV 或 WEBM。",
+        "點擊「轉換」開始從影片擷取音訊，流程會直接在瀏覽器中本機執行。",
+        "轉換完成後，下載產生的 MP3 檔案並儲存到你的裝置。"
+    ],
+    "video_to_mp3.why_use.title": "為什麼使用 UploadLess 音訊擷取工具",
+    "video_to_mp3.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "隱私安全，本機轉換",
+            "description": "影片轉 MP3 的流程會直接在你的瀏覽器本機執行，檔案不會上傳到伺服器。"
+        },
+        {
+            "icon": "bolt",
+            "title": "快速擷取影片音訊",
+            "description": "輕鬆從影片中擷取音訊並轉成 MP3，適合處理 MP4、MOV、MKV、WEBM 等常見影片格式。"
+        },
+        {
+            "icon": "user-x",
+            "title": "免費使用，無需註冊",
+            "description": "不用建立帳號、不需安裝軟體，開啟瀏覽器即可開始線上影片轉 MP3。"
+        },
+        {
+            "icon": "download",
+            "title": "轉換完成即可下載",
+            "description": "完成 MP3 轉換後，可立即將音訊檔案下載並儲存到你的裝置。"
+        }
+    ],
+    "video_to_mp3.faq.title": "影片轉 MP3 常見問題",
+    "video_to_mp3.faq.items": [
+        {
+            "q": "什麼是影片轉 MP3？",
+            "a": "影片轉 MP3 是將影片中的音訊擷取出來，並儲存為 MP3 音訊檔案的工具。你可以用它從 MP4、MOV、MKV、WEBM 等影片格式中提取聲音。"
+        },
+        {
+            "q": "這個影片轉 MP3 工具是免費的嗎？",
+            "a": "是的，你可以免費使用這個線上影片轉 MP3 工具，不需要註冊帳號，也不需要安裝任何軟體。"
+        },
+        {
+            "q": "可以將 MP4 轉成 MP3 嗎？",
+            "a": "可以。你可以上傳 MP4 影片檔，工具會從影片中擷取音訊，並將音訊轉換成 MP3 檔案供你下載。"
+        },
+        {
+            "q": "支援哪些影片格式轉 MP3？",
+            "a": "此工具支援常見影片格式，例如 MP4、MOV、MKV、WEBM、AVI 等。只要瀏覽器可以讀取該影片檔，就可以嘗試擷取音訊並轉成 MP3。"
+        },
+        {
+            "q": "我的影片檔案會被上傳到伺服器嗎？",
+            "a": "不會。影片轉 MP3 的流程會直接在你的瀏覽器本機執行，檔案不會上傳到伺服器，因此更能保護你的隱私。"
+        },
+        {
+            "q": "需要安裝軟體才能將影片轉 MP3 嗎？",
+            "a": "不需要。這是線上影片轉 MP3 工具，你只要開啟瀏覽器、上傳影片檔案，就可以直接擷取音訊並下載 MP3。"
+        },
+        {
+            "q": "手機可以使用影片轉 MP3 嗎？",
+            "a": "可以。只要你的手機瀏覽器支援檔案上傳與音訊處理，就可以使用此工具將影片轉成 MP3。建議使用新版 Chrome、Safari 或其他現代瀏覽器。"
+        },
+        {
+            "q": "影片轉 MP3 會影響音質嗎？",
+            "a": "轉換後的音質會受到原始影片音訊品質影響。如果原影片的聲音清楚，轉出的 MP3 通常也能保留良好的音訊品質。"
+        },
+        {
+            "q": "影片檔案太大可以轉成 MP3 嗎？",
+            "a": "可以嘗試轉換，但因為流程會在瀏覽器本機執行，處理速度會依你的裝置效能、影片長度與檔案大小而不同。較大的影片可能需要較長時間。"
+        },
+        {
+            "q": "可以用這個工具轉換 YouTube 影片嗎？",
+            "a": "此工具主要用於轉換你裝置中的影片檔案。請只轉換你擁有權利或被允許使用的影片內容，並遵守相關平台規範與著作權規定。"
+        }
+    ],
+    "_comment_mp4_converter": "================ MP4 Converter ================",
+    "_comment_barcode_generator": "================ Barcode Generator ================",
+    "tool.barcode_generator.title": "條碼產生器",
+    "tool.barcode_generator.description": "直接在瀏覽器中免費產生條碼圖片。支援 EAN/JAN、Code 128、QR Code、Data Matrix 等格式。",
+    "tool.barcode_generator.short_description": "在瀏覽器中產生條碼。",
+    "barcode_generator.content_lbl": "條碼內容",
+    "barcode_generator.content_placeholder": "請輸入條碼內容，每行一筆...",
+    "barcode_generator.type_lbl": "條碼類型",
+    "barcode_generator.scale_lbl": "大小（比例）",
+    "barcode_generator.label_lbl": "顯示標籤",
+    "barcode_generator.format_lbl": "輸出格式",
+    "barcode_generator.btn_generate": "產生條碼",
+    "barcode_generator.results_title": "已產生的條碼",
+    "barcode_generator.btn_download": "下載",
+    "barcode_generator.btn_download_zip": "下載 ZIP",
+    "barcode_generator.yes": "是",
+    "barcode_generator.no": "否",
+    "barcode_generator.why_use.title": "為什麼使用 UploadLess 條碼產生器",
+    "barcode_generator.how_to_use.title": "如何在線上產生條碼",
+    "barcode_generator.faq.title": "條碼產生器常見問題",
+    "barcode_generator.btn_downloadbtn_gen_new": "產生新的條碼",
+    "barcode_generator.tab_manual": "手動",
+    "barcode_generator.tab_file": "上傳檔案",
+    "barcode_generator.tab_sequence": "連續編號",
+    "barcode_generator.tip_manual": "提示：若要加入自訂標籤，請在每一行使用「條碼, 商品名稱」格式。",
+    "barcode_generator.upload_hint": "點擊以上傳 CSV 或 Excel 檔案",
+    "barcode_generator.upload_subhint": "A 欄：條碼 | B 欄：標籤",
+    "barcode_generator.seq_start": "起始編號",
+    "barcode_generator.seq_qty": "數量",
+    "barcode_generator.seq_step": "間隔",
+    "barcode_generator.generating": "正在產生",
+    "barcode_generator.seo.title": "免費條碼產生器｜線上製作 EAN-13、Code 128 條碼",
+    "barcode_generator.seo.description": "免費線上產生條碼，支援 EAN-13、UPC、Code 128、Code 39 與一維條碼。可製作商品、庫存、SKU、序號與批次條碼，下載 PNG、SVG、PDF 或直接列印。",
+    "barcode_generator.hero.title": "免費線上條碼產生器",
+    "barcode_generator.hero.description": "快速製作商品、庫存、SKU 與序號條碼。支援單一或批次產生 EAN-13、UPC、Code 128、Code 39 條碼，並下載 PNG、SVG、PDF 或列印。",
+    "barcode_generator.how_to_use.steps": [
+        "選擇需要的條碼類型（如 Code 128、EAN-13、QR Code 等）並調整尺寸與外觀設定。",
+        "依據您的需求，選擇以下其中一種資料輸入模式：",
+        "【手動輸入】：在文字欄位中直接輸入資料，若要批次產生，請每行輸入一筆。",
+        "【上傳檔案】：直接上傳 Excel（.xlsx/.xls）或 CSV 檔案，免轉檔快速匯入大量內容。",
+        "【連續編號】：設定起始號碼、結束號碼與跳號規則，系統將自動依序生成流水號。",
+        "點擊「產生條碼」按鈕，系統便會在瀏覽器中立即建立對應的條碼。",
+        "確認無誤後，可選擇單獨下載或批次打包（支援 PNG、SVG、PDF 等格式），應用於商品標籤、庫存與物流管理。"
+    ],
+    "barcode_generator.why_use.benefits": [
+        {
+            "icon": "bolt",
+            "title": "免費線上條碼產生器：免安裝快速條碼生成",
+            "description": "最強大的免費線上條碼產生器！免註冊、免安裝軟體，打開瀏覽器即可一鍵進行條碼製作。無論是單一商品條碼還是複雜的店面管理需求，都能在幾秒鐘內流暢完成條碼生成，大幅提升日常工作與倉儲管理效率。"
+        },
+        {
+            "icon": "list-numbers",
+            "title": "多元輸入模式：手動、上傳檔案與連續編號",
+            "description": "專為高效工作打造的 3 大彈性模式：支援【手動輸入】快速建檔、完美整合【動態上傳檔案】（支援 Excel 與 CSV 檔案直接匯入），以及【連續編號】自動生成流水號。不管是一維條碼還是商品碼，都能隨心所欲輕鬆駕馭。"
+        },
+        {
+            "icon": "copy",
+            "title": "Excel 條碼產生器：免轉檔直接上傳批次生成",
+            "description": "打破傳統逐個輸入與複雜轉檔的限制！本站是專為高效企業打造的 Excel 條碼產生器，支援直接上傳 Excel (.xlsx/.xls) 與 CSV 檔案。一鍵匯入即可完成大量條碼產生，是處理大量 SKU、庫存標籤與序號管理的最佳條碼工具。"
+        },
+        {
+            "icon": "device-desktop",
+            "title": "高品質條碼下載：支援 PNG、SVG 與 PDF 格式",
+            "description": "提供最清晰的條碼圖片產生與向量圖檔下載。您可以將生成的 Code 128、EAN-13、UPC 等規格，匯出為高品質的 PNG 圖片、可任意縮放的 SVG 向量檔，或直接列印的 PDF，確保商品標籤、包裝與物流文件上的條碼 100% 成功掃描。"
+        }
+    ],
+    "barcode_generator.faq.items": [
+        {
+            "q": "什麼是條碼產生器？如何線上製作條碼？",
+            "a": "條碼產生器（或稱條碼生成器）是一個便利的免費線上工具，能將商品編號、SKU、庫存代碼、序號等文字快速進行條碼製作。使用者不需具備專業技術，即可將資料轉換為可掃描的一維條碼或 QR Code，廣泛應用於商品標籤、庫存管理、產品包裝與物流出貨。"
+        },
+        {
+            "q": "這款免費條碼產生器真的不需要下載或註冊嗎？",
+            "a": "是的！這是一台完全免費的線上條碼產生器，免安裝任何軟體、免註冊帳號，打開網頁即可立即使用。無論您是需要臨時生成單一商品條碼，還是需要大量產生條碼，都能在瀏覽器中流暢完成，並支援高畫質條碼下載。"
+        },
+        {
+            "q": "如何從 Excel 或 CSV 檔案批量產生條碼？",
+            "a": "本站支援強大的【動態上傳檔案】功能，是市面上最頂級的 Excel 條碼產生器。您無須再手動一筆筆複製，只需直接上傳含有商品編號、SKU 或序號的 CSV 或 Excel 檔案，系統便會啟動批次條碼產生器機制，一鍵為您快速匯入並建立大量條碼。"
+        },
+        {
+            "q": "如何自動生成連續編號或流水號條碼？",
+            "a": "如果您需要製作序號條碼，可以使用本站專屬的【連續編號】模式。您只需設定起始號碼、結束號碼（例如從 0001 到 1000）以及跳號規則，系統就會自動批量產生條碼。這項功能非常適合用於固定資產標籤、流水號管理與大量產品序號標籤列印。"
+        },
+        {
+            "q": "這款線上條碼產生器支援哪些一維條碼類型與規格？",
+            "a": "我們支援市面上最常用的主流一維條碼產生器規格，包含零售業必備的 EAN-13 條碼、EAN-8、UPC-A、UPC-E，以及物流與工業界愛用的 Code 128 產生器、Code 39 產生器、ITF-14 等，全方位滿足您商品條碼製作與 SKU 庫存標籤的需求。"
+        },
+        {
+            "q": "如何免費製作 EAN-13 商品條碼？",
+            "a": "在條碼類型選單中選擇「EAN-13」，並在輸入框中填入代表國家、製造商及商品的 12 位或 13 位數字。本站的商品條碼產生器會自動為您計算檢查碼並生成標準的 EAN-13 商品條碼，您可以將其下載為高解析度圖檔，直接應用於零售商品外包裝。"
+        },
+        {
+            "q": "Code 128 條碼和 Code 39 條碼有什麼不同？該怎麼選？",
+            "a": "Code 39 條碼結構較簡單、通用性高，但條碼長度較長；Code 128 條碼則具備極高的資料密度，能容納更多高密度的數字、英文字母與特殊符號。如果您要處理複雜的庫存管理、物流出貨單、資產標籤或精細的 SKU 碼，通常強烈建議使用 Code 128 條碼產生器，能節省列印空間並大幅提升掃描成功率。"
+        },
+        {
+            "q": "生成的條碼圖片可以下載成哪些格式？適合列印嗎？",
+            "a": "我們提供完整的條碼下載服務。您可以根據需求將生成的條碼匯出為：通用且方便分享的 PNG 條碼圖片、可任意放大縮小且不失真的 SVG 向量檔，或者是方便直接進行標籤列印與包裝設計的 PDF 文件，保證印刷出來的條碼具備最高清晰度。"
+        },
+        {
+            "q": "有單次大量產生多個條碼的數量限制嗎？",
+            "a": "本站是專為高效率打造的大量條碼產生器。透過【手動輸入】每行一筆、直接【上傳檔案】或自動【連續編號】等 3 大模式，您可以一次性線上產生多個條碼，沒有嚴格的數量限制，徹底解決企業與電商賣家在批次產生條碼、條碼批次製作時的痛點。"
+        },
+        {
+            "q": "線上生成條碼時，我的商品編號與機密資料會外洩嗎？",
+            "a": "絕對不會！本站採用最先進的純前端技術，不論您是手動輸入、上傳 Excel/CSV 檔案還是生成流水號，所有資料皆直接在您的瀏覽器中即時建立條碼。資料完全不會上傳、儲存或傳送到任何伺服器，100% 保障您的內部代碼、庫存資料與機敏資產安全。"
+        }
+    ],
+    "_comment_image_to_text": "================ Image to Text (OCR) ================",
+    "image_to_text.seo.title": "圖片轉文字｜免費線上 OCR，從圖片、照片、截圖擷取文字 | UploadLess",
+    "image_to_text.seo.description": "免費線上【圖片轉文字】工具，支援照片與螢幕截圖轉文字辨識。一鍵精準擷取並複製 JPG、PNG 圖片中的繁體中文，免安裝免註冊，1秒高效完成圖片 OCR 文字辨識與提取！",
+    "image_to_text.hero.title": "圖片轉文字",
+    "image_to_text.hero.description": "免費線上 OCR 工具，快速從圖片、照片、截圖、JPG、PNG 擷取文字，轉成可複製內容。",
+    "image_to_text.btn.copy": "複製文字",
+    "image_to_text.btn.copy_all": "全部複製",
+    "image_to_text.btn.clean": "清理格式",
+    "image_to_text.btn.join": "合併行",
+    "image_to_text.lang.auto": "自動",
+    "image_to_text.lang.zh": "中文",
+    "image_to_text.lang.ja": "日文",
+    "image_to_text.lang.ko": "韓文",
+    "image_to_text.lang.th": "泰文",
+    "image_to_text.lang.cyrillic": "西里爾文",
+    "image_to_text.upload.title": "將圖片拖放到這裡，或點擊上傳",
+    "image_to_text.upload.subtitle": "你也可以從剪貼簿貼上圖片。",
+    "image_to_text.upload.btn_select": "選擇圖片",
+    "image_to_text.upload.btn_sample": "載入範例",
+    "image_to_text.upload.hint": "即時處理多張圖片",
+    "image_to_text.ready.info": "拉丁字母系語言請使用「自動」；中文、日文、韓文或泰文請選擇特定模型。",
+    "image_to_text.btn.start": "開始辨識",
+    "image_to_text.status.waiting": "等待中...",
+    "image_to_text.status.pending": "待處理...",
+    "image_to_text.status.processing": "處理中...",
+    "image_to_text.status.done": "完成",
+    "image_to_text.text.try_samples": "使用範例圖片試試看",
+    "image_to_text.how_to_use.title": "如何將圖片轉文字",
+    "image_to_text.how_to_use.steps": [
+        "從裝置上傳一張或多張圖片，或直接拖放圖片，也可以從剪貼簿貼上圖片。",
+        "選擇最符合圖片內容的語言，包括拉丁文字、韓文、日文、簡體中文、繁體中文或泰文。",
+        "UploadLess 會在瀏覽器中批次處理圖片，並逐一擷取圖片中的文字。",
+        "處理完成後，你可以複製擷取出的文字，或使用格式化工具調整輸出內容。"
+    ],
+    "image_to_text.why_use.title": "為什麼選擇 UploadLess 圖片轉文字工具",
+    "image_to_text.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "私密的圖片 OCR",
+            "description": "直接在瀏覽器中將圖片轉文字。你的照片、截圖和文件不會上傳到伺服器，適合處理需要保護隱私的圖片文字辨識任務。"
+        },
+        {
+            "icon": "bolt",
+            "title": "免費快速轉換",
+            "description": "免費線上從圖片擷取文字，無需註冊帳號、安裝軟體或付費。適合快速處理圖片轉文字、照片轉文字和截圖轉文字。"
+        },
+        {
+            "icon": "layers-linked",
+            "title": "批次圖片轉文字",
+            "description": "一次上傳或貼上多張圖片，依序批次進行 OCR 辨識，幫你節省處理大量 JPG、PNG、照片和截圖的時間。"
+        },
+        {
+            "icon": "languages",
+            "title": "支援多種 OCR 語言",
+            "description": "可依圖片內容選擇最適合的 OCR 語言，包括拉丁文字、韓文、日文、簡體中文、繁體中文和泰文，提升圖片文字擷取準確度。"
+        }
+    ],
+    "image_to_text.faq.title": "圖片轉文字常見問題",
+    "image_to_text.faq.items": [
+        {
+            "q": "如何在線上將圖片轉文字？",
+            "a": "你可以將圖片上傳、拖放到 UploadLess，或直接從剪貼簿貼上圖片，選擇正確的 OCR 語言後，工具會在瀏覽器中自動擷取圖片中的文字。"
+        },
+        {
+            "q": "圖片轉文字是免費的嗎？",
+            "a": "是的，UploadLess 圖片轉文字工具可免費使用。你不需要註冊帳號、安裝軟體或付費，就能在線上從圖片擷取文字。"
+        },
+        {
+            "q": "可以把照片轉文字嗎？",
+            "a": "可以。你可以上傳手機拍攝的照片，UploadLess 會辨識照片中的文字，並將內容轉成可複製、可編輯的文字。"
+        },
+        {
+            "q": "支援截圖轉文字嗎？",
+            "a": "支援。你可以上傳螢幕截圖或直接貼上截圖，工具會進行截圖文字辨識，幫你快速擷取截圖中的文字內容。"
+        },
+        {
+            "q": "可以從 JPG、JPEG 或 PNG 圖片擷取文字嗎？",
+            "a": "可以。UploadLess 支援常見圖片格式，包括 JPG、JPEG 和 PNG，適合用來進行 JPG 轉文字、PNG OCR 和圖片文字擷取。"
+        },
+        {
+            "q": "圖片 OCR 支援繁體中文嗎？",
+            "a": "支援。你可以選擇繁體中文 OCR 來辨識台灣常用的繁體中文內容，也可以依圖片內容選擇其他語言以提升辨識準確度。"
+        },
+        {
+            "q": "UploadLess 會上傳我的圖片到伺服器嗎？",
+            "a": "不會。UploadLess 會直接在你的瀏覽器中進行圖片 OCR 處理，你的照片、截圖和文件不會被上傳到伺服器。"
+        },
+        {
+            "q": "可以一次處理多張圖片嗎？",
+            "a": "可以。你可以一次上傳或貼上多張圖片，UploadLess 會批次處理圖片，並逐一擷取每張圖片中的文字。"
+        },
+        {
+            "q": "如何提高圖片文字辨識的準確度？",
+            "a": "建議使用清晰、光線充足、文字不要歪斜的圖片，並選擇正確的 OCR 語言。圖片解析度越清楚，文字辨識結果通常會越準確。"
+        },
+        {
+            "q": "圖片轉文字後可以複製結果嗎？",
+            "a": "可以。OCR 處理完成後，你可以直接複製擷取出的文字，也可以使用格式化工具整理輸出內容，再貼到文件、筆記或其他應用程式中。"
+        }
+    ],
+    "tool.image_to_text.title": "圖片轉文字",
+    "tool.image_to_text.description": "免費在線上將圖片、照片或截圖轉成文字。支援 JPG、PNG 與批次 OCR，直接在瀏覽器中處理，快速又私密。",
+    "tool.image_to_text.short_description": "免費將圖片轉成文字。",
+    "donate.title": "支持創作者",
+    "donate.description": "幫助我維護伺服器並讓此工具保持無廣告。",
+    "donate.button": "在 Ko-fi 上支持",
+    "compare_two_lists.first_row_is_header": "第一列為標題列",
+    "compare_two_lists.all_columns": "所有欄位",
+    "_comment_audio_to_text": "================ Audio to Text ================",
+    "audio_to_text.btn.load_sample": "試用範例音訊",
+    "video_to_text.btn.load_sample": "試用範例影片",
+    "tool.audio_to_text.title": "音訊轉文字",
+    "tool.audio_to_text.description": "直接在瀏覽器中將音訊和影片語音轉換成文字。完全私密，並由 AI 驅動。",
+    "tool.audio_to_text.short_description": "私密地將音訊轉錄成文字。",
+    "audio_to_text.upload.title": "上傳音訊檔案",
+    "audio_to_text.upload.subtitle": "將 MP3、WAV、M4A、FLAC、OGG 和其他音訊檔案轉換成文字。",
+    "audio_to_text.upload.hint": "將檔案拖曳到這裡，或從裝置中選擇檔案。",
+    "audio_to_text.upload.btn_select": "選擇檔案",
+    "audio_to_text.settings.model": "AI 模型",
+    "audio_to_text.settings.multilingual": "多語言",
+    "audio_to_text.settings.language": "語言",
+    "audio_to_text.btn.transcribe": "轉錄成文字",
+    "audio_to_text.btn.download": "下載文字",
+    "audio_to_text.btn.start_over": "重新開始",
+    "audio_to_text.proc.loading_model": "正在載入 AI 模型...",
+    "audio_to_text.proc.transcribing": "正在轉錄音訊...",
+    "audio_to_text.results.transcription": "轉錄結果",
+    "audio_to_text.results.no_speech": "未偵測到語音。",
+    "audio_to_text.seo.title": "語音轉文字工具｜免費音檔、錄音、MP3 轉文字與逐字稿",
+    "audio_to_text.seo.description": "免費將音檔、錄音和語音轉成文字。支援 MP3、WAV、M4A 等常見格式，直接在瀏覽器中產生逐字稿，不需註冊，適合會議、訪談、課程和 Podcast。",
+    "audio_to_text.hero.title": "免費語音轉文字工具",
+    "audio_to_text.hero.description": "上傳 MP3、WAV、M4A 或其他音訊檔案，直接在瀏覽器中將語音轉成文字。適合會議錄音、訪談、課程、Podcast 和一般音檔逐字稿。",
+    "audio_to_text.how_to_use.title": "如何轉錄音訊",
+    "audio_to_text.how_to_use.steps": [
+        "上傳你想轉成文字的音訊檔案，例如 MP3、WAV、M4A、FLAC 或 OGG。",
+        "選擇音檔中的語音語言，讓錄音轉文字和音檔逐字稿更準確。",
+        "點擊轉錄按鈕，工具會直接在瀏覽器中將語音轉成文字。",
+        "轉錄完成後，你可以複製文字內容，或下載 .txt 逐字稿檔案。"
+    ],
+    "audio_to_text.why_use.title": "為什麼使用我們的語音轉文字工具？",
+    "audio_to_text.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "私密的音檔轉文字",
+            "description": "音檔會直接在你的瀏覽器中轉成文字，不會上傳到伺服器，適合處理會議錄音、訪談和私人語音內容。"
+        },
+        {
+            "icon": "brain",
+            "title": "將錄音轉成逐字稿",
+            "description": "把 Podcast、會議、訪談、課程、語音備忘錄和其他錄音內容轉成可閱讀、可複製的文字逐字稿。"
+        },
+        {
+            "icon": "settings",
+            "title": "簡單的轉文字設定",
+            "description": "開始前只要選擇語音語言和轉錄模式，就能將 MP3、WAV、M4A 等常見音訊檔案轉成文字。"
+        },
+        {
+            "icon": "language",
+            "title": "支援多語言語音轉文字",
+            "description": "支援多種語言的音訊轉文字，包括英文、日文、韓文、中文、西班牙文、法文、德文等常見語言。"
+        }
+    ],
+    "audio_to_text.faq.title": "語音轉文字常見問題",
+    "audio_to_text.faq.items": [
+        {
+            "q": "如何在線上將音檔轉文字？",
+            "a": "上傳你的音訊檔案，選擇語音語言，然後開始轉錄。工具會將音檔中的語音轉成文字，你可以複製結果或下載成 .txt 逐字稿。"
+        },
+        {
+            "q": "這個語音轉文字工具是免費的嗎？",
+            "a": "是的，你可以免費使用這個語音轉文字工具，不需要註冊帳號。適合快速將錄音、語音備忘錄、訪談或課程音檔轉成文字。"
+        },
+        {
+            "q": "我的音檔會被上傳到伺服器嗎？",
+            "a": "不會。音檔會直接在你的瀏覽器中處理，轉錄過程不需要將檔案上傳到伺服器，適合處理私人錄音、會議內容或訪談資料。"
+        },
+        {
+            "q": "支援哪些音訊格式轉文字？",
+            "a": "工具支援常見音訊格式，例如 MP3、WAV、M4A、FLAC 和其他瀏覽器可讀取的音訊檔案。你只要上傳檔案，就可以將語音內容轉成文字。"
+        },
+        {
+            "q": "可以將 MP3 轉文字嗎？",
+            "a": "可以。上傳 MP3 檔案後，工具會讀取其中的語音並產生文字逐字稿，適合轉錄錄音檔、Podcast、講座音訊和語音筆記。"
+        },
+        {
+            "q": "可以將 M4A 或手機錄音轉文字嗎？",
+            "a": "可以。許多手機錄音會儲存成 M4A 格式，你可以直接上傳 M4A 檔案，將會議錄音、課堂錄音或訪談錄音轉成文字。"
+        },
+        {
+            "q": "可以將 WAV 音檔轉成文字嗎？",
+            "a": "可以。WAV 檔通常音質較高，適合用來轉錄清楚的人聲內容。上傳 WAV 檔後，工具會將語音轉成可複製的文字逐字稿。"
+        },
+        {
+            "q": "可以把會議錄音轉文字嗎？",
+            "a": "可以。你可以上傳會議錄音檔，將討論內容轉成逐字稿，方便整理重點、搜尋關鍵內容、製作會議紀錄或分享給團隊成員。"
+        },
+        {
+            "q": "可以將 Podcast 轉成逐字稿嗎？",
+            "a": "可以。上傳 Podcast 音訊檔後，工具可以將節目中的語音轉成文字，方便製作節目摘要、文章內容、字幕草稿或 SEO 文字素材。"
+        },
+        {
+            "q": "這個工具支援中文語音轉文字嗎？",
+            "a": "支援。你可以選擇中文語音進行轉錄，也可以轉錄英文、日文、韓文、西班牙文、法文、德文等多種語言的音訊內容。"
+        },
+        {
+            "q": "第一次使用為什麼需要載入 AI 模型？",
+            "a": "因為工具會在瀏覽器中載入語音轉文字模型。第一次使用可能需要等待模型下載，之後再次使用通常會更快，因為瀏覽器可以重複使用已快取的模型。"
+        },
+        {
+            "q": "音訊轉文字的準確度會受什麼影響？",
+            "a": "準確度主要取決於錄音品質、背景噪音、說話速度、多人同時說話和語言選擇。清楚的人聲、較少雜音和正確的語言設定通常能得到更好的逐字稿結果。"
+        }
+    ],
+    "_comment_video_to_text": "================ Video to Text ================",
+    "tool.video_to_text.title": "影片轉文字",
+    "tool.video_to_text.description": "直接在瀏覽器中將影片語音轉換成文字。完全私密，並由 AI 驅動。",
+    "tool.video_to_text.short_description": "私密地將影片轉錄成文字。",
+    "video_to_text.upload.title": "上傳影片檔案",
+    "video_to_text.upload.subtitle": "轉錄 MP4、MOV、WebM、MKV、AVI 等影片檔案。",
+    "video_to_text.upload.hint": "將檔案拖曳到這裡，或從裝置中選擇檔案。",
+    "video_to_text.upload.btn_select": "選擇檔案",
+    "video_to_text.settings.model": "AI 模型",
+    "video_to_text.settings.multilingual": "多語言",
+    "video_to_text.settings.language": "語言",
+    "video_to_text.btn.transcribe": "轉錄成文字",
+    "video_to_text.btn.download": "下載文字",
+    "video_to_text.btn.start_over": "重新開始",
+    "video_to_text.proc.loading_model": "正在載入 AI 模型...",
+    "video_to_text.proc.transcribing": "正在轉錄影片...",
+    "video_to_text.results.transcription": "轉錄結果",
+    "video_to_text.results.no_speech": "未偵測到語音。",
+    "video_to_text.how_to_use.title": "如何將影片轉成文字",
+    "video_to_text.how_to_use.steps": [
+        "從你的裝置上傳影片檔案，例如 MP4、MOV、WebM、MKV 或其他常見影片格式。",
+        "選擇適合的轉錄設定。若想更快取得結果，可以使用較快的模式；若想提高文字準確度，可以選擇較高品質的模式。",
+        "選擇影片中實際使用的語言，讓工具能更準確辨識語音內容。",
+        "點擊轉錄按鈕後，工具會直接在瀏覽器中處理影片語音。完成後，你可以複製逐字稿，或下載成 .txt 文字檔。"
+    ],
+    "video_to_text.seo.title": "影片轉文字工具｜免費影片轉逐字稿與 MP4 轉文字",
+    "video_to_text.seo.description": "免費將影片中的語音轉成文字。上傳 MP4、MOV、WebM 等影片檔案，直接在瀏覽器中產生逐字稿，不需註冊，檔案不會上傳到伺服器。",
+    "video_to_text.hero.title": "免費影片轉文字工具",
+    "video_to_text.hero.description": "上傳 MP4、MOV、WebM 或其他影片檔案，直接在瀏覽器中將影片語音轉成文字，產生可複製或下載的逐字稿。",
+    "video_to_text.why_use.title": "為什麼使用我們的影片轉文字工具？",
+    "video_to_text.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "私密的影片轉文字",
+            "description": "影片檔案會直接在你的瀏覽器中轉成文字，不會上傳到伺服器，適合處理會議影片、課程錄影和私人影片內容。"
+        },
+        {
+            "icon": "brain",
+            "title": "將影片語音轉成逐字稿",
+            "description": "把訪談、講座、簡報、網路研討會、螢幕錄影和課程影片中的語音轉成可閱讀、可複製的文字逐字稿。"
+        },
+        {
+            "icon": "settings",
+            "title": "支援常見影片檔案",
+            "description": "上傳 MP4、MOV、WebM 等常見影片檔案，就能將影片中的語音轉成文字，不需要安裝額外軟體。"
+        },
+        {
+            "icon": "language",
+            "title": "支援多語言影片轉文字",
+            "description": "支援多種語言的影片語音轉文字，包括英文、日文、韓文、中文、西班牙文、法文、德文等常見語言。"
+        }
+    ],
+    "video_to_text.faq.title": "影片轉文字常見問題",
+    "video_to_text.faq.items": [
+        {
+            "q": "如何在線上將影片轉文字？",
+            "a": "上傳你的影片檔案，選擇影片中的語音語言，然後開始轉錄。工具會擷取影片中的聲音並轉成文字，你可以複製結果或下載成 .txt 逐字稿。"
+        },
+        {
+            "q": "這個影片轉文字工具是免費的嗎？",
+            "a": "是的，你可以免費使用這個影片轉文字工具，不需要註冊帳號。適合快速將會議影片、課程錄影、訪談影片或簡報錄影轉成文字。"
+        },
+        {
+            "q": "我的影片會被上傳到伺服器嗎？",
+            "a": "不會。影片會直接在你的瀏覽器中處理，轉錄過程不需要將影片檔案上傳到伺服器，適合處理私人影片、內部會議和未公開內容。"
+        },
+        {
+            "q": "支援哪些影片格式轉文字？",
+            "a": "工具支援常見影片格式，例如 MP4、MOV、WebM 和其他瀏覽器可讀取的影片檔案。你只要上傳影片，就可以將影片中的語音轉成文字。"
+        },
+        {
+            "q": "可以將 MP4 轉文字嗎？",
+            "a": "可以。上傳 MP4 影片後，工具會分析影片中的語音並產生文字逐字稿，適合轉錄手機影片、會議錄影、課程影片和螢幕錄影。"
+        },
+        {
+            "q": "可以把 YouTube 影片轉文字嗎？",
+            "a": "如果你已經有影片檔案，可以上傳該影片並轉成文字。目前工具不支援直接貼上 YouTube 連結，因此不能直接從網址擷取影片逐字稿。"
+        },
+        {
+            "q": "影片轉文字和影片轉字幕一樣嗎？",
+            "a": "不完全一樣。影片轉文字會產生一般文字逐字稿，方便複製、整理和搜尋；字幕通常需要時間軸。如果你需要字幕，可以先用逐字稿作為字幕草稿。"
+        },
+        {
+            "q": "可以將會議影片轉成逐字稿嗎？",
+            "a": "可以。上傳會議影片或線上會議錄影後，工具可以將討論內容轉成逐字稿，方便整理會議紀錄、搜尋重點或分享給團隊成員。"
+        },
+        {
+            "q": "可以將課程影片或講座影片轉文字嗎？",
+            "a": "可以。你可以上傳課程錄影、講座影片或教學影片，將影片語音轉成文字，方便整理筆記、製作摘要或建立可搜尋的學習資料。"
+        },
+        {
+            "q": "影片語音轉文字支援哪些語言？",
+            "a": "工具支援多種語言的影片語音轉文字，包括中文、英文、日文、韓文、西班牙文、法文、德文等常見語言。開始前請選擇影片中實際使用的語言。"
+        },
+        {
+            "q": "第一次使用為什麼需要載入 AI 模型？",
+            "a": "因為工具會在瀏覽器中載入影片轉文字所需的語音模型。第一次使用可能需要等待模型下載，之後再次使用通常會更快，因為瀏覽器可以重複使用快取。"
+        },
+        {
+            "q": "影片轉逐字稿的準確度會受什麼影響？",
+            "a": "準確度主要取決於影片音質、背景噪音、說話速度、多人同時說話和語言設定。人聲清楚、雜音較少、語言選擇正確時，通常能得到更好的影片逐字稿。"
+        }
+    ],
+    "home.category.all": "全部",
+    "home.category.audio": "音訊",
+    "home.category.text": "文字",
+    "_comment_extract_frames": "================ Extract Frames from Video ================",
+    "tool.extract_frames.title": "影片影格擷取",
+    "tool.extract_frames.description": "從影片中擷取影格並儲存為圖片。支援儲存當前畫面、固定時間間隔擷取，或在整部影片中平均擷取指定張數。",
+    "tool.extract_frames.short_description": "安全具隱私地從影片中擷取畫面。",
+    "extract_frames.seo.title": "影片截圖工具｜線上免費擷取影片畫面，轉存 JPG/PNG 圖片",
+    "extract_frames.seo.description": "免費線上影片截圖工具，支援擷取單張畫面或批次逐格截圖，影片轉圖片轉 JPG/PNG。全程在瀏覽器處理，不上傳伺服器，安全隱私。",
+    "extract_frames.hero.title": "影片截圖 · 影格擷取工具",
+    "extract_frames.hero.description": "擷取影片的當前畫面、單格截圖，或依時間間隔與數量批次轉存影片圖片，直接在瀏覽器中免費使用。",
+    "extract_frames.upload.title": "將影片檔案拖曳至此",
+    "extract_frames.upload.subtitle": "支援 MP4、WebM、MOV 等格式 · 本地私密擷取",
+    "extract_frames.upload.btn_select": "選擇影片檔案",
+    "extract_frames.upload.btn_sample": "試用範例影片",
+    "extract_frames.upload.hint": "選擇要擷取畫面（影格）的影片",
+    "extract_frames.mode.title": "擷取模式",
+    "extract_frames.mode.current": "儲存當前畫面",
+    "extract_frames.mode.interval": "固定時間間隔擷取",
+    "extract_frames.mode.evenly": "平均擷取 N 張畫面",
+    "extract_frames.settings.format": "輸出格式",
+    "extract_frames.settings.interval": "時間間隔 (秒)",
+    "extract_frames.settings.interval_custom": "自訂 (秒)",
+    "extract_frames.settings.frames": "畫面張數",
+    "extract_frames.settings.frames_custom": "自訂張數",
+    "extract_frames.btn.save_current": "儲存當前畫面",
+    "extract_frames.btn.extract_zip": "擷取並下載 ZIP 檔",
+    "extract_frames.btn.new": "擷取新影片",
+    "extract_frames.btn.download_all": "全部下載",
+    "extract_frames.btn.clear_all": "全部清除",
+    "extract_frames.btn.extract": "開始擷取",
+    "extract_frames.results.extracted_frames": "已擷取的畫面",
+    "extract_frames.preview.not_available": "無法預覽",
+    "extract_frames.preview.unsupported_format": "瀏覽器不支援預覽此格式 ({filename})",
+    "extract_frames.preview.fallback_hint": "您仍可使用「固定時間間隔」或「平均擷取」模式來擷取畫面。",
+    "extract_frames.proc.extracting": "正在擷取畫面...",
+    "extract_frames.how_to_use.title": "如何擷取影片畫面",
+    "extract_frames.how_to_use.steps": [
+        "從您的裝置上傳 MP4、MOV、WebM 或其他格式的影片檔案。",
+        "選擇您想要的擷取方式：儲存當前畫面、每隔固定時間擷取一次，或是將整部影片平均擷取指定張數的畫面。",
+        "點擊擷取按鈕，即可下載單張 JPG 圖片或包含所有擷取畫面的 ZIP 壓縮檔。"
+    ],
+    "extract_frames.why_use.title": "為什麼選擇 UploadLess 影片截圖工具",
+    "extract_frames.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "具備隱私保護的畫面擷取",
+            "description": "您的影片會直接在瀏覽器中進行處理，絕不會被上傳到伺服器。"
+        },
+        {
+            "icon": "bolt",
+            "title": "完全免費的影片影格擷取工具",
+            "description": "線上擷取影片畫面，無需註冊、無需安裝軟體，更不會添加任何浮水印。"
+        },
+        {
+            "icon": "layout-grid",
+            "title": "支援單張或多張畫面擷取",
+            "description": "可儲存當前影片畫面、每隔固定時間自動擷取，或是在整部影片中平均擷取指定張數。"
+        },
+        {
+            "icon": "file-zip",
+            "title": "支援打包下載為 ZIP 檔",
+            "description": "當您擷取多張影片畫面時，系統會自動將所有 JPG 圖片打包成一個 ZIP 壓縮檔，方便您一鍵下載。"
+        }
+    ],
+    "extract_frames.faq.title": "影片擷取常見問題 (FAQ)",
+    "extract_frames.faq.items": [
+        {
+            "q": "什麼是影片影格擷取工具？",
+            "a": "影片影格擷取工具是一款可以從影片中儲存靜態圖片的工具。它不是單純的螢幕截圖，而是直接讀取影片內部的影格數據，並讓您將其儲存為高畫質圖片。"
+        },
+        {
+            "q": "如何線上擷取影片的畫面？",
+            "a": "上傳您的影片，選擇一種擷取模式，然後啟動程式即可。您可以儲存當前的單個畫面、設定時間間隔擷取，或是從整部影片中擷取固定數量的畫面。"
+        },
+        {
+            "q": "如何精準儲存影片中的某一個特定畫面？",
+            "a": "使用「儲存當前畫面」模式，將播放進度條拉到您想要的瞬間，然後將該畫面儲存為 JPG 圖片。這在您需要影片中某個精確畫面時非常實用。"
+        },
+        {
+            "q": "我可以擷取到乾淨、沒有雜物的影片截圖嗎？",
+            "a": "可以。您可以直接將影片影格本身儲存為 JPG 圖片，截圖中不會包含瀏覽器控制項、播放器按鈕或其他任何螢幕雜訊。"
+        },
+        {
+            "q": "如何每隔幾秒鐘就擷取一次畫面？",
+            "a": "選擇「固定時間間隔」模式，並輸入您想要的秒數。例如，您可以設定每隔 1 秒、2 秒、5 秒或 10 秒自動擷取一張畫面。"
+        },
+        {
+            "q": "如何從影片中擷取固定張數的畫面？",
+            "a": "選擇「平均擷取」模式並輸入您需要的張數。工具會在整部影片的總長度中，自動平均計算並擷取該數量的畫面。"
+        },
+        {
+            "q": "我應該擷取影片中的每一個影格嗎？",
+            "a": "通常不需要擷取每一個影格，因為這會產生數百甚至數千張圖片。若只是為了製作預覽圖、縮圖或進行快速審查，使用「時間間隔擷取」或「平均擷取」會是更好的選擇。"
+        },
+        {
+            "q": "我可以擷取 MP4 影片的畫面嗎？",
+            "a": "可以。您可以將本工具當作 MP4 影格擷取器，用來儲存單張畫面或匯出 MP4 檔案中的多個影格。根據您使用的瀏覽器，其他常見的影片格式也同樣支援。"
+        },
+        {
+            "q": "擷取出來的影片畫面會儲存為什麼格式？",
+            "a": "擷取出來的畫面會儲存為 JPG 圖片。JPG 格式非常適合用於影片截圖、縮圖、預覽圖以及在網路上分享。"
+        },
+        {
+            "q": "如何下載多張影片畫面？",
+            "a": "當您擷取多張畫面時，這些 JPG 圖片會被打包成一個 ZIP 壓縮檔，方便您一次下載所有擷取出來的畫面。"
+        },
+        {
+            "q": "我的影片會被上傳到伺服器嗎？",
+            "a": "不會。畫面擷取程式完全在您的瀏覽器中本地執行，因此影片會安全地留在您的裝置上。您不需要上傳影片、不需要安裝任何軟體，也不需要註冊帳號。"
+        },
+        {
+            "q": "擷取出來的影片畫面可以用在哪些地方？",
+            "a": "您可以將擷取出的畫面用於製作影片縮圖、影片預覽、教學指南、社群媒體貼文、說明文件、圖片參考，或是單純留存影片中的珍貴瞬間。"
+        }
+    ],
+    "_comment_jpg_to_pdf": "================ JPG to PDF ================",
+    "tool.jpg_to_pdf.title": "JPG 轉 PDF",
+    "tool.jpg_to_pdf.description": "輕鬆將 JPG/JPEG 圖片轉換成單一 PDF 檔案。隱私安全、快速，直接在瀏覽器中完成。",
+    "tool.jpg_to_pdf.short_description": "私密轉換 JPG 為 PDF。",
+    "jpg_to_pdf.seo.title": "JPG 轉 PDF 轉換器 – 免費線上工具",
+    "jpg_to_pdf.seo.description": "在瀏覽器中將 JPG 或 JPEG 圖片轉換成 PDF。免費、免註冊、免上傳。合併多個檔案並立即下載 PDF。",
+    "jpg_to_pdf.hero.title": "JPG 轉 PDF 轉換器",
+    "jpg_to_pdf.hero.description": "將你的 JPG 或 JPEG 圖片轉換成 PDF 檔案—免費、直接在瀏覽器中完成。新增多張照片、調整順序，幾秒內即可下載。",
+    "jpg_to_pdf.selected_images": "已選擇的圖片",
+    "jpg_to_pdf.pages": "頁",
+    "jpg_to_pdf.upload.title": "將你的 JPG 圖片拖曳至此處以轉換成 PDF",
+    "jpg_to_pdf.upload.subtitle": "支援 JPG、JPEG、PNG、WebP 及其他常見圖片格式",
+    "jpg_to_pdf.upload.btn_select": "選擇圖片",
+    "jpg_to_pdf.btn.convert": "轉換成 PDF",
+    "jpg_to_pdf.btn.add_more": "新增更多",
+    "jpg_to_pdf.btn.processing": "處理中...",
+    "jpg_to_pdf.btn.combine": "轉換成 PDF",
+    "jpg_to_pdf.btn.download_short": "下載",
+    "jpg_to_pdf.btn.load_sample": "載入範例",
+    "jpg_to_pdf.btn.download": "下載 PDF",
+    "jpg_to_pdf.btn.clear": "全部清除",
+    "jpg_to_pdf.preview_title": "PDF 預覽",
+    "jpg_to_pdf.how_to_use.title": "如何將 JPG 轉換成 PDF",
+    "jpg_to_pdf.how_to_use.steps": [
+        "點擊上傳區域，或將你的 JPG 或 JPEG 檔案拖放到頁面上。",
+        "新增所需數量的 JPG 圖片，然後拖曳調整順序後再進行轉換。",
+        "點擊轉換以產生你的 PDF。所有處理都在瀏覽器中完成——不會傳送到任何伺服器。",
+        "PDF 檔案準備好後即可下載。"
+    ],
+    "jpg_to_pdf.why_use.title": "為什麼選擇 UploadLess JPG 轉 PDF",
+    "jpg_to_pdf.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "檔案留在你的裝置上",
+            "description": "你的 JPG 圖片完全在瀏覽器中處理，不會上傳到任何伺服器。"
+        },
+        {
+            "icon": "files",
+            "title": "一次轉換多張 JPG",
+            "description": "新增所需數量的 JPG 或 JPEG 檔案，一次合併成單一 PDF。"
+        },
+        {
+            "icon": "arrows-sort",
+            "title": "自由控制頁面順序",
+            "description": "轉換前可拖曳調整圖片順序，讓頁面完全依照你想要的方式呈現。"
+        },
+        {
+            "icon": "infinity",
+            "title": "免費且無使用限制",
+            "description": "免註冊、無使用上限、無任何費用。想轉換多少 JPG 檔案都可以。"
+        }
+    ],
+    "jpg_to_pdf.faq.title": "常見問題",
+    "jpg_to_pdf.faq.items": [
+        {
+            "q": "如何線上將 JPG 轉換成 PDF？",
+            "a": "上傳你的 JPG 或 JPEG 檔案，依照你想要的順序排列，然後點擊轉換。PDF 會在瀏覽器中產生，馬上就能下載。"
+        },
+        {
+            "q": "這個 JPG 轉 PDF 工具是免費的嗎？",
+            "a": "是的，此工具完全免費使用，不需註冊、不需訂閱，也沒有任何隱藏費用。"
+        },
+        {
+            "q": "我可以將多個 JPG 檔案合併成一個 PDF 嗎？",
+            "a": "可以。你可以上傳任意數量的 JPG 或 JPEG 圖片，並將它們全部合併成單一 PDF 文件。"
+        },
+        {
+            "q": "轉換前可以調整圖片順序嗎？",
+            "a": "可以。上傳後，你可以拖曳重新排列圖片，讓最終 PDF 的頁面順序符合你的需求。"
+        },
+        {
+            "q": "我的 JPG 檔案會被上傳到伺服器嗎？",
+            "a": "不會。所有轉換都在你的瀏覽器本機完成，圖片不會傳送到任何伺服器，確保檔案隱私。"
+        },
+        {
+            "q": "將 JPG 轉換成 PDF 會降低圖片畫質嗎？",
+            "a": "此工具會將你的 JPG 圖片原封不動地嵌入 PDF，不會重新壓縮。PDF 中的畫質會與你的原始檔案相同。"
+        },
+        {
+            "q": "可以轉換 JPEG 檔案嗎？還是只能轉 JPG？",
+            "a": "兩者皆可。JPG 和 JPEG 是同一種圖片格式，因此無論副檔名是哪一種都能上傳，轉換結果也會相同。"
+        },
+        {
+            "q": "可以在手機上使用這個工具嗎？",
+            "a": "可以。此轉換器支援手機瀏覽器，你可以直接從相簿上傳照片並在手機上轉換成 PDF。"
+        },
+        {
+            "q": "可以將掃描成 JPG 的文件轉換成 PDF 嗎？",
+            "a": "可以。如果你的掃描器將頁面儲存為 JPG 檔案，你可以上傳這些掃描圖片並將它們轉換成單一 PDF。此工具不提供 OCR 文字辨識功能。"
+        },
+        {
+            "q": "可以轉換的 JPG 檔案數量有限制嗎？",
+            "a": "沒有強制的使用限制，你不需要建立帳號或付費即可轉換所需數量的檔案。"
+        },
+        {
+            "q": "如果 PDF 沒有自動下載該怎麼辦？",
+            "a": "請確認你的瀏覽器沒有封鎖彈出視窗或自動下載功能。可以再次點擊下載按鈕，或重新整理頁面後再試一次。"
+        },
+        {
+            "q": "這個頁面可以轉換 PNG 檔案嗎？",
+            "a": "此頁面僅支援 JPG 和 JPEG 檔案。若要將 PNG 圖片轉換成 PDF，請使用 PNG to PDF 工具：[uploadless.app/png-to-pdf](/png-to-pdf)。"
+        }
+    ],
+    "_comment_merge_pdf": "================ Merge PDF ================",
+    "tool.merge_pdf.title": "合併 PDF",
+    "tool.merge_pdf.description": "在瀏覽器中安全私密地合併多個 PDF 和圖片為單一 PDF 文件。",
+    "tool.merge_pdf.short_description": "立即合併 PDF 與圖片。",
+    "merge_pdf.seo.title": "免費PDF合併工具｜線上合併PDF檔案，不用下載安裝、不用上傳雲端，安全快速",
+    "merge_pdf.seo.description": "免費線上合併PDF檔案工具，完全在瀏覽器中處理，不用下載安裝、不用上傳雲端、不需註冊會員，保護您的隱私與檔案安全。支援多個PDF檔案合併成一個、自由調整合併順序，也可壓縮檔案大小，操作簡單、合併速度快，新手也能快速上手，手機、平板、電腦都能直接使用，完全免費，立即線上試用，輕鬆完成PDF合併！",
+    "merge_pdf.hero.title": "免費線上合併PDF檔案",
+    "merge_pdf.hero.description": "不用下載安裝、不用上傳雲端，所有處理都在您的瀏覽器中完成，保護隱私又安全快速，立即免費體驗。",
+    "merge_pdf.selected_files": "已選檔案",
+    "merge_pdf.pages": "頁",
+    "merge_pdf.upload.title": "將 PDF 和圖片拖曳至此進行合併",
+    "merge_pdf.upload.subtitle": "PDF、JPG、PNG、WebP 等格式・無檔案大小限制",
+    "merge_pdf.upload.btn_select": "選擇檔案",
+    "merge_pdf.btn.convert": "合併檔案",
+    "merge_pdf.btn.add_more": "新增更多",
+    "merge_pdf.btn.processing": "處理中...",
+    "merge_pdf.btn.combine": "合併檔案",
+    "merge_pdf.btn.download_short": "下載",
+    "merge_pdf.btn.load_sample": "載入範例",
+    "merge_pdf.btn.download": "下載 PDF",
+    "merge_pdf.btn.clear": "清除全部",
+    "merge_pdf.preview_title": "PDF 預覽",
+    "merge_pdf.how_to_use.title": "如何線上合併 PDF 與圖片",
+    "merge_pdf.how_to_use.steps": [
+        "拖曳您的 PDF 檔案與圖片到頁面中，或點擊「選擇檔案」從電腦、手機挑選要合併的檔案，支援一次選取多個檔案。",
+        "上傳完成後可直接拖曳調整檔案順序，並透過縮圖預覽每一頁的內容，確認排列方式與最終合併結果相符。",
+        "確認順序後點擊「合併檔案」，所有處理都在您的瀏覽器中即時完成，不會上傳到任何伺服器，速度快也不用等待。",
+        "合併完成即可免費下載檔案，不需註冊帳號、不限檔案大小，也不會加上浮水印，合併後可直接使用或分享。"
+    ],
+    "merge_pdf.why_use.title": "為什麼選擇 Uploadless 合併 PDF",
+    "merge_pdf.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "私密又安全",
+            "description": "所有合併過程都在您的瀏覽器中完成，PDF 與圖片不會上傳到任何伺服器，個人資料、合約、報告都能安心處理。"
+        },
+        {
+            "icon": "bolt",
+            "title": "完全免費、不用註冊",
+            "description": "不需建立帳號、不用付費訂閱，也不用安裝任何軟體，打開網頁就能立即使用，沒有隱藏限制。"
+        },
+        {
+            "icon": "stack",
+            "title": "PDF、圖片一起合併",
+            "description": "支援同時合併多個 PDF 檔案與 JPG、PNG 圖片，並可自由拖曳調整順序，輕鬆整理成單一文件。"
+        },
+        {
+            "icon": "devices",
+            "title": "跨裝置隨開即用",
+            "description": "無論 Windows、Mac、手機或平板都能直接使用，不用下載安裝，換裝置也不需要重新設定。"
+        }
+    ],
+    "merge_pdf.faq.title": "常見問題",
+    "merge_pdf.faq.items": [
+        {
+            "q": "手機也可以合併PDF嗎？",
+            "a": "可以。本工具完全在瀏覽器中運作，不需安裝任何App，無論是iPhone、Android手機或平板，只要打開瀏覽器就能直接合併PDF，操作方式與電腦版完全相同。"
+        },
+        {
+            "q": "合併PDF需要安裝軟體或App嗎？",
+            "a": "不需要。這是一個線上工具，不用下載安裝任何軟體或App，也不佔用裝置儲存空間，開啟瀏覽器輸入網址即可使用，用完即可直接關閉分頁。"
+        },
+        {
+            "q": "可以一次合併多個PDF檔案嗎？",
+            "a": "可以，本工具不限制上傳的檔案數量，您可以一次選取多個PDF檔案，系統會依照您設定的順序，將所有檔案合併成單一PDF文件。"
+        },
+        {
+            "q": "合併後可以自訂頁面順序嗎？",
+            "a": "可以。上傳檔案後，您能透過拖曳方式自由調整每個檔案的排列順序，合併前也能即時預覽，確保最終文件的頁面順序符合您的需求。"
+        },
+        {
+            "q": "合併PDF後畫質會變差或失真嗎？",
+            "a": "不會。合併過程只是將檔案的頁面重新組合，並不會重新編碼或壓縮內容，因此文字、圖片與排版都會維持原始檔案的解析度與品質。"
+        },
+        {
+            "q": "合併PDF需要註冊帳號嗎？",
+            "a": "不需要。您不用建立帳號、輸入Email或設定密碼，打開網頁選擇檔案即可立即開始合併，也沒有使用次數或天數的限制。"
+        },
+        {
+            "q": "合併PDF一定要用Adobe Acrobat嗎？",
+            "a": "不需要。許多人以為合併PDF一定要用Adobe Acrobat等付費軟體，但本工具完全免費，也不需要安裝任何Adobe相關程式，透過瀏覽器就能完成相同的合併功能。"
+        },
+        {
+            "q": "PDF合併安全嗎？會不會外洩檔案內容？",
+            "a": "安全。所有合併作業都在您本機的瀏覽器中執行，檔案不會傳送到任何伺服器或第三方，處理完成後也不會保留您的檔案，能有效保護個人與商業機密文件。"
+        },
+        {
+            "q": "合併後的PDF檔案大小會有限制嗎？",
+            "a": "沒有嚴格限制。因為合併過程是在您的裝置上進行，能處理的檔案大小主要取決於您瀏覽器與裝置的效能，一般日常使用的合約、報告或掃描文件都能順利合併。"
+        },
+        {
+            "q": "可以將PDF與圖片一起合併嗎？",
+            "a": "可以。除了PDF檔案，本工具也支援上傳JPG、PNG等圖片格式，系統會自動將圖片轉換為PDF頁面，讓您能把不同格式的文件整合成同一份PDF。"
+        },
+        {
+            "q": "合併PDF的操作會很複雜嗎？",
+            "a": "完全不會。整個流程只需三個步驟：上傳檔案、調整順序、點擊合併，介面設計簡單直覺，即使是第一次處理PDF的使用者，也能在幾秒鐘內完成合併。"
+        },
+        {
+            "q": "支援中文檔名或內容的PDF合併嗎？",
+            "a": "支援。無論檔案內容或檔名是中文、英文或其他語言，合併過程都不會影響文字編碼，合併後的PDF依然能正常顯示與搜尋原本的中文內容。"
+        },
+        {
+            "q": "合併PDF後檔案變大，可以順便壓縮嗎？",
+            "a": "目前合併功能本身不包含壓縮，若合併後的檔案較大，建議另外使用本站的PDF壓縮工具，將合併好的PDF進一步縮小檔案大小，方便傳送與分享。"
+        }
+    ],
+    "tool.bulk_file_renamer.title": "批次檔案重新命名工具",
+    "tool.bulk_file_renamer.description": "一次重新命名多個檔案，透過強大的規則進行批次處理。可替換文字、加上前綴、後綴、編號、變更副檔名等等。完全免費，直接在瀏覽器中執行。",
+    "tool.bulk_file_renamer.short_description": "一次重新命名多個檔案",
+    "tool.bulk_file_renamer.seo.title": "批次檔案重新命名工具 - 免費線上批次修改檔名",
+    "tool.bulk_file_renamer.seo.description": "免上傳，直接在瀏覽器中批次重新命名檔案。支援加前綴、後綴、文字取代、依序編號，快速又免費，完整保護隱私，不需註冊帳號即可使用。",
+    "tool.bulk_file_renamer.hero.title": "批次重新命名檔案",
+    "tool.bulk_file_renamer.hero.description": "加上前綴、尋找取代文字，或依序編號檔案。不上傳、不需註冊 - 檔案完全不會離開您的裝置。",
+    "bulk_file_renamer.upload.title": "上傳要重新命名的檔案",
+    "bulk_file_renamer.upload.subtitle": "將多個檔案或資料夾拖曳到此處即可開始。",
+    "bulk_file_renamer.upload.btn_select": "選擇檔案",
+    "bulk_file_renamer.upload.btn_sample": "試用範例",
+    "bulk_file_renamer.upload.hint": "支援所有檔案格式，可一次重新命名數千個檔案。",
+    "bulk_file_renamer.rules": "重新命名規則",
+    "bulk_file_renamer.add_rule": "新增規則",
+    "bulk_file_renamer.remove_rule": "移除規則",
+    "bulk_file_renamer.rule_replace": "尋找與取代",
+    "bulk_file_renamer.rule_add": "新增文字",
+    "bulk_file_renamer.rule_remove": "移除文字",
+    "bulk_file_renamer.rule_format": "變更大小寫／格式",
+    "bulk_file_renamer.rule_numbering": "加上編號",
+    "bulk_file_renamer.rule_extension": "變更副檔名",
+    "bulk_file_renamer.find_text": "尋找",
+    "bulk_file_renamer.replace_with": "取代為",
+    "bulk_file_renamer.case_sensitive": "區分大小寫",
+    "bulk_file_renamer.use_regex": "使用正規表示式",
+    "bulk_file_renamer.text_to_add": "要新增的文字",
+    "bulk_file_renamer.add_at": "新增位置",
+    "bulk_file_renamer.prefix": "前綴",
+    "bulk_file_renamer.suffix": "後綴",
+    "bulk_file_renamer.custom_index": "自訂索引",
+    "bulk_file_renamer.index": "索引",
+    "bulk_file_renamer.remove_type": "移除方式",
+    "bulk_file_renamer.remove_first_n": "前 N 個字元",
+    "bulk_file_renamer.remove_last_n": "後 N 個字元",
+    "bulk_file_renamer.remove_range": "從指定索引到指定索引",
+    "bulk_file_renamer.chars_count": "字元數量",
+    "bulk_file_renamer.start_index": "起始索引",
+    "bulk_file_renamer.end_index": "結束索引",
+    "bulk_file_renamer.format_type": "格式",
+    "bulk_file_renamer.lowercase": "小寫",
+    "bulk_file_renamer.uppercase": "大寫",
+    "bulk_file_renamer.title_case": "首字母大寫",
+    "bulk_file_renamer.camel_case": "駝峰式命名",
+    "bulk_file_renamer.start_at": "起始編號",
+    "bulk_file_renamer.increment_by": "遞增值",
+    "bulk_file_renamer.padding": "補零位數",
+    "bulk_file_renamer.separator": "分隔符號",
+    "bulk_file_renamer.position": "位置",
+    "bulk_file_renamer.before_name": "檔名前",
+    "bulk_file_renamer.after_name": "檔名後",
+    "bulk_file_renamer.new_extension": "新的副檔名",
+    "bulk_file_renamer.extension_mode": "模式",
+    "bulk_file_renamer.ext_replace": "取代",
+    "bulk_file_renamer.ext_lower": "轉小寫",
+    "bulk_file_renamer.ext_upper": "轉大寫",
+    "bulk_file_renamer.ext_remove": "移除",
+    "bulk_file_renamer.original_name": "原始檔名",
+    "bulk_file_renamer.new_name": "新檔名",
+    "bulk_file_renamer.status": "狀態",
+    "bulk_file_renamer.status_changed": "已變更",
+    "bulk_file_renamer.status_unchanged": "未變更",
+    "bulk_file_renamer.download_zip": "下載 ZIP 檔",
+    "bulk_file_renamer.clear_all": "全部清除",
+    "bulk_file_renamer.no_files": "尚未上傳檔案，請將檔案拖曳至此或點擊瀏覽。",
+    "bulk_file_renamer.preview": "預覽",
+    "bulk_file_renamer.files": "個檔案",
+    "bulk_file_renamer.add_files": "新增檔案",
+    "bulk_file_renamer.how_to_use.title": "如何使用批次檔案重新命名工具",
+    "bulk_file_renamer.how_to_use.steps": [
+        "拖曳您想重新命名的檔案，或點擊選取。檔案只會留在您的瀏覽器中 - 完全不會上傳到任何伺服器。",
+        "從「新增規則」選單加入重新命名規則：尋找與取代、前綴、後綴或編號，用您想要的方式批次重新命名檔案。",
+        "設定每項規則並可疊加多項規則 - 系統會依序套用，讓您能以複雜的模式一次重新命名大量檔案。",
+        "在預覽表格中確認每個新檔名，確定無誤再套用。副檔名會自動保留，不會變動。",
+        "點擊「下載 ZIP 檔」，立即將所有重新命名後的檔案儲存到您的電腦。"
+    ],
+    "bulk_file_renamer.why_use.title": "為什麼要用這個工具？",
+    "bulk_file_renamer.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "隱私安全",
+            "description": "所有重新命名作業都在瀏覽器本機進行。檔案不會離開您的裝置、不會上傳到伺服器 - 除了您沒有人看得到。"
+        },
+        {
+            "icon": "layers-linked",
+            "title": "一次批次重新命名",
+            "description": "透過可疊加的規則 - 前綴、後綴、尋找與取代、依序編號 - 一次重新命名數百個檔案。"
+        },
+        {
+            "icon": "bolt",
+            "title": "即時完成，無需等待",
+            "description": "不用上傳就不用等傳輸。重新命名在您的裝置上瞬間完成，即使是大型影片或圖片檔案也一樣。"
+        },
+        {
+            "icon": "free-rights",
+            "title": "完全免費，免註冊",
+            "description": "完全免費的檔案重新命名工具，不需帳號、不用安裝，也沒有使用次數限制。打開網頁就能立刻開始重新命名。"
+        }
+    ],
+    "bulk_file_renamer.faq.title": "常見問題",
+    "bulk_file_renamer.faq.items": [
+        {
+            "q": "我的檔案會被上傳到伺服器嗎？",
+            "a": "不會。所有重新命名作業都在您的瀏覽器本機進行 - 檔案完全不會離開您的裝置。這是一個真正尊重隱私的檔案重新命名工具，沒有伺服器、沒有儲存，也不會追蹤您的檔案內容。"
+        },
+        {
+            "q": "這個批次檔案重新命名工具是免費的嗎？",
+            "a": "是的，完全免費，不需註冊、不用登入，也沒有隱藏限制。您可以隨時批次重新命名任意數量的檔案。"
+        },
+        {
+            "q": "要怎麼一次重新命名多個檔案？",
+            "a": "把檔案拖曳進工具中，加入一項或多項重新命名規則 - 前綴、後綴、尋找與取代或編號 - 接著確認預覽並下載成 ZIP 檔即可。數百個檔案可以一次完成重新命名。"
+        },
+        {
+            "q": "不安裝軟體也能重新命名檔案嗎？",
+            "a": "可以。這個工具完全在瀏覽器中執行，不需下載或安裝任何東西，可以在任何作業系統上完整取代桌面版的批次重新命名工具。"
+        },
+        {
+            "q": "重新命名會改變我的檔案格式或副檔名嗎？",
+            "a": "不會。您的檔案不會被轉換或修改，只有檔名會變更，原始副檔名會自動保留。重新命名後的 MP4 依然是完全相同、位元不變的 MP4。"
+        },
+        {
+            "q": "可以用這個工具變更檔案的副檔名嗎？",
+            "a": "不行，這是刻意的設計。副檔名會被鎖定，避免產生損壞的檔案 - 把「.mp4」改成「.mp3」並不會真的轉換內容，只會產生一個打不開的檔案。如果需要轉換格式，請使用真正的轉檔工具。"
+        },
+        {
+            "q": "可以批次加上前綴或移除檔名中的文字嗎？",
+            "a": "可以。使用前綴或後綴規則可為每個檔名加上文字；使用尋找與取代並將取代欄位留空，就能移除不需要的文字 - 例如一次從數百個檔案中移除「Copy of」或相機自動產生的前綴。"
+        },
+        {
+            "q": "可以線上批次重新命名 JPG、PNG 等圖片檔嗎？",
+            "a": "可以。您可以批次重新命名 JPG、PNG、WebP、HEIC 及其他任何圖片格式，很適合整理大量照片 - 例如將整份相機膠卷依序編號。"
+        },
+        {
+            "q": "可以線上批次重新命名 MP4 等影片檔嗎？",
+            "a": "可以，而且因為完全不用上傳，即使是好幾 GB 的 MP4、MOV 或 MKV 檔案也能瞬間完成重新命名，不必等待大檔案來回傳輸伺服器。"
+        },
+        {
+            "q": "可以批次重新命名 PDF 和 Word 文件嗎？",
+            "a": "可以。PDF、DOCX、XLSX 等文件都能批次重新命名，文件內的內容、格式與中繼資料完全不受影響，只會變更檔名。"
+        },
+        {
+            "q": "可以重新命名 MP3 等音訊檔嗎？",
+            "a": "可以。批次重新命名 MP3、WAV、FLAC 或任何音訊格式，很適合整理音樂庫或為 Podcast 節目編號。請注意，這只會變更檔名，不會變更 ID3 標籤。"
+        },
+        {
+            "q": "要怎麼讓檔名對 SEO 更友善？",
+            "a": "使用小寫、具描述性且以連字號分隔的文字，例如用「blue-running-shoes.jpg」取代「IMG_4032.jpg」。透過尋找與取代功能，您可以在上傳到網站前，將所有圖片檔名中的空格與底線一次替換成連字號。"
+        },
+        {
+            "q": "這個工具支援 Windows、Mac 和手機嗎？",
+            "a": "支援。由於是在瀏覽器中執行，任何有現代瀏覽器的裝置都能使用 - Windows、macOS、Linux、ChromeOS、Android、iOS 通通沒問題，不需要額外安裝 App。"
+        }
+    ],
+    "tool.compare_two_lists.title": "比較兩份清單",
+    "tool.compare_two_lists.description": "貼上文字或上傳 TXT、CSV、Excel 檔案，找出兩份清單之間的差異、相符項目、重複項目和唯一值。",
+    "tool.compare_two_lists.short_description": "找出兩份清單間的差異、相符項目與重複項目",
+    "tool.compare_two_lists.seo.title": "線上比較清單工具 - CSV、Excel 與文字清單比對",
+    "tool.compare_two_lists.seo.description": "線上比較兩份清單，支援貼上文字或上傳 CSV、Excel 檔案。立即找出差異、相符項目、重複項目、缺漏項目與唯一值，完全免費。",
+    "tool.compare_two_lists.hero.title": "線上比較兩份清單",
+    "tool.compare_two_lists.hero.description": "貼上文字或上傳 CSV、Excel 檔案，立即比較兩份清單。找出僅存在於其中一份清單的項目、相符項目、重複項目與唯一值。",
+    "compare_two_lists.list_a": "清單 A",
+    "compare_two_lists.placeholder_a": "在此貼上清單 A 的項目，一行一項…",
+    "compare_two_lists.list_b": "清單 B",
+    "compare_two_lists.placeholder_b": "在此貼上清單 B 的項目，一行一項…",
+    "compare_two_lists.btn_compare": "比較清單",
+    "compare_two_lists.btn_compare_new": "比較新的清單",
+    "compare_two_lists.only_a": "僅在 A 中",
+    "compare_two_lists.only_b": "僅在 B 中",
+    "compare_two_lists.in_both": "兩者皆有",
+    "compare_two_lists.all_unique": "全部唯一值",
+    "compare_two_lists.duplicates_a": "A 的重複項目",
+    "compare_two_lists.duplicates_b": "B 的重複項目",
+    "compare_two_lists.btn_copy": "複製到剪貼簿",
+    "compare_two_lists.how_to_use.title": "如何比較兩份清單",
+    "compare_two_lists.how_to_use.steps": [
+        "將文字貼到兩個清單欄位中，或從您的裝置上傳 TXT、CSV 或 Excel 檔案。",
+        "選擇比較方式，例如忽略大小寫、去除多餘空格、移除空白行、選取 CSV 或 Excel 中的特定欄位，或偵測重複項目。",
+        "UploadLess 會在您的瀏覽器中比較兩份清單，並顯示僅存在於清單 A、僅存在於清單 B，以及同時存在於兩份清單中的項目。",
+        "確認結果後，即可複製或匯出差異、相符項目、重複項目或唯一值。"
+    ],
+    "compare_two_lists.why_use.title": "為什麼要用 UploadLess 比較清單工具",
+    "compare_two_lists.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "私密的清單比對",
+            "description": "直接在瀏覽器中比較兩份清單。您的文字、CSV 資料、Excel 試算表和上傳的檔案都不會傳送到伺服器。"
+        },
+        {
+            "icon": "bolt",
+            "title": "快速又免費的線上工具",
+            "description": "免費線上比較清單，不需建立帳號、不用安裝軟體，也沒有隱藏費用。"
+        },
+        {
+            "icon": "file-text",
+            "title": "貼上文字或上傳 CSV、Excel 檔案",
+            "description": "可手動貼上清單，或上傳 TXT、CSV、Excel 檔案，比較欄列資料、數值、ID、姓名、電子郵件、SKU 或關鍵字。"
+        },
+        {
+            "icon": "list-check",
+            "title": "找出差異、相符項目與重複項目",
+            "description": "立即找出僅存在於清單 A、僅存在於清單 B、同時存在於兩份清單中的項目，以及重複值、缺漏項目和唯一值。"
+        }
+    ],
+    "compare_two_lists.faq.title": "比較清單常見問題",
+    "compare_two_lists.faq.items": [
+        {
+            "q": "要怎麼線上比較兩份清單？",
+            "a": "將兩份清單貼到輸入欄位中，或上傳 TXT、CSV 或 Excel 檔案。UploadLess 會在您的瀏覽器中比較兩份清單，並立即顯示差異、相符項目、重複項目、缺漏項目與唯一值。"
+        },
+        {
+            "q": "可以比較 Excel 檔案或 Excel 欄位嗎？",
+            "a": "可以。您可以上傳 Excel 檔案，或直接貼上從 Excel、Google 試算表複製的欄位。這個工具能協助您比較試算表數值、欄列、ID、電子郵件、SKU、關鍵字等清單資料，完全不需要寫公式。"
+        },
+        {
+            "q": "可以線上比較 CSV 檔案嗎？",
+            "a": "可以。UploadLess 支援上傳 CSV 檔案，讓您能線上比較 CSV 清單，直接在瀏覽器中找出缺漏的資料列、相符的數值、重複的項目與唯一項目。"
+        },
+        {
+            "q": "比較兩份清單最好的方法是什麼？",
+            "a": "最簡單的方法就是使用線上清單比較工具。貼上您的清單或上傳 TXT、CSV、Excel 檔案，接著就能查看哪些項目只出現在清單 A、只出現在清單 B，或同時出現在兩份清單中。"
+        },
+        {
+            "q": "要怎麼找出兩份清單之間的差異？",
+            "a": "上傳或貼上兩份清單後執行比較，UploadLess 會顯示僅出現在第一份清單、僅出現在第二份清單，以及同時出現在兩份清單中的項目，讓您快速找出缺漏或不一致的資料。"
+        },
+        {
+            "q": "可以找出兩份清單中的相符項目或共同值嗎？",
+            "a": "可以。這個工具會找出同時存在於兩份清單中的相符項目，很適合用來比較客戶名單、電子郵件清單、產品 SKU、URL、ID、關鍵字或庫存資料等試算表欄位。"
+        },
+        {
+            "q": "可以找出清單中的重複值嗎？",
+            "a": "可以。UploadLess 能偵測重複值與重複項目，協助您在複製或匯出結果前，先清理貼上的文字、CSV 檔案、Excel 試算表、電子郵件清單、關鍵字清單等資料。"
+        },
+        {
+            "q": "可以交叉比對兩份清單嗎？",
+            "a": "可以。您可以交叉比對兩份清單，查看有哪些項目缺漏、哪些項目相符，以及各自獨有的項目，很適合用來核對紀錄、電子郵件、ID、SKU、關鍵字、URL 或試算表資料。"
+        },
+        {
+            "q": "可以比較電子郵件清單、關鍵字清單或 SKU 清單嗎？",
+            "a": "可以。您可以貼上或上傳電子郵件清單、關鍵字清單、SKU 清單、URL 清單、ID 清單，以及其他文字、CSV 或 Excel 資料，找出差異、相符項目、重複項目、缺漏項目與唯一值。"
+        },
+        {
+            "q": "我的清單資料會被上傳到伺服器嗎？",
+            "a": "不會。UploadLess 直接在您的瀏覽器中比較清單，貼上的文字、CSV 資料、Excel 檔案和上傳的文件都不需要傳送到伺服器，確保您的清單比對過程完全私密。"
+        }
+    ]
 }

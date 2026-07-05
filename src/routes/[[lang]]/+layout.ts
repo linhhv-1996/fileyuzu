@@ -1,5 +1,5 @@
 import type { LayoutLoad } from './$types';
-import { getCanonicalLang, isValidLang } from '$lib/i18n/config';
+import { getCanonicalLang, isValidLang, REMOVED_LANGUAGES } from '$lib/i18n/config';
 import { error, redirect } from '@sveltejs/kit';
 import { tools } from '$lib/config/tools';
 import { enforceMarket } from '$lib/utils/route-guard';
@@ -7,6 +7,14 @@ import { enforceMarket } from '$lib/utils/route-guard';
 export const load: LayoutLoad = async ({ params, url }) => {
     if (params.lang === 'en') {
         const newPath = url.pathname.replace(/^\/en/, '') || '/';
+        redirect(301, newPath + url.search);
+    }
+
+    // Removed languages: 301 old indexed URLs to the English equivalent.
+    // Blog posts had per-language slugs, so those go to the blog index instead.
+    if (params.lang && REMOVED_LANGUAGES.includes(params.lang.toLowerCase())) {
+        let newPath = url.pathname.replace(new RegExp(`^/${params.lang}`, 'i'), '') || '/';
+        if (newPath.startsWith('/blog/')) newPath = '/blog';
         redirect(301, newPath + url.search);
     }
 
