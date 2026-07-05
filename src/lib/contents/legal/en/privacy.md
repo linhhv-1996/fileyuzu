@@ -29,9 +29,11 @@ UploadLess may use cookies or similar technologies for analytics and website fun
 
 ## Advertisements
 
-UploadLess does not currently display advertisements.
+UploadLess may display advertisements served through third-party advertising networks and partners. These networks may use cookies, device identifiers, or similar technologies to serve ads and measure their performance, and some ads may be personalized based on your browsing activity.
 
-In the future, we may display ads if the website becomes eligible for advertising programs. If ads are added, this Privacy Policy may be updated to explain how advertising-related cookies or technologies are used.
+You can manage or disable advertising-related cookies through your browser settings, or through opt-out tools provided by the relevant ad networks (for example, the [Digital Advertising Alliance](https://optout.aboutads.info/) or [Your Online Choices](https://youronlinechoices.eu/)).
+
+We may add, remove, or change advertising partners over time, including applying for additional advertising programs such as Google AdSense. This Privacy Policy will be updated to reflect any significant changes in how advertising-related data is handled.
 
 ## Third-Party Services
 
