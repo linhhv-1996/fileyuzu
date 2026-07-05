@@ -407,7 +407,7 @@ a:hover {
 .upload-box {
     border: 2px dashed var(--bd);
     border-radius: var(--r);
-    min-height: 220px;
+    min-height: 250px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -428,7 +428,7 @@ a:hover {
 }
 
 .upload-box .ico {
-    font-size: 44px;
+    font-size: 60px;
     color: var(--ac);
     margin-bottom: 0;
     opacity: 0.55;
@@ -443,7 +443,7 @@ a:hover {
 }
 
 .upload-box .ttl {
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 600;
     color: var(--tx);
 }
@@ -1403,6 +1403,14 @@ RESPONSIVE
 
     .upload-box {
         min-height: 260px;
+    }
+
+    .upload-box .ico {
+        font-size: 44px;
+    }
+
+    .upload-box .ttl {
+        font-size: 15px;
     }
 
     .upload-box .sub {
