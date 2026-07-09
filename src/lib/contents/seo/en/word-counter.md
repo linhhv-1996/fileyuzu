@@ -2,7 +2,7 @@
 
 **Word Counter** is a free online tool that instantly counts the words, characters, sentences, paragraphs, and syllables in your text. Whether you're writing an essay, a blog post, or a social media caption, knowing your exact text length matters more than most people realize.
 
-Unlike traditional word processors, this tool runs entirely in your browser. There's nothing to install, no account to create, and your text never leaves your device — everything is calculated locally, so your writing stays completely private.
+Unlike traditional word processors, this tool runs entirely in your browser. There's nothing to install, no account to create, and your text never leaves your device — everything is calculated locally, so your writing stays completely private. You can type or paste text directly, or upload a file — .txt, .md, .json, .pdf, or .docx are all supported — and the tool will read it and generate the full stats automatically.
 
 ---
 
@@ -16,6 +16,7 @@ Instead of switching between separate calculators, this tool combines everything
 - **Reading & Speaking Time** — Estimates based on average reading (200 wpm) and speaking (130 wpm) speeds, handy for scripts, presentations, and blog posts.
 - **Keyword Density** — Shows which words appear most often, so you can catch unintentional repetition before publishing.
 - **Platform Character Limits** — Quick presets for X (Twitter), Instagram, meta titles, and meta descriptions, so you know instantly if your text fits.
+- **File Upload Support** — Don't want to copy-paste? Upload a .txt, .md, .json, .pdf, or .docx file directly and get the full breakdown instantly, no retyping needed.
 
 ---
 
@@ -45,13 +46,13 @@ This distinction matters even more for languages without spaces between words, s
 
 Using the tool takes only a few seconds:
 
-1. **Type or paste** your text into the text box above.
-2. All statistics — words, characters, sentences, syllables, and reading time — **update instantly** as you type.
+1. **Type or paste** your text into the text box above — or **upload a file** (.txt, .md, .json, .pdf, or .docx) if your content is already written elsewhere.
+2. All statistics — words, characters, sentences, syllables, and reading time — **update instantly** as you type or as soon as your file is processed.
 3. Check the **Keyword Density** panel to see your most frequently used words at a glance.
 4. Switch on a **platform limit preset** (X, Instagram, meta title, meta description) to see if your text fits before you publish.
 5. Use the **Copy** button to grab your finalized text in one click.
 
-Because everything runs locally in your browser, there's no upload, no waiting, and no risk of your draft, script, or private notes touching a server.
+Because everything runs locally in your browser — including reading uploaded files — there's no server-side upload, no waiting, and no risk of your draft, script, or private notes touching a server.
 
 ---
 
@@ -60,6 +61,10 @@ Because everything runs locally in your browser, there's no upload, no waiting, 
 ### Does this word counter work for languages like Chinese, Japanese, or Thai?
 
 Yes. Since these languages don't use spaces to separate words, the tool automatically switches to character-based counting for them, which is the metric that actually matters for platforms and style guides in those languages.
+
+### Can I upload a file instead of pasting text?
+
+Yes. The tool accepts .txt, .md, .json, .pdf, and .docx files — just upload one and it'll be read and analyzed locally in your browser, the same way pasted text is, with no file ever sent to a server.
 
 ### Is there a limit to how much text I can paste in?
 

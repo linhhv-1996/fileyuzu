@@ -2,6 +2,7 @@
     import { onMount } from "svelte";
     import { removeStopwords, eng, jpn, zho, kor, tha, vie } from "stopword";
     import { franc } from "franc-min";
+    import mammoth from "mammoth";
 
     let { texts } = $props<{
         texts: {
@@ -23,6 +24,7 @@
     }>();
 
     let text = $state("");
+    let isExtracting = $state(false);
 
     const WPM_READ = 200;
     const WPM_SPEAK = 130;
@@ -164,20 +166,46 @@
 
     let fileInput: HTMLInputElement;
 
-    function handleFileUpload(event: Event) {
+    async function handleFileUpload(event: Event) {
         const input = event.target as HTMLInputElement;
         const file = input.files?.[0];
         if (!file) return;
 
-        const reader = new FileReader();
-        reader.onload = (e) => {
-            if (e.target?.result !== undefined) {
-                text = e.target.result as string;
+        isExtracting = true;
+        try {
+            const fileName = file.name.toLowerCase();
+            
+            if (fileName.endsWith('.docx')) {
+                const arrayBuffer = await file.arrayBuffer();
+                const result = await mammoth.extractRawText({ arrayBuffer });
+                text = result.value;
+            } else if (fileName.endsWith('.pdf')) {
+                const pdfjsLib = await import('pdfjs-dist');
+                pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.mjs`;
+                
+                const arrayBuffer = await file.arrayBuffer();
+                const loadingTask = pdfjsLib.getDocument({ data: arrayBuffer });
+                const pdfDocument = await loadingTask.promise;
+                let fullText = '';
+                for (let i = 1; i <= pdfDocument.numPages; i++) {
+                    const page = await pdfDocument.getPage(i);
+                    const textContent = await page.getTextContent();
+                    const pageText = textContent.items.map((item: any) => item.str).join(' ');
+                    fullText += pageText + '\n';
+                }
+                text = fullText;
+            } else {
+                // Read as text
+                const textContent = await file.text();
+                text = textContent;
             }
-        };
-        reader.readAsText(file);
-        
-        input.value = "";
+        } catch (error) {
+            console.error("Error reading file:", error);
+            alert("Error reading file. Please check if the file is valid.");
+        } finally {
+            isExtracting = false;
+            input.value = "";
+        }
     }
 
     async function handleCopy() {
@@ -204,15 +232,29 @@
     <div class="editor-header">
         <div class="top-toolbar">
             <div class="toolbar-left">
-                <button class="action-btn" onclick={() => fileInput.click()}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="17 8 12 3 7 8"></polyline>
-                        <line x1="12" y1="3" x2="12" y2="15"></line>
-                    </svg>
-                    <span>{texts.uploadBtn || 'Upload'}</span>
+                <button class="action-btn" onclick={() => fileInput.click()} disabled={isExtracting}>
+                    {#if isExtracting}
+                        <svg class="spin-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="2" x2="12" y2="6"></line>
+                            <line x1="12" y1="18" x2="12" y2="22"></line>
+                            <line x1="4.93" y1="4.93" x2="7.76" y2="7.76"></line>
+                            <line x1="16.24" y1="16.24" x2="19.07" y2="19.07"></line>
+                            <line x1="2" y1="12" x2="6" y2="12"></line>
+                            <line x1="18" y1="12" x2="22" y2="12"></line>
+                            <line x1="4.93" y1="19.07" x2="7.76" y2="16.24"></line>
+                            <line x1="16.24" y1="7.76" x2="19.07" y2="4.93"></line>
+                        </svg>
+                        <span>Extracting...</span>
+                    {:else}
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                        <span>{texts.uploadBtn || 'Upload'}</span>
+                    {/if}
                 </button>
-                <input type="file" accept=".txt,.md,.mdx,.csv,.json,.html,text/plain" bind:this={fileInput} onchange={handleFileUpload} style="display: none;" />
+                <input type="file" accept=".txt,.md,.mdx,.csv,.json,.html,text/plain,.docx,.pdf" bind:this={fileInput} onchange={handleFileUpload} style="display: none;" />
             </div>
             <div class="toolbar-right">
                 <button class="action-btn" onclick={handleCopy} disabled={text.length === 0}>
@@ -370,6 +412,12 @@
     .action-btn:disabled {
         opacity: 0.5;
         cursor: not-allowed;
+    }
+    .spin-icon {
+        animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+        100% { transform: rotate(360deg); }
     }
     .input-area {
         width: 100%;
