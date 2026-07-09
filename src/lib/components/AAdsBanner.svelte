@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
     // Bạn có thể truyền adUnitId hoặc thay đổi trực tiếp trong iframe
-    let { adUnitId = "2447450" } = $props(); // Bạn có thể thay đổi ID này
+    let { adUnitId = "" } = $props(); // Bạn có thể thay đổi ID này
 
     let loadAd = $state(false);
 

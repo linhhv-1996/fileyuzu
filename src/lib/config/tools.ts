@@ -34,6 +34,7 @@ export const tools: ToolConfig[] = [
             'compress-pdf',
             'video-converter',
             'image-to-text',
+            'word-counter',
         ],
         category: 'text',
         tags: ['Rename', 'Bulk'],
@@ -158,6 +159,7 @@ export const tools: ToolConfig[] = [
             'barcode-generator',
             'compress-pdf',
             'video-converter',
+            'word-counter',
         ],
         category: 'text',
         tags: ['List', 'Compare', 'Text'],
@@ -270,11 +272,28 @@ export const tools: ToolConfig[] = [
             'png-to-pdf',
             'image-to-text',
             'compress-pdf',
+            'word-counter',
         ],
         category: 'pdf',
         tags: ['Merge', 'PDF', 'Images'],
         markets: ['en', 'ja', 'zh-tw', 'ko'],
     },
+    {
+        slug: 'word-counter',
+        titleKey: 'tool.word_counter.title',
+        descriptionKey: 'tool.word_counter.description',
+        shortDescriptionKey: 'tool.word_counter.short_description',
+        icon: 'file-text',
+        related_tools: [
+            'compare-two-lists',
+            'bulk-file-renamer',
+            'image-to-text',
+            'video-to-text',
+        ],
+        category: 'text',
+        tags: ['Word', 'Character', 'Count', 'Text'],
+        markets: ['en', 'ja', 'zh-tw', 'ko'],
+    }
 ];
 
 export function getRelatedTools(currentSlug: string): ToolConfig[] {

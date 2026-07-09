@@ -1439,5 +1439,30 @@
             "q": "我的清單資料會被上傳到伺服器嗎？",
             "a": "不會。UploadLess 直接在您的瀏覽器中比較清單，貼上的文字、CSV 資料、Excel 檔案和上傳的文件都不需要傳送到伺服器，確保您的清單比對過程完全私密。"
         }
-    ]
+    ],
+    "tool.word_counter.title": "字數統計",
+    "tool.word_counter.description": "統計字數、字符數、句子、段落，並估算閱讀時間。適用於社群媒體、論文與 SEO。",
+    "tool.word_counter.short_description": "即時統計字數與字符數。",
+    
+    
+    "tool.word_counter.seo.title": "字數統計 - 免費線上字數統計、文字計數器工具｜免登入",
+    "tool.word_counter.seo.description": "免費線上字數統計工具，即時計算字數、字元數、句數、段落數，並自動顯示閱讀與朗讀時間。同時支援作文字數檢查、行數計算、常用字詞分析與社群平台字數限制確認，資料全程在瀏覽器內處理，不上傳伺服器，免登入、免安裝、安全又快速，適合學生、寫作者與內容創作者使用。",
+    "tool.word_counter.hero.title": "字數統計",
+    "tool.word_counter.hero.description": "即時計算字數、字元數、句數、段落數，並自動顯示閱讀與朗讀時間。免登入、免安裝，資料全程在瀏覽器內處理。",
+    
+    
+    "word_counter.placeholder": "在此輸入或貼上文字...",
+    "word_counter.wordCount": "字數 (單詞)",
+    "word_counter.charCount": "字符數",
+    "word_counter.charCountNoSpace": "字符數 (不含空格)",
+    "word_counter.sentenceCount": "句子數",
+    "word_counter.paragraphCount": "段落數",
+    "word_counter.syllableCount": "音節數",
+    "word_counter.readTime": "閱讀時間",
+    "word_counter.speakTime": "演講時間",
+    "word_counter.keywordDensity": "關鍵字密度",
+    "word_counter.clearBtn": "清除",
+    "word_counter.copyBtn": "複製",
+    "word_counter.uploadBtn": "上傳",
+    "word_counter.noData": "無數據..."
 }

@@ -1738,5 +1738,28 @@
             "q": "元のファイルは変更・削除されますか？",
             "a": "いいえ。お使いの端末にある元のファイルには一切手を加えません。ダウンロードされるのは名前を変更したコピーなので、失敗してもやり直せます。"
         }
-    ]
+    ],
+    "tool.word_counter.title": "文字数カウント",
+    "tool.word_counter.description": "文字数、単語数、文、段落をカウントし、読む時間を推測します。SNSの投稿やSEOに最適です。",
+    "tool.word_counter.short_description": "リアルタイムで文字数と単語数をカウントします。",
+    
+    "tool.word_counter.seo.title": "文字数カウント・単語数カウンター | 無料オンラインツール",
+    "tool.word_counter.seo.description": "無料の文字数カウントツール。文字数・単語数・文章数・段落数・音節数を瞬時にカウントし、読了時間や話す時間も自動表示。キーワード出現率のチェックやTwitter・Instagramの文字数制限確認も可能。登録不要、ブラウザ内処理で安全に使えます。",
+    "tool.word_counter.hero.title": "文字数・単語数カウント",
+    "tool.word_counter.hero.description": "文字数、単語数、文章数、音節数を瞬時にカウント。読了時間・話す時間も自動計算。登録不要、ブラウザ内で完結する無料ツールです。",
+    
+    "word_counter.placeholder": "ここにテキストを入力または貼り付けてください...",
+    "word_counter.wordCount": "単語数",
+    "word_counter.charCount": "文字数",
+    "word_counter.charCountNoSpace": "文字数（空白なし）",
+    "word_counter.sentenceCount": "文の数",
+    "word_counter.paragraphCount": "段落数",
+    "word_counter.syllableCount": "音節数",
+    "word_counter.readTime": "読書時間",
+    "word_counter.speakTime": "スピーチ時間",
+    "word_counter.keywordDensity": "キーワード出現率",
+    "word_counter.clearBtn": "クリア",
+    "word_counter.copyBtn": "コピーする",
+    "word_counter.uploadBtn": "アップロード",
+    "word_counter.noData": "データがありません..."
 }

@@ -1723,5 +1723,29 @@
             "q": "Does it work on Windows, Mac, and mobile?",
             "a": "Yes. Since it runs in the browser, it works on any device with a modern browser — Windows, macOS, Linux, ChromeOS, Android, and iOS. No app needed."
         }
-    ]
+    ],
+    "tool.word_counter.title": "Word Counter",
+    "tool.word_counter.description": "Count words, characters, sentences, paragraphs, and estimate reading time. Perfect for social media posts, essays, and SEO.",
+    "tool.word_counter.short_description": "Count words, characters, sentences, and paragraphs in real-time.",
+    
+    "tool.word_counter.seo.title": "Free Word Counter, Character & Sentence Counter Online",
+    "tool.word_counter.seo.description": "Free word counter and character counter online. Instantly count words, characters, sentences, syllables, plus reading and speaking time — no sign-up.",
+    "tool.word_counter.hero.title": "Word Counter & Character Counter",
+    "tool.word_counter.hero.description": "Type or paste your text below to instantly see word count, character count, reading time, and keyword density.",
+    
+    
+    "word_counter.placeholder": "Type or paste your text here...",
+    "word_counter.wordCount": "Words",
+    "word_counter.charCount": "Characters",
+    "word_counter.charCountNoSpace": "Characters (no spaces)",
+    "word_counter.sentenceCount": "Sentences",
+    "word_counter.paragraphCount": "Paragraphs",
+    "word_counter.syllableCount": "Syllables",
+    "word_counter.readTime": "Reading Time",
+    "word_counter.speakTime": "Speaking Time",
+    "word_counter.keywordDensity": "Keyword Density",
+    "word_counter.clearBtn": "Clear",
+    "word_counter.copyBtn": "Copy to Clipboard",
+    "word_counter.uploadBtn": "Upload",
+    "word_counter.noData": "No Data..."
 }

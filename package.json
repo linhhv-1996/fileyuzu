@@ -18,6 +18,7 @@
 		"@types/marked": "^5.0.2",
 		"@types/qrcode": "^1.5.6",
 		"@types/sortablejs": "^1.15.9",
+		"@types/stopword": "^2.0.3",
 		"svelte": "^5.55.2",
 		"svelte-check": "^4.4.6",
 		"typescript": "^6.0.2",
@@ -30,10 +31,12 @@
 		"@gutenye/ocr-browser": "^1.4.8",
 		"@huggingface/transformers": "^4.2.0",
 		"@mediabunny/mp3-encoder": "^1.45.4",
+		"franc-min": "^6.2.0",
 		"gray-matter": "^4.0.3",
 		"jsbarcode": "^3.12.3",
 		"jspdf": "^4.2.1",
 		"jszip": "^3.10.1",
+		"keyword-extractor": "^0.0.28",
 		"marked": "^18.0.4",
 		"mediabunny": "^1.45.4",
 		"onnxruntime-web": "^1.26.0",
@@ -42,6 +45,8 @@
 		"ppu-paddle-ocr": "^5.8.3",
 		"qrcode": "^1.5.4",
 		"sortablejs": "^1.15.7",
+		"stopword": "^3.1.5",
+		"word-count": "^0.3.1",
 		"xlsx": "^0.18.5"
 	}
 }
