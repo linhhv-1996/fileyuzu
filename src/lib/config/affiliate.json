@@ -1,0 +1,42 @@
+{
+    "nordvpn": {
+        "en": {
+            "brand": "NordVPN",
+            "desc": "Protect your privacy and bypass restrictions with 70% off.",
+            "link": "https://nordvpn.com/",
+            "badge": "Sponsored"
+        },
+        "ja": {
+            "brand": "NordVPN",
+            "desc": "プライバシーを保護し、制限を回避しましょう。今なら70%オフ。",
+            "link": "https://nordvpn.com/",
+            "badge": "スポンサー"
+        },
+        "zh": {
+            "brand": "NordVPN",
+            "desc": "保护您的隐私并绕过限制，享受 70% 的折扣。",
+            "link": "https://nordvpn.com/",
+            "badge": "赞助"
+        }
+    },
+    "hostinger": {
+        "en": {
+            "brand": "Hostinger",
+            "desc": "Get up to 75% off high-performance web hosting.",
+            "link": "https://hostinger.com/",
+            "badge": "Sponsored"
+        },
+        "ja": {
+            "brand": "Hostinger",
+            "desc": "高性能Webホスティングが最大75%オフ。",
+            "link": "https://hostinger.com/",
+            "badge": "スポンサー"
+        },
+        "zh": {
+            "brand": "Hostinger",
+            "desc": "获得高达 75% 的高性能网络托管折扣。",
+            "link": "https://hostinger.com/",
+            "badge": "赞助"
+        }
+    }
+}
