@@ -28,12 +28,12 @@
     /* ── Article Content (Copied from Blog for consistency) ── */
     .article-content {
         color: var(--tx);
-        font-size: 15px;
+        font-size: 14.5px;
         line-height: 1.5;
     }
 
     :global(.article-content h2) {
-        font-size: 22px;
+        font-size: 20.5px;
         font-weight: 700;
         color: var(--tx);
         margin: 1rem 0 1rem 0;
@@ -42,7 +42,7 @@
     }
 
     :global(.article-content h3) {
-        font-size: 18px;
+        font-size: 16.5px;
         font-weight: 700;
         color: var(--tx);
         margin: 1.5rem 0 0.75rem 0;

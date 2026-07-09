@@ -52,3 +52,25 @@ Using the tool takes only a few seconds:
 5. Use the **Copy** button to grab your finalized text in one click.
 
 Because everything runs locally in your browser, there's no upload, no waiting, and no risk of your draft, script, or private notes touching a server.
+
+---
+
+## Frequently Asked Questions
+
+### Does this word counter work for languages like Chinese, Japanese, or Thai?
+
+Yes. Since these languages don't use spaces to separate words, the tool automatically switches to character-based counting for them, which is the metric that actually matters for platforms and style guides in those languages.
+
+### Is there a limit to how much text I can paste in?
+
+No hard limit — since everything runs locally in your browser instead of being uploaded to a server, the tool can handle anything from a single tweet to a full manuscript without slowing down or timing out.
+
+### How accurate is the syllable counter?
+It uses standard English syllable-counting rules and handles the vast majority of words correctly, though highly irregular words or names can occasionally be off by one syllable. For readability scoring purposes, this level of accuracy is more than sufficient.
+
+### What reading speed does the reading time estimate use, and can I trust it for my audience?
+
+It's based on 200 words per minute, which is the commonly cited average adult reading speed. Faster or slower readers will vary, so treat the estimate as a useful baseline rather than an exact number for any one reader.
+
+### Does the tool save or store my text anywhere?
+No. Since all counting happens locally in your browser, your text is never sent to, stored on, or visible to any server — closing the tab clears everything, and nothing is logged.

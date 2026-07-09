@@ -5,9 +5,7 @@
     import { getRelatedTools } from '$lib/config/tools';
     
     import VideoCompressor from '$lib/components/tools/VideoCompressor.svelte';
-    import HowToUse from '$lib/components/HowToUse.svelte';
-    import WhyUse from '$lib/components/WhyUse.svelte';
-    import Faq from '$lib/components/Faq.svelte';
+    import SEOContent from '$lib/components/SEOContent.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import AAdsBanner from '$lib/components/AAdsBanner.svelte';
     
@@ -40,9 +38,7 @@
 <div class="grid">
     <main>
         <VideoCompressor texts={compressorTexts} />
-        <HowToUse title={t('compress_video.how_to_use.title', dict)} steps={Array.isArray(t('compress_video.how_to_use.steps', dict)) ? t('compress_video.how_to_use.steps', dict) : []} />
-        <WhyUse title={t('compress_video.why_use.title', dict)} benefits={Array.isArray(t('compress_video.why_use.benefits', dict)) ? t('compress_video.why_use.benefits', dict) : []} />
-        <Faq title={t('compress_video.faq.title', dict)} items={Array.isArray(t('compress_video.faq.items', dict)) ? t('compress_video.faq.items', dict) : []} />
+        <SEOContent content={$page.data.seoContent} />
     </main>
 
     <!-- SIDEBAR (desktop only via CSS) -->
