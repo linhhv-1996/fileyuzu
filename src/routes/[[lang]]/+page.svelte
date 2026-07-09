@@ -98,8 +98,10 @@
     </div>
 </div>
 
-<!-- Tools Grid -->
-<section class="tools-section">
+<div class="home-layout">
+    <div class="home-main">
+        <!-- Tools Grid -->
+        <section class="tools-section">
     {#if filteredTools.length === 0}
         <div class="empty-state">
             <i class="ti ti-search-off" aria-hidden="true"></i>
@@ -127,24 +129,6 @@
                 {/if}
             </a>
         {/snippet}
-
-        <div class="tools-grid-masonry cols-3">
-            <div class="masonry-col">
-                {#each filteredTools.filter((_, i) => i % 3 === 0) as tool}
-                    {@render ToolCard(tool)}
-                {/each}
-            </div>
-            <div class="masonry-col">
-                {#each filteredTools.filter((_, i) => i % 3 === 1) as tool}
-                    {@render ToolCard(tool)}
-                {/each}
-            </div>
-            <div class="masonry-col">
-                {#each filteredTools.filter((_, i) => i % 3 === 2) as tool}
-                    {@render ToolCard(tool)}
-                {/each}
-            </div>
-        </div>
 
         <div class="tools-grid-masonry cols-2">
             <div class="masonry-col">
@@ -204,8 +188,118 @@
 <!-- <div class="home-donate">
     <AAdsBanner />
 </div> -->
+    </div>
+    <aside class="home-sidebar">
+        <h3 class="sidebar-title">{t("common.blog", dict) || "Latest Blog"}</h3>
+        <div class="sidebar-posts">
+            {#if $page.data.recentPosts}
+                {#each $page.data.recentPosts as post}
+                    <a href={langUrl(lang, `/blog/${post.slug}`)} class="sidebar-post-item">
+                        <h4 class="sidebar-post-title">{post.title || post.slug}</h4>
+                        {#if post.date}
+                            <span class="sidebar-post-date">
+                                {new Date(post.date).toLocaleDateString(lang, { year: 'numeric', month: 'short', day: 'numeric' })}
+                            </span>
+                        {/if}
+                    </a>
+                {/each}
+            {/if}
+        </div>
+        <div class="sidebar-ad">
+            <AAdsBanner />
+        </div>
+    </aside>
+</div>
 
 <style>
+    /* ── Layout ── */
+    .home-layout {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    
+    .home-main {
+        flex: 1;
+        min-width: 0;
+    }
+    
+    .home-sidebar {
+        width: 250px;
+        flex-shrink: 0;
+        position: sticky;
+        top: 24px;
+    }
+    
+    .sidebar-title {
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--tx);
+        margin: 0 0 16px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid var(--bd-lt);
+    }
+    
+    .sidebar-posts {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .sidebar-post-item {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        text-decoration: none;
+        padding-bottom: 16px;
+        border-bottom: 1px dashed var(--bd-lt);
+        transition: opacity 0.2s;
+    }
+
+    .sidebar-post-item:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    
+    .sidebar-post-item:hover {
+        opacity: 0.85;
+    }
+    
+    .sidebar-ad {
+        margin-top: 24px;
+        border-radius: var(--r);
+        overflow: hidden;
+    }
+    
+    .sidebar-post-title {
+        margin: 0;
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--tx);
+        line-height: 1.4;
+        transition: color 0.2s;
+    }
+    
+    .sidebar-post-item:hover .sidebar-post-title {
+        color: var(--ac);
+    }
+    
+    .sidebar-post-date {
+        font-size: 12px;
+        color: var(--tx-sub);
+    }
+
+    @media (max-width: 900px) {
+        .home-layout {
+            flex-direction: column;
+        }
+        .home-sidebar {
+            width: 100%;
+            position: static;
+            margin-top: 32px;
+        }
+    }
+
     /* ── Hero ── */
     .hero {
         padding: 0 0 20px;
@@ -261,7 +355,7 @@
     .search-input {
         width: 100%;
         box-sizing: border-box;
-        padding: 8px 14px 8px 34px;
+        padding: 6px 14px 6px 34px;
         font-size: 13.5px;
         color: var(--tx);
         background: var(--bg);
@@ -297,7 +391,7 @@
         color: var(--tx-sub);
         background: var(--bg);
         border: 1px solid var(--bd);
-        border-radius: 999px;
+        border-radius: 3px;
         cursor: pointer;
         font-family: var(--font);
         transition: all 0.12s;
@@ -354,8 +448,7 @@
         min-width: 0;
     }
 
-    .tools-grid-masonry.cols-3 { display: flex; }
-    .tools-grid-masonry.cols-2 { display: none; }
+    .tools-grid-masonry.cols-2 { display: flex; }
     .tools-grid-masonry.cols-1 { display: none; }
 
     /* ── Tool Card ── */
@@ -569,7 +662,6 @@
 
     /* ── Responsive ── */
     @media (max-width: 900px) {
-        .tools-grid-masonry.cols-3 { display: none; }
         .tools-grid-masonry.cols-2 { display: flex; }
     }
 
