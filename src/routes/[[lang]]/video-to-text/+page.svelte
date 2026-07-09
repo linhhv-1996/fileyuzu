@@ -9,7 +9,7 @@
     import WhyUse from '$lib/components/WhyUse.svelte';
     import Faq from '$lib/components/Faq.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
-    import Donate from '$lib/components/Donate.svelte';
+    import AAdsBanner from '$lib/components/AAdsBanner.svelte';
     
     let dict = $derived($page.data.dict);
     
@@ -88,7 +88,7 @@
     <aside class="sidebar">
         <RelatedTools title={t('related_tools.title', dict)} tools={relatedTools} />
         <div class="mt-4">
-            <Donate {dict} />
+            <AAdsBanner />
         </div>
     </aside>
 </div>

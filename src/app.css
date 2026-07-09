@@ -1106,7 +1106,7 @@ a:hover {
 .sidebar {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 12px;
     position: sticky;
     top: 80px;
 }
