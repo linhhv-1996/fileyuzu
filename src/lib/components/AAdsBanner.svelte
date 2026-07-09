@@ -23,7 +23,7 @@
             style="width:250px; height:250px; border: 1px solid var(--bd-lt, #ccc); border-radius: 3px; padding:0; overflow:hidden; background-color: transparent;"
             allowtransparency={true}
             title="AAds Banner"
-            sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"
+            sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-same-origin"
         ></iframe>
     {:else}
         <!-- Giữ sẵn không gian (placeholder) để không bị giật khung hình (Cumulative Layout Shift) -->
