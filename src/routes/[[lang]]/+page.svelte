@@ -318,7 +318,7 @@
     .hero-desc {
         font-size: 16px;
         color: var(--tx-sub);
-        max-width: 500px;
+        max-width: 950px;
         line-height: 1.6;
         margin: 0;
     }
@@ -436,14 +436,14 @@
 
     .tools-grid-masonry {
         display: flex;
-        gap: 16px;
+        gap: 10px;
         align-items: flex-start;
     }
 
     .masonry-col {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 10px;
         flex: 1;
         min-width: 0;
     }

@@ -26,12 +26,15 @@
     "pdf_compressor.upload.btn_sample": "試用範例 PDF",
     "pdf_compressor.upload.hint": "請選擇一個要壓縮並縮小的 PDF 檔案",
     "_comment_home": "================ Home ================",
+    
     "home.seo.title": "免費線上工具 — 瀏覽器內使用，無需上傳",
     "home.seo.description": "使用免費線上工具處理檔案、圖片、PDF、影片、文字、條碼等，全部直接在瀏覽器中完成。無需上傳、無需註冊，您的資料保持私密。",
-    "home.hero.title": "免費線上工具",
+    
+"home.hero.title": "檔案不會離開你的裝置",
+"home.hero.description": "大多數線上工具都會要求你先把檔案上傳到伺服器才能處理—速度慢、有安全疑慮，還常常限制檔案大小或要求註冊帳號。我們的做法不同：本站所有工具都直接在你的裝置上處理檔案，完全不經過伺服器。這代表處理速度更快、隱私完全受到保護，而且使用次數沒有任何限制。",
+
     "home.popular_tools": "熱門工具",
     "home.popular": "熱門",
-    "home.hero.description": "快速且注重隱私的日常工具，直接在瀏覽器中執行。無需上傳 — 您的檔案永遠不會離開您的裝置。",
     "home.pill.private": "檔案永遠不會離開你的裝置",
     "home.pill.instant": "立即處理，無需排隊",
     "home.pill.free": "100% 免費",

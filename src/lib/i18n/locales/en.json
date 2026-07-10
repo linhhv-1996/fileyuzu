@@ -26,10 +26,14 @@
     "pdf_compressor.upload.btn_sample": "Try sample PDF",
     "pdf_compressor.upload.hint": "Select one PDF file to compress and make it smaller",
     "_comment_home": "================ Home ================",
+    
+    
     "home.seo.title": "Free Online Tools — Browser-Based, No Uploads",
     "home.seo.description": "Use free online tools for files, images, PDFs, videos, text, barcodes, and more — all directly in your browser. No uploads, no sign-up, and your data stays private.",
-    "home.hero.title": "Free Online Tools",
-    "home.hero.description": "Fast, private tools for everyday tasks, running directly in your browser. No uploads needed — your files never leave your device.",
+    
+    "home.hero.title": "File Tools That Never Leave Your Device",
+    "home.hero.description": "Most online tools make you upload your files to their servers first — slow, risky, and often limited by file size or a required account. We do it differently: every tool on this site processes your files right on your device, no server involved. That means faster results, complete privacy, and no limits on how often you use them.",
+    
     "home.popular_tools": "Popular Tools",
     "home.popular": "Popular",
     "home.pill.private": "Files never leave your device",
