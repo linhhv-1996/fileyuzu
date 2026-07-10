@@ -665,10 +665,13 @@
         }
     ],
     "_comment_image_to_text": "================ Image to Text (OCR) ================",
-    "image_to_text.seo.title": "画像から文字を抽出 - 無料で画像をテキスト化 | UploadLess",
-    "image_to_text.seo.description": "画像・写真・スクリーンショットから文字を無料で抽出。JPG・PNG対応のオンラインOCRで、アップロード不要・登録不要ですぐにテキスト化できます。",
+    
+    "image_to_text.seo.title": "画像の文字起こし・抽出 - 無料オンラインOCR",
+    "image_to_text.seo.description": "画像の文字をその場で抽出・コピー。写真、スクショ、書類の画像をアップロード不要でテキスト化。日本語・手書きにも対応した無料OCRツール。",
+    
     "image_to_text.hero.title": "画像から文字を抽出してテキスト化",
     "image_to_text.hero.description": "画像・写真・スクリーンショット内の文字をすぐに読み取り。JPG・PNG対応、無料で使えるブラウザベースのOCRツールです。",
+    
     "image_to_text.btn.copy": "テキストをコピー",
     "image_to_text.btn.copy_all": "すべてコピー",
     "image_to_text.btn.clean": "形式を整える",

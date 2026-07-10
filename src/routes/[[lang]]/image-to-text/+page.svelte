@@ -5,9 +5,7 @@
     import { getRelatedTools } from '$lib/config/tools';
     
     import OCRReader from '$lib/components/tools/OCRReader.svelte';
-    import HowToUse from '$lib/components/HowToUse.svelte';
-    import WhyUse from '$lib/components/WhyUse.svelte';
-    import Faq from '$lib/components/Faq.svelte';
+    import SEOContent from '$lib/components/SEOContent.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import AAdsBanner from '$lib/components/AAdsBanner.svelte';
     
@@ -44,9 +42,7 @@
 <div class="grid">
     <main>
         <OCRReader texts={ocrTexts} />
-        <HowToUse title={t('image_to_text.how_to_use.title', dict)} steps={Array.isArray(t('image_to_text.how_to_use.steps', dict)) ? t('image_to_text.how_to_use.steps', dict) : []} />
-        <WhyUse title={t('image_to_text.why_use.title', dict)} benefits={Array.isArray(t('image_to_text.why_use.benefits', dict)) ? t('image_to_text.why_use.benefits', dict) : []} />
-        <Faq title={t('image_to_text.faq.title', dict)} items={Array.isArray(t('image_to_text.faq.items', dict)) ? t('image_to_text.faq.items', dict) : []} />
+        <SEOContent content={$page.data.seoContent} />
     </main>
 
     <!-- SIDEBAR (desktop only via CSS) -->
