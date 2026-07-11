@@ -317,8 +317,8 @@ margin-bottom: 0;
     :global(.article-content img) {
         max-width: 100%;
         height: auto;
-        border-radius: 12px;
-        margin: 1rem 0;
+        border-radius: 3px;
+        margin: 0.5rem 0;
         border: 1px solid var(--bd);
     }
 
