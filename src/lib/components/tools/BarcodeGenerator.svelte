@@ -627,7 +627,7 @@
     .custom-select-trigger {
         width: 100%;
         padding: 6px 12px;
-        border-radius: 8px;
+        border-radius: 3px;
         border: 1px solid var(--bd);
         background: var(--bg);
         color: var(--tx);
@@ -650,7 +650,7 @@
         right: 0;
         background: var(--bg);
         border: 1px solid var(--bd);
-        border-radius: 8px;
+        border-radius: 3px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         z-index: 10;
         max-height: 200px;

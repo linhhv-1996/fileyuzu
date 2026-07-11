@@ -734,7 +734,7 @@ a:hover {
     font-size: 13px;
     padding: 5px 14px;
     border: 1px solid var(--bd);
-    border-radius: 20px;
+    border-radius: 3px;
     cursor: pointer;
     color: var(--tx-sub);
     background: var(--bg);
