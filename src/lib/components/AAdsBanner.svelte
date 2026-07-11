@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    let { adUnitId = "2447450" } = $props();
+    let { adUnitId = "" } = $props();
     // let { adUnitId = "" } = $props();
 
     let loadAd = $state(false);
