@@ -7,7 +7,7 @@
     import OCRReader from '$lib/components/tools/OCRReader.svelte';
     import SEOContent from '$lib/components/SEOContent.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
-    import AAdsBanner from '$lib/components/AAdsBanner.svelte';
+    import Affiliate from '$lib/components/Affiliate.svelte';
     
     let dict = $derived($page.data.dict);
     
@@ -47,10 +47,10 @@
 
     <!-- SIDEBAR (desktop only via CSS) -->
     <aside class="sidebar">
-        <RelatedTools title={t('related_tools.title', dict)} tools={relatedTools} />
         <div class="mt-4">
-            <AAdsBanner />
+            <Affiliate offer="nordvpn" />
         </div>
+        <RelatedTools title={t('related_tools.title', dict)} tools={relatedTools} />
     </aside>
 </div>
 

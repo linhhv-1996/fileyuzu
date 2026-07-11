@@ -3,7 +3,7 @@
     import { page } from '$app/stores';
     import { t, langUrl } from '$lib/i18n/config';
     import { tools, type ToolConfig } from '$lib/config/tools';
-    import AAdsBanner from '$lib/components/AAdsBanner.svelte';
+    import Affiliate from '$lib/components/Affiliate.svelte';
 
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
@@ -186,7 +186,7 @@
 
 <!-- Donate -->
 <!-- <div class="home-donate">
-    <AAdsBanner />
+    <Affiliate offer="nordvpn" />
 </div> -->
     </div>
     <aside class="home-sidebar">
@@ -206,7 +206,7 @@
             {/if}
         </div>
         <div class="sidebar-ad">
-            <AAdsBanner />
+            <Affiliate offer="nordvpn" />
         </div>
     </aside>
 </div>
@@ -243,7 +243,7 @@
     .sidebar-posts {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 12px;
     }
     
     .sidebar-post-item {

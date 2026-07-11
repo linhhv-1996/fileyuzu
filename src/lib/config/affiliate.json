@@ -2,41 +2,91 @@
     "nordvpn": {
         "en": {
             "brand": "NordVPN",
-            "desc": "Protect your privacy and bypass restrictions with 70% off.",
-            "link": "https://nordvpn.com/",
-            "badge": "Sponsored"
+            "desc": "Lock down your privacy and unblock global content instantly. Grab our exclusive discount today!",
+            "link": "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=151851",
+            "badge": "Sponsored",
+            "btn": "Get Deal"
         },
         "ja": {
             "brand": "NordVPN",
-            "desc": "プライバシーを保護し、制限を回避しましょう。今なら70%オフ。",
-            "link": "https://nordvpn.com/",
-            "badge": "スポンサー"
+            "desc": "プライバシーを完璧に保護し、世界中のコンテンツを制限なしで。限定割引を今すぐゲット！",
+            "link": "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=151851",
+            "badge": "スポンサー",
+            "btn": "今すぐゲット"
         },
-        "zh": {
+        "ko": {
             "brand": "NordVPN",
-            "desc": "保护您的隐私并绕过限制，享受 70% 的折扣。",
-            "link": "https://nordvpn.com/",
-            "badge": "赞助"
+            "desc": "개인 정보를 안전하게 보호하고 전 세계 콘텐츠를 잠금 해제하세요. 독점 할인을 지금 확인하세요!",
+            "link": "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=151851",
+            "badge": "스폰서",
+            "btn": "할인 받기"
+        },
+        "zh-tw": {
+            "brand": "NordVPN",
+            "desc": "全面保護您的隱私，輕鬆解鎖全球內容。立即領取專屬折扣優惠！",
+            "link": "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=151851",
+            "badge": "贊助",
+            "btn": "立即領取"
         }
     },
-    "hostinger": {
+    "adguard": {
         "en": {
-            "brand": "Hostinger",
-            "desc": "Get up to 75% off high-performance web hosting.",
-            "link": "https://hostinger.com/",
-            "badge": "Sponsored"
+            "brand": "AdGuard AdBlock",
+            "desc": "Tired of annoying ads and trackers? Experience a cleaner, faster web with AdGuard. Try it now!",
+            "link": "https://adguard.com?aid=138010",
+            "badge": "Sponsored",
+            "btn": "Get Deal"
         },
         "ja": {
-            "brand": "Hostinger",
-            "desc": "高性能Webホスティングが最大75%オフ。",
-            "link": "https://hostinger.com/",
-            "badge": "スポンサー"
+            "brand": "AdGuard AdBlock",
+            "desc": "しつこい広告や追跡にうんざり？AdGuardで驚くほど快適なネットサーフィンを。今すぐ体験！",
+            "link": "https://adguard.com?aid=138010",
+            "badge": "スポンサー",
+            "btn": "今すぐゲット"
         },
-        "zh": {
-            "brand": "Hostinger",
-            "desc": "获得高达 75% 的高性能网络托管折扣。",
-            "link": "https://hostinger.com/",
-            "badge": "赞助"
+        "ko": {
+            "brand": "AdGuard AdBlock",
+            "desc": "성가신 광고와 트래커는 이제 그만! AdGuard로 더 빠르고 깨끗한 웹을 경험하세요. 지금 시작하세요!",
+            "link": "https://adguard.com?aid=138010",
+            "badge": "스폰서",
+            "btn": "할인 받기"
+        },
+        "zh-tw": {
+            "brand": "AdGuard AdBlock",
+            "desc": "受夠了煩人的廣告和追蹤器？使用 AdGuard 享受更快、更乾淨的網頁體驗。立即試用！",
+            "link": "https://adguard.com?aid=138010",
+            "badge": "贊助",
+            "btn": "立即領取"
+        }
+    },
+    "adguard_vpn": {
+        "en": {
+            "brand": "AdGuard VPN",
+            "desc": "Stay anonymous online with lightning-fast speeds. Protect your personal data anywhere you go!",
+            "link": "https://adguard-vpn.com?aid=138010",
+            "badge": "Sponsored",
+            "btn": "Get Deal"
+        },
+        "ja": {
+            "brand": "AdGuard VPN",
+            "desc": "超高速でオンラインの匿名性を維持。どこにいてもあなたの個人データを安全に保護します！",
+            "link": "https://adguard-vpn.com?aid=138010",
+            "badge": "スポンサー",
+            "btn": "今すぐゲット"
+        },
+        "ko": {
+            "brand": "AdGuard VPN",
+            "desc": "초고속 속도로 온라인에서 익명성을 유지하세요. 어디서나 개인 데이터를 완벽하게 보호하세요!",
+            "link": "https://adguard-vpn.com?aid=138010",
+            "badge": "스폰서",
+            "btn": "할인 받기"
+        },
+        "zh-tw": {
+            "brand": "AdGuard VPN",
+            "desc": "以超高網速保持線上匿名。無論身在何處，完美保護您的個人數據！",
+            "link": "https://adguard-vpn.com?aid=138010",
+            "badge": "贊助",
+            "btn": "立即領取"
         }
     }
 }
