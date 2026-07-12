@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Share from '../Share.svelte';
     import { formatSize } from '$lib/utils';
     
     interface Props {
@@ -353,12 +354,19 @@
             </div>
         {/if}
 
+    
+        <div class="card-footer">
+            <Share title={texts?.uploadTitle || ''} />
+        </div>
     </div>
 </div>
 
 <input type="file" bind:this={fileInput} accept="application/pdf" class="hidden-el" onchange={handleFileChange}>
 
 <style>
+.card-footer{
+    padding: 8px 16px;
+}
     /* Global CSS is in app.css, component-specific styles here */
     .w-full { width: 100%; }
     .pdf-preview { overflow: hidden; position: relative; display: flex; align-items: center; justify-content: center; background: #e5e7eb; width: 100%; min-height: 400px; }

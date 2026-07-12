@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Share from '../Share.svelte';
     import { onMount, tick } from "svelte";
 
 
@@ -566,10 +567,17 @@
                 {/if}
             </div>
         {/if}
+    
+        <div class="card-footer">
+            <Share title={texts?.uploadTitle || ''} />
+        </div>
     </div>
 </div>
 
 <style>
+.card-footer{
+    padding: 8px 16px;
+}
     .input-tabs {
         display: flex;
         gap: 8px;

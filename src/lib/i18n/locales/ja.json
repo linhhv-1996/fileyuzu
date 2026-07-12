@@ -26,13 +26,10 @@
     "pdf_compressor.upload.btn_sample": "サンプルPDFを試す",
     "pdf_compressor.upload.hint": "圧縮して小さくするPDFファイルを1つ選択してください",
     "_comment_home": "================ Home ================",
-    
     "home.seo.title": "無料オンラインツール — ブラウザベース、アップロード不要",
     "home.seo.description": "ファイル、画像、PDF、動画、テキスト、バーコードなどに使える無料オンラインツールを、すべてブラウザ上で直接利用できます。アップロード不要、登録不要で、データはプライベートに保たれます。",
-    
-"home.hero.title": "ファイルはデバイスから出ません",
-"home.hero.description": "多くのオンラインツールは、処理の前にファイルをサーバーへアップロードさせます — 時間がかかり、セキュリティ面でも不安が残るうえ、ファイルサイズに制限があったり、アカウント登録が必要な場合も少なくありません。当サイトは違います。すべてのツールはお使いのデバイス上で直接ファイルを処理し、サーバーを一切経由しません。その結果、処理は速く、プライバシーは完全に守られ、利用回数の制限もありません。",
-
+    "home.hero.title": "ファイルはデバイスから出ません",
+    "home.hero.description": "多くのオンラインツールは、処理の前にファイルをサーバーへアップロードさせます — 時間がかかり、セキュリティ面でも不安が残るうえ、ファイルサイズに制限があったり、アカウント登録が必要な場合も少なくありません。当サイトは違います。すべてのツールはお使いのデバイス上で直接ファイルを処理し、サーバーを一切経由しません。その結果、処理は速く、プライバシーは完全に守られ、利用回数の制限もありません。",
     "home.popular_tools": "人気のツール",
     "home.popular": "人気",
     "home.pill.private": "ファイルがお使いの端末から外へ出ることはありません",
@@ -665,13 +662,10 @@
         }
     ],
     "_comment_image_to_text": "================ Image to Text (OCR) ================",
-    
     "image_to_text.seo.title": "画像の文字起こし・抽出 - 無料オンラインOCR",
     "image_to_text.seo.description": "画像の文字をその場で抽出・コピー。写真、スクショ、書類の画像をアップロード不要でテキスト化。日本語・手書きにも対応した無料OCRツール。",
-    
     "image_to_text.hero.title": "画像から文字を抽出してテキスト化",
     "image_to_text.hero.description": "画像・写真・スクリーンショット内の文字をすぐに読み取り。JPG・PNG対応、無料で使えるブラウザベースのOCRツールです。",
-    
     "image_to_text.btn.copy": "テキストをコピー",
     "image_to_text.btn.copy_all": "すべてコピー",
     "image_to_text.btn.clean": "形式を整える",
@@ -1748,12 +1742,10 @@
     "tool.word_counter.title": "文字数カウント",
     "tool.word_counter.description": "文字数、単語数、文、段落をカウントし、読む時間を推測します。SNSの投稿やSEOに最適です。",
     "tool.word_counter.short_description": "リアルタイムで文字数と単語数をカウントします。",
-    
     "tool.word_counter.seo.title": "文字数カウント・単語数カウンター | 無料オンラインツール",
     "tool.word_counter.seo.description": "無料の文字数カウントツール。文字数・単語数・文章数・段落数・音節数を瞬時にカウントし、読了時間や話す時間も自動表示。キーワード出現率のチェックやTwitter・Instagramの文字数制限確認も可能。登録不要、ブラウザ内処理で安全に使えます。",
     "tool.word_counter.hero.title": "文字数・単語数カウント",
     "tool.word_counter.hero.description": "文字数、単語数、文章数、音節数を瞬時にカウント。読了時間・話す時間も自動計算。登録不要、ブラウザ内で完結する無料ツールです。",
-    
     "word_counter.placeholder": "ここにテキストを入力または貼り付けてください...",
     "word_counter.wordCount": "単語数",
     "word_counter.charCount": "文字数",
@@ -1767,5 +1759,7 @@
     "word_counter.clearBtn": "クリア",
     "word_counter.copyBtn": "コピーする",
     "word_counter.uploadBtn": "アップロード",
-    "word_counter.noData": "データがありません..."
+    "word_counter.noData": "データがありません...",
+
+    "share.title": "このツールを共有："
 }

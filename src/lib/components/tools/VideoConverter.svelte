@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Share from '../Share.svelte';
     import { formatSize } from '$lib/utils';
     import { convertVideoFile } from '$lib/utils/video-converter';
     
@@ -290,12 +291,19 @@
             </div>
         {/if}
 
+    
+        <div class="card-footer">
+            <Share title={texts?.uploadTitle || ''} />
+        </div>
     </div>
 </div>
 
 <input type="file" bind:this={fileInput} accept={inputFormats} style="display:none" onchange={handleFileChange}>
 
 <style>
+.card-footer{
+    padding: 8px 16px;
+}
     .format-tags {
         display: flex;
         flex-wrap: wrap;

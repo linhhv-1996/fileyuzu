@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Share from '../Share.svelte';
     import { onDestroy, onMount } from "svelte";
     import { tick } from "svelte";
 
@@ -523,6 +524,10 @@
                 {/if}
             </div>
         {/if}
+    
+        <div class="card-footer">
+            <Share title={texts?.uploadTitle || ''} />
+        </div>
     </div>
 </div>
 
@@ -535,6 +540,9 @@
 />
 
 <style>
+.card-footer{
+    padding: 8px 16px;
+}
     .extracted-frames-container {
         margin-top: 24px;
         padding-top: 24px;

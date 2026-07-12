@@ -1,6 +1,7 @@
 <script lang="ts">
     import { formatSize } from '$lib/utils';
     import { compressVideoFile } from '$lib/utils/video-compressor';
+    import Share from '../Share.svelte';
     
     interface Props {
         texts?: any;
@@ -313,12 +314,19 @@
             </div>
         {/if}
 
+        <div class="card-footer">
+            <Share title={texts.uploadTitle} />
+        </div>
+
     </div>
 </div>
 
 <input type="file" bind:this={fileInput} accept="video/*" style="display:none" onchange={handleFileChange}>
 
 <style>
+.card-footer {
+    padding: 8px 16px;
+}
     .upload-box {
         min-height: 240px;
     }

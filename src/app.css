@@ -1573,3 +1573,22 @@ RESPONSIVE
     color: var(--ac);
 }
 
+
+/* Tool Card Footer for Share Component */
+.card-footer {
+    border-top: 1px solid var(--border-color, #e5e7eb);
+    background-color: var(--bg-secondary, #f9fafb);
+    margin: 1.5rem -16px -16px -16px;
+    padding: 1rem 16px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+:global(.dark) .card-footer, .dark .card-footer {
+    border-top-color: var(--border-color, #374151);
+    background-color: var(--bg-secondary, #1f2937);
+}
+@media (max-width: 768px) {
+    .card-footer {
+        padding: 16px;
+    }
+}

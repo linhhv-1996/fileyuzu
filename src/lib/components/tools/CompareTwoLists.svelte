@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Share from '../Share.svelte';
     import { onMount } from "svelte";
 
 
@@ -299,12 +300,19 @@
                 {/each}
             </div>
         {/if}
+    
+        <div class="card-footer">
+            <Share title={texts?.uploadTitle || ''} />
+        </div>
     </div>
 </div>
 
 
 
 <style>
+.card-footer{
+    padding: 8px 16px;
+}
     .lists-container {
         display: flex;
         gap: 20px;

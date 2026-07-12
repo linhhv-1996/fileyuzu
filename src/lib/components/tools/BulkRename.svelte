@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Share from '../Share.svelte';
     import { onMount } from "svelte";
     import JSZip from "jszip";
 
@@ -469,10 +470,17 @@
                 </button>
             </div>
         {/if}
+    
+        <div class="card-footer">
+            <Share title={texts?.uploadTitle || ''} />
+        </div>
     </div>
 </div>
 
 <style>
+.card-footer{
+    padding: 8px 16px;
+}
 .upload-box {
     min-height: 250px;
 }

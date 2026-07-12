@@ -1,6 +1,7 @@
 <script lang="ts">
     import { onMount, tick } from "svelte";
     import { page } from "$app/stores";
+    import Share from '../Share.svelte';
     import { processImage as processImageV5 } from "$lib/utils/ocrV5Processor";
     import { t } from "$lib/i18n/config";
 
@@ -460,6 +461,9 @@
             </div>
         </div>
     {/if}
+    <div class="card-footer">
+        <Share title={texts?.uploadTitle || ''} />
+    </div>
 </div>
 
 {#if showImageModal && queue[expandedItemIndex]}
@@ -486,6 +490,10 @@
 />
 
 <style>
+.card-footer{
+    margin: 0;
+    padding: 8px 16px;
+}
     .card.ocr-card {
         padding: 0;
         overflow: visible;

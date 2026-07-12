@@ -26,13 +26,10 @@
     "pdf_compressor.upload.btn_sample": "試用範例 PDF",
     "pdf_compressor.upload.hint": "請選擇一個要壓縮並縮小的 PDF 檔案",
     "_comment_home": "================ Home ================",
-    
     "home.seo.title": "免費線上工具 — 瀏覽器內使用，無需上傳",
     "home.seo.description": "使用免費線上工具處理檔案、圖片、PDF、影片、文字、條碼等，全部直接在瀏覽器中完成。無需上傳、無需註冊，您的資料保持私密。",
-    
-"home.hero.title": "檔案不會離開你的裝置",
-"home.hero.description": "大多數線上工具都會要求你先把檔案上傳到伺服器才能處理—速度慢、有安全疑慮，還常常限制檔案大小或要求註冊帳號。我們的做法不同：本站所有工具都直接在你的裝置上處理檔案，完全不經過伺服器。這代表處理速度更快、隱私完全受到保護，而且使用次數沒有任何限制。",
-
+    "home.hero.title": "檔案不會離開你的裝置",
+    "home.hero.description": "大多數線上工具都會要求你先把檔案上傳到伺服器才能處理—速度慢、有安全疑慮，還常常限制檔案大小或要求註冊帳號。我們的做法不同：本站所有工具都直接在你的裝置上處理檔案，完全不經過伺服器。這代表處理速度更快、隱私完全受到保護，而且使用次數沒有任何限制。",
     "home.popular_tools": "熱門工具",
     "home.popular": "熱門",
     "home.pill.private": "檔案永遠不會離開你的裝置",
@@ -556,11 +553,8 @@
         }
     ],
     "_comment_image_to_text": "================ Image to Text (OCR) ================",
-    
     "image_to_text.seo.title": "圖片轉文字、照片轉文字、螢幕截圖轉文字｜免費 OCR 不上傳",
     "image_to_text.seo.description": "免費線上【圖片轉文字】工具，支援照片與螢幕截圖轉文字辨識。一鍵精準擷取並複製 JPG、PNG 圖片中的繁體中文，免安裝免註冊，1秒高效完成圖片 OCR 文字辨識與提取！圖片、照片、螢幕截圖都能免費轉文字，OCR 完全在瀏覽器本機執行，不用上傳伺服器。支援繁體中文、JPG、PNG，免安裝免註冊，複製貼上文字就能用。",
-    
-    
     "image_to_text.hero.title": "圖片轉文字",
     "image_to_text.hero.description": "免費線上 OCR 工具，快速從圖片、照片、截圖、JPG、PNG 擷取文字，轉成可複製內容。",
     "image_to_text.btn.copy": "複製文字",
@@ -1449,14 +1443,10 @@
     "tool.word_counter.title": "字數統計",
     "tool.word_counter.description": "統計字數、字符數、句子、段落，並估算閱讀時間。適用於社群媒體、論文與 SEO。",
     "tool.word_counter.short_description": "即時統計字數與字符數。",
-    
-    
     "tool.word_counter.seo.title": "字數統計 - 免費線上字數統計、文字計數器工具｜免登入",
     "tool.word_counter.seo.description": "免費線上字數統計工具，即時計算字數、字元數、句數、段落數，並自動顯示閱讀與朗讀時間。同時支援作文字數檢查、行數計算、常用字詞分析與社群平台字數限制確認，資料全程在瀏覽器內處理，不上傳伺服器，免登入、免安裝、安全又快速，適合學生、寫作者與內容創作者使用。",
     "tool.word_counter.hero.title": "字數統計",
     "tool.word_counter.hero.description": "即時計算字數、字元數、句數、段落數，並自動顯示閱讀與朗讀時間。免登入、免安裝，資料全程在瀏覽器內處理。",
-    
-    
     "word_counter.placeholder": "在此輸入或貼上文字...",
     "word_counter.wordCount": "字數 (單詞)",
     "word_counter.charCount": "字符數",
@@ -1470,5 +1460,7 @@
     "word_counter.clearBtn": "清除",
     "word_counter.copyBtn": "複製",
     "word_counter.uploadBtn": "上傳",
-    "word_counter.noData": "無數據..."
+    "word_counter.noData": "無數據...",
+
+    "share.title": "分享此工具："
 }

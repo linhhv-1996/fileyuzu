@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Share from '../Share.svelte';
     import { onMount } from "svelte";
     import { removeStopwords, eng, jpn, zho, kor, tha, vie } from "stopword";
     import { franc } from "franc-min";
@@ -355,10 +356,17 @@
                 <div class="no-data">{texts.noData}</div>
             {/if}
         </div>
+    
+        <div class="card-footer">
+            <Share title={texts?.uploadTitle || ''} />
+        </div>
     </div>
 </div>
 
 <style>
+.card-footer{
+    padding: 8px 16px;
+}
     .editor-footer {
         display: flex;
         justify-content: space-between;

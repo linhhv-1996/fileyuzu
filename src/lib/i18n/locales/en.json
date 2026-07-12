@@ -26,14 +26,10 @@
     "pdf_compressor.upload.btn_sample": "Try sample PDF",
     "pdf_compressor.upload.hint": "Select one PDF file to compress and make it smaller",
     "_comment_home": "================ Home ================",
-    
-    
     "home.seo.title": "Free Online Tools — Browser-Based, No Uploads",
     "home.seo.description": "Use free online tools for files, images, PDFs, videos, text, barcodes, and more — all directly in your browser. No uploads, no sign-up, and your data stays private.",
-    
     "home.hero.title": "File Tools That Never Leave Your Device",
     "home.hero.description": "Most online tools make you upload your files to their servers first — slow, risky, and often limited by file size or a required account. We do it differently: every tool on this site processes your files right on your device, no server involved. That means faster results, complete privacy, and no limits on how often you use them.",
-    
     "home.popular_tools": "Popular Tools",
     "home.popular": "Popular",
     "home.pill.private": "Files never leave your device",
@@ -1731,13 +1727,10 @@
     "tool.word_counter.title": "Word Counter",
     "tool.word_counter.description": "Count words, characters, sentences, paragraphs, and estimate reading time. Perfect for social media posts, essays, and SEO.",
     "tool.word_counter.short_description": "Count words, characters, sentences, and paragraphs in real-time.",
-    
     "tool.word_counter.seo.title": "Free Word Counter, Character & Sentence Counter Online",
     "tool.word_counter.seo.description": "Free word counter and character counter online. Instantly count words, characters, sentences, syllables, plus reading and speaking time — no sign-up.",
     "tool.word_counter.hero.title": "Word Counter & Character Counter",
     "tool.word_counter.hero.description": "Type or paste your text below to instantly see word count, character count, reading time, and keyword density.",
-    
-    
     "word_counter.placeholder": "Type or paste your text here...",
     "word_counter.wordCount": "Words",
     "word_counter.charCount": "Characters",
@@ -1751,5 +1744,7 @@
     "word_counter.clearBtn": "Clear",
     "word_counter.copyBtn": "Copy to Clipboard",
     "word_counter.uploadBtn": "Upload",
-    "word_counter.noData": "No Data..."
+    "word_counter.noData": "No Data...",
+
+    "share.title": "Share this tool:"
 }

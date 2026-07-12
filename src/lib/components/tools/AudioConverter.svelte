@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Share from '../Share.svelte';
     import { formatSize } from '$lib/utils';
     import { convertAudioFile } from '$lib/utils/audio-converter';
     import { slide, fade } from 'svelte/transition';
@@ -361,12 +362,19 @@
             </div>
         {/if}
 
+    
+        <div class="card-footer">
+            <Share title={texts?.uploadTitle || ''} />
+        </div>
     </div>
 </div>
 
 <input type="file" bind:this={fileInput} accept={inputFormats} multiple style="display:none" onchange={handleFileChange}>
 
 <style>
+.card-footer{
+    padding: 8px 16px;
+}
     .format-tags {
         display: flex;
         flex-wrap: wrap;
