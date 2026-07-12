@@ -15,5 +15,7 @@
             <a href={langUrl(lang, '/term')}>{t('common.footer.terms', dict)}</a>
             <a href={langUrl(lang, '/contact')}>{t('common.footer.contact', dict)}</a>
         </div>
+        <a href="https://wired.business" target="_blank"><img src="https://wired.business/badge1-white.svg" alt="Featured on Wired Business" width="100"></a>
     </div>
+
 </footer>
