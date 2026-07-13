@@ -4,6 +4,7 @@
     import { t, langUrl } from '$lib/i18n/config';
     import { tools, type ToolConfig } from '$lib/config/tools';
     import Affiliate from '$lib/components/Affiliate.svelte';
+    import Adcash250Banner from '$lib/components/Ads/Adcash250Banner.svelte';
 
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
@@ -206,7 +207,7 @@
             {/if}
         </div>
         <div class="sidebar-ad">
-            <Affiliate offer="nordvpn" />
+            <Adcash250Banner />
         </div>
     </aside>
 </div>
