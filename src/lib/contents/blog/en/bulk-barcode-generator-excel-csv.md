@@ -323,7 +323,7 @@ Use the free [Barcode Generator](/barcode-generator) to create barcodes from Exc
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
 ### What is a bulk barcode generator?
 

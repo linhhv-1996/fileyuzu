@@ -295,8 +295,11 @@
     "tool.video_to_mp3.description": "動画からMP3音声を無料で抽出できます。サーバーへのアップロード不要で、ブラウザベースのプライベート変換が可能です。",
     "tool.video_to_mp3.short_description": "動画からMP3音声をプライベートに抽出します。",
     "_comment_video_converter": "================ Video Converter ================",
-    "video_converter.seo.title": "動画変換サイト｜無料オンライン動画変換ツール | UploadLess",
-    "video_converter.seo.description": "UploadLessで動画ファイルをMP4、MOV、MKV、WebM、AVIなど主要形式へオンライン変換。インストール不要で、ブラウザ内で安全に無料変換できます。",
+    
+    "video_converter.seo.title": "動画変換（無料）｜MOV・AVI・MKV・WEBMをMP4に変換",
+    "video_converter.seo.description": "MOV・AVI・MKV・WEBM・WMVなどをMP4に無料変換。アップロード不要・インストール不要で、大容量ファイルも無劣化設定で変換可能。すべてブラウザ内で完結します。",
+    
+    
     "video_converter.hero.title": "無料オンライン動画変換ツール",
     "video_converter.hero.description": "MP4、MOV、MKV、WebM、AVIなど主要な動画形式をブラウザ内で簡単に変換できます。インストール不要で、安全に使える無料の動画変換ツールです。",
     "video_converter.settings.format_lbl": "ターゲット形式",

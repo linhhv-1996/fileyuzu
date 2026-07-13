@@ -239,7 +239,7 @@ If you have a MOV video and only need the sound, try converting it to MP3 now wi
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
 ### How do I convert MOV to MP3 online?
 

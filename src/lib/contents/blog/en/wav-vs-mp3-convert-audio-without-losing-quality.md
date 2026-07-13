@@ -76,7 +76,7 @@ Our advanced browser platform makes it effortless to manage your audio file tran
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
 ### If I convert a low-quality MP3 into a WAV file, will it restore the missing audio details?
 No. Converting from `mp3 to wav` will place the audio data inside an uncompressed container, but it cannot recreate frequencies that were already discarded during the original lossy MP3 compression process. It is highly useful for improving software compatibility and timeline performance, but it will not magically upscale the inherent acoustic quality.

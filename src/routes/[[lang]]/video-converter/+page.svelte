@@ -5,9 +5,7 @@
     import { getRelatedTools } from '$lib/config/tools';
     
     import VideoConverter from '$lib/components/tools/VideoConverter.svelte';
-    import HowToUse from '$lib/components/HowToUse.svelte';
-    import WhyUse from '$lib/components/WhyUse.svelte';
-    import Faq from '$lib/components/Faq.svelte';
+    import SEOContent from '$lib/components/SEOContent.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import Affiliate from '$lib/components/Affiliate.svelte';
     
@@ -39,9 +37,7 @@
 <div class="grid">
     <main>
         <VideoConverter texts={converterTexts} />
-        <HowToUse title={t('video_converter.how_to_use.title', dict)} steps={Array.isArray(t('video_converter.how_to_use.steps', dict)) ? t('video_converter.how_to_use.steps', dict) : []} />
-        <WhyUse title={t('video_converter.why_use.title', dict)} benefits={Array.isArray(t('video_converter.why_use.benefits', dict)) ? t('video_converter.why_use.benefits', dict) : []} />
-        <Faq title={t('video_converter.faq.title', dict)} items={Array.isArray(t('video_converter.faq.items', dict)) ? t('video_converter.faq.items', dict) : []} />
+        <SEOContent content={$page.data.seoContent} />
     </main>
 
     <!-- SIDEBAR (desktop only via CSS) -->

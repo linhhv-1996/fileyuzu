@@ -200,7 +200,7 @@ If handwritten Japanese is your primary use case, run it through [Image to Text]
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
 ### What is Japanese OCR?
 

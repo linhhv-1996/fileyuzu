@@ -206,7 +206,7 @@ For long videos where you are not sure where the best frames are, use interval o
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
 ### How do I view a video frame by frame?
 

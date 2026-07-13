@@ -322,7 +322,7 @@ Start with the free [Barcode Generator](/barcode-generator), create your barcode
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
 ### What is the difference between a PNG and SVG barcode?
 

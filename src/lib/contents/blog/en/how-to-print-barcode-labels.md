@@ -310,7 +310,7 @@ A few minutes of testing can save you from hundreds of unreadable labels.
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
 ### How do I print barcode labels?
 

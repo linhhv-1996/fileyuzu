@@ -203,7 +203,7 @@ Use the free [Extract Frames from Video](/extract-frames-from-video) tool to sav
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
 ### How do I take a screenshot from a video online?
 

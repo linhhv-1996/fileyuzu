@@ -340,7 +340,7 @@ If you only need internal labels for SKUs, inventory, assets, or warehouse track
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
 ### What is the difference between UPC-A and EAN-13?
 

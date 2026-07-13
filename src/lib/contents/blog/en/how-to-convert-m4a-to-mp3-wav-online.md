@@ -67,7 +67,7 @@ Transforming your audio assets from M4A to MP3, WAV, or any other layout takes j
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
 ### Does converting M4A to MP3 result in a noticeble loss of sound quality?
 Because both M4A (AAC) and MP3 are compressed, lossy audio formats, converting between them technically discards a microscopic amount of acoustic data. However, if you ensure your output settings are configured to a high bitrate (such as 320 kbps), the human ear will find it completely impossible to distinguish any drop in quality.

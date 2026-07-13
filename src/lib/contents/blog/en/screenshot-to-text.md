@@ -312,7 +312,7 @@ Instead of retyping everything by hand, upload the screenshot, run OCR, copy the
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
 ### How do I copy text from a screenshot?
 

@@ -1,6 +1,6 @@
 ---
 title: "アップロード不要の動画変換ツール：ファイルが外部に漏れない安全な変換方法"
-date: "2026-06-02"
+date: "2026-07-02"
 description: "動画をサーバーにアップロードせず、ブラウザだけで変換を完結したい方へ。uploadless.appならすべての処理がデバイス内で行われるため、プライベートな動画も安心して変換できます。"
 ctaTool: "video-converter"
 ---
@@ -85,6 +85,8 @@ uploadless.appは、入力・出力ともに幅広いフォーマットに対応
 **入力対応：** MOV、MP4、MKV、AVI、WMV、WEBM、FLV、MPEG、3GP、TS、M4V など
 
 **出力対応：** MP4、WEBM、MKV、AVI、MOV など
+
+MP4への変換だけでなく、Web埋め込み用のWebMやアーカイブ用のMKVなど、[MP4から他の形式への変換](/ja/blog/convert-mp4-to-webm-mkv)にも同じ手順で対応できます。
 
 ---
 

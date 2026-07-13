@@ -79,7 +79,7 @@ When you use the tool to compare CSV columns or text lists, the Javascript engin
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
 ### How do I find missing items between two lists?
 Place your master list in the "List A" field and your secondary list in the "List B" field of the comparison tool. Once processed, click on the "Only in A" output tab. This will display all the items that are present in your master list but missing from the secondary list.

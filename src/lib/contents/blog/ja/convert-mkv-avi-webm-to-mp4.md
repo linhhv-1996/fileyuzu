@@ -1,6 +1,6 @@
 ---
 title: "MKV・AVI・WEBM をMP4に変換する方法【ブラウザ完結・無料】"
-date: "2026-06-02"
+date: "2026-07-02"
 description: "MKV、AVI、WEBMなどの動画ファイルをMP4に変換したい方へ。インストール不要、アップロード不要で、すべてブラウザ上で安全に変換できるツールを紹介します。"
 ctaTool: "video-converter"
 ---
@@ -75,6 +75,8 @@ WEBM内に埋め込まれた字幕（WebVTT形式）は、MP4変換時にその�
 | WEBM | Web配信動画 | オフライン再生・編集ソフトへの取り込み |
 | WMV | Windows録画 | Mac・iOS端末での再生対応 |
 | FLV | 旧Flash動画 | 現代のプレイヤーで再生可能に |
+
+Windowsの録画やPowerPointの書き出しで作られるWMVファイルについては、[WMVをMP4に変換する方法](/ja/blog/convert-wmv-to-mp4)で詳しく解説しています。
 
 ---
 
