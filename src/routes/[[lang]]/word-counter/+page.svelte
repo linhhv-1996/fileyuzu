@@ -11,6 +11,7 @@
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import Affiliate from '$lib/components/Affiliate.svelte';
     import SEOContent from '$lib/components/SEOContent.svelte';
+    import Adcash250Banner from '$lib/components/Ads/Adcash250Banner.svelte';
 
     let dict = $derived($page.data.dict);
 
@@ -53,10 +54,10 @@
 
     <!-- SIDEBAR (desktop only via CSS) -->
     <aside class="sidebar">
-        <div class="mt-4">
-            <Affiliate offer="nordvpn" />
-        </div>
         <RelatedTools title={t('related_tools.title', dict)} tools={relatedTools} />
+        <div class="mt-4">
+            <Adcash250Banner />
+        </div>
     </aside>
 </div>
 

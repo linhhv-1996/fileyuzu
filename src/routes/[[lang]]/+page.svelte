@@ -185,10 +185,6 @@
     </div>
 </section>
 
-<!-- Donate -->
-<!-- <div class="home-donate">
-    <Affiliate offer="nordvpn" />
-</div> -->
     </div>
     <aside class="home-sidebar">
         <h3 class="sidebar-title">{t("common.blog", dict) || "Latest Blog"}</h3>
