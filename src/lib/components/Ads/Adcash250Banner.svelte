@@ -4,21 +4,19 @@
     let container: HTMLDivElement;
 
     onMount(() => {
-        // Đẩy việc load banner ra khỏi luồng render chính của trình duyệt
-        const timer = setTimeout(() => {
-            const script = document.createElement("script");
-            script.type = "text/javascript";
-            script.text = `
-                aclib.runBanner({
-                    zoneId: '11688686',
-                });
-            `;
-            if (container) {
-                container.appendChild(script);
-            }
-        }, 500);
+        // Tạo một thẻ script rỗng để thư viện Adcash lấy làm mốc (anchor) vị trí hiển thị
+        const script = document.createElement("script");
+        script.id = "adcash-marker";
+        if (container) {
+            container.appendChild(script);
+        }
 
-        return () => clearTimeout(timer);
+        // Gọi hàm trực tiếp thay vì chèn text vào thẻ script (tránh lỗi eval do trình duyệt soi text)
+        if (typeof window !== 'undefined' && (window as any).aclib) {
+            (window as any).aclib.runBanner({
+                zoneId: '11688686',
+            });
+        }
     });
 </script>
 
