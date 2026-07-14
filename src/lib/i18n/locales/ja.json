@@ -494,8 +494,10 @@
     "barcode_generator.seq_qty": "数量",
     "barcode_generator.seq_step": "ステップ",
     "barcode_generator.generating": "生成中",
-    "barcode_generator.seo.title": "バーコード作成を無料で｜オンライン生成ツール",
-    "barcode_generator.seo.description": "無料でバーコードをオンライン作成。商品・在庫・ラベル用のCode 128、EAN-13、UPCなどを生成し、PNG・SVG・PDFで保存できます。",
+    
+    "barcode_generator.seo.title": "バーコード作成（無料・登録不要）｜Code 128・JAN対応の一括生成ツール",
+    "barcode_generator.seo.description": "無料のオンラインバーコード作成ツール。Code 128・Code 39・JAN・EAN・UPC・QRに対応し、Excel/CSVからの一括生成や連番作成も可能。300DPIのPNGとSVGで出力でき、データはサーバーに送信されず安全。",
+    
     "barcode_generator.hero.title": "無料オンラインバーコード作成ツール",
     "barcode_generator.hero.description": "商品・在庫・ラベル用のバーコードをすぐに作成。Code 128、EAN-13、UPCなどに対応し、PNG・SVG・PDFで保存できます。",
     "barcode_generator.how_to_use.steps": [
@@ -590,8 +592,10 @@
     "jan_code_generator.how_to_use.title": "オンラインでJANコードを生成する方法",
     "jan_code_generator.faq.title": "JANコード生成ツール FAQ",
     "jan_code_generator.btn_downloadbtn_gen_new": "新しいJANコードを生成",
-    "jan_code_generator.seo.title": "JANコード作成｜無料でJANバーコード生成",
-    "jan_code_generator.seo.description": "JANコードを無料で作成・生成。13桁の商品バーコードやEAN-13形式に対応し、JANチェックデジットを確認して画像で保存できます。",
+    
+    "jan_code_generator.seo.title": "JANコード作成（無料）｜チェックデジット自動計算・EAN-13対応ツール",
+    "jan_code_generator.seo.description": "無料のJANコード（EAN-13）作成ツール。12桁を入力するだけでチェックデジットを自動計算し、300DPIのPNG・SVGで出力。Excel/CSVからの一括生成、連番のインストアコード発行にも対応。データはサーバーに送信されず安全。",
+    
     "jan_code_generator.hero.title": "JANコードを無料で作成・生成",
     "jan_code_generator.hero.description": "13桁のJANコードを入力して、商品用バーコードをブラウザで作成。EAN-13形式やチェックデジット確認にも対応しています。",
     "jan_code_generator.how_to_use.steps": [

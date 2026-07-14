@@ -14,6 +14,7 @@
         texts = {},
         barcodeTypes = [
             { value: "code128", label: "Code 128" },
+            { value: "code39", label: "Code 39" },
             { value: "qrcode", label: "QR Code" },
             { value: "ean13", label: "EAN-13 / JAN" },
             { value: "ean8", label: "EAN-8" },
@@ -91,7 +92,36 @@
             const step = parseInt(seqStep.toString()) || 1;
             const qty = parseInt(seqQuantity.toString()) || 100;
             
-            const match = seqStart.match(/^(.*?)(\d+)([^\d]*)$/);
+            let baseStart = seqStart;
+
+            // Auto-strip check digit if user provided the full length barcode for standard formats
+            // This ensures we increment the data portion, not the check digit
+            let formatNeedsCheckDigit = false;
+            let checkDigitLength = 0;
+
+            if (selectedType === "ean13" && baseStart.length === 13 && /^\d+$/.test(baseStart)) {
+                baseStart = baseStart.slice(0, 12);
+                formatNeedsCheckDigit = true;
+            } else if (selectedType === "ean8" && baseStart.length === 8 && /^\d+$/.test(baseStart)) {
+                baseStart = baseStart.slice(0, 7);
+                formatNeedsCheckDigit = true;
+            } else if (selectedType === "upca" && baseStart.length === 12 && /^\d+$/.test(baseStart)) {
+                baseStart = baseStart.slice(0, 11);
+                formatNeedsCheckDigit = true;
+            } else if (selectedType === "itf14" && baseStart.length === 14 && /^\d+$/.test(baseStart)) {
+                baseStart = baseStart.slice(0, 13);
+                formatNeedsCheckDigit = true;
+            } else if (selectedType === "ean13" && baseStart.length === 12 && /^\d+$/.test(baseStart)) {
+                formatNeedsCheckDigit = true;
+            } else if (selectedType === "ean8" && baseStart.length === 7 && /^\d+$/.test(baseStart)) {
+                formatNeedsCheckDigit = true;
+            } else if (selectedType === "upca" && baseStart.length === 11 && /^\d+$/.test(baseStart)) {
+                formatNeedsCheckDigit = true;
+            } else if (selectedType === "itf14" && baseStart.length === 13 && /^\d+$/.test(baseStart)) {
+                formatNeedsCheckDigit = true;
+            }
+            
+            const match = baseStart.match(/^(.*?)(\d+)([^\d]*)$/);
             
             let prefix = "";
             let currentNum = 0;
@@ -100,11 +130,12 @@
 
             if (match) {
                 prefix = match[1];
+                // Use BigInt or just parse it. But JS numbers are safe up to 15 digits.
                 currentNum = parseInt(match[2], 10);
                 padLength = match[2].length;
                 suffix = match[3];
             } else {
-                prefix = seqStart;
+                prefix = baseStart;
                 currentNum = 1;
                 padLength = 1;
                 suffix = "";
@@ -115,7 +146,21 @@
                 if (numStr.length < padLength) {
                     numStr = numStr.padStart(padLength, "0");
                 }
-                items.push({ code: prefix + numStr + suffix });
+                
+                let code = prefix + numStr + suffix;
+                
+                if (formatNeedsCheckDigit && /^\d+$/.test(code)) {
+                    let sum = 0;
+                    let mult = 3;
+                    for (let j = code.length - 1; j >= 0; j--) {
+                        sum += parseInt(code[j]) * mult;
+                        mult = mult === 3 ? 1 : 3;
+                    }
+                    const checkDigit = (10 - (sum % 10)) % 10;
+                    code += checkDigit.toString();
+                }
+                
+                items.push({ code });
                 currentNum += step;
             }
         } else if (inputMode === "file" && fileObj) {
@@ -661,7 +706,7 @@
         border-radius: 3px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         z-index: 10;
-        max-height: 200px;
+        /* max-height: 200px; */
         overflow-y: auto;
     }
     .custom-select-option {

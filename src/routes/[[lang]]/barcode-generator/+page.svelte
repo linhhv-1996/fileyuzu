@@ -5,9 +5,7 @@
     import { getRelatedTools } from '$lib/config/tools';
     
     import BarcodeGenerator from '$lib/components/tools/BarcodeGenerator.svelte';
-    import HowToUse from '$lib/components/HowToUse.svelte';
-    import WhyUse from '$lib/components/WhyUse.svelte';
-    import Faq from '$lib/components/Faq.svelte';
+    import SEOContent from '$lib/components/SEOContent.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import Affiliate from '$lib/components/Affiliate.svelte';
     import Adcash250Banner from '$lib/components/Ads/Adcash250Banner.svelte';
@@ -53,9 +51,7 @@
 <div class="grid">
     <main>
         <BarcodeGenerator texts={generatorTexts} />
-        <HowToUse title={t('barcode_generator.how_to_use.title', dict)} steps={Array.isArray(t('barcode_generator.how_to_use.steps', dict)) ? t('barcode_generator.how_to_use.steps', dict) : []} />
-        <WhyUse title={t('barcode_generator.why_use.title', dict)} benefits={Array.isArray(t('barcode_generator.why_use.benefits', dict)) ? t('barcode_generator.why_use.benefits', dict) : []} />
-        <Faq title={t('barcode_generator.faq.title', dict)} items={Array.isArray(t('barcode_generator.faq.items', dict)) ? t('barcode_generator.faq.items', dict) : []} />
+        <SEOContent content={$page.data.seoContent} />
     </main>
 
     <!-- SIDEBAR (desktop only via CSS) -->

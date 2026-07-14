@@ -1,6 +1,6 @@
 ---
 title: "Product Barcodes 101: UPC-A vs. EAN-13 Differences Explained"
-date: "2026-06-12"
+date: "2026-06-29"
 description: "Confused about UPC-A and EAN-13 barcodes? Learn which product barcode format you need for retail, Amazon, global sales, JAN codes, and packaging."
 ctaTool: "barcode-generator"
 ---
@@ -131,6 +131,30 @@ The number is the identity. The barcode is the scannable representation.
 
 ---
 
+## How to Convert UPC-A to EAN-13
+
+This is one of the most common product barcode questions, and the answer is simpler than most people expect.
+
+**To convert a UPC-A number to EAN-13, add a `0` to the front.**
+
+```text
+UPC-A:  012345678905
+EAN-13: 0012345678905
+```
+
+That works because UPC-A is really a GTIN-12 and EAN-13 is a GTIN-13. A 12-digit UPC with a leading zero is the same product identity in 13-digit form. You are not creating a new number — you are writing the same number in a longer format.
+
+Practical implications:
+
+* Modern point-of-sale systems worldwide can scan both formats, so a UPC-A barcode usually works internationally as-is.
+* If a marketplace or retailer form demands a 13-digit EAN and you only have a UPC, enter your UPC with a leading zero.
+* The reverse only works one way: an EAN-13 can be shown as UPC-A **only if it starts with 0**. An EAN beginning with any other digit (like a `49` JAN prefix) has no UPC-A form.
+* Converting the format does not change ownership. The number must still be officially registered to your product.
+
+If you need the barcode image in either format, the [Barcode Generator](/barcode-generator) supports both UPC-A and EAN-13 — enter the appropriate number and export.
+
+---
+
 ## What Is a JAN Code?
 
 JAN means **Japanese Article Number**.
@@ -145,7 +169,9 @@ Example:
 
 If you are selling products in Japan, you may see the term JAN instead of EAN. Structurally, it works like EAN-13.
 
-If you already have a valid JAN number, you can create an EAN-13 barcode image with a [Barcode Generator](/barcode-generator).
+If you already have a valid JAN number, you can create the barcode image with a [Barcode Generator](/barcode-generator).
+
+For a deeper look at JAN codes — including how the check digit is calculated and when you need an official number — read the full [JAN Code Guide](/blog/jan-code-guide-check-digit).
 
 ---
 
@@ -236,7 +262,9 @@ Many sellers first care about barcodes because they want to list products on Ama
 
 The exact requirements can depend on marketplace, category, country, brand status, and exemption rules. But the general principle is simple: use valid product identifiers that match your product and brand.
 
-For Amazon US, UPC-A is commonly used. For international marketplaces, EAN-13 may be common.
+For Amazon US, UPC-A is commonly used. For international marketplaces, EAN-13 may be common. For Amazon Japan, the local equivalent is the JAN code.
+
+You may also see the term **GCID** (Global Catalog Identifier). A GCID is Amazon's own internal product identifier, typically assigned to brands enrolled in Amazon Brand Registry. It is not a barcode you print — it can replace the UPC/EAN requirement at listing time for registered brands, but the physical product packaging still uses a normal scannable barcode. Some brands with a GTIN exemption list products without a UPC or EAN at all.
 
 Do not assume that a random cheap barcode number is safe. If the number does not match your brand or product, it may create listing problems.
 
@@ -321,7 +349,8 @@ Code 128 is great for internal labels, but retail checkout products usually need
 
 ## Related Barcode Guides
 
-* Create UPC-A, EAN-13, Code 128, and QR Code images: [Free Barcode Generator](/barcode-generator)
+* Create UPC-A, EAN-13, JAN, Code 128, and QR Code images: [Free Barcode Generator](/barcode-generator)
+* Understand Japan's product barcode: [JAN Code Guide](/blog/jan-code-guide-check-digit)
 * Create many barcode images from Excel or CSV: [Bulk Barcode Generator](/blog/bulk-barcode-generator-excel-csv)
 * Choose PNG or SVG export: [PNG vs. SVG Barcodes](/blog/barcode-image-formats-png-vs-svg)
 * Print barcode labels correctly: [How to Print Barcode Labels](/blog/how-to-print-barcode-labels)
@@ -349,6 +378,10 @@ UPC-A uses 12 digits and is common in the United States and Canada. EAN-13 uses 
 ### Is EAN-13 the same as UPC?
 
 They are closely related retail barcode systems, but they use different number lengths. UPC-A has 12 digits, while EAN-13 has 13 digits.
+
+### How do I convert a UPC to an EAN?
+
+Add a `0` to the front of the 12-digit UPC to get its 13-digit EAN-13 form. It is the same product identity written in a longer format, so no re-registration is needed.
 
 ### What is a GTIN?
 

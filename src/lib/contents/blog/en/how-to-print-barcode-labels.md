@@ -1,6 +1,6 @@
 ---
 title: "How to Print Barcode Labels: A Guide to Sizing and Formatting"
-date: "2026-06-12"
+date: "2026-06-15"
 description: "Learn how to create, format, size, and print barcode labels correctly. Understand PNG vs SVG exports, quiet zones, label templates, and common printing mistakes."
 ctaTool: "barcode-generator"
 ---
@@ -108,6 +108,8 @@ The exact ideal size depends on barcode type, scanner, printer, and use case. Bu
 | QR codes                     | Keep enough size for phone cameras and avoid dense codes at tiny sizes    |
 
 Do not force a long Code 128 barcode into a tiny label. The more data you encode, the more horizontal space it usually needs.
+
+For specific numbers — minimum UPC dimensions, common thermal label sizes, and which Avery sheets fit which barcode types — read the full [Barcode Label Size Guide](/blog/barcode-label-sizes).
 
 ---
 
@@ -218,6 +220,23 @@ If you use inkjet:
 
 ---
 
+## Can You Print Barcodes on Plain Paper?
+
+Yes. You do not need adhesive label sheets or a special printer to print a working barcode.
+
+A barcode printed on plain office paper scans just like one on a sticker, as long as the contrast, size, and quiet zone are correct. This is useful for:
+
+* test scans before ordering label stock
+* barcodes printed directly on documents, forms, or invoices
+* temporary signs for shelves or storage areas
+* one-off codes you plan to tape or laminate
+
+The simplest workflow: generate a PNG with the [Barcode Generator](/barcode-generator), insert it into a Word or Google Docs page, print, and cut. If you want a full sheet of identical or sequential codes laid out in a grid, the guide on [making barcode labels in Word](/blog/make-barcode-labels-in-word) shows how to do it with standard office templates.
+
+The only real limitation of plain paper is durability. For warehouse or product use, adhesive labels last longer — but the barcode itself does not care what it is printed on.
+
+---
+
 ## Best Paper and Label Stock for Barcodes
 
 Barcode labels usually work best with:
@@ -294,6 +313,8 @@ For the full spreadsheet workflow, read [Bulk Barcode Generator: Create Barcodes
 ## Related Barcode Guides
 
 * Create barcode images online: [Free Barcode Generator](/barcode-generator)
+* Pick the right label dimensions: [Barcode Label Sizes](/blog/barcode-label-sizes)
+* Print label sheets with office software: [How to Make Barcode Labels in Word](/blog/make-barcode-labels-in-word)
 * Generate barcode batches from Excel or CSV: [Bulk Barcode Generator](/blog/bulk-barcode-generator-excel-csv)
 * Compare PNG and SVG exports: [PNG vs. SVG Barcodes](/blog/barcode-image-formats-png-vs-svg)
 * Understand UPC-A, EAN-13, and JAN codes: [Product Barcodes 101](/blog/product-barcode-guide-upc-vs-ean)

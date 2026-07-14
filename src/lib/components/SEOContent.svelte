@@ -131,4 +131,29 @@
         border-top: 1px solid #e5e5e5;
         margin: 1.5rem 0;
     }
+
+    /* Tables */
+    :global(.article-content table) {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+        font-size: 0.95em;
+        text-align: left;
+    }
+
+    :global(.article-content th),
+    :global(.article-content td) {
+        padding: 0.75rem 1rem;
+        border: 1px solid var(--bd, #e5e7eb);
+    }
+
+    :global(.article-content th) {
+        background-color: var(--surface, rgba(0,0,0,0.03));
+        font-weight: 700;
+        color: var(--tx);
+    }
+
+    :global(.article-content tr:nth-child(even)) {
+        background-color: var(--surface, rgba(0,0,0,0.015));
+    }
 </style>

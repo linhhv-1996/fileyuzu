@@ -1,6 +1,6 @@
 ---
 title: "PNG vs. SVG Barcodes: Which Image Format Should You Choose?"
-date: "2026-06-12"
+date: "2026-07-04"
 description: "Choosing between PNG and SVG barcode images? Learn which format is better for printing, packaging, thermal labels, documents, and scalable barcode design."
 ctaTool: "barcode-generator"
 ---
@@ -304,6 +304,8 @@ This avoids most common barcode formatting problems.
 * Create barcode images online: [Free Barcode Generator](/barcode-generator)
 * Generate barcodes from Excel or CSV: [Bulk Barcode Generator](/blog/bulk-barcode-generator-excel-csv)
 * Print barcode labels correctly: [How to Print Barcode Labels](/blog/how-to-print-barcode-labels)
+* Pick the right label dimensions: [Barcode Label Sizes](/blog/barcode-label-sizes)
+* Print label sheets with office software: [How to Make Barcode Labels in Word](/blog/make-barcode-labels-in-word)
 * Understand UPC-A, EAN-13, and JAN codes: [Product Barcodes 101](/blog/product-barcode-guide-upc-vs-ean)
 
 ---

@@ -5,9 +5,7 @@
     import { getRelatedTools } from '$lib/config/tools';
     
     import BarcodeGenerator from '$lib/components/tools/BarcodeGenerator.svelte';
-    import HowToUse from '$lib/components/HowToUse.svelte';
-    import WhyUse from '$lib/components/WhyUse.svelte';
-    import Faq from '$lib/components/Faq.svelte';
+    import SEOContent from '$lib/components/SEOContent.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import Affiliate from '$lib/components/Affiliate.svelte';
     import Adcash250Banner from '$lib/components/Ads/Adcash250Banner.svelte';
@@ -52,11 +50,8 @@
 <div class="grid">
     <main>
         <!-- Use BarcodeGenerator but pass initialType="ean13" to default to JAN -->
-        <BarcodeGenerator texts={generatorTexts} initialType="ean13" hideSequentialTab={true} />
-        
-        <HowToUse title={t('jan_code_generator.how_to_use.title', dict)} steps={Array.isArray(t('jan_code_generator.how_to_use.steps', dict)) ? t('jan_code_generator.how_to_use.steps', dict) : []} />
-        <WhyUse title={t('jan_code_generator.why_use.title', dict)} benefits={Array.isArray(t('jan_code_generator.why_use.benefits', dict)) ? t('jan_code_generator.why_use.benefits', dict) : []} />
-        <Faq title={t('jan_code_generator.faq.title', dict)} items={Array.isArray(t('jan_code_generator.faq.items', dict)) ? t('jan_code_generator.faq.items', dict) : []} />
+        <BarcodeGenerator texts={generatorTexts} initialType="ean13" />
+        <SEOContent content={$page.data.seoContent} />
     </main>
 
     <!-- SIDEBAR (desktop only via CSS) -->
