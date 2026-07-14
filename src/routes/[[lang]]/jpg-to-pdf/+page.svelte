@@ -17,6 +17,7 @@
     let componentTexts = $derived({
         uploadTitle: t('jpg_to_pdf.upload.title', dict) || '',
         uploadSubtitle: t('jpg_to_pdf.upload.subtitle', dict) || '',
+        uploadHint: t('jpg_to_pdf.upload.hint', dict) || '',
         btnSelect: t('jpg_to_pdf.upload.btn_select', dict) || '',
         btnAddMore: t('jpg_to_pdf.btn.add_more', dict) || '',
         btnProcessing: t('jpg_to_pdf.btn.processing', dict) || '',

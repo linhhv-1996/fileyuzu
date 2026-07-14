@@ -214,6 +214,19 @@
                         </button>
                     {/if}
                 </div>
+                {#if texts.uploadHint}
+                    <p class="hint hint-desktop">{texts.uploadHint}</p>
+                    <p class="hint hint-mobile">{texts.uploadHint}</p>
+                {/if}
+            </div>
+            
+            <div class="settings">
+                <hr class="settings-divider" />
+                <button class="btn-cta combine-btn" disabled>
+                    <i class="ti ti-layers-linked" aria-hidden="true"></i>
+                    <span class="cta-desktop">{texts.btnCombine || ""}</span>
+                    <span class="cta-mobile hidden-el">{texts.btnCombine || ""}</span>
+                </button>
             </div>
         {/if}
 

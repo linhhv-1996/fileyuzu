@@ -429,7 +429,8 @@ a:hover {
 }
 
 .upload-box .ico {
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: 100px;
     color: var(--ac);
     margin-bottom: 0;
     opacity: 0.55;

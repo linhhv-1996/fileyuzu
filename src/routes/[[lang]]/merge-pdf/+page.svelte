@@ -17,6 +17,7 @@
     let componentTexts = $derived({
         uploadTitle: t('merge_pdf.upload.title', dict) || '',
         uploadSubtitle: t('merge_pdf.upload.subtitle', dict) || '',
+        uploadHint: t('merge_pdf.upload.hint', dict) || '',
         btnSelect: t('merge_pdf.upload.btn_select', dict) || '',
         btnAddMore: t('merge_pdf.btn.add_more', dict) || '',
         btnProcessing: t('merge_pdf.btn.processing', dict) || '',
