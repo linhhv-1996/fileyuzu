@@ -14,6 +14,7 @@
             <a href={langUrl(lang, '/privacy')}>{t('common.footer.privacy', dict)}</a>
             <a href={langUrl(lang, '/term')}>{t('common.footer.terms', dict)}</a>
             <a href={langUrl(lang, '/contact')}>{t('common.footer.contact', dict)}</a>
+            <a href="/sitemap.xml">Sitemap</a>
         </div>
     </div>
 
