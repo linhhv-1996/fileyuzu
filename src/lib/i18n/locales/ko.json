@@ -475,10 +475,8 @@
     "barcode_generator.seq_qty": "수량",
     "barcode_generator.seq_step": "간격",
     "barcode_generator.generating": "생성 중",
-    
     "barcode_generator.seo.title": "바코드 생성기 - 무료 온라인 바코드 만들기 (설치·업로드 없음)",
     "barcode_generator.seo.description": "무료 온라인 바코드 생성기입니다. Code 128, QR, EAN-13 등 다양한 형식을 지원하며, CSV/Excel 파일 업로드로 여러 바코드를 한 번에 만들 수 있습니다. 모든 처리는 브라우저에서 이루어지며 파일이 서버로 전송되지 않습니다.",
-    
     "barcode_generator.hero.title": "무료 온라인 바코드 생성기",
     "barcode_generator.hero.description": "상품 코드, 라벨, 재고 관리용 바코드를 즉시 생성하세요. 단일 또는 일괄 바코드를 만들고 PNG, SVG, PDF 형식으로 저장하거나 인쇄할 수 있습니다.",
     "barcode_generator.how_to_use.steps": [
@@ -1449,6 +1447,24 @@
     "word_counter.copyBtn": "복사하기",
     "word_counter.uploadBtn": "업로드",
     "word_counter.noData": "데이터 없음...",
+    "share.title": "이 도구 공유:",
+   
+"epub_to_pdf.hero.title": "EPUB PDF 변환기",
+  "epub_to_pdf.hero.description": "EPUB, MOBI, AZW3, DJVU, CHM, LIT 전자책 파일을 브라우저에서 바로 PDF로 변환하세요. 업로드도 설치도 필요 없이, 100% 안전하게 즉시 처리됩니다.",
+  "epub_to_pdf.seo.title": "EPUB PDF 변환 – 무료 온라인 변환기, 업로드 없이 안전하게",
+  "epub_to_pdf.seo.description": "EPUB을 PDF로 무료 변환하세요. 업로드, 설치, 회원가입 없이 브라우저에서 즉시 다운로드. MOBI, AZW3, DJVU, CHM, LIT 파일 변환도 지원합니다.",
 
-    "share.title": "이 도구 공유:"
+
+    "epub_to_pdf.upload.title": "변환할 전자책 파일을여기에 끌어다 놓으세요",
+    "epub_to_pdf.upload.subtitle": "EPUB, MOBI, AZW3, FB2 등 · 브라우저 기반 변환",
+    "epub_to_pdf.upload.btn_select": "전자책 파일 선택",
+    "epub_to_pdf.upload.hint": "PDF로 변환할 전자책 파일을 하나 선택하세요",
+    "epub_to_pdf.btn.sample": "샘플 불러오기",
+    "epub_to_pdf.btn.convert": "PDF로 변환",
+    "epub_to_pdf.btn.download": "PDF 다운로드",
+    "epub_to_pdf.btn.convert_new": "다른 파일 변환",
+    "epub_to_pdf.proc.converting": "전자책 변환 중...",
+    "epub_to_pdf.proc.reading": "파일 읽는 중...",
+    "epub_to_pdf.proc.initializing": "변환기 초기화 중...",
+    "epub_to_pdf.error": "변환 중 오류가 발생했습니다."
 }

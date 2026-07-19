@@ -24,6 +24,22 @@ export const categories: CategoryConfig[] = [
 
 export const tools: ToolConfig[] = [
     {
+        slug: 'epub-to-pdf',
+        titleKey: 'epub_to_pdf.hero.title',
+        descriptionKey: 'epub_to_pdf.hero.description',
+        shortDescriptionKey: 'epub_to_pdf.upload.title',
+        icon: 'book',
+        related_tools: [
+            'compress-pdf',
+            'jpg-to-pdf',
+            'png-to-pdf',
+            'merge-pdf',
+            'barcode-generator'
+        ],
+        category: 'pdf',
+        tags: ['Ebook', 'PDF', 'EPUB', 'MOBI'],
+    },
+    {
         slug: 'bulk-file-renamer',
         titleKey: 'tool.bulk_file_renamer.title',
         descriptionKey: 'tool.bulk_file_renamer.description',

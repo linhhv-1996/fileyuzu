@@ -1748,6 +1748,26 @@
     "word_counter.copyBtn": "Copy to Clipboard",
     "word_counter.uploadBtn": "Upload",
     "word_counter.noData": "No Data...",
+    "share.title": "Share this tool:",
 
-    "share.title": "Share this tool:"
+
+"epub_to_pdf.hero.title": "EPUB to PDF Converter",
+"epub_to_pdf.hero.description": "Convert EPUB, MOBI, AZW3, DJVU, CHM and LIT ebooks to PDF instantly, right in your browser. No uploads, no signup, 100% private.",
+
+"epub_to_pdf.seo.title": "EPUB to PDF Converter – Free, Private, No Upload",
+"epub_to_pdf.seo.description": "Convert EPUB, MOBI, AZW3, DJVU and CHM ebooks to PDF for free, entirely in your browser. No uploads, no account, no file size limits — just drop and download.",
+
+
+    "epub_to_pdf.upload.title": "Drop an ebook file here to convert",
+    "epub_to_pdf.upload.subtitle": "EPUB, MOBI, AZW3, FB2 & more · browser-based conversion",
+    "epub_to_pdf.upload.btn_select": "Select ebook file",
+    "epub_to_pdf.upload.hint": "Select one ebook file to convert to PDF",
+    "epub_to_pdf.btn.sample": "Load sample",
+    "epub_to_pdf.btn.convert": "Convert to PDF",
+    "epub_to_pdf.btn.download": "Download PDF",
+    "epub_to_pdf.btn.convert_new": "Convert Another File",
+    "epub_to_pdf.proc.converting": "Converting ebook...",
+    "epub_to_pdf.proc.reading": "Reading file...",
+    "epub_to_pdf.proc.initializing": "Initializing converter...",
+    "epub_to_pdf.error": "An error occurred during conversion."
 }

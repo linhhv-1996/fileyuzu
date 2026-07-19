@@ -1463,6 +1463,24 @@
     "word_counter.copyBtn": "複製",
     "word_counter.uploadBtn": "上傳",
     "word_counter.noData": "無數據...",
+    "share.title": "分享此工具：",
+    
+"epub_to_pdf.hero.title": "EPUB 轉 PDF 線上轉換器",
+"epub_to_pdf.hero.description": "免費將 EPUB、MOBI、AZW3、DJVU、CHM、LIT 等電子書格式轉換為 PDF，完全在瀏覽器中處理，不用上傳、免安裝、免註冊，安全保護您的電子書隱私。",
+"epub_to_pdf.seo.title": "EPUB 轉 PDF 線上轉換 – 免費、免上傳、免安裝",
+"epub_to_pdf.seo.description": "免費將 EPUB 轉換為 PDF，同時支援 MOBI、AZW3、CHM、DJVU、LIT 等電子書格式轉檔。完全在瀏覽器端處理，無需上傳、免安裝、免註冊，適用 Windows、Mac 與手機，安全保護您的電子書隱私。",
 
-    "share.title": "分享此工具："
+
+"epub_to_pdf.upload.title": "將電子書檔案拖曳至此處進行轉換",
+    "epub_to_pdf.upload.subtitle": "支援 EPUB、MOBI、AZW3、FB2 等格式 · 瀏覽器端在地化轉換",
+    "epub_to_pdf.upload.btn_select": "選擇電子書檔案",
+    "epub_to_pdf.upload.hint": "請選擇一個電子書檔案以轉換為 PDF",
+    "epub_to_pdf.btn.sample": "載入範例檔案",
+    "epub_to_pdf.btn.convert": "轉換為 PDF",
+    "epub_to_pdf.btn.download": "下載 PDF",
+    "epub_to_pdf.btn.convert_new": "轉換其他檔案",
+    "epub_to_pdf.proc.converting": "正在轉換電子書...",
+    "epub_to_pdf.proc.reading": "正在讀取檔案...",
+    "epub_to_pdf.proc.initializing": "正在初始化轉換器...",
+    "epub_to_pdf.error": "轉換過程中發生錯誤。"
 }
