@@ -327,9 +327,9 @@
 .card-footer {
     padding: 8px 16px;
 }
-    .upload-box {
+    /* .upload-box { */
         /* min-height: 240px; */
-    }
+    /* } */
     /* CSS is handled globally in app.css */
     @media (max-width: 768px) {
         .setting-row.inline-row {
