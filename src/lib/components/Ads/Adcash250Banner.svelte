@@ -4,12 +4,14 @@
     let container: HTMLDivElement;
 
     onMount(() => {
+        const s = document.createElement("script");
+        s.type = "text/javascript";
+        s.text = "aclib.runBanner({ zoneId: '11764298' });";
+        container.appendChild(s);
     });
 </script>
 
-<div bind:this={container} class="adcash-banner-container">
-    <!-- Adcash display ads will be rendered inside this parent element -->
-</div>
+<div bind:this={container} class="adcash-banner-container"></div>
 
 <style>
     .adcash-banner-container {
