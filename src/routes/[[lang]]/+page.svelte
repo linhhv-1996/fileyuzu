@@ -315,7 +315,7 @@
     .hero-desc {
         font-size: 16px;
         color: var(--tx-sub);
-        max-width: 950px;
+        max-width: 860px;
         line-height: 1.6;
         margin: 0;
     }
