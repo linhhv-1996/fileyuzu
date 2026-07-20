@@ -328,7 +328,7 @@
     padding: 8px 16px;
 }
     .upload-box {
-        min-height: 240px;
+        /* min-height: 240px; */
     }
     /* CSS is handled globally in app.css */
     @media (max-width: 768px) {

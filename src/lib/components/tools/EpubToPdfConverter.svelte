@@ -304,6 +304,6 @@
     padding: 8px 16px;
 }
 .upload-box {
-    min-height: 240px;
+    min-height: 300px;
 }
 </style>
