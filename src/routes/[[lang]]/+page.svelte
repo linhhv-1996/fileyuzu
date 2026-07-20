@@ -222,7 +222,7 @@
     }
     
     .home-sidebar {
-        width: 250px;
+        width: 300px;
         flex-shrink: 0;
         position: sticky;
         top: 24px;
