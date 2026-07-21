@@ -5,9 +5,7 @@
     import { getRelatedTools } from '$lib/config/tools';
     
     import CompareTwoLists from '$lib/components/tools/CompareTwoLists.svelte';
-    import HowToUse from '$lib/components/HowToUse.svelte';
-    import WhyUse from '$lib/components/WhyUse.svelte';
-    import Faq from '$lib/components/Faq.svelte';
+    import SEOContent from '$lib/components/SEOContent.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import Affiliate from '$lib/components/Affiliate.svelte';
     import Adcash250Banner from '$lib/components/Ads/Adcash250Banner.svelte';
@@ -19,6 +17,9 @@
         placeholderA: t('compare_two_lists.placeholder_a', dict) || 'Paste items for List A here, one per line...',
         listB: t('compare_two_lists.list_b', dict) || 'List B',
         placeholderB: t('compare_two_lists.placeholder_b', dict) || 'Paste items for List B here, one per line...',
+        btnUpload: t('compare_two_lists.btn_upload', dict) || 'Upload',
+        trimWhitespace: t('compare_two_lists.trim_whitespace', dict) || 'Trim Whitespace',
+        ignoreCase: t('compare_two_lists.ignore_case', dict) || 'Ignore Case',
         btnCompare: t('compare_two_lists.btn_compare', dict) || 'Compare Lists',
         btnCompareNew: t('compare_two_lists.btn_compare_new', dict) || 'Compare new lists',
         onlyA: t('compare_two_lists.only_a', dict) || 'Only in A',
@@ -49,20 +50,7 @@
     <main>
         <CompareTwoLists texts={componentTexts} />
         
-        <HowToUse 
-            title={t('compare_two_lists.how_to_use.title', dict) || ''} 
-            steps={Array.isArray(t('compare_two_lists.how_to_use.steps', dict)) ? t('compare_two_lists.how_to_use.steps', dict) : []} 
-        />
-        
-        <WhyUse 
-            title={t('compare_two_lists.why_use.title', dict) || ''} 
-            benefits={Array.isArray(t('compare_two_lists.why_use.benefits', dict)) ? t('compare_two_lists.why_use.benefits', dict) : []} 
-        />
-        
-        <Faq 
-            title={t('compare_two_lists.faq.title', dict) || 'Frequently Asked Questions'} 
-            items={Array.isArray(t('compare_two_lists.faq.items', dict)) ? t('compare_two_lists.faq.items', dict) : []} 
-        />
+        <SEOContent content={$page.data.seoContent} />
     </main>
 
     <!-- SIDEBAR (desktop only via CSS) -->

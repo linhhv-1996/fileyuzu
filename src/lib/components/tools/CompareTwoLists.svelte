@@ -22,6 +22,9 @@
     let duplicatesA = $state<string[]>([]);
     let duplicatesB = $state<string[]>([]);
 
+    let trimWhitespace = $state(false);
+    let ignoreCase = $state(false);
+
     // Excel / CSV column selection state
     let uploadedFileA = $state<{ data: any[][], columns: string[], hasHeaders: boolean } | null>(null);
     let selectedColumnA = $state<string>("all");
@@ -74,8 +77,21 @@
     }
 
     function compare() {
-        const arrA = listA.split('\n').map(l => l.trim().normalize('NFC')).filter(l => l.length > 0);
-        const arrB = listB.split('\n').map(l => l.trim().normalize('NFC')).filter(l => l.length > 0);
+        let arrA = listA.split('\n');
+        let arrB = listB.split('\n');
+
+        if (trimWhitespace) {
+            arrA = arrA.map(l => l.trim());
+            arrB = arrB.map(l => l.trim());
+        }
+
+        if (ignoreCase) {
+            arrA = arrA.map(l => l.toLowerCase());
+            arrB = arrB.map(l => l.toLowerCase());
+        }
+
+        arrA = arrA.map(l => l.normalize('NFC')).filter(l => l.length > 0);
+        arrB = arrB.map(l => l.normalize('NFC')).filter(l => l.length > 0);
 
         const setA = new Set(arrA);
         const setB = new Set(arrB);
@@ -196,8 +212,8 @@
                             {texts.listA || "List A"}
                             <span class="count-badge">{listA.split('\n').filter(l => l.trim().length > 0).length}</span>
                         </div>
-                        <label class="btn-icon" title="Load from txt/csv/excel">
-                            <i class="ti ti-upload"></i>
+                        <label class="btn-upload" title="Load from txt/csv/excel">
+                            <i class="ti ti-upload"></i> {texts.btnUpload || "Upload"}
                             <input type="file" accept=".txt,.csv,.xls,.xlsx" style="display: none;" onchange={(e) => handleFileUpload(e, true)}>
                         </label>
                     </div>
@@ -223,14 +239,20 @@
                     ></textarea>
                 </div>
 
+                <div class="list-separator">
+                    <div class="separator-line"></div>
+                    <div class="separator-icon"><i class="ti ti-arrows-sort"></i></div>
+                    <div class="separator-line"></div>
+                </div>
+
                 <div class="input-frame list-frame">
                     <div class="list-header">
                         <div style="display: flex; align-items: center; gap: 8px;">
                             {texts.listB || "List B"}
                             <span class="count-badge">{listB.split('\n').filter(l => l.trim().length > 0).length}</span>
                         </div>
-                        <label class="btn-icon" title="Load from txt/csv/excel">
-                            <i class="ti ti-upload"></i>
+                        <label class="btn-upload" title="Load from txt/csv/excel">
+                            <i class="ti ti-upload"></i> {texts.btnUpload || "Upload"}
                             <input type="file" accept=".txt,.csv,.xls,.xlsx" style="display: none;" onchange={(e) => handleFileUpload(e, false)}>
                         </label>
                     </div>
@@ -258,6 +280,16 @@
             </div>
 
             <div class="settings">
+                <div class="setting-options">
+                    <label class="setting-checkbox">
+                        <input type="checkbox" bind:checked={trimWhitespace} onchange={() => status = 'idle'} />
+                        {texts.trimWhitespace || "Trim Whitespace"}
+                    </label>
+                    <label class="setting-checkbox">
+                        <input type="checkbox" bind:checked={ignoreCase} onchange={() => status = 'idle'} />
+                        {texts.ignoreCase || "Ignore Case"}
+                    </label>
+                </div>
                 <hr class="settings-divider" />
                 <button
                     class="btn-cta"
@@ -310,11 +342,17 @@
 
 
 <style>
-.card-footer{
-    padding: 8px 16px;
+.card-footer {
+    padding: 12px 16px;
+    margin: 16px -10px -10px -10px;
+    border-top: 1px solid var(--bd-lt, #e2e8f0);
+    background: var(--bg-alt, #f8fafc);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
     .lists-container {
         display: flex;
+        flex-direction: column;
         gap: 20px;
         margin-bottom: 24px;
     }
@@ -343,27 +381,30 @@
         font-weight: 500;
     }
 
-    .btn-icon {
+    .btn-upload {
         display: flex;
         align-items: center;
-        justify-content: center;
-        width: 28px;
-        height: 28px;
-        border-radius: 6px;
+        gap: 6px;
+        padding: 6px 12px;
+        border-radius: 3px;
         background: var(--bg-alt, #f0f4f8);
-        color: var(--tx-light, #6b7280);
+        color: var(--tx, #333);
+        font-size: 13px;
+        font-weight: 500;
         cursor: pointer;
         transition: all 0.2s;
+        border: 1px solid var(--bd, #e2e8f0);
     }
 
-    .btn-icon:hover {
+    .btn-upload:hover {
         background: rgba(74, 144, 217, 0.1);
         color: var(--ac);
+        border-color: var(--ac);
     }
 
     .content-textarea {
         flex: 1;
-        min-height: 280px;
+        min-height: 200px;
         width: 100%;
         padding: 16px;
         border-radius: 3px;
@@ -401,7 +442,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 12px 16px;
+        padding: 6px 16px;
         background: var(--bg-alt, #f8fafc);
         border-bottom: 1px solid var(--bd-lt);
     }
@@ -481,6 +522,24 @@
         border-top: none;
     }
 
+    .setting-options {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 6px;
+        margin-top: 12px;
+        justify-content: left;
+    }
+
+    .setting-checkbox {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 14px;
+        cursor: pointer;
+        color: var(--tx, #333);
+        user-select: none;
+    }
+
     .results-stack {
         gap: 10px;
     }
@@ -491,23 +550,31 @@
         }
         
         .content-textarea {
-            min-height: 150px;
+            min-height: 100px;
+        }
+        
+        .file-options {
+            flex-direction: column !important;
+            align-items: flex-start !important;
         }
     }
 
     .file-options {
         display: flex;
-        flex-direction: column;
-        gap: 8px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        gap: 16px;
         margin-bottom: 8px;
-        padding: 8px;
+        padding: 8px 12px;
         background: var(--bg-alt, #f8fafc);
         border: 1px solid var(--bd, #e2e8f0);
         border-radius: 3px;
     }
 
     .column-select-inline {
-        width: 100%;
+        width: auto;
+        max-width: 100%;
         padding: 6px 8px;
         border-radius: 4px;
         border: 1px solid var(--bd);
@@ -529,5 +596,31 @@
         color: var(--tx-light, #6b7280);
         cursor: pointer;
         white-space: nowrap;
+    }
+
+    .list-separator {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 4px 0;
+        opacity: 0.6;
+    }
+
+    .separator-line {
+        flex: 1;
+        height: 1px;
+        background: var(--bd, #e2e8f0);
+    }
+
+    .separator-icon {
+        color: var(--tx-light, #6b7280);
+        font-size: 20px;
+        background: var(--bg);
+        padding: 4px;
+        border-radius: 50%;
+        border: 1px solid var(--bd, #e2e8f0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 </style>
