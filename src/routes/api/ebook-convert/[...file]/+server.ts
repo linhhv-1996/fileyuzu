@@ -18,7 +18,7 @@ export const GET: RequestHandler = async ({ params, fetch }) => {
     headers.set('Cross-Origin-Opener-Policy', 'same-origin');
     headers.set('Cross-Origin-Resource-Policy', 'same-origin');
     
-    // Set heavy caching since these are WASM and zip files that don't change
+    // Set heavy caching since these are WASM and zip files that don't change frequently
     headers.set('Cache-Control', 'public, max-age=31536000, immutable');
     
     // Ensure correct mime types for wasm and js if they are missing

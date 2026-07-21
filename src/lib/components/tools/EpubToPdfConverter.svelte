@@ -65,7 +65,7 @@
             } else if (data.type === 'error') {
                 errorMessage = data.error || texts.error;
                 status = 'file'; // revert back to file so they can retry
-                alert(errorMessage);
+                console.log(errorMessage);
             }
         };
 

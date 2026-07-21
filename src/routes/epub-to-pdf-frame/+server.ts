@@ -15,7 +15,7 @@ export const GET: RequestHandler = () => {
         function initWorker() {
             try {
                 // Load from our proxy endpoint which sets COOP/COEP/CORP and Cache-Control headers
-                worker = new Worker('/api/ebook-convert/worker.mjs', { type: 'module' });
+                worker = new Worker('/api/ebook-convert/worker.mjs?v=20260721', { type: 'module' });
                 
                 worker.onmessage = (e) => {
                     // Forward all messages back to the parent
