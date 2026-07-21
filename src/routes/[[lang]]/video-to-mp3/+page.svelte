@@ -5,9 +5,7 @@
     import { getRelatedTools } from '$lib/config/tools';
     
     import VideoConverter from '$lib/components/tools/VideoConverter.svelte';
-    import HowToUse from '$lib/components/HowToUse.svelte';
-    import WhyUse from '$lib/components/WhyUse.svelte';
-    import Faq from '$lib/components/Faq.svelte';
+    import SEOContent from '$lib/components/SEOContent.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import Affiliate from '$lib/components/Affiliate.svelte';
     import Adcash250Banner from '$lib/components/Ads/Adcash250Banner.svelte';
@@ -46,9 +44,7 @@
             outputFormats={['mp3']} 
             sampleVideoPath="/file_sample_build_in_public.mp4" 
         />
-        <HowToUse title={t('video_to_mp3.how_to_use.title', dict)} steps={Array.isArray(t('video_to_mp3.how_to_use.steps', dict)) ? t('video_to_mp3.how_to_use.steps', dict) : []} />
-        <WhyUse title={t('video_to_mp3.why_use.title', dict)} benefits={Array.isArray(t('video_to_mp3.why_use.benefits', dict)) ? t('video_to_mp3.why_use.benefits', dict) : []} />
-        <Faq title={t('video_to_mp3.faq.title', dict)} items={Array.isArray(t('video_to_mp3.faq.items', dict)) ? t('video_to_mp3.faq.items', dict) : []} />
+        <SEOContent content={$page.data.seoContent} />
     </main>
 
     <!-- SIDEBAR (desktop only via CSS) -->
