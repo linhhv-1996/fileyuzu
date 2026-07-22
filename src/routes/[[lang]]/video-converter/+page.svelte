@@ -36,6 +36,21 @@
     <p>{t('video_converter.hero.description', dict)}</p>
 </div>
 
+
+<!-- Ad banner -->
+
+<!-- <div class="banner-leaderboard">
+    <div style="width: 728px; height: 90px; background: #e0e0e0; display: flex; align-items: center; justify-content: center; color: #888; border: 1px dashed #bbb; font-weight: bold; border-radius: 4px;">
+        728x90 Ads Placeholder
+    </div>
+</div>
+
+<div class="banner-mobile">
+    <div style="width: 320px; height: 50px; background: #e0e0e0; display: flex; align-items: center; justify-content: center; color: #888; border: 1px dashed #bbb; font-weight: bold; border-radius: 4px;">
+        320x50 Ads Placeholder
+    </div>
+</div> -->
+
 <div class="grid">
     <main>
         <VideoConverter texts={converterTexts} />
