@@ -204,6 +204,7 @@
             {/if}
         </div>
         <div class="sidebar-ad">
+            <Adcash250Banner />
             <BannerAds adKey={"85c87dc7bfff537a2e642741cb7ba59a"} reloadAfter={30} />
         </div>
     </aside>
@@ -261,12 +262,6 @@
     
     .sidebar-post-item:hover {
         opacity: 0.85;
-    }
-    
-    .sidebar-ad {
-        margin-top: 24px;
-        border-radius: var(--r);
-        overflow: hidden;
     }
     
     .sidebar-post-title {

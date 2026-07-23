@@ -1615,3 +1615,11 @@ RESPONSIVE
         padding: 16px;
     }
 }
+
+.sidebar-ad {
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    border-radius: var(--r);
+    /* overflow: hidden; */
+}

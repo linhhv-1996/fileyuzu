@@ -2,30 +2,48 @@
     import { onMount } from "svelte";
 
     let container: HTMLDivElement;
+    let status = $state<"loading" | "loaded" | "failed">("loading");
 
-    function waitForAclib(cb: () => void, retries = 40) {
-        if (typeof (window as any).aclib !== "undefined") {
+    function waitForAclib(cb: () => void, onFail: () => void, retries = 40) {
+        const ready =
+            typeof (window as any).aclib !== "undefined" &&
+            typeof (window as any).aclib.runBanner === "function";
+
+        if (ready) {
             cb();
             return;
         }
         if (retries <= 0) {
-            console.warn("aclib failed to load, skipping banner");
+            onFail();
             return;
         }
-        setTimeout(() => waitForAclib(cb, retries - 1), 250);
+        setTimeout(() => waitForAclib(cb, onFail, retries - 1), 250);
     }
 
     onMount(() => {
-        waitForAclib(() => {
-            const s = document.createElement("script");
-            s.type = "text/javascript";
-            s.text = "aclib.runBanner({ zoneId: '11765042' });";
-            container.appendChild(s);
-        });
+        waitForAclib(
+            () => {
+                const s = document.createElement("script");
+                s.type = "text/javascript";
+                s.text = "aclib.runBanner({ zoneId: '11765042' });";
+                container.appendChild(s);
+                status = "loaded";
+            },
+            () => {
+                console.warn("aclib.runBanner failed to load, hiding banner");
+                status = "failed";
+            }
+        );
     });
 </script>
 
-<div bind:this={container} class="adcash-banner-container"></div>
+{#if status !== "failed"}
+    <div bind:this={container} class="adcash-banner-container">
+        {#if status === "loading"}
+            <div class="spinner"></div>
+        {/if}
+    </div>
+{/if}
 
 <style>
     .adcash-banner-container {
@@ -35,5 +53,20 @@
         width: 300px;
         height: 250px;
         margin: 0 auto;
+    }
+
+    .spinner {
+        width: 20px;
+        height: 20px;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        border-top-color: rgba(0, 0, 0, 0.4);
+        border-radius: 50%;
+        animation: spin 0.7s linear infinite;
+    }
+
+    @keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
     }
 </style>
