@@ -3,11 +3,25 @@
 
     let container: HTMLDivElement;
 
+    function waitForAclib(cb: () => void, retries = 40) {
+        if (typeof (window as any).aclib !== "undefined") {
+            cb();
+            return;
+        }
+        if (retries <= 0) {
+            console.warn("aclib failed to load, skipping banner");
+            return;
+        }
+        setTimeout(() => waitForAclib(cb, retries - 1), 250);
+    }
+
     onMount(() => {
-        const s = document.createElement("script");
-        s.type = "text/javascript";
-        s.text = "aclib.runBanner({ zoneId: '11765042' });";
-        container.appendChild(s);
+        waitForAclib(() => {
+            const s = document.createElement("script");
+            s.type = "text/javascript";
+            s.text = "aclib.runBanner({ zoneId: '11765042' });";
+            container.appendChild(s);
+        });
     });
 </script>
 
