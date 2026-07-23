@@ -1,6 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
 
+    // svelte-ignore non_reactive_update
     let container: HTMLDivElement;
     let status = $state<"loading" | "loaded" | "failed">("loading");
 

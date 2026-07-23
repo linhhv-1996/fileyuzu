@@ -4,8 +4,8 @@
     import { t, langUrl } from '$lib/i18n/config';
     import { tools, type ToolConfig } from '$lib/config/tools';
     import Affiliate from '$lib/components/Affiliate.svelte';
-    import Adcash250Banner from '$lib/components/Ads/Adcash250Banner.svelte';
     import BannerAds from '$lib/components/Ads/BannerAds.svelte';
+    import AdcashBanner from '$lib/components/Ads/AdcashBanner.svelte';
 
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
@@ -204,7 +204,7 @@
             {/if}
         </div>
         <div class="sidebar-ad">
-            <!-- <Adcash250Banner /> -->
+             <!-- <AdcashBanner adKey={"11765042"} reloadAfter={30}/> -->
             <BannerAds adKey={"85c87dc7bfff537a2e642741cb7ba59a"} reloadAfter={30} />
         </div>
     </aside>
