@@ -140,6 +140,7 @@
         margin: 0 auto;
         overflow: hidden;
         border-radius: 0px;
+        border: 1px solid #e5e5e5;
     }
 
     .banner-ads-container {
