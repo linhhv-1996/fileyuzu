@@ -45,14 +45,30 @@
     function injectAd(container: HTMLDivElement) {
         loading = true;
         failed = false;
+        
+        let observer: MutationObserver | null = null;
 
         waitForAclib(
             () => {
                 const s = document.createElement("script");
                 s.type = "text/javascript";
                 s.text = `aclib.runBanner({ zoneId: '${adKey}' });`;
+                
+                observer = new MutationObserver((mutations) => {
+                    for (const mutation of mutations) {
+                        for (let i = 0; i < mutation.addedNodes.length; i++) {
+                            const node = mutation.addedNodes[i];
+                            if (node.nodeName !== "SCRIPT") {
+                                loading = false;
+                                observer?.disconnect();
+                                return;
+                            }
+                        }
+                    }
+                });
+                observer.observe(container, { childList: true, subtree: true });
+                
                 container.appendChild(s);
-                loading = false;
             },
             () => {
                 console.warn("aclib.runBanner failed to load");
@@ -64,11 +80,13 @@
         // Fallback: nếu sau 15s vẫn chưa load xong thì tắt skeleton
         const fallbackTimer = setTimeout(() => {
             loading = false;
+            if (observer) observer.disconnect();
         }, 15000);
 
         return {
             destroy() {
                 clearTimeout(fallbackTimer);
+                if (observer) observer.disconnect();
             }
         };
     }
@@ -88,32 +106,30 @@
     });
 </script>
 
-{#if !failed}
-    <div
-        class="banner-ads-wrapper"
-        style="width: {dimensions.width}px; height: {dimensions.height}px;"
-    >
-        {#key cycle}
-            <div
-                class="banner-ads-container"
-                style="width: {dimensions.width}px; height: {dimensions.height}px;"
-                use:injectAd
-            >
-            </div>
-        {/key}
+<div
+    class="banner-ads-wrapper"
+    style="width: {dimensions.width}px; height: {dimensions.height}px;"
+>
+    {#key cycle}
+        <div
+            class="banner-ads-container"
+            style="width: {dimensions.width}px; height: {dimensions.height}px;"
+            use:injectAd
+        >
+        </div>
+    {/key}
 
-        {#if loading}
-            <div
-                class="banner-ads-skeleton"
-                style="width: {dimensions.width}px; height: {dimensions.height}px;"
-            >
-                <div class="skeleton-pulse"></div>
-                <div class="skeleton-shimmer"></div>
-                <span class="skeleton-label">Ad</span>
-            </div>
-        {/if}
-    </div>
-{/if}
+    {#if loading}
+        <div
+            class="banner-ads-skeleton"
+            style="width: {dimensions.width}px; height: {dimensions.height}px;"
+        >
+            <div class="skeleton-pulse"></div>
+            <div class="skeleton-shimmer"></div>
+            <span class="skeleton-label">Ad</span>
+        </div>
+    {/if}
+</div>
 
 <style>
     .banner-ads-wrapper {
