@@ -204,7 +204,7 @@
             {/if}
         </div>
         <div class="sidebar-ad">
-            <Adcash250Banner />
+            <!-- <Adcash250Banner /> -->
             <BannerAds adKey={"85c87dc7bfff537a2e642741cb7ba59a"} reloadAfter={30} />
         </div>
     </aside>
