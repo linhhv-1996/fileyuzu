@@ -1772,5 +1772,21 @@
     "epub_to_pdf.proc.converting": "Converting ebook...",
     "epub_to_pdf.proc.reading": "Reading file...",
     "epub_to_pdf.proc.initializing": "Initializing converter...",
-    "epub_to_pdf.error": "An error occurred during conversion."
+    "epub_to_pdf.error": "An error occurred during conversion.",
+    
+    "tool.transliteration.title": "Free Online Phonetic Keyboard",
+    "tool.transliteration.description": "Type in your native language using an English keyboard. Supports Hindi, Arabic, Russian, Tamil, Greek, and more.",
+    "tool.transliteration.short_description": "Phonetic typing for native languages",
+
+
+"tool.transliteration.seo.title": "Online Transliteration Tool – Russian, Urdu, Tamil & More",
+    "tool.transliteration.seo.description": "Type phonetically and get Russian, Urdu, Tamil, Punjabi, Arabic, Hindi and more in real time. Free online transliteration tool with instant word suggestions.",
+    "tool.transliteration.hero.title": "Free Online Transliteration Tool",
+    "tool.transliteration.hero.description": "Type phonetically in English and watch it convert instantly into Russian, Urdu, Tamil, Arabic, Hindi, and dozens of other scripts.",
+    
+
+    "transliteration.placeholder": "Type phonetically in English (e.g., 'namaste', 'privet')...",
+    "transliteration.outputPlaceholder": "Native script will appear here instantly...",
+    "transliteration.clearBtn": "Clear",
+    "transliteration.copyBtn": "Copy to Clipboard"
 }

@@ -309,6 +309,22 @@ export const tools: ToolConfig[] = [
         category: 'text',
         tags: ['Word', 'Character', 'Count', 'Text'],
         markets: ['en', 'ja', 'zh-tw', 'ko'],
+    },
+    {
+        slug: 'transliteration',
+        titleKey: 'tool.transliteration.title',
+        descriptionKey: 'tool.transliteration.description',
+        shortDescriptionKey: 'tool.transliteration.short_description',
+        icon: 'language',
+        related_tools: [
+            'word-counter',
+            'compare-two-lists',
+            'image-to-text',
+            'video-to-text',
+        ],
+        category: 'text',
+        tags: ['Transliteration', 'Text', 'Language'],
+        markets: ['en'],
     }
 ];
 
