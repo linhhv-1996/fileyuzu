@@ -6,6 +6,7 @@
     import Affiliate from '$lib/components/Affiliate.svelte';
     import BannerAds from '$lib/components/Ads/BannerAds.svelte';
     import AdcashBanner from '$lib/components/Ads/AdcashBanner.svelte';
+    import { adsConfig } from '$lib/config/ads';
 
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
@@ -205,7 +206,11 @@
         </div>
         <div class="sidebar-ad">
              <!-- <AdcashBanner adKey={"11765042"} reloadAfter={30}/> -->
-            <BannerAds adKey={"85c87dc7bfff537a2e642741cb7ba59a"} reloadAfter={30} />
+            <BannerAds 
+                adKey={adsConfig.banner_sidebar.id} 
+                reloadAfter={adsConfig.banner_sidebar.reload_after} 
+                size={adsConfig.banner_sidebar.size}
+            />
         </div>
     </aside>
 </div>
