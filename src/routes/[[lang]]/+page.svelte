@@ -206,11 +206,11 @@
         </div>
         <div class="sidebar-ad">
             <!-- <AdcashBanner adKey={"11765042"} reloadAfter={30}/> -->
-            <BannerAds 
+            <!-- <BannerAds 
                 adKey={adsConfig.banner_sidebar.id} 
                 reloadAfter={adsConfig.banner_sidebar.reload_after} 
                 size={adsConfig.banner_sidebar.size}
-            />
+            /> -->
         </div>
     </aside>
 </div>
