@@ -204,14 +204,20 @@
                 {/each}
             {/if}
         </div>
-        <!-- <div class="sidebar-ad"> -->
+        <div class="sidebar-ad">
+            <AdcashBanner 
+                adKey="11765042"
+                reloadAfter={20} 
+                size={"300x250"}
+            />
+            
             <!-- <AdcashBanner adKey={"11765042"} reloadAfter={30}/> -->
             <!-- <BannerAds 
                 adKey={adsConfig.banner_sidebar.id} 
                 reloadAfter={adsConfig.banner_sidebar.reload_after} 
                 size={adsConfig.banner_sidebar.size}
             /> -->
-        <!-- </div> -->
+        </div>
     </aside>
 </div>
 

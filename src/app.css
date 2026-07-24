@@ -309,7 +309,7 @@ a:hover {
     /* grid-template-columns: 1fr 230px; */
     /* grid-template-columns: 1fr 250px; */
     grid-template-columns: 1fr 300px;
-    gap: 15px;
+    gap: 17px;
     align-items: start;
 }
 
