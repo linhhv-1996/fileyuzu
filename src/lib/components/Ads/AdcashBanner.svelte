@@ -108,6 +108,7 @@
 
 <div
     class="banner-ads-wrapper"
+    class:is-loading={loading}
     style="width: {dimensions.width}px; height: {dimensions.height}px;"
 >
     {#key cycle}
@@ -140,6 +141,9 @@
         margin: 0 auto;
         overflow: hidden;
         border-radius: 0px;
+    }
+
+    .banner-ads-wrapper.is-loading {
         border: 1px solid #e5e5e5;
     }
 
