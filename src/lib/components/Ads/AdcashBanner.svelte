@@ -80,6 +80,7 @@
         // Fallback: nếu sau 15s vẫn chưa load xong thì tắt skeleton
         const fallbackTimer = setTimeout(() => {
             loading = false;
+            failed = true;
             if (observer) observer.disconnect();
         }, 15000);
 
@@ -109,6 +110,7 @@
 <div
     class="banner-ads-wrapper"
     class:is-loading={loading}
+    class:is-failed={failed}
     style="width: {dimensions.width}px; height: {dimensions.height}px;"
 >
     {#key cycle}
@@ -140,11 +142,16 @@
         align-items: center;
         margin: 0 auto;
         overflow: hidden;
-        border-radius: 0px;
+        border-radius: 3px;
+        border: 1px solid #e5e5e5;
     }
 
-    .banner-ads-wrapper.is-loading {
-        border: 1px solid #e5e5e5;
+    :global(.dark) .banner-ads-wrapper {
+        border-color: #2a2a2a;
+    }
+
+    .banner-ads-wrapper.is-failed {
+        border: none !important;
     }
 
     .banner-ads-container {
