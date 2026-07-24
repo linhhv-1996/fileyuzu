@@ -11,6 +11,8 @@
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import Affiliate from '$lib/components/Affiliate.svelte';
     import Adcash250Banner from '$lib/components/Ads/Adcash250Banner.svelte';
+    import BannerAds from '$lib/components/Ads/BannerAds.svelte';
+    import { adsConfig } from '$lib/config/ads';
     
     let dict = $derived($page.data.dict);
     
@@ -54,7 +56,11 @@
     <aside class="sidebar">
         <RelatedTools title={t('related_tools.title', dict)} tools={relatedTools} />
         <div class="mt-4">
-            <Adcash250Banner />
+            <BannerAds 
+                adKey={adsConfig.banner_sidebar.id} 
+                reloadAfter={adsConfig.banner_sidebar.reload_after} 
+                size={adsConfig.banner_sidebar.size}
+            />
         </div>
     </aside>
 </div>
