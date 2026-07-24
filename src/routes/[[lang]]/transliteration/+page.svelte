@@ -7,7 +7,6 @@
     import Transliteration from '$lib/components/tools/Transliteration.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import SEOContent from '$lib/components/SEOContent.svelte';
-    import Adcash250Banner from '$lib/components/Ads/Adcash250Banner.svelte';
     import AdcashBanner from '$lib/components/Ads/AdcashBanner.svelte';
     import BannerAds from '$lib/components/Ads/BannerAds.svelte';
     import { adsConfig } from '$lib/config/ads';

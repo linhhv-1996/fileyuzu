@@ -8,7 +8,6 @@
     import SEOContent from '$lib/components/SEOContent.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import Affiliate from '$lib/components/Affiliate.svelte';
-    import Adcash250Banner from '$lib/components/Ads/Adcash250Banner.svelte';
     import BannerAds from '$lib/components/Ads/BannerAds.svelte';
     import { adsConfig } from '$lib/config/ads';
     
