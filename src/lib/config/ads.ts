@@ -1,4 +1,4 @@
-export type AdSize = "300x250" | "320x50" | "728x90";
+export type AdSize = "300x250" | "320x50" | "728x90" | "320x100";
 
 export interface AdConfig {
     id: string;
@@ -16,5 +16,10 @@ export const adsConfig = {
         id: "",
         size: "300x250",
         reload_after: 30
+    },
+    yandex_banner_sidebar_home: {
+        id: "R-A-19646188-1",
+        size: "300x250",
+        reload_after: 20
     }
 } as const satisfies Record<string, AdConfig>;
