@@ -15,6 +15,10 @@
             <a href={langUrl(lang, '/term')}>{t('common.footer.terms', dict)}</a>
             <a href={langUrl(lang, '/contact')}>{t('common.footer.contact', dict)}</a>
             <a href="/sitemap.xml">Sitemap</a>
+
+            <a href="https://sellwithboost.com" target="_blank" rel="noopener noreferrer nofollow">
+            <img src="https://sellwithboost.com/badge/listing.svg" alt="Listed on Sell With boost" style="height: 40px; width: auto;" />
+            </a>
         </div>
     </div>
 
