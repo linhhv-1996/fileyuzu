@@ -20,6 +20,6 @@ export const adsConfig = {
     yandex_banner_sidebar_home: {
         id: "R-A-19646188-1",
         size: "300x250",
-        reload_after: 20
+        reload_after: 30
     }
 } as const satisfies Record<string, AdConfig>;
