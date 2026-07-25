@@ -151,7 +151,7 @@
     }
 
     .banner-ads-wrapper.is-failed {
-        border: none !important;
+        display: none !important;
     }
 
     .banner-ads-container {

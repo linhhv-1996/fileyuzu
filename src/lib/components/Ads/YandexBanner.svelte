@@ -33,17 +33,6 @@
         
         let observer: MutationObserver | null = null;
 
-        (window as any).yaContextCb = (window as any).yaContextCb || [];
-
-        // Ensure Yandex script is loaded asynchronously
-        if (!document.querySelector('script[src="https://yandex.ru/ads/system/context.js"]')) {
-            const script = document.createElement("script");
-            script.type = "text/javascript";
-            script.src = "https://yandex.ru/ads/system/context.js";
-            script.async = true;
-            document.head.appendChild(script);
-        }
-
         tick().then(() => {
             const targetDiv = container.querySelector(`#${renderToId}`);
             if (!targetDiv) return;
@@ -59,12 +48,33 @@
             });
             observer.observe(targetDiv, { childList: true, subtree: true });
 
-            (window as any).yaContextCb.push(() => {
-                (window as any).Ya.Context.AdvManager.render({
-                    blockId: adKey,
-                    renderTo: renderToId
+            const execRender = () => {
+                (window as any).yaContextCb = (window as any).yaContextCb || [];
+                
+                if (!document.querySelector('script[src="https://yandex.ru/ads/system/context.js"]')) {
+                    const script = document.createElement("script");
+                    script.type = "text/javascript";
+                    script.src = "https://yandex.ru/ads/system/context.js";
+                    script.async = true;
+                    document.head.appendChild(script);
+                }
+
+                (window as any).yaContextCb.push(() => {
+                    if ((window as any).Ya && (window as any).Ya.Context && (window as any).Ya.Context.AdvManager) {
+                        (window as any).Ya.Context.AdvManager.render({
+                            blockId: adKey,
+                            renderTo: renderToId
+                        });
+                    }
                 });
-            });
+            };
+
+            // Delay script injection until after window load to prevent tab spinning
+            if (document.readyState === 'complete') {
+                setTimeout(execRender, 50);
+            } else {
+                window.addEventListener('load', execRender, { once: true });
+            }
         });
 
         const fallbackTimer = setTimeout(() => {
@@ -135,15 +145,10 @@
         margin: 0 auto;
         overflow: hidden;
         border-radius: 3px;
-        border: 1px solid #e5e5e5;
-    }
-
-    :global(.dark) .banner-ads-wrapper {
-        border-color: #2a2a2a;
     }
 
     .banner-ads-wrapper.is-failed {
-        border: none !important;
+        display: none !important;
     }
 
     .banner-ads-container {
