@@ -1469,5 +1469,29 @@
     "epub_to_pdf.proc.converting": "전자책 변환 중...",
     "epub_to_pdf.proc.reading": "파일 읽는 중...",
     "epub_to_pdf.proc.initializing": "변환기 초기화 중...",
-    "epub_to_pdf.error": "변환 중 오류가 발생했습니다."
+    "epub_to_pdf.error": "변환 중 오류가 발생했습니다.",
+
+
+"make_pdf_look_scanned.seo.title": "PDF 스캔한 것처럼 변환 – 무료 온라인 도구",
+"make_pdf_look_scanned.seo.description": "PDF에 흑백 복사, 노이즈, 빈티지 종이 같은 스캔 효과를 추가하세요. 업로드 없이 브라우저에서 바로 처리되며, 완전 무료로 PDF를 진짜 스캔한 문서처럼 변환할 수 있습니다.",
+"make_pdf_look_scanned.hero.title": "PDF 스캔한 것처럼 만들기",
+"make_pdf_look_scanned.hero.description": "깔끔한 디지털 PDF를 진짜 스캔한 문서처럼 바꿔보세요. 흑백 복사, 노이즈, 빈티지 종이 효과를 더해 오래되거나 손글씨 같은 느낌도 연출할 수 있습니다.",
+
+    "make_pdf_look_scanned.upload.title": "스캔 효과를 적용할 PDF 파일을 여기에 끌어다 놓으세요",
+"make_pdf_look_scanned.upload.subtitle": "PDF · 최대 50MB · 리얼한 스캐너 효과",
+"make_pdf_look_scanned.upload.btn_select": "PDF 파일 선택",
+"make_pdf_look_scanned.upload.btn_sample": "샘플 파일 불러오기",
+"make_pdf_look_scanned.upload.hint": "리얼한 스캐너 효과를 적용할 PDF 파일을 1개 선택하세요",
+"make_pdf_look_scanned.btn.process": "스캔 효과 적용하기",
+"make_pdf_look_scanned.btn.download": "스캔된 PDF 다운로드",
+"make_pdf_look_scanned.btn.process_new": "새 파일 처리하기",
+"make_pdf_look_scanned.proc.processing": "PDF 처리 중...",
+"make_pdf_look_scanned.settings.intensity": "스캔 효과 강도 (1-5)",
+"make_pdf_look_scanned.settings.style": "스캐너 스타일",
+"make_pdf_look_scanned.settings.level": "단계",
+"make_pdf_look_scanned.pages": "페이지",
+"make_pdf_look_scanned.style.bw": "흑백 복사본",
+"make_pdf_look_scanned.style.grainy": "거친 노이즈",
+"make_pdf_look_scanned.style.vintage": "빈티지 종이",
+"make_pdf_look_scanned.style.color": "모던 컬러"
 }

@@ -11,7 +11,7 @@
 </script>
 
 <div class="card" style={mobile ? "margin-top:14px" : ""}>
-    <h2 class="sb-title">{title}</h2>
+    <h2 class="sb-title">{t('related_tools.title', dict)}</h2>
     <div class="rel-list" style={mobile ? "display:grid;grid-template-columns:1fr 1fr" : ""}>
         {#each filteredTools as tool, i}
             <a href={langUrl(lang, `/${tool.slug}`)} class="rel-item" style={mobile && i % 2 === 0 ? "border-right:1px solid var(--bd-lt)" : ""}>

@@ -1788,5 +1788,29 @@
     "transliteration.placeholder": "Type phonetically in English (e.g., 'namaste', 'privet')...",
     "transliteration.outputPlaceholder": "Native script will appear here instantly...",
     "transliteration.clearBtn": "Clear",
-    "transliteration.copyBtn": "Copy to Clipboard"
+    "transliteration.copyBtn": "Copy to Clipboard",
+
+
+"make_pdf_look_scanned.seo.title": "Make PDF Look Scanned Free – Convert to Scanned PDF Online",
+    "make_pdf_look_scanned.seo.description": "Add a scanned effect to any PDF – blur, noise, tilt, and black & white. Turn a digital PDF into a photocopy-look scan free, right in your browser.",
+    "make_pdf_look_scanned.hero.title": "Make PDF Look Scanned",
+    "make_pdf_look_scanned.hero.description": "Turn a clean digital PDF into a realistic scanned copy. Add photocopy effects like noise, blur, tilt, and black & white, or make it look old or handwritten.",
+    
+    "make_pdf_look_scanned.upload.title": "Drop a PDF file here to scan",
+    "make_pdf_look_scanned.upload.subtitle": "PDF · up to 50 MB · realistic scanner effect",
+    "make_pdf_look_scanned.upload.btn_select": "Select PDF file",
+    "make_pdf_look_scanned.upload.btn_sample": "Load sample",
+    "make_pdf_look_scanned.upload.hint": "Select one PDF file to apply a realistic scanner effect",
+    "make_pdf_look_scanned.btn.process": "Apply Scanner Effect",
+    "make_pdf_look_scanned.btn.download": "Download Scanned PDF",
+    "make_pdf_look_scanned.btn.process_new": "Process New File",
+    "make_pdf_look_scanned.proc.processing": "Processing PDF...",
+    "make_pdf_look_scanned.settings.intensity": "Scanner Effect Intensity (1-5)",
+    "make_pdf_look_scanned.settings.style": "Scanner Style",
+    "make_pdf_look_scanned.settings.level": "Level",
+    "make_pdf_look_scanned.pages": "Pages",
+    "make_pdf_look_scanned.style.bw": "B&W Photocopy",
+    "make_pdf_look_scanned.style.grainy": "Grainy Noise",
+    "make_pdf_look_scanned.style.vintage": "Vintage Paper",
+    "make_pdf_look_scanned.style.color": "Modern Color"
 }

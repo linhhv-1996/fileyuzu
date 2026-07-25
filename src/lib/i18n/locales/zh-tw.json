@@ -1485,5 +1485,29 @@
     "epub_to_pdf.proc.converting": "正在轉換電子書...",
     "epub_to_pdf.proc.reading": "正在讀取檔案...",
     "epub_to_pdf.proc.initializing": "正在初始化轉換器...",
-    "epub_to_pdf.error": "轉換過程中發生錯誤。"
+    "epub_to_pdf.error": "轉換過程中發生錯誤。",
+
+
+    "make_pdf_look_scanned.seo.title": "PDF轉掃描效果 – 免費線上工具",
+"make_pdf_look_scanned.seo.description": "為PDF加上黑白影印、雜訊、復古紙質等掃描效果,免費線上使用,瀏覽器內完成,把PDF轉換成像真的掃描文件一樣的樣子。",
+"make_pdf_look_scanned.hero.title": "讓PDF看起來像掃描檔",
+"make_pdf_look_scanned.hero.description": "把乾淨的數位PDF轉換成逼真的掃描文件,加上黑白影印、雜訊、復古紙質等效果,也能做出老舊或手寫感的樣式。",
+
+    "make_pdf_look_scanned.upload.title": "拖曳 PDF 檔案至此進行掃描",
+    "make_pdf_look_scanned.upload.subtitle": "PDF · 上限 50 MB · 逼真掃描效果",
+    "make_pdf_look_scanned.upload.btn_select": "選擇 PDF 檔案",
+    "make_pdf_look_scanned.upload.btn_sample": "載入範例",
+    "make_pdf_look_scanned.upload.hint": "選擇一個 PDF 檔案以套用逼真的掃描效果",
+    "make_pdf_look_scanned.btn.process": "套用掃描效果",
+    "make_pdf_look_scanned.btn.download": "下載掃描版 PDF",
+    "make_pdf_look_scanned.btn.process_new": "處理新檔案",
+    "make_pdf_look_scanned.proc.processing": "正在處理 PDF...",
+    "make_pdf_look_scanned.settings.intensity": "掃描效果強度 (1-5)",
+    "make_pdf_look_scanned.settings.style": "掃描風格",
+    "make_pdf_look_scanned.settings.level": "等級",
+    "make_pdf_look_scanned.pages": "頁數",
+    "make_pdf_look_scanned.style.bw": "黑白影印",
+    "make_pdf_look_scanned.style.grainy": "顆粒雜訊",
+    "make_pdf_look_scanned.style.vintage": "復古紙張",
+    "make_pdf_look_scanned.style.color": "現代彩色"
 }

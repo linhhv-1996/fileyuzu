@@ -24,6 +24,19 @@ export const categories: CategoryConfig[] = [
 
 export const tools: ToolConfig[] = [
     {
+        slug: 'make-pdf-look-scanned',
+        titleKey: 'make_pdf_look_scanned.hero.title',
+        descriptionKey: 'make_pdf_look_scanned.hero.description',
+        shortDescriptionKey: 'make_pdf_look_scanned.upload.hint',
+        icon: 'scan',
+        related_tools: [
+            'compress-pdf',
+            'merge-pdf'
+        ],
+        category: 'pdf',
+        tags: ['Scanner', 'PDF', 'Signature'],
+    },
+    {
         slug: 'epub-to-pdf',
         titleKey: 'epub_to_pdf.hero.title',
         descriptionKey: 'epub_to_pdf.hero.description',
