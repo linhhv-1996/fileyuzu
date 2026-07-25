@@ -10,6 +10,7 @@
     import Affiliate from '$lib/components/Affiliate.svelte';
     import BannerAds from '$lib/components/Ads/BannerAds.svelte';
     import { adsConfig } from '$lib/config/ads';
+    import AdcashBanner from '$lib/components/Ads/AdcashBanner.svelte';
     
     let dict = $derived($page.data.dict);
     
@@ -59,10 +60,10 @@
     <aside class="sidebar">
         <RelatedTools title={t('related_tools.title', dict)} tools={relatedTools} />
         <div class="mt-4">
-            <BannerAds 
-                adKey={adsConfig.banner_sidebar.id} 
-                reloadAfter={adsConfig.banner_sidebar.reload_after} 
-                size={adsConfig.banner_sidebar.size}
+            <AdcashBanner 
+                adKey="11765042"
+                reloadAfter={20} 
+                size={"300x250"}
             />
         </div>
     </aside>
