@@ -21,5 +21,10 @@ export const adsConfig = {
         id: "R-A-19646188-1",
         size: "300x250",
         reload_after: 30
+    },
+    exo_banner_sidebar: {
+        id: "5986820",
+        size: "300x250",
+        reload_after: 30
     }
 } as const satisfies Record<string, AdConfig>;
