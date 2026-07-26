@@ -8,6 +8,7 @@
     import SEOContent from '$lib/components/SEOContent.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import Affiliate from '$lib/components/Affiliate.svelte';
+    import AdsterraBanner from '$lib/components/Ads/AdsterraBanner.svelte';
 
     let dict = $derived($page.data.dict);
 
@@ -56,7 +57,11 @@
     <aside class="sidebar">
         <RelatedTools title={t('related_tools.title', dict)} tools={relatedTools} />
         <div class="mt-4">
-            <!-- Ads -->
+            <AdsterraBanner 
+                adKey="85c87dc7bfff537a2e642741cb7ba59a" 
+                size="300x250" 
+                reloadAfter={20}
+            />
         </div>
     </aside>
 </div>
