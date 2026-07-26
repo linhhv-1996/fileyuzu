@@ -234,11 +234,11 @@
             {/if}
         </div>
         <div class="sidebar-ad">
-        <EXOBanner 
-            adKey={adsConfig.exo_banner_sidebar.id} 
-            size={adsConfig.exo_banner_sidebar.size}
-            reloadAfter={adsConfig.exo_banner_sidebar.reload_after}
-        />
+            <YandexBanner 
+                adKey={adsConfig.yandex_banner_sidebar_home.id} 
+                reloadAfter={adsConfig.yandex_banner_sidebar_home.reload_after} 
+                size={adsConfig.yandex_banner_sidebar_home.size}
+            />
             <!-- <AdsterraBanner 
                 adKey="85c87dc7bfff537a2e642741cb7ba59a" 
                 size="300x250" 

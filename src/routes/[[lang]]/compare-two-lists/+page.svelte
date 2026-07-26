@@ -9,6 +9,8 @@
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import Affiliate from '$lib/components/Affiliate.svelte';
     import AdsterraBanner from '$lib/components/Ads/AdsterraBanner.svelte';
+    import YandexBanner from '$lib/components/Ads/YandexBanner.svelte';
+    import { adsConfig } from '$lib/config/ads';
 
     let dict = $derived($page.data.dict);
 
@@ -57,10 +59,10 @@
     <aside class="sidebar">
         <RelatedTools title={t('related_tools.title', dict)} tools={relatedTools} />
         <div class="mt-4">
-            <AdsterraBanner 
-                adKey="85c87dc7bfff537a2e642741cb7ba59a" 
-                size="300x250" 
-                reloadAfter={20}
+            <YandexBanner 
+                adKey={adsConfig.yandex_banner_sidebar_home.id} 
+                reloadAfter={adsConfig.yandex_banner_sidebar_home.reload_after} 
+                size={adsConfig.yandex_banner_sidebar_home.size}
             />
         </div>
     </aside>
