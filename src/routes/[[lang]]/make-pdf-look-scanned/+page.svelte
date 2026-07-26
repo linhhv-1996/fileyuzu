@@ -57,10 +57,10 @@
     <aside class="sidebar">
         <RelatedTools title={"Related Tools"} tools={relatedTools} />
         <div class="mt-4">
-            <YandexBanner 
-                adKey={adsConfig.yandex_banner_sidebar_home.id} 
-                reloadAfter={adsConfig.yandex_banner_sidebar_home.reload_after} 
-                size={adsConfig.yandex_banner_sidebar_home.size}
+            <AdcashBanner 
+                adKey="11765042"
+                reloadAfter={20} 
+                size={"300x250"}
             />
         </div>
     </aside>
