@@ -13,6 +13,7 @@
     import { adsConfig } from '$lib/config/ads';
     import YandexBanner from '$lib/components/Ads/YandexBanner.svelte';
     import AdsterraBanner from '$lib/components/Ads/AdsterraBanner.svelte';
+    import EXOBanner from '$lib/components/Ads/EXOBanner.svelte';
     
     let dict = $derived($page.data.dict);
     
@@ -51,10 +52,10 @@
     <aside class="sidebar">
         <RelatedTools title={t('related_tools.title', dict)} tools={relatedTools} />
         <div class="mt-4">
-            <AdsterraBanner 
-                adKey="85c87dc7bfff537a2e642741cb7ba59a" 
-                size="300x250" 
-                reloadAfter={20}
+            <EXOBanner 
+                adKey={adsConfig.exo_banner_sidebar.id} 
+                size={adsConfig.exo_banner_sidebar.size}
+                reloadAfter={adsConfig.exo_banner_sidebar.reload_after}
             />
         </div>
     </aside>
