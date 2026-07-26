@@ -52,10 +52,10 @@
     <aside class="sidebar">
         <RelatedTools title={t('related_tools.title', dict)} tools={relatedTools} />
         <div class="mt-4">
-            <EXOBanner 
-                adKey={adsConfig.exo_banner_sidebar.id} 
-                size={adsConfig.exo_banner_sidebar.size}
-                reloadAfter={adsConfig.exo_banner_sidebar.reload_after}
+            <YandexBanner 
+                adKey={adsConfig.yandex_banner_sidebar_home.id} 
+                reloadAfter={adsConfig.yandex_banner_sidebar_home.reload_after} 
+                size={adsConfig.yandex_banner_sidebar_home.size}
             />
         </div>
     </aside>
