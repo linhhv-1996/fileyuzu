@@ -118,7 +118,7 @@ a:hover {
     gap: 6px;
     font-weight: 700;
     font-size: 20px;
-    font-family: var(--font);
+    font-family: 'Rajdhani', var(--font);
     color: var(--tx);
     text-decoration: none;
     flex-shrink: 0;
