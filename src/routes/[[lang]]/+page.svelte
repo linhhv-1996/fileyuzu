@@ -8,6 +8,7 @@
     import AdcashBanner from '$lib/components/Ads/AdcashBanner.svelte';
     import { adsConfig } from '$lib/config/ads';
     import YandexBanner from '$lib/components/Ads/YandexBanner.svelte';
+    import AdsterraBanner from '$lib/components/Ads/AdsterraBanner.svelte';
 
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
@@ -232,17 +233,16 @@
             {/if}
         </div>
         <div class="sidebar-ad">
-            <YandexBanner 
-                adKey={adsConfig.yandex_banner_sidebar_home.id} 
-                reloadAfter={adsConfig.yandex_banner_sidebar_home.reload_after} 
-                size={adsConfig.yandex_banner_sidebar_home.size}
+            <AdsterraBanner 
+                adKey="85c87dc7bfff537a2e642741cb7ba59a" 
+                size="300x250" 
+                reloadAfter={20}
             />
             <!-- <AdcashBanner 
                 adKey="11765042"
                 reloadAfter={20} 
                 size={"300x250"}
             /> -->
-            
             <!-- <AdcashBanner adKey={"11765042"} reloadAfter={30}/> -->
             <!-- <BannerAds 
                 adKey={adsConfig.banner_sidebar.id} 
