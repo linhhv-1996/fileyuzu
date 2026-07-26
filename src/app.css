@@ -94,7 +94,7 @@ a:hover {
 .hdr {
     background: rgba(255, 255, 255, .88);
     border-bottom: 1px solid var(--bd);
-    height: 58px;
+    height: 50px;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -208,9 +208,9 @@ a:hover {
 
 .dd-menu {
     position: absolute;
-    top: calc(100% + 8px);
+    top: calc(100% + 3px);
     right: 0;
-    min-width: 190px;
+    min-width: 124px;
     padding: 6px;
     border: 1px solid var(--bd-lt);
     border-radius: 3px;
@@ -1553,7 +1553,7 @@ RESPONSIVE
 .ftr-inner {
     max-width: var(--size);
     margin: 0 auto;
-    padding: 18px 16px;
+    padding: 8px 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1588,7 +1588,8 @@ RESPONSIVE
     .ftr-inner {
         flex-direction: column;
         align-items: flex-start;
-        padding: 16px 12px;
+        padding: 6px 12px;
+        gap: 6px;
     }
 }
 

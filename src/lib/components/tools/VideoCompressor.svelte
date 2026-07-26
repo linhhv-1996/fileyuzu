@@ -1,6 +1,7 @@
 <script lang="ts">
     import { formatSize } from '$lib/utils';
     import { compressVideoFile } from '$lib/utils/video-compressor';
+    import { createTimer } from '$lib/utils/timer';
     import Share from '../Share.svelte';
     
     interface Props {
@@ -78,6 +79,7 @@
         status = 'proc';
         progress = 0;
         compressedFile = null;
+        const timer = createTimer('FFmpeg Video Compression');
         
         try {
             let targetMB = 25;
@@ -104,6 +106,8 @@
         } catch (err) {
             console.error('Compression error:', err);
             status = 'file';
+        } finally {
+            timer.end();
         }
     }
     

@@ -124,13 +124,13 @@
                 <div class="tool-info">
                     <span class="tool-desc">{t(tool.descriptionKey, dict)}</span>
                 </div>
-                {#if tool.tags?.length}
+                <!-- {#if tool.tags?.length}
                     <div class="tool-tags">
                         {#each tool.tags.slice(0, 3) as tag}
                             <span class="tool-tag">{tag}</span>
                         {/each}
                     </div>
-                {/if}
+                {/if} -->
             </a>
         {/snippet}
 
@@ -156,6 +156,32 @@
         </div>
     {/if}
 </section>
+
+<!-- Labs Section -->
+{#if $page.data.recentLabs && $page.data.recentLabs.length > 0}
+<section class="labs-section">
+    <div class="labs-header">
+        <h2 class="section-title">{t('common.labs', dict) || 'Labs'}</h2>
+        <p class="labs-desc">{t('home.labs_description', dict) || 'Deep-dives, real-world tests, and technical experiments from our labs.'}</p>
+    </div>
+    <div class="labs-list">
+        {#each $page.data.recentLabs as lab}
+            <article class="lab-card">
+                <div class="lab-meta">
+                    <time class="lab-date">{new Date(lab.date).toLocaleDateString(lang, { year: 'numeric', month: 'short', day: 'numeric' })}</time>
+                </div>
+                <a href={langUrl(lang, `/labs/${lab.slug}`)} class="lab-card-title-link">
+                    <h3 class="lab-title">{lab.title}</h3>
+                </a>
+                <div class="lab-snippet">
+                    {@html lab.contentSnippet}
+                </div>
+                <a href={langUrl(lang, `/labs/${lab.slug}`)} class="lab-read-more">{dict['blog.read_article'] || 'Read article'} &rarr;</a>
+            </article>
+        {/each}
+    </div>
+</section>
+{/if}
 
 <!-- Trust Strip -->
 <div class="trust-strip">
@@ -708,6 +734,175 @@
 
         .hero-desc {
             font-size: 14.5px;
+        }
+    }
+
+    .labs-section {
+        margin: 40px 0;
+        padding-top: 24px;
+        border-top: 1px solid var(--bd-lt);
+    }
+
+    .labs-header .section-title {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 0px;
+    }
+
+    .labs-desc {
+        font-size: 14.5px;
+        color: var(--tx-sub);
+        margin: 0 0 20px 0;
+        line-height: 1.5;
+    }
+
+    .labs-list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .lab-card {
+        padding: 16px;
+        border: 1px solid var(--bd-lt);
+        border-radius: var(--r);
+        background: var(--bg);
+        transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .lab-card:hover {
+        border-color: var(--bd);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    }
+
+    .lab-meta {
+        margin-bottom: 8px;
+    }
+
+    .lab-date {
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--tx-sub);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .lab-card-title-link {
+        text-decoration: none;
+        color: inherit;
+        display: inline-block;
+        margin-bottom: 12px;
+    }
+
+    .lab-title {
+        font-size: 20px;
+        font-weight: 750;
+        color: var(--tx);
+        margin: 0;
+        line-height: 1.3;
+        transition: color 0.15s ease;
+    }
+
+    .lab-card-title-link:hover .lab-title {
+        color: var(--ac);
+    }
+
+    .lab-snippet {
+        font-size: 14.5px;
+        color: var(--tx-sub);
+        line-height: 1.6;
+        margin-bottom: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /* Formats for rendered HTML inside the snippet */
+    :global(.lab-snippet h1, .lab-snippet h2, .lab-snippet h3) {
+        font-size: 16px;
+        margin: 12px 0 8px;
+        color: var(--tx);
+        font-weight: 700;
+        line-height: 1.3;
+    }
+    :global(.lab-snippet p) {
+        margin: 0 0 12px;
+    }
+    :global(.lab-snippet p:last-child) {
+        margin-bottom: 0;
+    }
+    :global(.lab-snippet a) {
+        color: #2465cb;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+    :global(.lab-snippet strong) {
+        font-weight: 700;
+        color: var(--tx);
+    }
+    :global(.lab-snippet code) {
+        font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+        font-size: 0.9em;
+        background: var(--surface, rgba(0,0,0,0.06));
+        padding: 0.2em 0.4em;
+        border-radius: 4px;
+        color: var(--tx);
+    }
+    :global(.lab-snippet ul),
+    :global(.lab-snippet ol) {
+        margin: 0 0 12px 0;
+        padding-left: 1.5rem;
+    }
+    :global(.lab-snippet li) {
+        margin-bottom: 4px;
+    }
+    :global(.lab-snippet blockquote) {
+        border-left: 3px solid var(--ac);
+        margin: 12px 0;
+        padding: 8px 0 8px 12px;
+        color: var(--tx-sub);
+        font-style: italic;
+        background: linear-gradient(to right, var(--bg), transparent);
+        border-radius: 0 8px 8px 0;
+    }
+    :global(.lab-snippet img) {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+        margin: 12px 0;
+        border: 1px solid var(--bd-lt);
+        display: block;
+    }
+    :global(.lab-snippet pre, .lab-snippet table, .lab-snippet iframe, .lab-snippet hr) {
+        display: none !important; /* Hide heavy elements in snippet */
+    }
+
+    .lab-read-more {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--ac);
+        text-decoration: none;
+        transition: color 0.15s;
+    }
+
+    .lab-read-more:hover {
+        color: #1d52a8;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+    }
+
+    @media (max-width: 540px) {
+        .labs-section {
+            margin: 32px 0;
+        }
+        .lab-title {
+            font-size: 18px;
+        }
+        .lab-card {
+            padding: 16px;
         }
     }
 </style>

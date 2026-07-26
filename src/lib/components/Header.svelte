@@ -47,13 +47,18 @@
         <div class="hdr-menu" class:open={mobileMenuOpen} onclick={(e) => e.stopPropagation()} role="presentation">
             <nav class="hdr-nav" aria-label="Main navigation">
                 <a href={langUrl(lang, '/blog')} class="nav-trigger" style="text-decoration: none;" onclick={() => mobileMenuOpen = false}>
-                    <i class="ti ti-article" aria-hidden="true"></i>
-                    {t('common.blog', dict) || 'Blog'}
+                    <!-- <i class="ti ti-article" aria-hidden="true"></i> -->
+                    {t('common.blog', dict) || ''}
+                </a>
+
+                <a href={langUrl(lang, '/labs')} class="nav-trigger" style="text-decoration: none;" onclick={() => mobileMenuOpen = false}>
+                    <!-- <i class="ti ti-flask" aria-hidden="true"></i> -->
+                    {t('common.labs', dict) || ''}
                 </a>
 
                 <div class="nav-dd" class:open={navOpen}>
                     <button class="nav-trigger" type="button" aria-haspopup="true" aria-expanded={navOpen} onclick={toggleNav}>
-                        <i class="ti ti-layout-grid" aria-hidden="true"></i>
+                        <!-- <i class="ti ti-layout-grid" aria-hidden="true"></i> -->
                         {t('common.tools', dict)}
                         <i class="ti ti-chevron-down chev" aria-hidden="true"></i>
                     </button>
