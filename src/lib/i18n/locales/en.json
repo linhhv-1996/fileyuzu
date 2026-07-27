@@ -1801,5 +1801,25 @@
     "make_pdf_look_scanned.style.vintage": "Vintage Paper",
     "make_pdf_look_scanned.style.color": "Modern Color",
     "common.labs": "Labs",
-    "home.labs_description": "Deep-dives, real-world tests, and technical experiments from our labs."
+    "home.labs_description": "Deep-dives, real-world tests, and technical experiments from our labs.",
+
+"ebook_converter.hero.title": "Ebook Converter",
+"ebook_converter.hero.description": "Convert PDF, EPUB, MOBI, AZW3, CHM, DJVU and LIT ebooks instantly, right in your browser. No uploads, no signup, 100% private.",
+"ebook_converter.seo.title": "PDF to EPUB, MOBI, AZW3 & Kindle Converter – Free Online",
+"ebook_converter.seo.description": "Convert PDF to EPUB, MOBI, AZW3, CHM, DJVU or LIT free online — and convert them back to PDF too. Batch convert, no upload, no signup, Kindle-ready.",
+
+
+    "ebook_converter.upload.title": "Drop an ebook file here to convert",
+    "ebook_converter.upload.subtitle": "PDF, EPUB, MOBI, AZW3, FB2 & more · browser-based conversion",
+    "ebook_converter.upload.btn_select": "Select ebook file",
+    "ebook_converter.upload.hint": "Select one ebook file to convert",
+    "ebook_converter.btn.sample": "Load sample",
+    "ebook_converter.btn.convert": "Convert to {format}",
+    "ebook_converter.btn.download": "Download {format}",
+    "ebook_converter.btn.convert_new": "Convert Another File",
+    "ebook_converter.proc.converting": "Converting ebook...",
+    "ebook_converter.proc.reading": "Reading file...",
+    "ebook_converter.proc.initializing": "Initializing converter...",
+    "ebook_converter.error": "An error occurred during conversion.",
+    "ebook_converter.format.select_output": "Select output format:"
 }

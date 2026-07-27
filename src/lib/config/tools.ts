@@ -53,6 +53,21 @@ export const tools: ToolConfig[] = [
         tags: ['Ebook', 'PDF', 'EPUB', 'MOBI'],
     },
     {
+        slug: 'ebook-converter',
+        titleKey: 'ebook_converter.hero.title',
+        descriptionKey: 'ebook_converter.hero.description',
+        shortDescriptionKey: 'ebook_converter.upload.hint',
+        icon: 'book',
+        related_tools: [
+            'epub-to-pdf',
+            'compress-pdf',
+            'merge-pdf',
+            'word-counter',
+        ],
+        category: 'pdf',
+        tags: ['Ebook', 'PDF', 'EPUB', 'MOBI', 'AZW3', 'Converter'],
+    },
+    {
         slug: 'bulk-file-renamer',
         titleKey: 'tool.bulk_file_renamer.title',
         descriptionKey: 'tool.bulk_file_renamer.description',

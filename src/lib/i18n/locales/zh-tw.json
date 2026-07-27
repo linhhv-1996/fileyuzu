@@ -1505,5 +1505,24 @@
     "make_pdf_look_scanned.style.vintage": "復古紙張",
     "make_pdf_look_scanned.style.color": "現代彩色",
     "common.labs": "實驗室",
-    "home.labs_description": "來自我們實驗室的深入分析、實際測試和技術實驗。"
+    "home.labs_description": "來自我們實驗室的深入分析、實際測試和技術實驗。",
+
+  "ebook_converter.hero.title": "PDF EPUB 電子書轉換器",
+  "ebook_converter.hero.description": "在瀏覽器內免費轉換PDF、EPUB、MOBI、AZW3電子書格式,支援雙向互轉,無需上傳檔案,安全又快速。",
+  "ebook_converter.seo.title": "PDF轉EPUB、EPUB轉PDF線上轉換器｜免費電子書格式互轉",
+  "ebook_converter.seo.description": "線上免費轉換PDF、EPUB、MOBI、AZW3電子書格式,支援PDF轉EPUB、EPUB轉PDF雙向互轉,相容Kindle裝置,免安裝軟體,批次轉檔快速方便。",
+    
+    "ebook_converter.upload.title": "將電子書檔案拖放至此處進行轉換",
+    "ebook_converter.upload.subtitle": "支援 PDF、EPUB、MOBI、AZW3、FB2 等格式 · 純瀏覽器端轉檔",
+    "ebook_converter.upload.btn_select": "選擇電子書檔案",
+    "ebook_converter.upload.hint": "請選擇一個電子書檔案進行轉換",
+    "ebook_converter.btn.sample": "載入範例檔案",
+    "ebook_converter.btn.convert": "轉換為 {format}",
+    "ebook_converter.btn.download": "下載 {format}",
+    "ebook_converter.btn.convert_new": "轉換其他檔案",
+    "ebook_converter.proc.converting": "正在轉換電子書...",
+    "ebook_converter.proc.reading": "正在讀取檔案...",
+    "ebook_converter.proc.initializing": "正在初始化轉檔工具...",
+    "ebook_converter.error": "轉檔過程中發生錯誤。",
+    "ebook_converter.format.select_output": "選擇輸出格式："
 }
