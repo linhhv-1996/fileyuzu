@@ -8,7 +8,7 @@
 
 :root {
     --bg: #ffffff;
-    --bg-sub: #f3f4f6;
+    --bg-sub: #f8f9fa;
     --bd: #d1d5db;
     --bd-lt: #e5e7eb;
     --tx: #1f2937;
@@ -21,9 +21,9 @@
     --r: 3px;
     --border: #d1d5db;
 
-    --shadow-sm: none;
-    --shadow: none;
-    --shadow-lg: none;
+    --shadow-sm: 4px 4px 0px rgba(0, 0, 0, 0.05);
+    --shadow: 6px 6px 0px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 8px 8px 0px rgba(0, 0, 0, 0.08);
     --shadow-glow: 0 0 0 2px rgba(0, 91, 197, 0.2);
 
     /* --size: 980px; */
@@ -420,7 +420,7 @@ a:hover {
 
 /* ── UPLOAD BOX ── */
 .upload-box {
-    border: 2px dashed var(--bd);
+    border: 1px dashed var(--tx-mt);
     border-radius: var(--r);
     min-height: 250px;
     height: auto;
@@ -433,13 +433,15 @@ a:hover {
     cursor: pointer;
     text-align: center;
     padding: 20px 16px;
-    transition: border-color 0.15s, background 0.15s;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .upload-box:hover,
 .upload-box.drag-over {
-    border-color: var(--tx-sub);
-    background: #e5e7eb;
+    border-color: var(--ac);
+    background: #ffffff;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.04);
+    transform: translate(-2px, -2px);
 }
 
 .upload-box .ico {
@@ -501,13 +503,20 @@ a:hover {
     font-weight: 500;
     cursor: pointer;
     font-family: var(--font);
-    box-shadow: none;
+    box-shadow: var(--shadow-sm);
     transition: all 0.1s ease;
 }
 
 .btn-primary:hover {
     background: var(--ac-hv);
     border-color: var(--ac-hv);
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.06);
+}
+
+.btn-primary:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
 }
 
 .btn-default {
@@ -524,13 +533,20 @@ a:hover {
     cursor: pointer;
     font-family: var(--font);
     box-shadow: var(--shadow-sm);
-    transition: 0.1s cubic-bezier(0.3, 0, 0.5, 1);
+    transition: all 0.1s cubic-bezier(0.3, 0, 0.5, 1);
 }
 
 .btn-default:hover {
     background: var(--bg-sub);
     border-color: var(--ac);
     color: var(--ac);
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.06);
+}
+
+.btn-default:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
 }
 
 .btn-cta {
@@ -548,17 +564,27 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    transition: background 0.1s;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.1s ease;
 }
 
 .btn-cta:hover {
     background: var(--ac-hv);
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.06);
+}
+
+.btn-cta:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
 }
 
 .btn-cta:disabled {
     background: var(--bd);
     color: var(--tx-mt);
     border-color: var(--bd);
+    box-shadow: none;
+    transform: none;
     cursor: not-allowed;
 }
 
@@ -577,11 +603,19 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    transition: background 0.1s;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.1s ease;
 }
 
 .btn-dl:hover {
     background: var(--ac-hv);
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.06);
+}
+
+.btn-dl:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
 }
 
 /* ── SETTINGS ── */
