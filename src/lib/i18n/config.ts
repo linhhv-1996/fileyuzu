@@ -3,12 +3,13 @@ export const SUPPORTED_LANGUAGES = [
     { code: 'ja', name: '日本語', flag: '🇯🇵' },
     { code: 'zh-tw', name: '繁體中文', flag: '🇹🇼' },
     { code: 'ko', name: '한국어', flag: '🇰🇷' },
-    { code: 'pt-br', name: 'Português', flag: '🇧🇷' }
+    { code: 'pt-br', name: 'Português', flag: '🇧🇷' },
+    { code: 'th', name: 'ไทย', flag: '🇹🇭' }
 ];
 
 // Languages that were removed from the site. Their URLs 301-redirect to the
 // English equivalent so already-indexed pages don't turn into 404s.
-export const REMOVED_LANGUAGES = ['th', 'ru'];
+export const REMOVED_LANGUAGES = ['ru'];
 
 export function getCanonicalLang(lang: string | undefined): string {
     if (!lang) return 'en';

@@ -228,9 +228,30 @@ a:hover {
     overflow-y: auto;
 }
 
-.nav-dd.open .dd-menu,
-.lang-dd.open .dd-menu {
+.nav-dd.open .dd-menu {
     display: block;
+}
+
+@media(min-width: 769px) {
+    .lang-dd.open .dd-menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        min-width: max-content;
+        padding: 10px;
+    }
+    .lang-dd .dd-item {
+        padding: 8px 12px;
+        border: 1px solid var(--bd-lt);
+        border-radius: 4px;
+        background: var(--bg);
+    }
+}
+
+@media(max-width: 768px) {
+    .lang-dd.open .dd-menu {
+        display: block;
+    }
 }
 
 .dd-item {

@@ -81,7 +81,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'text',
         tags: ['Rename', 'Bulk'],
-        markets: ['en', 'ja', 'zh-tw', 'ko', 'pt-br'],
+        markets: ['en', 'ja', 'zh-tw', 'ko', 'pt-br', 'th'],
     },
     {
         slug: 'compress-video',
@@ -157,7 +157,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'pdf',
         tags: ['Barcode', 'QR Code'],
-        markets: ['en', 'ja', 'ko', 'zh-tw', 'pt-br'],
+        markets: ['en', 'ja', 'ko', 'zh-tw', 'pt-br', 'th'],
     },
     {
         slug: 'jan-code-generator',
@@ -189,7 +189,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'pdf',
         tags: ['OCR', 'Image to Text', 'Handwriting to Text'],
-        markets: ['en', 'ja', 'ko', 'zh-tw', 'pt-br'],
+        markets: ['en', 'ja', 'ko', 'zh-tw', 'pt-br', 'th'],
     },
     {
         slug: 'compare-two-lists',
@@ -206,7 +206,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'text',
         tags: ['List', 'Compare', 'Text'],
-        markets: ['en', 'ja', 'zh-tw', 'pt-br'],
+        markets: ['en', 'ja', 'zh-tw', 'pt-br', 'th'],
     },
     {
         slug: 'audio-converter',
@@ -222,7 +222,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'audio',
         tags: ['Audio', 'MP3', 'WAV', 'FLAC', 'M4A', 'OGG'],
-        markets: ['en', 'ja', 'ko', 'pt-br'],
+        markets: ['en', 'ja', 'ko', 'pt-br', 'th'],
     },
     {
         slug: 'extract-frames-from-video',
@@ -238,7 +238,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'video',
         tags: ['Video', 'Frame', 'Image', 'JPG', 'PNG'],
-        markets: ['en', 'ja', 'zh-tw', 'pt-br'],
+        markets: ['en', 'ja', 'zh-tw', 'pt-br', 'th'],
     },
     {
         slug: 'audio-to-text',
@@ -254,7 +254,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'audio',
         tags: ['Audio', 'Text', 'Transcribe', 'AI'],
-        markets: ['en', 'ja', 'zh-tw', 'ko', 'pt-br'],
+        markets: ['en', 'ja', 'zh-tw', 'ko', 'pt-br', 'th'],
     },
     {
         slug: 'video-to-text',
@@ -270,7 +270,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'video',
         tags: ['Video', 'Text', 'Transcribe', 'AI'],
-        markets: ['en', 'ja', 'zh-tw', 'ko', 'pt-br'],
+        markets: ['en', 'ja', 'zh-tw', 'ko', 'pt-br', 'th'],
     },
     {
         slug: 'png-to-pdf',
@@ -286,7 +286,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'pdf',
         tags: ['PNG', 'JPG', 'PDF'],
-        markets: ['en', 'ja', 'ko', 'pt-br'],
+        markets: ['en', 'ja', 'ko', 'pt-br', 'th'],
     },
     {
         slug: 'jpg-to-pdf',
@@ -302,7 +302,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'pdf',
         tags: ['JPG', 'JPEG', 'PDF'],
-        markets: ['en', 'ja', 'ko', 'zh-tw', 'pt-br'],
+        markets: ['en', 'ja', 'ko', 'zh-tw', 'pt-br', 'th'],
     },
     {
         slug: 'merge-pdf',
@@ -319,7 +319,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'pdf',
         tags: ['Merge', 'PDF', 'Images'],
-        markets: ['en', 'ja', 'zh-tw', 'ko', 'pt-br'],
+        markets: ['en', 'ja', 'zh-tw', 'ko', 'pt-br', 'th'],
     },
     {
         slug: 'word-counter',
@@ -335,7 +335,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'text',
         tags: ['Word', 'Character', 'Count', 'Text'],
-        markets: ['en', 'ja', 'zh-tw', 'ko', 'pt-br'],
+        markets: ['en', 'ja', 'zh-tw', 'ko', 'pt-br', 'th'],
     },
     {
         slug: 'transliteration',
@@ -351,7 +351,7 @@ export const tools: ToolConfig[] = [
         ],
         category: 'text',
         tags: ['Transliteration', 'Text', 'Language'],
-        markets: ['en', 'pt-br'],
+        markets: ['en'],
     }
 ];
 
