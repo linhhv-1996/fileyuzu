@@ -26,86 +26,10 @@
     let failed = $state(false);
 
     function injectAd(container: HTMLDivElement) {
-        loading = true;
-        failed = false;
-
-        const renderToId = `yandex_rtb_${adKey}_${cycle}`;
-        
-        let observer: MutationObserver | null = null;
-
-        tick().then(() => {
-            const targetDiv = container.querySelector(`#${renderToId}`);
-            if (!targetDiv) return;
-
-            observer = new MutationObserver((mutations) => {
-                for (const mutation of mutations) {
-                    if (mutation.addedNodes.length > 0) {
-                        loading = false;
-                        observer?.disconnect();
-                        return;
-                    }
-                }
-            });
-            observer.observe(targetDiv, { childList: true, subtree: true });
-
-            const execRender = () => {
-                (window as any).yaContextCb = (window as any).yaContextCb || [];
-                
-                if (!document.querySelector('script[src="https://yandex.ru/ads/system/context.js"]')) {
-                    const script = document.createElement("script");
-                    script.type = "text/javascript";
-                    script.src = "https://yandex.ru/ads/system/context.js";
-                    script.async = true;
-                    document.head.appendChild(script);
-                }
-
-                (window as any).yaContextCb.push(() => {
-                    if ((window as any).Ya && (window as any).Ya.Context && (window as any).Ya.Context.AdvManager) {
-                        (window as any).Ya.Context.AdvManager.render({
-                            blockId: adKey,
-                            renderTo: renderToId
-                        });
-                    }
-                });
-            };
-
-            // Delay script injection until after window load to prevent tab spinning
-            if (document.readyState === 'complete') {
-                setTimeout(execRender, 50);
-            } else {
-                window.addEventListener('load', execRender, { once: true });
-            }
-        });
-
-        const fallbackTimer = setTimeout(() => {
-            if (loading) {
-                loading = false;
-                failed = true;
-                if (observer) observer.disconnect();
-            }
-        }, 15000);
-
         return {
-            destroy() {
-                clearTimeout(fallbackTimer);
-                if (observer) observer.disconnect();
-            }
         };
     }
 
-    onMount(() => {
-        let reloadInterval: ReturnType<typeof setInterval> | undefined;
-
-        if (reloadAfter && reloadAfter > 0) {
-            reloadInterval = setInterval(() => {
-                cycle++;
-            }, reloadAfter * 1000);
-        }
-
-        return () => {
-            if (reloadInterval) clearInterval(reloadInterval);
-        };
-    });
 </script>
 
 <div
@@ -114,26 +38,6 @@
     class:is-failed={failed}
     style="width: {dimensions.width}px; height: {dimensions.height}px;"
 >
-    {#key cycle}
-        <div
-            class="banner-ads-container"
-            style="width: {dimensions.width}px; height: {dimensions.height}px;"
-            use:injectAd
-        >
-            <div id="yandex_rtb_{adKey}_{cycle}"></div>
-        </div>
-    {/key}
-
-    {#if loading}
-        <div
-            class="banner-ads-skeleton"
-            style="width: {dimensions.width}px; height: {dimensions.height}px;"
-        >
-            <div class="skeleton-pulse"></div>
-            <div class="skeleton-shimmer"></div>
-            <span class="skeleton-label">Ad</span>
-        </div>
-    {/if}
 </div>
 
 <style>
