@@ -14,8 +14,8 @@ ownerdomain=uploadless.app
 managerdomain=newormedia.com
 contact=hello@newormedia.com
 #Sovrn
-lijit.com, 217352, DIRECT, fafdf38b16bf6b2b #SOVRN
-lijit.com, 217352-eb, DIRECT, fafdf38b16bf6b2b #SOVRN
+lijit.com, 217352, DIRECT, fafdf38b16bf6b2b
+lijit.com, 217352-eb, DIRECT, fafdf38b16bf6b2b
 openx.com, 538959099, RESELLER, 6a698e2ec38604c6
 pubmatic.com, 137711, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156212, RESELLER, 5d62403b186f2ace
@@ -27,7 +27,7 @@ openx.com, 539824308, DIRECT, 6a698e2ec38604c6
 conversantmedia.com, 41812, DIRECT, 03113cd04947736d
 appnexus.com, 4052, RESELLER
 contextweb.com, 561998, RESELLER, 89ff185a4c4e857c
-lijit.com, 411121, RESELLER, fafdf38b16bf6b2b #SOVRN
+lijit.com, 411121, RESELLER, fafdf38b16bf6b2b
 openx.com, 540031703, RESELLER, 6a698e2ec38604c6
 pubmatic.com, 158100, RESELLER, 5d62403b186f2ace
 rubiconproject.com, 23644, RESELLER, 0bfd66d529a55807
@@ -108,19 +108,19 @@ indexexchange.com, 207985, RESELLER, 50b1c356f2c5c8fc
 openx.com, 540224251, DIRECT, 6a698e2ec38604c6
 openx.com, 540225743, DIRECT, 6a698e2ec38604c6
 33across.com, 0010b00002e4MRRAA2, DIRECT, bbea06d9c4d2853c
-33across.com, 001Pg000007PnplIAC, DIRECT, bbea06d9c4d2853c #33Across #hb #tag
+33across.com, 001Pg000007PnplIAC, DIRECT, bbea06d9c4d2853c
 yieldmo.com, 2230523609997805235, DIRECT
 yieldmo.com, 3483642730188317326, DIRECT
 #33Across
 33across.com, 0010b00002Mpn7AAAR, DIRECT, bbea06d9c4d2853c
-appnexus.com, 10239, RESELLER, f5ab79cb980f11d1 #33Across #hb #tag #viewable
-rubiconproject.com, 16414, RESELLER, 0bfd66d529a55807 #33Across #hb #tag
-pubmatic.com, 156423, RESELLER, 5d62403b186f2ace #33Across #hb #tag
-yahoo.com, 57289, RESELLER, e1a5b5b6e3255540 #33Across #hb #tag
-rubiconproject.com, 21642, RESELLER, 0bfd66d529a55807 #33Across #hb #tag #viewable
-conversantmedia.com, 100141, DIRECT #33Across #hb #tag
-indexexchange.com, 191973, RESELLER, 50b1c356f2c5c8fc #33Across #hb #tag #viewable
-openx.com, 537120563, RESELLER, 6a698e2ec38604c6 #33Across #hb #tag
+appnexus.com, 10239, RESELLER, f5ab79cb980f11d1
+rubiconproject.com, 16414, RESELLER, 0bfd66d529a55807
+pubmatic.com, 156423, RESELLER, 5d62403b186f2ace
+yahoo.com, 57289, RESELLER, e1a5b5b6e3255540s
+rubiconproject.com, 21642, RESELLER, 0bfd66d529a55807
+conversantmedia.com, 100141, DIRECT
+indexexchange.com, 191973, RESELLER, 50b1c356f2c5c8fc
+openx.com, 537120563, RESELLER, 6a698e2ec38604c6
 contextweb.com, 561516, RESELLER, 89ff185a4c4e857c
 loopme.com, 11575, RESELLER, 6c8d5f95897a5a3b
 triplelift.com, 12503, RESELLER, 6c33edb13117fd86
@@ -269,7 +269,7 @@ rubiconproject.com, 16928, RESELLER, 0bfd66d529a55807
 blis.com, 33, RESELLER, 61453ae19a4b73f4
 pubmatic.com, 162412, RESELLER, 5d62403b186f2ace
 gumgum.com, 13926, RESELLER, ffdef49475d318a9
-33across.com, 0010b00002Mq2FYAAZ, DIRECT, bbea06d9c4d2853c #33Across #hb #tag
+33across.com, 0010b00002Mq2FYAAZ, DIRECT, bbea06d9c4d2853c
 Media.net, 8CU3M1HM4, DIRECT
 #Media.net
 media.net, 8CUT8W5DX, RESELLER
@@ -1586,7 +1586,8 @@ criteo.com, B-068838, DIRECT, 9fac4a4a87c2a44f
 criteo.com, B-070724, DIRECT, 9fac4a4a87c2a44f
 criteo.com,B-059856,DIRECT,9fac4a4a87c2a44f
 cyanads.com, 295866727, RESELLER
-cyanads.com, 295866727, RESELLERimprovedigital.com, 2891, RESELLER
+cyanads.com, 295866727, RESELLER
+improvedigital.com, 2891, RESELLER
 d-sail.com, ds0453, DIRECT
 d-sail.com, mgid-ds-831706, DIRECT
 d-sail.com, pxf_1, DIRECT
@@ -3780,4 +3781,3 @@ zmaticoo.com, 5135004, RESELLER
 zmaticoo.com,113149,RESELLER
 zmaticoo.com,5135082,RESELLER
 zoklent.com, zok-1008, RESELLER
-cyanads.com, 295866727, RESELLERimprovedigital.com, 2891, RESELLER
