@@ -1,0 +1,1459 @@
+{
+    "blog.toc": "Sumário",
+    "blog.subtitle": "Guias úteis, dicas práticas e atualizações do UploadLess.",
+    "blog.read_article": "Ler artigo",
+    "common.try_now": "Usar esta ferramenta gratuitamente",
+    "home.search.placeholder": "Buscar ferramentas",
+    "blog.author_bio": "J.Julian é o criador e desenvolvedor principal do UploadLess. Com sólida formação em engenharia de software e arquitetura web, ele se dedica a criar soluções de compartilhamento de arquivos seguras, de alto desempenho e fáceis de usar para a web moderna.",
+    "compress_video.upload.title": "Arraste um arquivo de vídeo aqui para comprimir",
+    "compress_video.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · até 500 MB",
+    "compress_video.upload.btn_select": "Selecionar arquivo de vídeo",
+    "compress_video.upload.btn_sample": "Testar vídeo de exemplo",
+    "compress_video.upload.hint": "Selecione um arquivo de vídeo para comprimir e reduzir seu tamanho",
+    "video_converter.upload.title": "Arraste um arquivo de vídeo aqui para converter",
+    "video_converter.upload.subtitle": "MP4, MOV, AVI, MKV, WebM e mais · conversão direto no navegador",
+    "video_converter.upload.btn_select": "Selecionar arquivo de vídeo",
+    "video_converter.upload.btn_sample": "Testar vídeo de exemplo",
+    "video_converter.upload.hint": "Selecione um arquivo de vídeo para converter para outro formato",
+    "video_2_mp3.upload.title": "Arraste um arquivo de vídeo aqui para converter para MP3",
+    "video_2_mp3.upload.subtitle": "Vários formatos de vídeo · extraia o áudio em MP3",
+    "video_2_mp3.upload.btn_select": "Selecionar arquivo de vídeo",
+    "video_2_mp3.upload.btn_sample": "Testar vídeo de exemplo",
+    "video_2_mp3.upload.hint": "Selecione um arquivo de vídeo para converter seu áudio em MP3",
+    "pdf_compressor.upload.title": "Arraste um arquivo PDF aqui para comprimir",
+    "pdf_compressor.upload.subtitle": "PDF · até 100 MB · tamanho de arquivo menor",
+    "pdf_compressor.upload.btn_select": "Selecionar arquivo PDF",
+    "pdf_compressor.upload.btn_sample": "Testar PDF de exemplo",
+    "pdf_compressor.upload.hint": "Selecione um arquivo PDF para comprimir e diminuir o tamanho",
+    "_comment_home": "================ Home ================",
+    "home.seo.title": "Ferramentas Online Grátis Sem Fazer Upload de Arquivos",
+    "home.seo.description": "Use ferramentas online gratuitas para arquivos, imagens, PDFs, vídeos, textos e códigos de barras no seu navegador. Tudo 100% privado e sem cadastro.",
+    "home.hero.title": "Ferramentas de Arquivos Que Nunca Saem do Seu Dispositivo",
+    "home.hero.description": "A maioria das ferramentas online exige o envio dos seus arquivos para servidores — o que é lento, arriscado e muitas vezes limitado pelo tamanho do arquivo ou necessidade de cadastro. Aqui é diferente: cada ferramenta processa seus arquivos no seu próprio dispositivo, sem servidores envolvidos. Isso significa resultados mais rápidos, privacidade total e sem limites de uso.",
+    "home.popular_tools": "Ferramentas Populares",
+    "home.popular": "Popular",
+    "home.pill.private": "Arquivos nunca saem do seu dispositivo",
+    "home.pill.instant": "Instantâneo, sem filas",
+    "home.pill.free": "100% gratuito",
+    "home.why.private.title": "100% Privado",
+    "home.why.private.desc": "A compressão roda no seu navegador via WebAssembly. Seu arquivo nunca sai do seu dispositivo.",
+    "home.why.instant.title": "Sem necessidade de cadastro",
+    "home.why.instant.desc": "Abra a página e comece a usar. Sem conta, sem marca d'água e sem limite de tempo.",
+    "home.why.device.title": "Funciona em qualquer dispositivo",
+    "home.why.device.desc": "Totalmente responsivo. Não requer a instalação de nenhum aplicativo.",
+    "home.faq.title": "Perguntas Frequentes",
+    "_comment_home_faq": "6 SEO-optimized FAQs for the home page — covers: free, privacy/no upload, no account, available tools, file size limit, mobile support",
+    "home.faq.items": [
+        {
+            "q": "Todas as ferramentas do UploadLess são gratuitas?",
+            "a": "Sim. Todas as ferramentas no UploadLess são 100% gratuitas. Você não precisa pagar, assinar nem criar uma conta para comprimir arquivos, converter formatos, extrair texto, gerar códigos de barras ou usar outros utilitários."
+        },
+        {
+            "q": "Preciso fazer upload dos meus arquivos para um servidor?",
+            "a": "Não. O UploadLess foi projetado para processar arquivos diretamente no seu navegador sempre que possível. Seus arquivos permanecem no seu dispositivo sem ir para um servidor remoto, garantindo mais velocidade e privacidade."
+        },
+        {
+            "q": "Como o UploadLess processa arquivos no navegador?",
+            "a": "Muitas ferramentas usam tecnologias modernas de navegadores, como WebAssembly, para executar o processamento localmente no seu dispositivo. Isso permite que tarefas como compressão de vídeo e PDF, OCR, conversão de áudio e formato funcionem sem envios tradicionais para servidores."
+        },
+        {
+            "q": "Preciso criar uma conta para usar?",
+            "a": "Não. O UploadLess não requer cadastro. Você pode abrir a ferramenta que precisa, escolher o arquivo, processá-lo no navegador e baixar o resultado sem registrar um e-mail."
+        },
+        {
+            "q": "Que tipo de ferramentas estão disponíveis no UploadLess?",
+            "a": "O UploadLess inclui ferramentas gratuitas para compressão de vídeo, conversão de áudio e vídeo, compressão de PDF, compressão de imagem, OCR, transcrição de áudio/vídeo, gerador de código de barras, extração de frames de vídeo, utilitários de texto e muito mais."
+        },
+        {
+            "q": "O UploadLess é seguro para arquivos privados e confidenciais?",
+            "a": "O UploadLess foi construído focado em privacidade. Como o processamento acontece localmente no seu navegador para as ferramentas suportadas, seus arquivos não são enviados aos servidores do UploadLess. Isso é ideal para documentos pessoais, arquivos de trabalho, gravações e fotos confidenciais."
+        },
+        {
+            "q": "Existe um limite de tamanho de arquivo?",
+            "a": "Não há um limite rígido tradicional de upload porque os arquivos são processados no seu próprio dispositivo, sem envio para servidores. No entanto, arquivos extremamente grandes podem ser limitados pela memória RAM e desempenho do seu navegador e dispositivo."
+        },
+        {
+            "q": "Por que a primeira execução demora mais para algumas ferramentas?",
+            "a": "Algumas ferramentas precisam carregar bibliotecas de processamento no navegador ou modelos de IA na primeira vez que você as utiliza. Após o primeiro carregamento, seu navegador armazena esses arquivos em cache, tornando os usos futuros muito mais rápidos."
+        },
+        {
+            "q": "Posso usar o UploadLess no celular?",
+            "a": "Sim. O UploadLess funciona em navegadores móveis modernos em celulares e tablets. Arquivos menores costumam rodar muito bem no celular, enquanto vídeos maiores ou tarefas de IA podem ter melhor desempenho em computadores com mais memória."
+        },
+        {
+            "q": "Quando devo usar o UploadLess em vez de um conversor online tradicional?",
+            "a": "Use o UploadLess quando quiser ferramentas rápidas e gratuitas sem precisar enviar seus arquivos para servidores de terceiros. É especialmente útil para tarefas simples como comprimir um vídeo, diminuir o tamanho de um PDF, converter áudio ou extrair texto de uma imagem com total privacidade."
+        }
+    ],
+    "_comment_categories": "================ Categorias de Ferramentas ================",
+    "home.category.video": "Vídeo",
+    "home.category.pdf": "PDF",
+    "compress_video.seo.title": "Comprimir Vídeo Online Grátis e Reduzir Tamanho de Arquivo",
+    "compress_video.seo.description": "Comprima vídeos online grátis direto no navegador. Reduza o tamanho de vídeos MP4, MOV, AVI, MKV e WebM com total privacidade e sem fazer upload.",
+    "compress_video.hero.title": "Compressor de Vídeo Online Grátis",
+    "compress_video.hero.description": "Comprima arquivos de vídeo online gratuitamente — sem upload, sem cadastro. Roda inteiramente no seu navegador e suporta MP4, MOV, AVI, MKV e WebM.",
+    "compress_video.settings.auto_optimize": "Otimizar automaticamente",
+    "compress_video.settings.size_lbl": "Tamanho de arquivo desejado",
+    "compress_video.btn.compress": "Comprimir vídeo",
+    "compress_video.btn.download": "Baixar vídeo",
+    "compress_video.btn.compress_new": "Comprimir novos arquivos",
+    "compress_video.proc.compressing": "Comprimindo vídeo",
+    "_comment_pdf_compressor": "================ PDF Compressor ================",
+    "pdf_compressor.seo.title": "Comprimir PDF Online Grátis - Reduzir Tamanho de Arquivo PDF",
+    "pdf_compressor.seo.description": "Comprima arquivos PDF online grátis com total privacidade. Reduza o tamanho de PDFs direto no seu navegador sem fazer upload e sem criar conta.",
+    "pdf_compressor.hero.title": "Compressor de PDF Online Grátis",
+    "pdf_compressor.hero.description": "Reduza o tamanho de arquivos PDF online gratuitamente — sem upload, sem cadastro. Roda inteiramente no seu navegador.",
+    "pdf_compressor.settings.quality_lbl": "Predefinição de qualidade",
+    "pdf_compressor.settings.quality_balanced": "Equilibrado (Ebook)",
+    "pdf_compressor.settings.quality_maximum": "Compressão Máxima (Tela)",
+    "pdf_compressor.settings.password_lbl": "Senha para desbloquear (opcional)",
+    "pdf_compressor.settings.password_placeholder": "Senha (se estiver protegido)",
+    "pdf_compressor.btn.compress": "Comprimir PDF",
+    "pdf_compressor.btn.download": "Baixar PDF",
+    "pdf_compressor.btn.compress_new": "Comprimir novos arquivos",
+    "pdf_compressor.proc.compressing": "Comprimindo PDF",
+    "pdf_compressor.how_to_use.title": "Como Comprimir um PDF Online",
+    "pdf_compressor.how_to_use.steps": [
+        "Selecione um arquivo PDF do seu dispositivo ou arraste e solte na área indicada.",
+        "Escolha uma qualidade: Equilibrado (Ebook) para ótimos resultados padrão, ou Compressão Máxima (Tela) para maior redução de tamanho.",
+        "Se o seu PDF estiver protegido por senha, insira-a para permitir o processamento local.",
+        "Clique em Comprimir e aguarde um instante. Seu PDF será comprimido direto no seu navegador e ficará pronto para download."
+    ],
+    "pdf_compressor.why_use.title": "Por que usar o Compressor de PDF do UploadLess",
+    "pdf_compressor.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "100% privado",
+            "description": "A compressão do PDF roda localmente no seu navegador. Seu arquivo jamais sai do seu dispositivo."
+        },
+        {
+            "icon": "bolt",
+            "title": "Sem necessidade de cadastro",
+            "description": "Comprima PDFs instantaneamente sem precisar criar conta, sem marcas d'água e sem limites de tempo."
+        },
+        {
+            "icon": "player-play",
+            "title": "Processo simples",
+            "description": "Escolha um PDF, selecione a qualidade desejada e baixe o arquivo comprimido em poucos cliques."
+        },
+        {
+            "icon": "adjustments",
+            "title": "Qualidade ajustável",
+            "description": "Use Equilibrado (Ebook) para obter os melhores resultados padrão, ou Compressão Máxima (Tela) para uma redução ainda maior."
+        }
+    ],
+    "pdf_compressor.faq.title": "Perguntas Frequentes sobre o Compressor de PDF",
+    "pdf_compressor.faq.items": [
+        {
+            "q": "Meu PDF é enviado para algum servidor?",
+            "a": "Não. A compressão de PDF é executada localmente no seu navegador usando Ghostscript via WebAssembly. Seu arquivo PDF nunca sai do seu dispositivo."
+        },
+        {
+            "q": "Qual é o tamanho máximo de arquivo PDF aceito?",
+            "a": "Você pode comprimir arquivos PDF de até 100 MB. PDFs muito grandes ou com muitas imagens podem levar um pouco mais de tempo dependendo do seu dispositivo."
+        },
+        {
+            "q": "Este compressor de PDF é realmente grátis?",
+            "a": "Sim. O UploadLess permite comprimir arquivos PDF online gratuitamente, sem cadastro, sem marca d'água e sem necessidade de instalação."
+        },
+        {
+            "q": "Como reduzo o tamanho de um PDF online?",
+            "a": "Selecione ou arraste o seu PDF, escolha uma opção de qualidade e clique em Comprimir. A ferramenta reduzirá o tamanho do PDF direto no navegador e disponibilizará o download."
+        },
+        {
+            "q": "Qual opção de qualidade devo escolher?",
+            "a": "Equilibrado (Ebook) é a opção padrão e funciona melhor para a maioria dos PDFs. Escolha Compressão Máxima (Tela) quando quiser uma compressão mais forte para um arquivo ainda menor."
+        },
+        {
+            "q": "Posso diminuir o tamanho do PDF sem perder qualidade?",
+            "a": "A compressão de PDF geralmente reduz o tamanho otimizando imagens e dados do documento, o que pode alterar levemente o aspecto visual. Para o melhor equilíbrio, utilize a opção Equilibrado (Ebook)."
+        },
+        {
+            "q": "Posso comprimir um PDF para enviar por e-mail?",
+            "a": "Sim. Esta ferramenta ajuda a diminuir PDFs para anexos de e-mail, envios de formulários e compartilhamento. O tamanho final depende do conteúdo do arquivo original."
+        },
+        {
+            "q": "Consigo comprimir um PDF protegido por senha?",
+            "a": "Sim, caso você saiba a senha. Digite a senha antes da compressão para que o arquivo possa ser desbloqueado e processado localmente no navegador."
+        },
+        {
+            "q": "Este compressor de PDF funciona no Mac, Windows, iPhone e Android?",
+            "a": "Sim. O UploadLess funciona em navegadores modernos no Mac, Windows, iPhone, Android e outros sistemas. Não exige instalação de aplicativos."
+        },
+        {
+            "q": "Posso comprimir vários arquivos PDF de uma só vez?",
+            "a": "Atualmente, a ferramenta comprime um PDF por vez para manter o processo simples, privado e estável diretamente no seu navegador."
+        }
+    ],
+    "related_tools.title": "Ferramentas Relacionadas",
+    "common.tools": "Ferramentas",
+    "common.blog": "Blog",
+    "blog.also_read": "Leia Também",
+    "common.language": "Idioma",
+    "common.footer.copyright": "© 2025 UploadLess",
+    "common.footer.about": "Sobre",
+    "common.footer.privacy": "Privacidade",
+    "common.footer.terms": "Termos de Uso",
+    "common.footer.contact": "Contato",
+    "tool.compress_video.title": "Compressor de Vídeo",
+    "tool.compress_video.description": "Comprima vídeos gratuitamente no seu navegador. Seus arquivos permanecem privados e nunca são enviados ao nosso servidor.",
+    "tool.compress_video.short_description": "Comprima vídeos com privacidade no seu navegador.",
+    "tool.pdf_compressor.title": "Compressor de PDF",
+    "tool.pdf_compressor.description": "Reduza o tamanho do arquivo PDF gratuitamente, direto no seu navegador. Sem upload, mantendo seus documentos privados.",
+    "tool.pdf_compressor.short_description": "Reduza o tamanho do PDF sem fazer upload.",
+    "tool.video_converter.title": "Conversor de Vídeo",
+    "tool.video_converter.description": "Converta arquivos de vídeo para diferentes formatos gratuitamente. Tudo roda no seu navegador sem enviar arquivos para servidores.",
+    "tool.video_converter.short_description": "Converta vídeos diretamente no seu navegador.",
+    "tool.video_to_mp3.title": "Vídeo para MP3",
+    "tool.video_to_mp3.description": "Extraia áudio MP3 de vídeos gratuitamente. Conversão privada direto no navegador, sem upload para servidores.",
+    "tool.video_to_mp3.short_description": "Extraia áudio MP3 de vídeos com privacidade.",
+    "_comment_video_converter": "================ Video Converter ================",
+    "video_converter.seo.title": "Conversor de Vídeo Online Grátis - Converter MP4, MOV, MKV",
+    "video_converter.seo.description": "Converta vídeos online gratuitamente sem enviar arquivos. Mude formatos como MP4, MOV, MKV, WebM e AVI com privacidade no seu navegador.",
+    "video_converter.hero.title": "Conversor de Vídeo Online Grátis",
+    "video_converter.hero.description": "Converta vídeos entre MP4, MOV, MKV, WebM, AVI e mais. Conversão rápida, privada e no navegador, sem marcas d'água.",
+    "video_converter.settings.format_lbl": "Formato de destino",
+    "video_converter.btn.convert": "Converter vídeo",
+    "video_converter.btn.download": "Baixar arquivo",
+    "video_converter.btn.convert_new": "Converter novos arquivos",
+    "video_converter.proc.converting": "Convertendo vídeo",
+    "_comment_compress_mp4": "================ Compress MP4 ================",
+    "_comment_reduce_video_size": "================ Reduce Video Size ================",
+    "pdf_compressor.pages": "páginas",
+    "_comment_mov_to_mp4": "================ MOV to MP4 ================",
+    "_comment_avi_to_mp4": "================ AVI to MP4 ================",
+    "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
+    "_comment_webm_to_mp4": "================ WebM to MP4 ================",
+    "_comment_video_to_mp3": "================ Video to MP3 ================",
+    "video_to_mp3.seo.title": "Converter Vídeo para MP3 Online - Extrair Áudio de Vídeo Grátis",
+    "video_to_mp3.seo.description": "Converta vídeos para MP3 online gratuitamente. Extraia áudio de arquivos MP4, MOV, MKV, WebM e AVI direto no seu navegador com velocidade e privacidade.",
+    "video_to_mp3.hero.title": "Conversor de Vídeo para MP3",
+    "video_to_mp3.hero.description": "Extraia áudio de vídeos em MP4, MOV, MKV, WebM ou AVI e salve em MP3 diretamente no seu navegador.",
+    
+
+    "_comment_mp4_converter": "================ MP4 Converter ================",
+    "_comment_barcode_generator": "================ Barcode Generator ================",
+    "tool.barcode_generator.title": "Gerador de Código de Barras",
+    "tool.barcode_generator.description": "Gere imagens de códigos de barras gratuitamente no seu navegador. Suporta EAN/JAN, Code 128, QR Code, Data Matrix e mais.",
+    "tool.barcode_generator.short_description": "Gere códigos de barras no navegador.",
+    "barcode_generator.content_lbl": "Conteúdo do Código de Barras",
+    "barcode_generator.content_placeholder": "Digite o conteúdo, um por linha...",
+    "barcode_generator.type_lbl": "Tipo de Código de Barras",
+    "barcode_generator.scale_lbl": "Tamanho (Escala)",
+    "barcode_generator.label_lbl": "Exibir Rótulo/Texto",
+    "barcode_generator.format_lbl": "Formato de Saída",
+    "barcode_generator.btn_generate": "Gerar Códigos de Barras",
+    "barcode_generator.results_title": "Códigos de Barras Gerados",
+    "barcode_generator.btn_download": "Baixar",
+    "barcode_generator.btn_download_zip": "Baixar ZIP",
+    "barcode_generator.yes": "Sim",
+    "barcode_generator.no": "Não",
+    "barcode_generator.why_use.title": "Por que usar o Gerador de Código de Barras do UploadLess",
+    "barcode_generator.how_to_use.title": "Como Gerar Códigos de Barras Online",
+    "barcode_generator.faq.title": "Perguntas Frequentes sobre Códigos de Barras",
+    "barcode_generator.btn_downloadbtn_gen_new": "Gerar novos códigos de barras",
+    "barcode_generator.tab_manual": "Manual",
+    "barcode_generator.tab_file": "Enviar Arquivo",
+    "barcode_generator.tab_sequence": "Sequencial",
+    "barcode_generator.tip_manual": "Dica: Formate como \"Código, Nome do Produto\" em cada linha para incluir rótulos personalizados.",
+    "barcode_generator.upload_hint": "Clique para enviar um arquivo CSV ou Excel",
+    "barcode_generator.upload_subhint": "Coluna A: Código | Coluna B: Rótulo",
+    "barcode_generator.seq_start": "Número Inicial",
+    "barcode_generator.seq_qty": "Quantidade",
+    "barcode_generator.seq_step": "Incremento (Passo)",
+    "barcode_generator.generating": "Gerando",
+    "barcode_generator.seo.title": "Gerador de Código de Barras Online Grátis - Criar e Imprimir",
+    "barcode_generator.seo.description": "Crie códigos de barras online grátis. Gere etiquetas imprimíveis, códigos de produtos, imagens PNG, arquivos SVG, PDFs ou em lote em segundos.",
+    "barcode_generator.hero.title": "Gerador de Código de Barras Online Grátis",
+    "barcode_generator.hero.description": "Crie códigos de barras instantaneamente para produtos, etiquetas, estoque e embalagens. Gere códigos individuais ou em lote e baixe em PNG, SVG, PDF ou prontos para impressão.",
+    "_comment_image_to_text": "================ Image to Text (OCR) ================",
+    "image_to_text.seo.title": "Converter Imagem em Texto Online Grátis - OCR Privado",
+    "image_to_text.seo.description": "Converta imagens em texto online gratuitamente. Extraia, copie e edite texto de fotos JPG, PNG, prints e imagens usando OCR privado no navegador.",
+    "image_to_text.hero.title": "Conversor de Imagem em Texto (OCR)",
+    "image_to_text.hero.description": "Extraia texto de imagens, fotos, capturas de tela, arquivos JPG e PNG instantaneamente. OCR rápido, gratuito e privado executado no seu navegador.",
+    "image_to_text.btn.copy": "Copiar Texto",
+    "image_to_text.btn.copy_all": "Copiar Tudo",
+    "image_to_text.btn.clean": "Limpar Formatação",
+    "image_to_text.btn.join": "Juntar Linhas",
+    "image_to_text.lang.auto": "Automático",
+    "image_to_text.lang.zh": "Chinês",
+    "image_to_text.lang.ja": "Japonês",
+    "image_to_text.lang.ko": "Coreano",
+    "image_to_text.lang.th": "Tailandês",
+    "image_to_text.lang.cyrillic": "Cirílico",
+    "image_to_text.upload.title": "Arraste imagens aqui ou clique para enviar",
+    "image_to_text.upload.subtitle": "Você também pode colar imagens diretamente da área de transferência (Ctrl+V).",
+    "image_to_text.upload.btn_select": "Selecionar Imagens",
+    "image_to_text.upload.btn_sample": "Carregar exemplo",
+    "image_to_text.upload.hint": "Processamento instantâneo de múltiplas imagens",
+    "image_to_text.ready.info": "Use 'Automático' para idiomas de alfabeto latino; selecione o modelo específico para chinês, japonês, coreano, tailandês ou cirílico.",
+    "image_to_text.btn.start": "Iniciar Reconhecimento",
+    "image_to_text.status.waiting": "Aguardando...",
+    "image_to_text.status.pending": "Pendente...",
+    "image_to_text.status.processing": "Processando...",
+    "image_to_text.status.done": "Concluído",
+    "image_to_text.text.try_samples": "Experimente com uma imagem de exemplo",
+    "tool.image_to_text.title": "Imagem em Texto",
+    "tool.image_to_text.description": "Extraia texto de imagens localmente no navegador. Rápido, privado e compatível com processamento em lote.",
+    "tool.image_to_text.short_description": "Extraia texto de imagens com privacidade.",
+    "donate.title": "Apoie o Criador",
+    "donate.description": "Ajude a manter os servidores ativos e a ferramenta 100% gratuita.",
+    "donate.button": "Apoiar no Ko-fi",
+    "tool.compare_two_lists.title": "Comparar Duas Listas",
+    "tool.compare_two_lists.description": "Cole textos ou envie arquivos TXT, CSV e Excel para encontrar diferenças, correspondências, duplicatas e valores únicos entre duas listas.",
+    "tool.compare_two_lists.short_description": "Encontre diferenças, correspondências e duplicatas entre duas listas.",
+    "tool.compare_two_lists.seo.title": "Comparar Duas Listas Online - Comparador TXT, CSV e Excel",
+    "tool.compare_two_lists.seo.description": "Compare duas listas online cole textos ou envie arquivos CSV e Excel. Encontre diferenças, correspondências, duplicatas e itens únicos gratuitamente.",
+    "tool.compare_two_lists.hero.title": "Comparar Duas Listas Online",
+    "tool.compare_two_lists.hero.description": "Cole texto ou envie arquivos CSV e Excel para comparar duas listas instantaneamente. Identifique itens exclusivos de cada lista, correspondências e duplicatas.",
+    "compare_two_lists.btn_upload": "Enviar",
+    "compare_two_lists.trim_whitespace": "Remover Espaços",
+    "compare_two_lists.ignore_case": "Ignorar Maiúsculas/Minúsculas",
+    "compare_two_lists.first_row_is_header": "Primeira linha é cabeçalho",
+    "compare_two_lists.all_columns": "Todas as Colunas",
+    "compare_two_lists.list_a": "Lista A",
+    "compare_two_lists.placeholder_a": "Cole os itens da Lista A aqui, um por linha...",
+    "compare_two_lists.list_b": "Lista B",
+    "compare_two_lists.placeholder_b": "Cole os itens da Lista B aqui, um por linha...",
+    "compare_two_lists.btn_compare": "Comparar Listas",
+    "compare_two_lists.btn_compare_new": "Comparar novas listas",
+    "compare_two_lists.only_a": "Apenas na Lista A",
+    "compare_two_lists.only_b": "Apenas na Lista B",
+    "compare_two_lists.in_both": "Presente em Ambas",
+    "compare_two_lists.all_unique": "Todos os Valores Únicos",
+    "compare_two_lists.duplicates_a": "Duplicatas na Lista A",
+    "compare_two_lists.duplicates_b": "Duplicatas na Lista B",
+    "compare_two_lists.btn_copy": "Copiar",
+    "compare_two_lists.how_to_use.title": "Como Comparar Duas Listas",
+    "compare_two_lists.how_to_use.steps": [
+        "Cole seu texto nas duas caixas de lista ou envie arquivos TXT, CSV ou Excel do seu dispositivo.",
+        "Ajuste as opções de comparação, como ignorar maiúsculas/minúsculas, remover espaços, selecionar colunas ou detectar duplicatas.",
+        "O UploadLess comparará ambas as listas no navegador e exibirá os itens exclusivos da Lista A, da Lista B e comuns a ambas.",
+        "Revise os resultados e depois copie ou exporte as diferenças, correspondências e duplicatas."
+    ],
+    "compare_two_lists.why_use.title": "Por que usar o Comparador de Listas do UploadLess",
+    "compare_two_lists.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "Comparação Privada de Listas",
+            "description": "Compare duas listas diretamente no seu navegador. Seus textos e dados em CSV ou Excel não são enviados para nenhum servidor."
+        },
+        {
+            "icon": "bolt",
+            "title": "Ferramenta Rápida e Gratuita",
+            "description": "Compare listas online grátis, sem necessidade de cadastro, instalação de softwares ou taxas escondidas."
+        },
+        {
+            "icon": "file-text",
+            "title": "Cole Texto ou Envie Arquivos",
+            "description": "Cole manualmente ou envie planilhas CSV e Excel para comparar linhas, colunas, códigos, e-mails, SKUs ou palavras-chave."
+        },
+        {
+            "icon": "list-check",
+            "title": "Encontre Diferenças e Duplicatas",
+            "description": "Veja instantaneamente os itens exclusivos da Lista A, da Lista B, valores presentes em ambas e entradas duplicadas."
+        }
+    ],
+    "compare_two_lists.faq.title": "Perguntas Frequentes sobre Comparação de Listas",
+    "compare_two_lists.faq.items": [
+        {
+            "q": "Como faço para comparar duas listas online?",
+            "a": "Cole suas duas listas nas caixas de entrada ou envie arquivos TXT, CSV ou Excel. O UploadLess compara as listas no navegador e mostra as diferenças, correspondências e duplicatas na hora."
+        },
+        {
+            "q": "Posso comparar planilhas ou colunas do Excel?",
+            "a": "Sim. Você pode enviar arquivos do Excel ou colar colunas copiadas do Excel ou Google Sheets para comparar valores, e-mails, SKUs e IDs sem usar fórmulas."
+        },
+        {
+            "q": "Consigo comparar arquivos CSV online?",
+            "a": "Sim. O UploadLess suporta envio de arquivos CSV para você encontrar linhas faltantes e entradas duplicadas diretamente no navegador."
+        },
+        {
+            "q": "Qual é a melhor maneira de comparar duas listas?",
+            "a": "Usar uma ferramenta online de comparação de listas é a forma mais fácil. Basta colar seus dados para identificar rapidamente o que é exclusivo de cada lista ou comum a ambas."
+        },
+        {
+            "q": "Como encontrar diferenças entre duas listas?",
+            "a": "Envie ou cole as duas listas e execute a comparação. A ferramenta destaca os itens que aparecem só na primeira lista, só na segunda ou em ambas."
+        },
+        {
+            "q": "Posso encontrar itens em comum em duas listas?",
+            "a": "Sim. A ferramenta identifica correspondências exatas em ambas as listas, ideal para comparar cadastros de clientes, listas de e-mail, produtos e estoques."
+        },
+        {
+            "q": "Consigo detectar valores duplicados em uma lista?",
+            "a": "Sim. O UploadLess detecta repetições para ajudar você a limpar listas de texto, arquivos CSV, e-mails e palavras-chave antes de exportar."
+        },
+        {
+            "q": "Posso fazer cruzamento de dados entre duas listas?",
+            "a": "Sim. Você pode cruzar duas listas para ver divergências, ausências e itens correspondentes entre registros, e-mails, códigos SKU e URLs."
+        },
+        {
+            "q": "É possível comparar listas de e-mails ou palavras-chave?",
+            "a": "Sim. Você pode enviar ou colar listas de e-mails, palavras-chave, códigos SKU, URLs e outros dados em texto para identificar diferenças e duplicatas."
+        },
+        {
+            "q": "Os dados das minhas listas são enviados para algum servidor?",
+            "a": "Não. O UploadLess compara suas listas direto no seu navegador. Nenhuma informação de texto, CSV ou Excel é enviada para servidores externos."
+        }
+    ],
+    "tool.audio_converter.title": "Conversor de Áudio",
+    "tool.audio_converter.description": "Converta arquivos de áudio para diferentes formatos gratuitamente. Tudo roda no seu navegador sem enviar arquivos para servidores.",
+    "tool.audio_converter.short_description": "Converta áudio diretamente no seu navegador.",
+    "_comment_audio_converter": "================ Audio Converter ================",
+    "audio_converter.seo.title": "Conversor de Áudio Online Grátis (WAV, MP3, FLAC, M4A)",
+    "audio_converter.seo.description": "Converta arquivos de áudio online grátis com alta qualidade. Conversão em lote entre MP3, WAV, FLAC, M4A e OGG com total segurança no navegador.",
+    "audio_converter.hero.title": "Conversor de Áudio Online Grátis",
+    "audio_converter.hero.description": "Converta múltiplos arquivos de áudio em lote entre MP3, WAV, M4A, FLAC, OGG e mais. Conversão rápida, 100% privada e no navegador com controle de bitrate.",
+    "audio_converter.upload.title": "Arraste arquivos de áudio aqui para converter",
+    "audio_converter.upload.subtitle": "MP3, WAV, FLAC, M4A, OGG e mais · conversão no navegador",
+    "audio_converter.upload.btn_select": "Selecionar arquivos de áudio",
+    "audio_converter.upload.btn_sample": "Testar áudio de exemplo",
+    "audio_converter.upload.hint": "Selecione arquivos de áudio para converter para outro formato",
+    "audio_converter.settings.format_lbl": "Formato de destino",
+    "audio_converter.btn.convert": "Converter todos",
+    "audio_converter.btn.download": "Baixar arquivo",
+    "audio_converter.btn.convert_new": "Converter novos arquivos",
+    "audio_converter.btn.add_more": "Adicionar mais arquivos",
+    "audio_converter.proc.converting": "Convertendo áudio",
+    "audio_converter.how_to_use.title": "Como Converter Áudio Online",
+    "audio_converter.how_to_use.steps": [
+        "Selecione ou arraste e solte seus arquivos de áudio na área do conversor (suporta conversão em lote).",
+        "Escolha o formato de saída desejado entre as opções disponíveis (ex: WAV, MP3, FLAC, OGG).",
+        "Clique em 'Converter todos' para processar seus arquivos de forma instantânea e privada no navegador.",
+        "Baixe os arquivos de áudio convertidos em alta qualidade diretamente para o seu dispositivo."
+    ],
+    "audio_converter.why_use.title": "Por que usar o Conversor de Áudio do UploadLess",
+    "audio_converter.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "Conversão 100% Privada",
+            "description": "Sua conversão de áudio roda totalmente no navegador. Seus arquivos jamais passam por um servidor externo."
+        },
+        {
+            "icon": "bolt",
+            "title": "Sem Cadastro, Sem Limites",
+            "description": "Comece a converter imediatamente sem precisar de conta. Uso gratuito e ilimitado, sem marcas d'água."
+        },
+        {
+            "icon": "files",
+            "title": "Processamento em Lote Rápido",
+            "description": "Converta vários arquivos de áudio simultaneamente com velocidade local sem tempo de espera de envio."
+        },
+        {
+            "icon": "music",
+            "title": "Áudio de Alta Qualidade",
+            "description": "Converta facilmente entre WAV, MP3, FLAC, OGG e outros formatos preservando a fidelidade do som original."
+        }
+    ],
+    "audio_converter.faq.title": "Perguntas Frequentes sobre Conversão de Áudio",
+    "audio_converter.faq.items": [
+        {
+            "q": "Quais formatos de áudio este conversor suporta?",
+            "a": "O UploadLess suporta conversão entre os formatos mais populares, incluindo MP3, WAV, FLAC, M4A, OGG, AAC, AIFF e outros."
+        },
+        {
+            "q": "Meu arquivo de áudio é enviado para algum servidor?",
+            "a": "Não. Todas as conversões acontecem dentro do seu próprio navegador web. Os arquivos permanecem no seu dispositivo com 100% de privacidade."
+        },
+        {
+            "q": "Posso converter vários arquivos de áudio de uma só vez?",
+            "a": "Sim! O recurso de conversão em lote permite selecionar, arrastar e converter múltiplos arquivos de áudio ao mesmo tempo."
+        },
+        {
+            "q": "A conversão vai diminuir a qualidade do meu áudio?",
+            "a": "O conversor preserva a fidelidade do som original. A conversão para formatos sem perda (lossless) como WAV ou FLAC garante qualidade idêntica."
+        },
+        {
+            "q": "Existe algum limite de tamanho de arquivo ou restrição de uso?",
+            "a": "Não. Trata-se de um conversor de áudio totalmente gratuito, sem limite de tamanho de arquivo, sem cotas diárias e sem necessidade de cadastro."
+        },
+        {
+            "q": "Como converter arquivos como MP3 ou M4A para WAV?",
+            "a": "Arraste seus arquivos MP3 ou M4A, escolha WAV como formato de destino e clique em 'Converter todos' para obter arquivos WAV com qualidade de estúdio."
+        },
+        {
+            "q": "A ferramenta suporta converter áudio para OGG ou AAC?",
+            "a": "Sim! A conversão de áudio para OGG (ideal para jogos e web) ou AAC é totalmente suportada. Basta selecionar o formato no menu."
+        },
+        {
+            "q": "Posso usar este conversor para criar toques de celular?",
+            "a": "Com certeza. Você pode converter suas faixas favoritas para formatos compatíveis com celulares, como MP3 ou M4A, para usar como toque."
+        },
+        {
+            "q": "Consigo comprimir e converter áudio online com esta ferramenta?",
+            "a": "Sim. Mudar de formatos pesados (como WAV) para formatos otimizados (como MP3 ou M4A) reduzirá automaticamente o tamanho mantendo excelente qualidade."
+        },
+        {
+            "q": "Preciso instalar algo para usar o conversor de áudio?",
+            "a": "Não é necessário instalar programas nem extensões. O conversor roda direto em qualquer navegador moderno no computador ou celular."
+        }
+    ],
+    "_comment_convert_to_mp3": "================ Convert to MP3 ================",
+    "_comment_extract_frames": "================ Extract Frames from Video ================",
+    "tool.extract_frames.title": "Extrair Frames de Vídeo",
+    "tool.extract_frames.description": "Extraia quadros (frames) de um vídeo e salve-os como imagens. Salve o frame atual, extraia por intervalo ou N frames igualmente distribuídos.",
+    "tool.extract_frames.short_description": "Extraia frames de vídeo com privacidade.",
+    "extract_frames.seo.title": "Extrair Frames de Vídeo Online Grátis - Capturar Imagens",
+    "extract_frames.seo.description": "Extraia quadros e frames de vídeos online grátis. Salve o frame atual como JPG, tire print de vídeos ou exporte vários frames por intervalo de tempo.",
+    "extract_frames.hero.title": "Extrair Frames de Vídeo",
+    "extract_frames.hero.description": "Salve o quadro atual do vídeo como imagem, capture um momento exato ou extraia múltiplos frames por intervalo de tempo ou quantidade.",
+    "extract_frames.upload.title": "Arraste um arquivo de vídeo aqui",
+    "extract_frames.upload.subtitle": "MP4, WebM, MOV e mais · Extração privada",
+    "extract_frames.upload.btn_select": "Selecionar arquivo de vídeo",
+    "extract_frames.upload.btn_sample": "Testar vídeo de exemplo",
+    "extract_frames.upload.hint": "Selecione um vídeo para extrair as imagens",
+    "extract_frames.mode.title": "Modo de Extração",
+    "extract_frames.mode.current": "Salvar frame atual",
+    "extract_frames.mode.interval": "Extrair por intervalo",
+    "extract_frames.mode.evenly": "Extrair N frames igualmente",
+    "extract_frames.settings.format": "Formato de saída",
+    "extract_frames.settings.interval": "Intervalo (segundos)",
+    "extract_frames.settings.interval_custom": "Personalizado (segundos)",
+    "extract_frames.settings.frames": "Número de frames",
+    "extract_frames.settings.frames_custom": "Número personalizado",
+    "extract_frames.btn.save_current": "Salvar Frame Atual",
+    "extract_frames.btn.extract_zip": "Extrair e Baixar ZIP",
+    "extract_frames.btn.new": "Extrair novo vídeo",
+    "extract_frames.btn.download_all": "Baixar Todos",
+    "extract_frames.btn.clear_all": "Limpar Tudo",
+    "extract_frames.btn.extract": "Extrair",
+    "extract_frames.results.extracted_frames": "Frames Extraídos",
+    "extract_frames.preview.not_available": "Pré-visualização Indisponível",
+    "extract_frames.preview.unsupported_format": "O navegador não suporta a pré-visualização deste formato ({filename})",
+    "extract_frames.preview.fallback_hint": "Você ainda pode usar os modos de Intervalo ou Quantidade para extrair os frames.",
+    "extract_frames.proc.extracting": "Extraindo frames",
+    "extract_frames.how_to_use.title": "Como Extrair Frames de um Vídeo",
+    "extract_frames.how_to_use.steps": [
+        "Envie um arquivo de vídeo MP4, MOV, WebM ou outro formato do seu dispositivo.",
+        "Escolha como deseja extrair: salvar o frame atual, extrair em intervalos regulares de segundos ou capturar um número fixo de frames.",
+        "Clique no botão de extrair e baixe uma imagem JPG individual ou um arquivo ZIP com todas as imagens capturadas."
+    ],
+    "extract_frames.why_use.title": "Por que usar o Extrator de Frames do UploadLess",
+    "extract_frames.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "Extraia frames com privacidade",
+            "description": "Seu vídeo é processado diretamente no navegador e não é enviado para nenhum servidor."
+        },
+        {
+            "icon": "bolt",
+            "title": "Extrator de frames gratuito",
+            "description": "Extraia quadros de vídeo online sem precisar se cadastrar, instalar programas ou adicionar marca d'água."
+        },
+        {
+            "icon": "layout-grid",
+            "title": "Frame único ou múltiplos frames",
+            "description": "Salve um momento preciso do vídeo, extraia quadros a cada X segundos ou divida o vídeo igualmente em imagens."
+        },
+        {
+            "icon": "file-zip",
+            "title": "Baixe quadros compactados em ZIP",
+            "description": "Ao extrair vários frames, todas as imagens JPG são compactadas em um único arquivo ZIP para facilitar o download."
+        }
+    ],
+    "extract_frames.faq.title": "Perguntas Frequentes sobre Extração de Frames",
+    "extract_frames.faq.items": [
+        {
+            "q": "O que é um extrator de frames de vídeo?",
+            "a": "É uma ferramenta que salva fotos e capturas estáticas de um vídeo lendo o quadro diretamente da fonte para obter a melhor qualidade de imagem."
+        },
+        {
+            "q": "Como extraio quadros de um vídeo online?",
+            "a": "Envie seu vídeo, escolha o modo de extração e inicie o processo. Você pode salvar a imagem atual, extrair por intervalos de tempo ou capturar um número fixo de fotos."
+        },
+        {
+            "q": "Como salvar exatamente um quadro específico do vídeo?",
+            "a": "Use o modo 'Salvar frame atual', navegue no vídeo até o segundo desejado e salve a imagem em JPG."
+        },
+        {
+            "q": "Consigo tirar um print limpo de um vídeo?",
+            "a": "Sim. O frame é extraído do arquivo original, sem botões de player, barra de progresso ou controles do navegador no print."
+        },
+        {
+            "q": "Como extrair imagens do vídeo a cada poucos segundos?",
+            "a": "Selecione o modo por intervalo e insira o tempo em segundos (ex: extrair 1 imagem a cada 2, 5 ou 10 segundos)."
+        },
+        {
+            "q": "Como extrair uma quantidade fixa de fotos do vídeo?",
+            "a": "Escolha o modo por quantidade e digite quantas imagens quer. A ferramenta distribuirá as capturas ao longo de toda a duração do vídeo."
+        },
+        {
+            "q": "Devo extrair todos os frames de um vídeo?",
+            "a": "Geralmente não é necessário, pois um vídeo pode conter milhares de quadros. Extrair por intervalo ou quantidade definida é muito mais rápido e prático."
+        },
+        {
+            "q": "Posso extrair quadros de vídeos em MP4?",
+            "a": "Sim, a ferramenta funciona como extrator de frames MP4, MOV, WebM e outros formatos suportados pelo seu navegador."
+        },
+        {
+            "q": "Em qual formato as fotos extraídas são salvas?",
+            "a": "As imagens capturadas são salvas no formato JPG, ideal para miniaturas, prints, apresentações e compartilhamento."
+        },
+        {
+            "q": "Como baixar múltiplos quadros de uma vez?",
+            "a": "Quando você extrai várias imagens, elas são organizadas e compactadas em um arquivo ZIP único para facilitar o download."
+        },
+        {
+            "q": "Meu vídeo é enviado para um servidor remoto?",
+            "a": "Não. O processamento roda localmente no seu navegador. Seu vídeo nunca sai do seu computador ou celular."
+        },
+        {
+            "q": "Para que posso usar os frames extraídos de um vídeo?",
+            "a": "Você pode usar as fotos capturadas para criar thumbnails (capas) no YouTube, tutoriais, posts em redes sociais, documentação e referências visuais."
+        }
+    ],
+    "_comment_audio_to_text": "================ Audio to Text ================",
+    "tool.audio_to_text.title": "Áudio em Texto",
+    "tool.audio_to_text.description": "Converta falas de áudios e vídeos em texto diretamente no seu navegador. Totalmente privado e com inteligência artificial.",
+    "tool.audio_to_text.short_description": "Transcreva áudio para texto com privacidade.",
+    "audio_to_text.seo.title": "Converter Áudio em Texto Online Grátis - Transcrição IA",
+    "audio_to_text.seo.description": "Converta arquivos de áudio em texto online grátis. Envie MP3, WAV, M4A, FLAC e transcreva fala em texto com total privacidade diretamente no seu navegador.",
+    "audio_to_text.hero.title": "Conversor de Áudio em Texto",
+    "audio_to_text.hero.description": "Envie um arquivo de áudio e transcreva a fala em texto com privacidade no seu navegador usando IA Whisper.",
+    "audio_to_text.upload.title": "Enviar Arquivo de Áudio",
+    "audio_to_text.upload.subtitle": "Converta MP3, WAV, M4A, FLAC, OGG e outros arquivos de áudio em texto.",
+    "audio_to_text.upload.hint": "Arraste um arquivo aqui ou busque no seu dispositivo.",
+    "audio_to_text.upload.btn_select": "Selecionar Arquivo",
+    "audio_to_text.settings.model": "Modelo de IA",
+    "audio_to_text.settings.multilingual": "Multilíngue",
+    "audio_to_text.settings.language": "Idioma",
+    "audio_to_text.btn.transcribe": "Transcrever para Texto",
+    "audio_to_text.btn.download": "Baixar Texto",
+    "audio_to_text.btn.start_over": "Recomeçar",
+    "audio_to_text.proc.loading_model": "Carregando Modelo de IA...",
+    "audio_to_text.proc.transcribing": "Transcrevendo áudio...",
+    "audio_to_text.results.transcription": "Resultado da Transcrição",
+    "audio_to_text.results.no_speech": "Nenhuma fala detectada.",
+    "audio_to_text.how_to_use.title": "Como Transcrever Áudio em Texto",
+    "audio_to_text.how_to_use.steps": [
+        "Envie um arquivo de áudio do seu dispositivo (MP3, WAV, M4A, FLAC, OGG, etc.).",
+        "Escolha o tamanho do modelo de IA Whisper dependendo da sua preferência entre velocidade e precisão.",
+        "Selecione o idioma falado no áudio ou deixe em detecção automática caso não tenha certeza.",
+        "Clique em 'Transcrever para Texto' e depois copie a transcrição ou baixe-a como arquivo .txt."
+    ],
+    "audio_to_text.why_use.title": "Por que usar nossa ferramenta de Áudio em Texto?",
+    "audio_to_text.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "Transcrição de Áudio Privada",
+            "description": "Seu arquivo de áudio é transcrevido diretamente no seu navegador, sem passar por servidores externos."
+        },
+        {
+            "icon": "brain",
+            "title": "Transforme Fala em Texto",
+            "description": "Converta podcasts, reuniões, entrevistas, aulas, notas de voz e gravações em texto legível."
+        },
+        {
+            "icon": "settings",
+            "title": "Configurações Simples",
+            "description": "Escolha o idioma falado e o modo de transcrição antes de iniciar, sem complicações."
+        },
+        {
+            "icon": "language",
+            "title": "Suporte a Vários Idiomas",
+            "description": "Transcreva áudios em português, inglês, espanhol, francês, alemão, japonês e dezenas de outros idiomas."
+        },
+        {
+            "icon": "microphone-2",
+            "title": "Ideal para Gravações de Voz",
+            "description": "Otimizado para podcasts, memórias de voz e gravações de chamadas apenas de áudio."
+        },
+        {
+            "icon": "bolt",
+            "title": "Mais Rápido para Arquivos de Áudio",
+            "description": "Processar apenas a faixa de áudio torna a transcrição muito mais rápida do que arquivos de vídeo inteiros."
+        }
+    ],
+    "audio_to_text.faq.title": "Perguntas Frequentes sobre Áudio em Texto",
+    "audio_to_text.faq.items": [
+        {
+            "q": "Como converto áudio em texto online?",
+            "a": "Envie o arquivo de áudio, escolha o idioma e inicie a transcrição. A ferramenta converterá a fala em texto para você copiar ou baixar em formato .txt."
+        },
+        {
+            "q": "Posso transcrever áudios sem instalar programas?",
+            "a": "Sim. Este transcritor roda direto no navegador, dispensando a instalação de aplicativos ou softwares pesados no computador."
+        },
+        {
+            "q": "Consigo converter arquivos MP3 em texto?",
+            "a": "Sim. Você pode enviar áudios MP3 de reuniões, aulas, entrevistas ou notas de voz para transformar a fala em texto."
+        },
+        {
+            "q": "Quais formatos de áudio são aceitos?",
+            "a": "A ferramenta suporta os principais formatos como MP3, WAV, M4A, FLAC, OGG e outros que seu navegador consiga ler."
+        },
+        {
+            "q": "Meu áudio é enviado para algum servidor?",
+            "a": "Não. O processamento do arquivo é feito localmente no seu navegador mantendo total sigilo das suas informações."
+        },
+        {
+            "q": "Por que a ferramenta exibe 'Carregando Modelo de IA'?",
+            "a": "Na primeira utilização, o navegador precisa baixar o modelo de transcrição. Após o download inicial, o processamento será iniciado."
+        },
+        {
+            "q": "A transcrição de áudio funciona offline?",
+            "a": "Você precisa de conexão à internet para abrir a página e carregar o modelo de IA. Depois de carregado, o processamento da transcrição é feito localmente."
+        },
+        {
+            "q": "Quais idiomas posso transcrever?",
+            "a": "A IA suporta transcrição em português, inglês, espanhol, francês, alemão, italiano, japonês, coreano e diversos outros idiomas."
+        },
+        {
+            "q": "Qual é a precisão da transcrição de áudio?",
+            "a": "A precisão depende da nitidez do áudio, ruídos de fundo e clareza de quem fala. Áudios limpos sem barulhos externos geram transcrições excelentes."
+        },
+        {
+            "q": "Posso transcrever áudios longos?",
+            "a": "Sim, porém arquivos longos levam mais tempo para serem processados no navegador dependendo da potência do seu dispositivo."
+        },
+        {
+            "q": "Consigo copiar ou baixar o texto transcrevido?",
+            "a": "Sim. Após a conclusão, você pode copiar todo o texto com um clique ou baixá-lo como um arquivo .txt."
+        },
+        {
+            "q": "Esta ferramenta remove barulhos e ruídos do áudio?",
+            "a": "Não. A ferramenta é focada em converter fala em texto. Para melhores resultados, recomendamos usar um arquivo com o mínimo de ruído possível."
+        },
+        {
+            "q": "Que tipo de áudio funciona melhor neste transcritor?",
+            "a": "Funciona perfeitamente com voz clara, como áudios do WhatsApp, reuniões, podcasts, palestras e entrevistas."
+        },
+        {
+            "q": "Posso transcrever áudios de voz gravados no celular?",
+            "a": "Sim. Gravações de voz salvas em M4A ou MP3 no celular são um dos usos mais comuns para transformar notas faladas em texto editável."
+        },
+        {
+            "q": "Qual é a diferença entre transcrever áudio e transcrever vídeo?",
+            "a": "A transcrição de áudio é mais rápida pois não envolve o carregamento de faixas de vídeo. Caso seu arquivo seja um vídeo, use a ferramenta [Vídeo em Texto](/video-to-text)."
+        }
+    ],
+    "_comment_video_to_text": "================ Video to Text ================",
+    "tool.video_to_text.title": "Vídeo em Texto",
+    "tool.video_to_text.description": "Converta a fala de vídeos em texto diretamente no seu navegador. Totalmente privado e com inteligência artificial.",
+    "tool.video_to_text.short_description": "Transcreva vídeos para texto com privacidade.",
+    "video_to_text.seo.title": "Converter Vídeo em Texto Online Grátis - Transcrever Vídeos",
+    "video_to_text.seo.description": "Converta vídeos em texto online grátis. Envie MP4, MOV, WebM e transcreva a fala em texto no seu navegador sem enviar dados para servidores externos.",
+    "video_to_text.hero.title": "Conversor de Vídeo em Texto",
+    "video_to_text.hero.description": "Envie um arquivo de vídeo e transcreva as falas em texto com privacidade diretamente no seu navegador.",
+    "video_to_text.upload.title": "Envie seu Arquivo de Vídeo",
+    "video_to_text.upload.subtitle": "Transcreva vídeos em MP4, MOV, WebM, MKV, AVI ...",
+    "video_to_text.upload.hint": "Arraste um arquivo aqui ou busque no seu dispositivo.",
+    "video_to_text.upload.btn_select": "Selecionar Arquivo",
+    "video_to_text.settings.model": "Modelo de IA",
+    "video_to_text.settings.multilingual": "Multilíngue",
+    "video_to_text.settings.language": "Idioma",
+    "video_to_text.btn.transcribe": "Transcrever para Texto",
+    "video_to_text.btn.download": "Baixar Texto",
+    "video_to_text.btn.start_over": "Recomeçar",
+    "video_to_text.proc.loading_model": "Carregando Modelo de IA...",
+    "video_to_text.proc.transcribing": "Transcrevendo vídeo...",
+    "video_to_text.results.transcription": "Resultado da Transcrição",
+    "video_to_text.results.no_speech": "Nenhuma fala detectada.",
+    "video_to_text.how_to_use.title": "Como Transcrever Vídeo em Texto",
+    "video_to_text.how_to_use.steps": [
+        "Envie um arquivo de vídeo do seu dispositivo (MP4, MOV, WebM, MKV, etc.).",
+        "Escolha o tamanho do modelo de IA Whisper com base em velocidade e precisão.",
+        "Selecione o idioma falado no vídeo.",
+        "Clique no botão de transcrever, depois copie o texto gerado ou baixe-o em arquivo .txt."
+    ],
+    "video_to_text.why_use.title": "Por que usar nossa ferramenta de Vídeo em Texto?",
+    "video_to_text.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "Transcrição de Vídeo Privada",
+            "description": "Seu arquivo de vídeo é processado e transcrevido localmente no seu navegador, sem envio para servidores."
+        },
+        {
+            "icon": "brain",
+            "title": "Transforme Falas de Vídeo em Texto",
+            "description": "Converta reuniões gravadas, entrevistas, videoaulas, apresentações e gravações de tela em texto."
+        },
+        {
+            "icon": "settings",
+            "title": "Compatível com Formatos Populares",
+            "description": "Funciona com MP4, MOV, WebM e outros vídeos sem precisar converter ou instalar programas adicionais."
+        },
+        {
+            "icon": "language",
+            "title": "Suporte a Vários Idiomas",
+            "description": "Transcreva vídeos em português, inglês, espanhol, francês, alemão e dezenas de outros idiomas."
+        },
+        {
+            "icon": "presentation",
+            "title": "Ideal para Gravações de Tela e Webinars",
+            "description": "Transcreva webinars e gravações de aulas com facilidade sem precisar separar o áudio antes."
+        },
+        {
+            "icon": "video",
+            "title": "Sem Necessidade de Extrair Áudio",
+            "description": "Envie o vídeo diretamente. O UploadLess lê a faixa de áudio e pula a etapa manual de exportação."
+        }
+    ],
+    "video_to_text.faq.title": "Perguntas Frequentes sobre Vídeo em Texto",
+    "video_to_text.faq.items": [
+        {
+            "q": "Como faço para converter um vídeo em texto online?",
+            "a": "Envie o vídeo, escolha o idioma falado e clique em transcrever. A ferramenta extrairá o áudio da fala e o converterá em texto para cópia ou download."
+        },
+        {
+            "q": "Posso transcrever vídeos em texto gratuitamente?",
+            "a": "Sim. Você pode usar este transcritor de vídeo para texto gratuitamente em reuniões gravadas, aulas, entrevistas e apresentações."
+        },
+        {
+            "q": "Consigo converter MP4 para texto?",
+            "a": "Sim. Envie o vídeo MP4 para converter as falas em texto. Excelente para reuniões gravadas do Zoom, cursos online e tutoriais."
+        },
+        {
+            "q": "Quais formatos de arquivo de vídeo são aceitos?",
+            "a": "A ferramenta aceita arquivos MP4, MOV, WebM, MKV, AVI e outros formatos que seu navegador consiga reproduzir."
+        },
+        {
+            "q": "Meu vídeo é enviado para um servidor?",
+            "a": "Não. O arquivo é processado diretamente no seu navegador web, mantendo seus vídeos seguros e privados."
+        },
+        {
+            "q": "Por que aparece a mensagem 'Carregando Modelo de IA'?",
+            "a": "Na primeira utilização, o navegador baixa o modelo de IA. Após o término do carregamento, a transcrição do vídeo é executada."
+        },
+        {
+            "q": "A transcrição de vídeo funciona sem internet?",
+            "a": "É preciso estar online para carregar a página e a IA. Depois que o modelo estiver pronto no seu navegador, o processamento ocorre localmente no seu dispositivo."
+        },
+        {
+            "q": "Quais idiomas posso transcrever a partir de um vídeo?",
+            "a": "Você pode transcrever em português, inglês, espanhol, francês, alemão, italiano, mandarim, japonês e muito mais."
+        },
+        {
+            "q": "Qual é o nível de precisão da transcrição de vídeo?",
+            "a": "A precisão é mais alta em vídeos com voz nítida e pouco barulho de fundo. Áudios limpos resultam em textos muito precisos."
+        },
+        {
+            "q": "Posso transcrever vídeos longos?",
+            "a": "Sim, porém vídeos muito longos levam mais tempo para serem processados conforme a memória e processador do seu dispositivo."
+        },
+        {
+            "q": "Consigo baixar a transcrição do vídeo?",
+            "a": "Sim. Você pode copiar o texto transcrito ou baixá-lo como um arquivo de texto (.txt) para criar resumos, atas e legendas."
+        },
+        {
+            "q": "Esta ferramenta gera arquivos de legenda como SRT?",
+            "a": "A ferramenta gera o texto completo da fala. Você pode usar o texto como base para legendas, mas no momento ela não exporta arquivos com marcação de tempo SRT ou VTT."
+        },
+        {
+            "q": "Preciso extrair o áudio do vídeo antes de enviar?",
+            "a": "Não. Envie o arquivo de vídeo diretamente. O UploadLess extrai e transcreve o áudio de forma automática."
+        },
+        {
+            "q": "Funciona com gravações de tela e apresentações?",
+            "a": "Sim. A ferramenta ignora as imagens na tela e transcreve estritamente o áudio falado na gravação."
+        },
+        {
+            "q": "É útil para reuniões gravadas do Google Meet ou Zoom?",
+            "a": "Sim. Vídeos de reuniões em MP4 ou WebM podem ser enviados para gerar uma transcrição completa para resumos e notas de reunião."
+        }
+    ],
+    "audio_to_text.btn.load_sample": "Testar Áudio de Exemplo",
+    "video_to_text.btn.load_sample": "Testar Vídeo de Exemplo",
+    "_comment_png_to_pdf": "================ PNG to PDF ================",
+    "tool.png_to_pdf.title": "PNG para PDF",
+    "tool.png_to_pdf.description": "Converta várias imagens em um único documento PDF facilmente. Privado, rápido e direto no seu navegador.",
+    "tool.png_to_pdf.short_description": "Converta imagens PNG para PDF com privacidade.",
+    "png_to_pdf.seo.title": "Converter PNG para PDF Online Grátis - Transformar Imagem",
+    "png_to_pdf.seo.description": "Converta imagens PNG para PDF direto no seu navegador. Grátis, sem cadastro, com suporte a múltiplos arquivos e ordem de páginas personalizada.",
+    "png_to_pdf.hero.title": "Conversor de PNG para PDF",
+    "png_to_pdf.hero.description": "Envie uma ou mais imagens PNG, organize a ordem das páginas e converta tudo em um PDF — tudo no seu navegador, sem cadastro e sem enviar dados.",
+    "png_to_pdf.selected_images": "Imagens Selecionadas",
+    "png_to_pdf.pages": "páginas",
+    "png_to_pdf.upload.title": "Arraste suas imagens aqui para converter em PDF",
+    "png_to_pdf.upload.subtitle": "Suporta PNG, JPG, WebP e outros formatos de imagem populares",
+    "png_to_pdf.upload.hint": "Arraste para reordenar as imagens após o envio",
+    "png_to_pdf.upload.btn_select": "Selecionar Imagens",
+    "png_to_pdf.btn.convert": "Converter para PDF",
+    "png_to_pdf.btn.add_more": "Adicionar mais",
+    "png_to_pdf.btn.processing": "Processando...",
+    "png_to_pdf.btn.combine": "Converter para PDF",
+    "png_to_pdf.btn.download_short": "Baixar",
+    "png_to_pdf.btn.load_sample": "Carregar exemplo",
+    "png_to_pdf.btn.download": "Baixar PDF",
+    "png_to_pdf.btn.clear": "Limpar Tudo",
+    "png_to_pdf.preview_title": "Pré-visualização do PDF",
+    "png_to_pdf.how_to_use.title": "Como Converter Imagens para PDF",
+    "png_to_pdf.how_to_use.steps": [
+        "Clique na área de envio ou arraste suas imagens PNG para a ferramenta.",
+        "Se você adicionar vários arquivos PNG, arraste-os para definir a ordem das páginas antes de converter.",
+        "Clique no botão 'Converter para PDF'. O documento será gerado no seu navegador.",
+        "Baixe o arquivo PDF final no seu dispositivo."
+    ],
+    "png_to_pdf.why_use.title": "Por que usar o Conversor de Imagem para PDF do UploadLess",
+    "png_to_pdf.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "Fica no seu dispositivo",
+            "description": "Suas imagens PNG são processadas localmente no seu navegador. Nada é enviado para servidores externos."
+        },
+        {
+            "icon": "files",
+            "title": "Suporte a múltiplos PNGs",
+            "description": "Adicione várias imagens de uma vez para juntá-las em um único arquivo PDF."
+        },
+        {
+            "icon": "arrows-sort",
+            "title": "Defina a ordem das páginas",
+            "description": "Arraste e solte arquivos para organizar a sequência correta antes de realizar a conversão."
+        },
+        {
+            "icon": "infinity",
+            "title": "Gratuito e sem limites",
+            "description": "Sem cadastro e sem limites de conversão. Transforme quantas imagens precisar gratuitamente."
+        },
+        {
+            "icon": "device-desktop",
+            "title": "Perfeito para prints e documentos",
+            "description": "A compressão sem perdas do PNG mantém textos e linhas nítidas em prints e documentos escaneados."
+        },
+        {
+            "icon": "layout",
+            "title": "Fundo transparente preservado",
+            "description": "Áreas transparentes em imagens PNG ficam brancas por padrão no PDF para uma leitura limpa."
+        }
+    ],
+    "png_to_pdf.faq.title": "Perguntas Frequentes",
+    "png_to_pdf.faq.items": [
+        {
+            "q": "Como converter um PNG para PDF online?",
+            "a": "Envie seu PNG com a ferramenta acima e clique em Converter. O PDF é gerado no navegador e fica pronto para download em segundos."
+        },
+        {
+            "q": "Este conversor de PNG para PDF é gratuito?",
+            "a": "Sim. A ferramenta é gratuita, sem necessidade de registro e sem limite de conversões."
+        },
+        {
+            "q": "Posso converter vários arquivos PNG em um único PDF?",
+            "a": "Sim. Envie várias imagens PNG juntas para unificá-las em um único PDF e reordene as páginas se desejar."
+        },
+        {
+            "q": "Minhas imagens PNG são enviadas para algum servidor?",
+            "a": "Não. Todo o processamento acontece localmente no seu navegador, garantindo privacidade completa."
+        },
+        {
+            "q": "Posso converter capturas de tela (prints) em PDF?",
+            "a": "Sim. Prints salvos em PNG funcionam perfeitamente para conversão em PDF."
+        },
+        {
+            "q": "Como definir a ordem das páginas no PDF final?",
+            "a": "Após enviar as imagens, arraste-as na ordem desejada antes de clicar no botão 'Converter'."
+        },
+        {
+            "q": "A qualidade da imagem diminui após a conversão para PDF?",
+            "a": "A ferramenta insere a imagem PNG no PDF sem recompactá-la, mantendo a qualidade original."
+        },
+        {
+            "q": "A ferramenta funciona em celulares?",
+            "a": "Sim. Funciona perfeitamente em navegadores móbiles em smartphones e tablets."
+        },
+        {
+            "q": "Existe limite de tamanho de arquivo ou número de páginas?",
+            "a": "Não há limite imposto pela ferramenta. Arquivos muito pesados dependem apenas da memória do seu próprio dispositivo."
+        },
+        {
+            "q": "E se eu quiser converter imagens JPG ou JPEG para PDF?",
+            "a": "Para converter JPG ou JPEG, utilize nossa ferramenta específica [JPG para PDF](/jpg-to-pdf)."
+        },
+        {
+            "q": "Preciso instalar algo para usar?",
+            "a": "Não precisa instalar nada. O conversor funciona diretamente no navegador."
+        },
+        {
+            "q": "Posso converter artes exportadas do Figma ou Photoshop para PDF?",
+            "a": "Sim. Arquivos PNG exportados de softwares como Figma, Photoshop ou Illustrator funcionam perfeitamente."
+        },
+        {
+            "q": "Por que PNGs costumam ficar mais nítidos do que JPG em documentos?",
+            "a": "O formato PNG usa compressão sem perdas, preservando detalhes de textos e bordas finas com mais nitidez do que o JPG."
+        },
+        {
+            "q": "Como imagens com fundo transparente aparecem no PDF?",
+            "a": "Como as páginas do PDF são brancas por padrão, a transparência aparecerá como fundo branco, mantendo o visual limpo."
+        },
+        {
+            "q": "PNG sempre tem tamanho maior do que JPG?",
+            "a": "Para fotos sim, mas para capturas de tela, gráficos e textos em vetor, o arquivo PNG pode ter tamanho reduzido e qualidade superior."
+        }
+    ],
+    "_comment_jpg_to_pdf": "================ JPG to PDF ================",
+    "tool.jpg_to_pdf.title": "JPG para PDF",
+    "tool.jpg_to_pdf.description": "Converta imagens JPG/JPEG em um único documento PDF facilmente. Privado, rápido e direto no seu navegador.",
+    "tool.jpg_to_pdf.short_description": "Converta JPGs para PDF com privacidade.",
+    "jpg_to_pdf.seo.title": "Converter JPG para PDF Online Grátis - Imagem para PDF",
+    "jpg_to_pdf.seo.description": "Converta imagens JPG ou JPEG para PDF no navegador. Grátis, sem cadastro e sem upload. Junte vários arquivos e baixe seu documento PDF instantaneamente.",
+    "jpg_to_pdf.hero.title": "Conversor de JPG para PDF",
+    "jpg_to_pdf.hero.description": "Transforme suas fotos JPG ou JPEG em um arquivo PDF — grátis, direto no seu navegador. Adicione várias fotos, organize a sequência e baixe em segundos.",
+    "jpg_to_pdf.selected_images": "Imagens Selecionadas",
+    "jpg_to_pdf.pages": "páginas",
+    "jpg_to_pdf.upload.title": "Arraste suas imagens JPG aqui para converter em PDF",
+    "jpg_to_pdf.upload.subtitle": "Suporta JPG, JPEG, PNG, WebP e outros formatos de imagem populares",
+    "jpg_to_pdf.upload.hint": "Arraste para reordenar as imagens após o envio",
+    "jpg_to_pdf.upload.btn_select": "Selecionar Imagens",
+    "jpg_to_pdf.btn.convert": "Converter para PDF",
+    "jpg_to_pdf.btn.add_more": "Adicionar mais",
+    "jpg_to_pdf.btn.processing": "Processando...",
+    "jpg_to_pdf.btn.combine": "Converter para PDF",
+    "jpg_to_pdf.btn.download_short": "Baixar",
+    "jpg_to_pdf.btn.load_sample": "Carregar exemplo",
+    "jpg_to_pdf.btn.download": "Baixar PDF",
+    "jpg_to_pdf.btn.clear": "Limpar Tudo",
+    "jpg_to_pdf.preview_title": "Pré-visualização do PDF",
+    "jpg_to_pdf.how_to_use.title": "Como Converter JPG para PDF",
+    "jpg_to_pdf.how_to_use.steps": [
+        "Clique na área de envio ou arraste seus arquivos JPG/JPEG para a página.",
+        "Adicione quantas fotos JPG precisar e arraste para reorganizar a ordem antes da conversão.",
+        "Clique em Converter para gerar seu PDF. Tudo roda no seu navegador — nada é enviado a um servidor.",
+        "Faça o download do seu PDF assim que estiver pronto."
+    ],
+    "jpg_to_pdf.why_use.title": "Por que usar o Conversor de JPG para PDF do UploadLess",
+    "jpg_to_pdf.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "Arquivos ficam no seu dispositivo",
+            "description": "Suas imagens JPG são processadas integralmente no navegador sem envio a servidores."
+        },
+        {
+            "icon": "files",
+            "title": "Converta vários JPGs de uma vez",
+            "description": "Adicione quantas fotos precisar e reúna todas em um único arquivo PDF."
+        },
+        {
+            "icon": "arrows-sort",
+            "title": "Controle a ordem das páginas",
+            "description": "Reordene as imagens antes de converter para que as páginas fiquem na sequência exata."
+        },
+        {
+            "icon": "infinity",
+            "title": "Gratuito e sem limites",
+            "description": "Sem cadastro, sem limites de uso e sem custos. Converta quantas imagens quiser."
+        },
+        {
+            "icon": "camera",
+            "title": "Feito para fotos de celular",
+            "description": "O JPG é o padrão para fotos de celulares. Reúna comprovantes, recibos e fotos em um PDF limpo."
+        },
+        {
+            "icon": "photo",
+            "title": "Tamanho de arquivo leve",
+            "description": "A compressão do JPG garante PDFs leves para enviar por e-mail sem ocupar muito espaço."
+        }
+    ],
+    "jpg_to_pdf.faq.title": "Perguntas Frequentes",
+    "jpg_to_pdf.faq.items": [
+        {
+            "q": "Como faço para converter JPG em PDF online?",
+            "a": "Envie suas imagens JPG, ordene-as como quiser e clique em Converter. O PDF será gerado instantaneamente no seu navegador para download."
+        },
+        {
+            "q": "Este conversor de JPG para PDF é grátis?",
+            "a": "Sim. A ferramenta é 100% gratuita, sem necessidade de cadastro ou assinaturas."
+        },
+        {
+            "q": "Posso juntar vários arquivos JPG em um só PDF?",
+            "a": "Sim. Você pode enviar várias fotos JPG e combiná-las em um único documento PDF."
+        },
+        {
+            "q": "Consigo mudar a ordem das fotos antes de converter?",
+            "a": "Sim. Basta arrastar as imagens na tela para organizar a sequência correta das páginas no PDF."
+        },
+        {
+            "q": "Meus arquivos JPG são enviados para algum servidor?",
+            "a": "Não. Toda a conversão ocorre localmente no seu navegador para proteger sua privacidade."
+        },
+        {
+            "q": "Converter JPG para PDF reduz a qualidade das fotos?",
+            "a": "A ferramenta insere o JPG no PDF mantendo a qualidade original da imagem sem recompressão desnecessária."
+        },
+        {
+            "q": "A ferramenta aceita arquivos com extensão .JPEG?",
+            "a": "Sim, arquivos .JPG e .JPEG são idênticos e totalmente suportados."
+        },
+        {
+            "q": "Posso usar a ferramenta no meu smartphone?",
+            "a": "Sim, funciona em navegadores móveis no Android ou iPhone para converter fotos direto da galeria."
+        },
+        {
+            "q": "Consigo converter documentos digitalizados salvos em JPG?",
+            "a": "Sim. Se o seu scanner salva em JPG, você pode juntar as páginas digitalizadas em um PDF."
+        },
+        {
+            "q": "Existe um limite de fotos que posso converter?",
+            "a": "Não há restrições impostas. Você pode converter quantos arquivos precisar."
+        },
+        {
+            "q": "O que fazer se o PDF não baixar?",
+            "a": "Verifique se o seu navegador não está bloqueando pop-ups ou downloads automáticos e tente clicar em baixar novamente."
+        },
+        {
+            "q": "Posso converter PNGs nesta página?",
+            "a": "Esta página é focada em JPG/JPEG. Para converter imagens PNG, visite [PNG para PDF](/png-to-pdf)."
+        },
+        {
+            "q": "JPG é o melhor formato para fotos antes de converter para PDF?",
+            "a": "Sim. O JPG reduz o tamanho do arquivo sem perder detalhes visuais em fotografias."
+        },
+        {
+            "q": "Textos pequenos em fotos JPG continuarão legíveis no PDF?",
+            "a": "Dependerá da nitidez da foto original. Fotos bem focadas e iluminadas manterão os textos perfeitamente legíveis."
+        },
+        {
+            "q": "Posso juntar fotos de documentos tiradas no celular em um relatório em PDF?",
+            "a": "Sim! É um dos usos mais comuns: fotografar folhas de papel com o celular e criar um documento PDF único."
+        }
+    ],
+    "home.category.all": "Todas",
+    "home.category.audio": "Áudio",
+    "home.category.text": "Texto",
+    "_comment_merge_pdf": "================ Merge PDF ================",
+    "tool.merge_pdf.title": "Juntar PDF",
+    "tool.merge_pdf.description": "Combine vários arquivos PDF e imagens em um único documento PDF de forma segura e privada no seu navegador.",
+    "tool.merge_pdf.short_description": "Junte PDFs e imagens instantaneamente.",
+    "merge_pdf.seo.title": "Juntar PDF Online Grátis - Combinar Arquivos PDF e Imagens",
+    "merge_pdf.seo.description": "Junte e combine arquivos PDF e imagens online grátis, sem upload e sem limites. Ferramenta rápida e segura de fusão de PDF que funciona no navegador.",
+    "merge_pdf.hero.title": "Juntar PDF e Imagens",
+    "merge_pdf.hero.description": "Combine múltiplos arquivos PDF e imagens em um único documento de forma fácil e segura no seu navegador.",
+    "merge_pdf.selected_files": "Arquivos Selecionados",
+    "merge_pdf.pages": "páginas",
+    "merge_pdf.upload.title": "Arraste seus PDFs e imagens aqui para juntar",
+    "merge_pdf.upload.subtitle": "PDF, JPG, PNG, WebP e mais · Sem limite de tamanho",
+    "merge_pdf.upload.hint": "Arraste para reordenar os arquivos após o envio",
+    "merge_pdf.upload.btn_select": "Selecionar Arquivos",
+    "merge_pdf.btn.convert": "Juntar Arquivos",
+    "merge_pdf.btn.add_more": "Adicionar mais",
+    "merge_pdf.btn.processing": "Processando...",
+    "merge_pdf.btn.combine": "Juntar Arquivos",
+    "merge_pdf.btn.download_short": "Baixar",
+    "merge_pdf.btn.load_sample": "Carregar exemplo",
+    "merge_pdf.btn.download": "Baixar PDF",
+    "merge_pdf.btn.clear": "Limpar Tudo",
+    "merge_pdf.preview_title": "Pré-visualização do PDF",
+    "merge_pdf.how_to_use.title": "Como Juntar Arquivos PDF e Imagens Online",
+    "merge_pdf.how_to_use.steps": [
+        "Adicione seus arquivos PDF e imagens arrastando para a área indicada ou clicando em 'Selecionar Arquivos'.",
+        "Arraste os arquivos para organizar a ordem exata das páginas no PDF final.",
+        "Clique em 'Juntar Arquivos' para consolidar os documentos instantaneamente no seu navegador.",
+        "Baixe seu novo PDF unificado gratuitamente — sem upload, sem cadastro e sem limites."
+    ],
+    "merge_pdf.why_use.title": "Por que usar a ferramenta Juntar PDF do UploadLess",
+    "merge_pdf.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "Privado e Seguro",
+            "description": "Combine PDFs e imagens localmente no navegador. Seus arquivos não vão para servidores externos."
+        },
+        {
+            "icon": "bolt",
+            "title": "Rápido, Grátis e Sem Cadastro",
+            "description": "Junte quantos PDFs quiser sem precisar criar conta, pagar taxas ou instalar programas."
+        },
+        {
+            "icon": "stack",
+            "title": "Misture PDFs e Imagens",
+            "description": "Combine documentos PDF com imagens JPG e PNG na mesma ordem que você escolher."
+        },
+        {
+            "icon": "devices",
+            "title": "Funciona em Qualquer Dispositivo",
+            "description": "Combine PDFs no Mac, Windows, iPhone ou Android direto no navegador."
+        }
+    ],
+    "merge_pdf.faq.title": "Perguntas Frequentes sobre Juntar PDF",
+    "merge_pdf.faq.items": [
+        {
+            "q": "Meus arquivos são enviados para um servidor remoto?",
+            "a": "Não. O processo de junção é executado 100% dentro do seu navegador no seu dispositivo. Nada é enviado pela internet, tornando a ferramenta perfeita para contratos e documentos sigilosos."
+        },
+        {
+            "q": "Posso reordenar os arquivos antes de juntar?",
+            "a": "Sim. Você pode arrastar os arquivos na lista para ajustar a ordem exata em que as páginas deverão aparecer no PDF final."
+        },
+        {
+            "q": "Existe um limite de quantos arquivos posso combinar?",
+            "a": "Não há limite estipulado pela ferramenta. O único fator limitante é a memória RAM do seu próprio dispositivo para lidar com arquivos gigantescos."
+        },
+        {
+            "q": "Esta ferramenta para juntar PDF é realmente grátis?",
+            "a": "Sim, juntar PDFs e imagens é totalmente grátis, sem assinaturas, sem cobranças ocultas e sem marcas d'água."
+        },
+        {
+            "q": "Preciso se cadastrar para juntar arquivos PDF?",
+            "a": "Não é necessário nenhum tipo de cadastro ou e-mail. É só abrir a página, selecionar seus arquivos e baixar o resultado."
+        },
+        {
+            "q": "Posso juntar PDFs com imagens JPG ou PNG?",
+            "a": "Sim. Você pode mesclar arquivos PDF com imagens JPG e PNG juntas. Cada imagem virará uma página no arquivo PDF consolidado."
+        },
+        {
+            "q": "Juntar PDFs vai reduzir a qualidade original ou adicionar marca d'água?",
+            "a": "Não. A junção apenas reordena as páginas originais sem recompactar os conteúdos, mantendo 100% da qualidade sem inserir logotipos."
+        },
+        {
+            "q": "Funciona no Mac, Windows, iPhone e Android?",
+            "a": "Sim. Como roda totalmente no navegador web, é compatível com qualquer sistema operacional em computadores e celulares."
+        },
+        {
+            "q": "Como faço para juntar 2 ou mais arquivos PDF em um único documento?",
+            "a": "Envie os PDFs, organize a ordem desejada e clique no botão 'Juntar Arquivos'. Em instantes você poderá baixar o documento unificado."
+        },
+        {
+            "q": "Consigo combinar arquivos PDF grandes e digitalizados?",
+            "a": "Sim, é possível juntar PDFs pesados. O desempenho dependerá apenas do processador do seu computador."
+        },
+        {
+            "q": "Como meus dados continuam seguros ao usar este serviço?",
+            "a": "A segurança é garantida pois os arquivos nunca trafegam pela web. Tudo é processado e montado dentro da memória local do seu navegador."
+        },
+        {
+            "q": "Qual a diferença dessa ferramenta para outros sites de juntar PDF?",
+            "a": "Diferente da maioria dos sites que exigem fazer upload dos seus arquivos sigilosos para servidores desconhecidos, nossa ferramenta processa tudo no seu próprio computador."
+        }
+    ],
+    "tool.bulk_file_renamer.title": "Renomear Arquivos em Lote",
+    "tool.bulk_file_renamer.description": "Renomeie vários arquivos de uma só vez usando regras poderosas. Substitua textos, adicione prefixos, sufixos, numeração sequencial e altere extensões. 100% grátis no navegador.",
+    "tool.bulk_file_renamer.short_description": "Renomeie múltiplos arquivos simultaneamente",
+    "tool.bulk_file_renamer.seo.title": "Renomear Arquivos em Lote Online Grátis - Bulk Renamer",
+    "tool.bulk_file_renamer.seo.description": "Renomeie múltiplos arquivos em lote online sem fazer upload. Adicione prefixos, substitua textos e numere arquivos no navegador com rapidez e segurança.",
+    "tool.bulk_file_renamer.hero.title": "Renomear Arquivos em Lote",
+    "tool.bulk_file_renamer.hero.description": "Adicione prefixos, substitua termos ou adicione numeração sequencial em lote. Sem upload e sem cadastro — seus arquivos nunca saem do seu dispositivo.",
+    "bulk_file_renamer.upload.title": "Envie Arquivos para Renomear",
+    "bulk_file_renamer.upload.subtitle": "Arraste múltiplos arquivos ou pastas aqui para começar.",
+    "bulk_file_renamer.upload.btn_select": "Selecionar Arquivos",
+    "bulk_file_renamer.upload.btn_sample": "Testar Exemplo",
+    "bulk_file_renamer.upload.hint": "Suporta todos os tipos de arquivo. Renomeie milhares de arquivos na hora.",
+    "bulk_file_renamer.rules": "Regras para Renomear",
+    "bulk_file_renamer.add_rule": "Adicionar Regra",
+    "bulk_file_renamer.remove_rule": "Remover Regra",
+    "bulk_file_renamer.rule_replace": "Localizar e Substituir",
+    "bulk_file_renamer.rule_add": "Adicionar Texto",
+    "bulk_file_renamer.rule_remove": "Remover Texto",
+    "bulk_file_renamer.rule_format": "Alterar Maiúsculas/Minúsculas",
+    "bulk_file_renamer.rule_numbering": "Adicionar Numeração",
+    "bulk_file_renamer.rule_extension": "Alterar Extensão",
+    "bulk_file_renamer.find_text": "Localizar",
+    "bulk_file_renamer.replace_with": "Substituir por",
+    "bulk_file_renamer.case_sensitive": "Diferenciar maiúsculas/minúsculas",
+    "bulk_file_renamer.use_regex": "Usar Regex",
+    "bulk_file_renamer.text_to_add": "Texto a adicionar",
+    "bulk_file_renamer.add_at": "Adicionar em",
+    "bulk_file_renamer.prefix": "Prefixo",
+    "bulk_file_renamer.suffix": "Sufixo",
+    "bulk_file_renamer.custom_index": "Posição personalizada",
+    "bulk_file_renamer.index": "Índice",
+    "bulk_file_renamer.remove_type": "Remover",
+    "bulk_file_renamer.remove_first_n": "Primeiros N caracteres",
+    "bulk_file_renamer.remove_last_n": "Últimos N caracteres",
+    "bulk_file_renamer.remove_range": "Do índice X ao índice Y",
+    "bulk_file_renamer.chars_count": "Número de caracteres",
+    "bulk_file_renamer.start_index": "Índice inicial",
+    "bulk_file_renamer.end_index": "Índice final",
+    "bulk_file_renamer.format_type": "Formato",
+    "bulk_file_renamer.lowercase": "minúsculas",
+    "bulk_file_renamer.uppercase": "MAIÚSCULAS",
+    "bulk_file_renamer.title_case": "Primeira Letra Maiúscula",
+    "bulk_file_renamer.camel_case": "camelCase",
+    "bulk_file_renamer.start_at": "Iniciar em",
+    "bulk_file_renamer.increment_by": "Incrementar por",
+    "bulk_file_renamer.padding": "Dígitos (zeros à esquerda)",
+    "bulk_file_renamer.separator": "Separador",
+    "bulk_file_renamer.position": "Posição",
+    "bulk_file_renamer.before_name": "Antes do nome",
+    "bulk_file_renamer.after_name": "Depois do nome",
+    "bulk_file_renamer.new_extension": "Nova Extensão",
+    "bulk_file_renamer.extension_mode": "Modo",
+    "bulk_file_renamer.ext_replace": "Substituir",
+    "bulk_file_renamer.ext_lower": "Minúsculas",
+    "bulk_file_renamer.ext_upper": "Maiúsculas",
+    "bulk_file_renamer.ext_remove": "Remover",
+    "bulk_file_renamer.original_name": "Nome Original",
+    "bulk_file_renamer.new_name": "Novo Nome",
+    "bulk_file_renamer.status": "Status",
+    "bulk_file_renamer.status_changed": "Alterado",
+    "bulk_file_renamer.status_unchanged": "Inalterado",
+    "bulk_file_renamer.download_zip": "Baixar ZIP",
+    "bulk_file_renamer.clear_all": "Limpar Tudo",
+    "bulk_file_renamer.no_files": "Nenhum arquivo enviado. Arraste arquivos aqui ou clique para buscar.",
+    "bulk_file_renamer.preview": "Pré-visualização",
+    "bulk_file_renamer.files": "arquivos",
+    "bulk_file_renamer.add_files": "Adicionar Arquivos",
+    "bulk_file_renamer.how_to_use.title": "Como Renomear Arquivos em Lote",
+    "bulk_file_renamer.how_to_use.steps": [
+        "Arraste e solte os arquivos que deseja renomear. Eles permanecem no seu navegador — nada é enviado para servidores.",
+        "Adicione regras no menu 'Adicionar Regra': Localizar e Substituir, Prefixo, Sufixo ou Numeração para alterar os nomes como preferir.",
+        "Combine várias regras juntas em sequência para aplicar padrões complexos de nomes.",
+        "Confira a tabela de pré-visualização para ver como os novos nomes ficarão antes de aplicar. As extensões são mantidas automaticamente.",
+        "Clique em 'Baixar ZIP' para salvar todos os arquivos renomeados no seu computador."
+    ],
+    "bulk_file_renamer.why_use.title": "Por que usar esta ferramenta?",
+    "bulk_file_renamer.why_use.benefits": [
+        {
+            "icon": "shield-lock",
+            "title": "Privado e Seguro",
+            "description": "Renomeie seus arquivos localmente no navegador. Seus dados continuam no seu dispositivo com total sigilo."
+        },
+        {
+            "icon": "layers-linked",
+            "title": "Renomeação em Lote",
+            "description": "Altere o nome de centenas de arquivos de uma só vez aplicando regras personalizadas."
+        },
+        {
+            "icon": "bolt",
+            "title": "Sem Espera e Instantâneo",
+            "description": "Como não há upload, a alteração de nomes é instantânea mesmo com arquivos grandes de vídeo e imagens."
+        },
+        {
+            "icon": "free-rights",
+            "title": "Grátis e Sem Cadastro",
+            "description": "Ferramenta 100% gratuita, sem limites, sem criar contas e sem instalação de programas."
+        }
+    ],
+    "bulk_file_renamer.faq.title": "Perguntas Frequentes",
+    "bulk_file_renamer.faq.items": [
+        {
+            "q": "Meus arquivos são enviados para algum servidor?",
+            "a": "Não. Toda a alteração de nomes é feita no seu próprio navegador de forma local e privada."
+        },
+        {
+            "q": "O renomeador de arquivos em lote é gratuito?",
+            "a": "Sim, é totalmente grátis e ilimitado para renomear quantos arquivos você precisar."
+        },
+        {
+            "q": "Como renomear vários arquivos ao mesmo tempo?",
+            "a": "Envie seus arquivos, escolha as regras (ex: prefixo, numeração, substituir texto), confira o resultado na pré-visualização e baixe o ZIP."
+        },
+        {
+            "q": "Preciso instalar algum programa no computador?",
+            "a": "Não. A ferramenta funciona online no seu navegador sem necessidade de baixar e instalar utilitários."
+        },
+        {
+            "q": "Renomear arquivos vai alterar o formato ou estragar meus dados?",
+            "a": "Não. Os arquivos continuam exatamente idênticos por dentro. Apenas o nome externo é modificado."
+        },
+        {
+            "q": "Posso alterar a extensão dos arquivos com esta ferramenta?",
+            "a": "Mudar a extensão (como de .mp4 para .mp3) não converte o arquivo e pode deixá-lo ilegível. Para mudar de formato, use nossos conversores específicos."
+        },
+        {
+            "q": "Posso remover palavras indesejadas de vários arquivos de uma só vez?",
+            "a": "Sim. Use a regra 'Localizar e Substituir' e deixe o campo 'Substituir por' em branco para apagar trechos do nome de todos os arquivos."
+        },
+        {
+            "q": "Consigo renomear imagens JPG e PNG em sequência?",
+            "a": "Sim. É excelente para organizar fotos de câmeras adicionando numeração sequencial em todas as fotos da pasta."
+        },
+        {
+            "q": "É possível renomear vídeos pesados em MP4?",
+            "a": "Sim. Por ser um processo local sem upload, o renomeador funciona instantaneamente mesmo com vídeos pesados de vários gigabytes."
+        },
+        {
+            "q": "Posso renomear documentos PDF e Word?",
+            "a": "Sim. Documentos em PDF, DOCX, XLSX e outros podem ser renomeados em lote sem alterar o conteúdo interno."
+        },
+        {
+            "q": "Funciona para renomear músicas em MP3?",
+            "a": "Sim, é ótimo para organizar os nomes de arquivos de faixas e episódios de podcasts."
+        },
+        {
+            "q": "Como deixar nomes de arquivos ideais para SEO de sites?",
+            "a": "Substitua espaços por hífens e use letras minúsculas (exemplo: 'sapato-de-corrida.jpg' em vez de 'IMG_1234.JPG')."
+        },
+        {
+            "q": "A ferramenta funciona no Windows, Mac e celular?",
+            "a": "Sim, funciona em qualquer dispositivo que possua um navegador web moderno."
+        }
+    ],
+    "tool.word_counter.title": "Contador de Palavras",
+    "tool.word_counter.description": "Conte palavras, caracteres, frases, parágrafos e estime o tempo de leitura. Ideal para redes sociais, redações e SEO.",
+    "tool.word_counter.short_description": "Conte palavras, caracteres e frases em tempo real.",
+    "tool.word_counter.seo.title": "Contador de Palavras, Caracteres e Frases Online Grátis",
+    "tool.word_counter.seo.description": "Contador gratuito de palavras e caracteres online. Conte instantaneamente palavras, caracteres, frases, sílabas e tempo de leitura sem precisar de cadastro.",
+    "tool.word_counter.hero.title": "Contador de Palavras e Caracteres",
+    "tool.word_counter.hero.description": "Digite ou cole seu texto abaixo para ver instantaneamente a contagem de palavras, caracteres, tempo de leitura e densidade de palavras-chave.",
+    "word_counter.placeholder": "Digite ou cole seu texto aqui...",
+    "word_counter.wordCount": "Palavras",
+    "word_counter.charCount": "Caracteres",
+    "word_counter.charCountNoSpace": "Caracteres (sem espaços)",
+    "word_counter.sentenceCount": "Frases",
+    "word_counter.paragraphCount": "Parágrafos",
+    "word_counter.syllableCount": "Sílabas",
+    "word_counter.readTime": "Tempo de Leitura",
+    "word_counter.speakTime": "Tempo de Fala",
+    "word_counter.keywordDensity": "Densidade de Palavras-chave",
+    "word_counter.clearBtn": "Limpar",
+    "word_counter.copyBtn": "Copiar",
+    "word_counter.uploadBtn": "Enviar",
+    "word_counter.noData": "Sem dados...",
+    "share.title": "Compartilhar esta ferramenta:",
+    "epub_to_pdf.hero.title": "Conversor de EPUB para PDF",
+    "epub_to_pdf.hero.description": "Converta ebooks em EPUB, MOBI, AZW3, DJVU, CHM e LIT para PDF instantaneamente direto no seu navegador. Sem uploads, sem cadastro, 100% privado.",
+    "epub_to_pdf.seo.title": "Conversor de EPUB para PDF Grátis e Privado Sem Upload",
+    "epub_to_pdf.seo.description": "Converta ebooks EPUB, MOBI, AZW3 e CHM para PDF grátis e diretamente no seu navegador. Sem uploads, sem conta e sem limite de tamanho de arquivo.",
+    "epub_to_pdf.upload.title": "Arraste um arquivo de livro digital (ebook) aqui para converter",
+    "epub_to_pdf.upload.subtitle": "EPUB, MOBI, AZW3, FB2 e mais · conversão no navegador",
+    "epub_to_pdf.upload.btn_select": "Selecionar arquivo de ebook",
+    "epub_to_pdf.upload.hint": "Selecione um arquivo de livro digital para converter em PDF",
+    "epub_to_pdf.btn.sample": "Carregar exemplo",
+    "epub_to_pdf.btn.convert": "Converter para PDF",
+    "epub_to_pdf.btn.download": "Baixar PDF",
+    "epub_to_pdf.btn.convert_new": "Converter Outro Arquivo",
+    "epub_to_pdf.proc.converting": "Convertendo ebook...",
+    "epub_to_pdf.proc.reading": "Lendo arquivo...",
+    "epub_to_pdf.proc.initializing": "Inicializando conversor...",
+    "epub_to_pdf.error": "Ocorreu um erro durante a conversão.",
+    "tool.transliteration.title": "Teclado Fonético Online Grátis",
+    "tool.transliteration.description": "Digite em outros alfabetos usando um teclado em inglês. Suporta híndi, árabe, russo, tâmil, grego e mais.",
+    "tool.transliteration.short_description": "Digitação fonética para alfabetos nativos",
+    "tool.transliteration.seo.title": "Ferramenta de Transliteração Online Grátis e Teclado Fonético",
+    "tool.transliteration.seo.description": "Digite foneticamente e converta para russo, urdu, tâmil, árabe, híndi e outros alfabetos em tempo real com sugestões instantâneas de palavras.",
+    "tool.transliteration.hero.title": "Ferramenta de Transliteração Online Grátis",
+    "tool.transliteration.hero.description": "Digite foneticamente em inglês e veja o texto se converter instantaneamente para alfabetos como russo, urdu, tâmil, árabe, híndi e vários outros.",
+    "transliteration.placeholder": "Digite foneticamente em inglês (ex: 'namaste', 'privet')...",
+    "transliteration.outputPlaceholder": "O texto no alfabeto nativo aparecerá aqui instantaneamente...",
+    "transliteration.clearBtn": "Limpar",
+    "transliteration.copyBtn": "Copiar",
+    "make_pdf_look_scanned.seo.title": "Efeito de PDF Escaneado Online Grátis - Digitalizar PDF",
+    "make_pdf_look_scanned.seo.description": "Adicione um efeito de folha escaneada a qualquer PDF: desfoque, ruído, inclinação e preto e branco. Transforme PDFs digitais em cópias escaneadas grátis.",
+    "make_pdf_look_scanned.hero.title": "Deixar PDF com Cara de Escaneado",
+    "make_pdf_look_scanned.hero.description": "Transforme um PDF digital limpo em uma cópia escaneada realista. Adicione efeitos de fotocópia como ruído, desfoque, inclinação e preto e branco.",
+    "make_pdf_look_scanned.upload.title": "Arraste um arquivo PDF aqui para digitalizar",
+    "make_pdf_look_scanned.upload.subtitle": "PDF · até 50 MB · efeito de scanner realista",
+    "make_pdf_look_scanned.upload.btn_select": "Selecionar arquivo PDF",
+    "make_pdf_look_scanned.upload.btn_sample": "Carregar exemplo",
+    "make_pdf_look_scanned.upload.hint": "Selecione um arquivo PDF para aplicar o efeito de folha escaneada",
+    "make_pdf_look_scanned.btn.process": "Aplicar Efeito de Scanner",
+    "make_pdf_look_scanned.btn.download": "Baixar PDF Escaneado",
+    "make_pdf_look_scanned.btn.process_new": "Processar Novo Arquivo",
+    "make_pdf_look_scanned.proc.processing": "Processando PDF...",
+    "make_pdf_look_scanned.settings.intensity": "Intensidade do Efeito (1-5)",
+    "make_pdf_look_scanned.settings.style": "Estilo de Digitalização",
+    "make_pdf_look_scanned.settings.level": "Nível",
+    "make_pdf_look_scanned.pages": "Páginas",
+    "make_pdf_look_scanned.style.bw": "Xerox Preto e Branco",
+    "make_pdf_look_scanned.style.grainy": "Ruído Granulado",
+    "make_pdf_look_scanned.style.vintage": "Papel Antigo/Amarelado",
+    "make_pdf_look_scanned.style.color": "Scanner Colorido Moderno",
+    "common.labs": "Laboratório",
+    "home.labs_description": "Análises aprofundadas, testes práticos e experimentos técnicos do nosso laboratório.",
+    "ebook_converter.hero.title": "Conversor de Ebook",
+    "ebook_converter.hero.description": "Converta ebooks nos formatos PDF, EPUB, MOBI, AZW3, CHM, DJVU e LIT instantaneamente no seu navegador. Sem upload, sem cadastro e 100% privado.",
+    "ebook_converter.seo.title": "Conversor de Ebook Online Grátis - PDF, EPUB, MOBI, AZW3",
+    "ebook_converter.seo.description": "Converta PDF para EPUB, MOBI, AZW3, CHM e DJVU grátis online e vice-versa. Conversão em lote sem upload, sem cadastro e pronta para leitores Kindle.",
+    "ebook_converter.upload.title": "Arraste um arquivo de livro digital aqui para converter",
+    "ebook_converter.upload.subtitle": "PDF, EPUB, MOBI, AZW3, FB2 e mais · conversão no navegador",
+    "ebook_converter.upload.btn_select": "Selecionar arquivo de ebook",
+    "ebook_converter.upload.hint": "Selecione um arquivo de livro digital para converter",
+    "ebook_converter.btn.sample": "Carregar exemplo",
+    "ebook_converter.btn.convert": "Converter para {format}",
+    "ebook_converter.btn.download": "Baixar {format}",
+    "ebook_converter.btn.convert_new": "Converter Outro Arquivo",
+    "ebook_converter.proc.converting": "Convertendo ebook...",
+    "ebook_converter.proc.reading": "Lendo arquivo...",
+    "ebook_converter.proc.initializing": "Inicializando conversor...",
+    "ebook_converter.error": "Ocorreu um erro durante a conversão.",
+    "ebook_converter.format.select_output": "Selecione o formato de saída:"
+}

@@ -65,6 +65,28 @@ export const GET: RequestHandler = async ({ url }) => {
         }
     }
 
+    // 4. Labs pages
+    const labModules = import.meta.glob('/src/lib/contents/labs/**/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+    
+    for (const path of Object.keys(labModules)) {
+        const match = path.match(/\/labs\/([^/]+)\/([^/]+)\.md$/);
+        if (match) {
+            const [, postLang, slug] = match;
+            const labPath = langUrl(postLang, `/labs/${slug}`);
+            const labUrl = getFinalUrl(labPath);
+            const content = labModules[path];
+            const dateMatch = content.match(/^date:\s*["']?([^"'\r\n]+)["']?/m);
+            const lastmod = dateMatch ? dateMatch[1] : null;
+            
+            xml += `  <url>\n`;
+            xml += `    <loc>${labUrl}</loc>\n`;
+            if (lastmod) {
+                xml += `    <lastmod>${lastmod}</lastmod>\n`;
+            }
+            xml += `  </url>\n`;
+        }
+    }
+
     xml += `</urlset>`;
 
     return new Response(xml, {

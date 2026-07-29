@@ -217,21 +217,20 @@
 </section>
 
     </div>
+    {#if $page.data.recentPosts && $page.data.recentPosts.length > 0}
     <aside class="home-sidebar">
         <h3 class="sidebar-title">{t("common.blog", dict) || "Latest Blog"}</h3>
         <div class="sidebar-posts">
-            {#if $page.data.recentPosts}
-                {#each $page.data.recentPosts as post}
-                    <a href={langUrl(lang, `/blog/${post.slug}`)} class="sidebar-post-item">
-                        <h4 class="sidebar-post-title">{post.title || post.slug}</h4>
-                        {#if post.date}
-                            <span class="sidebar-post-date">
-                                {new Date(post.date).toLocaleDateString(lang, { year: 'numeric', month: 'short', day: 'numeric' })}
-                            </span>
-                        {/if}
-                    </a>
-                {/each}
-            {/if}
+            {#each $page.data.recentPosts as post}
+                <a href={langUrl(lang, `/blog/${post.slug}`)} class="sidebar-post-item">
+                    <h4 class="sidebar-post-title">{post.title || post.slug}</h4>
+                    {#if post.date}
+                        <span class="sidebar-post-date">
+                            {new Date(post.date).toLocaleDateString(lang, { year: 'numeric', month: 'short', day: 'numeric' })}
+                        </span>
+                    {/if}
+                </a>
+            {/each}
         </div>
         <div class="sidebar-ad">
             <YandexBanner 
@@ -257,6 +256,7 @@
             /> -->
         </div>
     </aside>
+    {/if}
 </div>
 
 <style>

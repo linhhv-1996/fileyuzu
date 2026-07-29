@@ -98,90 +98,10 @@
     "compress_video.btn.download": "Download video",
     "compress_video.btn.compress_new": "Compress new files",
     "compress_video.proc.compressing": "Compressing video",
-    "compress_video.how_to_use.title": "How to Compress a Video Online",
-    "compress_video.how_to_use.steps": [
-        "Add a video file from your device, or drag and drop it into the upload area to start compressing your video online.",
-        "Keep Auto optimize turned on for automatic video compression, or turn it off to choose Target file size and compress your video for platforms like Discord, LINE, Gmail, WhatsApp, or Slack.",
-        "Click Compress to reduce the video file size. Everything runs locally in your browser, so your video is never uploaded to a server. Download the compressed video when it is ready."
-    ],
-    "compress_video.why_use.title": "Why Use UploadLess",
-    "compress_video.why_use.benefits": [
-        {
-            "icon": "shield-lock",
-            "title": "100% private",
-            "description": "Compression runs in your browser via WebAssembly. Your file never leaves your device."
-        },
-        {
-            "icon": "bolt",
-            "title": "No sign-up needed",
-            "description": "Open the page and start. No account, no watermark, no time limit."
-        },
-        {
-            "icon": "player-play",
-            "title": "Simple workflow",
-            "description": "Compress one video at a time with a focused, simple workflow."
-        },
-        {
-            "icon": "adjustments",
-            "title": "Flexible target size",
-            "description": "Set an exact size for any platform — Gmail, Discord, Slack, Line, WhatsApp."
-        }
-    ],
-    "compress_video.faq.title": "Video Compressor FAQ",
-    "compress_video.faq.items": [
-        {
-            "q": "How do I compress a video to under 100MB?",
-            "a": "Turn off Auto optimize, switch to Target file size mode, and enter 100MB (or use the closest quick tag). UploadLess will compress your video to fit that size limit in your browser."
-        },
-        {
-            "q": "How do I compress a video for Discord?",
-            "a": "Use Target file size mode and pick the Discord quick tag. This matches your video to Discord's upload limit so it doesn't get rejected."
-        },
-        {
-            "q": "What size should I compress a video to before emailing it?",
-            "a": "Use Target file size mode and select the Gmail quick tag. Most email providers reject attachments over 25MB, so compressing to that size or smaller avoids bounced emails."
-        },
-        {
-            "q": "How do I compress a video for my website?",
-            "a": "Compress with Auto optimize to shrink the file for faster page loading, or set a specific Target file size if your host has an upload limit. The output is saved as MP4, which plays reliably across browsers and devices."
-        },
-        {
-            "q": "Can I compress an iPhone video (MOV) in the browser?",
-            "a": "Yes. Add your MOV file directly, and UploadLess will compress it and convert it to MP4 in your browser, no need to change the format on your iPhone first."
-        },
-        {
-            "q": "What's the best way to compress a video without losing noticeable quality?",
-            "a": "Start with Auto optimize, which balances file size and visual quality automatically. If the result looks too compressed, try setting a slightly larger target file size instead of using the smallest possible size."
-        },
-        {
-            "q": "Is there a limit on how many videos I can compress for free?",
-            "a": "No sign-up or payment is required, so you can compress as many videos as you need. Very large files may take longer depending on your device's memory and processing power, since everything runs locally in your browser."
-        },
-        {
-            "q": "How much smaller will my video get after compression?",
-            "a": "It depends on your original video's bitrate, resolution, and format. Auto optimize aims to reduce the file size as much as possible while keeping the video watchable, so results vary from file to file."
-        },
-        {
-            "q": "How is this different from using HandBrake?",
-            "a": "HandBrake is a desktop app you have to download and configure. UploadLess runs entirely in your browser with no installation, so you can compress a video in a few clicks from any device."
-        },
-        {
-            "q": "Does compressing a video also convert its format?",
-            "a": "Yes. Whatever format you upload, MOV, AVI, MKV, WebM, and more, the compressed output is always saved as MP4."
-        },
-        {
-            "q": "How long does it take to compress a video online?",
-            "a": "Since the video never leaves your device, there's no upload or download wait. Compression speed depends mainly on your video's length and your device's performance, not your internet connection."
-        },
-        {
-            "q": "What happens to my video file after I close the browser tab?",
-            "a": "Nothing is stored on our end. Your video is processed entirely in your browser's memory, so once you close the tab without downloading, no copy of it remains anywhere but your own device."
-        },
-        {
-            "q": "Can I also compress PDF files on this site?",
-            "a": "Yes. UploadLess includes a separate [PDF Compressor](/compress-pdf) and [PDF Merger](/merge-pdf) that run in your browser the same way, with no file uploaded to a server."
-        }
-    ],
+    
+
+
+
     "_comment_pdf_compressor": "================ PDF Compressor ================",
     "pdf_compressor.seo.title": "Free Online PDF Compressor — Compress PDF Files | UploadLess",
     "pdf_compressor.seo.description": "Compress PDF files online for free with UploadLess. Reduce PDF file size privately in your browser with no upload, no sign-up, and fast results.",
@@ -301,70 +221,7 @@
     "video_converter.btn.download": "Download file",
     "video_converter.btn.convert_new": "Convert new files",
     "video_converter.proc.converting": "Converting video",
-    "video_converter.how_to_use.title": "How to Convert a Video Online",
-    "video_converter.how_to_use.steps": [
-        "Upload a video file from your device, or drag and drop it into the online video converter.",
-        "Choose the output format you want, such as MP4, WebM, MOV, MKV, AVI, or MP3.",
-        "Click Convert to change the video format. The conversion runs locally in your browser for privacy, then download your converted file."
-    ],
-    "video_converter.why_use.title": "Why Use UploadLess Converter",
-    "video_converter.why_use.benefits": [
-        {
-            "icon": "shield-lock",
-            "title": "Private video conversion",
-            "description": "Convert video files locally in your browser. Your videos are never uploaded, so they stay private on your device."
-        },
-        {
-            "icon": "bolt",
-            "title": "Free and easy to use",
-            "description": "Use this free online video converter without signing up, installing software, or waiting through unnecessary steps."
-        },
-        {
-            "icon": "player-play",
-            "title": "Supports popular formats",
-            "description": "Convert between common video formats like MP4, WebM, MOV, MKV, AVI, and more, or extract audio as MP3."
-        },
-        {
-            "icon": "rocket",
-            "title": "Fast browser-based converter",
-            "description": "Change video format quickly with optimized in-browser processing and download your converted file when it is ready."
-        }
-    ],
-    "video_converter.faq.title": "Video Converter FAQ",
-    "video_converter.faq.items": [
-        {
-            "q": "What is an online video converter?",
-            "a": "An online video converter lets you change a video file from one format to another, such as MP4, WebM, MOV, MKV, or AVI. With UploadLess, the conversion runs directly in your browser, so you do not need to install software."
-        },
-        {
-            "q": "Is this video converter free to use?",
-            "a": "Yes. UploadLess is a free online video converter you can use without creating an account. You can upload a video, choose an output format, convert it, and download the converted file from your browser."
-        },
-        {
-            "q": "Are my video files uploaded to a server?",
-            "a": "No. Video conversion is processed locally on your device using browser-based technology such as WebAssembly. Your files are not uploaded to our servers, which helps keep your videos private."
-        },
-        {
-            "q": "What video formats can I convert?",
-            "a": "You can convert most common video file formats, including MP4, MOV, MKV, WebM, AVI, and more. You can also choose audio formats like MP3 when you want to extract sound from a video."
-        },
-        {
-            "q": "Can I convert a video to MP3 audio?",
-            "a": "Yes. Select MP3 as the target format to extract the audio track from your video. This is useful when you want to turn a video file into an audio file for listening or sharing."
-        },
-        {
-            "q": "Will the converted video have a watermark?",
-            "a": "No. UploadLess converts your video without adding a watermark. Your downloaded file is the converted version of your original video, without branding placed on top of it."
-        },
-        {
-            "q": "Can I convert HD or 4K videos?",
-            "a": "Yes, you can convert HD and 4K videos if your device and browser have enough processing power. Because conversion runs locally, larger or higher-resolution videos may take longer to process."
-        },
-        {
-            "q": "Why should I use a browser-based video converter?",
-            "a": "A browser-based video converter is convenient because it works without installing apps, and it is more private because the conversion can happen on your own device. It is a fast way to convert video files online while keeping control of your files."
-        }
-    ],
+
     "_comment_compress_mp4": "================ Compress MP4 ================",
     "_comment_reduce_video_size": "================ Reduce Video Size ================",
     "pdf_compressor.pages": "pages",
@@ -377,78 +234,8 @@
     "video_to_mp3.seo.description": "Convert video to MP3 online with UploadLess. Extract audio from MP4, MOV, MKV, WebM, and AVI files in your browser—free, fast, and private.",
     "video_to_mp3.hero.title": "Video to MP3 Converter",
     "video_to_mp3.hero.description": "Extract audio from MP4, MOV, MKV, WebM, or AVI videos and save it as an MP3 directly in your browser.",
-    "video_to_mp3.how_to_use.title": "How to Convert Video to MP3 Online",
-    "video_to_mp3.how_to_use.steps": [
-        "Upload your video file, such as MP4, MOV, MKV, WebM, or AVI.",
-        "Choose MP3 as the output format for extracting audio.",
-        "Click Convert Video to MP3. UploadLess will extract the audio in your browser, then you can download the MP3 file."
-    ],
-    "video_to_mp3.why_use.title": "Why Use UploadLess Audio Extractor",
-    "video_to_mp3.why_use.benefits": [
-        {
-            "icon": "shield-lock",
-            "title": "Private video to MP3 conversion",
-            "description": "Convert video to MP3 directly in your browser. Your files stay on your device and are never uploaded."
-        },
-        {
-            "icon": "bolt",
-            "title": "Fast and free to use",
-            "description": "Extract audio from video online without sign-up, watermarks, or software installation."
-        },
-        {
-            "icon": "file-music",
-            "title": "Extract clear MP3 audio",
-            "description": "Turn your video into an MP3 audio file for music, voice recordings, lectures, podcasts, and more."
-        },
-        {
-            "icon": "file-video",
-            "title": "Supports popular video formats",
-            "description": "Upload common video formats like MP4, MOV, MKV, WebM, and AVI, then convert them to MP3 in seconds."
-        }
-    ],
-    "video_to_mp3.faq.title": "Video to MP3 FAQ",
-    "video_to_mp3.faq.items": [
-        {
-            "q": "How do I convert a video to MP3 online?",
-            "a": "Upload your video file, choose MP3 as the output format, and click Convert. UploadLess extracts the audio from your video and saves it as an MP3 file directly in your browser."
-        },
-        {
-            "q": "Is this video to MP3 converter free?",
-            "a": "Yes. You can use UploadLess as a free video to MP3 converter without creating an account, installing software, or adding a watermark."
-        },
-        {
-            "q": "Can I extract audio from a video file?",
-            "a": "Yes. This tool works as a video audio extractor, allowing you to extract audio, music, voice, or sound from a video and download it as an MP3 file."
-        },
-        {
-            "q": "Can I convert MP4 to MP3?",
-            "a": "Yes. You can upload an MP4 video and convert it to MP3 online. The tool extracts the audio track from your MP4 file and saves it as an MP3."
-        },
-        {
-            "q": "Can I convert MOV, MKV, WebM, or AVI to MP3?",
-            "a": "Yes. UploadLess supports popular video formats including MOV, MKV, WebM, AVI, and MP4, so you can convert common video files to MP3 in your browser."
-        },
-        {
-            "q": "Are my video files uploaded to a server?",
-            "a": "No. The video to MP3 conversion runs locally in your browser, so your files stay on your device and are not uploaded to a server."
-        },
-        {
-            "q": "Do I need to paste a video URL?",
-            "a": "No. This tool is designed for video files from your device. You can upload a local video file and convert it to MP3 without using a URL."
-        },
-        {
-            "q": "Do I need to install software to convert video to MP3?",
-            "a": "No. UploadLess is an online video to MP3 converter that runs in your browser, so you do not need to install any desktop software or extension."
-        },
-        {
-            "q": "Will the MP3 audio quality stay good?",
-            "a": "UploadLess extracts the audio from your video and saves it as an MP3 file with good quality for music, voice recordings, lectures, podcasts, and other common uses."
-        },
-        {
-            "q": "Can I use this tool as a video to audio converter?",
-            "a": "Yes. You can use it as a video to audio converter to turn a video file into an MP3 audio file quickly, privately, and directly in your browser."
-        }
-    ],
+
+
     "_comment_mp4_converter": "================ MP4 Converter ================",
     "_comment_barcode_generator": "================ Barcode Generator ================",
     "tool.barcode_generator.title": "Barcode Generator",
@@ -484,78 +271,8 @@
     "barcode_generator.seo.description": "Create barcodes online for free. Generate printable barcode labels, product codes, PNG images, SVG files, PDFs, or bulk barcodes in seconds.",
     "barcode_generator.hero.title": "Free Online Barcode Generator",
     "barcode_generator.hero.description": "Create barcodes instantly for products, labels, inventory, and packaging. Generate single or bulk barcodes, then download as PNG, SVG, PDF, or print-ready files.",
-    "barcode_generator.how_to_use.steps": [
-        "Select your preferred mode (Manual, Bulk Upload, or Sequential) and choose the barcode type you need, such as Code 128, EAN-13, UPC, or JAN Code.",
-        "For Manual Mode: Enter your barcode data directly into the input area. To create multiple barcodes at once, add one value per line.",
-        "For Bulk Upload Mode: Upload your CSV or Excel file containing the list of product data. Ensure each code is in a separate row.",
-        "For Sequential Mode: Set your starting value, total count, and step increment to automatically generate a continuous sequence of barcodes.",
-        "Customize your barcode settings, including label design, dimensions, and download formats like PNG, SVG, or printable PDF.",
-        "Click 'Generate Barcodes' to process instantly in your browser, then download them individually or as a single bulk ZIP/PDF file for your inventory, products, or packaging."
-    ],
-    "barcode_generator.why_use.benefits": [
-        {
-            "icon": "shield-lock",
-            "title": "100% Private & Secure Generator",
-            "description": "Generate barcodes safely with total privacy. All processing happens 100% client-side in your browser, meaning your sensitive product data is never uploaded, stored, or sent to any server."
-        },
-        {
-            "icon": "bolt",
-            "title": "Free & Instant Online Barcode Maker",
-            "description": "The ultimate free barcode generator tool to create accurate codes instantly. No account registration, no subscriptions, and no software installation required to start creating."
-        },
-        {
-            "icon": "list",
-            "title": "Flexible Bulk & Sequential Modes",
-            "description": "An advanced bulk barcode generator designed for efficiency. Easily input data line-by-line, upload CSV/Excel files, or generate sequential numbers automatically for seamless batch processing."
-        },
-        {
-            "icon": "device-desktop",
-            "title": "High-Quality Printable Formats",
-            "description": "Export your designs as high-resolution PNG images, crisp PDF sheets, or scalable vector files using our barcode svg maker—perfectly optimized for a professional barcode label maker."
-        }
-    ],
-    "barcode_generator.faq.items": [
-        {
-            "q": "How do I use the bulk barcode generator with a CSV or Excel file?",
-            "a": "To generate barcodes in bulk, switch to the 'Upload CSV/Excel' mode. Upload your spreadsheet containing your product codes (one per row), and our online tool will instantly process all codes locally in your browser. You can then download them all at once as a single ZIP file."
-        },
-        {
-            "q": "Can I automatically create a sequence of numbers using this barcode maker?",
-            "a": "Yes. Our sequential barcode maker mode allows you to generate a continuous series of barcodes automatically. Simply input your starting numeric value, define the total count needed, and set the step increment. The tool will instantly render the entire serial sequence without any manual typing."
-        },
-        {
-            "q": "How does the automatic check digit calculator work for JAN codes?",
-            "a": "When creating a JAN-13 or JAN-8 barcode, our built-in jan code check digit calculator automatically computes the final verification digit using the standard GS1 modulo-10 algorithm. Even if you only input the first 12 digits, the tool ensures your final barcode image is valid and scannable."
-        },
-        {
-            "q": "What is the standard barcode type used for retail products in the US?",
-            "a": "For retail products sold in the United States, UPC-A is the standard 12-digit barcode format used at point-of-sale (POS) systems. If you are importing or exporting products globally, you can also use our product barcode generator to create 13-digit EAN-13 or JAN codes."
-        },
-        {
-            "q": "Can I export scalable vector formats using this barcode creator?",
-            "a": "Yes. Beyond standard raster images, you can use our built-in barcode svg maker to export high-quality vector graphics. This is ideal for professional graphic designers who need to scale barcode graphics infinitely for product packaging layouts without losing crispness."
-        },
-        {
-            "q": "Is a printable barcode maker layout supported for label sheets?",
-            "a": "Yes. Our printable barcode maker functionality allows you to customize label dimensions, font sizes, and layouts. You can export your generated codes directly into a print-ready PDF format that aligns perfectly with standard commercial sticky label sheets like Avery."
-        },
-        {
-            "q": "Can I create barcodes online securely without commercial risk?",
-            "a": "Absolutely. Unlike traditional server-based platforms, this barcode generator online tool uses advanced client-side scripts. Your inventory lists, pricing data, and proprietary product codes never leave your device, making it completely safe from data leaks or corporate espionage."
-        },
-        {
-            "q": "Do I need dedicated desktop barcode maker software to generate high volumes?",
-            "a": "No, you do not need to install any heavy desktop software. This browser-based tool matches the performance of native applications, handling thousands of rows of data via CSV uploads or sequential generation instantly using your local browser engine."
-        },
-        {
-            "q": "Why does my printed barcode fail to scan correctly?",
-            "a": "Common issues include low print contrast, blurry lines caused by low-resolution scaling, or an invalid check digit. We recommend downloading your codes in vector format (.SVG) or high-res .PNG, ensuring the check digit matches GS1 standards, and performing a quick test scan on screen before mass printing."
-        },
-        {
-            "q": "Are the generated product codes officially registered with GS1?",
-            "a": "Our tool functions as a high-performance barcode image creator that converts text or numbers into scannable graphic bars. It does not issue or register barcode numbers. To get an official, globally unique barcode prefix for commercial retail, you must register your numbers directly with GS1."
-        }
-    ],
+    
+
     "_comment_image_to_text": "================ Image to Text (OCR) ================",
     "image_to_text.seo.title": "Image to Text Converter Online Free | UploadLess",
     "image_to_text.seo.description": "Convert images to text online for free with UploadLess. Extract, copy, and edit text from JPG, PNG, photos, screenshots, and pictures using private OCR.",
@@ -583,79 +300,8 @@
     "image_to_text.status.processing": "Processing...",
     "image_to_text.status.done": "Done",
     "image_to_text.text.try_samples": "Try it with a sample image",
-    "image_to_text.how_to_use.title": "How to Extract Text from Images",
-    "image_to_text.how_to_use.steps": [
-        "Upload one or more images from your device, drag and drop them, or paste an image directly from your clipboard.",
-        "Choose the language that best matches your images, including Latin, Korean, Japanese, Chinese Simplified, Chinese Traditional, Thai, or Cyrillic.",
-        "UploadLess will process your images in bulk and extract the text one by one in your browser.",
-        "Once processing is complete, copy the extracted text or adjust the output with the available formatting tools."
-    ],
-    "image_to_text.why_use.title": "Why Use UploadLess OCR",
-    "image_to_text.why_use.benefits": [
-        {
-            "icon": "shield-lock",
-            "title": "Private Image OCR",
-            "description": "Convert images to text directly in your browser. Your photos, screenshots, and documents are never uploaded to a server."
-        },
-        {
-            "icon": "bolt",
-            "title": "Fast and Free",
-            "description": "Extract text from images online for free without creating an account, installing software, or paying hidden fees."
-        },
-        {
-            "icon": "layers-linked",
-            "title": "Bulk Image to Text",
-            "description": "Upload or paste multiple images at once and process them sequentially to save time on large OCR tasks."
-        },
-        {
-            "icon": "languages",
-            "title": "Multiple OCR Languages",
-            "description": "Choose the best OCR language for your image, including Latin, Korean, Japanese, Chinese Simplified, Chinese Traditional, and Thai."
-        }
-    ],
-    "image_to_text.faq.title": "Image to Text FAQ",
-    "image_to_text.faq.items": [
-        {
-            "q": "How do I convert an image to text online?",
-            "a": "Upload, drag and drop, or paste an image into UploadLess, choose the correct OCR language, and the tool will extract the text directly in your browser."
-        },
-        {
-            "q": "Can I extract text from photos and pictures?",
-            "a": "Yes. UploadLess works as a photo to text and picture to text converter, helping you extract editable text from photos, scanned images, screenshots, and other image files."
-        },
-        {
-            "q": "Can I copy text from an image?",
-            "a": "Yes. After OCR processing is complete, you can copy the extracted text to your clipboard and use it in documents, notes, emails, or other apps."
-        },
-        {
-            "q": "Does this image to text converter support JPG and PNG files?",
-            "a": "Yes. You can convert JPG, JPEG, and PNG images to text. For best OCR results, use a clear image with readable text and good contrast."
-        },
-        {
-            "q": "Can I convert screenshots to text?",
-            "a": "Yes. You can paste or upload a screenshot and extract text from it. This is useful for copying text from apps, websites, receipts, messages, or documents."
-        },
-        {
-            "q": "Can I process multiple images at once?",
-            "a": "Yes. UploadLess supports bulk image to text processing, so you can upload or paste multiple images and extract text from them sequentially."
-        },
-        {
-            "q": "Are my images uploaded to a server?",
-            "a": "No. OCR processing runs locally in your browser. Your images stay on your device and are not uploaded to a server."
-        },
-        {
-            "q": "Which OCR languages are supported?",
-            "a": "UploadLess supports Latin text, Korean, Japanese, Chinese Simplified, Chinese Traditional, and Thai. Choose the language that best matches your image for better accuracy."
-        },
-        {
-            "q": "How can I improve image OCR accuracy?",
-            "a": "Use a high-quality image with sharp text, good lighting, minimal blur, and strong contrast. Choosing the correct OCR language also helps the model recognize text more accurately."
-        },
-        {
-            "q": "Is this image OCR tool free to use?",
-            "a": "Yes. UploadLess lets you extract text from images online for free, with no sign-up, no software installation, and private browser-based OCR processing."
-        }
-    ],
+
+
     "tool.image_to_text.title": "Image to Text",
     "tool.image_to_text.description": "Extract text from images locally in your browser. Fast, private, and supports bulk processing.",
     "tool.image_to_text.short_description": "Extract text from images privately.",
