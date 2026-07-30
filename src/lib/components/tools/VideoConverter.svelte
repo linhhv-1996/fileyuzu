@@ -2,6 +2,7 @@
     import Share from '../Share.svelte';
     import { formatSize } from '$lib/utils';
     import { convertVideoFile } from '$lib/utils/video-converter';
+    import { createTimer } from '$lib/utils/timer';
     
     interface Props {
         texts?: any;
@@ -20,6 +21,7 @@
     let status = $state<'idle' | 'file' | 'proc' | 'done'>('idle');
     let fileInput = $state<HTMLInputElement | undefined>();
     let selectedFile = $state<File | null>(null);
+    // svelte-ignore state_referenced_locally
     let targetFormat = $state(outputFormats[0] || 'mp4');
     let videoUrl = $state<string | null>(null);
     let isDragging = $state(false);
@@ -98,10 +100,13 @@
         progress = 0;
         convertedFile = null;
         
+        let timer: ReturnType<typeof createTimer> | null = null;
         try {
+            timer = createTimer('video-conversion');
             const resultFile = await convertVideoFile(selectedFile, targetFormat, (p) => {
                 progress = p;
             });
+            timer.end();
             
             progress = 100;
             convertedSize = resultFile.size;
@@ -112,6 +117,7 @@
             
             status = 'done';
         } catch (err) {
+            if (timer) timer.end();
             console.error('Conversion error:', err);
             status = 'file';
         }
@@ -186,6 +192,7 @@
             <div class={status === 'done' ? "done-frame" : "preview-frame"}>
                 <div class="preview-main" style="overflow: hidden; position: relative;">
                     {#if videoUrl && !(status === 'done' && targetFormat === 'mp3')}
+                        <!-- svelte-ignore a11y_media_has_caption -->
                         <video src={videoUrl} style="width:100%;height:100%;object-fit:contain;position:absolute;top:0;left:0;border-radius:inherit;background:#000;" controls></video>
                     {:else if videoUrl && status === 'done' && targetFormat === 'mp3'}
                         <div style="width:100%; height:100%; background: #111827; border-radius: inherit; display:flex; flex-direction:column; align-items:center; justify-content:center; gap: 24px; position:absolute; top:0; left:0;">
@@ -202,6 +209,7 @@
                                     onended={() => audioPaused = true}
                                     style="display:none"
                                 ></audio>
+                                <!-- svelte-ignore a11y_consider_explicit_label -->
                                 <button class="audio-play-btn" onclick={(e) => { e.stopPropagation(); audioPaused ? audioRef?.play() : audioRef?.pause() }}>
                                     <i class="ti {audioPaused ? 'ti-player-play' : 'ti-player-pause'}" aria-hidden="true" style="font-size: 16px;"></i>
                                 </button>

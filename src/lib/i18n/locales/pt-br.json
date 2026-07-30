@@ -229,8 +229,6 @@
     "video_to_mp3.seo.description": "Converta vídeos para MP3 online gratuitamente. Extraia áudio de arquivos MP4, MOV, MKV, WebM e AVI direto no seu navegador com velocidade e privacidade.",
     "video_to_mp3.hero.title": "Conversor de Vídeo para MP3",
     "video_to_mp3.hero.description": "Extraia áudio de vídeos em MP4, MOV, MKV, WebM ou AVI e salve em MP3 diretamente no seu navegador.",
-    
-
     "_comment_mp4_converter": "================ MP4 Converter ================",
     "_comment_barcode_generator": "================ Barcode Generator ================",
     "tool.barcode_generator.title": "Gerador de Código de Barras",
@@ -1455,5 +1453,8 @@
     "ebook_converter.proc.reading": "Lendo arquivo...",
     "ebook_converter.proc.initializing": "Inicializando conversor...",
     "ebook_converter.error": "Ocorreu um erro durante a conversão.",
-    "ebook_converter.format.select_output": "Selecione o formato de saída:"
+    "ebook_converter.format.select_output": "Selecione o formato de saída:",
+    "blog.read_more": "Leia Mais",
+    "blog.next_post": "Próximo",
+    "blog.prev_post": "Anterior"
 }

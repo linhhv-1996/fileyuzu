@@ -1490,26 +1490,24 @@
     "make_pdf_look_scanned.style.color": "모던 컬러",
     "common.labs": "실험실",
     "home.labs_description": "연구실의 심층 분석, 실제 테스트 및 기술 실험.",
-
-
-  "ebook_converter.hero.title": "PDF EPUB 변환기",
-  "ebook_converter.hero.description": "PDF 파일을 EPUB, MOBI, AZW3, CHM, DJVU, LIT 등 전자책 포맷으로 변환하고, 반대로 다시 PDF로도 변환할 수 있습니다. 설치나 회원가입 없이 브라우저에서 바로 무료로 이용하세요.",
-  "ebook_converter.seo.title": "PDF EPUB 변환기 - 무료 PDF 전자책 변환 프로그램",
-  "ebook_converter.seo.description": "PDF를 EPUB, MOBI, AZW3 파일로 무료 변환해 킨들에서 바로 읽어보세요. PDF 전자책 만들기부터 여러 파일 변환까지, 설치 없이 브라우저에서 바로 이용하는 변환기입니다.",
-
-"ebook_converter.upload.title": "변환할 전자책 파일을 여기에 끌어다 놓으세요",
-"ebook_converter.upload.subtitle": "PDF, EPUB, MOBI, AZW3, FB2 등 · 브라우저 기반 변환",
-"ebook_converter.upload.btn_select": "전자책 파일 선택",
-"ebook_converter.upload.hint": "변환할 전자책 파일 1개를 선택하세요",
-"ebook_converter.btn.sample": "샘플 불러오기",
-"ebook_converter.btn.convert": "{format}(으)로 변환",
-"ebook_converter.btn.download": "{format} 다운로드",
-"ebook_converter.btn.convert_new": "다른 파일 변환하기",
-"ebook_converter.proc.converting": "전자책 변환 중...",
-"ebook_converter.proc.reading": "파일 읽는 중...",
-"ebook_converter.proc.initializing": "변환기 초기화 중...",
-"ebook_converter.error": "변환 중 오류가 발생했습니다.",
-"ebook_converter.format.select_output": "출력 형식 선택:"
-
-
+    "ebook_converter.hero.title": "PDF EPUB 변환기",
+    "ebook_converter.hero.description": "PDF 파일을 EPUB, MOBI, AZW3, CHM, DJVU, LIT 등 전자책 포맷으로 변환하고, 반대로 다시 PDF로도 변환할 수 있습니다. 설치나 회원가입 없이 브라우저에서 바로 무료로 이용하세요.",
+    "ebook_converter.seo.title": "PDF EPUB 변환기 - 무료 PDF 전자책 변환 프로그램",
+    "ebook_converter.seo.description": "PDF를 EPUB, MOBI, AZW3 파일로 무료 변환해 킨들에서 바로 읽어보세요. PDF 전자책 만들기부터 여러 파일 변환까지, 설치 없이 브라우저에서 바로 이용하는 변환기입니다.",
+    "ebook_converter.upload.title": "변환할 전자책 파일을 여기에 끌어다 놓으세요",
+    "ebook_converter.upload.subtitle": "PDF, EPUB, MOBI, AZW3, FB2 등 · 브라우저 기반 변환",
+    "ebook_converter.upload.btn_select": "전자책 파일 선택",
+    "ebook_converter.upload.hint": "변환할 전자책 파일 1개를 선택하세요",
+    "ebook_converter.btn.sample": "샘플 불러오기",
+    "ebook_converter.btn.convert": "{format}(으)로 변환",
+    "ebook_converter.btn.download": "{format} 다운로드",
+    "ebook_converter.btn.convert_new": "다른 파일 변환하기",
+    "ebook_converter.proc.converting": "전자책 변환 중...",
+    "ebook_converter.proc.reading": "파일 읽는 중...",
+    "ebook_converter.proc.initializing": "변환기 초기화 중...",
+    "ebook_converter.error": "변환 중 오류가 발생했습니다.",
+    "ebook_converter.format.select_output": "출력 형식 선택:",
+    "blog.read_more": "더 읽기",
+    "blog.next_post": "다음",
+    "blog.prev_post": "이전"
 }

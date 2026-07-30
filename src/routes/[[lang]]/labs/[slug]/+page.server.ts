@@ -54,6 +54,42 @@ export const load: PageServerLoad = async ({ params }) => {
         return `<h${level} id="${uniqueId}">${innerHtml}</h${level}>`;
     });
     
+    const posts: { slug: string; title: string; date: string }[] = [];
+    
+    for (const path in modules) {
+        if (path.includes(`/labs/${urlLang}/`)) {
+            const fileRaw = await modules[path]() as string;
+            const fileParsed = matter(fileRaw);
+            const filename = path.split('/').pop() || '';
+            const fileSlug = filename.replace('.md', '');
+            
+            posts.push({
+                slug: fileSlug,
+                title: fileParsed.data.title || 'Untitled',
+                date: fileParsed.data.date || '1970-01-01'
+            });
+        }
+    }
+    
+    // Sort by date descending
+    posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    
+    const currentIndex = posts.findIndex(p => p.slug === slug);
+    let prevPost = null;
+    let nextPost = null;
+    
+    if (currentIndex !== -1) {
+        // Since array is sorted descending (newest first)
+        // Previous post is older (index + 1)
+        if (currentIndex < posts.length - 1) {
+            prevPost = posts[currentIndex + 1];
+        }
+        // Next post is newer (index - 1)
+        if (currentIndex > 0) {
+            nextPost = posts[currentIndex - 1];
+        }
+    }
+    
     return {
         slug,
         title: parsed.data.title || 'Untitled',
@@ -61,6 +97,8 @@ export const load: PageServerLoad = async ({ params }) => {
         date: parsed.data.date || '',
         content: finalHtmlContent,
         toc,
-        ctaTool: parsed.data.ctaTool || null
+        ctaTool: parsed.data.ctaTool || null,
+        prevPost,
+        nextPost
     };
 };

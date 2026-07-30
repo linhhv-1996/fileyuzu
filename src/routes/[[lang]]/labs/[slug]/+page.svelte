@@ -127,6 +127,25 @@
                     </ul>
                 </div>
                 {/if}
+
+                {#if data.prevPost || data.nextPost}
+                <div class="nav-container">
+                    <h3 class="toc-title">{dict['blog.read_more'] || ''}</h3>
+                    <ul class="nav-list">
+                        {#if data.nextPost}
+                            <li class="nav-item">
+                                <span class="nav-label">{dict['blog.next_post'] || 'Next'}: </span>
+                                <a href={langUrl(lang, `/labs/${data.nextPost.slug}`)}>{data.nextPost.title}</a>
+                            </li>
+                        {/if}
+                        {#if data.prevPost}
+                            <li class="nav-item">
+                                <a href={langUrl(lang, `/labs/${data.prevPost.slug}`)}>{data.prevPost.title}</a>
+                            </li>
+                        {/if}
+                    </ul>
+                </div>
+                {/if}
             </aside>
         </div>
 
@@ -494,6 +513,52 @@ margin-bottom: 0;
     .toc-item a.active {
         color: var(--ac);
         font-weight: 600;
+    }
+
+    /* ── Nav List ── */
+    .nav-container {
+        background: var(--bg);
+        border: 1px solid var(--bd);
+        border-radius: var(--r);
+        padding: 16px;
+        margin-bottom: 15px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    }
+    
+    .nav-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .nav-item {
+        line-height: 1.4;
+        font-size: 0.9em;
+    }
+
+    .nav-label {
+        font-weight: 600;
+        color: var(--tx-sub);
+        display: block;
+        margin-bottom: 4px;
+        font-size: 0.85em;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    
+    .nav-item a {
+        color: var(--tx);
+        text-decoration: none;
+        transition: color 0.2s ease;
+        display: inline-block;
+        font-weight: 500;
+    }
+    
+    .nav-item a:hover {
+        color: var(--ac);
     }
 
     /* ── Responsive ── */

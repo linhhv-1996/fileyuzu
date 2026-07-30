@@ -1806,15 +1806,10 @@
     "make_pdf_look_scanned.style.color": "モダンカラー",
     "common.labs": "実験室",
     "home.labs_description": "私たちのラボからの詳細な分析、実際のテスト、技術的な実験。",
-    
-    
-  "ebook_converter.hero.title": "PDF ⇄ EPUB / Kindle / Mobi 変換",
-  "ebook_converter.hero.description": "PDFをEPUB・Mobi・Kindle・AZW3に無料でオンライン変換。ブラウザで完結するので、インストールも会員登録も不要。EPUBからPDFへの逆変換や複数ファイルの一括変換にも対応しています。",
-  "ebook_converter.seo.title": "PDF EPUB 変換 - Kindle/Mobi/AZW3も無料オンライン",
-  "ebook_converter.seo.description": "PDFをEPUBに変換、EPUBをPDFに変換、どちらも無料でオンライン対応。Kindle・Mobi・AZW3形式への変換もブラウザ完結でインストール不要、登録不要、一括変換も可能です。",
-
-
-    
+    "ebook_converter.hero.title": "PDF ⇄ EPUB / Kindle / Mobi 変換",
+    "ebook_converter.hero.description": "PDFをEPUB・Mobi・Kindle・AZW3に無料でオンライン変換。ブラウザで完結するので、インストールも会員登録も不要。EPUBからPDFへの逆変換や複数ファイルの一括変換にも対応しています。",
+    "ebook_converter.seo.title": "PDF EPUB 変換 - Kindle/Mobi/AZW3も無料オンライン",
+    "ebook_converter.seo.description": "PDFをEPUBに変換、EPUBをPDFに変換、どちらも無料でオンライン対応。Kindle・Mobi・AZW3形式への変換もブラウザ完結でインストール不要、登録不要、一括変換も可能です。",
     "ebook_converter.upload.title": "変換する電子書籍ファイルをここにドロップ",
     "ebook_converter.upload.subtitle": "PDF、EPUB、MOBI、AZW3、FB2 などに対応 · ブラウザ内変換",
     "ebook_converter.upload.btn_select": "電子書籍ファイルを選択",
@@ -1827,6 +1822,8 @@
     "ebook_converter.proc.reading": "ファイルを読み込み中...",
     "ebook_converter.proc.initializing": "コンバーターを初期化中...",
     "ebook_converter.error": "変換中にエラーが発生しました。",
-    "ebook_converter.format.select_output": "出力フォーマットを選択:"
-
+    "ebook_converter.format.select_output": "出力フォーマットを選択:",
+    "blog.read_more": "続きを読む",
+    "blog.next_post": "次の記事",
+    "blog.prev_post": "前の記事"
 }

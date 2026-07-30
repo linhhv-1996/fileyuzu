@@ -98,10 +98,6 @@
     "compress_video.btn.download": "Download video",
     "compress_video.btn.compress_new": "Compress new files",
     "compress_video.proc.compressing": "Compressing video",
-    
-
-
-
     "_comment_pdf_compressor": "================ PDF Compressor ================",
     "pdf_compressor.seo.title": "Free Online PDF Compressor — Compress PDF Files | UploadLess",
     "pdf_compressor.seo.description": "Compress PDF files online for free with UploadLess. Reduce PDF file size privately in your browser with no upload, no sign-up, and fast results.",
@@ -221,7 +217,6 @@
     "video_converter.btn.download": "Download file",
     "video_converter.btn.convert_new": "Convert new files",
     "video_converter.proc.converting": "Converting video",
-
     "_comment_compress_mp4": "================ Compress MP4 ================",
     "_comment_reduce_video_size": "================ Reduce Video Size ================",
     "pdf_compressor.pages": "pages",
@@ -234,8 +229,6 @@
     "video_to_mp3.seo.description": "Convert video to MP3 online with UploadLess. Extract audio from MP4, MOV, MKV, WebM, and AVI files in your browser—free, fast, and private.",
     "video_to_mp3.hero.title": "Video to MP3 Converter",
     "video_to_mp3.hero.description": "Extract audio from MP4, MOV, MKV, WebM, or AVI videos and save it as an MP3 directly in your browser.",
-
-
     "_comment_mp4_converter": "================ MP4 Converter ================",
     "_comment_barcode_generator": "================ Barcode Generator ================",
     "tool.barcode_generator.title": "Barcode Generator",
@@ -271,8 +264,6 @@
     "barcode_generator.seo.description": "Create barcodes online for free. Generate printable barcode labels, product codes, PNG images, SVG files, PDFs, or bulk barcodes in seconds.",
     "barcode_generator.hero.title": "Free Online Barcode Generator",
     "barcode_generator.hero.description": "Create barcodes instantly for products, labels, inventory, and packaging. Generate single or bulk barcodes, then download as PNG, SVG, PDF, or print-ready files.",
-    
-
     "_comment_image_to_text": "================ Image to Text (OCR) ================",
     "image_to_text.seo.title": "Image to Text Converter Online Free | UploadLess",
     "image_to_text.seo.description": "Convert images to text online for free with UploadLess. Extract, copy, and edit text from JPG, PNG, photos, screenshots, and pictures using private OCR.",
@@ -300,8 +291,6 @@
     "image_to_text.status.processing": "Processing...",
     "image_to_text.status.done": "Done",
     "image_to_text.text.try_samples": "Try it with a sample image",
-
-
     "tool.image_to_text.title": "Image to Text",
     "tool.image_to_text.description": "Extract text from images locally in your browser. Fast, private, and supports bulk processing.",
     "tool.image_to_text.short_description": "Extract text from images privately.",
@@ -1448,13 +1437,10 @@
     "make_pdf_look_scanned.style.color": "Modern Color",
     "common.labs": "Labs",
     "home.labs_description": "Deep-dives, real-world tests, and technical experiments from our labs.",
-
-"ebook_converter.hero.title": "Ebook Converter",
-"ebook_converter.hero.description": "Convert PDF, EPUB, MOBI, AZW3, CHM, DJVU and LIT ebooks instantly, right in your browser. No uploads, no signup, 100% private.",
-"ebook_converter.seo.title": "PDF to EPUB, MOBI, AZW3 & Kindle Converter – Free Online",
-"ebook_converter.seo.description": "Convert PDF to EPUB, MOBI, AZW3, CHM, DJVU or LIT free online — and convert them back to PDF too. Batch convert, no upload, no signup, Kindle-ready.",
-
-
+    "ebook_converter.hero.title": "Ebook Converter",
+    "ebook_converter.hero.description": "Convert PDF, EPUB, MOBI, AZW3, CHM, DJVU and LIT ebooks instantly, right in your browser. No uploads, no signup, 100% private.",
+    "ebook_converter.seo.title": "PDF to EPUB, MOBI, AZW3 & Kindle Converter – Free Online",
+    "ebook_converter.seo.description": "Convert PDF to EPUB, MOBI, AZW3, CHM, DJVU or LIT free online — and convert them back to PDF too. Batch convert, no upload, no signup, Kindle-ready.",
     "ebook_converter.upload.title": "Drop an ebook file here to convert",
     "ebook_converter.upload.subtitle": "PDF, EPUB, MOBI, AZW3, FB2 & more · browser-based conversion",
     "ebook_converter.upload.btn_select": "Select ebook file",
@@ -1467,5 +1453,8 @@
     "ebook_converter.proc.reading": "Reading file...",
     "ebook_converter.proc.initializing": "Initializing converter...",
     "ebook_converter.error": "An error occurred during conversion.",
-    "ebook_converter.format.select_output": "Select output format:"
+    "ebook_converter.format.select_output": "Select output format:",
+    "blog.read_more": "Read More",
+    "blog.next_post": "Next",
+    "blog.prev_post": "Previous"
 }
