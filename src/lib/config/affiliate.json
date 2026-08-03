@@ -88,5 +88,31 @@
             "badge": "贊助",
             "btn": "立即領取"
         }
+    },
+    "elevenlabs": {
+        "en": {
+            "text": "🎙️ Convert this text to speech with ElevenLabs ➔",
+            "link": "https://try.elevenlabs.io/glj8gdlppysq"
+        },
+        "ja": {
+            "text": "🎙️ このテキストをElevenLabsで音声に変換 ➔",
+            "link": "https://try.elevenlabs.io/glj8gdlppysq"
+        },
+        "ko": {
+            "text": "🎙️ 이 텍스트를 ElevenLabs로 음성 변환 ➔",
+            "link": "https://try.elevenlabs.io/glj8gdlppysq"
+        },
+        "zh-tw": {
+            "text": "🎙️ 使用 ElevenLabs 將此文字轉為語音 ➔",
+            "link": "https://try.elevenlabs.io/glj8gdlppysq"
+        },
+        "th": {
+            "text": "🎙️ แปลงข้อความเป็นเสียงด้วย ElevenLabs ➔",
+            "link": "https://try.elevenlabs.io/glj8gdlppysq"
+        },
+        "pt-br": {
+            "text": "🎙️ Converta este texto em fala com ElevenLabs ➔",
+            "link": "https://try.elevenlabs.io/glj8gdlppysq"
+        }
     }
 }

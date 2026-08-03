@@ -2,6 +2,7 @@
     import { onMount, tick } from "svelte";
     import { page } from "$app/stores";
     import Share from '../Share.svelte';
+    import TextAffiliate from '../affiliates/TextAffiliate.svelte';
     import { processImage as processImageV5 } from "$lib/utils/ocrV5Processor";
     import { t } from "$lib/i18n/config";
 
@@ -453,6 +454,7 @@
                                     </button>
                                 </div>
                                 <textarea class="result-text" bind:value={activeItem.text}></textarea>
+                                <TextAffiliate offer="elevenlabs" />
                             </div>
                         {/if}
 
