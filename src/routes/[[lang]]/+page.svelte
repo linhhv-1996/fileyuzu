@@ -223,11 +223,16 @@
         <div class="sidebar-posts">
             {#each $page.data.recentPosts as post}
                 <a href={langUrl(lang, `/blog/${post.slug}`)} class="sidebar-post-item">
-                    <h4 class="sidebar-post-title">{post.title || post.slug}</h4>
                     {#if post.date}
                         <span class="sidebar-post-date">
                             {new Date(post.date).toLocaleDateString(lang, { year: 'numeric', month: 'short', day: 'numeric' })}
                         </span>
+                    {/if}
+                    <h4 class="sidebar-post-title">{post.title || post.slug}</h4>
+                    {#if post.contentSnippet}
+                        <div class="sidebar-post-snippet">
+                            {@html post.contentSnippet}
+                        </div>
                     {/if}
                 </a>
             {/each}
@@ -329,6 +334,40 @@
     .sidebar-post-date {
         font-size: 12px;
         color: var(--tx-sub);
+    }
+    
+    .sidebar-post-snippet {
+        font-size: 13.5px;
+        color: var(--tx-sub);
+        line-height: 1.5;
+        max-height: 200px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .sidebar-post-snippet::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 40px;
+        background: linear-gradient(to bottom, transparent, var(--bg));
+    }
+    
+    :global(.sidebar-post-snippet h1, .sidebar-post-snippet h2, .sidebar-post-snippet h3) {
+        font-size: 14.5px;
+        margin: 8px 0 4px;
+        color: var(--tx);
+    }
+    :global(.sidebar-post-snippet p) {
+        margin: 0 0 8px;
+    }
+    :global(.sidebar-post-snippet img) {
+        display: none;
+    }
+    :global(.sidebar-post-snippet pre, .sidebar-post-snippet table) {
+        display: none;
     }
 
     @media (max-width: 900px) {

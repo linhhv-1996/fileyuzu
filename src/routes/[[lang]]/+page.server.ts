@@ -17,11 +17,23 @@ export const load: PageServerLoad = async ({ params }) => {
             const rawContent = await blogModules[path]() as string;
             const parsed = matter(rawContent);
             const slug = path.split('/').pop()?.replace('.md', '') || '';
+            
+            const contentLen = parsed.content.length;
+            const snipLen = Math.floor(contentLen * 0.1);
+            let snippet = parsed.content.substring(0, snipLen);
+            const lastNewLine = snippet.lastIndexOf('\n');
+            if (lastNewLine > 0) {
+                snippet = snippet.substring(0, lastNewLine);
+            }
+            snippet += '\n\n...';
+            const htmlSnippet = await marked.parse(snippet) as string;
+            
             posts.push({
                 slug,
                 title: parsed.data.title || '',
                 description: parsed.data.description || '',
-                date: parsed.data.date || ''
+                date: parsed.data.date || '',
+                contentSnippet: htmlSnippet
             });
         }
     }
