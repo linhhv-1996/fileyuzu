@@ -1,6 +1,6 @@
 <script lang="ts">
     import { page } from '$app/stores';
-    import { t, langUrl } from '$lib/i18n/config';
+    import { t, langUrl, SUPPORTED_LANGUAGES } from '$lib/i18n/config';
 
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
@@ -16,6 +16,10 @@
             <a href={langUrl(lang, '/contact')}>{t('common.footer.contact', dict)}</a>
             <a href="/sitemap.xml">Sitemap</a>
         </div>
+        <div class="ftr-links ftr-langs" style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+            {#each SUPPORTED_LANGUAGES as l}
+                <a href={l.code === 'en' ? '/' : `/${l.code}`} class:active={lang === l.code}>{l.name}</a>
+            {/each}
+        </div>
     </div>
-
 </footer>
