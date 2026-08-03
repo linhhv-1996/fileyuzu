@@ -61,7 +61,11 @@
     );
 </script>
 
-<Seo title={t('home.seo.title', dict)} description={t('home.seo.description', dict)} />
+<Seo 
+    title={t('home.seo.title', dict)} 
+    description={t('home.seo.description', dict)} 
+    isToolPage={false}
+/>
 
 <!-- Hero -->
 <section class="hero">

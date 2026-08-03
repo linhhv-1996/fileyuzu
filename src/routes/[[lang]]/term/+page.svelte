@@ -4,7 +4,11 @@
     let { data } = $props();
 </script>
 
-<Seo title="{data.title} - UploadLess" description={data.desc} />
+<Seo 
+    title="{data.title} - UploadLess" 
+    description={data.desc} 
+    isToolPage={false}
+/>
 
 <main class="article-page">
     <div class="article-container">

@@ -1,16 +1,18 @@
 <script lang="ts">
     import { page } from "$app/stores";
-    import { SUPPORTED_LANGUAGES, langUrl } from "$lib/i18n/config";
+    import { SUPPORTED_LANGUAGES, langUrl, t } from "$lib/i18n/config";
     import { tools } from "$lib/config/tools";
 
     let {
         title,
         description,
         noHreflang = false,
+        isToolPage = true,
     } = $props<{
         title: string;
         description?: string;
         noHreflang?: boolean;
+        isToolPage?: boolean;
     }>();
 
     let currentLang = $derived(($page.data.lang || 'en').toLowerCase());
@@ -31,6 +33,9 @@
     let slug = $derived(basePath === "/" ? "" : basePath.replace(/^\//, ""));
     let toolConfig = $derived(tools.find((t) => t.slug === slug));
     let allowedMarkets = $derived(toolConfig?.markets);
+    
+    let dict = $derived($page.data.dict);
+    let appName = $derived(toolConfig && dict ? t(toolConfig.titleKey, dict) : title);
 
     let ogImageUrl = $derived(`${origin}/og/${currentLang}.png`);
 </script>
@@ -69,5 +74,22 @@
             {@const finalDefaultPath = defaultPath.endsWith('/') && defaultPath.length > 1 ? defaultPath.slice(0, -1) : defaultPath}
             <link rel="alternate" hreflang="x-default" href="{origin}{finalDefaultPath}" />
         {/if}
+    {/if}
+
+    {#if isToolPage}
+        {@html `<script type="application/ld+json">${JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": appName || title,
+            "description": description || title,
+            "applicationCategory": "WebApplication",
+            "operatingSystem": "Any",
+            "url": origin + canonicalPathname,
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+            }
+        }).replace(/</g, '\\u003c')}</script>`}
     {/if}
 </svelte:head>

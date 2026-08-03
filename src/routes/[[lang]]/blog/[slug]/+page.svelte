@@ -62,7 +62,11 @@
     });
 </script>
 
-<Seo title="{data.title} - UploadLess" description={data.description} noHreflang={true} />
+<Seo 
+    title="{data.title} - UploadLess" 
+    description={data.description} noHreflang={true} 
+    isToolPage={false}
+/>
 
 <main class="article-page">
     <div class="article-container">

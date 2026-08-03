@@ -3,7 +3,7 @@
     import Seo from '$lib/components/Seo.svelte';
 </script>
 
-<Seo title="Page Not Found" description="The page you're looking for doesn't exist." />
+<Seo title="Page Not Found" description="The page you're looking for doesn't exist." isToolPage={false} />
 
 <div class="error-page">
     <div class="visual-container">

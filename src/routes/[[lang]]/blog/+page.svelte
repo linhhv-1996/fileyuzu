@@ -12,6 +12,7 @@
 <Seo
     title={t("common.blog", dict) || "Blog"}
     description={t("common.blog", dict) || "Blog"}
+    isToolPage={false}
 />
 
 <div class="blog-container">
