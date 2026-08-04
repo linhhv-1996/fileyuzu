@@ -468,6 +468,11 @@ a:hover {
 .upload-box .ico {
     /* font-size: 60px; */
     font-size: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
     color: var(--ac);
     margin-bottom: 0;
     opacity: 0.55;
@@ -1482,6 +1487,8 @@ RESPONSIVE
 
     .upload-box .ico {
         font-size: 44px;
+        width: 44px;
+        height: 44px;
     }
 
     .upload-box .ttl {

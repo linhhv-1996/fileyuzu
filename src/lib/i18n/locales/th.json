@@ -1456,5 +1456,35 @@
     "ebook_converter.format.select_output": "เลือกฟอร์แมตผลลัพธ์:",
     "blog.read_more": "อ่านเพิ่มเติม",
     "blog.next_post": "ถัดไป",
-    "blog.prev_post": "ก่อนหน้า"
+    "blog.prev_post": "ก่อนหน้า",
+
+"heic_converter.seo.title": "แปลงไฟล์ HEIC เป็น JPG, PNG, PDF ฟรี | ไม่ต้องอัปโหลด",
+"heic_converter.seo.description": "เครื่องมือแปลงไฟล์ HEIC เป็น JPG, PNG หรือ PDF ฟรี ทำงานในเบราว์เซอร์ ไม่ต้องอัปโหลดไฟล์ รวดเร็ว ปลอดภัย รองรับ iPhone, Android, Windows, Mac",
+"heic_converter.hero.title": "แปลงไฟล์ HEIC เป็น JPG ง่ายๆ ในไม่กี่คลิก",
+"heic_converter.hero.description": "แปลงรูป HEIC เป็น JPG, PNG หรือ PDF ได้ทันทีบนเบราว์เซอร์ของคุณ ไม่ต้องอัปโหลด ไม่ต้องรอ ข้อมูลปลอดภัยเพราะไฟล์ไม่ออกจากเครื่อง",
+    
+    
+    "heic_converter.title": "แปลง HEIC เป็น PNG, JPG หรือ PDF",
+    "heic_converter.upload.title": "วางไฟล์ HEIC/HEIF ที่นี่เพื่อแปลงไฟล์",
+    "heic_converter.upload.subtitle": "แปลง HEIC เป็น PNG, JPG หรือ PDF · แปลงไฟล์ผ่านเบราว์เซอร์",
+    "heic_converter.upload.btn_select": "เลือกไฟล์ HEIC",
+    "heic_converter.upload.hint": "เลือกหลายไฟล์ HEIC เพื่อแปลงพร้อมกัน",
+    "heic_converter.settings.max_width": "ความกว้างสูงสุด (0 คือขนาดต้นฉบับ)",
+    "heic_converter.settings.format": "รูปแบบไฟล์ขาออก",
+    "heic_converter.btn.add_more": "เพิ่มไฟล์",
+    "heic_converter.btn.clear": "ล้างทั้งหมด",
+    "heic_converter.btn.convert": "แปลงทั้งหมด",
+    "heic_converter.btn.converting": "กำลังแปลง...",
+
+"heic_converter.btn.load_sample": "โหลดตัวอย่าง",
+"heic_converter.btn.convert_new": "แปลงไฟล์ใหม่",
+
+    "heic_converter.btn.download": "ดาวน์โหลด",
+    "heic_converter.btn.download_all": "ดาวน์โหลดทั้งหมด (ZIP)",
+    "heic_converter.status.pending": "รอดำเนินการ",
+    "heic_converter.status.converting": "กำลังแปลง...",
+    "heic_converter.status.done": "เสร็จสิ้น",
+    "heic_converter.status.error": "เกิดข้อผิดพลาด",
+    "heic_converter.pages": "หน้า",
+    "heic_converter.btn.zip": "ZIP"
 }

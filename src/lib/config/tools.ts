@@ -352,6 +352,20 @@ export const tools: ToolConfig[] = [
         category: 'text',
         tags: ['Transliteration', 'Text', 'Language'],
         markets: ['en'],
+    },
+    {
+        slug: 'heic-converter',
+        titleKey: 'heic_converter.hero.title',
+        descriptionKey: 'heic_converter.hero.description',
+        shortDescriptionKey: 'heic_converter.upload.subtitle',
+        icon: 'photo',
+        related_tools: [
+            'video-converter',
+            'image-to-text',
+            'png-to-pdf'
+        ],
+        category: 'video',
+        tags: ['HEIC', 'Converter', 'Image'],
     }
 ];
 

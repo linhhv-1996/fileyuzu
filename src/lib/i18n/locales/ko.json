@@ -1509,5 +1509,32 @@
     "ebook_converter.format.select_output": "출력 형식 선택:",
     "blog.read_more": "더 읽기",
     "blog.next_post": "다음",
-    "blog.prev_post": "이전"
+    "blog.prev_post": "이전",
+    
+"heic_converter.seo.title": "HEIC JPG 변환 무료 - PNG, PDF 온라인 변환기 | 설치없이 아이폰 사진 변환",
+"heic_converter.seo.description": "HEIC 사진을 JPG, PNG, PDF로 무료 변환하세요. 회원가입이나 프로그램 설치, 파일 업로드 없이 브라우저에서 바로 처리되어 빠르고 안전합니다. 아이폰, 안드로이드, 윈도우, 맥 모두 지원하며 여러 장 사진을 한번에 고화질로 변환할 수 있습니다.",
+"heic_converter.hero.title": "HEIC 사진, 몇 초 만에 JPG로 변환",
+"heic_converter.hero.description": "아이폰에서 찍은 HEIC 사진을 브라우저에서 바로 JPG, PNG, PDF로 바꿔보세요. 설치도, 업로드도, 회원가입도 필요 없어요.",
+    
+    "heic_converter.title": "HEIC를 PNG, JPG 또는 PDF로 변환",
+    "heic_converter.upload.title": "변환할 HEIC/HEIF 파일을 여기에 드롭하세요",
+    "heic_converter.upload.subtitle": "HEIC를 PNG, JPG 또는 PDF로 변환 · 브라우저 기반 변환",
+    "heic_converter.upload.btn_select": "HEIC 파일 선택",
+    "heic_converter.upload.hint": "변환할 HEIC 파일을 여러 개 선택할 수 있습니다",
+    "heic_converter.settings.max_width": "최대 너비 (원본은 0 입력)",
+    "heic_converter.settings.format": "출력 형식",
+    "heic_converter.btn.add_more": "추가하기",
+    "heic_converter.btn.clear": "전체 삭제",
+    "heic_converter.btn.convert": "모두 변환",
+    "heic_converter.btn.converting": "변환 중...",
+    "heic_converter.btn.download": "다운로드",
+    "heic_converter.btn.download_all": "전체 다운로드 (ZIP)",
+    "heic_converter.btn.load_sample": "샘플 불러오기",
+    "heic_converter.btn.convert_new": "새 파일 변환하기",
+    "heic_converter.status.pending": "대기 중",
+    "heic_converter.status.converting": "변환 중...",
+    "heic_converter.status.done": "완료",
+    "heic_converter.status.error": "오류",
+    "heic_converter.pages": "페이지",
+    "heic_converter.btn.zip": "ZIP"
 }

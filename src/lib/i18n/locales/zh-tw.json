@@ -1525,5 +1525,32 @@
     "ebook_converter.format.select_output": "選擇輸出格式：",
     "blog.read_more": "閱讀更多",
     "blog.next_post": "下一篇",
-    "blog.prev_post": "上一篇"
+    "blog.prev_post": "上一篇",
+
+  "heic_converter.seo.title": "HEIC 轉 JPG、PNG、PDF｜免費線上轉檔工具",
+  "heic_converter.seo.description": "免費 HEIC 轉檔工具，支援轉成 JPG、PNG、PDF。免上傳、不外流，瀏覽器直接轉，iPhone 照片也能秒開，電腦手機都能用。",
+  "heic_converter.hero.title": "HEIC 照片，幾秒轉成 JPG、PNG、PDF",
+  "heic_converter.hero.description": "iPhone 拍的 HEIC 照片打不開？直接在瀏覽器轉成 JPG、PNG 或 PDF，不用上傳、不用等，照片也不會外流。",
+    
+    "heic_converter.title": "將 HEIC 轉為 PNG、JPG 或 PDF",
+    "heic_converter.upload.title": "拖曳 HEIC/HEIF 檔案至此處進行轉換",
+    "heic_converter.upload.subtitle": "將 HEIC 轉為 PNG、JPG 或 PDF · 純瀏覽器端本地轉換",
+    "heic_converter.upload.btn_select": "選擇 HEIC 檔案",
+    "heic_converter.upload.hint": "可一次選擇多個 HEIC 檔案進行轉換",
+    "heic_converter.settings.max_width": "最大寬度（0 表示保持原尺寸）",
+    "heic_converter.settings.format": "輸出格式",
+    "heic_converter.btn.add_more": "新增更多",
+    "heic_converter.btn.clear": "清除全部",
+    "heic_converter.btn.convert": "全部轉換",
+    "heic_converter.btn.converting": "轉換中...",
+    "heic_converter.btn.download": "下載",
+    "heic_converter.btn.download_all": "全部下載 (ZIP)",
+    "heic_converter.btn.load_sample": "載入範例",
+    "heic_converter.btn.convert_new": "轉換新檔案",
+    "heic_converter.status.pending": "等待中",
+    "heic_converter.status.converting": "轉換中...",
+    "heic_converter.status.done": "完成",
+    "heic_converter.status.error": "錯誤",
+    "heic_converter.pages": "頁",
+    "heic_converter.btn.zip": "ZIP"
 }

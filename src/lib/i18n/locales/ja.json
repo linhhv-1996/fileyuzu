@@ -1825,5 +1825,34 @@
     "ebook_converter.format.select_output": "出力フォーマットを選択:",
     "blog.read_more": "続きを読む",
     "blog.next_post": "次の記事",
-    "blog.prev_post": "前の記事"
+    "blog.prev_post": "前の記事",
+
+
+"heic_converter.seo.title": "HEIC JPG 変換 無料｜PNG・PDFへオンラインで一括変換 iPhone/Mac/Windows対応",
+"heic_converter.seo.description": "HEICファイルをJPG・PNG・PDFに無料でオンライン変換できるツールです。アップロード不要でブラウザ内で処理するため、写真データが外部に送信されず安全・高速・高画質を維持。一括変換にも対応し、iPhone・Android・Windows・Macなどどの端末からでもすぐに使えます。",
+"heic_converter.hero.title": "HEIC写真をその場でJPG・PNG・PDFに変換",
+"heic_converter.hero.description": "ブラウザ内で完結するから、アップロード不要・待ち時間なし・プライバシーも安心。iPhoneで撮ったHEIC写真も、すぐにJPG・PNG・PDFに変換できます。",
+
+    
+    "heic_converter.btn.load_sample": "サンプルを読み込む",
+    "heic_converter.btn.convert_new": "新規変換",
+    "heic_converter.title": "HEICをPNG、JPG、PDFに変換",
+    "heic_converter.upload.title": "ここにHEIC/HEIFファイルをドロップして変換",
+    "heic_converter.upload.subtitle": "HEICをPNG、JPG、PDFに変換 · ブラウザ上で安全に変換",
+    "heic_converter.upload.btn_select": "HEICファイルを選択",
+    "heic_converter.upload.hint": "複数のHEICファイルを選択して変換できます",
+    "heic_converter.settings.max_width": "最大幅 (0で元のサイズ)",
+    "heic_converter.settings.format": "出力形式",
+    "heic_converter.btn.add_more": "ファイルを追加",
+    "heic_converter.btn.clear": "すべてクリア",
+    "heic_converter.btn.convert": "すべて変換",
+    "heic_converter.btn.converting": "変換中...",
+    "heic_converter.btn.download": "ダウンロード",
+    "heic_converter.btn.download_all": "一括ダウンロード (ZIP)",
+    "heic_converter.status.pending": "待機中",
+    "heic_converter.status.converting": "変換中...",
+    "heic_converter.status.done": "完了",
+    "heic_converter.status.error": "エラー",
+    "heic_converter.pages": "ページ",
+    "heic_converter.btn.zip": "ZIP"
 }

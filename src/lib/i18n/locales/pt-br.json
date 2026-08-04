@@ -1456,5 +1456,34 @@
     "ebook_converter.format.select_output": "Selecione o formato de saída:",
     "blog.read_more": "Leia Mais",
     "blog.next_post": "Próximo",
-    "blog.prev_post": "Anterior"
+    "blog.prev_post": "Anterior",
+
+
+  "heic_converter.seo.title": "Converter HEIC para JPG, PNG e PDF – Rápido e Grátis",
+  "heic_converter.seo.description": "Converta HEIC para JPG, PNG ou PDF grátis e online, sem instalar nada. Rápido, seguro e privado — direto no navegador, no iPhone, Android, Windows ou Mac.",
+  "heic_converter.hero.title": "Converta suas fotos HEIC em segundos",
+  "heic_converter.hero.description": "Transforme HEIC em JPG, PNG ou PDF direto no navegador — sem enviar arquivo, sem enrolação, sem se preocupar com privacidade.",
+
+    
+    "heic_converter.title": "Converter HEIC para PNG, JPG ou PDF",
+    "heic_converter.upload.title": "Arraste e solte os arquivos HEIC/HEIF aqui para converter",
+    "heic_converter.upload.subtitle": "Converta HEIC para PNG, JPG ou PDF · conversão no navegador",
+    "heic_converter.upload.btn_select": "Selecionar arquivos HEIC",
+    "heic_converter.upload.hint": "Selecione vários arquivos HEIC para converter",
+    "heic_converter.settings.max_width": "Largura máxima (0 para original)",
+    "heic_converter.settings.format": "Formato de saída",
+    "heic_converter.btn.add_more": "Adicionar mais",
+    "heic_converter.btn.clear": "Limpar tudo",
+    "heic_converter.btn.convert": "Converter tudo",
+    "heic_converter.btn.converting": "Convertendo...",
+    "heic_converter.btn.download": "Baixar",
+    "heic_converter.btn.download_all": "Baixar tudo (ZIP)",
+"heic_converter.btn.load_sample": "Carregar Exemplo",
+"heic_converter.btn.convert_new": "Converter Novo",
+    "heic_converter.status.pending": "Pendente",
+    "heic_converter.status.converting": "Convertendo...",
+    "heic_converter.status.done": "Concluído",
+    "heic_converter.status.error": "Erro",
+    "heic_converter.pages": "páginas",
+    "heic_converter.btn.zip": "ZIP"
 }
