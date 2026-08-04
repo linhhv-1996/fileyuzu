@@ -560,6 +560,9 @@
 <input type="file" bind:this={fileInput} accept={inputFormats} style="display:none" onchange={handleFileChange}>
 
 <style>
+.upload-box {
+    min-height: 300px;
+}
 .card-footer{
     padding: 8px 16px;
 }
@@ -656,7 +659,7 @@
     .btn-sm {
         padding: 6px 14px !important;
         font-size: 13px !important;
-        border-radius: 6px !important;
+        border-radius: 3px !important;
         min-height: 0 !important;
         display: inline-flex;
         align-items: center;

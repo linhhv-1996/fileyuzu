@@ -496,10 +496,12 @@
     "tool.extract_frames.title": "Extract Frames",
     "tool.extract_frames.description": "Extract frames from a video and save them as images. Save the current frame, extract by interval, or extract N frames evenly.",
     "tool.extract_frames.short_description": "Extract frames from a video privately.",
-    "extract_frames.seo.title": "Extract Frames from Video Online for Free | Free Video Frame Extractor",
-    "extract_frames.seo.description": "Extract frames from a video online for free. Save the current frame as a JPG, capture video screenshots, or export multiple frames by interval or count privately in your browser.",
-    "extract_frames.hero.title": "Extract Frames from Video",
-    "extract_frames.hero.description": "Save the current video frame as an image, capture a single moment, or extract multiple frames from your video by interval or count.",
+    
+"extract_frames.seo.title": "Video Frame Extractor – Extract Frames from Video Online",
+"extract_frames.seo.description": "Extract frames from video online free. Use our frame viewer to browse frame by frame, then save or download frames as JPG images, no upload needed.",
+"extract_frames.hero.title": "Extract Frames from Video",
+"extract_frames.hero.description": "Save the current video frame as an image, capture a single moment, or extract multiple frames from your video by interval or count.",
+    
     "extract_frames.upload.title": "Drop a video file here",
     "extract_frames.upload.subtitle": "MP4, WebM, MOV, and more · Private extraction",
     "extract_frames.upload.btn_select": "Select video file",

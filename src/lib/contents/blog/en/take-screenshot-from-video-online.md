@@ -1,6 +1,6 @@
 ---
 title: "How to Take a Screenshot from a Video Online"
-date: "2026-06-17"
+date: "2026-08-01"
 description: "Learn how to take a clean screenshot from a video online and save the exact frame as a JPG — without player controls, browser UI, or blurry screen captures."
 ctaTool: "extract-frames-from-video"
 ---
@@ -72,7 +72,7 @@ Select the current frame extraction mode. This is the right mode when you want o
 
 ### Step 4: Scrub to the Exact Moment
 
-Use the video preview to find the moment you want. Play and pause, or drag the timeline. Look for a frame where:
+Use the video preview to find the moment you want. Play and pause, or drag the timeline. If the moment you need is brief — a blink, a gesture, a peak of motion — [reviewing the video frame by frame](/blog/view-video-frame-by-frame) makes it much easier to land on the exact still. Look for a frame where:
 
 - the subject is not in mid-movement
 - the face or subject expression is what you want
@@ -91,7 +91,7 @@ Getting the right frame requires more than just pausing at the right second. Her
 
 ### Avoid Motion Blur
 
-In fast-moving video, blur is often part of the source footage. If the subject was moving when the frame was captured, the still image will also show that blur. Try moving one or two seconds earlier or later to find a sharper moment.
+In fast-moving video, blur is often part of the source footage. If the subject was moving when the frame was captured, the still image will also show that blur. Try moving one or two seconds earlier or later to find a sharper moment — see our guide on [how to view a video frame by frame](/blog/view-video-frame-by-frame) for a more precise way to compare nearby moments.
 
 ### Check the Expression and Pose
 

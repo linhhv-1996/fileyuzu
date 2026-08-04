@@ -5,9 +5,7 @@
     import { getRelatedTools } from '$lib/config/tools';
     
     import ExtractFrames from '$lib/components/tools/ExtractFrames.svelte';
-    import HowToUse from '$lib/components/HowToUse.svelte';
-    import WhyUse from '$lib/components/WhyUse.svelte';
-    import Faq from '$lib/components/Faq.svelte';
+    import SEOContent from '$lib/components/SEOContent.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import Affiliate from '$lib/components/Affiliate.svelte';
     import YandexBanner from '$lib/components/Ads/YandexBanner.svelte';
@@ -69,9 +67,7 @@
 <div class="grid">
     <main>
         <ExtractFrames texts={extractTexts} />
-        <HowToUse title={t('extract_frames.how_to_use.title', dict)} steps={Array.isArray(t('extract_frames.how_to_use.steps', dict)) ? t('extract_frames.how_to_use.steps', dict) : []} />
-        <WhyUse title={t('extract_frames.why_use.title', dict)} benefits={Array.isArray(t('extract_frames.why_use.benefits', dict)) ? t('extract_frames.why_use.benefits', dict) : []} />
-        <Faq title={t('extract_frames.faq.title', dict)} items={Array.isArray(t('extract_frames.faq.items', dict)) ? t('extract_frames.faq.items', dict) : []} />
+        <SEOContent content={$page.data.seoContent} />
     </main>
 
     <!-- SIDEBAR (desktop only via CSS) -->
