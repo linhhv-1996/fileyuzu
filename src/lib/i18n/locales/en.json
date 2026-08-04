@@ -225,10 +225,14 @@
     "_comment_mkv_to_mp4": "================ MKV to MP4 ================",
     "_comment_webm_to_mp4": "================ WebM to MP4 ================",
     "_comment_video_to_mp3": "================ Video to MP3 ================",
-    "video_to_mp3.seo.title": "Video to MP3 Converter Online – Free & Private | UploadLess",
+
+    "video_to_mp3.seo.title": "Video to MP3 Converter Online | MP4 to MP3 Converter",
+
     "video_to_mp3.seo.description": "Convert video to MP3 online with UploadLess. Extract audio from MP4, MOV, MKV, WebM, and AVI files in your browser—free, fast, and private.",
     "video_to_mp3.hero.title": "Video to MP3 Converter",
     "video_to_mp3.hero.description": "Extract audio from MP4, MOV, MKV, WebM, or AVI videos and save it as an MP3 directly in your browser.",
+    
+    
     "_comment_mp4_converter": "================ MP4 Converter ================",
     "_comment_barcode_generator": "================ Barcode Generator ================",
     "tool.barcode_generator.title": "Barcode Generator",
