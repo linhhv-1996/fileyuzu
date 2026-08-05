@@ -1,6 +1,7 @@
 <script lang="ts">
     import Share from '../Share.svelte';
     import { onMount, tick } from "svelte";
+    import { adsManager } from '$lib/utils/adsManager';
 
 
     interface Props {
@@ -312,11 +313,19 @@
         return `${item.text.replace(/[^a-z0-9]/gi, "_").toLowerCase()}_${selectedType}.${ext}`;
     }
 
+
+    // Ads
+    // #7292397
+    const BARCODE_AD_LINKS = [
+        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9iTzNTVmswdFAuM21wUXYtYk1tWlZvSi9aT0RNMGwzUk1halVrcHlyTXJ6L2tOMy9MQ1RRY1V5dU8vVGVJaDBKTUpEL0VO'
+    ];
+
     function downloadItem(item: {
         text: string;
         dataUrl: string;
         isSvg: boolean;
     }) {
+        adsManager.triggerAd(BARCODE_AD_LINKS);
         const a = document.createElement("a");
         a.href = item.dataUrl;
         a.download = getFilename(item);
@@ -327,6 +336,8 @@
 
     async function downloadZip() {
         if (results.length === 0) return;
+        
+        adsManager.triggerAd(BARCODE_AD_LINKS);
 
         const jszipModule = await import("jszip");
         const JSZip = jszipModule.default || jszipModule;

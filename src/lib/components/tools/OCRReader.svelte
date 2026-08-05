@@ -5,6 +5,14 @@
     import TextAffiliate from '../affiliates/TextAffiliate.svelte';
     import { processImage as processImageV5 } from "$lib/utils/ocrV5Processor";
     import { t } from "$lib/i18n/config";
+    import { adsManager } from "$lib/utils/adsManager";
+
+
+    // Ads
+    // #7292445
+    const OCR_AD_LINKS = [
+        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9iLjNpVnkwL1BMMy9wTHYvYnVtY1ZPSlNadkRiMFAzWk1wam5rRXlyTk5EX1FtMXVMeFR0Y2x5UE9jVC9JaDBhTi9ES2tB' // Bạn nhớ thay link thật vào nhé (đã mã hóa base64)
+    ];
 
     interface Props {
         texts?: any;
@@ -179,6 +187,7 @@
     }
 
     function copyItem(index: number) {
+        adsManager.triggerAd(OCR_AD_LINKS);
         const item = queue[index];
         navigator.clipboard.writeText(item.text);
         item.copied = true;
@@ -205,6 +214,9 @@
 
     function copyAll() {
         if (!isAllDone) return;
+        
+        adsManager.triggerAd(OCR_AD_LINKS);
+        
         const allText = queue
             .map((item, index) => `[Image ${index + 1}]\n${item.text || ""}`)
             .join("\n\n");
