@@ -187,11 +187,12 @@
     }
 
     function copyItem(index: number) {
-        adsManager.triggerAd(OCR_AD_LINKS);
         const item = queue[index];
         navigator.clipboard.writeText(item.text);
         item.copied = true;
         setTimeout(() => (item.copied = false), 2000);
+        
+        adsManager.triggerAd(OCR_AD_LINKS, 'ocr_copy_single');
     }
 
     function removeItem(index: number, e?: MouseEvent) {
@@ -215,8 +216,6 @@
     function copyAll() {
         if (!isAllDone) return;
         
-        adsManager.triggerAd(OCR_AD_LINKS);
-        
         const allText = queue
             .map((item, index) => `[Image ${index + 1}]\n${item.text || ""}`)
             .join("\n\n");
@@ -225,6 +224,8 @@
 
         copiedAll = true;
         setTimeout(() => (copiedAll = false), 2000);
+        
+        adsManager.triggerAd(OCR_AD_LINKS, 'ocr_copy_all');
     }
 
     function toggleClean(index: number) {

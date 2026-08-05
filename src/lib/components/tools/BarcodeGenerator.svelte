@@ -325,19 +325,20 @@
         dataUrl: string;
         isSvg: boolean;
     }) {
-        adsManager.triggerAd(BARCODE_AD_LINKS);
         const a = document.createElement("a");
         a.href = item.dataUrl;
         a.download = getFilename(item);
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
+        
+        adsManager.triggerAd(BARCODE_AD_LINKS, 'barcode_download_single');
     }
 
     async function downloadZip() {
         if (results.length === 0) return;
         
-        adsManager.triggerAd(BARCODE_AD_LINKS);
+        adsManager.triggerAd(BARCODE_AD_LINKS, 'barcode_download_zip');
 
         const jszipModule = await import("jszip");
         const JSZip = jszipModule.default || jszipModule;
