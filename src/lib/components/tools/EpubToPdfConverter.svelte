@@ -2,6 +2,11 @@
     import { onMount } from 'svelte';
     import Share from '../Share.svelte';
     import { formatSize } from '$lib/utils';
+    import { adsManager } from "$lib/utils/adsManager";
+    
+    const AD_LINKS = [
+        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9iLjMvVi8wL1BkMy9wcHZXYi9tLVZUSkZaQ0RVMEQzbU1Cam9rUHpvT3ZEaGtSei9MTFQvY295dk9IVGhNLzQvT3FUQ2N1'
+    ];
     
     let { texts } = $props<{
         texts: {
@@ -273,6 +278,7 @@
             <hr class="settings-divider">
             <div class="done-cta">
                 <button class="btn-dl" onclick={() => {
+                    adsManager.triggerAd(AD_LINKS, 'epub_to_pdf_download');
                     if (outputUrl && selectedFile) {
                         const a = document.createElement('a');
                         a.href = outputUrl;
