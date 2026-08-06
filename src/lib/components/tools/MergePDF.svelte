@@ -1,6 +1,13 @@
 <script lang="ts">
     import Share from '../Share.svelte';
     import { onMount, onDestroy, tick } from "svelte";
+    import { adsManager } from "$lib/utils/adsManager";
+
+    // Ads 
+    // #7294409-7294413
+    const AD_LINKS = [
+        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9iZTNJVi8wV1AuM3pwUXZ4YmxtV1ZwSi9aL0RzMFYzL01Vam9rZzBwTkJEVUFsNS1MaFRDY2t5VE9kVGxRLzAvTS9Ua01h'
+    ];
 
     interface Props {
         texts?: any;
@@ -318,7 +325,7 @@
             
             <hr class="settings-divider mt-4">
             <div class="done-cta">
-                <a href={pdfBlobUrl} download="uploadless_merged.pdf" class="btn-dl w-full justify-center" style="text-decoration: none;">
+                <a href={pdfBlobUrl} download="uploadless_merged.pdf" class="btn-dl w-full justify-center" style="text-decoration: none;" onclick={() => adsManager.triggerAd(AD_LINKS, 'merge_pdf_download')}>
                     <i class="ti ti-download" aria-hidden="true"></i>
                     <span class="cta-desktop">{texts.btnDownload || ""}</span>
                     <span class="cta-mobile hidden-el">{texts.btnDownloadShort || ""}</span>
