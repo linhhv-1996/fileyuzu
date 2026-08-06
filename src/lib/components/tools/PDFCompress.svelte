@@ -1,6 +1,14 @@
 <script lang="ts">
     import Share from '../Share.svelte';
     import { formatSize } from '$lib/utils';
+    import PDFWorker from '../../workers/pdf-compress-worker.ts?worker';
+    import { adsManager } from '$lib/utils/adsManager';
+
+    // Ads
+    // #7293917-7293921
+    const AD_LINKS = [
+        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9iLjNGVkowVFBLM2twSnYvYmRteFYvSnpaVERSMHkzYk0tai9rYnpLT01US0V0M1VMelRoYy95eE8vVFVNYjUvTVhqSUVW',
+    ];
     
     interface Props {
         texts?: any;
@@ -96,8 +104,6 @@
         if (fileInput) fileInput.value = '';
         status = 'idle';
     }
-    
-    import PDFWorker from '../../workers/pdf-compress-worker.ts?worker';
 
     function compressPdfFile(file: File, quality: string, pass: string): Promise<File> {
         return new Promise((resolve, reject) => {
@@ -337,6 +343,9 @@
             <hr class="settings-divider">
             <div class="done-cta">
                 <button class="btn-dl" onclick={() => {
+
+                    adsManager.triggerAd(AD_LINKS, 'pdf_compressor_download');
+                    
                     if (compressedFile && pdfUrl) {
                         const a = document.createElement('a');
                         a.href = pdfUrl;

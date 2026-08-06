@@ -3,6 +3,13 @@
     import { compressVideoFile } from '$lib/utils/video-compressor';
     import { createTimer } from '$lib/utils/timer';
     import Share from '../Share.svelte';
+    import { adsManager } from '$lib/utils/adsManager';
+
+    // Ads
+    // #7293925-7293929
+    const AD_LINKS = [
+        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9iVjMuVnkwUlB6M0xwZHZPYnZtaVZnSi1adUQvMHczUk1RanprWXpMT09UU0kvMUNMWlQvYy15ck9zVFBNWDUvTS9qZWtK',
+    ];
     
     interface Props {
         texts?: any;
@@ -301,6 +308,9 @@
             <hr class="settings-divider">
             <div class="done-cta">
                 <button class="btn-dl" onclick={() => {
+
+                    adsManager.triggerAd(AD_LINKS, 'video_compressor_download');
+
                     if (compressedFile && videoUrl) {
                         const a = document.createElement('a');
                         a.href = videoUrl;

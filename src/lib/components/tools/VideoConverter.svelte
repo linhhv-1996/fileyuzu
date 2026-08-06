@@ -3,6 +3,13 @@
     import { formatSize } from '$lib/utils';
     import { convertVideoFile } from '$lib/utils/video-converter';
     import { createTimer } from '$lib/utils/timer';
+    import { adsManager } from '$lib/utils/adsManager';
+
+    // Ads
+    // #7293941-7293945
+    const AD_LINKS = [
+        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9iZzMuVm0wdlBnMy9wL3ZaYi9tYlZySlpaR0RqMFgzcE11akNrL3plT19UcFF5eGtMYVRQY2d5T091VE5NXzVPTkVEZVVC',
+    ];
     
     interface Props {
         texts?: any;
@@ -282,6 +289,9 @@
             <hr class="settings-divider">
             <div class="done-cta">
                 <button class="btn-dl" onclick={() => {
+
+                    adsManager.triggerAd(AD_LINKS, 'video_compressor_download');
+
                     if (convertedFile && videoUrl) {
                         const a = document.createElement('a');
                         a.href = videoUrl;
