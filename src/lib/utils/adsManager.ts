@@ -129,7 +129,7 @@ class AdsManager {
 
 // Khởi tạo AdsManager quản lý giới hạn CHUNG toàn site
 export const adsManager = new AdsManager({
-    cooldownMinutes: 15,         // Cách <n> phút mới nhảy popup 1 lần bất kể ở màn nào
+    cooldownMinutes: 5,         // Cách <n> phút mới nhảy popup 1 lần bất kể ở màn nào
     defaultProbability: 1,    // <n>% cơ hội nhảy ads (nếu màn không truyền xác suất riêng)
-    maxPerSession: 10           // 1 phiên truy cập ăn tối đa <n> ads tổng cộng
+    maxPerSession: 100           // 1 phiên truy cập ăn tối đa <n> ads tổng cộng
 });
