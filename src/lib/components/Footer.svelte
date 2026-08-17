@@ -15,6 +15,7 @@
             <a href={langUrl(lang, '/term')}>{t('common.footer.terms', dict)}</a>
             <a href={langUrl(lang, '/contact')}>{t('common.footer.contact', dict)}</a>
             <a href="/sitemap.xml">Sitemap</a>
+            <a href="https://tapirconvert.com/" target="_blank" rel="noopener">tapirconvert</a>
         </div>
         <div class="ftr-links ftr-langs" style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
             {#each SUPPORTED_LANGUAGES as l}
