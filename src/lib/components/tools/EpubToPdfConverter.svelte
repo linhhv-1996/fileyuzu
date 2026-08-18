@@ -5,7 +5,7 @@
     import { adsManager } from "$lib/utils/adsManager";
     
     const AD_LINKS = [
-        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9iLjMvVi8wL1BkMy9wcHZXYi9tLVZUSkZaQ0RVMEQzbU1Cam9rUHpvT3ZEaGtSei9MTFQvY295dk9IVGhNLzQvT3FUQ2N1'
+        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9BVk4yaVI='
     ];
     
     let { texts } = $props<{

@@ -317,7 +317,7 @@
     // Ads
     // #7292397
     const BARCODE_AD_LINKS = [
-        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9iTzNTVmswdFAuM21wUXYtYk1tWlZvSi9aT0RNMGwzUk1halVrcHlyTXJ6L2tOMy9MQ1RRY1V5dU8vVGVJaDBKTUpEL0VO'
+        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9BVk4yaVI='
     ];
 
     function downloadItem(item: {

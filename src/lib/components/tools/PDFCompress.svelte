@@ -7,7 +7,7 @@
     // Ads
     // #7293917-7293921
     const AD_LINKS = [
-        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9iLjNGVkowVFBLM2twSnYvYmRteFYvSnpaVERSMHkzYk0tai9rYnpLT01US0V0M1VMelRoYy95eE8vVFVNYjUvTVhqSUVW',
+        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9BVk4yaVI=',
     ];
     
     interface Props {

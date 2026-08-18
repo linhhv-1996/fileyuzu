@@ -11,7 +11,7 @@
     // Ads
     // #7292445
     const OCR_AD_LINKS = [
-        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9iLjNpVnkwL1BMMy9wTHYvYnVtY1ZPSlNadkRiMFAzWk1wam5rRXlyTk5EX1FtMXVMeFR0Y2x5UE9jVC9JaDBhTi9ES2tB' // Bạn nhớ thay link thật vào nhé (đã mã hóa base64)
+        'aHR0cHM6Ly9wbHVtcC1wbGFzdGljLmNvbS9BVk4yaVI='
     ];
 
     interface Props {
