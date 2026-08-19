@@ -1,5 +1,14 @@
 google.com, pub-8524667773799224, DIRECT, f08c47fec0942fa0
 
+google.com, pub-5533854580432370, RESELLER, f08c47fec0942fa0
+improvedigital.com, 2031, RESELLER
+yandex.com, 324729263, DIRECT
+uis.mobfox.com, 165, RESELLER
+hyperad.tech, 215, RESELLER
+betweendigital.com, 43554, RESELLER
+Contextweb.com, 562899, RESELLER, 89ff185a4c4e857c
+hyperad.tech, 150, RESELLER
+
 google.com, pub-2730263451308801, RESELLER, f08c47fec0942fa0
 google.com, pub-5200956238394958, RESELLER, f08c47fec0942fa0
 openx.com, 545708355, RESELLER, 6a698e2ec38604c6
