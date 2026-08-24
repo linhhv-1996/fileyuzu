@@ -329,6 +329,7 @@
                     e.preventDefault();
                     adsManager.triggerAd(AD_LINKS, 'merge_pdf_download');
                     setTimeout(() => {
+                        if (!pdfBlobUrl) return;
                         const a = document.createElement('a');
                         a.href = pdfBlobUrl;
                         a.download = "uploadless_merged.pdf";
