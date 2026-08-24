@@ -346,12 +346,14 @@
 
                     adsManager.triggerAd(AD_LINKS, 'pdf_compressor_download');
                     
-                    if (compressedFile && pdfUrl) {
-                        const a = document.createElement('a');
-                        a.href = pdfUrl;
-                        a.download = compressedFile.name;
-                        a.click();
-                    }
+                    setTimeout(() => {
+                        if (compressedFile && pdfUrl) {
+                            const a = document.createElement('a');
+                            a.href = pdfUrl;
+                            a.download = compressedFile.name;
+                            a.click();
+                        }
+                    }, 100);
                 }}>
                     <i class="ti ti-download" aria-hidden="true"></i>
                     <span class="cta-desktop">{texts.btnDownload}</span>

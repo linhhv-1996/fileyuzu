@@ -188,11 +188,12 @@
 
     function copyItem(index: number) {
         const item = queue[index];
-        navigator.clipboard.writeText(item.text);
-        item.copied = true;
-        setTimeout(() => (item.copied = false), 2000);
-        
         adsManager.triggerAd(OCR_AD_LINKS, 'ocr_copy_single');
+        setTimeout(() => {
+            navigator.clipboard.writeText(item.text);
+            item.copied = true;
+            setTimeout(() => (item.copied = false), 2000);
+        }, 100);
     }
 
     function removeItem(index: number, e?: MouseEvent) {
@@ -220,12 +221,12 @@
             .map((item, index) => `[Image ${index + 1}]\n${item.text || ""}`)
             .join("\n\n");
 
-        navigator.clipboard.writeText(allText);
-
-        copiedAll = true;
-        setTimeout(() => (copiedAll = false), 2000);
-        
         adsManager.triggerAd(OCR_AD_LINKS, 'ocr_copy_all');
+        setTimeout(() => {
+            navigator.clipboard.writeText(allText);
+            copiedAll = true;
+            setTimeout(() => (copiedAll = false), 2000);
+        }, 100);
     }
 
     function toggleClean(index: number) {

@@ -279,12 +279,14 @@
             <div class="done-cta">
                 <button class="btn-dl" onclick={() => {
                     adsManager.triggerAd(AD_LINKS, 'epub_to_pdf_download');
-                    if (outputUrl && selectedFile) {
-                        const a = document.createElement('a');
-                        a.href = outputUrl;
-                        a.download = selectedFile.name.replace(/\.[^.]+$/, '') + '.pdf';
-                        a.click();
-                    }
+                    setTimeout(() => {
+                        if (outputUrl && selectedFile) {
+                            const a = document.createElement('a');
+                            a.href = outputUrl;
+                            a.download = selectedFile.name.replace(/\.[^.]+$/, '') + '.pdf';
+                            a.click();
+                        }
+                    }, 100);
                 }}>
                     <i class="ti ti-download" aria-hidden="true"></i>
                     <span class="cta-desktop">{texts.btnDownload}</span>

@@ -292,12 +292,14 @@
 
                     adsManager.triggerAd(AD_LINKS, 'video_compressor_download');
 
-                    if (convertedFile && videoUrl) {
-                        const a = document.createElement('a');
-                        a.href = videoUrl;
-                        a.download = convertedFile.name;
-                        a.click();
-                    }
+                    setTimeout(() => {
+                        if (convertedFile && videoUrl) {
+                            const a = document.createElement('a');
+                            a.href = videoUrl;
+                            a.download = convertedFile.name;
+                            a.click();
+                        }
+                    }, 100);
                 }}>
                     <i class="ti ti-download" aria-hidden="true"></i>
                     <span class="cta-desktop">{texts.btnDownload}</span>

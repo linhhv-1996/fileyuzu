@@ -325,11 +325,22 @@
             
             <hr class="settings-divider mt-4">
             <div class="done-cta">
-                <a href={pdfBlobUrl} download="uploadless_merged.pdf" class="btn-dl w-full justify-center" style="text-decoration: none;" onclick={() => adsManager.triggerAd(AD_LINKS, 'merge_pdf_download')}>
+                <button class="btn-dl w-full justify-center" style="text-decoration: none;" onclick={(e) => {
+                    e.preventDefault();
+                    adsManager.triggerAd(AD_LINKS, 'merge_pdf_download');
+                    setTimeout(() => {
+                        const a = document.createElement('a');
+                        a.href = pdfBlobUrl;
+                        a.download = "uploadless_merged.pdf";
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                    }, 100);
+                }}>
                     <i class="ti ti-download" aria-hidden="true"></i>
                     <span class="cta-desktop">{texts.btnDownload || ""}</span>
                     <span class="cta-mobile hidden-el">{texts.btnDownloadShort || ""}</span>
-                </a>
+                </button>
             </div>
         {/if}
 

@@ -325,14 +325,15 @@
         dataUrl: string;
         isSvg: boolean;
     }) {
-        const a = document.createElement("a");
-        a.href = item.dataUrl;
-        a.download = getFilename(item);
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        
         adsManager.triggerAd(BARCODE_AD_LINKS, 'barcode_download_single');
+        setTimeout(() => {
+            const a = document.createElement("a");
+            a.href = item.dataUrl;
+            a.download = getFilename(item);
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }, 100);
     }
 
     async function downloadZip() {
