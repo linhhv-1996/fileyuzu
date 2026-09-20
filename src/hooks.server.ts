@@ -6,7 +6,25 @@ import { getCanonicalLang } from '$lib/i18n/config';
 //
 // route.id (not url.pathname) is used for matching so it works regardless of
 // the optional /[[lang]]/ prefix (e.g. /compress-video, /ja/compress-video...).
-const TIER1_COUNTRIES = new Set(['US', 'GB', 'CA', 'AU', 'NZ']);
+const TIER1_COUNTRIES = new Set([
+  // North America
+  'US', 'CA',
+
+  // UK / Ireland
+  'GB', 'IE',
+
+  // Oceania
+  'AU', 'NZ',
+
+  // Western Europe
+  'DE', 'FR', 'CH', 'NL', 'BE', 'AT',
+
+  // Nordics
+  'DK', 'SE', 'NO', 'FI',
+
+  // Other strong European ad markets
+  'LU'
+]);
 
 const GEO_REDIRECT_MAP: Record<string, string> = {
 	'/[[lang]]/compress-video': 'https://squishyfile.com/',
