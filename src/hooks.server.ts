@@ -23,7 +23,7 @@ const TIER1_COUNTRIES = new Set([
   'DK', 'SE', 'NO', 'FI',
 
   // Other strong European ad markets
-  'LU'
+  'LU', 'BG', 'ES', 'UY', 'IT'
 ]);
 
 const GEO_REDIRECT_MAP: Record<string, string> = {
