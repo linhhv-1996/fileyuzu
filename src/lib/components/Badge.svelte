@@ -7,8 +7,8 @@
         title: string;
         img: string;
         alt: string;
-        width: number;
-        height: number;
+        width?: number;
+        height?: number;
     };
 
     const HEIGHT = 30;
@@ -24,7 +24,7 @@
                         src={b.img}
                         alt={b.alt}
                         height={HEIGHT}
-                        width={Math.round((b.width / b.height) * HEIGHT)}
+                        width={b.width && b.height ? Math.round((b.width / b.height) * HEIGHT) : undefined}
                         loading="lazy"
                         decoding="async"
                     />

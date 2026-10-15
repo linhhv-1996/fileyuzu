@@ -7,5 +7,12 @@
 		"alt": "Featured on TinyShelf",
 		"width": 216,
 		"height": 64
+	},
+	{
+		"name": "neeed.directory",
+		"href": "https://neeed.directory",
+		"title": "Featured on neeed.directory",
+		"img": "https://neeed.directory/badges/neeed-badge-light.svg",
+		"alt": "Featured on neeed.directory"
 	}
 ]
