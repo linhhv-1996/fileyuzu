@@ -9,6 +9,7 @@
         alt: string;
         width?: number;
         height?: number;
+        rel?: string;
     };
 
     const HEIGHT = 30;
@@ -19,7 +20,7 @@
     <div class="badges">
         <div class="badges-track">
             {#each list as b (b.href)}
-                <a href={b.href} title={b.title} target="_blank" rel="noopener">
+                <a href={b.href} title={b.title} target="_blank" rel={b.rel ?? 'noopener'}>
                     <img
                         src={b.img}
                         alt={b.alt}

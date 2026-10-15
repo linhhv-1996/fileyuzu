@@ -14,5 +14,15 @@
 		"title": "Featured on neeed.directory",
 		"img": "https://neeed.directory/badges/neeed-badge-light.svg",
 		"alt": "Featured on neeed.directory"
+	},
+	{
+		"name": "Findly.tools",
+		"href": "https://findly.tools/uploadless?utm_source=uploadless",
+		"title": "Featured on Findly.tools",
+		"img": "https://findly.tools/badges/findly-tools-badge-light.svg",
+		"alt": "Featured on Findly.tools",
+		"width": 175,
+		"height": 55,
+		"rel": "noopener noreferrer"
 	}
 ]
