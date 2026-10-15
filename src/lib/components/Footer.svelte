@@ -1,6 +1,7 @@
 <script lang="ts">
     import { page } from '$app/stores';
     import { t, langUrl, SUPPORTED_LANGUAGES } from '$lib/i18n/config';
+    import Badge from '$lib/components/Badge.svelte';
 
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
@@ -23,5 +24,6 @@
                 <a href={l.code === 'en' ? '/' : `/${l.code}`} class:active={lang === l.code}>{l.name}</a>
             {/each}
         </div>
+        <Badge />
     </div>
 </footer>
