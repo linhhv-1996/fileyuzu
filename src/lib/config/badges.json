@@ -24,5 +24,12 @@
 		"width": 175,
 		"height": 55,
 		"rel": "noopener noreferrer"
+	},
+	{
+		"name": "BestskyTools",
+		"href": "https://bestsky.tools?utm_source=badge",
+		"title": "Featured on BestskyTools",
+		"img": "https://assets.bestsky.tools/badges/featured-light.svg",
+		"alt": "Featured on BestskyTools"
 	}
 ]
