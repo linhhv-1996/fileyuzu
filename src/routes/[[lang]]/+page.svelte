@@ -4,12 +4,12 @@
     import { t, langUrl } from '$lib/i18n/config';
     import { tools, type ToolConfig } from '$lib/config/tools';
     import Affiliate from '$lib/components/Affiliate.svelte';
-    import BannerAds from '$lib/components/Ads/BannerAds.svelte';
-    import AdcashBanner from '$lib/components/Ads/AdcashBanner.svelte';
-    import { adsConfig } from '$lib/config/ads';
-    import YandexBanner from '$lib/components/Ads/YandexBanner.svelte';
-    import AdsterraBanner from '$lib/components/Ads/AdsterraBanner.svelte';
-    import EXOBanner from '$lib/components/Ads/EXOBanner.svelte';
+// import BannerAds from '$lib/components/Ads/BannerAds.svelte';
+// import AdcashBanner from '$lib/components/Ads/AdcashBanner.svelte';
+// import { adsConfig } from '$lib/config/ads';
+// import YandexBanner from '$lib/components/Ads/YandexBanner.svelte';
+// import AdsterraBanner from '$lib/components/Ads/AdsterraBanner.svelte';
+// import EXOBanner from '$lib/components/Ads/EXOBanner.svelte';
 
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
@@ -242,11 +242,11 @@
             {/each}
         </div>
         <div class="sidebar-ad">
-            <YandexBanner 
+<!--             <YandexBanner
                 adKey={adsConfig.yandex_banner_sidebar_home.id} 
                 reloadAfter={adsConfig.yandex_banner_sidebar_home.reload_after} 
                 size={adsConfig.yandex_banner_sidebar_home.size}
-            />
+            /> -->
             <!-- <AdsterraBanner 
                 adKey="85c87dc7bfff537a2e642741cb7ba59a" 
                 size="300x250" 

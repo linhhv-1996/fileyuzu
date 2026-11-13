@@ -188,7 +188,7 @@
 
     function copyItem(index: number) {
         const item = queue[index];
-        adsManager.triggerAd(OCR_AD_LINKS, 'ocr_copy_single');
+        // adsManager.triggerAd(OCR_AD_LINKS, 'ocr_copy_single');
         setTimeout(() => {
             navigator.clipboard.writeText(item.text);
             item.copied = true;
@@ -221,7 +221,7 @@
             .map((item, index) => `[Image ${index + 1}]\n${item.text || ""}`)
             .join("\n\n");
 
-        adsManager.triggerAd(OCR_AD_LINKS, 'ocr_copy_all');
+        // adsManager.triggerAd(OCR_AD_LINKS, 'ocr_copy_all');
         setTimeout(() => {
             navigator.clipboard.writeText(allText);
             copiedAll = true;

@@ -10,10 +10,10 @@
     import Faq from '$lib/components/Faq.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
     import Affiliate from '$lib/components/Affiliate.svelte';
-    import BannerAds from '$lib/components/Ads/BannerAds.svelte';
-    import { adsConfig } from '$lib/config/ads';
-    import AdcashBanner from '$lib/components/Ads/AdcashBanner.svelte';
-    import YandexBanner from '$lib/components/Ads/YandexBanner.svelte';
+// import BannerAds from '$lib/components/Ads/BannerAds.svelte';
+// import { adsConfig } from '$lib/config/ads';
+// import AdcashBanner from '$lib/components/Ads/AdcashBanner.svelte';
+// import YandexBanner from '$lib/components/Ads/YandexBanner.svelte';
     
     let dict = $derived($page.data.dict);
     
@@ -57,11 +57,11 @@
     <aside class="sidebar">
         <RelatedTools title={t('related_tools.title', dict)} tools={relatedTools} />
         <div class="mt-4">
-            <YandexBanner 
+<!--             <YandexBanner
                 adKey={adsConfig.yandex_banner_sidebar_home.id} 
                 reloadAfter={adsConfig.yandex_banner_sidebar_home.reload_after} 
                 size={adsConfig.yandex_banner_sidebar_home.size}
-            />
+            /> -->
         </div>
     </aside>
 </div>

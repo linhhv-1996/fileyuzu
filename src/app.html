@@ -37,9 +37,21 @@
 		<!-- <meta name="39164f552ea39ebbd219f4caed87d96b8902fc07" content="39164f552ea39ebbd219f4caed87d96b8902fc07" />
 		<meta name="referrer" content="no-referrer-when-downgrade" /> -->
 
-		<!-- Monetag -->
-		<meta name="monetag" content="ecda6cbcd4b3c0057728c25c93a471b1">		
+		<!-- Monetag disabled: keep the old integration commented for easy restoration.
+		<meta name="monetag" content="ecda6cbcd4b3c0057728c25c93a471b1">
 		<script>(function(s){s.dataset.zone='11765483',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+		-->
+		<script>
+			// Remove the Monetag service worker if a previous version registered it.
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.getRegistrations().then((registrations) => {
+					for (const registration of registrations) {
+						const workerUrl = registration.active?.scriptURL ?? registration.installing?.scriptURL ?? registration.waiting?.scriptURL;
+						if (workerUrl && new URL(workerUrl).pathname === '/sw.js') registration.unregister();
+					}
+				}).catch(() => {});
+			}
+		</script>
 
 
 	</head>

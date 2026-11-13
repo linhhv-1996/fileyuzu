@@ -357,7 +357,7 @@
                 <!-- <hr class="settings-divider" /> -->
                 <div class="done-cta">
                     <button class="btn-dl" onclick={() => {
-                        adsManager.triggerAd(AD_LINKS, 'ebook_converter_download');
+                        // adsManager.triggerAd(AD_LINKS, 'ebook_converter_download');
                         setTimeout(() => {
                             if (outputUrl && selectedFile) {
                                 const a = document.createElement('a');

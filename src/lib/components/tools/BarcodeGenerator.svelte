@@ -325,7 +325,7 @@
         dataUrl: string;
         isSvg: boolean;
     }) {
-        adsManager.triggerAd(BARCODE_AD_LINKS, 'barcode_download_single');
+        // adsManager.triggerAd(BARCODE_AD_LINKS, 'barcode_download_single');
         setTimeout(() => {
             const a = document.createElement("a");
             a.href = item.dataUrl;
@@ -339,7 +339,7 @@
     async function downloadZip() {
         if (results.length === 0) return;
         
-        adsManager.triggerAd(BARCODE_AD_LINKS, 'barcode_download_zip');
+        // adsManager.triggerAd(BARCODE_AD_LINKS, 'barcode_download_zip');
 
         const jszipModule = await import("jszip");
         const JSZip = jszipModule.default || jszipModule;

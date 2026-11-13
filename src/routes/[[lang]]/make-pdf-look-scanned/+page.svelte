@@ -10,11 +10,11 @@
     import WhyUse from '$lib/components/WhyUse.svelte';
     import Faq from '$lib/components/Faq.svelte';
     import RelatedTools from '$lib/components/RelatedTools.svelte';
-    import AdcashBanner from '$lib/components/Ads/AdcashBanner.svelte';
-    import YandexBanner from '$lib/components/Ads/YandexBanner.svelte';
-    import { adsConfig } from '$lib/config/ads';
-    import AdsterraBanner from '$lib/components/Ads/AdsterraBanner.svelte';
-    import EXOBanner from '$lib/components/Ads/EXOBanner.svelte';
+// import AdcashBanner from '$lib/components/Ads/AdcashBanner.svelte';
+// import YandexBanner from '$lib/components/Ads/YandexBanner.svelte';
+// import { adsConfig } from '$lib/config/ads';
+// import AdsterraBanner from '$lib/components/Ads/AdsterraBanner.svelte';
+// import EXOBanner from '$lib/components/Ads/EXOBanner.svelte';
     
     let dict = $derived($page.data.dict);
     
@@ -59,11 +59,11 @@
     <aside class="sidebar">
         <RelatedTools title={"Related Tools"} tools={relatedTools} />
         <div class="mt-4">
-            <YandexBanner 
+<!--             <YandexBanner
                 adKey={adsConfig.yandex_banner_sidebar_home.id} 
                 reloadAfter={adsConfig.yandex_banner_sidebar_home.reload_after} 
                 size={adsConfig.yandex_banner_sidebar_home.size}
-            />
+            /> -->
         </div>
     </aside>
 </div>

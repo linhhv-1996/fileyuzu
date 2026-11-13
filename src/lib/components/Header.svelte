@@ -38,6 +38,11 @@
 
 <svelte:window onclick={() => { navOpen = false; langOpen = false; mobileMenuOpen = false; }} />
 
+<a class="upscale-promo" href="https://tapirupscale.com" target="_blank" rel="noopener noreferrer">
+    <span class="promo-badge">{t('promo.tapir.badge', dict)}</span>
+    <span>{t('promo.tapir.message', dict)}</span>
+    <span class="promo-link">{t('promo.tapir.cta', dict)} <i class="ti ti-arrow-up-right" aria-hidden="true"></i></span>
+</a>
 <header class="hdr">
     <div class="hdr-inner">
         <a href={langUrl(lang, '/')} class="logo">
@@ -102,6 +107,38 @@
 </header>
 
 <style>
+    .upscale-promo {
+        min-height: 38px;
+        position: sticky;
+        top: 0;
+        z-index: 101;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 6px 16px;
+        background: linear-gradient(90deg, #eef6ff, #f2f0ff, #eef6ff);
+        color: #28344a;
+        font-size: 13px;
+        font-weight: 550;
+        text-decoration: none;
+        border-bottom: 1px solid #e4eaf4;
+    }
+    .promo-badge {
+        padding: 2px 7px;
+        border-radius: 999px;
+        background: #dff5e9;
+        color: #187446;
+        font-size: 10px;
+        font-weight: 750;
+        letter-spacing: .04em;
+    }
+    .promo-link { color: #315fc4; font-weight: 700; }
+    .upscale-promo:hover .promo-link { text-decoration: underline; }
+    @media (max-width: 480px) {
+        .upscale-promo { gap: 7px; font-size: 11px; padding-inline: 8px; }
+    }
+
     .hdr-loading-bar {
         position: absolute;
         bottom: 0;

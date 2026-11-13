@@ -327,7 +327,7 @@
             <div class="done-cta">
                 <button class="btn-dl w-full justify-center" style="text-decoration: none;" onclick={(e) => {
                     e.preventDefault();
-                    adsManager.triggerAd(AD_LINKS, 'merge_pdf_download');
+                    // adsManager.triggerAd(AD_LINKS, 'merge_pdf_download');
                     setTimeout(() => {
                         if (!pdfBlobUrl) return;
                         const a = document.createElement('a');

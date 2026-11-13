@@ -344,7 +344,7 @@
             <div class="done-cta">
                 <button class="btn-dl" onclick={() => {
 
-                    adsManager.triggerAd(AD_LINKS, 'pdf_compressor_download');
+                    // adsManager.triggerAd(AD_LINKS, 'pdf_compressor_download');
                     
                     setTimeout(() => {
                         if (compressedFile && pdfUrl) {

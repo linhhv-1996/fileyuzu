@@ -2,7 +2,7 @@
     import { page } from '$app/stores';
     import { t, langUrl } from '$lib/i18n/config';
     import type { ToolConfig } from '$lib/config/tools';
-    import BannerMondiads from './Ads/BannerMondiads.svelte';
+    // import BannerMondiads from './Ads/BannerMondiads.svelte';
 
     let { title = '', tools = [], mobile = false }: { title?: string, tools?: ToolConfig[], mobile?: boolean } = $props();
 
@@ -26,6 +26,6 @@
     </div>
 </div>
 
-<div class="mt-4">
+<!-- <div class="mt-4">
     <BannerMondiads />
-</div>
+</div> -->
