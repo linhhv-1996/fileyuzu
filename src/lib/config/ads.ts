@@ -13,7 +13,7 @@ export const adsConfig = {
         reload_after: 20
     },
     adcash_banner_sidebar: {
-        id: "",
+        id: "12449350",
         size: "300x250",
         reload_after: 30
     },

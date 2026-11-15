@@ -54,6 +54,22 @@
 		</script>
 
 
+		<!-- Adcash interstitial + video slider -->
+		<script id="aclib" type="text/javascript" async src="//acscdn.com/script/aclib.js"></script>
+		<script type="text/javascript">
+			(function () {
+				var tries = 0;
+				(function run() {
+					if (window.aclib && typeof window.aclib.runInterstitial === 'function' && typeof window.aclib.runVideoSlider === 'function') {
+						window.aclib.runInterstitial({ zoneId: '12041166' });
+						window.aclib.runVideoSlider({ zoneId: '12171758' });
+					} else if (tries++ < 40) {
+						setTimeout(run, 250);
+					}
+				})();
+			})();
+		</script>
+
 	</head>
 	<body data-sveltekit-preload-data="false" data-sveltekit-reload>
 		<div style="display: contents">%sveltekit.body%</div>

@@ -2,7 +2,6 @@
     import "../../app.css";
     import Header from "$lib/components/Header.svelte";
     import Footer from "$lib/components/Footer.svelte";
-    import Tapirconvert from "$lib/components/Tapirconvert.svelte";
     // import { afterNavigate } from '$app/navigation';
     // import { page } from '$app/stores';
     // import { tick } from 'svelte';
@@ -35,5 +34,4 @@
 <div class="page">
     {@render children()}
 </div>
-<Tapirconvert />
 <Footer />

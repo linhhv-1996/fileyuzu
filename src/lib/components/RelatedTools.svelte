@@ -1,7 +1,10 @@
 <script lang="ts">
+    import { onMount } from 'svelte';
     import { page } from '$app/stores';
     import { t, langUrl } from '$lib/i18n/config';
     import type { ToolConfig } from '$lib/config/tools';
+    import AdcashBanner from './Ads/AdcashBanner.svelte';
+    import { adsConfig } from '$lib/config/ads';
     // import BannerMondiads from './Ads/BannerMondiads.svelte';
 
     let { title = '', tools = [], mobile = false }: { title?: string, tools?: ToolConfig[], mobile?: boolean } = $props();
@@ -9,7 +12,22 @@
     let dict = $derived($page.data.dict);
     let lang = $derived($page.data.lang || 'en');
     let filteredTools = $derived(tools.filter(t => !t.markets || t.markets.includes(lang)));
+
+    // Chỉ mount banner sidebar trên desktop (sidebar bị display:none dưới 769px,
+    // tránh gọi ads vào container ẩn → impression ảo)
+    let showSidebarAd = $state(false);
+    onMount(() => {
+        showSidebarAd = !mobile && window.matchMedia('(min-width: 769px)').matches;
+    });
 </script>
+
+{#if showSidebarAd}
+    <AdcashBanner
+        adKey={adsConfig.adcash_banner_sidebar.id}
+        size={adsConfig.adcash_banner_sidebar.size}
+        reloadAfter={adsConfig.adcash_banner_sidebar.reload_after}
+    />
+{/if}
 
 <div class="card" style={mobile ? "margin-top:14px" : ""}>
     <h2 class="sb-title">{t('related_tools.title', dict)}</h2>
