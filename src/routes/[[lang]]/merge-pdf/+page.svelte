@@ -1,4 +1,5 @@
 <script lang="ts">
+    import TopBanner from '$lib/components/Ads/TopBanner.svelte';
     import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t } from '$lib/i18n/config';
@@ -48,6 +49,7 @@
 
 <div class="grid">
     <main>
+        <TopBanner />
         <MergePDF texts={componentTexts} samples={['/sample_pdf.pdf', '/sample_pdf_2.pdf', '/s3.png']} />
         
         <HowToUse 

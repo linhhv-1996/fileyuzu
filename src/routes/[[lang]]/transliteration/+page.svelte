@@ -1,4 +1,5 @@
 <script lang="ts">
+    import TopBanner from '$lib/components/Ads/TopBanner.svelte';
     import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t } from '$lib/i18n/config';
@@ -36,6 +37,7 @@
 
 <div class="grid">
     <main>
+        <TopBanner />
         <Transliteration texts={componentTexts} />
         
         {#if $page.data.seoContent}

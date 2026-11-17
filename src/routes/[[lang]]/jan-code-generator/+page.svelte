@@ -1,4 +1,5 @@
 <script lang="ts">
+    import TopBanner from '$lib/components/Ads/TopBanner.svelte';
     import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t } from '$lib/i18n/config';
@@ -50,6 +51,7 @@
 
 <div class="grid">
     <main>
+        <TopBanner />
         <!-- Use BarcodeGenerator but pass initialType="ean13" to default to JAN -->
         <BarcodeGenerator texts={generatorTexts} initialType="ean13" />
         <SEOContent content={$page.data.seoContent} />

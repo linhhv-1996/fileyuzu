@@ -22,6 +22,11 @@ export const adsConfig = {
         size: "300x250",
         reload_after: 30
     },
+    adcash_banner_top: {
+        id: "12458514",
+        size: "728x90",
+        reload_after: 30
+    },
     exo_banner_sidebar: {
         id: "5986820",
         size: "300x250",

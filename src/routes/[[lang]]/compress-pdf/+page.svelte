@@ -1,4 +1,5 @@
 <script lang="ts">
+    import TopBanner from '$lib/components/Ads/TopBanner.svelte';
     import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t } from '$lib/i18n/config';
@@ -47,6 +48,7 @@
 
 <div class="grid">
     <main>
+        <TopBanner />
         <PDFCompress texts={compressorTexts} />
         <HowToUse title={t('pdf_compressor.how_to_use.title', dict)} steps={Array.isArray(t('pdf_compressor.how_to_use.steps', dict)) ? t('pdf_compressor.how_to_use.steps', dict) : []} />
         <WhyUse title={t('pdf_compressor.why_use.title', dict)} benefits={Array.isArray(t('pdf_compressor.why_use.benefits', dict)) ? t('pdf_compressor.why_use.benefits', dict) : []} />

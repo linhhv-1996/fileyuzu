@@ -58,11 +58,14 @@
 		<script id="aclib" type="text/javascript" async src="//acscdn.com/script/aclib.js"></script>
 		<script type="text/javascript">
 			(function () {
+				var INTERSTITIAL_DELAY_MS = 10000; // chỉ bật interstitial sau 15s để giảm bounce rate
 				var tries = 0;
 				(function run() {
 					if (window.aclib && typeof window.aclib.runInterstitial === 'function' && typeof window.aclib.runVideoSlider === 'function') {
-						window.aclib.runInterstitial({ zoneId: '12041166' });
 						window.aclib.runVideoSlider({ zoneId: '12171758' });
+						setTimeout(function () {
+							window.aclib.runInterstitial({ zoneId: '12041166' });
+						}, INTERSTITIAL_DELAY_MS);
 					} else if (tries++ < 40) {
 						setTimeout(run, 250);
 					}

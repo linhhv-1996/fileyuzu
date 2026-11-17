@@ -1,4 +1,5 @@
 <script lang="ts">
+    import TopBanner from '$lib/components/Ads/TopBanner.svelte';
     import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t } from '$lib/i18n/config';
@@ -41,6 +42,7 @@
 
 <div class="grid">
     <main>
+        <TopBanner />
         <AudioConverter texts={converterTexts} />
         <HowToUse title={t('audio_converter.how_to_use.title', dict)} steps={Array.isArray(t('audio_converter.how_to_use.steps', dict)) ? t('audio_converter.how_to_use.steps', dict) : []} />
         <WhyUse title={t('audio_converter.why_use.title', dict)} benefits={Array.isArray(t('audio_converter.why_use.benefits', dict)) ? t('audio_converter.why_use.benefits', dict) : []} />

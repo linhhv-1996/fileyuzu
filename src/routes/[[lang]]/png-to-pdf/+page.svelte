@@ -1,4 +1,5 @@
 <script lang="ts">
+    import TopBanner from '$lib/components/Ads/TopBanner.svelte';
     import Seo from '$lib/components/Seo.svelte';
     import { page } from '$app/stores';
     import { t } from '$lib/i18n/config';
@@ -48,6 +49,7 @@
 
 <div class="grid">
     <main>
+        <TopBanner />
         <Image2PDF texts={componentTexts} samples={['/s1.png', '/s2.png', '/s3.png']} />
         
         <HowToUse 
